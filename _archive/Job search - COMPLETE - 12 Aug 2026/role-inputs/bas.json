@@ -1,0 +1,8 @@
+{
+  "role": "AI Engineer",
+  "location": "Veghel, Noord-Brabant, Netherlands",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the AI Engineer role at BAS Group. The detail that made this worth applying to is that you already have three agents deployed against real business processes rather than a pilot deck. Agents that touch CRM, ERP and order processing behave very differently from agents that answer questions, and the interesting work is in the second category.",
+  "role_specific": "That is the work I have been doing. At FlowSpace I built the support AI agents that ran against real users and the lead capture and enrichment pipeline into the CRM, plus a scraping and parsing tool that increased listings, while the platform went from 2,000 to over 4,500 active users. For UltraStrategy I built a CV-parsing tool in n8n and Eden AI. Across those, the part that took the time was never the prompt; it was routing, deciding what happens when the model returns something the next step cannot use, and making the agent fit a workflow people already had. I have shipped integrations against Office RnD, Nexudus, Clubee, Sendgrid, Google APIs and both the OpenAI and Anthropic APIs, so connecting a model to an operational system is familiar ground.",
+  "closing": "Two gaps stated plainly: my orchestration has been n8n and direct API chaining rather than LangGraph, and my infrastructure work has not been AWS-first with Terraform, so Bedrock, Sagemaker and Terraform would be new. I have Postgres, Supabase and CI/CD experience to build from and I pick up tooling quickly. I would be glad to walk through the FlowSpace agents in detail."
+}

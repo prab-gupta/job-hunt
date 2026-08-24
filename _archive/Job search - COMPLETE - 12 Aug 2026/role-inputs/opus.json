@@ -1,0 +1,9 @@
+{
+  "role": "Founding Engineer",
+  "location": "Berlin, Germany",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the Founding Engineer role at opus. What made me apply is that the stack you describe is the one I already work in and the customers are industrial, which means the interesting problems are integration and trust rather than novelty. Being early enough to shape both the product and how it gets deployed in front of those customers is the position I want to be in.",
+  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I build in Python and TypeScript with React, I utilize prompt engineering, RAG architectures and agentic orchestration to connect external APIs with foundational models like OpenAI and Anthropic's Claude, and I use AI assistants like Claude Code and Cursor as part of how I work rather than as an experiment. At FlowSpace I inherited a system I had not written, debugged it, and carried it through a migration to Next.JS and Laravel while it went from 2,000 to over 4,500 active users, building the AI agents and automated data parsing behind that growth. To be accurate about the gaps: my Python backend work has not been in FastAPI, Pydantic and SQLAlchemy specifically, and my agentic work has gone through n8n and direct API orchestration rather than PydanticAI, Google ADK or LangGraph. Those are frameworks rather than concepts, and picking them up quickly is most of what my last three years have consisted of. My German is not conversational, which I mention since you note it helps with your industrial customers."
+  ,
+  "closing": "I would be glad to talk through how I would approach the first customer deployment and what I would want to learn from it."
+}

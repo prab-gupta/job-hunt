@@ -1,0 +1,8 @@
+{
+  "role": "Founding Engineer (Core)",
+  "location": "Amsterdam, Netherlands",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the Founding Engineer (Core) role at Avery. A hiring intelligence engine where agents source, screen and schedule is a good test of whether agentic systems can be trusted with a decision that matters to someone, and the part I would want to own is exactly what you describe: building across the stack from agent logic through to the interface the recruiter actually uses. I have spent three years on that boundary at a smaller scale.",
+  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I utilize prompt chaining, RAG architectures, and advanced workflow orchestration tools (such as n8n) to connect external APIs with foundational models like OpenAI and Anthropic's Claude, and I build the interface around them in TypeScript with Next.JS and React rather than stopping at the agent. At FlowSpace I took over a system I had not written, debugged it, carried it through a migration to Next.JS and Laravel, and built the AI agents and automated data parsing that supported growth from 2,000 to over 4,500 active users. The freelance work for UltraStrategy, Get2Germany and Clubee was the same shape: a client with a manual process, no spec, and a need for something that works this month.",
+  "closing": "I would be glad to talk through where an agent should stop and hand back to a human in a hiring flow, because that is usually the line the product lives or dies on."
+}
