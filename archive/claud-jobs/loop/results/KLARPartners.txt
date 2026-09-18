@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465614962/ (offsite apply -> https://pnty-apply.ponty-system.se/safemind?id=2866)
+ATS: Ponty/Safemind recruitment platform (Safemind runs recruitment for KLAR Partners per JD)
+
+Uploaded: Prabhavit_CV_KLARPartners.pdf (categorized "Resume in english"), CoverLetter_KLARPartners.pdf (categorized "Cover letter") via the hidden file input (button[type=file]) after the visible "From this device" trigger returned a non-file button ref.
+Answers given: name/email/phone/URL(LinkedIn)/birth year(2001, true)/current title+org(Lead Developer, FlowSpace) - all honest, no essay fields on this ATS. Consent checkbox ticked.
+Blockers: none. No CAPTCHA, no login wall, no anti-AI attestation.
+LEARNINGS: Ponty/Safemind (pnty-apply.ponty-system.se) file-upload UI exposes only a styled button/label for "Från den här enheten" (from this device); the real input[type=file] is hidden (id js-file_handler) and only surfaces in a full-page accessibility dump (filter=all), not in find or the interactive-only read_page listing. After upload, each file gets a required "Välj filkategori" dropdown (Resume in english / Cover letter / etc) that must be set per file; selecting one option re-renders and invalidates prior refs for the other dropdown, so re-read_page between selections.
+
+Confirmation: "Mottagen. Vi har mottagit din ansokan." (Received. We have received your application.) -> confirmations/KLARPartners-2026-09-16.txt
+CSV: applications.csv row appended (SUBMITTED).

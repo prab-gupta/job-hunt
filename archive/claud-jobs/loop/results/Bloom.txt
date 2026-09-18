@@ -1,0 +1,29 @@
+STATUS: SUBMITTED
+URL: https://bloom.dk/jobs/platform-engineer-ai-first-406/
+Company: Bloom (Aarhus recruitment agency), hiring on behalf of client Aleta (AI-first WealthTech platform, family offices)
+Role: Platform Engineer (AI-First), Aarhus, Denmark. Fit 68.
+ATS: Matador Jobs, embedded directly on the bloom.dk job page (no external redirect, no login/account wall, no CAPTCHA).
+
+Uploaded:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_Bloom_Aleta.pdf (1 page, built from CoverLetter_Bloom_Aleta.tex via tectonic; source CoverLetter_Bloom_Aleta.txt, 198 words, 0 em-dashes)
+
+Form fields (Matador, 8 fields + upload + consent):
+Fornavn Prabhavit, Efternavn Gupta, Email prabhavitg@gmail.com, Mobiltelefon +39 351 610 7807, Nuværende/seneste jobtitel "Lead Developer", Nuværende/seneste arbejdsgiver "FlowSpace", Foretrukket sprog English (default), Land Italy, data-storage/sharing consent checkbox ticked (computer left_click on ref, not form_input).
+
+No numeric-years, salary, or work-authorisation question existed on this lean form. Denmark work-authorisation position held in reserve and folded into the cover letter's closing line (Italian EU long-term resident status does not cover Denmark; employer-side permit needed; ready to relocate and start that process) per answers/work-authorisation.md, since Denmark is excluded from the EU long-term-resident mobility directive.
+
+Hard gates re-checked live, none triggered a KILL: years explicitly deprioritised by the JD itself ("we care more about what you've learned... than the number of years on your CV"), title is "Platform Engineer" not Senior/Staff/Lead/Principal/Manager/CTO, no MSc/PhD requirement, JD in English throughout, TypeScript/Next.js is the claimable core stack and Rust is explicitly "welcome, not required," Aarhus is in-EU so no geography kill (relocation-ready).
+
+Dedupe: python3 loop/dedupe.py --check returned HIT COMPANY~ (fuzzy). grep -i "bloom" applications.csv showed only Bloomreach, ReBloom, Bloomwell Group GmbH, and Bloom & Wild Group rows — four different, unrelated companies, none of them the Bloom.dk recruitment agency. Per the brief this fuzzy hit does not block; treated as a NEW company.
+
+Confirmation: page reloaded to https://bloom.dk/jobs/platform-engineer-ai-first-406/?matador-apply=complete and the application form was replaced by "Mange tak for din ansøgning/CV. Vi vil vende tilbage til dig om et øjeblik." ("Thank you for your application/CV. We will get back to you shortly.") Full text saved to confirmations/Bloom-2026-09-09.txt.
+
+Blockers: none. No CAPTCHA, no login wall, no video answer, no AI-attestation question.
+
+LEARNINGS: Bloom.dk runs the Matador Jobs WordPress recruitment plugin, embedded inline on the job page itself (URL suffix ?matador-companies=<slug> on the listing, ?matador-apply=complete on success) rather than redirecting to an external ATS domain — worth adding to ats-guides/ if more bloom.dk or other Matador-powered Danish postings turn up. The posting also offered an alternative "skip the CV, send one page on a production incident" fast-track option; not used here since the brief specified a standard cover letter, but worth flagging for future Aleta-style postings as a possibly stronger response path.
+
+CV: Prabhavit_CV_Original_EN.pdf
+Cover letter: CoverLetter_Bloom_Aleta.pdf / CoverLetter_Bloom_Aleta.txt
+Confirmations: confirmations/Bloom-2026-09-09.txt
+Answers: answers/bloom-aleta-2026-09-09.md

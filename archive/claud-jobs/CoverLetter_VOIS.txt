@@ -1,0 +1,12 @@
+Dear VOIS Hiring Team,
+
+I am applying for the AI Engineer role in the Software & Product Infrastructure team in Bucharest (requisition 286258).
+
+The posting describes production Generative AI and agentic solutions across their whole lifecycle: design, prototyping, testing, deployment, monitoring and support, exposed through APIs and MCP servers. That lifecycle is my daily work. At FlowSpace, a London coworking marketplace, I built an AI listing pipeline that turns operator documents in any format into validated records (900+ listings drafted, human review on low-confidence fields), support agents that answer against live data and escalate when unsure, and REST integrations with booking systems (OfficeRnD, Nexudus) and CRMs. I own the evaluation gates, the monitoring of what the models get wrong, and the conversations with non-technical stakeholders about risks and trade-offs.
+
+Stack: Python and TypeScript, Claude and OpenAI APIs with provider abstraction, RAG and vector search, prompt engineering, model evaluation, PostgreSQL, Docker, GitHub Actions, with working knowledge of Kubernetes and PyTorch. Claude Code is my primary development tool.
+
+I hold an EU long-term residence permit (Italy) and would relocate to Bucharest for the hybrid rhythm; the Romanian work permit is an employer-side step I am glad to walk through with you. Available immediately.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+I am applying for the AI Solution Engineer role at Stern Stewart & Co. for your portfolio company SITECO in Munich. At FlowSpace, a workspace marketplace, I have spent close to three years owning full-stack and AI work end to end, from architecture to long-term operation, which is the arc this role describes. I helped migrate FlowSpace off its legacy stack onto Next.js and Laravel while the product stayed live, scaling the platform from 2,000 to 4,500 plus users. I designed and built an AI listing pipeline on n8n and TypeScript, calling an LLM API to turn a workspace provider's brochure, in any format, into a drafted listing with a human reviewer in the loop. I also built support AI agents that answer customer queries against live platform data and escalate to a person whenever confidence is low, plus CRM and GTM automations and OfficeRnD and Nexudus API integrations for automated bookings.
+
+That mix, full-stack delivery, dependable data pipelines, and AI agents that hold up in production, is what your posting asks for across your portfolio companies. My day to day stack is TypeScript, Python, Node.js and Laravel, with REST APIs, Git and Postgres throughout.
+
+I am based in Venice, Italy, and hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the employer-side permit process, which I am ready to start immediately, and I am ready to relocate to Munich.
+
+Regards,
+Prabhavit Gupta

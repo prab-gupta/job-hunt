@@ -1,0 +1,30 @@
+STATUS: KILLED
+
+URL: https://nl.linkedin.com/jobs/view/forward-deployed-ai-engineer-at-pwc-nederland-4463884403
+Role: Forward Deployed AI Engineer, Amsterdam, North Holland, Netherlands
+
+Dedupe: python3 loop/dedupe.py --check "PwC Nederland" <url> -> NEW. grep applications.csv for
+"pwc" found only PwC Italy (AI Developer Intern, SKIPPED, different level/country) and PwC
+Slovakia (AI Engineer, SUBMITTED then REJECTED, different country/requisition). Neither blocks
+this row.
+
+Cheap check: LinkedIn guest API returned an empty CTA container (no apply-button rendered) even
+though the topcard metadata looked live ("1 week ago", "38 people clicked apply"). Opened the live
+LinkedIn page in the browser to confirm per the brief: the page shows "Not currently accepting
+applications" with no Apply or Easy Apply control at all.
+
+The JD's own text carries an internal application deadline: "Solliciteer voor 13 september!"
+(apply before 13 September), four days before today (2026-09-17), which is consistent with the
+posting having closed. Per the brief's own gate ("a 'Not currently accepting applications' banner
+= CLOSED, stop"), this is a straightforward closed-posting kill, not a language kill (the JD's own
+language line is soft: "Je communiceert sterk in het Engels. Voor veel van onze opdrachten is
+Nederlands belangrijk" - important for many assignments, not stated as a hard requirement - so it
+would not by itself have killed this row).
+
+No CV or cover letter built. No account created, no ATS reached.
+
+Nothing broke; no new ATS trap to log. Note for the planner: LinkedIn's own guest/API metadata
+("1 week ago", applicant counts) can keep showing on a posting days after its stated deadline and
+after the Apply control has been pulled, so the live-page check for the "Not currently accepting
+applications" banner remains necessary even when the cheap curl check looks ambiguous (0
+apply-button here, versus a true CLOSED page that would say so explicitly) rather than a clean 0.

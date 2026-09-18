@@ -1,0 +1,89 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4463015867/
+Apply URL (resume here): https://careers.mastercard.com/us/en/apply?jobSeqNo=MASRUSR287369EXTERNALENUS&utm_source=linkedin&utm_medium=phenom-feeds&source=LINKEDIN
+
+Dedupe: NEW (python3 loop/dedupe.py clean, no prior Mastercard rows in applications.csv).
+Guest-API check: apply-button count = 1 (posting live, not closed). Full JD text fetched via
+LinkedIn guest jobPosting API; no anti-AI disclaimer, no hard-gate violation (title "Product
+Manager" not Senior/Lead/Principal, no >3yr requirement stated, no hard degree requirement,
+JD in English, Milan is EU). Salary band shown in JD: Milan EUR 51,000-84,000; Rome same.
+
+What was uploaded: Prabhavit_CV_Mastercard.pdf (tailored per brief rules from Prabhavit_CV_EN.tex;
+2 pages, compiled with tectonic; Career Summary trimmed to 2 bullets; FlowSpace kept 11 bullets
+across Product/Technical Responsibilities reordered for PM/data-services relevance; every other
+role kept 1-3 relevant bullets, none dropped below the floor; Technical Skills reordered AI/ML
+first; dropped the Bubble/low-code Additional-Information line as JD-unrelated). CoverLetter_
+Mastercard.txt/.pdf built (231 words, no em-dashes, no no-code/low-code/Bubble wording) but NOT
+yet uploaded since the form was not reached far enough to need it.
+
+Browser: opened a fresh Claude-in-Chrome tab (tabId 550850107 for the LinkedIn posting, then
+550850108 for the Mastercard apply flow), never touched any other tab in the shared session.
+Clicked LinkedIn's "Apply" -> landed on careers.mastercard.com/.../Product-Manager (Phenom-
+hosted job page, not Workday directly) -> clicked "Apply Now" -> genuine GUEST apply form loaded
+(My information / My experience / Application questions / Additional application questions /
+Voluntary disclosures / Review). The "Log in" link in the header points to
+mastercard.wd1.myworkdayjobs.com/CorporateCareers/login but was never forced - the guest path
+Workday exposes via this Phenom front end worked exactly as hoped.
+
+Filled: resume upload (auto-parsed name/email/phone/work history/education), address (Via
+Zanetti 10, Venice, 30175, province Venice), phone +39 351 610 7807 Mobile, How Did You Hear
+About Us = Job Board (LinkedIn not offered as a literal option), Source = LinkedIn, "worked for
+Mastercard before" = No, Talent Community marketing opt-in unchecked. Fixed the auto-parsed
+work-history Company fields (the resume parser had left several blank or mis-slotted; corrected
+FlowSpace.co / Urlink / UltraStrategy.com / Qomodo / Get2Germany.com to the right rows).
+
+Stopped at the 10-minute browser budget for this job, partway through step 2 of 6 (My
+experience/Education), before reaching Application questions, Voluntary disclosures (EEO/
+demographics - standing rule is decline), Review and Submit. Did not submit. Full progress and
+resume URL written to confirmations/Mastercard-2026-09-10.txt.
+
+LEARNINGS: on this Phenom-front-end-over-Workday ATS, a scripted native-setter + dispatchEvent
+value set on a required text field leaves the framework's "touched" validation state stale (the
+value shows but a red "Enter X" error persists) until a real blur event fires; re-setting the
+same field via the form_input tool (or any click-away-triggered blur) clears it. Worth noting in
+ats-guides for future Workday/Phenom guest-apply jobs: expect this on every multi-entry
+(work-experience) repeating field group.
+
+---
+
+STATUS: SUBMITTED
+
+Finishing session (2026-09-10, continuation of the above). Resumed tab 550850108 at step 2 of 6
+(My experience), already correctly uploaded with Prabhavit_CV_Mastercard.pdf. Data-quality pass
+on the auto-parsed work history before proceeding: unchecked FlowSpace.co's incorrect "currently
+work here" and set End = 08/2026 (role ended per Prabhavit - Master Experience.md, more current
+than the CV's own "Ongoing" wording, and today is 2026-09-10); completed two job titles the
+resume parser had left truncated (UltraStrategy.com "Automation Developer (Collaborator" missing
+its closing paren; Qomodo missing "AI and" + company name, left as bare "Low-Code Developer
+(Collaborator") to match the uploaded CV's actual text; set Degree/Field of study on both
+education entries (Bachelors/Philosophy for Ca' Foscari, Certificate for the Microsoft Copilot
+Studio Agent Academy cert), both required and previously blank.
+
+Uploaded CoverLetter_Mastercard.pdf as the second file in the same Resume/Cover Letter
+attachment list (a separate "Select file" input alongside the resume upload — the form accepts
+two attachments under one Attachments section). Answered application questions (authorised in
+Italy = Yes, sponsorship = No, restrictive covenant = No, gender = Prefer Not To Self-Identify,
+worked for Mastercard before = No, desired salary = EUR 51,000) and the six Mastercard
+conflict-of-interest/compliance questions (all No — no contract dealings, no relatives with
+contract authority or government oversight roles, no close personal relationship with a
+Mastercard employee, no outside employment to continue). Ticked the required privacy-notice
+consent checkbox. Reviewed the full Review page (all fields, both attachments) via screenshot
+before clicking Submit.
+
+Result: https://careers.mastercard.com/us/en/applythankyou?status=success&jobSeqNo=MASRUSR287369EXTERNALENUS&jobTitle=Product%20Manager&jobId=R-287369
+Page title "Thank you for applying"; success text confirms submission, with an optional
+(non-required) account-creation link for status tracking. Full text saved to
+confirmations/Mastercard-2026-09-10.txt (overwritten). Answers saved to
+answers/mastercard-2026-09-10.md (appended). applications.csv Mastercard row updated
+NEEDS YOU -> SUBMITTED via python csv module, 10 fields preserved.
+
+LEARNINGS (additional): mid-session, right after the first cover-letter file_upload, the Chrome
+tab became fully unresponsive to script injection (read_page/get_page_text/screenshot all timed
+out) for several minutes straight — worth flagging for future Phenom guest-apply jobs as a
+possible slow server-side attachment-parse or a stuck internal request. Recovery: navigate the
+SAME tab back to the bare apply URL (no query params beyond the job identifiers) reloads the
+wizard and Phenom resumes it server-side at the last-saved step with every previously entered
+field intact (confirmed field-by-field via DOM query) — a full re-fill from step 1 was not
+needed, only the cover-letter re-upload (the one action that hadn't been server-persisted before
+the hang). This is a cheaper recovery path than the brief's "redo from step 1" guidance and
+should be tried first on any Phenom/Workday hang before assuming the draft is lost.

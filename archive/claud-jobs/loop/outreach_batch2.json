@@ -1,0 +1,258 @@
+[
+ {
+  "company": "DozenDev",
+  "email": "ciao@dozendev.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "DozenDev",
+   "segment": "IT consultancy",
+   "website": "https://dozendev.it",
+   "prime person": "Domenico Mazza",
+   "title": "Founder",
+   "email (verified on-page)": "ciao@dozendev.it",
+   "linkedin": "not found",
+   "what they do": "Custom AI agents & RAG on private docs, data automation (ETL), Next.js/React apps for SMEs",
+   "open role in his lane": "none (no careers page)",
+   "region": "Turin, IT",
+   "why he fits": "Exact stack: AI agents/RAG + ETL automation + Next.js — pure FDE build work",
+   "email source page": "https://dozendev.it",
+   "email subject": "Applied-AI engineer — agents + RAG + Next.js (DozenDev)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Domenico,\n\nI've been following DozenDev — building custom AI agents and RAG over private docs, plus the ETL and Next.js around them, is exactly the work I do. I'm an applied-AI engineer who ships p"
+  }
+ },
+ {
+  "company": "Quinck",
+  "email": "info@quinck.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Quinck",
+   "segment": "IT consultancy",
+   "website": "https://www.quinck.io",
+   "prime person": "Antonio Marotta",
+   "title": "Founder",
+   "email (verified on-page)": "info@quinck.io",
+   "linkedin": "https://it.linkedin.com/company/quinck",
+   "what they do": "Software house: IoT/data-driven systems, web & mobile apps, custom software, consulting",
+   "open role in his lane": "intern/freelance only",
+   "region": "Imola, IT",
+   "why he fits": "Custom software + data/integrations fit his full-stack (lighter on LLM/AI)",
+   "email source page": "https://www.quinck.io/it/contatti",
+   "email subject": "Full-stack + integration engineer (Quinck)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Antonio,\n\nQuinck's data-driven systems and custom software builds line up well with my full-stack and integration work. I'm an applied-AI engineer who ships production agents and the integration pl"
+  }
+ },
+ {
+  "company": "SylloTips",
+  "email": "info@syllotips.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "SylloTips",
+   "website": "https://www.syllotips.com",
+   "email": "info@syllotips.com",
+   "verified": "reported (footer) - VERIFY",
+   "linkedin": "https://it.linkedin.com/in/giorgio-barnab%C3%B2-384578a4",
+   "note": "Human-in-the-loop AI agents in MS Teams that learn from expert employe"
+  }
+ },
+ {
+  "company": "Agentix",
+  "email": "info@agentixai.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Agentix",
+   "segment": "IT consultancy",
+   "website": "https://agentixai.it",
+   "prime person": "not found",
+   "email (verified on-page)": "info@agentixai.it",
+   "linkedin": "https://www.linkedin.com/company/agentix-ai-bergamo",
+   "what they do": "AI agency for SMEs: custom AI agents (voice, sales, lead-gen, RAG), automations, AI SEO, training",
+   "open role in his lane": "none listed",
+   "region": "Bergamo, IT",
+   "why he fits": "RAG agents + automations for SMEs — squarely his agent/automation lane",
+   "email source page": "https://agentixai.it/chi-siamo/",
+   "email subject": "Applied-AI engineer — agents + automations (Agentix)",
+   "ready-to-send email (edit any [ ], then send)": "Hello Agentix team,\n\nAgentix's custom AI agents and automations for SMEs are exactly my daily build. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: at"
+  }
+ },
+ {
+  "company": "ViteSicure",
+  "email": "info@vitesicure.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "ViteSicure",
+   "segment": "Vertical-AI startup",
+   "website": "https://vitesicure.it",
+   "prime person": "Eleonora Del Vento",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@vitesicure.it",
+   "linkedin": "https://it.linkedin.com/in/eleonoradelvento",
+   "what they do": "Embedded/plug-and-play life & protection insurance platform (insurtech)",
+   "open role in his lane": "Careers: https://vitesicure.it/lavora-con-noi/ (no in-lane title confirmed)",
+   "region": "Milan, IT",
+   "why he fits": "Embedded-insurance = API/integration + product eng (TS/Laravel/Next.js)",
+   "email source page": "https://vitesicure.it/",
+   "email subject": "Applied-AI / product engineer (ViteSicure)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Eleonora,\n\nViteSicure's embedded insurance platform — the API/integration and product engineering behind it — lines up with exactly what I build (TypeScript, Laravel, Next.js). I'm an applied-AI en"
+  }
+ },
+ {
+  "company": "Pillar",
+  "email": "info@pillar.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Pillar",
+   "website": "https://pillar.it",
+   "email": "info@pillar.it",
+   "verified": "reported (privacy policy) - VERIFY",
+   "linkedin": "https://www.linkedin.com/in/gabriel-guinea-montalvo/",
+   "note": "Fintech OS for construction firms; AI reconciles transactions, tracks "
+  }
+ },
+ {
+  "company": "Martes AI",
+  "email": "contact@martes-ai.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Martes AI",
+   "segment": "IT consultancy",
+   "website": "https://www.martes-ai.com",
+   "prime person": "Andrea Belli Contarini",
+   "title": "Co-Founder",
+   "email (verified on-page)": "contact@martes-ai.com",
+   "linkedin": "https://it.linkedin.com/in/andreabellicontarini",
+   "what they do": "AI consultancy for Italian firms: strategy, custom AI-agent dev, process automation, training (50+ clients)",
+   "open role in his lane": "none listed",
+   "region": "Rome, IT",
+   "why he fits": "Custom AI agents + automation delivery to clients — applied-AI/forward-deployed",
+   "email source page": "https://www.martes-ai.com/contatti/",
+   "email subject": "Applied-AI engineer — custom agents + automation (Martes)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Andrea,\n\nMartes' custom AI-agent development and process automation for Italian firms is exactly the forward-deployed work I do. I'm an applied-AI engineer who ships production agents and the integ"
+  }
+ },
+ {
+  "company": "Sernicola Labs",
+  "email": "info@sernicola-labs.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Sernicola Labs",
+   "segment": "IT consultancy",
+   "website": "https://www.sernicola-labs.com",
+   "prime person": "Lorenzo Sernicola",
+   "title": "Founder & Project Director",
+   "email (verified on-page)": "info@sernicola-labs.com",
+   "linkedin": "https://www.linkedin.com/in/lorenzosernicola/",
+   "what they do": "AI systems & automation: doc-trained chatbots, autonomous agent networks, AI in CRM/DB (NL queries) on OpenAI/Llama",
+   "open role in his lane": "none listed",
+   "region": "Milan, IT",
+   "why he fits": "Autonomous agents + LLM-in-app/CRM integration — his agent-build + integration work",
+   "email source page": "https://www.sernicola-labs.com/sviluppo-sistemi-intelligenza-artificiale-e-automation/",
+   "email subject": "Applied-AI engineer — agents + LLM-in-CRM (Sernicola)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Lorenzo,\n\nSernicola Labs' autonomous agent networks and LLM-in-CRM/DB work is right in my wheelhouse. I'm an applied-AI engineer who ships production agents and the integration plumbing around them"
+  }
+ },
+ {
+  "company": "Mocchi's",
+  "email": "info@mocchis.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Mocchi's",
+   "segment": "IT consultancy",
+   "website": "https://www.mocchis.com",
+   "prime person": "not found",
+   "email (verified on-page)": "info@mocchis.com",
+   "linkedin": "https://it.linkedin.com/company/mocchi-s",
+   "what they do": "Custom AI/ML software, AR/VR, web/mobile apps, dashboards, ERP",
+   "open role in his lane": "none listed",
+   "region": "Conegliano/Treviso, IT",
+   "why he fits": "AI + custom app/dashboard builds; local to his base in Venice",
+   "email source page": "https://www.mocchis.com/contatti",
+   "email subject": "Applied-AI + app engineer, local to Veneto (Mocchi's)",
+   "ready-to-send email (edit any [ ], then send)": "Hello Mocchi's team,\n\nMocchi's custom AI/ML and app builds are right in my wheelhouse — and I'm just up the road in Venice. I'm an applied-AI engineer who ships production agents and the integration p"
+  }
+ },
+ {
+  "company": "Gorilli",
+  "email": "contact@gorilli.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Gorilli",
+   "segment": "IT consultancy",
+   "website": "https://www.gorilli.io",
+   "prime person": "Paolo Antonio Rossi",
+   "title": "CEO & Co-Founder",
+   "email (verified on-page)": "contact@gorilli.io",
+   "linkedin": "https://www.linkedin.com/in/paoloantoniorossi/",
+   "what they do": "AI development, full-stack engineering, Web3, cloud/DevOps, startup product building",
+   "open role in his lane": "none (no careers page)",
+   "region": "Milan, IT",
+   "why he fits": "AI + full-stack product builds match his Python/TS/Next.js + LLM; English site",
+   "email source page": "https://www.gorilli.io/en/contact",
+   "email subject": "Applied-AI + full-stack engineer (Gorilli)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Paolo,\n\nGorilli's mix of AI development and full-stack product builds is exactly how I work — Python/TypeScript/Next.js with LLMs on top. I'm an applied-AI engineer who ships production agents and "
+  }
+ },
+ {
+  "company": "Cato (get-cato.com)",
+  "email": "info@get-cato.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Cato (get-cato.com)",
+   "segment": "Vertical-AI startup",
+   "website": "https://www.get-cato.com",
+   "prime person": "Andrea Zorzetto",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "info@get-cato.com",
+   "linkedin": "https://www.linkedin.com/in/andreazorzetto/",
+   "what they do": "AI-native platform automating public tenders/procurement: extracts requirements from legal docs, drafts bids",
+   "open role in his lane": "none titled; founder says actively hiring AI/growth → cold-email",
+   "region": "Milan, IT",
+   "why he fits": "LLM agents + RAG over legal/tender docs is literally their product; founder hiring AI now",
+   "email source page": "https://www.get-cato.com/en",
+   "email subject": "Applied-AI engineer — RAG over tender docs (Cato)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Andrea,\n\nCato automating public tenders — extracting requirements from legal docs and drafting bids with LLMs — is exactly the kind of product I love to build, and I saw you're growing the AI side."
+  }
+ },
+ {
+  "company": "i3k",
+  "email": "info@i3k.eu",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "i3k",
+   "segment": "IT consultancy",
+   "website": "https://www.i3k.eu",
+   "prime person": "Francesco Marchetti",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@i3k.eu",
+   "linkedin": "not found",
+   "what they do": "EU-sovereign AI infra: 100% on-prem RAG Enterprise, open-source LLM platform for regulated industries",
+   "open role in his lane": "none listed",
+   "region": "Milan, IT",
+   "why he fits": "On-prem RAG/LLM implementation — his RAG + LLM-harness skills; English site",
+   "email source page": "https://www.i3k.eu/en/",
+   "email subject": "Applied-AI engineer — on-prem RAG (i3k)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Francesco,\n\ni3k's 100% on-prem RAG Enterprise for regulated industries caught my eye — building and shipping that kind of LLM harness is exactly what I do. I'm an applied-AI engineer who ships prod"
+  }
+ }
+]

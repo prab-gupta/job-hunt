@@ -1,0 +1,33 @@
+Schwarz Digits - Search QA Automation Test Engineer (m/f/d) - applied 2026-09-09
+
+No literal "thank you" confirmation text was rendered by this ATS widget (a bespoke SAP
+SuccessFactors "RocketApply" embed on schwarz-digits.de; no dedicated ats-guide entry for it).
+Verification is technical rather than a visible banner:
+
+- All required fields validated cleanly (no red "Invalid entry" borders remained) before submit.
+- Documents table showed both files attached and categorized: Prabhavit_CV_SchwarzDigits.pdf =
+  "Resume / CV", CoverLetter_SchwarzDigits.pdf = "Cover letter".
+- FriendlyCaptcha showed "I am human" completed (green check) before submit, no interactive
+  challenge needed.
+- Clicked "Send application". The modal grayed out, showed a loading indicator, then closed on
+  its own and returned to the normal job page (title, image, Apply now button) with zero
+  validation errors remaining.
+- Confirmed via performance.getEntriesByType('resource') after the fact: an XHR batch request
+  fired to https://hrplattformprod-rocketapply-prod-scos-rocketapply.cfapps.eu20.hana.ondemand.com
+  /app/odata/v4/.../api/application/$batch (plus /api/application/$metadata) at the exact moment
+  of the Send application click.
+- No error toast, no inline error text, no reopened validation state after the click.
+
+Attempted to reopen "Apply now" afterward to see if the page would show an "already applied"
+state (it does not track this for guest/no-login applicants, so it always re-renders a fresh
+empty form) - this is inconclusive by design of this ATS, not evidence against the first
+submission. Two further attempts to fill and resubmit failed at the file-upload step only
+(the SAP UploadCollection widget does not re-attach files correctly on a second modal open in
+the same page session - a widget bug, not a submission failure) and were aborted without
+sending, so no duplicate or incomplete application was created.
+
+LEARNING for PATTERNS.md: Schwarz Group / Schwarz Digits career portal (schwarz-digits.de) runs
+an SAP SuccessFactors "RocketApply" guest-apply widget. No login/account wall for guest apply.
+No visible post-submit confirmation text - verify via the /api/application/$batch network call
+instead. The file-upload widget only works reliably on the FIRST modal open per page load; do
+not reopen "Apply now" to re-verify, it silently fails to attach files on retry.

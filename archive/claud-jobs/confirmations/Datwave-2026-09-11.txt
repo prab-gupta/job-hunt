@@ -1,0 +1,12 @@
+Datwave - Junior AI Engineer - Google
+ATS: BIP Career Site (Oracle Cloud HCM), fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com, job/2387, requisition 2387
+Submitted: 2026-09-11
+
+Toast message: "Thank you for your job application."
+Profile/My Applications page after submit:
+"Junior AI Engineer - Google
+Milano, Lombardia, Italy and 2 more
+Status: Under consideration
+BIP Career Site · 2387 · Applied on 09/11/2026"
+
+Note: PNG screenshot could not be saved to disk from Claude in Chrome (save_to_disk returned no retrievable file path in this environment, consistent with the brief's note that "PNG saving is not available in Chrome, the txt is the record"). This txt file is the confirmation record.

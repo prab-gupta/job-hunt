@@ -1,0 +1,123 @@
+[
+{
+"id": "4400778383",
+"title": "Full-stack Developer (AI-native)",
+"company": "Paradise Media",
+"location": "San \u0120iljan, Saint Julian's, Malta",
+"external": false,
+"lane": "A",
+"fit": 85,
+"reason": "Strong AI/automation alignment. Stack match: React/Node.js/Python, LLM APIs (OpenAI, Anthropic), n8n familiar. No hard gates. Seniority (junior-mid) matches 2.5\u20133 years.",
+"refute": "Job posting fetched successfully. Note: Actual posting is 'Full-stack Developer (AI-native)' at Paradise Media (Malta), not 'Junior Java Developer at Accenture Baltics' as described. For the fetched job 4400778383: Seniority listed as 'Not Applicable' with explicit emphasis on valuing projects/craft over credentials ('If you've built something... tell us about it'); experience level suits 2.5-3yr candidate. Tech stack requires Python OR Node.js + JavaScript/React + SQL basics\u2014candidate has TypeScript/React/Node/Python(LLM pipelines), fully covering requirements. Location Malta is EU member; candidate is Italian EU long-term resident open to any EU location. No language requirement beyond English stated. Active posting (15hrs old, 200+ applicants). Direct employer posting, not agency. No disqualifying factors found; pass is justified."
+},
+{
+"id": "4464476329",
+"title": "Junior Typescript Engineer - Budapest",
+"company": "cozycozy.com",
+"location": "Budapest, Budapest, Hungary",
+"external": false,
+"lane": "C",
+"fit": 82,
+"reason": "Backend integration role aligns with TypeScript/Node.js expertise. Web scraping (Playwright fit). 1\u20132 years req vs 2.5\u20133 user exp acceptable. MongoDB/PostgreSQL match. Budapest onsite (Hungary EU acceptable).",
+"refute": "Entry-level role (not Senior+); requires 1-2 years (candidate has 2.5-3); Node.js/TypeScript/JavaScript stack matches exactly; English only; Budapest is EU; no remote restriction stated; active posting from direct employer cozycozy.com"
+},
+{
+"id": "4445134428",
+"title": "Junior React Front-end Developer",
+"company": "EY",
+"location": "Nicosia, Nicosia, Cyprus",
+"external": false,
+"lane": "B",
+"fit": 72,
+"reason": "Junior React role (1\u20133 years req, user 2.5\u20133). Stack: React/JavaScript/HTML/CSS, REST APIs\u2014all claimed. Soft issue: job lists CS/IT degree required (user has BA), not a hard gate. Frontend-only, not full-stack. Cyprus EU hybrid acceptable.",
+"refute": "JD matches candidate: \"1\u20133 years of experience with React.js, JavaScript (ES6+), HTML5, and CSS3\" \u2014 candidate has 2.5-3 years React/TypeScript (superset). Junior React Front-end Developer role (not Senior/Staff/Lead). Cyprus-based hybrid (3 days onsite) is EU location; candidate open to any EU location. No language requirement stated beyond English. No blocking tech stack (React/TypeScript compatible with React/JavaScript required). Company is EY (named direct hire, not unnamed agency). All refutation criteria checked; none triggered."
+},
+{
+"id": "4463568967",
+"title": "Graduate AI software engineer",
+"company": "Bending Spoons",
+"location": "Dublin, County Dublin, Ireland",
+"external": false,
+"lane": "A",
+"fit": 70,
+"reason": "Entry-level AI-focused graduate role at Bending Spoons (Milan/remote). Python, Docker, Kubernetes stack strong match for Prabhavit's automation/LLM expertise. No experience gate, English proficient required. Italy Milan location qualifies for +10 bonus.",
+"refute": "Actual LinkedIn posting is \"Graduate AI software engineer\" at Bending Spoons (Milan/London/Madrid/Warsaw/remote), not the stated \"Junior TypeScript Engineer - Budapest at cozycozy.com\". JD accepts \"little or no relevant experience\", requires English only, offers Milan + remote (candidate is Italian EU resident), and contains no tech stack or location exclusions that refute the candidate's 2.5-3 years TypeScript/React/Node/Laravel/Python profile. Metadata error in task; pass is valid against actual JD."
+},
+{
+"id": "4464637146",
+"title": "Software Development Engineer",
+"company": "Mitsubishi Electric Iconics Digital Solutions",
+"location": "Greater Genoa Metropolitan Area",
+"external": false,
+"lane": "C",
+"fit": 72,
+"reason": "Mitsubishi Electric Genoa: Mid-Senior level label with only 1-2 years required (not hard gate >3 years). Prabhavit's 2.5-3 years meets requirement. Python/JavaScript available in stack. Genoa hybrid in Italy, 2 hours from Venice\u2014strong location fit.",
+"refute": "JD asks 1-2 years (candidate has 2.5-3), hybrid Genoa Italy (candidate is Italian EU LTR), junior-level (verified: \"work collaboratively with senior engineers to learn\"), stack includes Python/JavaScript/frameworks (candidate has TypeScript/React/Node/Laravel/Python). No stated requirement for 3+ years, senior level, non-English language, excluded-tech stack, or non-EU location. Posting open 14h ago, direct employer."
+},
+{
+"id": "4462283164",
+"title": "Junior Full Stack Engineer",
+"company": "Black Labz",
+"location": "Tallinn, Harjumaa, Estonia",
+"external": false,
+"lane": "C",
+"fit": 72,
+"reason": "Black Labz Tallinn: Junior full-stack (TypeScript/React/Node/SQL). Direct stack match for Prabhavit. Entry-level seniority aligns with 2.5-3 years. Tallinn office-first in EU (acceptable per gates; Italy preference not met but within scope). Salary \u20ac2.5-3.5k/mo.",
+"refute": "JD is Entry level Junior Full Stack Engineer in Tallinn, Estonia (EU). Requires TypeScript, React, HTTP/REST/SQL/Git basics, and working English. Candidate has 2.5-3 years experience (suitable for entry-level role), TypeScript/React/Node stack (all required skills present), English only (matches requirement), and is open to any EU location including Tallinn. No stated requirement exceeds 3 years, no Senior+ level mandated, no blocked stack components, no non-EU location. Pass is valid."
+},
+{
+"id": "4464468514",
+"title": "Full Stack Developer Node.js/React",
+"company": "Gecal Informatica Srl",
+"location": "Turin, Piedmont, Italy",
+"external": false,
+"lane": "C",
+"fit": 95,
+"reason": "Full-stack Node.js + React + AWS stack perfect match; Turin hybrid location (home region); Italian company; English B2+ satisfied",
+"refute": "JD fetched successfully. Seniority: Associate (not Senior/Staff/Lead/Principal). Years: None stated; Associate level matches 2.5-3 years. Language: Only English B2 required, no other language stated. Core stack: Node.js, React, SQL required \u2014 candidate has all three (TypeScript/React/Node/Laravel). No Java/.NET/C++/Go/Rust/Scala/Kotlin/cloud admin/embedded required. Location: Turin, Italy (EU), hybrid work \u2014 candidate open to EU locations. Posting: Active (20h old, 42 applicants). Direct employer Gecal Informatica Srl, not agency. Pass stands: candidate meets stated requirements."
+},
+{
+"id": "4464453677",
+"title": "Frontend Developer Junior",
+"company": "Lottomatica",
+"location": "Greater Rome Metropolitan Area",
+"external": false,
+"lane": "C",
+"fit": 75,
+"reason": "Junior frontend role, 2 years React/TypeScript required (within range), Italian location with hybrid work (excellent fit for Venice-based candidate), permanent contract",
+"refute": "JD matches candidate profile. Entry level seniority (junior), requires 2+ years (candidate has 2.5\u20133), React/TypeScript core stack (match), English only (match), Rome location EU (candidate is Italian). Angular listed in must-haves but as secondary framework in a 2-year junior role, not a core stack disqualifier like Java/.NET/.\n\nNo refutation found."
+},
+{
+"id": "4455341422",
+"title": "Product Owner",
+"company": "Worldline",
+"location": "Bucharest, Bucharest, Romania",
+"external": false,
+"lane": "D",
+"fit": 45,
+"reason": "No hard gates. Technical PM role (lane D) with Python/SQL overlap from LLM/data background. Low fit: PM role vs engineering background, data/BigData focus (not core stack), Bucharest location (no Italy +10).",
+"refute": "No deal-breaker criteria found. Seniority level is \"Not Applicable,\" no explicit years requirement stated, language is English-only, location is Bucharest (EU), tech stack requirements do not disqualify, and posting is active and direct hire."
+},
+{
+"id": "4463505540",
+"title": "Product Owner",
+"company": "Amadeus",
+"location": "Lisboa, Lisbon, Portugal",
+"external": false,
+"lane": "D",
+"fit": 72,
+"reason": "Product Owner at Amadeus, EU location (Lisbon), no years stated, English-language JD, hybrid model",
+"refute": "Seniority level is \"Not Applicable,\" no years-of-experience minimum stated, English-only requirement met, no core-stack incompatibility for a Product Owner role, location in Lisbon (EU) matches candidate's EU openness, posting active, direct Amadeus posting not agency. Pass is valid."
+},
+{
+"id": "4463524382",
+"title": "Data & AI Solutions Consultant",
+"company": "IQVIA",
+"location": "Athens, Attiki, Greece",
+"external": false,
+"lane": "A",
+"fit": 85,
+"reason": "English JD, 2\u20134 years experience (within range, not >3), Athens Greece (EU on-site acceptable). Core stack match: Python/FastAPI required, React/TypeScript frontend, SQL, LLM APIs (OpenAI/Anthropic/Azure AI), RAG, agent-based automation pipelines align directly with user's full-stack TypeScript/Node/Python/LLM skill set. Data engineering tier-2 nice-to-have, not blocker.",
+"refute": "JD explicitly states \"2 to 4 years of experience\" (candidate has 2.5-3 years, within range). Seniority listed as \"Not Applicable,\" not Senior/Staff/Lead. Required stack: Python (candidate has for LLM pipelines), React, TypeScript (both present), AI/LLM integration (covered). Location: Poland (EU); candidate is Italian EU resident open to any EU location. No language requirement beyond English stated. No evidence of closure, agency posting, or core stack mismatch per exclusion list (Java/.NET/C++/Go/Rust/Scala/Kotlin/FastAPI-only/cloud-admin/embedded). Pass is valid."
+}
+]

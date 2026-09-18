@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4460730696",
+      "title": "Applied Value Engineer",
+      "company": "Celonis",
+      "companyUrl": "https://www.linkedin.com/company/celonis",
+      "location": "Greater Milan Metropolitan Area",
+      "date": "2026-09-03",
+      "url": "https://it.linkedin.com/jobs/view/applied-value-engineer-at-celonis-4460730696"
+    },
+    {
+      "id": "4460372704",
+      "title": "AI Systems Engineer - EMEA",
+      "company": "Nutanix",
+      "companyUrl": "https://www.linkedin.com/company/nutanix",
+      "location": "Paris, Île-de-France, France",
+      "date": "2026-09-07",
+      "url": "https://fr.linkedin.com/jobs/view/ai-systems-engineer-emea-at-nutanix-4460372704"
+    },
+    {
+      "id": "4462818359",
+      "title": "Senior Solution Engineer - AI Apps & Agents, Public Sector",
+      "company": "Microsoft",
+      "companyUrl": "https://www.linkedin.com/company/microsoft",
+      "location": "Schiphol, North Holland, Netherlands",
+      "date": "2026-09-03",
+      "url": "https://nl.linkedin.com/jobs/view/senior-solution-engineer-ai-apps-agents-public-sector-at-microsoft-4462818359"
+    },
+    {
+      "id": "4462939507",
+      "title": "AI Solutions Engineer (Forward Deployed Engineer / FDE)",
+      "company": "Joppy",
+      "companyUrl": "https://es.linkedin.com/company/joppyme",
+      "location": "Madrid, Community of Madrid, Spain",
+      "date": "2026-09-07",
+      "url": "https://es.linkedin.com/jobs/view/ai-solutions-engineer-forward-deployed-engineer-fde-at-joppy-4462939507"
+    },
+    {
+      "id": "4464605007",
+      "title": "Digital Solution Engineer - Apps & Innovation (Italian Speaking)",
+      "company": "Microsoft",
+      "companyUrl": "https://www.linkedin.com/company/microsoft",
+      "location": "Dublin, County Dublin, Ireland",
+      "date": "2026-09-08",
+      "url": "https://ie.linkedin.com/jobs/view/digital-solution-engineer-apps-innovation-italian-speaking-at-microsoft-4464605007"
+    },
+    {
+      "id": "4461674770",
+      "title": "Ingénieur IA (H-F)",
+      "company": "Klanik",
+      "companyUrl": "https://fr.linkedin.com/company/klanik",
+      "location": "Nice, Provence-Alpes-Côte d'Azur, France",
+      "date": "2026-09-03",
+      "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-ia-h-f-at-klanik-4461674770"
+    },
+    {
+      "id": "4442848151",
+      "title": "Associate Applied (AI) Value Engineer (DACH) - Orbit Program",
+      "company": "Celonis",
+      "companyUrl": "https://www.linkedin.com/company/celonis",
+      "location": "Madrid, Community of Madrid, Spain",
+      "date": "2026-09-08",
+      "url": "https://es.linkedin.com/jobs/view/associate-applied-ai-value-engineer-dach-orbit-program-at-celonis-4442848151"
+    },
+    {
+      "id": "4378011681",
+      "title": "AI Specialist (m/w/d) – Öffentlicher Sektor",
+      "company": "CGI",
+      "companyUrl": "https://ca.linkedin.com/company/cgi",
+      "location": "Munich, Bavaria, Germany",
+      "date": "2026-09-08",
+      "url": "https://de.linkedin.com/jobs/view/ai-specialist-m-w-d-%E2%80%93-%C3%B6ffentlicher-sektor-at-cgi-4378011681"
+    },
+    {
+      "id": "4459812472",
+      "title": "Agentic AI Solution Specialist",
+      "company": "Capgemini",
+      "companyUrl": "https://fr.linkedin.com/company/capgemini",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "date": "2026-09-03",
+      "url": "https://se.linkedin.com/jobs/view/agentic-ai-solution-specialist-at-capgemini-4459812472"
+    },
+    {
+      "id": "4451955621",
+      "title": "AI-DNA Solutions Engineer",
+      "company": "IgniteTech",
+      "companyUrl": "https://www.linkedin.com/company/ignite-tech",
+      "location": "Portugal",
+      "date": "2026-09-02",
+      "url": "https://pt.linkedin.com/jobs/view/ai-dna-solutions-engineer-at-ignitetech-4451955621"
+    }
+  ]
+}

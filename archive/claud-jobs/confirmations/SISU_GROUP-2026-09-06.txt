@@ -1,0 +1,4 @@
+SISU GROUP - QA Automation Engineer (Tallinn)
+https://sisugroup.teamtailor.com/jobs/8018097-qa-automation-engineer
+Thanks page: /applications/ada767e9-071e-4a64-ba19-1c0709b59b13/thanks/... title "Applied to QA Automation Engineer", text "Thanks for applying"; POST /applications 200
+verified by the loop 2026-09-06 14:56 CEST

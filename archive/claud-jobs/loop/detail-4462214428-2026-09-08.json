@@ -1,0 +1,14 @@
+{
+  "id": "4462214428",
+  "title": "AI Product Engineer (w/m/d)",
+  "company": "AGILOX",
+  "companyUrl": "https://at.linkedin.com/company/agilox",
+  "location": "Linz, Upper Austria, Austria",
+  "date": null,
+  "url": "https://www.linkedin.com/jobs/view/4462214428",
+  "description": "DEIN JOB Verantwortung für die Entwicklung von AI-Funktionen – von der Konzeption bis zur Produktion, darunter unser Conversational Analytics Assistant zur Abfrage von AGILOX-Flotten in natürlicher Sprache Konzeption und Entwicklung von LLM-, Agent- und RAG-Lösungen, einschließlich Tool/Function Calling und mehrstufiger Workflows Anbindung und Aufbereitung von Daten- und Wissensquellen sowie Integration von AI-Services in bestehende Systeme und unsere Cloud-Plattform Auswahl und Optimierung von Modellen, Prompts und Workflows hinsichtlich Qualität, Latenz, Zuverlässigkeit und Kosten Evaluierung neuer AI-Use-Cases und technischer Machbarkeit sowie Entwicklung und Validierung erster Prototypen Zusammenarbeit mit Product, UX und Engineering bei Konzeption, Entwicklung und Integration neuer AI-Funktionen Entwicklung produktionsreifer Software mit Fokus auf Korrektheit, Determinismus, Performance und Wartbarkeit – jeder Fix beginnt mit einem fehlgeschlagenen Test DEIN PROFIL Mind. 2 Jahre Erfahrung mit LLM-Anwendungen in Produktion – Agenten, Tool/Function Calling, RAG oder mehrstufige Workflows Sehr gute TypeScript-Kenntnisse und Erfahrung mit großen, typisierten und gut getesteten Codebasen Systems-Engineering-Denkweise – deterministische Lösungen statt cleverer Prompts und nachvollziehbare technische Entscheidungen Praktische Erfahrung mit LLM-Evaluation und ein datenbasierter Ansatz zur Messung von Qualität Gute Kenntnisse in APIs, Authentifizierung und Observability sowie Erfahrung bei der Integration von AI-Services in bestehende Systeme Erfahrung mit LangChain/LangGraph, selbst betriebenen Open-Weight-Modellen (z. B. vLLM, llama.cpp) oder Semantic-/Metrics-Layern und BI/OLAP ist von Vorteil Erfahrung mit agentischen Coding-Tools wie Claude Code oder Codex ist von Vorteil Sehr gute Englischkenntnisse, Deutschkenntnisse von Vorteil Teamfähigkeit, Freude an kontinuierlichem Lernen und Bereitschaft zum Wissensaustausch Das monatliche Mindestbruttoentgelt für diese Position beträgt € 4.200,00 (KV IT) auf Vollzeitbasis. Eine deutliche Überzahlung ist abhängig von Qualifikation und Berufserfahrung möglich. AGILOX bietet zahlreiche attraktive Benefits, die hier nicht vollständig aufgelistet sind. Diese können je nach Aufgabenbereich oder Standort variieren, wie z.B. Home Office ist in bestimmten Bereichen nicht realisierbar.",
+  "seniority": "Entry level",
+  "employmentType": "Full-time",
+  "jobFunction": "Engineering and Information Technology",
+  "industries": "Automation Machinery Manufacturing"
+}

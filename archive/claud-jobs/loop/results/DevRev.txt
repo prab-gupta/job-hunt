@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465762417/
+Apply route: https://job-boards.greenhouse.io/devrev/jobs/5677699004
+
+Uploaded: Prabhavit_CV_DevRev.pdf (Resume/CV, after removing the stale autofilled
+Prabhavit_CV-.pdf), CoverLetter_DevRev.pdf (Cover Letter)
+Answers given: First/Last Name, Email, Country/Phone (autofilled), LinkedIn Profile
+(autofilled), "willing to work from Ljubljana office 3x/week hybrid" = Yes
+
+Blockers: none.
+
+Confirmation: "Thank you for applying. Your application has been received. We will review it
+and be in touch presently." (job-boards.greenhouse.io/devrev/jobs/5677699004/confirmation)
+
+Logged to applications.csv as SUBMITTED. Full record in answers/devrev-2026-09-16.md and
+confirmations/DevRev-2026-09-16.txt.
+
+LEARNINGS: none new - standard Greenhouse stale-CV-autofill trap, already documented in
+apply-bot/PATTERNS.md, handled as expected.

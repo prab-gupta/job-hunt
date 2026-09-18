@@ -1,0 +1,13 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468605928/
+Company: Saab - Forward Deployed Engineer, Solna Sweden (defence), LinkedIn offsite -> Workday
+
+Reason: dedupe duplicate. python3 loop/dedupe.py --check "Saab" "https://www.linkedin.com/jobs/view/4468605928/" returned HIT COMPANY. grep -i saab applications.csv shows a 2026-09-09 row for Saab, "Forward Deployed Engineer", Workday tenant saabgroup.wd116.myworkdayjobs.com (REQ_41853-1), reached via a different LinkedIn listing (4465051342), status SUBMITTED, same Solna/Stockholm defence role, Sweden work-authorisation transparency line already used, security-vetting/citizenship clause already reviewed and judged conditional (not a mandatory-citizenship kill) on that run.
+
+This new LinkedIn posting (4468605928) is the identical company, identical role title, identical location (Solna, on-site), reposted 9 hours ago, only 8 days after the original SUBMITTED date - well inside the 60-day same-role/same-level dedupe window and near-certainly the same underlying Workday requisition (Saab is unlikely to run two concurrent identical-title reqs in the same city). Per the task's own kill criteria (closed / same requisition already SUBMITTED / mandatory language-or-eligibility gap), this hits "same requisition already SUBMITTED", so the citizenship/clearance clause check the task asked for is moot - not re-verified since the application was not resubmitted.
+
+Verified the live LinkedIn page first (job open, Apply button present, On-site + Full-time tags, 8 people clicked apply, no "Applied" banner since the original application went via Workday direct rather than LinkedIn Easy Apply).
+
+Uploaded: nothing. No new CV or cover letter built (killed before the materials step; existing Prabhavit_CV_Saab.pdf / CoverLetter_Saab.pdf from 2026-09-09 untouched). No form opened.
+Blockers: none (dedupe kill, not a user-only blocker).
+LEARNINGS: none new.

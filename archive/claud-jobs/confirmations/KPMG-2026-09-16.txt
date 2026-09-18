@@ -1,0 +1,6 @@
+NOT SUBMITTED - account wall (NEEDS YOU).
+"Candidati ora" on https://careers.kpmg.it/job/Milano-Junior-ServiceNow-Developer-Implementation/1365974157/
+opens only two options, both joining KPMG's Comunita di talenti: a direct sign-up, or
+"Inizia a candidarti con LinkedIn" (tooltip: "Utilizza il tuo profilo LinkedIn per unirti alla
+nostra Comunita di talenti... Ti unirai alla nostra Comunita di talenti mediante il tuo profilo
+su social network."). No guest-apply path found. Screenshot: KPMG-2026-09-16.png.

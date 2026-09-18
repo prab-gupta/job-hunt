@@ -1,0 +1,12 @@
+Dear Mainloop AI team,
+
+I am applying for the Forward Deployed Engineer role in Barcelona. Going into a business, finding the process that quietly wastes two days a month, and building something that gets used before handing it off, that is the loop I already run at FlowSpace.
+
+The clearest example: an AI pipeline that takes any operator's brochure, PDF, website, photo or spreadsheet, and drafts a full workspace listing, validated by a human before it goes live, over 900 listings drafted this way. I built it end to end, spec to production, using coding agents daily to move fast without losing judgement. I also shipped the OfficeRnD and Nexudus integrations that connected that automation to systems the business ran on, so the handover was real, not a demo.
+
+Mainloop AI's structure, a new problem every few weeks, no support tail, is the shape of work I do well. I like being judged on whether the thing works and gets used.
+
+Logistics: I hold an Italian EU long-term residence permit. Not yet authorised to work in Spain, I would need an employer-side permit and am ready to start that alongside relocating to Barcelona. English is fluent, Spanish is basic. Available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

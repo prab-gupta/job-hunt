@@ -1,0 +1,20 @@
+STATUS: NEEDS YOU
+
+URL: https://drumncode.peopleforce.io/careers/v/234241-manualauto-qa-engineer/a/new
+(via LinkedIn https://www.linkedin.com/jobs/view/4332444850/)
+
+Dedupe: NEW (python3 loop/dedupe.py --check, no prior "Drum'N'Code" or "peopleforce" row in applications.csv).
+
+Order of work: apply-button pre-check passed (curl jobs-guest API, grep -c apply-button = 1). Live LinkedIn page confirmed Remote/Full-time, plain "Apply" (Responses managed off LinkedIn, not Easy Apply), no closed banner. Followed to PeopleForce, confirmed the JD text matches, then opened the /a/new application form and confirmed it is a real submittable form (not a dead link or account wall). Re-checked all hard gates on the full JD: 2+ years stated (not >3), title "Manual/Auto QA Engineer" / Entry level (not Senior/Lead/Principal), no MSc/PhD requirement, JD in English, primary automation tool named is Cypress (JS-based, not Java/.NET/Go/Rust/cloud-admin), no anti-AI clause (grepped, JD instead wants "AI in QA" as a skill). Location gate: posting tagged Remote on both LinkedIn and PeopleForce ("Віддалена робота"), no text requiring Ukraine residency or a Ukrainian entity, no Ukrainian/Russian language requirement -> not a KILL. Cypress is not claimed; Playwright is claimed and stated honestly as the transferable equivalent, per task instruction.
+
+Uploaded: Prabhavit_CV_DrumNCode.pdf (tailored from Prabhavit_CV_EN.tex per the CV tailoring rules; Career Summary trimmed to 2 QA-relevant bullets, Technical Skills reordered to lead with Automation/AI-ML, FlowSpace bullets reordered and trimmed of duplicates/sales bullets while keeping 8 total, every other role reordered to lead with its most testing/SQL/automation-relevant bullet, one clearly irrelevant marketing bullet dropped at Tractionboard, Bubble/low-code phrase dropped from Additional Information; 2 pages, tectonic-compiled, verified with pdfinfo). Cover letter pasted from CoverLetter_DrumNCode.txt (182 words, zero em-dashes) into the form's rich-text Cover letter box; CoverLetter_DrumNCode.pdf also built and kept in ROOT for reference.
+
+Answers given: Full name Prabhavit Gupta; Email prabhavitg@gmail.com; Linkedin https://www.linkedin.com/in/prabhavit/; self-rated level Middle; English level Upper-Intermediate (C1); "How do you use AI in QA, have you tested AI/LLM functionality" answered with Claude Code + FlowSpace RAG support-agent evaluation (prompts, response quality, hallucinations, confidence-based escalation); manual/automated split answered "roughly 40% manual / 60% automated" with FlowSpace + Clubee detail (Playwright end-to-end/API tests, SQL checks against Supabase/PostgreSQL); desired salary 45000 (EUR, standing default, plain numeric field).
+
+Blocker: the form has a server-side required "Telegram username" field. No real Telegram handle for Prabhavit exists in any canonical profile file (Master Experience, identity block). Clicking Apply to test validation returned exactly one error, "Telegram username can't be blank" - every other field, including the resume upload and rich-text cover letter, passed. Per the never-fabricate-contact-data guardrail, no handle was invented. Form left fully filled, not submitted.
+
+Chrome tab 550849908 left open for the user at the application form URL. Action needed: enter a Telegram username and click Apply.
+
+Logged: applications.csv row (status NEEDS YOU), confirmations/DrumNCode-2026-09-09.txt, answers/drumncode-2026-09-09.md, this file.
+
+LEARNINGS: PeopleForce career-site forms can require a Telegram username as a hard field (common for Ukraine-based employers) with no email/LinkedIn fallback; this is a genuine "fact not on file" blocker distinct from the usual CAPTCHA/login/anti-AI trio and should route to NEEDS YOU rather than being improvised.

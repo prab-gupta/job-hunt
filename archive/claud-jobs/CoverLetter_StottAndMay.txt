@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer role in Helsinki. I have three years of professional experience shipping production software directly for the customers using it, across eight teams in Europe, and I like the part of the job that sits between an open-ended problem and a working system.
+
+At FlowSpace, I lead the engineering side of a live workspace marketplace. I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, so those agents run in production against real usage, not a demo environment. I also shipped OfficeRnD and Nexudus API integrations for automated bookings, and automated the migration off a legacy stack onto Next.js and Laravel, mapping the old data structure to the new one and running the cutover while the product stayed live, growing the platform from 2,000 to 4,500 plus users. That covers the systems, integrations and data-flow side of this role, plus the discipline of owning something in production.
+
+At Urlink, I worked as project manager and AI-assisted developer on a client engagement in Barcelona: I gathered client requirements directly, built the platform logic with AI-assisted development, and implemented the automations the client asked for, on Next.js and Supabase. That is the customer-facing loop this role runs, understanding the problem straight from the people who have it, then owning the solution through to something that works.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Finland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Helsinki and complete that process.
+
+I would welcome the chance to bring that production AI-agent and integration work to this role.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,36 @@
+STATUS: NEEDS YOU
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4455890559/
+Applied via (offsite, Lever): https://jobs.lever.co/mendix/7cbae919-1705-4737-9b0e-a942dd1451b3/apply
+
+Dedupe: fuzzy HIT COMPANY on Mendix, but the existing SUBMITTED row is a different requisition and
+role (Solutions Engineer Core AI, Lever req c0c545fe...). This row is Junior Software Developer,
+req 7cbae919..., a different level and requisition, so not blocked.
+
+Gates re-checked on live JD: no years floor (junior role), title not Senior, no hard MSc
+requirement (Bachelor's or equivalent accepted), TypeScript explicitly named as an acceptable
+language, JD in English, the JD's "AI tools" paragraph is about Mendix using AI to screen
+applications (not an anti-AI-authorship attestation against the candidate). All passed.
+
+Notable: the live JD states "we are only considering candidates who currently have a valid work
+permit for the Netherlands and do not require sponsorship." Per the task's explicit instruction,
+proceeded anyway with full honest disclosure using the Netherlands work-authorisation transparency
+line rather than killing the row.
+
+CV and letter built: Prabhavit_CV_Mendix.tex/.pdf (2 pages, parity-checked; kept the Low-code IT
+Skills line deliberately since Mendix's own product is low-code), CoverLetter_Mendix.tex/.pdf/.txt
+(English, 0 em-dashes, FlowSpace TypeScript/Laravel migration + Urlink AI-assisted platform build
+as the two evidence paragraphs, NL transparency line).
+
+Filled the Lever form completely: resume upload auto-parsed name/email/phone/location/company
+correctly, added LinkedIn + GitHub URLs, sponsorship-required radio set to Yes (honest), marketing
+checkbox left unticked. No cover letter field existed on this form.
+
+BLOCKER (user-only): clicking "Submit application" triggered an hCaptcha image challenge ("Click
+where the chain is broken") instead of a confirmation page. Per the CAPTCHA rule, stopped without
+attempting it. Nothing was submitted. Screenshot at
+confirmations/handback-mendix-hcaptcha-2026-09-16.png. Logged NEEDS YOU in applications.csv and
+NEEDS_YOU.md item 5.
+
+LEARNINGS: none new (hCaptcha-on-submit is an already-documented blocker type; this Lever tenant
+auto-parses the resume very well - name/email/phone/location/company all filled correctly from the
+PDF alone).

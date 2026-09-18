@@ -1,0 +1,16 @@
+Dear Spectro Cloud Hiring Team,
+
+I am writing to apply for the Senior Forward Deployed Solution Engineer role in Wroclaw. Three years of my career have been spent embedded directly with clients, turning ambiguous requirements into working, automated systems, which is the core of what this role asks for.
+
+At FlowSpace, I took over a live workspace marketplace and drove its migration off a legacy stack onto Next.js and Laravel while the product stayed live, mapping the old data structure to the new one and choosing the migration path per entity, growing the platform from 2,000 to 4,500 plus users. I also shipped OfficeRnD and Nexudus API integrations for automated bookings and built support AI agents that escalate to a person on low confidence.
+
+At Get2Germany, I integrated Google APIs, built AI tools that find courses, internships and jobs, and optimised the underlying database, working with n8n for the automation layer.
+
+I want to be direct about fit: my background is not in Kubernetes administration, GPU infrastructure, or cloud platform engineering, and I would be starting from working knowledge rather than deep production ownership on that side of the stack. What I bring is real experience automating integrations end to end, owning a production system's data migration under live load, and working the way this role expects, close to the customer, with the outcome on my shoulders.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Wroclaw and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the FDE practice.
+
+Regards,
+Prabhavit Gupta

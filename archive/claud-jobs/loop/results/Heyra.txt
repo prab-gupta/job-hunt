@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461060764/
+ATS: Workable (via LinkedIn -> TheHub.io gateway -> https://apply.workable.com/heyra-io/j/62FAF69F91/)
+Uploaded: Prabhavit_CV_Heyra.pdf (real file input, verified green check + filename before submit)
+Cover letter: pasted full text into Workable's "Cover letter" free-text field (no separate PDF upload field offered for cover letter on this form)
+Answers given: name/email/phone/address (Mestre, Italy); "Do you have experience delivering AI or data solutions in a production environment?" = Yes, cited FlowSpace AI listing bot (900+ drafts) and support AI agents; "Do you have experience working directly with clients or external stakeholders?" = Yes, cited Urlink (client PM) and FlowSpace (agency + customers); "Are you legally authorized to work in Denmark without a visa sponsorship?" = No; "Are you comfortable working on-site in Copenhagen?" = Yes.
+Blockers: none. No CAPTCHA encountered.
+LEARNINGS: TheHub.io job listings are just a redirect gateway (fill name+email, uncheck the "email updates" marketing box, click Apply) that opens the real ATS in a new tab; if the new tab gets dropped from the Chrome extension's tab group (happened twice this session, likely because other agents share this browser and idle/background tabs get pruned), navigate directly to the ATS URL shown in the dropped tab's last known title/URL rather than retrying the click chain. Workable form fields reflow after each fill (error text disappearing shifts everything up), so form_input silently no-ops on some fields; click-then-type by fresh coordinates read from the latest screenshot is reliable, re-screenshot after every 1-2 fields.

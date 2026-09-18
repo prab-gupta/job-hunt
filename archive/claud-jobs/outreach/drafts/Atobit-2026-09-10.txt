@@ -1,0 +1,15 @@
+TO: info@atobit.it
+SUBJECT: Candidatura spontanea per Atobit
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Atobit,
+
+Fondata da sviluppatori, con lavoro da remoto e certificazione ISO 9001: costruire team tecnici interni per le PMI è lo stesso lavoro che faccio ogni giorno. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase. Curo anche automazioni n8n e Make per clienti esterni.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, per il lavoro da remoto o il trasferimento in Emilia-Romagna. Vi va una call di 15 minuti, o potreste indirizzarmi a chi si occupa delle assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

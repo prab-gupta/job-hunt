@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Search QA Automation Test Engineer role at Schwarz Digits.
+
+At FlowSpace, I built and maintained test coverage for a live marketplace platform: Playwright end to end and API tests, unit testing and quality assurance on new features, and validation checks built into an LLM listing pipeline that has produced 900 plus draft listings for human review. I also built and evaluated RAG backed support agents, including testing for non-determinism and failure recovery before they reached production. I write Python for automation and QA scripting, and I use Git and GitHub daily, with a habit of small, reviewable commits that fit cleanly into a CI/CD pipeline.
+
+Schwarz Digits runs search and platform infrastructure at a scale few companies operate at, and testing that reliably is a problem I want to work on directly rather than adjacent to.
+
+I am based in Venice, Italy, and ready to relocate to Berlin. I hold Italian EU long term resident status, which does not automatically grant work rights in Germany, so I would need the applicable employer side permit process, and I am ready to complete it. My English is professional and fluent, my German is beginner level.
+
+Regards,
+Prabhavit Gupta

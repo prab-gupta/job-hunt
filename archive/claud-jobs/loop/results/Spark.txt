@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465649206/
+Uploaded: Prabhavit_CV_Spark.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, 2 pages), explicitly uploaded over the pre-selected Prabhavit_CV_NeuralFrames.pdf via LinkedIn's "Upload resume" control.
+Cover letter: CoverLetter_Spark.pdf/.tex/.txt written in Italian (JD is Italian), two-role evidence FlowSpace + Urlink, 0 em-dashes. No cover letter field existed on this Easy Apply form (single page: contact info + resume + submit), so it was not attached, only kept on file.
+Answers given: email prabhavitg@gmail.com (prefilled/selected), phone +39 3516107807 (prefilled), unchecked "Follow Spark S.r.l.", left "Mark job as a top choice" unchecked. No salary/years/language question fields appeared on this form.
+Blockers: none.
+Confirmation: "Application submitted" in the job page's own Application status panel. confirmations/Spark-2026-09-16.png + .txt.
+LEARNINGS: nothing new broke; standard single-page LinkedIn Easy Apply flow (contact info + resume only, no additional questions page).

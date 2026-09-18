@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4442026849/
+Company: QASCOM
+Role: Full Stack Software Engineer
+Location: Bassano del Grappa (VI) / Cassola (VI), Veneto, Italy -- hybrid
+ATS: LinkedIn Easy Apply
+
+Dedupe: NEW (loop/dedupe.py --check found no prior URL or company hit; grep of applications.csv for "qascom" was empty).
+Cheap check: curl apply-button grep count = 1 (posting accepting applications). Easy Apply button present on page, confirmed live before drafting anything.
+
+Hard gates re-checked on live JD: no anti-AI disclaimer found. Years not stated as a number (only "professional experience... ideally under SLA"). Title is "Full Stack Software Engineer", not Senior/Lead/Principal/Manager. No hard MSc/PhD requirement (Bachelor's suffices on degree level; JD does specify the field as Computer Science Engineering, which is a mismatch against Prabhavit's Philosophy/Economics degree -- not on the brief's enumerated hard-gate list, and the posting explicitly invites applying without a 100% match, so proceeded; flagged in answers/qascom-2026-09-10.md for visibility). JD in English throughout. Core stack option is ".Net Core OR TypeScript+NodeJS" -- TypeScript+NodeJS is claimable, so no core-stack gate. Location is in Italy (hybrid), no remote-from-Italy issue. No closed/404 posting.
+
+Uploaded: Prabhavit_CV_QASCOM.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic compile clean, parity check passed -- every Professional Experience bullet verbatim, only the four permitted skills/tools comma-lists were reordered plus one Low-code item dropped as JD-unrelated). CoverLetter_QASCOM.pdf/.txt prepared (263 words, 0 em-dashes, no Bubble/no-code/low-code, two-role evidence: FlowSpace lead + UltraStrategy CV-parsing second paragraph) but this Easy Apply form had no cover-letter slot, so it was not attached or pasted.
+
+Answers given: this was a single-page Easy Apply form -- contact info only (email prabhavitg@gmail.com pre-selected, phone country Italy +39 pre-set, phone +39 351 610 7807 pre-filled, all left as-is/correct), resume upload, and a "Follow QASCOM" checkbox which was unticked (not a required consent). No salary, years-of-experience, work-authorisation, or EEO questions appeared on this particular form.
+
+Blockers: none. No CAPTCHA, no attestation, no video question.
+
+Confirmation: dialog read "Your application was sent to QASCOM! You can keep track of your application in the 'Applied' tab of My Jobs." The job page afterward shows "You applied on company site 9/10/2026 - Submitted resume". Screenshot saved to confirmations/QASCOM-2026-09-10.png, text saved to confirmations/QASCOM-2026-09-10.txt.
+
+Logged: one row appended to applications.csv (SUBMITTED). QASCOM row added to loop/queue.csv (status SUBMITTED, was previously missing from the queue). Bullet-drop record and form-answer record saved to answers/qascom-2026-09-10.md.
+
+LEARNINGS: none -- straightforward single-step Easy Apply, no new ATS trap. Worth noting for future planner passes: this posting's degree requirement text is stricter ("Computer Science Engineering... is a must") than the brief's enumerated hard-gate list currently checks for; the enumerated list only catches an MSc/PhD-level gate, not a specific-field gate, so this class of requirement will keep slipping through until the gate list is extended.

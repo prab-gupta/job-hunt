@@ -1,0 +1,9 @@
+Keysight Technologies — QA Automation Engineer — Bucharest, Romania
+LinkedIn posting: https://www.linkedin.com/jobs/view/4462520475/ (Apply button is an external redirect, "Responses managed off LinkedIn" — not Easy Apply).
+Real ATS: iCIMS at https://globalcareers-keysight.icims.com/jobs/54185/qa-automation-engineer/candidate (reached via https://jobs.keysight.com/external/jobs/54185).
+
+Blocked at the "Candidate Profile" step (step 1 of 2) after accepting the GDPR data privacy statement:
+the form requires "Create a login" with mandatory fields Login*, Password*, Password (Re-enter)* before any resume upload or personal info can be entered. No guest-apply or SSO-without-account path is offered (Apple/Facebook/Google/LinkedIn/Microsoft icons shown are "Connect your account" sign-in/sign-up options, not guest continue).
+
+No account was created, no password was entered, no resume was uploaded. Left as-is per instruction: never create accounts or enter passwords.
+Tab left open: tabId 550849696, URL https://globalcareers-keysight.icims.com/jobs/54185/qa-automation-engineer/candidate?from=login&eem=4HMLrJuk9THTgrwkDPhqc-JieRQJZvZPgVaWh-xDEL45HaJoNM3IkRjuq7RtZ2ij&code=35c0da2a6659535dfdc004b010264810ba40b36242dd75c1b991626d85244698&ga=8cb19c5260b8a2f4285a3f80e2db9815d3b361a32c289ea105e6516cc3393630&accept_gdpr=1

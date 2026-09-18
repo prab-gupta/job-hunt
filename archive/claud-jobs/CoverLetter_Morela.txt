@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Forward Deployed Engineer role in Athens that Morela Solutions is recruiting for.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, plus support AI agents that ground answers in live platform data and escalate to a person on low confidence, built with the Claude API, n8n and TypeScript, and running in production against a marketplace that grew from 2,000 to over 4,500 users. I also automated the platform's data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live, the kind of embedded, end to end ownership this role asks for.
+
+At UltraStrategy, I built a CV-parsing pipeline where a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant the candidate is for specific role types, the result is delivered to the frontend, and a standardised profile is generated with n8n and Eden AI, a production, multi-tool pipeline rather than a single-prompt demo.
+
+I want to be direct about fit. I have three years of professional experience across eight European companies, not the 5-plus years the posting asks for. What I can offer is real production experience shipping AI agents end to end, working directly with the people who use them, and owning a deployment from problem definition through to launch and iteration. I am comfortable being on the ground with customers and based in Athens for this role.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Greece and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

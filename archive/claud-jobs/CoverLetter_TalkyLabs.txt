@@ -1,0 +1,14 @@
+Dear Maximilian,
+
+I am applying for the Thinker (Forward Deployment / Core Engineer) role at Talky Labs in Madrid.
+
+At FlowSpace, I took over a live workspace marketplace and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one, choosing the migration path per entity and driving the cutover while the product stayed live, growing the platform from 2,000 to over 4,500 users. I also built and own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, and support AI agents that ground answers in live platform data and escalate to a human on low confidence. I built and shipped all of this myself, end to end, with a real client and a live product.
+
+At UltraStrategy, I built a CV-parsing pipeline where a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant the candidate is for specific role types, the result is delivered to the frontend, and a standardised profile is generated with n8n and Eden AI. That is the kind of frontier LLM-agent integration into a production workflow your posting nice-to-haves describe.
+
+I want to flag a gap directly rather than let it surface later. My production stack has been TypeScript, Laravel and n8n rather than Python and AWS, though I have used Python for automation, scraping and QA work. I have three years of hands-on experience owning production systems end to end for real clients, which is the part of your posting I would map most closely to my background: building, not maintaining, with high autonomy and direct ownership of outcomes. If deep Python and AWS fluency on day one is non-negotiable this may not be an exact match, but I wanted to apply and let you make that call rather than rule myself out.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

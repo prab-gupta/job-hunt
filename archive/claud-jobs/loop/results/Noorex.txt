@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://de.linkedin.com/jobs/view/forward-deployed-engineer-at-noorex-4465526622 (job id 4465526622)
+Company: Noorex (Berlin) - Forward Deployed Engineer, Germany line, agent C53, queue.csv line 527.
+Dedupe: python3 loop/dedupe.py --check "Noorex" -> NEW. grep applications.csv for Noorex/forward -> no prior row.
+Live JD (LinkedIn guest API, apply-button present, posting open, not closed): "What you'll bring" lists "Fluent German and English" as an explicit requirement.
+Hard gate: standing FDE rule kills only for closed posting, prior SUBMITTED requisition, or explicit language he lacks. German is required here as a hard "fluent" ask, not "a plus". Prabhavit's claimable languages are English (C2) and Italian (conversational) only.
+No CV or letter built. No form opened.

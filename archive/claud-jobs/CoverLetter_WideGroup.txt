@@ -1,0 +1,14 @@
+Gentile Team Data Science di Wide Group,
+
+Mi candido con interesse per la posizione di AI Engineer nel vostro team Data Science. Ho tre anni di esperienza professionale nello sviluppo di applicazioni basate su LLM e nella costruzione di flussi di lavoro intelligenti per prodotti in produzione.
+
+In UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline ne estrae i dati e valuta la rilevanza del candidato per specifici tipi di ruolo, il risultato viene mostrato nel frontend e infine viene generato un "Ultra CV" standardizzato. Per l'estrazione e la generazione ho utilizzato Affinda e le API di Claude, mentre lo strumento di parsing è stato costruito con n8n ed Eden AI. In FlowSpace ho inoltre sviluppato agenti di supporto che rispondono alle richieste dei clienti a partire dai dati live della piattaforma ed effettuano l'escalation verso un operatore umano in caso di bassa confidenza, un sistema LLM che gira ogni giorno in produzione.
+
+Come seconda prova, in Get2Germany ho integrato le API di Google e costruito strumenti basati su AI per trovare corsi, stage e offerte di lavoro, oltre a ottimizzare il database, il tutto con n8n.
+
+Ho conoscenza di Python per pipeline di automazione, integrazioni API e QA, e utilizzo Claude Code quotidianamente. Sono disponibile a trasferte sul territorio italiano e, pur essendo basato a Venezia, sono pienamente disponibile a lavorare da Milano. Come cittadino indiano con permesso di soggiorno UE di lungo periodo, sono autorizzato a lavorare in Italia senza necessità di sponsorizzazione.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

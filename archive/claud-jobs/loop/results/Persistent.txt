@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4460731557/
+Uploaded: Prabhavit_CV_Persistent.pdf (tailored from Prabhavit_CV_EN.tex, verified selected in the resume picker before submit)
+Cover letter: no dedicated cover letter field in this 4-page Easy Apply flow; CoverLetter_Persistent.pdf/.txt kept on file
+Answers given: German proficiency = None; legally authorised to work in Germany = No; years of experience in FDE role = 3; follow company page = unticked
+Confirmation: "Your application was sent to Persistent Systems!" - confirmations/Persistent-2026-09-17.txt (PNG screenshot save not available via Claude in Chrome computer tool)
+Note: JD asks for 5+ years experience; applied anyway per FDE-ALL standing rule, no years-based kill.
+Blockers: none

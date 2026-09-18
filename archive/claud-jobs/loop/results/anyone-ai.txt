@@ -1,0 +1,48 @@
+STATUS: SUBMITTED
+
+Company: anyone-ai
+Role: Python Developer - Remote in Spain
+URL: https://jobs.ashbyhq.com/anyone-ai/9d033b49-2e74-4576-a44c-d9bbfaee6f0e
+ATS: Ashby, via Claude in Chrome (own tab, tabId 550850975)
+
+Uploaded: Prabhavit_CV_anyoneai.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic clean).
+No cover letter field on this Ashby form; CoverLetter_anyoneai.pdf/.txt prepared and saved
+(0 em-dashes, 248 words, FlowSpace + Clubee proof paragraphs).
+
+Answers given: Name = Prabhavit Gupta, Email = prabhavitg@gmail.com, Phone = +39 351 610 7807,
+GitHub = https://github.com/prab-gupta, LinkedIn = https://www.linkedin.com/in/prabhavit,
+Location = Italy (only country-level match available; he is honestly based in Italy, not Spain -
+no hard residency block was encountered on the form, so proceeded per task instruction), interview
+programming language = Python, domain expertise = Computer Science.
+
+Blockers: none. Success message: "Your application was successfully submitted. Our team will be
+in touch soon with the next steps."
+
+LEARNINGS: none new for this row - the real-keyboard-typing approach flagged in today's Lexroom
+LEARNINGS worked cleanly here from the start, no form_input validation issues hit. Also noted: the
+"Location" combobox on this Ashby form only resolves country-level results (typing a specific city
+like "Venice" returned "No results"; only "Italy" appeared once typed in full) - for future Ashby
+forms with a similar location combobox, do not assume a city will resolve, try the country name
+if the city search comes back empty.
+
+---
+Row 3: Python Developer - Remote in Portugal
+URL: https://jobs.ashbyhq.com/anyone-ai/ad0110c8-99a5-4d6c-9931-124abd3f6b48
+STATUS: SUBMITTED
+
+Same CV (Prabhavit_CV_anyoneai.pdf) and letter (CoverLetter_anyoneai.pdf/.txt) reused per task
+instruction. Checked for the 90-day cooldown/duplicate-application warning flagged as possible in
+the task brief - none appeared, form behaved like a fresh application. Filled the same fields as
+row 2 (Name, Email, Phone, Resume, GitHub, LinkedIn, Location=Italy, interview language=Python,
+domain expertise=Computer Science) and submitted successfully.
+
+Success message: "Your application was successfully submitted. Our team will be in touch soon
+with the next steps."
+
+LEARNINGS: the "What is your domain expertise?" combobox on this Ashby form needed two retries -
+clicking the suggested option in the dropdown list did not commit the value (reverted to
+placeholder text), twice, likely due to page reflow from the shared browser's other concurrent
+tab activity mid-click. Typing the full option text and pressing Return instead of clicking the
+suggestion worked reliably. For future Ashby comboboxes in a busy shared browser, prefer type +
+Return over click-the-suggestion, and always re-screenshot to confirm the value held before
+scrolling to Submit.

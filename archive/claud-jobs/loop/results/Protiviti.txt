@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465548692/
+Uploaded: Prabhavit_CV_Protiviti.pdf (tailored from Prabhavit_CV_EN.tex, uploaded explicitly via Upload resume).
+Cover letter: CoverLetter_Protiviti.pdf/.txt drafted in Italian (Urlink lead + FlowSpace + Qomodo one-line aside for the Power BI ask, explicit honest line stating no PL-900/PL-100/PL-200 Microsoft certification) but this Easy Apply flow (5 pages, all in Italian: contact info, resume, optional "top choice", additional questions, review) had no cover letter/free-text field - kept on file, not uploaded.
+Answers given (Italian form): "Sei disponibile a lavorare in modalita ibrida?" = Si. "Qual e la tua aspettativa economica per un nuovo impiego?" = 28000 (JD's own stated floor is EUR 26,000 lordi annui for the Consultant grade; the standing EUR 45-55k band does not fit an entry-level Italian consulting posting at this level, so answered near the JD's own stated floor rather than the standing band - flagging this deviation for the planner).
+Blockers: none.
+Confirmation: "Your application was sent to Protiviti Italia!" - confirmations/Protiviti-2026-09-16.png and .txt.
+No new LEARNINGS.

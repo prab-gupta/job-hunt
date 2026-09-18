@@ -1,0 +1,14 @@
+Gentile team Yuxme,
+
+mi candido per il ruolo di Revenue Intelligence & Automation Specialist perché unisce automazione dei processi commerciali, qualità del dato e sviluppo di soluzioni AI utilizzate nel lavoro quotidiano.
+
+In FlowSpace ho costruito automazioni per il funnel commerciale: cattura e consolidamento dei lead nel CRM, arricchimento, routing e automazioni GTM per sales funnel, outbound e follow-up. Ho inoltre integrato API esterne per le prenotazioni e gestito una piattaforma live, verificando e mantenendo i flussi mentre il prodotto restava operativo. Questo mi ha abituato a seguire un problema dall'esigenza iniziale alla messa in produzione e alla gestione degli errori.
+
+In UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma. L'utente carica un CV, il flusso estrae i dati, valuta la rilevanza per specifici tipi di ruolo, restituisce il risultato al frontend e genera un "Ultra CV" standardizzato, usando Affinda, le API di Claude, n8n ed Eden AI. Per Get2Germany ho integrato le Google API e sviluppato strumenti AI per trovare corsi, stage e offerte di lavoro, ottimizzando anche il database. Queste esperienze sono vicine alla costruzione di dataset alimentati da fonti diverse e a workflow che riducono l'inserimento manuale.
+
+Lavoro con n8n, API LLM, JavaScript/TypeScript, Next.js, Laravel, Supabase, Playwright e integrazioni CRM. Non ho esperienza diretta con Salesforce, ma ho esperienza pratica con sistemi CRM, API, automazioni di arricchimento e routing e processi end-to-end.
+
+Vivo a Venezia, lavoro sul fuso CET, ho una Partita IVA attiva e un permesso di soggiorno UE di lungo periodo italiano. Sono autorizzato a lavorare dall'Italia, disponibile subito e interessato a collaborare con il team Yuxme da remoto.
+
+Cordiali saluti,
+Prabhavit Gupta

@@ -1,0 +1,21 @@
+Drum'N'Code - Manual/Auto QA Engineer
+https://drumncode.peopleforce.io/careers/v/234241-manualauto-qa-engineer/a/new
+(via LinkedIn https://www.linkedin.com/jobs/view/4332444850/)
+
+NOT SUBMITTED. No success text was reached.
+
+All fields were filled and verified: Full name, Email, Linkedin, self-rated
+level (Middle), English level (Upper-Intermediate C1), the two QA free-text
+questions (AI-in-QA usage; manual/automated split), desired salary (45000),
+cover letter pasted into the rich-text box, and resume
+Prabhavit_CV_DrumNCode.pdf uploaded and filename-verified.
+
+The form's "Telegram username" field is server-side required. Clicking Apply
+returned exactly one validation error, "Telegram username can't be blank",
+confirming every other field passed. No real Telegram handle for Prabhavit
+exists in any canonical profile file, so none was invented (guardrail: never
+fabricate contact/demographic data not on file).
+
+Chrome tab left open for the user: tab id 550849908
+(https://drumncode.peopleforce.io/careers/v/234241-manualauto-qa-engineer/a/new)
+Action needed: enter a Telegram username and click "Apply".

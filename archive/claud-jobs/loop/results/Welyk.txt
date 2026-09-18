@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4460355068/
+ATS (Welyk own Teamtailor-powered recruiting site): https://recruiting.welyk.tech/jobs/8284991-ai-engineer-irnerius
+Confirmation: https://recruiting.welyk.tech/jobs/8284991/applications/63fc09ab-9300-41ed-b185-a0b82106ef69/thanks
+
+Uploaded: Prabhavit_CV_Welyk.pdf (2pp tectonic, tailored from Prabhavit_CV_EN.tex, parity-checked, no new claims).
+Letter: CoverLetter_Welyk.txt pasted into the "Lettera di presentazione" field (Italian, voi, no Lei, 0 em-dashes, ~280 words). Lead paragraph 1 = UltraStrategy document-parsing/evaluation pipeline (Affinda + Claude API), tied to the JD's legal/document AI theme. Lead paragraph 2 = FlowSpace support AI agents, tied to the JD's LLM-evaluation-engine theme. Second proof = Get2Germany API integrations/automations. Three years stated plainly.
+
+Answers given: Sedi = Milano; Nome Prabhavit, Cognome Gupta, Email prabhavitg@gmail.com, Telefono +39 351 610 7807; privacy-policy consent ticked; marketing/talent-pool contact checkbox left unticked (standing rule); post-submit "Come hai trovato questo ruolo?" survey answered Linkedin. No salary or years-of-experience field existed on this form (JD's own stated RAL 45-55k already matches the standing EUR 45,000-55,000 band).
+
+Blockers: none. Dedupe was HIT COMPANY only (a prior 2026-09-02 Welyk row for a different, DEAD-status requisition - "AI Engineer Nuvolari" - does not block per the brief's dedupe rule).
+
+LEARNINGS: Welyk's own ATS (recruiting.welyk.tech, Teamtailor-powered) is a single-page form (Sedi checkboxes, Nome/Cognome/Email/Telefono, CV upload, optional additional-file upload, cover-letter textarea, an optional "Rendila più personale" (+) menu that only offers fun personality prompts - not required fields, safe to skip) followed by a mandatory-looking but skippable post-submit "how did you find this role" survey that still routes to the real thanks/confirmation page whether or not you fill anything beyond the radio choice - the application is already recorded (job_application_id in the URL) the moment the first form's Invia is clicked, before the survey.

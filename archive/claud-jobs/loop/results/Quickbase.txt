@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+
+LinkedIn: https://www.linkedin.com/jobs/view/4453477700/
+ATS: Workday. Job page https://quickbase.wd504.myworkdayjobs.com/External/job/Sofia/Software-Engineer-1_R26_00162-1?source=LinkedIn
+Apply Manually direct URL: https://quickbase.wd504.myworkdayjobs.com/en-US/External/job/Sofia/Software-Engineer-1_R26_00162-1/apply/applyManually?source=LinkedIn (requisition R26_00162)
+
+Dedupe: NEW (python3 loop/dedupe.py --check), no prior Quickbase row in applications.csv.
+
+Hard gates: all clear. Software Engineer I, early-career, no years floor, English JD, React/TypeScript/REST-GraphQL claimable, EU on-site location (Sofia) with an unlimited-remote-work benefit listed, no MSc requirement, no anti-AI disclaimer (JD explicitly wants Claude Code/Copilot as a daily tool).
+
+Uploaded: nothing, blocked before the upload step.
+
+Built and ready:
+- Prabhavit_CV_Quickbase.tex/.pdf: 2 pages, tectonic-compiled, bullet-for-bullet parity verified against Prabhavit_CV_EN.tex. Summary trimmed to the AI-assisted-development + LLM-apps bullets. Technical Skills reordered Development (Claude Code/Laravel/TypeScript) first. FlowSpace carries 5 bullets (migration to Next.js/Laravel, OfficeRnD/Nexudus API integration, AI listing bot, AI support agents, team documentation collaboration). UltraStrategy and Get2Germany both kept 2 bullets each (API-integrations trigger from the brief, since the JD's core technical ask is REST/GraphQL API work). Dropped the "Low code development" phrase from Additional Information; kept the FlowSpace bullet naming Bubble.io because it evidences the Next.js/Laravel migration the JD wants.
+- CoverLetter_Quickbase.txt/.pdf: 272 words. Lead paragraph FlowSpace (migration off the legacy stack to Next.js/Laravel, AI listing bot, OfficeRnD/Nexudus integrations, Claude Code as a daily tool). Second paragraph Get2Germany (Google API integrations, AI tools for courses/internships/jobs), chosen over UltraStrategy since the JD needs REST/GraphQL API experience more than document-AI/CV-parsing. Bulgaria permit transparency line included (not authorised, employer files the permit, open to relocating to Sofia). No em-dashes (grep count 0), no "no-code"/"low-code"/"Bubble".
+
+Blocker: clicked Apply on LinkedIn -> opened the Workday tenant -> "Apply" -> modal "Choose your application journey: Apply Manually / Use My Last Application" -> Apply Manually -> step 1 of 6 is "Create Account/Sign In" (Email Address, Password, Verify New Password fields, password-complexity rules shown, no "continue as guest" or "apply without an account" control). Per brief, account creation is user-only. Did not create an account. Left the form at the Create Account screen, did not submit anything.
+
+Logged: applications.csv row (status NEEDS YOU), answers/quickbase-2026-09-11.md, NEEDS_YOU.md section C row 17h (says "quickbase ready" to trigger the fill-and-submit once you sign in).
+
+LEARNINGS: none new, this is the same Workday no-guest-path pattern already documented for SS&C Technologies (17g) and Accenture Italia (17f) — different tenant (quickbase.wd504.myworkdayjobs.com), same wall shape.

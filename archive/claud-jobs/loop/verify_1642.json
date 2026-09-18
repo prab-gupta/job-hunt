@@ -1,0 +1,365 @@
+{
+ "date": "2026-09-16",
+ "since": "2026-09-16T14:00",
+ "leads_count": 36,
+ "passed": [
+  {
+   "url": "https://www.arbeitnow.com/jobs/companies/koppla/product-engineer-frontend-all-genders-berlin-hybrid-359575",
+   "verdict": "PASS",
+   "reason": "2-5 years experience requirement matches profile (2.5-3yr). Strong technical fit: TypeScript/Vue/NestJS/PostgreSQL stack, hybrid Berlin role in EU, English-speaking startup environment with equity. Product-minded engineer role aligns with full-stack growth trajectory.",
+   "ats": "Arbeitnow",
+   "apply_url": "https://www.arbeitnow.com/jobs/companies/koppla/product-engineer-frontend-all-genders-berlin-hybrid-359575",
+   "lane": "C",
+   "fit": 80,
+   "account_wall": false,
+   "lead": {
+    "source": "arbeitnow",
+    "company": "Koppla",
+    "role": "Product Engineer - Frontend (all genders)",
+    "url": "https://www.arbeitnow.com/jobs/companies/koppla/product-engineer-frontend-all-genders-berlin-hybrid-359575",
+    "location": "Berlin (hybrid)"
+   },
+   "refuted": false,
+   "refute_reason": "JD contains no stated requirement blocking the candidate. Requires 2-5 years (candidate has 2.5-3 years); explicitly growth-focused role (not Senior/Staff/Lead); English-speaking workplace; Berlin location is EU-compatible; no prohibited stacks (no Java/.NET/C++/Go/Rust/Scala/Kotlin/Django-only/cloud-admin/embedded); posting active through Oct 28 2026; direct Koppla hire not agency. Vue/NestJS/AWS gap is learnable for JavaScript/TypeScript full-stack engineer in growth role."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-sales-engineer-at-orbio-ai-4467990785",
+   "verdict": "PASS",
+   "reason": "Entry-level AI Sales Engineer (hybrid Madrid, EU). No hard gates on years/seniority. Matches Prabhavit's AI/SaaS/LLM pipeline background. FDE profile (sales engineering + technical pre-sales) aligns with emerging skills. English required, Spanish beneficial.",
+   "ats": "LinkedIn",
+   "apply_url": "https://es.linkedin.com/jobs/view/ai-sales-engineer-at-orbio-ai-4467990785",
+   "lane": "B",
+   "fit": 70,
+   "account_wall": true,
+   "language_required": "English (Spanish beneficial)",
+   "lead": {
+    "source": "linkedin",
+    "company": "Orbio AI",
+    "role": "AI Sales Engineer",
+    "url": "https://es.linkedin.com/jobs/view/ai-sales-engineer-at-orbio-ai-4467990785",
+    "location": "Madrid, Community of Madrid, Spain",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467990785.txt"
+   },
+   "refuted": false,
+   "refute_reason": "No refutation found. JD requires English fluency (met), no minimum years stated (2.5-3 fits \"equivalent practical experience\"), no Senior/Staff/Lead title required, no specific tech stack mandated (sales role requires \"AI/SaaS/enterprise software\" knowledge only), location is Madrid (Spain, EU\u2014candidate is open to any EU location), posting valid through 2027-03-15 (not closed), direct Orbio AI hire (not agency). Spanish listed as \"highly beneficial\" not required."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-engineer-at-m%C3%A1tica-partners-4465970388",
+   "verdict": "PASS",
+   "reason": "1-2 years exp + GenAI production required; Prabhavit has 2.5-3 years with multiple shipped LLM projects. Spanish JD acceptable: project is '100% en ingl\u00e9s'. Stack fit perfect: LLM APIs, LangChain, vector DB, embeddings, Python, GCP/Supabase. Madrid on-site in EU. Salary 28-34k entry-level OK.",
+   "ats": "LinkedIn/Email",
+   "apply_url": "https://es.linkedin.com/jobs/view/ai-engineer-at-m%C3%A1tica-partners-4465970388",
+   "lane": "A",
+   "fit": 80,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin",
+    "company": "M\u00e1tica Partners",
+    "role": "AI Engineer",
+    "url": "https://es.linkedin.com/jobs/view/ai-engineer-at-m%C3%A1tica-partners-4465970388",
+    "location": "Madrid, Community of Madrid, Spain",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4465970388.txt"
+   },
+   "refuted": false,
+   "refute_reason": "Candidate exceeds all stated requirements: has 2.5\u20133 years experience (1\u20132 years required + 3\u20136mo GenAI minimum), Python/LLM stack directly matches, English-fluent for 100% English role, located in EU (Italy) with explicit remote flexibility (\"facilidades para trabajar desde donde quieras\"), no seniority gate, posting is open (valid through 2026-10-16), and employer is named/direct hire. No refutation factors present."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-agent-engineer-full-stack-experience-python-at-orbio-ai-4468203993",
+   "verdict": "PASS",
+   "reason": "Entry-level AI/full-stack role. Python + backend services + APIs + cloud match core skills. Madrid EU on-site acceptable.",
+   "ats": "LinkedIn",
+   "apply_url": "https://es.linkedin.com/jobs/view/ai-agent-engineer-full-stack-experience-python-at-orbio-ai-4468203993",
+   "lane": "C",
+   "fit": 78,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin",
+    "company": "Orbio AI",
+    "role": "AI Agent Engineer / Full Stack Experience (Python)",
+    "url": "https://es.linkedin.com/jobs/view/ai-agent-engineer-full-stack-experience-python-at-orbio-ai-4468203993",
+    "location": "Madrid, Community of Madrid, Spain",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468203993.txt"
+   },
+   "refuted": false,
+   "refute_reason": "No stated requirement exceeds 3 years experience (posting says \"equivalent practical experience\" only). Title is AI Agent Engineer (not Senior/Staff/Lead). No language requirement beyond English. Stack aligns: Python + LLM pipelines + Node/React covers full-stack + cloud + Docker + Git + CI/CD (no Java/.NET/C++/Go/Rust/Scala/Kotlin/Django-only requirement). Location is Madrid, Spain (EU match). Posting open, direct employer. Pass verified."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-orbio-ai-4468209434",
+   "verdict": "PASS",
+   "reason": "Entry-level FDE role in Madrid (EU on-site acceptable). Stack includes Python and 'similar' languages (covers TypeScript); Prabhavit has Node.js back-end + APIs + microservices + database (Supabase/PostgreSQL). AI experience is a plus, he has LLM APIs/RAG. Hybrid model fits his location flexibility.",
+   "ats": "LinkedIn",
+   "apply_url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-orbio-ai-4468209434",
+   "lane": "B",
+   "fit": 72,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Madrid",
+    "company": "Orbio AI",
+    "role": "Forward Deployed Engineer",
+    "url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-orbio-ai-4468209434",
+    "location": "Madrid, Community of Madrid, Spain",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468209434.txt"
+   },
+   "refuted": false,
+   "refute_reason": "No refutation found. Job states no years requirement, no level requirement (just \"Engineer\"), no language requirement other than implicit for Madrid, stack compatible (Python explicit + TypeScript/Node as modern languages), location is Madrid/EU (candidate open to any EU), posting open (valid through March 2027), direct Orbio AI hiring."
+  },
+  {
+   "url": "https://pt.linkedin.com/jobs/view/product-engineer-new-verticals-at-bounce-4468231411",
+   "verdict": "PASS",
+   "reason": "First sentence: 'Bounce is building cloud storage for the physical world, starting with the largest global luggage storage network in existence.' Language: English. Stack: React/NextJS/TypeScript core (strong match); Elixir/React Native secondary. Product engineer role with end-to-end ownership\u2014aligns with user's full-stack background. Lisbon, Portugal (EU on-site acceptable). Seniority: Not Applicable (mid-level). No hard gates violated.",
+   "ats": "LinkedIn",
+   "apply_url": "https://pt.linkedin.com/jobs/view/product-engineer-new-verticals-at-bounce-4468231411",
+   "lane": "C",
+   "fit": 75,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Lisbon",
+    "company": "Bounce",
+    "role": "Product Engineer, New Verticals",
+    "url": "https://pt.linkedin.com/jobs/view/product-engineer-new-verticals-at-bounce-4468231411",
+    "location": "Lisboa, Lisbon, Portugal",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468231411.txt"
+   },
+   "refuted": false,
+   "refute_reason": "Posting is a fit. EU location (Lisbon, Portugal), open (valid until 2026-10-16), no seniority level stated, no years specified (only \"Experience shipping production software\"), candidate's TypeScript satisfies \"one or more of: Typescript/Javascript, Elixir, Ruby\", React explicitly required and candidate has it, English-only requirement satisfied, direct company hiring (not agency)."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/python-machine-learning-engineer-hybrid-madrid-at-ust-espa%C3%B1a-latam-4442626475",
+   "verdict": "PASS",
+   "reason": "Language: English (C1 required). Stack: Python (yes), LLMs (yes), RAG (yes), AI Agents (partial, n8n automation background), but missing hands-on TensorFlow/PyTorch (core requirement) and theoretical foundation (stats/linear algebra, typically CS/Math degree). Bachelor's or Master's in CS/Math/stats/related field preferred; user BA non-CS. Madrid hybrid 3 days/week (EU acceptable). No hard gates; fit limited by missing ML framework hands-on experience.",
+   "ats": "LinkedIn",
+   "apply_url": "https://es.linkedin.com/jobs/view/python-machine-learning-engineer-hybrid-madrid-at-ust-espa%C3%B1a-latam-4442626475",
+   "lane": "A",
+   "fit": 45,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Madrid",
+    "company": "UST Espa\u00f1a & Latam",
+    "role": "Python Machine Learning Engineer (Hybrid - Madrid)",
+    "url": "https://es.linkedin.com/jobs/view/python-machine-learning-engineer-hybrid-madrid-at-ust-espa%C3%B1a-latam-4442626475",
+    "location": "Madrid, Community of Madrid, Spain",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4442626475.txt"
+   },
+   "refuted": false,
+   "refute_reason": "Job posting has no explicit years requirement (mandatory section lists capabilities only), job level is \"Engineer\" not Senior/Lead/Principal/Staff, requires English C1 which candidate has, all mandatory tech (Python, TensorFlow/PyTorch, LLMs, RAG, AI Agents) are in candidate's stack, location is Madrid/EU matching candidate's availability, posting is open and from named company (UST Espa\u00f1a & Latam)."
+  },
+  {
+   "url": "https://de.linkedin.com/jobs/view/product-engineer-growth-ai-music-video-platform-at-neural-frames-4466860344",
+   "verdict": "PASS",
+   "reason": "Strong technical match: React/Next.js/TypeScript (core stack), Python backend, SQL, growth-oriented with high agency and shipping daily. Associate level fits 2.5-3yr experience. Bootstrapped, profitable company. First sentence: \"Neural Frames is a leading AI music video generator, turning any song into a fully produced music video in minutes.\" Language: English.",
+   "ats": "LinkedIn Jobs",
+   "apply_url": "https://de.linkedin.com/jobs/view/product-engineer-growth-ai-music-video-platform-at-neural-frames-4466860344",
+   "lane": "C",
+   "fit": 85,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Berlin",
+    "company": "Neural Frames",
+    "role": "Product Engineer (Growth) // AI Music Video Platform",
+    "url": "https://de.linkedin.com/jobs/view/product-engineer-growth-ai-music-video-platform-at-neural-frames-4466860344",
+    "location": "Berlin, Berlin, Germany",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466860344.txt"
+   },
+   "refuted": false,
+   "refute_reason": "No refutation criteria present. Posting requires no years/seniority beyond candidate's profile, all technical stack requirements (React, Next.js, TypeScript, Python) match candidate exactly, location is Berlin (EU, within candidate's geographic scope), no non-English language requirement, posting is live and open, and employer is named. Pass is valid."
+  },
+  {
+   "url": "https://pt.linkedin.com/jobs/view/full-stack-engineer-at-thought-machine-4468207034",
+   "verdict": "PASS",
+   "reason": "Solid full-stack match: React/TypeScript frontend, REST APIs, Python in desirable skills. Fintech domain with well-funded stable company (\u00a3500m raised, 550+ team, Great Place to Work culture). JD explicitly welcomes career changers ('encouraged to apply even if experience doesn't match'). First sentence: \"Thought Machine's mission is bold \u2013 to properly and permanently rid the world's banks of legacy technology.\" Language: English. Pay: \u20ac55K-\u20ac75K; 4 days/week onsite Lisbon acceptable.",
+   "ats": "LinkedIn Jobs",
+   "apply_url": "https://pt.linkedin.com/jobs/view/full-stack-engineer-at-thought-machine-4468207034",
+   "lane": "C",
+   "fit": 85,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Lisbon",
+    "company": "Thought Machine",
+    "role": "Full Stack Engineer",
+    "url": "https://pt.linkedin.com/jobs/view/full-stack-engineer-at-thought-machine-4468207034",
+    "location": "Lisboa, Lisbon, Portugal",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468207034.txt"
+   },
+   "refuted": false,
+   "refute_reason": "No refutation criteria found. Position is Full Stack Engineer (mid-level, not Senior+) in Lisbon, EU. Essential stack (React, TypeScript, REST APIs) fully matches candidate's 2.5-3yr background. No explicit years requirement stated. No non-English language requirement. Desirables include Python (candidate has). Job explicitly welcomes applications from those whose experience doesn't perfectly match description."
+  },
+  {
+   "url": "https://pt.linkedin.com/jobs/view/product-engineer-core-at-bounce-4468223482",
+   "verdict": "PASS",
+   "reason": "First sentence: 'Bounce is seeking a Product Engineer to join our Lisbon office.' Language: English. No explicit years requirement stated. Tech stack includes TypeScript, React, Next.js (core match); Elixir listed but not gated. Seniority 'Not Applicable' suggests mid-level generalist role. Lisbon EU location +10. Generalist ownership approach matches Prab's full-stack background.",
+   "ats": "LinkedIn",
+   "apply_url": "https://pt.linkedin.com/jobs/view/product-engineer-core-at-bounce-4468223482",
+   "lane": "C",
+   "fit": 82,
+   "account_wall": true,
+   "lead": {
+    "source": "linkedin:Lisbon",
+    "company": "Bounce",
+    "role": "Product Engineer, Core",
+    "url": "https://pt.linkedin.com/jobs/view/product-engineer-core-at-bounce-4468223482",
+    "location": "Lisboa, Lisbon, Portugal",
+    "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468223482.txt"
+   },
+   "refuted": false,
+   "refute_reason": "Posting requires only \"relevant experience\" developing production systems (no years stated), Product Engineer level (not Senior/Staff), TypeScript/React (candidate has both), Lisbon EU location (candidate open to any EU), and no non-English language requirement. Pass is valid."
+  }
+ ],
+ "killed": [
+  {
+   "url": "https://www.arbeitnow.com/jobs/companies/planetlabs/software-engineer-berlin-199700",
+   "company": "planetlabs",
+   "role": "Software Engineer",
+   "reason": "Required experience 4+ years in production environments (exceeds hard gate threshold of > 3 years). Java/Go primary stack preference; Python secondary. Requires cloud admin / distributed systems depth beyond profile scope."
+  },
+  {
+   "url": "https://jobs.workable.com/view/cjZH7wnFUQXDgnCEwK5LiU/ai-engineer-in-athens-at-%CE%BF%CE%BC%CE%B9%CE%BB%CE%BF%CF%82-%CE%B3%CE%B5%CE%BA-%CF%84%CE%B5%CF%81%CE%BD%CE%B1-%2F-gek-terna-group",
+   "company": "\u039f\u039c\u0399\u039b\u039f\u03a3 \u0393\u0395\u039a \u03a4\u0395\u03a1\u039d\u0391 / GEK TERNA GROUP",
+   "role": "AI Engineer",
+   "reason": "Required experience: minimum 2 years GenAI + at least 3 additional years development projects = 5 years total (exceeds hard gate of > 3 years). On-site Athens role acceptable for EU, but experience requirement is disqualifying."
+  },
+  {
+   "url": "https://jobs.ashbyhq.com/lumaai/261f3ac9-592e-41a6-b978-d17d8291845c",
+   "company": "lumaai",
+   "role": "Forward Deployed Creative [Germany]",
+   "reason": "Forward Deployed Creative role requires Senior Creative Director experience, VFX/animation/motion graphics expertise, and an outstanding creative portfolio. Prabhavit's core stack is full-stack software engineering (TypeScript/Next.js/React/Node + Laravel/PHP + Python LLM pipelines). This is a creative production / design track role; core skill set mismatch."
+  },
+  {
+   "url": "https://fr.linkedin.com/jobs/view/founding-forward-deployed-engineer-ai-at-bazylic-4467963587",
+   "company": "Bazylic",
+   "role": "Founding Forward Deployed Engineer - AI",
+   "reason": "Hard gate on years of experience. JD requires '4+ years shipping software in production, with real customer-facing time' as foundational prerequisite. Prabhavit has 2.5\u20133 years experience (below requirement by 1+ year)."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/product-ai-engineer-65k%E2%82%AC-85k%E2%82%AC-at-joppy-4466828898",
+   "company": "Joppy",
+   "role": "Product AI Engineer (65K\u20ac-85K\u20ac)",
+   "reason": "refuted: Agency posting for unnamed client: \"Joppy is partnering with a leading company in the Business Management software sector to find engineers who...\" \u2014 the actual employer is not disclosed."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-product-engineer-at-innoit-consulting-4468205090",
+   "company": "InnoIT Consulting",
+   "role": "AI Product Engineer",
+   "reason": "Hard gate: Senior level required ('Senior AI Product Engineer'). Prabhavit 2.5-3 years = mid level. Spanish JD without explicit work-language confirmation (unlike M\u00e1tica's '100% en ingl\u00e9s'); only states professional English required, not that work is in English."
+  },
+  {
+   "url": "https://dk.linkedin.com/jobs/view/operations-support-engineer-at-inspari-a-s-4467984349",
+   "company": "Inspari A/S",
+   "role": "Operations Support Engineer",
+   "reason": "JD is in Danish, not English or Italian. First sentence: 'Vil du v\u00e6re med til at holde vores kunders data-, AI- og platformmilj\u00f8er k\u00f8rende \u2013 og l\u00e6re af nogle af branchens dygtigste undervejs?' Language gate triggered."
+  },
+  {
+   "url": "https://lt.linkedin.com/jobs/view/test-automation-engineer-python-at-quadigi-4465987439",
+   "company": "QuaDigi",
+   "role": "Test Automation Engineer (Python)",
+   "reason": "Seniority 'Mid-Senior level' with requirement for 'several years of professional experience in Python' and professional tester background exceeds 2.5\u20133 years experience ceiling. Hard gate: required experience > 3 years."
+  },
+  {
+   "url": "https://de.linkedin.com/jobs/view/ai-engineer-d-w-m-im-bereich-consulting-at-4flow-4440008302",
+   "company": "4flow",
+   "role": "AI Engineer (d/w/m) - im Bereich Consulting",
+   "reason": "JD is in German, not English or Italian. First sentence: '4flow \u2013 das sind 1500+ Teammitglieder an 20+ Standorten weltweit.' Requires 'Sehr gute Deutsch- und Englischkenntnisse' (very good German). Language gate triggered."
+  },
+  {
+   "url": "https://de.linkedin.com/jobs/view/ai-engineer-d-w-m-im-bereich-consulting-at-4flow-4440012223",
+   "company": "4flow",
+   "role": "AI Engineer (d/w/m) - im Bereich Consulting",
+   "reason": "JD posted in German; requires 'Sehr gute Deutsch- und Englischkenntnisse' (very good German fluency). Prabhavit has no German skills."
+  },
+  {
+   "url": "https://de.linkedin.com/jobs/view/ai-engineer-m-f-d-at-obermeyer-group-4466854483",
+   "company": "OBERMEYER Group",
+   "role": "AI ENGINEER (m/f/d)",
+   "reason": "JD posted in German; requires fluent English and German to 'explain technical concepts clearly to non-technical audiences' in both languages. Prabhavit has no German skills."
+  },
+  {
+   "url": "https://nl.linkedin.com/jobs/view/ai-engineer-at-flow-traders-4465974539",
+   "company": "Flow Traders",
+   "role": "AI Engineer",
+   "reason": "Seniority level: Mid-Senior (exceeds 3-year requirement). Prabhavit is 2.5\u20133 years experience, mid-level engineer. Stack (Python, LLM agents, RAG, Docker/K8s, CI/CD) is strong match, but experience ceiling is exceeded."
+  },
+  {
+   "url": "https://cz.linkedin.com/jobs/view/commercial-systems-automation-specialist-at-whalebone-4467963941",
+   "company": "Whalebone",
+   "role": "Commercial Systems & Automation Specialist",
+   "reason": "Mid-Senior level seniority gate. Also: RevOps/CRM systems analyst (HubSpot admin, Asana), not core full-stack engineering."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-secture-4465952701",
+   "company": "Secture",
+   "role": "Forward Deployed Engineer",
+   "reason": "JD entirely in Spanish; no explicit statement that English is acceptable as working language. User profile requires English only."
+  },
+  {
+   "url": "https://nl.linkedin.com/jobs/view/software-engineer-integrations-remote-at-torentify-4468214899",
+   "company": "Torentify",
+   "role": "Software Engineer, Integrations - Remote",
+   "reason": "JD requires mastery of Go, Java, C#, C++, or Rust as core backend language (Go strongly preferred); Prabhavit's stack is TypeScript/Node/Python/Laravel, missing required compiled languages."
+  },
+  {
+   "url": "https://it.linkedin.com/jobs/view/ai-machine-learning-engineer-at-fd-group-4465994889",
+   "company": "FD Group",
+   "role": "AI/Machine Learning Engineer",
+   "reason": "JD requires mastery of C++ alongside Python for AI/ML model development; Prabhavit's stack lacks C++ (has TypeScript/Node/Python/Laravel)."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/thinker-forward-deployment-core-engineer-at-talky-labs-4468218288",
+   "company": "Talky Labs",
+   "role": "Thinker (Forward Deployment/Core Engineer)",
+   "reason": "JD seniority level is Mid-Senior, which implies 5+ years of experience. Hard gate: required experience exceeds 3-year maximum. First sentence: 'We are looking for a Forward Deployment and a Core Engineer with experience in Python and AWS who wants to work on complex systems, scale production solutions, and be part of a company building the autonomous engine that transforms raw data into financial truth.' Language: English."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-engineer-%E2%82%AC45k-%E2%82%AC55k-at-joppy-4466835840",
+   "company": "Joppy",
+   "role": "AI Engineer | \u20ac45K - \u20ac55K",
+   "reason": "JD requires 'Fluent in Spanish and comfortable working in English.' Hard gate: user cannot claim fluent Spanish (Italian speaker, not Spanish). First sentence: 'One of the companies we partner with at Joppy is looking to hire an AI Engineer passionate about designing, building, and deploying intelligent automation systems to solve complex real-world challenges.' Language: English, but Spanish fluency mandatory."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/forward-deployment-engineer-at-xenon-seven-4467995644",
+   "company": "Xenon Seven",
+   "role": "Forward Deployment Engineer",
+   "reason": "JD explicitly requires '5+ years of hands-on software development and full-stack AI application deployment.' Hard gate: required experience exceeds 3-year maximum. First sentence: 'We are seeking a high-caliber Forward Deployment Engineer (FDE) to sit at the intersection of enterprise AI platforms and executive Finance business functions for our Fortune 100 enterprise client.' Language: English."
+  },
+  {
+   "url": "https://pt.linkedin.com/jobs/view/process-intelligence-automation-engineer-celonis-m-f-d-at-startupjobs-pt-4467995636",
+   "company": "startupjobs.pt",
+   "role": "Process Intelligence & Automation Engineer (Celonis)(m/f/d)",
+   "reason": "Requires 3+ years hands-on building production automations on process orchestration/automation platforms (Celonis, n8n, UiPath, Power Automate, Make). User has 2.5\u20133 years total full-stack experience; cannot credibly claim 3+ years in specialized automation platform work. Hard gate: insufficient specialized depth in required sub-specialization."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/machine-learning-engineer-junior-at-ixen-4468205355",
+   "company": "IXEN",
+   "role": "Machine Learning Engineer -Junior",
+   "reason": "JD is in Spanish. First sentence: 'En IXEN buscamos un/a Machine Learning Engineer con 1-2 a\u00f1os de experiencia para unirse a nuestro equipo de Development.' Only English or Italian JDs accepted; Spanish triggers hard gate."
+  },
+  {
+   "url": "https://ie.linkedin.com/jobs/view/software-engineer-at-tata-consultancy-services-4466862588",
+   "company": "Tata Consultancy Services",
+   "role": "Software Engineer",
+   "reason": "Role titled 'Senior Software Engineer' (seniority gate: Senior/Staff/Lead/Principal = KILL); requires 6+ years experience (gate: > 3 years = KILL). Prabhavit has 2.5\u20133 years."
+  },
+  {
+   "url": "https://pt.linkedin.com/jobs/view/rpa-automation-developer-at-inetum-4421867444",
+   "company": "Inetum",
+   "role": "RPA Automation Developer",
+   "reason": "refuted: Job requires C# / VB.NET (.NET stack) as primary language for UiPath RPA development: \"Programming Languages: C# / VB.NET, JavaScript, SQL\". Candidate's stack (TypeScript/React/Node/Laravel/Python) lacks .NET experience. .NET is a disqualifying core stack per the review criteria."
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/ai-consultant-at-creatio-4458789378",
+   "company": "Creatio",
+   "role": "AI Consultant",
+   "reason": "Seniority level Mid-Senior typically requires 4-5+ years experience (exceeds 2.5-3 year limit); this is a consulting/presales role outside software engineering background (requires business analysis, AI consulting, solution consulting experience, not engineering)"
+  },
+  {
+   "url": "https://es.linkedin.com/jobs/view/full-stack-product-engineer-45k%E2%82%AC-55k%E2%82%AC-at-joppy-4466837481",
+   "company": "Joppy",
+   "role": "Full Stack Product Engineer (45K\u20ac - 55K\u20ac)",
+   "reason": "refuted: Required language other than English. Posting states: \"Fluency in Spanish and comfortable communicating in English (documentation and projects are in English, day-to-day conversations are often in Spanish)\" under Requirements. Candidate is English only."
+  },
+  {
+   "url": "https://it.linkedin.com/jobs/view/ai-python-developer-at-altherias-4467976801",
+   "company": "Altherias",
+   "role": "AI & Python Developer",
+   "reason": "JD in Italian (conversational Italian gate lifted per memory). Requires 'Almeno 3 anni di esperienza nello sviluppo back-end con Python e FastAPI' \u2014 FastAPI-only backend stack. Hard gate: core stack Prabhavit cannot claim is 'FastAPI-only backend.' Proven backend experience is Node.js + Laravel, not FastAPI. FastAPI not listed in Prab's tech stack (Python used for LLM pipelines/scraping only, not web backend)."
+  }
+ ]
+}

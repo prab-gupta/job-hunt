@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458173720/ (Agentic Forward Deployed Engineer, HCLTech, Amsterdam, North Holland, Netherlands)
+
+Uploaded: Prabhavit_CV_HCLTech.pdf (built fresh from Prabhavit_CV_EN.tex, verified selected over the pre-checked most-recent library file before submit).
+Cover letter: CoverLetter_HCLTech.pdf/.txt built and kept on file; this Easy Apply flow (3 pages: contact, resume, review) had no screening questions and no cover letter field.
+
+No blockers. "Follow HCLTech" checkbox unticked before submit. Confirmed via "Application submitted - now" status panel. Nothing broke; no new LEARNINGS entry needed.

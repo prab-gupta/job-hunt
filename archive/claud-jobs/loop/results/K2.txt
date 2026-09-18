@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461679105/
+Uploaded: Prabhavit_CV_K2.pdf (explicit upload, replaced pre-selected library resume Prabhavit_CV_Rochling.pdf)
+Cover letter: CoverLetter_K2.pdf/.txt prepared but not attached (LinkedIn flow had no cover letter field)
+Answers given: Italian proficiency = Conversational; API integration experience = Yes; AI/LLM hands-on experience = Yes; worked directly with enterprise customers = Yes; phone 3516107807 (field was blank despite +39 prefilled)
+Blockers: none
+Notes: Agency posting recruiting for an undisclosed AI company client, Milan or Rome hybrid 4 days/week, JD asks 5+ years and Italian+English. Applied anyway per user rule 2026-09-16 (clear all FDE Italy/EU, no kill for years/seniority/agency; has conversational Italian so not a language gap). Confirmation: confirmations/K2-2026-09-16.png + .txt

@@ -1,0 +1,15 @@
+TO: careers@aindo.com
+SUBJECT: AI engineer for data pipelines, Italy based
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Daniele e team,
+
+Aindo's synthetic data platform for healthcare is a sharp problem, generation and validation at production quality. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus API integrations, on Next.js + Laravel + Supabase.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy. Since your careers address is open, would love a 15 minute call about engineering roles, or a pointer to whoever is hiring.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

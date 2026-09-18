@@ -1,0 +1,14 @@
+Dear Juna AI Team,
+
+I am applying for the Forward Deployed Engineer role in Berlin. I am a full-stack and AI developer with three years of production experience across eight European companies, drawn to a role built around owning a customer problem end to end rather than shipping features in isolation.
+
+At FlowSpace, a coworking marketplace I have led as developer since 2024, I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, and an AI listing bot that turns a workspace provider's brochure, in any format, into a drafted listing with a human in the loop. I also automated the platform's migration onto Next.js and Laravel while it stayed live, mapping the old data structure entity by entity, and integrated OfficeRnD and Nexudus for automated bookings.
+
+At UltraStrategy in France, I built a CV-parsing pipeline with n8n, Eden AI, Affinda and the Claude API. A user uploads a CV, the pipeline extracts the data and scores it against specific role types, and a standardised Ultra CV is generated and delivered to the frontend, the same pattern of turning messy real-world input into a working agent that this role asks for.
+
+I do not come in with a senior title, but I have shipped across the stack, backend, integrations and frontend, on every project above, and I learn fast on unfamiliar ground. I am comfortable working on-site and travelling to customer sites.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Berlin and complete that process.
+
+Kind regards,
+Prabhavit Gupta

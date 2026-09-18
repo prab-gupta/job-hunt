@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4462346812",
+      "title": "Forward Deployed Engineer",
+      "company": "Brickanta",
+      "companyUrl": "https://se.linkedin.com/company/brickanta",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "date": "2026-09-05",
+      "url": "https://se.linkedin.com/jobs/view/forward-deployed-engineer-at-brickanta-4462346812"
+    },
+    {
+      "id": "4437440691",
+      "title": "Forward Deployed Engineer",
+      "company": "Intric",
+      "companyUrl": "https://se.linkedin.com/company/intricai",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "date": "2026-09-03",
+      "url": "https://se.linkedin.com/jobs/view/forward-deployed-engineer-at-intric-4437440691"
+    },
+    {
+      "id": "4462791662",
+      "title": "Forward Deployed Engineer",
+      "company": "Venatrix",
+      "companyUrl": "https://uk.linkedin.com/company/venatrix",
+      "location": "Berlin, Germany",
+      "date": "2026-09-03",
+      "url": "https://de.linkedin.com/jobs/view/forward-deployed-engineer-at-venatrix-4462791662"
+    },
+    {
+      "id": "4464482787",
+      "title": "Platform Engineer (AI-First)",
+      "company": "Bloom",
+      "companyUrl": "https://dk.linkedin.com/company/bloom",
+      "location": "Aarhus, Central Denmark Region, Denmark",
+      "date": "2026-09-08",
+      "url": "https://dk.linkedin.com/jobs/view/platform-engineer-ai-first-at-bloom-4464482787"
+    },
+    {
+      "id": "4463517220",
+      "title": "Forward Deployed Engineer",
+      "company": "Leyton",
+      "companyUrl": "https://fr.linkedin.com/company/leyton",
+      "location": "Sant Cugat del Vallès, Catalonia, Spain",
+      "date": "2026-09-08",
+      "url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-leyton-4463517220"
+    },
+    {
+      "id": "4448391716",
+      "title": "Forward Deployed Engineer",
+      "company": "Intric",
+      "companyUrl": "https://se.linkedin.com/company/intricai",
+      "location": "Berlin, Berlin, Germany",
+      "date": "2026-09-03",
+      "url": "https://de.linkedin.com/jobs/view/forward-deployed-engineer-at-intric-4448391716"
+    },
+    {
+      "id": "4462657728",
+      "title": "Solution Engineer - Integrations Focus",
+      "company": "Brickanta",
+      "companyUrl": "https://se.linkedin.com/company/brickanta",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "date": "2026-09-06",
+      "url": "https://se.linkedin.com/jobs/view/solution-engineer-integrations-focus-at-brickanta-4462657728"
+    },
+    {
+      "id": "4459513740",
+      "title": "Forward Deployed Engineer",
+      "company": "Scout Global",
+      "companyUrl": "https://uk.linkedin.com/company/scoutglobal",
+      "location": "Stockholm County, Sweden",
+      "date": "2026-09-08",
+      "url": "https://se.linkedin.com/jobs/view/forward-deployed-engineer-at-scout-global-4459513740"
+    },
+    {
+      "id": "4461307289",
+      "title": "Forward Deployed Engineer - Fastest Growing AI Start-Up in Europe",
+      "company": "Morela Solutions",
+      "companyUrl": "https://uk.linkedin.com/company/morela-solutions",
+      "location": "Athens, Attiki, Greece",
+      "date": "2026-09-02",
+      "url": "https://gr.linkedin.com/jobs/view/forward-deployed-engineer-fastest-growing-ai-start-up-in-europe-at-morela-solutions-4461307289"
+    },
+    {
+      "id": "4464617362",
+      "title": "Forward Deployed Engineer - Mainloop",
+      "company": "Leyton",
+      "companyUrl": "https://fr.linkedin.com/company/leyton",
+      "location": "Barcelona, Catalonia, Spain",
+      "date": "2026-09-08",
+      "url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-mainloop-at-leyton-4464617362"
+    }
+  ]
+}

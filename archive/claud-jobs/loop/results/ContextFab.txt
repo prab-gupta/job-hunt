@@ -1,0 +1,20 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452385926/
+ATS: company careers page (contextfab.ai/careers/forward-deployed-engineer)
+
+Uploaded: Prabhavit_CV_ContextFab.pdf (2 pages, tailored from Prabhavit_CV_EN.tex; FlowSpace 3 bullets led, Get2Germany reordered ahead of Urlink/UltraStrategy as the API/data-integration pair, all bullets verbatim-traced to EN.tex). No cover letter upload field existed on this simple company-site form, so CoverLetter_ContextFab.pdf/.txt were built but the substance was folded directly into the form's free-text fields instead.
+
+Answers given:
+- Name: Prabhavit Gupta, Email: prabhavitg@gmail.com, Phone: +39 351 610 7807, LinkedIn: linkedin.com/in/prabhavit
+- "What's the most awesome thing you've built?": the FlowSpace AI listing bot (brochure to structured listing, Claude API + n8n, 900+ drafts in production)
+- "Anything else you want to tell us?": per the JD's explicit instruction to list all languages and levels in this field, answered English professional/C2, Hindi native, Italian conversational B1-B2, plus honest 3-years framing (FlowSpace + Get2Germany) and the Germany relocation work-authorisation transparency line verbatim from answers/work-authorisation.md
+- Salary expectations (optional): EUR 45,000-55,000 (standing band)
+- Earliest start date: 2026-09-16 (immediately, standing answer)
+- GDPR consent checkbox: ticked
+
+Fit: JD says "Fluent in English; French, Italian, German or other European languages are a plus" - Italian is a plus not a requirement, no language kill. Applied under the 2026-09-16 clear-all-FDE-Italy/EU rule.
+
+Confirmation: confirmations/ContextFab-2026-09-16.txt ("Thank you. We received your application for Forward Deployed Engineer.")
+
+Blockers: none.
+LEARNINGS: none new.

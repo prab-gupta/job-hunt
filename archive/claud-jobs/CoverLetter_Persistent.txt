@@ -1,0 +1,12 @@
+Dear Persistent Systems hiring team,
+
+I am applying for the Forward Deployed Engineer (FDE Lead) role in Germany. Over the past three years I have worked full-stack across frontend, backend, APIs and AI-assisted development, owning delivery in a live production environment rather than only in exploratory demos.
+
+At FlowSpace, a live coworking marketplace, I drove the migration off a legacy stack onto Next.js and Laravel while the product stayed live, mapping the old data structure to the new one entity by entity, and the platform grew from 2,000 to over 4,500 users. I built an AI listing bot on the Claude API and n8n that turns a brochure in any format into a drafted listing with a human in the loop, over 900 produced so far, plus support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, and I integrated OfficeRnD and Nexudus for automated bookings.
+
+At Urlink, I worked as project manager and developer on an AI-assisted platform build on Next.js and Supabase, translating client requirements into working automations and UI, end to end from the first conversation with the client through to what shipped.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate, work on-site with clients as required, and start soon after an offer.
+
+Regards,
+Prabhavit Gupta

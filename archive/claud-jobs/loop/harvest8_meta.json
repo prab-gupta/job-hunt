@@ -1,0 +1,86 @@
+{
+"4468381335": {
+"company": "Abacus.AI",
+"title": "Customer Success Engineer",
+"location": "Poland",
+"offsite": true,
+"ab": 1
+},
+"4448285518": {
+"company": "TXT GROUP",
+"title": "Machine Learning Engineer",
+"location": "Turin, Piedmont, Italy",
+"offsite": true,
+"ab": 1
+},
+"4466847403": {
+"company": "MSC Mediterranean Shipping Company",
+"title": "AI Developer",
+"location": "Turin, Piedmont, Italy",
+"offsite": true,
+"ab": 1
+},
+"4440070260": {
+"company": "Prima",
+"title": "Data Scientist GenAI",
+"location": "Milan, Lombardy, Italy",
+"offsite": true,
+"ab": 1
+},
+"4468374668": {
+"company": "Cinque Terre Riviera incoming tour operator",
+"title": "AI Operations Strategist",
+"location": "Vernazza, Liguria, Italy",
+"offsite": false,
+"ab": 2
+},
+"4465998795": {
+"company": "Run2AI",
+"title": "Sviluppatore back-end",
+"location": "Lombardy, Italy",
+"offsite": false,
+"ab": 2
+},
+"4459175293": {
+"company": "Officine IADR",
+"title": "Dev",
+"location": "Greater Genoa Metropolitan Area",
+"offsite": false,
+"ab": 2
+},
+"4467991514": {
+"company": "OANDA",
+"title": "Associate Software Engineer (React.js, Python)",
+"location": "Cracow, Ma\u0142opolskie, Poland",
+"offsite": true,
+"ab": 1
+},
+"4468374757": {
+"company": "Minerva Imaging",
+"title": "Junior Python Developer",
+"location": "\u00d8lstykke, Capital Region of Denmark, Denmark",
+"offsite": true,
+"ab": 1
+},
+"4468250324": {
+"company": "Crodox",
+"title": "Developer Advocate (m/f/d)",
+"location": "Germany",
+"offsite": false,
+"ab": 2
+},
+"4421867444": {
+"company": "Inetum",
+"title": "RPA Automation Developer",
+"location": "Lisboa, Lisbon, Portugal",
+"offsite": false,
+"ab": 2
+},
+"4465956974": {
+"company": "Coherent Solutions",
+"title": "RPA Engineer (Data Center)",
+"location": "Poland",
+"offsite": true,
+"ab": 1
+}
+}

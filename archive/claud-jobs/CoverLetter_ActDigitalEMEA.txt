@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear act digital team,
+
+I am writing to apply for the Forward Deployed Engineer, Applied AI role. I want to be upfront: I have three years of professional experience, shorter than the tech lead and principal backgrounds the posting lists, but dense and hands on, across eight European companies, building and shipping the kind of LLM and agent based systems this role is about.
+
+At FlowSpace, a live workspace marketplace, I took over the platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the data model entity by entity and driving the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I built and own an AI listing bot that takes a workspace brochure in any format, PDF, website, photo or spreadsheet, and drafts a full listing with a human in the loop, 900 plus listings drafted so far, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated, using Affinda and the Claude API for parsing and generation and n8n and Eden AI for the extraction tool.
+
+I am hands on by habit, comfortable prototyping, coding, and working directly with client teams and stakeholders, and I use Claude and Claude Code daily as part of how I build. I am open to relocating to Paris. I hold Italian EU long-term resident status. I am not currently authorised to work in France and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to your Applied AI practice.
+
+Regards,
+Prabhavit Gupta

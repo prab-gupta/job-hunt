@@ -1,0 +1,13 @@
+SUBMITTED via Playwright - NestAI, Forward Deployed Full Stack Engineer, Helsinki (Teamtailor-style ATS embedded on www.nestai.com)
+Confirmation page: https://www.nestai.com/thank-you
+Text: "Thanks! We have received your application and will be reviewing it shortly"
+
+Guest apply, no account creation, embedded application iframe directly on the job page (no separate Apply click needed). Full live JD checked: no language requirement anywhere. Practicalities note ("NestAI is focusing to hire talent already located in Finland... Remote work from abroad is not possible") is a location/logistics constraint, not a language requirement, so it did not trigger a kill under the FDE standing rule (kill only for closed/dup/language); addressed honestly in the cover letter as a relocation-readiness statement instead.
+
+Fields: How did you hear about jobs at NestAI = LinkedIn; Locations = Helsinki; First/Last name Prabhavit/Gupta; Email prabhavitg@gmail.com; Phone changed from default Finland (+358) to Italy (+39) 351 610 7807; Upload resume = Prabhavit_CV_NestAI.pdf; Cover letter pasted as plain text into the form's own textarea; ticked required Privacy Policy consent; left "NestAI can contact me about future opportunities" unticked.
+
+Technical note: the embedded cookie-consent <dialog> on this page kept intercepting pointer-events at the Submit button's location even though it was visually gone from the viewport (a stale native <dialog open> element left in the DOM by the cookie-consent widget after the outer page's own separate cookie banner was already dismissed). Standard ref-based clicks on the Decline button and then on Submit both timed out with "subtree intercepts pointer events". Resolved by calling dialog.close() and dialog.remove() directly on the dialog element handle via browser_evaluate targeted at that ref, which Playwright can do even across the iframe boundary; Submit then worked immediately.
+
+Blockers: none (worked around the stale cookie-dialog quirk above).
+
+LEARNINGS: NestAI/careers.nestai.com's Teamtailor-style embed can leave its cookie-consent <dialog> element in the DOM (still intercepting clicks) after the site's own outer-page cookie banner is dismissed, even though nothing is visible on screen. If a click times out with "dialog ... subtree intercepts pointer events" on a page where no cookie banner is visibly present, evaluate the dialog element directly (dialog.close(); dialog.remove()) rather than retrying the visible Decline button.

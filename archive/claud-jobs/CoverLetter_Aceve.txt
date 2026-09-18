@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer role at Aceve.
+
+At FlowSpace, I built and owned the AI systems that let a small team do more with the same headcount. I built an LLM extraction pipeline that reads brochures in any format, PDF, website, spreadsheet or photo, and drafts structured listings validated by a human reviewer, producing over 900 listing records for a live marketplace. I built support AI agents backed by retrieval over live platform data, with confidence scoring that escalates to a human when the model is unsure. I shipped n8n automations for lead capture and outbound, and integrated OfficeRnD and Nexudus for automated bookings. My stack is Python and TypeScript, and I use Claude Code daily.
+
+Aceve's AI Transformation Team does this work at group scale, owning internal AI products end to end from scoping through deployment. That full lifecycle ownership is what I have spent two years doing.
+
+I am based in Venice, Italy. I hold Italian EU long term resident status, which does not itself grant Dutch work rights, so I would need the employer side highly skilled migrant permit. I am ready to relocate or work remotely from Italy.
+
+Regards,
+Prabhavit Gupta

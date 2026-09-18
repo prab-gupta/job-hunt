@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4457075363/ (ATS: https://www.improove.tech/talent/jobs/post/85/forward-deployed-engineer)
+Uploaded: nothing yet (blocked before the upload step).
+Answers given: none yet; CV Prabhavit_CV_Improove.pdf and letter CoverLetter_Improove.pdf/.txt built and saved for when the wall is cleared. Salary would be EUR 86,000 (bottom of the stated 86-90k band).
+Blockers: Improove Talent portal requires login/account creation (Google, Microsoft, or username+password) to apply; no guest path. Actual employer is "Wonderful" (Milan/Rome hybrid); same role also posted directly on Ashby (jobs.ashbyhq.com/wonderful/...) which may not require this wall - flagged for the user.
+LEARNINGS: new ATS trap - "Improove" LinkedIn postings route through an Improove Talent recruiter-network login wall even though the actual hiring company is a separate client; worth checking for a direct-employer posting before treating as a hard NEEDS YOU.

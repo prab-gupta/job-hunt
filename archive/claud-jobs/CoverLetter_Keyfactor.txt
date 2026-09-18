@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Keyfactor hiring team,
+
+I am writing to apply for the Senior Forward Deployed Engineer role in Prague. Your posting describes designing, deploying and troubleshooting complex customer solutions across enterprise integrations, and that is the pattern of my last three years of work.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to 4,500 or more users. I shipped API integrations with OfficeRnD and Nexudus for automated bookings, built CRM and GTM automations, and built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence when something falls outside what the system can resolve.
+
+At Get2Germany, I integrated Google APIs for platform tracking and built AI tools that search across courses, internships and job listings, alongside database optimisation work, using n8n as the automation layer connecting those systems together.
+
+I have three years of professional experience against the senior level this role is set at. What I bring in that time is direct, repeated experience designing and shipping integrations into live customer environments, translating requirements into a working system, and being the person who stays with it through troubleshooting and production support.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Czech Republic and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process, and the role is listed as remote.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

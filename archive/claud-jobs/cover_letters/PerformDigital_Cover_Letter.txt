@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the Client-Facing Developer position at Perform Digital.
+
+For the past two and a half years at FlowSpace, I built and deployed AI-powered tools for a live coworking marketplace, working directly with clients and internal teams from discovery through production. My main project was an AI listing pipeline that takes unstructured data in any format (PDFs, web pages, photos, spreadsheets), uses LLMs with tool-use orchestration and structured-output extraction to draft full listings, and pushes them to the backend after human review. I also built support AI agents with confidence scoring that escalate to a person when uncertain, and CRM automations connecting six third-party platforms.
+
+What draws me to Perform Digital is the shape of the work: owning client accounts end to end, building custom agents against real business problems, and making sure those agents actually work in production. That is what I have been doing at FlowSpace, and I would like to do it for a wider range of clients. I am comfortable running discovery calls, scoping requirements, going live alongside a client team, and owning incident response after launch. I work daily in TypeScript and Python, and I have shipped production systems using Claude and OpenAI APIs, RAG, multi-step agent orchestration, and human-in-the-loop review patterns.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit and am available to start immediately. I would welcome the chance to discuss how my experience fits your current client work.
+
+Regards,
+Prabhavit Gupta

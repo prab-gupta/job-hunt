@@ -1,0 +1,30 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4445094921/
+
+Dedupe: NEW.
+Cheap check: apply-button=1 (posting live). Note: live page shows a plain "Apply" button with
+"Responses managed off LinkedIn" and "Promoted by hirer", not "Easy Apply" - the queue's EA tag
+was wrong for this row, same class of harvest-vs-live mismatch seen elsewhere in this batch. Not
+material to the outcome since the row was killed on a hard gate before reaching any apply form.
+
+Live JD re-check (Playwright, own tab): Integration Engineer, Düsseldorf, Germany, On-site,
+Full-time, Yusen Logistics. Full "About the job" text read.
+
+Hard gate FAIL - core stack: the "Who You Are" section requires "At least basic skills of
+Lobster_data or Lobster Data Platform" and the "Key Responsibilities" section centres on EDI/API
+integration and "Support and improve middleware solutions (e.g. Lobster, etc.)", with required
+familiarity with EDI protocols (OFTP2, AS2, HTTPS) and data formats (XML, JSON, EDIFACT, VDA).
+Lobster is a named enterprise EDI/ESB middleware platform Prabhavit has never used. This matches
+the task's explicit re-check instruction: "kill if ... the core is an enterprise ESB he has not
+used."
+
+Other gates checked for completeness, none independently decisive:
+- German: not required, JD only asks "Good communicator (fluent in English)".
+- Years/seniority: not explicitly stated as a number; LinkedIn applicant stats show a 42%/40% mixed
+  senior/entry split, title "Integration Engineer" is not itself a senior title.
+- No anti-AI disclaimer found.
+
+Killed before building CV/letter or touching the apply form, per brief order-of-work (hard gates
+checked before drafting). No LEARNINGS entry needed for the gate outcome itself; the EA-tag
+mismatch on the live page is a minor harvest-data note, not a new ATS trap worth a LEARNINGS line
+on its own (already covered by the general pattern of harvest labels needing live re-verification).

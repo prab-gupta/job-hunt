@@ -1,0 +1,35 @@
+STATUS: NEEDS YOU
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4465795112/
+Applied via (offsite, InRecruiting/InterviewWeb): https://lutech.intervieweb.it/annunci.php?l=ml-engineer-728018&lang=it&d=linkedinJW
+
+Dedupe: fuzzy HIT COMPANY on Lutech, but the existing SUBMITTED row (2026-08-26) is a different
+requisition ("AI Engineer GenAI & LLM", req 4442034379). This row is a different requisition
+(ml-engineer-728018, "ML Engineer"), so per the brief's same-requisition rule it was not blocked.
+
+Gates re-checked on live JD: 2 years ML/AI asked (claimed at working-knowledge/integration level
+only), title not Senior/Lead/Manager/CTO, education asks Laurea triennale o magistrale (Bachelor's
+OR Master's, not a hard MSc requirement), English B2 required (he has C2), no anti-AI clause,
+Docker/Kubernetes is only a preferential extra not a hard core-stack requirement. All passed.
+
+CV and letter built: Prabhavit_CV_Lutech.tex/.pdf (2 pages, parity-checked), CoverLetter_Lutech.tex/
+.pdf/.txt (Italian, 0 em-dashes, two evidence paragraphs: FlowSpace AI agents/listing bot,
+UltraStrategy CV-parsing pipeline; explicit honesty on integration-level AI/ML and no Docker/
+Kubernetes production experience).
+
+Filled the InRecruiting guest apply form completely (CV auto-parsed name/email; DOB 21-02-2001 set
+via the date picker after two mid-form resets; Domicilio 30175 Venezia; Cittadinanza Extra UE;
+permesso di soggiorno Si; Livello di istruzione Laurea Breve; privacy checkbox checked). No cover
+letter field existed on this form.
+
+BLOCKER (user-only): clicking Invia returned "Errore! Utente gia registrato!" - the email
+prabhavitg@gmail.com already has a Lutech candidate account from the prior Aug-26 application, and
+submitting a new application requires logging into that existing account. No password is on file.
+Per the brief's rule against logging into/creating accounts without credentials, stopped here.
+Nothing was submitted. Logged NEEDS YOU in applications.csv and NEEDS_YOU.md item 4 ("Blockers
+found 2026-09-16" table).
+
+LEARNINGS: Lutech's InRecruiting/InterviewWeb tenant is shared across all of Lutech's job postings
+- a candidate who already applied to one Lutech requisition cannot guest-apply to a second one; the
+guest form silently accepts all input then fails only on final submit with "Utente gia registrato!",
+requiring login to the existing candidate account instead. Worth checking this before building
+materials for any future Lutech row for an email that has already applied there once.

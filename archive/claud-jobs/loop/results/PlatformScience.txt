@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4426408639/ (routed via LinkedIn "Apply on company website" to Greenhouse: https://job-boards.greenhouse.io/platformscience/jobs/7773395003)
+
+Uploaded: Prabhavit_CV_PlatformScience.pdf (tailored 2-page CV, from Prabhavit_CV_EN.tex) and CoverLetter_PlatformScience.pdf (200-word cover letter).
+
+Answers given:
+- First Name: Prabhavit, Last Name: Gupta, Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807 (Country auto-detected +39)
+- Location (City): Venice, Venezia, Italy (selected from autocomplete)
+- Desired salary expectation: EUR 60,000 gross per year (JD-stated Belgium figure)
+- In what country are you located?: Italy
+- No custom QA/testing free-text questions were present on this Greenhouse form.
+
+Blockers: none. No account creation, no login wall, no CAPTCHA challenge (a passive Greenhouse reCAPTCHA v3 badge was present but never triggered an interactive challenge).
+
+Hard gates re-checked on the full JD: French is "highly recommended", not required (this was the specific gate flagged for re-check, and it did not trigger); Selenium and Playwright are both named as automation tooling, and JavaScript/Playwright are Prabhavit's claimable tools while Selenium/Java are stated honestly in the cover letter as not his tools; no anti-AI clause found; title is "Software Test Engineer" (LinkedIn seniority "Not Applicable"), not Senior/Lead; no hard MSc/PhD requirement; role is on-site in Leuven, Belgium, an EU country, and Prabhavit is ready to relocate.
+
+Confirmation text (seen on page after submit): "Thank you for applying to Platform Science! Your application has been received. Our recruiting team will review your application and be in touch if there is a fit. Thank you and have a great day!"
+
+Logged: applications.csv (SUBMITTED row), confirmations/PlatformScience-2026-09-09.txt + .png, answers/platform-science-2026-09-09.md.
+
+LEARNINGS: none new. This LinkedIn posting was not Easy Apply despite showing "apply-button" in the guest API grep (that grep only confirms an apply control exists, not that it's Easy Apply) — the JD had "Promoted by hirer, Responses managed off LinkedIn" and the control read "Apply on company website" linking out to Greenhouse via LinkedIn's /safety/go/ redirect. Went straight to the Greenhouse URL and confirmed the form there instead.

@@ -1,0 +1,8 @@
+Success
+Your application was successfully submitted. We'll contact you if there are next steps.
+
+Role: Product Engineer, New Verticals, Lisbon (Hybrid)
+URL: https://www.linkedin.com/jobs/view/4468231411/ -> https://jobs.ashbyhq.com/Bounce/b669c4c4-ff7c-4496-9c9e-0f07f7e0ef67/application
+ATS: Ashby
+Timestamp: 2026-09-16
+Note: second Bounce application via a separate Ashby job UUID (distinct requisition); no DUP/COOLDOWN block encountered, form accepted independently of the Core submission minutes earlier.

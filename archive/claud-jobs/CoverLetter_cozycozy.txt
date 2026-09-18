@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Junior TypeScript Engineer role in Budapest.
+
+Cozycozy's core problem, pulling accurate availability and pricing out of over a hundred different supplier systems, is close to work I already do. At FlowSpace, I built and maintained our Node.js/TypeScript and Next.js product, then built the pipeline behind it: an AI system that reads brochures, websites and spreadsheets in whatever format a workspace provider gives us, scrapes and structures the data with a human review step, and pushes clean records to our backend. I also built the OfficeRnD and Nexudus API integrations that keep booking data in sync, working against Supabase/PostgreSQL and testing with Playwright end to end.
+
+I have not shipped RxJS specifically, but I have written a lot of asynchronous Node.js code and I like the kind of debugging this role is built around: why a partner's data did not match, why an integration broke overnight.
+
+I am based in Venice and ready to relocate to Budapest. I hold Italian EU long-term residence status, so I am not yet authorised to work in Hungary and would need the employer-side permit process, which I am ready to start.
+
+Regards,
+Prabhavit Gupta

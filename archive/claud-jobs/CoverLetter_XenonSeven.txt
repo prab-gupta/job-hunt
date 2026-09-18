@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Xenon7 team,
+
+I am writing to apply for the Forward Deployment Engineer role. I have three years of professional experience across eight European companies, and I have spent that time doing what this role asks for: turning an ambiguous business need into a working AI application, and staying close to it through deployment.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. Affinda and the Claude API handled the parsing and generation, and the extraction tool itself was built with n8n and Eden AI, so I am used to building and evaluating an LLM pipeline end to end rather than a single script.
+
+At FlowSpace, a live workspace marketplace, I built and own an AI listing bot that takes a workspace brochure in any format and drafts a full listing with a human in the loop, 900 plus listings drafted so far, and support AI agents that answer customer queries from live platform data and escalate to a person on low confidence. Both run in production against a system that grew from 2,000 to 4,500 plus users while I automated its migration off a legacy stack onto Next.js and Laravel.
+
+I have not worked directly with Snowflake Cortex or Databricks Genie, and I want to say that plainly rather than imply otherwise, but I am comfortable picking up a new enterprise data platform quickly, and building the retrieval, prompting and hand-off patterns that make an agentic tool trustworthy is the part of this work I already do.
+
+I am authorised to work in Italy under Italian EU long-term resident status and can work hybrid from there.
+
+I would welcome the opportunity to discuss how I could contribute to your Finance AI work.
+
+Regards,
+Prabhavit Gupta

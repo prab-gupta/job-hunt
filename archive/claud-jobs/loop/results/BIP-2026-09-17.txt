@@ -1,0 +1,17 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467501348/ (redirects to https://fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2327)
+Company: BIP - Junior AI Engineer, BIP AI LAB, Bari (hybrid)
+
+Uploaded: Prabhavit_CV_BIP.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages), CoverLetter_BIP.pdf (Italian, ~282 words, CoverLetter_BIP.txt pasted equivalent kept for record).
+
+Answers given: identity fields pre-filled correctly and verified (Prabhavit Gupta, +39 351 610 7807, Via Zanetti 10 Venezia 30175 Italy, DOB 21/02/2001, Place of Birth India); Gender left blank (no "prefer not to say" option offered); Belonging to a Protected Category (Legge 68/99) = No; Current company = FlowSpace; Preferred Work Location = Bari; LinkedIn link kept as-is; marketing-communications checkbox left unticked.
+
+Blockers handled:
+- ATS is Oracle Recruiting Cloud with a guest-apply email flow ("You don't need to have an account") that includes a one-time email verification code, not full account creation. This is not the "account creation with email verification and no guest path" stop condition from the brief - it is a lightweight OTP to confirm the email, with no password ever set. Retrieved the 6-digit code from the connected Gmail inbox (prabhavitg@gmail.com, sender etjb.fa.sender@workflow.email.eu-frankfurt-1.ocs.oraclecloud.com, subject "Confirm your identity") and entered it to proceed.
+- The candidate profile on this Oracle tenant carried stale CV/cover-letter files and a stale Preferred Work Location from an earlier application to a different company (Datwave) under the same email. Removed the stale Prabhavit_CV_Datwave.pdf / CoverLetter_Datwave.pdf and uploaded the BIP-specific files; corrected Preferred Work Location from the stale "Milano" to "Bari".
+- The Languages sub-form (add language + proficiency) could not be saved: every Add/Save click silently failed to persist, and the browser console showed a burst of `Error: Resource::kQuotaBytes quota exceeded` exceptions each time (a Chrome-extension-side storage quota issue, most likely from the very large virtualized language-name dropdown used to pick English/Italian). Tried native clicks, ref-based clicks, and JS-dispatched full mouse-event sequences; none persisted an entry. Cancelled out of the broken form and submitted without any Languages entries rather than leaving the application stuck. Logged as a LEARNINGS entry (new ATS trap) since Languages is not flagged required at the section level on this ATS.
+- First Submit attempt returned a generic "Your application couldn't be submitted. Try again." toast while the Languages form was in its broken state and Preferred Work Location/marketing-checkbox had drifted from stray clicks during the Languages debugging; fixed those two fields and resubmitted successfully.
+
+Result: toast "Thank you for your job application."; My Applications page confirms "Junior AI Engineer- BIP AI LAB, Italy and 1 more, Status: Under consideration, BIP Career Site, 2327, Applied on 09/17/2026."
+
+LEARNINGS line added: Oracle Recruiting Cloud (fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com) Languages widget can hit a Chrome-extension storage-quota error that silently blocks Add/Save; treat as a known trap, skip the section rather than blocking the whole application.

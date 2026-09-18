@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://sig.jobs.personio.com/job/2743205
+Uploaded: Prabhavit_CV_Original_EN.pdf (CV), CoverLetter_EXIN.pdf (cover letter)
+Answers given: Name Prabhavit Gupta, email prabhavitg@gmail.com, phone +39 351 610 7807, available from "Immediately, available to start within two weeks of an offer", location Venice Italy, Years of Experience "2-3 years", LinkedIn https://www.linkedin.com/in/prabhavit, plus four free-text essay fields (Motivation Letter, Why this opportunity, Why this organization/program, Why you are the right candidate) — full text in answers/exin-2026-09-09.md. NL work-authorisation transparency line (authorised No, employer-side TWV permit Yes, relocation-ready) folded into the Motivation Letter field since the form had no dedicated work-authorisation question.
+Blockers: none. No CAPTCHA, no login wall, no salary field, no explicit consent checkbox.
+Confirmation: "THANK YOU — We have received your application and will contact you shortly!" (sig.jobs.personio.com/job/2743205/apply)
+LEARNINGS: Personio (SIG/EXIN tenant) renders its "essay" questions as plain single-line text inputs (type=text, maxlength 5000) rather than textareas — don't mistake the cramped one-line box for a short-answer-only field, it accepts full paragraphs. Also: interactive elements only appear in read_page's output once scrolled into view at least once (virtualized-looking render), but values typed into fields persist correctly after scrolling away and back — confirmed by re-reading top-of-form fields after filling the bottom.

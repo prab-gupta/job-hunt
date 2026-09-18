@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465644727/
+Uploaded: Prabhavit_CV_IASS.pdf (explicitly uploaded via "Upload resume", verified checked radio before submit; LinkedIn had pre-selected Prabhavit_CV_CoreFi.pdf from the library, which was NOT used).
+Letter: CoverLetter_IASS.pdf/.txt built (Urlink + FlowSpace evidence) but not attached - single-step Easy Apply form had no letter slot.
+Answers given: none required beyond resume selection; unticked "Follow Intelligenza Artificiale Spiegata Semplice" checkbox before submit.
+Blockers: none.
+LEARNINGS: confirms today's known trap (LinkedIn Easy Apply pre-selects the most recently used CV from the library on fresh load) - always click Upload resume and verify the new file name/checked radio before Submit.

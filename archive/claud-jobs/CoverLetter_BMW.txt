@@ -1,0 +1,16 @@
+Dear BMW Group Hiring Team,
+
+I am applying for the Intern AI Solutions for Financial Services role in Munich. I am a graduate with three years of professional experience building AI and automation systems in production, and I am applying at internship level because the chance to work on agentic AI and MLOps for real financial workflows inside BMW Group is worth starting there.
+
+At UltraStrategy, I built a CV parsing and assessment pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores how relevant the candidate is for specific roles, and generates a standardised Ultra CV. I also built the platform serving different user profiles.
+
+At FlowSpace, I lead the AI side of a live workspace marketplace. I built support AI agents that answer customer queries from live platform data with confidence based escalation to a human when the model is unsure, plus an AI listing bot that turns any format brochures into drafted listings (900+ produced) and OfficeRnD and Nexudus booking integrations.
+
+At Get2Germany, I integrated Google APIs and built AI automation tools, using n8n, that find courses, internships and jobs for users.
+
+I hold Italian EU long term resident status. I am not yet authorised to work in Germany and would need the employer side permit process, which I understand BMW Group would file; I am ready to relocate to Munich and complete it. My Python, workflow automation, LLM pipeline and RAG experience map directly onto this team's work.
+
+I would welcome the opportunity to discuss how I can contribute.
+
+Regards,
+Prabhavit Gupta

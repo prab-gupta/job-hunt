@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/Bucharest-Romania/Generative-AI-Developer_R44957?source=LinkedIn
+(LinkedIn posting: https://www.linkedin.com/jobs/view/4437820135/)
+Uploaded: nothing — blocked before any upload step
+Materials built: Prabhavit_CV_SSC.pdf (tailored, 2 pages, tectonic-compiled), CoverLetter_SSC.txt/.pdf (277 words, UltraStrategy lead + FlowSpace pair, Romania permit line)
+Answers given: none — never reached the application form fields
+Blockers: SS&C's Workday tenant (wd1.myworkdaysite.com/recruiting/ssctech) forces Create Account/Sign In before any form fields appear. Checked both "Autofill with Resume" and "Apply Manually" entry points from the Start Your Application dialog — both dead-end at the same Create Account page (Email/Password/Verify Password). No guest-apply path found. Did not create an account or enter credentials.
+LEARNINGS: SS&C's specific Workday tenant (ssctech) has no guest path on either autofill or manual entry — add this tenant to ats-guides/workday.md as a known account-required tenant so future runs skip straight to NEEDS YOU without re-testing both branches.

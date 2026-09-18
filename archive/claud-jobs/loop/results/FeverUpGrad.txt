@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://job-boards.eu.greenhouse.io/feverup/jobs/4951979101
+Uploaded: nothing (stopped before any field was filled or any file uploaded)
+Answers: none submitted. Form inspected only (Spanish-proficiency and average-grade dropdown option lists opened and closed).
+Blockers: two required facts not on file - "average grade (out of 10)" fixed-bucket dropdown with no matching real GPA/grade anywhere in the source files (Italian degree is graded /110), and a required "Transcript of Records (Expediente Academico)" upload with no such document available. Neither is a standard hard-gate kill; logged NEEDS YOU per the brief's "facts not on file" rule, in NEEDS_YOU.md row 18j and applications.csv.
+LEARNINGS note: job-boards.eu.greenhouse.io/feverup/jobs/4951979101 renders ONLY the application form with zero descriptive job-posting text anywhere on the page (no About/Responsibilities/Requirements) - the form's own required fields are the only disclosed requirements. Distinguish from the usual Greenhouse pattern where JD prose precedes the form.
+CV/letter ready for reuse once the user supplies the missing facts: Prabhavit_CV_FeverUpGrad.pdf/.tex, CoverLetter_FeverUpGrad.pdf/.txt.
+Full detail: answers/feverupgrad-2026-09-17.md

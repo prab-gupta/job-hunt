@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Implementation Engineer (EMEA) role at Fingerprint.
+
+At FlowSpace, I was the technical point of contact for customers integrating APIs across booking systems (OfficeRnD, Nexudus), CRM pipelines (Attio, Amplemarket), and payment flows (Stripe). I wrote integration code in JavaScript and TypeScript, debugged API failures by analyzing logs and tracing requests across RESTful services, and built automation scripts for validation and monitoring. When customers hit issues during onboarding, I diagnosed the root cause, wrote sample code to unblock them, and documented the solution so the next customer could self-serve.
+
+I also built an internal data pipeline that ingests documents in any format, extracts structured data via API orchestration, and pushes validated results to the backend after human review. This involved working with hundreds of different API formats and response structures, which gave me a strong instinct for where integrations break and how to make them resilient.
+
+Fingerprint's device intelligence platform is exactly the kind of product where implementation quality determines customer success. The role's focus on guiding customers through API integration, proactive monitoring, and bridging customer feedback to the product team maps directly to how I worked at FlowSpace. I am comfortable working fully remote on macOS with Slack and Google Workspace, and I have experience conducting training sessions and writing technical documentation.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

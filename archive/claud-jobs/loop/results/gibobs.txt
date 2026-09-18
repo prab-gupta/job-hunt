@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4463808484/
+Company: gibobs allbanks - Desarrollador/a Frontend - Fintech, Madrid, Spain (LinkedIn Easy Apply candidate, never reached)
+
+Reason: hard-gate KILL on JD language. Fetched the live posting via curl https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4463808484 - the entire JD is written in Spanish, title itself is "Desarrollador/a Frontend - Fintech", every section header and body ("SOBRE TU DIA A DIA", "SOBRE TUS COMPETENCIAS", "SOBRE EL STACK", "POR QUE gibobs?") is in Spanish, opening with "En gibobs estamos transformando la forma en la que las personas acceden a financiacion y toman decisiones sobre su salud financiera." No English text appears anywhere in the fetched HTML, and there is no statement that English is acceptable for the role. The team context (Madrid-based, hybrid model, partner banks and real estate agencies in Spain, "jornada intensiva los viernes") confirms the team language is clearly Spanish. Per the task instructions: a Spanish JD with no English-acceptable statement and a clearly-Spanish team = KILL with the quote. Canonical answers also bar claiming Spanish (Prabhavit is English C1 + Hindi native + Italian beginner only, never German/Spanish/Polish), so he cannot honestly represent day-to-day fluency with this team. KILL.
+
+Other gates checked and would have passed: role wants "alrededor de 2 anos de experiencia" (well under the >3 gate), LinkedIn tags seniority "Associate" and the title itself is not Senior/Staff/Lead/Principal/Manager/CTO, no hard MSc/PhD requirement, the stack (React, Next.js, TypeScript, Ant Design, TanStack Query, Turborepo/Nx) is squarely claimable and a strong match (fit 88). Madrid, Spain is inside the EU, which would have required the standard employer-side permit/sponsorship transparency line per work-authorisation.md, but that was not the gate that killed the role - language was.
+
+Dedupe: python3 loop/dedupe.py --check "gibobs allbanks" "https://www.linkedin.com/jobs/view/4463808484/" returned NEW; grep -i "gibobs" applications.csv also returned nothing before this run. Not a dedupe block.
+
+Uploaded: nothing (no CV, no cover letter - never reached the resume step, no CoverLetter_gibobs.txt/.pdf built since the role was killed before the letter step).
+Answers given: none.
+Blockers: JD-language hard gate (Spanish, no English-acceptable statement, clearly-Spanish team) - not a form blocker, no Chrome tab was opened, no NEEDS YOU.
+LEARNINGS: none - no new ATS trap encountered, killed before touching the browser.

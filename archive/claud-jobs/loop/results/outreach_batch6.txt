@@ -1,0 +1,17 @@
+SENT 10:20 Procedo 1a08a67c076ad107
+SENT 10:22 Commit-Software 1a08a69329d4a765
+SENT 10:23 Smart-Dato 1a08a6a31be68e38
+SENT 10:24 Sinerbit 1a08a6b2974fcf17
+SENT 10:25 Infocube 1a08a6c53192ca13
+SENT 10:29 Aitho 1a08a6fdf730e795
+SENT 10:36 Spindox 1a08a76208eac842
+SENT 10:37 Jready 1a08a770268c81b7
+SENT 10:38 Starfinder 1a08a77e4acdb93e
+SENT 10:39 BA-Consulting 1a08a78b52cbb14f
+SENT 10:40 Dott-House 1a08a797ffaa2b14
+SENT 10:41 Enfasi-Design 1a08a7a5be7c7e5a
+SENT 10:42 Futuraweb 1a08a7b27e895b1b
+SKIPPED Rea-Soluzioni info@reasoluzioni.it not found on source page (lavora-con-noi and homepage show consulenza@reasoluzioni.com and reaglobalconsulting@legalmail.it instead)
+SKIPPED Algomera lavora@algomera.it not found on source page (homepage and lavora-con-noi page show info@algomera.it via cf-email-protected decode instead)
+SKIPPED Vivocha jobs@vivocha.com not found on source page (careers page has no email at all; listed postings dateModified 2021-06-09, appear stale)
+SKIPPED Exprivia careers@exprivia.it not found on source page (intervieweb career portal shows recruitingexprivia@exprivia.com via cf-email-protected decode instead; exprivia.it site itself has no careers@ address either)

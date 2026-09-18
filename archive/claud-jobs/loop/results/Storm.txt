@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452849308/ (Microsoft Forward Deploy Consultant, Storm Technology Ltd, Dublin)
+ATS: https://storm.hirehive.com/microsoft-forward-deploy-consultant-dublin-SU9APs (HireHive)
+
+Uploaded: Prabhavit_CV_Storm.pdf (tailored from Prabhavit_CV_EN.tex, verbatim bullets, 2 pages). Cover letter text pasted into the ATS's free-text Cover letter box (CoverLetter_Storm.txt/.pdf also built).
+
+Answers given: First name Prabhavit, Last name Gupta, Address Venice Italy 30175, Country Italy, Current company FlowSpace, Current title Lead Developer, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Cover letter pasted in full.
+
+Fit note: honest letter about the Microsoft stack gap (Azure/Power Platform/Fabric not used; TypeScript/Next.js/Laravel/n8n is the real stack), per the task's own instruction to be upfront about this. Two-role evidence: Urlink (AI-assisted platform build, client automations) and FlowSpace (OfficeRnD/Nexudus API integration, CRM/GTM automation, agency liaison). Ireland transparency line used (not authorised, sponsorship needed, ready to relocate).
+
+Blockers: none. Form submitted cleanly on first attempt, no CAPTCHA, no account wall.
+
+Confirmation: "Thanks for contacting us" heading on https://storm.hirehive.com/SU9APs/complete. Screenshot saved to confirmations/Storm-2026-09-16.png.
+
+LEARNINGS: none new (HireHive ATS pattern: file-upload trigger is a hidden <input type=file>, click the visible label wrapper around it, not the input ref itself, to open the native file chooser before calling browser_file_upload).

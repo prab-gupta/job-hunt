@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4423966482/
+Applied via: Ashby (jobs.ashbyhq.com), first-party form on LinkedIn's own click-through, not Greenhouse despite the task note's guess - confirmed as Ashby by the dedupe LEAD row on file too.
+
+What was uploaded: Prabhavit_CV_AppliedIntuition.pdf. Ashby's "Autofill from resume" correctly parsed Name, Email, Education (Ca' Foscari, Bachelor's Degree, Philosophy/International Studies & Economics, Oct 2020-Jun 2024) straight from the CV.
+Filled by hand: Phone +39 351 610 7807, LinkedIn URL, GitHub URL, Current Company FlowSpace, How did you hear about us = LinkedIn, Preferred programming language for interviews = TypeScript/JavaScript (his strongest claimable language; JD's "full-stack" ask, not Python-specific), Why Applied Intuition (~100 words, FlowSpace + Urlink evidence, honest that he has 3 years not 6), English fluency = Full professional proficiency (not native, matches C2 standing answer), sponsorship required in Germany = Yes (per answers/work-authorisation.md: EU country other than Italy = not authorised, needs employer-side permit), active immigration case (H-1B/green card) = No (honest, not a US case).
+
+Confirmation: "Your application was successfully submitted. We'll contact you if there are next steps." Saved to confirmations/AppliedIntuition-2026-09-16.txt.
+
+No blockers. No cross-origin iframe issue here (unlike Alvarez & Marsal's Talemetry widget) - Ashby renders first-party and was fully reachable via find/read_page/form_input.

@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4462182523/ -> https://careers.nordea.com/job/Stockholm-Senior-Forward-Deployed-AI-Engineer-111-46/1371917933/ -> https://career5.successfactors.eu/careers?company=nordeabank
+Uploaded: nothing (blocked before upload step)
+Blocker: SAP SuccessFactors "Career Opportunities: Sign In" page offers only email+password login or "Create an account" - no guest-apply path found. Account creation is user-only per brief.
+Materials ready: Prabhavit_CV_Nordea.pdf/.tex (built fresh from Prabhavit_CV_EN.tex, parity-diffed, zero invented lines, 2 pages), CoverLetter_Nordea.pdf/.txt (0 em-dashes, FlowSpace + UltraStrategy evidence, honest 3-years-vs-senior paragraph, Finland transparency line).
+Gates: no Finnish-language requirement on the live JD; applied under user's FDE-ALL override (senior title, years not a kill).
+Logged: NEEDS_YOU.md row 18h, applications.csv (2026-09-17), answers/nordea-2026-09-17.md.
+LEARNINGS: none new (matches known SuccessFactors account-wall pattern).

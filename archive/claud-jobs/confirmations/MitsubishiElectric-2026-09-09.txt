@@ -1,0 +1,18 @@
+Mitsubishi Electric Iconics Digital Solutions - Software Development Engineer - 2026-09-09
+
+STATUS: NEEDS YOU (not submitted).
+
+Blocker: the SaaSHR-hosted external ATS (secure7.saashr.com/ta/6207547.careers) filled the
+entire 6-step application (Contact Information, Resume & Cover Letter, EEO Information,
+Professional References, Job Related Questions, Review) to 100% with no login required at
+any prior step. Only at the final "Sign & submit application" click did a modal titled
+"Consent/Acknowledgement" appear, requiring a "Password" field with the text: "Please type
+your (Prabhavit Gupta) password to confirm." This is an account/login wall the ATS created
+silently around the candidate's name and email (no explicit sign-up screen was ever shown),
+and no password exists for it. Per the brief, account creation and entering an authentication
+password are both out of scope for autonomous action. The Cancel button was clicked instead
+of I Agree; nothing was submitted.
+
+The full application remains filled and ready on the review page (100% complete, all 6
+sections) for a human to open the same tab, click "Sign & submit application," and either
+set/enter the correct password or complete first-time account setup.

@@ -1,0 +1,5 @@
+TXT Group - Machine Learning Engineer - SUBMITTED 2026-09-17
+Success page: https://am.allibo.com/web/ApplicationV2/ApplicantCompletionResult (Allibo ATS)
+Page heading: "Thank you!"
+Confirmation text: "Your data have been correctly collected and placed under the protection of our HR team."
+(Screenshot taken via Claude in Chrome; PNG save not available in Chrome tool, this txt is the record per brief.)

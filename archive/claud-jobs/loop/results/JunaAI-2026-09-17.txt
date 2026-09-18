@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+URL: https://juna-ai.jobs.personio.de/job/1823357?language=en
+Company: juna.ai
+Role: Forward Deployed Engineer, Berlin (on-site)
+ATS: Personio
+
+Dedupe: NEW (no URL or company hit).
+
+Gate check on live JD: no anti-AI disclaimer; no required-years stated and the posting explicitly says "You do not need to be a senior software engineer"; not a Senior/Staff/Lead/Principal/Manager/CTO title; no hard MSc/PhD requirement; English required (claimable), no other language required; stack requirements are all "nice to have" (LLM/agent frameworks, ML/simulation background, React, ETL/OT data), no disqualifying core-stack gate; Berlin on-site EU location, covered by relocation Yes plus the Germany work-permit transparency line. Posting confirmed live via get_page_text before drafting.
+
+Uploaded: Prabhavit_CV_JunaAI.pdf and CoverLetter_JunaAI.pdf, both built fresh from Prabhavit_CV_EN.tex (diff-verified, no new claims, only reordering, dedup of two exact-duplicate FlowSpace lines, and dropping "Low code development/" from Additional Info per the low-code tailoring rule). Cover letter 283 words, 0 em-dashes, two-role evidence (FlowSpace lead + UltraStrategy pair) per OUTREACH_FACTS, plus the Germany transparency line.
+
+Answers given: Name/Email/Phone/Location/LinkedIn; relocate to Berlin = Yes; can work from Berlin office = Yes; degree = Ca' Foscari Venice (Philosophy/International Studies/Economics, minor Entrepreneurship); GitHub demo link (llm-doc-parser); available immediately, 2 weeks after offer; expected salary EUR 45,000/year (task standing instruction, JD states no band); complex-problem free text answered with the FlowSpace confidence-based-escalation support-agent example.
+
+Blockers: none. No CAPTCHA, no account creation, no privacy checkbox on this form (footer link only, no required tickbox rendered).
+
+Confirmation: page rendered "THANK YOU / We have received your application and will contact you shortly!" after Submit, verified via get_page_text. Screenshot taken but PNG saving is not available in this Claude in Chrome session per the brief; confirmations/JunaAI-2026-09-17.txt carries the success text as the record.
+
+LEARNINGS: nothing new broke on this Personio flow (matches ats-guides/personio-factorial.md fast path exactly: single multi-file Documents uploader took both CV and cover letter together, no separate cover-letter box).
+
+Files: Prabhavit_CV_JunaAI.tex/.pdf, CoverLetter_JunaAI.tex/.txt/.pdf, confirmations/JunaAI-2026-09-17.txt, answers/junaai-2026-09-17.md, applications.csv row appended.

@@ -1,0 +1,13 @@
+PwC Italy - Full Stack Developer Junior - Milano [IFS] (744125WD)
+Submitted 2026-09-17 via Playwright MCP (RETRY handoff from Chrome, which froze on CV upload).
+
+Success page: https://jobs-it.pwc.com/it/it/applythankyou?status=success&jobSeqNo=PWAPIUIT744125WDEXTERNALITIT&jobTitle=Full%20Stack%20Developer%20Junior%20-%20Milano%20%5BIFS%5D&jobId=744125WD&candidateId=C000019945209&jobApplicationId=fa8cc4040965903b915d7bc9579d0001
+
+Success text (Italian, verbatim):
+"Ti ringraziamo per l'interesse che hai dimostrato per la nostra posizione.
+Abbiamo ricevuto la tua candidatura per la seguente opportunità lavorativa: Full Stack Developer Junior - Milano [IFS](744125WD).
+A breve ti arriverà un'e-mail di conferma con tutti i dettagli."
+
+Screenshot: confirmations/PwCItaly-2026-09-17.png
+candidateId: C000019945209
+jobApplicationId: fa8cc4040965903b915d7bc9579d0001

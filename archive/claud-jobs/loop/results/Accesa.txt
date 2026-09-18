@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL (apply form): https://www.accesa.eu/careers/senior-forward-deployed-ai-engineer
+URL (LinkedIn posting / dedupe reference): https://www.linkedin.com/jobs/view/4463309425/
+Company: accesa.eu
+Role: Senior Forward Deployed AI Engineer, Cluj, Romania
+ATS: own careers form on accesa.eu
+
+Uploaded: Prabhavit_CV_Accesa.pdf (parity-diffed against Prabhavit_CV_EN.tex, deletions/reordering only). Letter CoverLetter_Accesa.pdf/.txt built (Urlink + FlowSpace proof paragraphs, 0 em-dashes verified, honest 3 years vs the JD's 6+/Senior-or-Tech-Lead ask, Romania work-authorisation transparency line with the Tax Residence = Italy fact from the task).
+
+This session resumed tab 550851219, left by a dead agent. On attach, the tab was already showing the "APPLICATION SENT! Thank you for applying. We'll be in touch soon." success modal for the Senior Forward Deployed AI Engineer posting, meaning the form had already been filled and submitted before this session started. The individual field values (including the Tax Residence = Italy answer) could not be re-read from the page since it had cleared to the success state. This session independently verified the CV and letter that back this application were correctly built (parity-diffed, two-role letter evidence, honest years, 0 em-dashes) before trusting the reuse per the brief's material rules, then captured and logged the confirmation.
+
+Confirmation: "APPLICATION SENT! Thank you for applying. We'll be in touch soon." Screenshot/text saved to confirmations/Accesa-2026-09-16.txt.
+
+No blockers. Dedupe was HIT COMPANY~ on an unrelated older SKIP row (not blocking). Hard gates all passed (no anti-AI disclaimer, English JD, no hard degree requirement, languages explicitly not a primary selection criterion; 6+ years/Senior ask not a kill under the 2026-09-16 FDE-Italy-EU sweep rule).
+LEARNINGS: tab resumption can land after a dead agent's submission already completed; when that happens, verify the prep materials (CV/letter) rather than re-filling a form that no longer exists, and note the verification gap explicitly in the log instead of claiming to have watched the submit click.

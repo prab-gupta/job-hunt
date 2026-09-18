@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4406538685/ (offsite -> https://jobs.ashbyhq.com/chalk/262b99de-c605-42d8-bf9d-d65528112122/application)
+ATS: Ashby
+
+Uploaded: Prabhavit_CV_Chalk.pdf (2 pages), CoverLetter_Chalk.pdf.
+Answers given: Name, Email, Phone +39 351 610 7807, LinkedIn Profile, current city of residence Venice Italy, "Why do you want to work at Chalk?" essay (FlowSpace AI listing bot + OfficeRnD/Nexudus + support AI agents, paired with UltraStrategy's Affinda/Claude API CV-parsing pipeline). Honeypot field ("If you're a real human, leave this line blank") left blank. See answers/chalk-2026-09-16.md.
+
+Blockers: none final. First submit attempt returned a false "Missing entry for required field: Phone/LinkedIn Profile" error (values were visibly present) - the documented Ashby React-state-wipe trap. Fixed by re-typing both fields with real keystrokes (cmd+a, Backspace, type) instead of form_input, then resubmitted successfully.
+
+LEARNINGS line: Ashby's "Missing entry" state-wipe trap (previously documented for Zapier/ElevenLabs/Deepnote) also hits plain single-value text fields like Phone and LinkedIn Profile URL, not only Email - re-verify with real keystrokes on ANY Ashby field a submit flags as missing, even if the on-screen value looks correct.
+
+Confirmation: "Success. Your application was successfully submitted. We'll contact you if there are next steps." Saved to confirmations/Chalk-2026-09-16.txt (PNG save unavailable in Claude in Chrome).

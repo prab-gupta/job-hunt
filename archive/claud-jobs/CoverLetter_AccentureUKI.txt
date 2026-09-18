@@ -1,0 +1,19 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Accenture UK & Ireland Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineering Specialist role in Dublin. Over the past three years I have worked embedded with clients, turning ambiguous business problems into production AI systems, and that is the work I want to keep doing at this scale.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel while the product stayed live, growing the platform from 2,000 to 4,500 plus users. I built and still own an AI listing bot that turns a workspace provider's brochure, in any format, into a drafted listing with a human in the loop, producing over 900 drafts, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence. I also shipped OfficeRnD and Nexudus API integrations for automated bookings and CRM and GTM automations for the sales funnel.
+
+At Urlink, I worked as project manager and AI-assisted developer on a freelance engagement in Barcelona: I built the platform and its logic with AI-assisted development, implemented automations driven directly by client requirements, and worked on Next.js, Supabase and Netlify. That role, like this one, meant sitting close to the client, translating what they needed into a working system quickly, and owning the outcome end to end.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Ireland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Dublin and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the Forward Deployed Engineering team.
+
+Regards,
+
+Prabhavit Gupta

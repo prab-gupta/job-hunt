@@ -1,0 +1,17 @@
+TO: mario@boosha.it
+SUBJECT: n8n + LLM agents: applied AI engineer in Italy
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Mario,
+
+Boosha's AI agent and automation work on OpenAI, Anthropic and n8n is my exact daily stack, and you are one of very few Italian consultancies doing it in English, so this is a direct note.
+
+At FlowSpace (coworking marketplace, London) I built the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far, plus the Nexudus and OfficeRnD API integrations and RAG support agents with confidence scoring and human escalation. Stack: Python, TypeScript, Laravel, n8n, Claude and OpenAI APIs, PostgreSQL, Docker. I have also built n8n workflows for lead routing and document intake, and I am used to explaining agent behaviour to non-technical clients.
+
+If Boosha is taking on delivery engineers, or needs an extra pair of hands on a client project, I am in Venice and can work on-site in Bologna some days. A 15 minute call whenever suits.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Based in Venice with an EU long-term residence permit; remote from Italy from day one, or EU relocation with the employer-side permit.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

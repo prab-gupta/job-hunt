@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Software Engineer, Connect Tax Reporting position at Stripe in Bucharest. I am drawn to the team's work because it combines high-volume data workflows, reliable APIs, automation, and careful engineering with a clear impact on businesses and their users.
+
+At FlowSpace, I built and maintained production software across a live marketplace that grew from 2,000 to more than 4,500 users. I contributed to a migration to Next.js and Laravel, shipped features, integrated external booking and CRM systems, and built automation that moved structured data into the platform after validation and human review. My AI listing pipeline processes documents and web content in multiple formats and supports a dependable operational workflow. I have also built support agents against live platform data and handled customer issues end to end.
+
+The role's focus on APIs, data pipelines, operational tooling, correctness, and learning new domain concepts maps closely to my experience. My production work centers on TypeScript, JavaScript, Laravel, REST APIs, PostgreSQL, and n8n, and I use AI-assisted development tools daily. Python is an active learning area. I do not claim prior tax or compliance experience, but I am comfortable learning complex rules and translating them into clear, testable software. I would be excited to learn tax reporting while contributing strong integration and delivery skills.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately. Thank you for considering my application.
+
+Regards,
+Prabhavit Gupta

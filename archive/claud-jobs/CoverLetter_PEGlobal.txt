@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear PE Global team,
+
+I am applying for the AI Deployment Manager (Content Development) contract you are recruiting for your biotech client in Dublin. Two things upfront: I have three years of professional experience, shorter than the mid-senior level this role targets, and I do not currently hold the visa needed to live and work in Ireland, so I understand I would need an employer-side permit before I could start. I am flagging this openly rather than glossing over it, in case my background is still useful to keep on file.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend as a first draft, and a standardised Ultra CV is generated after review. Affinda and the Claude API handled the extraction and generation, and n8n and Eden AI built the parsing tool itself, the same evaluate-then-pilot approach this role is built around.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace brochure in any format and drafts a structured, reusable listing with a human in the loop before it goes live, 900 plus listings drafted so far, the same first-draft-plus-governance pattern this role needs for story decks and modular content blocks.
+
+I have no pharmaceutical or regulated-content background, but I have run AI content and data pipelines end to end, from tool evaluation through pilot to rollout. I hold Italian EU long-term resident status, which does not extend to Ireland; I am not currently authorised to work there and would need an Irish employment permit, most likely requiring employer sponsorship.
+
+Regards,
+Prabhavit Gupta

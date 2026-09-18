@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467096352/
+Uploaded: Prabhavit_CV_Sutherland.pdf (tailored from Prabhavit_CV_EN.tex, verified selected in the resume picker before submit) and CoverLetter_Sutherland.pdf (uploaded via the dedicated Upload cover letter button, verified selected)
+Answers given: 18+ = Yes; high school diploma = Yes; felony conviction = No; worked for Sutherland before = No; highest education = Bachelor's Degree (+/-16 years); languages: English Fluent, Indian (Hindi) Native, Italian Conversational; privacy consent = I consent (required); follow company page = unticked
+Confirmation: "Your application was sent to Sutherland!" - confirmations/Sutherland-2026-09-17.txt (PNG screenshot save not available via Claude in Chrome computer tool)
+Note: Bachelor's degree is in Philosophy, International Studies & Economics (not CS/Business Info as JD prefers); not a hard gate per brief, applied anyway per FDE-ALL standing rule.
+Blockers: none

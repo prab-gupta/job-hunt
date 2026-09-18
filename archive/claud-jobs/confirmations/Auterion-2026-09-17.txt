@@ -1,0 +1,4 @@
+Thank you for applying and for your interest in Auterion. Your application has been received.
+We will review your application as soon as we can and expect to schedule interviews in the next couple of weeks.
+URL: https://auterion.com/company/careers-open-position/?gh_jid=8725581002&gh_src=gtgws4y52us
+Submitted via Playwright (Greenhouse cross-origin iframe, frame-aware locators reached the form).

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear MPower Plus hiring team,
+
+I am applying for the Test Automation Specialist role in Livorno. I have three years of professional experience across full stack and QA work, with Python as one of my working languages, and I am comfortable travelling to Livorno for the on-site days.
+
+At Clubee I integrated the Clubee API across the frontend and ran unit testing and quality assurance on every new feature before release, alongside building shop, domain-integration and federation-dashboard tools, so testing was part of my day to day rather than a separate step bolted on at the end.
+
+At FlowSpace I use Playwright as part of the role-level toolset for testing the platform, and I built an AI tool that processes and scrapes data from brochures in any format to draft structured listings, which is the same kind of post-processing and reporting work described in this role, going from raw source data to a usable, reviewed output.
+
+I am authorised to work in Italy without sponsorship and can be in Livorno for the required on-site days each week.
+
+I would welcome the chance to talk through how I would approach the Python framework restructure and the reporting tooling for this role.
+
+Regards,
+Prabhavit Gupta

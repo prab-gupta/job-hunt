@@ -1,0 +1,25 @@
+Affirma — Application Migration Developer (Romania)
+URL (offsite ATS, Logic Melon / Tracker RMS USA): https://usa.applybe.com/?a=1253F17671.0
+LinkedIn posting: https://www.linkedin.com/jobs/view/4465024150/
+
+STATUS: NEEDS YOU — NOT SUBMITTED.
+
+Blocker: a live Google reCAPTCHA ("I'm not a robot" checkbox; page shows "This site is
+exceeding reCAPTCHA Enterprise free quota") sits directly above the "APPLY NOW" button.
+This is a user-only blocker per the apply-agent brief (CAPTCHA/hCaptcha/reCAPTCHA). The
+CAPTCHA and the APPLY NOW button were not touched.
+
+Form state left filled and ready for the account-holder to finish:
+- CV uploaded: Prabhavit_CV_Affirma.pdf (confirmed via the CVFile file input)
+- Cover letter pasted into the on-page textarea: CoverLetter_Affirma.txt (full text)
+- First name: Prabhavit
+- Last name: Gupta
+- Email: prabhavitg@gmail.com
+- Mobile phone: 393516107807 (digits only — the field rejects "+" and spaces)
+- Work eligibility: "I am not currently eligible to live or work in Romania" selected
+  (honest answer per answers/work-authorisation.md; Romania is EU-but-not-Italy)
+- "I wish to receive a copy of this application": left unchecked
+
+To finish: open the ATS URL above (or resume the browser tab), tick the reCAPTCHA
+checkbox (and solve any challenge it presents), verify the filled fields are still
+intact, then click "APPLY NOW".

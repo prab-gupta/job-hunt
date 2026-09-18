@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://de.linkedin.com/jobs/view/forward-deployed-engineer-at-oliver-bernard-4462299945 (Forward Deployed Engineer, Oliver Bernard recruiter posting, Munich)
+
+Uploaded: nothing, no materials built.
+
+Blocker: hard gate, checked on the live JD (LinkedIn guest API, full text pulled). Two matching clauses: under Requirements, "Full working proficiency in German and English"; under Requirements / Constraints, "Munich-based or open to being close to the team. Full working proficiency in German and English required." This is an explicit, repeated German-language requirement, which is a kill per the standing rule for this batch (German required = kill). The task row note said "apply anyway" for this row, read as an instruction not to kill it merely for being a recruiter/agency posting (a different gate this batch waives), not as an override of the language hard gate, which the task's own top-level rule says to apply with no exceptions beyond "closed / already submitted / language he lacks". Dedupe: python3 loop/dedupe.py --check "Oliver Bernard" <url> -> NEW, no prior row for this company.
+
+LEARNINGS: none new.

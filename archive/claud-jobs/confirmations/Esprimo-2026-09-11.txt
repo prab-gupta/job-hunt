@@ -1,0 +1,10 @@
+Esprimo S.r.l. - AI Agent Engineer, Milan - 2026-09-11
+
+Success text (LinkedIn Easy Apply "Next best action" dialog after Submit):
+"Your application was sent to Esprimo S.r.l.!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+
+URL: https://www.linkedin.com/jobs/view/4463902015/
+Resume uploaded and confirmed checked on the review page: Prabhavit_CV_Esprimo.pdf.
+Salary expectation answered: 35000 (numeric only; the field rejected "RAL 34-36k" as "Invalid input").
+Screenshots: Esprimo-2026-09-11-before.png (review page, pre-submit), Esprimo-2026-09-11.png (post-submit success dialog).

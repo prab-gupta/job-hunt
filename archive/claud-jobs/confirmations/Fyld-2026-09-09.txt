@@ -1,0 +1,4 @@
+Congrats on launching your application
+
+Source: https://www.fyld.pt/welcome-aboard/ (redirect target after Submit on the native Fyld application form at https://www.fyld.pt/job-apply/5dd597d5af/ai-engineer-genai/)
+Confirmed via full-page screenshot and page title "Welcome Aboard - Launch Success" after clicking Submit. Fields submitted: First Name = Prabhavit, Last Name = Gupta, Email = prabhavitg@gmail.com, Upload CV = Prabhavit_CV_Fyld.pdf (verified attached via input.files before submit), consent checkbox pre-ticked and left ticked.

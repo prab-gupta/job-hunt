@@ -1,0 +1,9 @@
+Cloudflare - Forward Deployed Engineer, Professional Services (Lisbon, Portugal)
+Applied via: direct Greenhouse board https://job-boards.greenhouse.io/cloudflare/jobs/8043339 (reached by clicking Apply on https://www.linkedin.com/jobs/view/4457272772/, which opened this direct boards.greenhouse.io URL in a new tab, not an embedded iframe)
+Submitted: 2026-09-17
+
+Confirmation page (https://job-boards.greenhouse.io/cloudflare/jobs/8043339/confirmation):
+"Thank you for applying!
+Your application has been received and we will review it shortly. In the meantime, visit our blog for company updates!"
+
+Screenshot taken via Claude in Chrome (computer screenshot ss_0562twm14) showing the confirmation page; per the brief's Chrome-alternative note, PNG saving to disk is not available through the Chrome extension tool, so this text file is the confirmation record.

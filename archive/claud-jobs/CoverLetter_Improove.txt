@@ -1,0 +1,16 @@
+Dear Improove Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer role in Milan. Over the past three years I have worked across eight European companies building AI and automation systems that run in production, not as demos, and I want to bring that delivery mindset to your customers.
+
+At FlowSpace, I took over a live marketplace and automated its migration off a legacy stack onto Next.js and Laravel, mapping the old data structure to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to 4,500 plus users. I also built and still own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, producing over 900 drafts so far, and I built support AI agents that answer customer queries from live platform data and escalate to a person when confidence is low.
+
+At UltraStrategy, I built the CV parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda and scores how relevant that candidate is for specific types of roles, the result is delivered to the frontend, and the pipeline then generates a standardised Ultra CV using the Claude API. I built this with n8n and Eden AI, and I also worked on the API layer serving different user profiles.
+
+I work daily with Python for automation and data pipelines, TypeScript and Node.js for application code, and SQL against Postgres and Supabase, alongside Docker for packaging services. I am comfortable being the engineer on the ground with a customer, turning a working prototype into a solution their team can run.
+
+I hold an Italian EU Long Term Residence Permit and am authorised to work in Italy without sponsorship, based in Venice and ready to work from Milan.
+
+I would welcome the opportunity to discuss how I could contribute at Improove.
+
+Regards,
+Prabhavit Gupta

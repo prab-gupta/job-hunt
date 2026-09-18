@@ -1,0 +1,11 @@
+Albatross AI - Forward Deployed Engineer
+LinkedIn Easy Apply, submitted 2026-09-16 via Playwright
+
+Confirmation modal text:
+"Your application was sent to Albatross AI!
+You can keep track of your application in the "Applied" tab of My Jobs"
+
+Job page "Application status" panel:
+"Application submitted - now"
+
+URL: https://www.linkedin.com/jobs/view/4467739665/

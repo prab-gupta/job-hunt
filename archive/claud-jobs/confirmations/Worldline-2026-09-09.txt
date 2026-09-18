@@ -1,0 +1,13 @@
+NEEDS YOU — account creation wall, no submission made.
+
+Job: Product Owner (Data), Worldline, Bucharest, Romania
+LinkedIn posting: https://www.linkedin.com/jobs/view/4455341422/ ("Responses managed off LinkedIn" — not Easy Apply)
+Real ATS: SAP SuccessFactors — https://career2.successfactors.eu/careers?company=Worldline, Career Opportunities: Product Owner (305050)
+
+Flow taken: LinkedIn "Apply" button (external-link icon, not Easy Apply) -> new tab opened directly to Worldline's own careers site (jobs.worldline.com/job/Product-Owner/305050-en_US?src=LinkedIn) -> clicked "Apply now" -> redirected to Worldline's SuccessFactors career portal (career2.successfactors.eu/careers?company=Worldline). The very first screen requires creating an account: Resume/CV upload, optional Cover Letter upload, then mandatory Email Address, Retype Email Address, and Choose Password (with password complexity rules) before any other application field is shown. No guest/apply-without-account path exists.
+
+No account created, per brief guardrails. Tab left open for Prabhavit: tabId 550849784 (Chrome, MCP tab group), on the account-creation screen, nothing filled in.
+
+Screenshot: not saved as PNG (Claude in Chrome does not support saving screenshots to disk in this session); this txt is the record, screenshot was visually confirmed showing the SuccessFactors registration form (Resume/CV, Cover Letter, Email Address, Retype Email Address, Choose Password), none filled.
+
+Cover letter prepared regardless (for use once Prabhavit creates the account): CoverLetter_Worldline.txt and CoverLetter_Worldline.pdf (1 page, built from CoverLetter_Worldline.tex via tectonic).

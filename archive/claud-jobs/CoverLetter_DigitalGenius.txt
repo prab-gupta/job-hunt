@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Implementation Engineer role at DigitalGenius.
+
+At FlowSpace, I was responsible for the technical implementation of our SaaS platform for customers. I configured automation flows, integrated third-party systems (booking platforms like OfficeRnD and Nexudus, CRMs like Attio, helpdesks, and payment APIs like Stripe) via REST APIs, JSON payloads, and webhooks, and trained customers on using the platform effectively. When integration issues arose during onboarding, I traced requests across services, identified the root cause, and documented the fix so the next implementation went faster. I managed multiple customer implementations simultaneously, each with different system landscapes and requirements.
+
+I also built an AI data pipeline that ingests documents in any format, extracts structured data via API orchestration, and pushes validated results to the backend after human review. This involved connecting hundreds of different third-party data sources, each with its own API format and failure modes, which gave me a strong instinct for where system integrations break and how to make them resilient. I wrote this in Node.js, TypeScript, and Python.
+
+DigitalGenius is doing for e-commerce customer service what I helped build at FlowSpace for coworking. The Implementation Engineer role, configuring automation flows, integrating with customer service platforms like Zendesk and Dixa, fine-tuning AI behaviour based on real interactions, and conducting training sessions, maps directly to how I worked. I am comfortable working fully remote aligned to UK business hours.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

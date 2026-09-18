@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4422204294/
+ATS (Workday, req R0001533): https://nadara.wd3.myworkdayjobs.com/External/job/Lisbon/AI-Engineer_R0001533-1?source=LinkedIn
+
+LI-PICK row. Nadara (renewable energy group), AI Engineer, Greater Milan Metropolitan Area (offsite apply, "Responses managed off LinkedIn"). Dedupe: NEW (dedupe.py --check clean, no prior Nadara row in applications.csv). Posting open (apply-button count 1, active Apply button, over 100 clicks, no closed banner). JD fetched via the LinkedIn guest API: English, no anti-AI disclaimer. ATS page confirms open locations Lisbon, Madrid, Milano - Martesana, matching the LinkedIn Milan tag.
+
+JD asks for 2+ years genAI and 4+ years power automate/data science/ML, and a required Bachelor's degree with a desirable Master's — both would normally gate, but this is an LI-PICK row so applied regardless per the 2026-09-11 rule; years answered honestly as 3, not inflated. Stack is Microsoft Copilot Studio, Power Automate, Azure AI Foundry (Azure OpenAI, Azure AI Search, Prompt Flow), Snowflake Cortex AI, Python/SQL/.NET, LangChain/Semantic Kernel, MLOps/LLMOps. Prabhavit's Copilot Studio Agent Academy and Power Automate certifications are a direct match.
+
+Uploaded: nothing yet (blocked before the upload step).
+
+Blocker: LinkedIn Apply opened the Workday job page; clicking the ATS Apply button shows a chooser (Autofill with Resume / Apply Manually / Use My Last Application, no wall yet). Apply Manually lands straight on step 1 of 7, "Create Account/Sign In", offering only Sign in with Apple, Sign in with Google, or Sign in with email — all three create a Workday candidate account. No guest-apply path exists. Per the brief and the standing rule against creating accounts, stopped here without signing in or creating an account. Nothing was submitted.
+
+Built and ready for when the account is created:
+- Prabhavit_CV_Nadara.tex/.pdf — tailored from Prabhavit_CV_EN.tex, 2 pages, parity-checked (only non-trim change: dropped "Low code development" from Additional Information, no relation to this JD). Career Summary 2/3 bullets; FlowSpace 5 bullets (AI agents, scaling, listing bot, OfficeRnD/Nexudus, GTM automations); UltraStrategy both bullets kept (2, satisfies AI-JD minimum); Get2Germany 2 bullets kept (AI tools + Google APIs, satisfies AI-JD minimum); Urlink 2, Qomodo 1, Clubee 2, Tractionboard 2.
+- CoverLetter_Nadara.tex/.pdf/.txt — English, 264 words, 0 em-dashes, no "no-code"/"low-code"/"Bubble". Three paragraphs: UltraStrategy CV-parsing/assessment pipeline (Affinda + Claude API), FlowSpace (support AI agents, AI listing bot, OfficeRnD/Nexudus, CRM/GTM, live migration/scaling), Get2Germany (Google API integrations, AI tools for courses/internships/jobs). Three years stated plainly. Italy work authorisation (EU long-term resident, no sponsorship), Venice-based, hybrid Milan.
+
+Answers saved to answers/nadara-2026-09-11.md. Logged NEEDS YOU in applications.csv and appended row 17m to NEEDS_YOU.md section C. No confirmations file created (nothing was submitted, matches the existing NEEDS YOU logging pattern).
+
+LEARNINGS: none new — this Workday tenant behaves like the other Workday NEEDS-YOU rows already logged (SS&C, Quickbase, Sella): the resume-chooser modal itself is not a wall, but Apply Manually's Create Account/Sign In step has no guest path, only Apple/Google/email account creation.

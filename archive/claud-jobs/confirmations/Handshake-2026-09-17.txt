@@ -1,0 +1,6 @@
+Confirmation page: https://jobs.ashbyhq.com/handshake/03769630-780c-4b80-a148-6925f75f9dd9/application
+
+"Success
+Your application was successfully submitted. Thank you for your interest in Handshake!"
+
+Screenshot not saved as PNG per brief (Claude in Chrome cannot save PNGs to disk); this txt is the record of the success text actually seen on screen after Submit.

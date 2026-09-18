@@ -1,0 +1,33 @@
+FinecoBank - Lead AI Engineer - Generative AI - 2026-09-11
+NOT SUBMITTED - NEEDS YOU
+
+LinkedIn posting: https://www.linkedin.com/jobs/view/4450343817/ (open, "Apply" control present, "Responses managed off LinkedIn")
+ATS: Inrecruiting (intervieweb.it), guest apply form (no login/account creation required to reach the form)
+ATS URL: https://finecobank.intervieweb.it/jobs/lead-ai-engineer-generative-ai-103477/it/
+
+The entire application form was filled (name, email, DOB, gender, nationality, citizenship,
+phone, residence address, protected-category status, work-history entry, education entry,
+language competencies for English and Italian, application source, Fineco-connections
+question, elected/appointed-position question, CV uploaded as Prabhavit_CV_Fineco.pdf and
+confirmed attached, privacy notice checkbox ticked, data-accuracy consent selected).
+
+The Invia (Submit) button was NOT clicked because three required fields ask for facts that
+are not on file anywhere in loop/OUTREACH_FACTS.md, Prabhavit - Master Experience.md, or any
+standing-answer file, and none can be safely inferred or fabricated:
+
+1. Luogo di nascita (place of birth) - a geolocation-only combobox, no free text accepted.
+   No birthplace is recorded in any file.
+2. Valutazione conseguita (final grade of the Bachelor's degree, base /60, /100 or /110) -
+   free text, required once "Laurea Triennale" is selected as the qualification. No grade is
+   recorded anywhere.
+3. Codice fiscale italiano (the actual 16-character Italian tax code) - free text, required
+   once "Si" is selected for "Possiedo codice fiscale italiano" (a reasonable inference from
+   his confirmed Italian EU long-term resident status, not itself fabricated - but the code
+   string is not recorded anywhere and must not be guessed).
+
+Everything else on the form is filled and ready. The tab was left open at tabId 550850585
+(Claude in Chrome), with the originating LinkedIn tab at 550850584, so the user can supply the
+three missing facts and click Invia directly.
+
+No cover-letter field or second file-upload slot exists anywhere on this Inrecruiting form, so
+CoverLetter_Fineco.pdf/.txt could not be attached or pasted; they are built and kept on file.

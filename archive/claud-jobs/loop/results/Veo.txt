@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4386770393/
+Uploaded: Prabhavit_CV_Veo.pdf (tailored from Prabhavit_CV_EN.tex, verified selected in the resume picker before submit)
+Cover letter: CoverLetter_Veo.pdf/.txt kept on file; no dedicated cover letter field in this Easy Apply flow, so the work-authorisation transparency line was pasted into the "Anything else you'd like to share?" free text field
+Answers given: work permit in EU = No (Germany, needs employer permit); willing to relocate to Berlin = Yes; English = Fluent; contact-for-1-year marketing consent = No; follow company page = unticked; current location = Venice, Italy
+Confirmation: "Your application was sent to Veo Technologies!" - confirmations/Veo-2026-09-17.txt (PNG screenshot save not available via Claude in Chrome computer tool)
+Blockers: none

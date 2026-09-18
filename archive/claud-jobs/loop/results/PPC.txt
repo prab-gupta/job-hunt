@@ -1,0 +1,28 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4463829324/
+
+Company: PPC Romania (PPC Energy Services, Digital Solutions), Bucharest, Hybrid, Full-time. Role: Middle Machine Learning Engineer. Fit 70.
+
+Dedupe: NEW (`python3 loop/dedupe.py --check "PPC Romania" "https://www.linkedin.com/jobs/view/4463829324/"` -> NEW; grep of applications.csv for "ppc" only matched an unrelated "Reset Health" LEAD row, no block).
+
+Order of work: apply-button pre-check passed (`curl -s -A "Mozilla/5.0" .../jobPosting/4463829324 | grep -c apply-button` = 1). Live page confirmed "Easy Apply" control present, no "Not currently accepting applications" banner, and the Easy Apply modal is a genuine 4-page submittable form (verified by stepping through it). Full JD re-checked for hard gates: years "2+ years of experience in machine learning engineering" (not >3), title "Middle Machine Learning Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO), education "Bachelor's or Master's" (Bachelor's accepted, not a hard MSc/PhD gate), JD in English with only upper-intermediate English required, core stack is Python/AWS ML tooling with a clear production/application layer (not pure research, not a Java/.NET/Go-only or cloud-admin role), Bucharest/EU/hybrid with relocation. Anti-AI clause grep on the full guest-API JD HTML: no hits. No KILL condition found.
+
+Uploaded: `Prabhavit_CV_PPC.pdf` (tailored from Prabhavit_CV_EN.tex per the tailoring rules -- Career Summary trimmed to 2 bullets, FlowSpace bullets reordered to lead with scale/AI-agent/data-processing work, both instances of the Bubble.io migration bullet dropped as unrelated to this ML JD, other roles trimmed to their most AI/data/testing-relevant bullets with at least 1 kept per role, Technical Skills reordered AI/ML -> Development -> Automation -> Project/Design, no sentence rewritten and no new claim added; the CV does not claim SageMaker/Spark/Redshift/MLflow/Airflow anywhere, consistent with the brief's instruction not to claim Spark/SageMaker production or research experience). Compiled with tectonic, 2 pages, clean; parity check against the base PDF passed (0 unmatched lines).
+
+No cover letter was attached: this specific Easy Apply flow (Contact info -> Resume -> Additional Questions -> Review) never offered a cover letter upload or text field at any step, so nothing existed to attach it to. `CoverLetter_PPC.pdf`/`.txt` (200 words, 0 em-dashes) were written and compiled anyway per the task instructions and are on file in ROOT for reuse.
+
+Answers given in the Easy Apply modal:
+- Contact info: email prabhavitg@gmail.com and phone country code Italy (+39) pre-filled correctly; mobile number 351 610 7807 typed.
+- Resume: explicitly uploaded Prabhavit_CV_PPC.pdf (did not accept the pre-selected stale library default). Verified filename on the Review page.
+- "Have you completed the following level of education: Bachelor's Degree?" -> Yes.
+- "How many years of work experience do you have with Python (Programming Language)?" -> 2 (honest working-knowledge figure, meets the JD's stated 2+ floor without inflating to the full 3-year professional total).
+- "How many years of work experience do you have with Apache?" -> 0 (maps to the JD's Apache Spark/Airflow asks, which the task brief explicitly says not to claim at production/research level; no genuine hands-on experience exists in the master experience file, so answered honestly rather than gaming the gate).
+- "Follow PPC Romania" checkbox: was pre-checked by LinkedIn, unticked before Review.
+- No salary, work-authorisation, or notice-period question appeared anywhere in this flow.
+
+Reviewed the full 4/4 Review page (contact info, resume filename, all three answers, unticked follow box) before submitting. Clicked Submit application. Confirmed success text: "Your application was sent to PPC Romania!" / "Application status: Application submitted -- now". Screenshot saved to confirmations/PPC-2026-09-09.png, success text saved to confirmations/PPC-2026-09-09.txt.
+
+Logged: applications.csv row appended (status SUBMITTED), answers/ppc-romania-2026-09-09.md (full gate check, tailoring summary, answer reasoning), answers/cv-tailoring-ppc-2026-09-09.md (bullet-by-bullet CV diff). My Chrome tab (550849905) was closed after the upload blocker forced a switch to Playwright; the Playwright tab used for the actual submission was also closed afterward.
+
+LEARNINGS: Claude in Chrome's `file_upload` tool cannot handle LinkedIn Easy Apply's secondary "Upload resume" button (as opposed to the initial resume-selection radios) -- repeated `find`/`read_page` lookups on that button always resolved it as `<button type="button">`, never as an `<input type=file>`, and no `<input type=file>` ever appeared in the DOM via direct JS query, even immediately after a real trusted click via `computer left_click`. `file_upload` on that ref failed every time with "Element is not a file input." Confirmed the modal is plain light DOM (not a closed shadow root, contrary to the brief's general note), so the input is most likely created and torn down synchronously inside the click handler, invisible to a follow-up tool call. Fell back to Playwright MCP per the brief: verified it was on the SAME authenticated LinkedIn session (same Easy Apply button and profile name), then used `browser_click` on "Upload resume" (Playwright auto-detects the pending file chooser) immediately followed by `browser_file_upload` with the CV path -- this worked cleanly on the first try. For LinkedIn Easy Apply resume uploads going forward, go straight to Playwright's click+file_upload pattern rather than attempting Claude-in-Chrome's ref-based file_upload on this specific control.

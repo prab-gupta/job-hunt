@@ -1,0 +1,26 @@
+STATUS: PREP DONE (materials-only, not applied)
+URL: https://www.linkedin.com/jobs/view/4459175293/
+Company: Officine IADR | Role: "Dev" posting (multiple role codes) | Genoa | Entry level
+Target role code: DEV_202608_03 Web & Mobile Developer (TypeScript/PHP). Secondary/mentioned: DEV_202608_02 Backend Developer.
+Dedupe: NEW (python3 loop/dedupe.py --check "Officine IADR" checked, no prior row)
+Anti-AI disclaimer grep: none found in scratchpad/jd/4459175293.txt
+
+Files built:
+- Prabhavit_CV_OfficineIADR.tex / .pdf (tectonic OK, 2 pages, photo embedded 1 image object, parity check passed vs Prabhavit_CV_EN.tex)
+- CoverLetter_OfficineIADR.tex / .txt / .pdf (Italian, 204 words, 0 em-dashes, no Bubble/no-code wording, no Claude/Anthropic attribution, no FastAPI/Kubernetes/PyTorch claims)
+
+Letter language: Italian, names both role codes (DEV_202608_03 primary, DEV_202608_02 secondary) as the posting instructs applicants to indicate the position of interest.
+
+CV tailoring notes: treated as API-integration JD (DEV_202608_02 explicitly wants API/architecture design) so kept 2 UltraStrategy bullets and 2 Get2Germany bullets per the brief's trigger rule. FlowSpace Technical Responsibilities (external API integrations, commute-time tool, AI listing tool) placed ahead of Product Responsibilities. Clubee kept 2 bullets (API integration + QA) since DEV_202608_03 wants frontend/backend integration and testing discipline is a plus. Dropped the "Low code development/AI based development" Additional Info item.
+
+Field answers for tomorrow's browser agent:
+- Years of experience: 3 (numeric); bucket dropdown pick the one containing 3.
+- Salary: JD states "Range retributivo: RAL fino a 40K" (up to 40K, no floor given). Standing default 45,000 EXCEEDS the JD's own stated ceiling. Recommend answering near the top of the implied band, e.g. 35,000-40,000, not the standing 45,000 default. Flagging as ODD: JD gives only a ceiling, no floor, and it sits below the standing default.
+- Work authorisation: role is Italy (Genoa) -> Yes, authorised, No sponsorship needed. No transparency line required.
+- Partita IVA: Yes.
+- Driver's license: No.
+- Italian: conversational, B1-B2.
+- How did you hear: LinkedIn.
+- Free-text "position of interest" field (the posting explicitly asks applicants to state this): answer "DEV_202608_03" (primary), optionally add "also open to DEV_202608_02" as secondary, per the task brief.
+
+Anything odd in the JD: this is a single LinkedIn posting bundling FOUR distinct role codes (DEV_202608_01 3D/Gaming, _02 Backend, _03 Web & Mobile, _04 Firmware) under one "Dev" title; applicants must self-select and name the code, and the posting explicitly says "the perfect CV does not exist" and that non-matching applications may be considered for other IADR roles. No formal degree requirement stated (personal/open-source projects accepted in lieu of experience). Recruiting process described as long/selective ("percorso di recruiting approfondito e selettivo").

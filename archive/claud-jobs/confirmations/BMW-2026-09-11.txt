@@ -1,0 +1,13 @@
+Not submitted - SuccessFactors account creation/sign-in required, user-only.
+
+LinkedIn job https://www.linkedin.com/jobs/view/4442822811/ (BMW Group, Intern AI Solutions for Financial Services (f/m/x), Munich, on-site, "Over 100 people clicked apply", "Responses managed off LinkedIn") -> clicked Apply -> opened https://www.bmwgroup.jobs/de/de/jobfinder/job-description.191936.html?tl=coo%3Alinkedin (job ID 191936, Data Science, Munich, published 27.07.2026) -> clicked "JETZT BEWERBEN" -> opened https://career5.successfactors.eu/careers?company=bmwag&career_job_req_id=191936&career_ns=job_application&jobPipeline=coo%3Alinkedin
+
+Page title: "Career Opportunities: Sign In". The page shows only two paths: (1) "Already have an account? Enter your email address and password" with an Email Address field, Password field, and a Google reCAPTCHA "I'm not a robot" checkbox before Sign In; (2) "Not a registered user yet? Create an account to apply for our career opportunities." (a link to account registration). There is no guest-apply, no "apply without an account", and no resume-autofill path. Confirmed no genuine guest path exists.
+
+Per the brief, account creation is user-only, and CAPTCHAs are user-only. Stopped here, no account created, no credentials entered.
+
+CV + cover letter built and ready to upload once signed in:
+- Prabhavit_CV_BMW.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages)
+- CoverLetter_BMW.pdf and CoverLetter_BMW.txt (268 words)
+
+Tab left open on the Sign In screen: Claude-in-Chrome tabId 550850482.

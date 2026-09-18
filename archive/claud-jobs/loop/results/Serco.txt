@@ -1,0 +1,7 @@
+STATUS: CLOSED
+URL: https://www.linkedin.com/jobs/view/4468252058/
+Uploaded: nothing (never reached the Easy Apply form).
+Materials built and saved for reuse if the posting reopens: Prabhavit_CV_Serco.tex/.pdf, CoverLetter_Serco.tex/.pdf/.txt.
+Answers given: none, form never opened.
+Blocker: the guest-API cheap check passed (apply-button=1) and the full JD text was read and cleared all hard gates (English, Associate, Bachelor's-or-Master's, claimable Python/Linux/SQL/Docker/AI-assisted-dev stack, explicitly names Claude Code, no anti-AI disclaimer). When opened live in Playwright, the job page showed "Not currently accepting applications" (posted 1 hour ago, 9 applicants already). Per the brief this banner overrides the cheap check, so the row was stopped without attempting Easy Apply.
+LEARNINGS candidate: a posting can pass the guest-API apply-button cheap check yet already show "Not currently accepting applications" on the live page within an hour of posting (Serco req closed fast, likely an internal quota); always do the live-page check even when the cheap check passes, exactly as the brief already instructs, just noting this happened same-day.

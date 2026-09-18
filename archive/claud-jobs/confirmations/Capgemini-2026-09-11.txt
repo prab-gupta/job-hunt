@@ -1,0 +1,17 @@
+NEEDS YOU - not submitted. No success text seen, no application entered.
+
+Job: Data Engineer, Capgemini, Marcon (Venice), Italy (req 341449-en_GB)
+LinkedIn posting: https://www.linkedin.com/jobs/view/4374760503/ (LI-PICK row; posting confirmed open, apply-button count 1; offsite, "Responses managed off LinkedIn")
+
+Path taken:
+1. LinkedIn job page, clicked Apply -> safety-reminder interstitial -> "Continue applying" -> opened https://www.capgemini.com/jobs/341449-en_GB_SAPBTP/Data-Engineer (verified same JD text and req ID as the LinkedIn posting; location list includes "Marcon VE" among Roma, Milano, Torino, Bologna).
+2. Clicked "Apply for this job" -> opened https://career5.successfactors.eu/careers?company=capgemitecP3, a SAP SuccessFactors career portal (same portal family as the 2026-09-09 Capgemini Engineering Software Engineer application, different requisition number).
+3. This single-page form requires creating an account before anything can be submitted: "Already a registered user? Please sign in", plus a mandatory Resume upload, Valid Email, Retype Valid Email, and a "Choose Password" field with complexity rules (8-18 chars, upper+lower case, number/punctuation, no space/unicode) sit at the top of the same form as the application questions (legal name, phone, country of residence, work authorisation, disability/gender consent, Country of Application, privacy notice, Apply button). No guest-apply path, no autofill-from-CV bypass.
+
+Blocker: mandatory account creation (email + password) to apply. Per the apply-agent brief this is a NEEDS YOU hand-back; no account was created, no email/password entered, nothing was submitted.
+
+Chrome tabs left open for the user: tabId 550850577 (capgemini.com job page) and tabId 550850578 (career5.successfactors.eu, "Career Opportunities: Data Engineer (341449)", the account-creation screen). LinkedIn posting tab 550850573 also left open.
+
+Prepared and ready for the user to use once signed in:
+- CV: Prabhavit_CV_Capgemini.pdf (freshly tailored for this Data Engineer req: summary led with LLM-powered data parsing + API integration; FlowSpace migration/API-integration/CRM bullets first; UltraStrategy CV-parsing pipeline (n8n, Eden AI) kept in full; Get2Germany reordered database-optimization + Google API integration + AI automation tools first; no Spark/Hadoop/Kafka/Databricks claimed anywhere)
+- Cover letter (Italian): CoverLetter_Capgemini.pdf / CoverLetter_Capgemini.txt (266 words, 0 em-dashes, "voi" plural, no "Lei") - leads with the UltraStrategy CV-parsing pipeline (Affinda + API Claude) and the FlowSpace live data migration, Get2Germany search/API automations as second proof, three years stated plainly, residency in Venice near Marcon, no Spark/Databricks claimed.

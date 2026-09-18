@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465013489/
+Company: BK IT Solutions - AI & Automation Engineer - Randstad, Netherlands (LinkedIn Easy Apply candidate, never reached)
+
+Reason: hard-gate KILL on JD language. Fetched the live posting via curl https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465013489 - the entire JD (title line, "Wat ga je doen?", "Technologieen waarmee je werkt", "Wat zoeken wij?", "Wat bieden wij?", "Over BK IT Solutions") is written in Dutch, opening with "Bouw mee aan de toekomst van AI en automatisering". Grepped the full fetched HTML for english/dutch/nederlands/taal - zero matches, no statement anywhere that English is acceptable. Per the brief: a Dutch-language JD proceeds only if English is explicitly stated as fine; otherwise KILL with the quote. No such statement exists here, so KILL.
+
+Other gates checked and would have passed: title is "AI Automation Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO), no explicit years-of-experience requirement in the JD, no hard MSc/PhD requirement ("HBO werk- en denkniveau" only), stack (PowerShell/Python scripting, API-integraties, Microsoft Copilot Studio/Power Automate/Azure AI Foundry) is automation-adjacent and roughly claimable. BK IT Solutions is confirmed as the actual named hiring company (an MSP describing "onze eigen organisatie" and "onze klanten"), not a staffing agency posting for an unnamed client, so that gate does not independently apply - language alone was the kill reason.
+
+Dedupe: python3 loop/dedupe.py --check "BK IT Solutions" "https://www.linkedin.com/jobs/view/4465013489/" returned NEW; grep -i "bk it" applications.csv also returned nothing. Not a dedupe block.
+
+Uploaded: nothing (no CV, no cover letter - never reached the resume step).
+Answers given: none.
+Blockers: JD-language hard gate (Dutch, no English-acceptable statement) - not a form blocker, no browser tab was opened, no NEEDS YOU.
+LEARNINGS: none - no new ATS trap encountered, killed before touching the browser.

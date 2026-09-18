@@ -1,0 +1,89 @@
+STATUS: NEEDS YOU
+
+URL: https://jobs.ashbyhq.com/lexroom/3ac55de3-1a39-4129-99f1-f702e78eecbc/application
+LinkedIn ref: https://www.linkedin.com/jobs/view/4421162056/ (LI-PICK row, queue.csv)
+ATS: Ashby (jobs.ashbyhq.com/lexroom)
+
+Uploaded: nothing. Prabhavit_CV_Lexroom.pdf/.tex built and saved (Career Summary trimmed to 2
+bullets, FlowSpace led by the Next.js/Laravel migration and OfficeRnD/Nexudus API bullets,
+Get2Germany's Google-APIs and database-optimisation bullets kept and led, UltraStrategy both
+bullets kept, photo swapped to a new recompressed photo_small_q80.jpg purely to shrink the
+intended upload, no new claims/no Python added since it is absent from the base tex - 2 pages).
+CoverLetter_Lexroom.pdf/.txt built and saved (0 em-dashes, 280 words, FlowSpace + UltraStrategy
+proof paragraphs).
+
+Answers given: Name = Prabhavit Gupta, Phone = +39 351 610 7807, Email = prabhavitg@gmail.com,
+verified by screenshot on the Ashby application tab. Resume, LinkedIn and any fields below were
+not reached.
+
+Blocker: this session's in-app Browser pane was shared with a second, unrelated, concurrent
+process for the whole task - tabs kept appearing and navigating on their own to unrelated sites
+(menhir.ai, nivara.io, whiteboxml.com, intrum.com, aieng.ai, oxigent.io, linkedin.com) while I was
+mid-action, and at one point my keystrokes landed briefly on a different tab entirely (a New Relic
+Greenhouse application, see BambooWorks.txt LEARNINGS). I isolated onto a freshly created tab
+(tab-2) which held the Lexroom Ashby form reliably and filled name/phone/email there successfully.
+Ashby's Resume field is a plain file input with no "paste text" alternative (confirmed by
+read_page), so attaching Prabhavit_CV_Lexroom.pdf required relaying its base64 (76,956 chars) into
+the page by hand via javascript_tool in large chunks, since this browser sandbox cannot reach a
+local HTTP server on this Mac (127.0.0.1/localhost, confirmed unreachable - "Failed to fetch").
+Partway through (3 of 8 chunks), a manual relay error corrupted the page-side buffer (length
+28,453 instead of the expected 30,000). Rather than risk building a File object from a corrupted
+buffer and attaching/submitting a broken PDF, I zeroed the buffer and stopped before touching
+Submit. Nothing was submitted.
+
+LEARNINGS: (1) The Claude Browser pane in this environment is NOT guaranteed exclusive to one
+task - it can be actively driven by another concurrent session/agent, including navigating and
+typing on tabs you did not create, and even the default "seed" tab can be hijacked mid-task.
+Create your own tab with tabs_create and always pass its explicit tabId on every action once more
+than one tab exists in tabs_context; never assume "seed" stays yours. (2) This pane's browser
+sandbox cannot reach a localhost/127.0.0.1 HTTP server run from the host Mac (confirmed via
+fetch() failing with "Failed to fetch" from an https origin, tried both "127.0.0.1" and
+"localhost") - a local-file-server workaround for large uploads does not work here. (3) Manually
+relaying a large base64 payload (tens of thousands of characters) into a javascript_tool call by
+hand, chunk by chunk via Bash cat + copy into the tool call, is error-prone at this scale and hard
+to verify beyond a length check - a single mis-paste silently corrupts the buffer. For an ATS
+offering only file upload with no "paste resume as text" alternative and a CV file too large to
+safely hand-relay, treat it as a upload blocker like a CAPTCHA and hand back rather than risk a
+corrupted attachment.
+
+---
+UPDATE 2026-09-16 (later run, Claude in Chrome, own tab):
+STATUS: SUBMITTED
+
+Retried this row per task instruction (materials were ready from the earlier NEEDS YOU attempt
+above). Opened https://jobs.ashbyhq.com/lexroom/3ac55de3-1a39-4129-99f1-f702e78eecbc/application
+in a freshly created Claude-in-Chrome tab, isolated from other tabs already open in the shared
+browser (several unrelated tabs from other concurrent tasks were present; never touched them).
+
+Re-verified letter: 2 proof paragraphs (FlowSpace, UltraStrategy), 0 em-dashes (grep confirmed).
+Re-ran dedupe.py --check, which returned HIT URL (expected, matches today's earlier NEEDS YOU
+row for this same posting) - proceeded per task instruction since that row was incomplete/blocked
+by tooling, not an actual duplicate submission.
+
+Filled Name/Phone/Email via form_input, uploaded Prabhavit_CV_Lexroom.pdf via file_upload
+(succeeded cleanly this time), filled LinkedIn URL, selected "Job board (Indeed, Glassdoor,
+LinkedIn Jobs, etc.)" for "How did you hear about this opportunity?".
+
+First Submit attempt failed: Ashby's form validation reported "Missing entry for required field:
+Phone" and "Missing entry for required field: Email" even though both fields visibly held the
+correct text (form_input had set the raw DOM value but Ashby's React state never picked it up).
+Tried the native-setter + dispatchEvent('input'/'change') trick via javascript_tool - value stayed
+correct but validation still failed. Fixed by clicking into each field, selecting all, deleting,
+and re-typing via the computer tool's real keyboard `type` action, which fired genuine key events
+Ashby's form listens for. Second Submit succeeded.
+
+Success message: "Thank you for your interest in Lexroom.ai! Your application was successfully
+submitted. We'll contact you if there are next steps."
+
+Logged: applications.csv new SUBMITTED row appended for 2026-09-16 (old NEEDS YOU row untouched),
+confirmations/Lexroom-2026-09-16.txt (PNG save unavailable from this tool in this session, per
+brief substituted the success-text record).
+
+LEARNINGS: On this Ashby build, form_input (and a JS native-value-setter + input/change event
+dispatch) both visually set Name/Phone/Email but did NOT satisfy React Hook Form's internal state
+for Phone and Email specifically (Name was unaffected, oddly) - validation kept reporting them
+missing. Only real synthesized keyboard input (computer tool's `type` action, after triple-click
++ select-all + delete to clear) registered correctly. For future Ashby forms: after using
+form_input on Phone/Email-type fields, submit once as a cheap test: if validation complains about
+a field that looks filled, redo that field with the keyboard `type` action rather than JS/DOM
+tricks.

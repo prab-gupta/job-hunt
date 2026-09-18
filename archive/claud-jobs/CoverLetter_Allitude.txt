@@ -1,0 +1,14 @@
+Gentile team di selezione,
+
+mi candido per la posizione di GenAI Engineer in Allitude. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, su sistemi in produzione con utenti reali. Lavoro regolarmente con Python, Node.js e TypeScript, oltre a n8n per l'orchestrazione di flussi e integrazioni API, il tipo di stack che citate nell'annuncio.
+
+Per UltraStrategy ho costruito la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline lo elabora e valuta quanto il profilo sia rilevante per specifici tipi di ruolo, il risultato arriva al frontend e infine viene generato un CV generalizzato ("Ultra CV"). Per l'estrazione e la generazione abbiamo usato Affinda e le API di Claude, con n8n ed Eden AI nella prima versione dello strumento.
+
+Per FlowSpace ho costruito agenti AI di supporto che rispondono alle richieste dei clienti attingendo ai dati live della piattaforma e passano il caso a una persona quando la sicurezza della risposta è bassa, un pattern agentico con recupero delle informazioni molto vicino a quello che descrivete per gli assistenti conversazionali. Nello stesso ruolo gestisco in produzione la migrazione dei dati verso Next.js e Laravel, portando la piattaforma da 2.000 a oltre 4.500 utenti senza interrompere il servizio.
+
+Per Get2Germany ho integrato le API di Google e costruito con n8n strumenti AI che trovano corsi, stage e offerte di lavoro per gli utenti della piattaforma, lavorando end to end dall'analisi dei requisiti al rilascio.
+
+Quello che mi interessa del vostro annuncio è la possibilità di lavorare su use case GenAI end to end, dal prototipo alla produzione, dentro un gruppo che sta investendo seriamente sull'AI generativa. Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship, e sono disponibile per la modalità ibrida a Trento o a Bologna. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

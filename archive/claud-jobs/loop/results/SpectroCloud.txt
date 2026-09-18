@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4455696596/ (applied via https://careers.spectrocloud.com/jobs/8244386-senior-forward-deployed-solution-engineer-poland)
+Uploaded: Prabhavit_CV_SpectroCloud.pdf (CV), CoverLetter_SpectroCloud.pdf (additional file) plus full cover letter text pasted into the form's Cover letter textarea
+Answers given: name/email/phone (country changed from default Poland +48 to Italy +39), required privacy consent checked, marketing contact-me checkbox left unticked.
+Blockers: none. NATO Secret clearance eligibility and 6+ yrs/Kubernetes/GPU stack mismatch are real fit gaps but not kill criteria under the FDE blanket-apply rule; disclosed honestly in the letter instead.
+Confirmation: "Thanks for applying. We have received your application and we will be reviewing it shortly." (confirmations/SpectroCloud-2026-09-17.txt)
+LEARNINGS: careers.spectrocloud.com is a lightweight native (non-Greenhouse/non-Ashby/non-Workday) careers-site ATS despite the "careersite" internal naming; form_input worked fine on all text fields including First/Last name/Email (no Ashby-style stale-state issue here). Phone field has its own country-code combobox defaulting to the job's own country - must be changed explicitly to the candidate's real country before typing the number.

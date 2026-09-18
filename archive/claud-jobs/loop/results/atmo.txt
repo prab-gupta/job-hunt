@@ -1,0 +1,24 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4463468067/ (LinkedIn Easy Apply, posting id 4463468067)
+Dedupe: NEW (python3 loop/dedupe.py --check "atmo" "https://www.linkedin.com/jobs/view/4463468067/" -> NEW). No prior atmo row in applications.csv (grep confirmed empty).
+Cheap check: curl guest API jobPosting/4463468067 -> apply-button count = 1 (accepting applications, not closed). Posting live: "40 applicants ... 1 hour ago".
+
+Hard gate hit: core stack cannot claim (Django/FastAPI backend as the core, cloud admin).
+Live JD text (pulled via LinkedIn guest jobPosting API to get the full description, not the queue's truncated summary):
+- What you'll do: "Own the platform end-to-end: a Python/FastAPI backend, Next.js web apps and the AWS infrastructure they run on"
+- What we're looking for: "Strong full-stack experience: Python backend depth (FastAPI or similar, SQL, background jobs), comfortable across the stack in TypeScript/Next.js, and owning infrastructure on AWS"
+Both lines put FastAPI backend ownership and AWS infrastructure ownership as core, co-equal requirements alongside Next.js/TypeScript, not a "working knowledge" nice-to-have. That matches the brief's explicit unclaimable core stack (Django/FastAPI backend as the core, cloud admin), so this is an automatic KILL regardless of the strong LLM-pipeline fit elsewhere in the JD.
+
+Other gates checked for completeness (all would have passed):
+- Title: "Full Stack Founding Engineer" - not Senior/Staff/Lead/Principal/Manager/CTO (LinkedIn's own "Mid-Senior level" metadata tag is a platform classification, not the job title itself).
+- No years-of-experience number stated anywhere in the JD.
+- No MSc/PhD requirement anywhere in the JD.
+- JD is in English throughout.
+- German: "German helps, but not mandatory, as much of our farm data is German" - explicitly optional, not required.
+- Location: Berlin, Germany, "Hybrid, with a preference for Berlin" - within the EU, relocation is a standing Yes.
+- No anti-AI disclaimer found (grepped the full text; mentions of "AI-powered"/"AI-first" describe atmo's own product, not a ban on AI-assisted applications).
+
+Not opened past the JD read: no CV/letter built (Prabhavit_CV_atmo.tex/.pdf and CoverLetter_atmo.txt/.pdf do not exist), no Playwright browser tab opened, no form touched, nothing submitted.
+Logged: applications.csv row appended (status KILLED). No confirmations file (nothing was submitted). No answers file (no free-text field was ever reached).
+
+LEARNINGS: none new - existing "core stack cannot claim: Django/FastAPI backend as the core, cloud admin" gate in the brief covered this cleanly; the queue's short pre-check summary ("build/improve LLM pipelines... full-stack product work") undersold how central FastAPI+AWS ownership is to the role, so always pull the full live JD before trusting a queue summary's framing, same lesson as prior KILLED rows.

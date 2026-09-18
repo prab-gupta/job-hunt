@@ -1,0 +1,12 @@
+Gentile team di Openjobmetis SpA,
+
+mi candido per la posizione di Junior Software Engineer, AI-Assisted Development, per la realtà cliente con sede a Biella. Ho tre anni di esperienza continuativa come sviluppatore full-stack in otto aziende europee, con PHP (Laravel), Python e database relazionali usati regolarmente, e uso Claude Code come strumento quotidiano di sviluppo assistito dall'Intelligenza Artificiale, lo stesso approccio che descrivete per il ruolo.
+
+Per FlowSpace ho automatizzato la migrazione dei dati di un marketplace live da uno stack legacy a Next.js e Laravel, progettando le API REST e i flussi di importazione per ogni entità mentre il prodotto restava in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti. Ho inoltre costruito un bot AI che elabora brochure in qualsiasi formato e ne ricava un annuncio strutturato con verifica umana, usando le API di Claude e n8n, e ho integrato le API esterne di OfficeRnD e Nexudus per le prenotazioni automatizzate.
+
+Per UltraStrategy ho costruito una pipeline che elabora i CV caricati dagli utenti: i dati vengono estratti e valutati per la rilevanza rispetto a tipi di ruolo specifici, il risultato arriva al frontend e infine viene generato un documento standardizzato, usando Affinda e le API di Claude, con n8n ed Eden AI per l'automazione di supporto.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e disponibile per la sede di Biella in modalità ibrida. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

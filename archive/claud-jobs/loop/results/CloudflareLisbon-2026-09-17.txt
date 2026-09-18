@@ -1,0 +1,20 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4457272772/ -> https://job-boards.greenhouse.io/cloudflare/jobs/8043339
+Company: Cloudflare - Forward Deployed Engineer, Professional Services, Lisbon, Portugal, Hybrid, Associate
+
+USER RULE FDE-ALL: every FDE posting in Italy/EU gets an application, no kill for fit/years/seniority/agency/stack.
+
+Dedupe: python3 loop/dedupe.py --check "Cloudflare" "https://www.linkedin.com/jobs/view/4457272772/" returned HIT COMPANY, matching the Cloudflare Senior Forward Deployed Engineer (Sweden) row submitted earlier today (job-boards.greenhouse.io/cloudflare/jobs/8110209). Per the task's explicit instruction, this Lisbon requisition (job 8043339, Associate-level Professional Services FDE, different location and level) is new and not blocked.
+
+Hard gates: no anti-AI clause (grepped full JD), JD is English, title Associate (not Senior/Staff/Lead/Principal/Manager/CTO by LinkedIn's own seniority tag), no explicit years-of-experience number stated, no hard MSc/PhD requirement, core ask (Solutions Architect/TAM style customer-facing role, Cloudflare security/network products, Terraform) is not Prabhavit's core stack but not a hard-gate stack either (Java/.NET/C++/Go/Rust/Django-as-core/cloud-admin) - proceeded per FDE-ALL.
+
+Uploaded: Prabhavit_CV_CloudflareLisbon.pdf (built fresh from Prabhavit_CV_EN.tex, 2 pages, tailored to lead with customer-facing/API-integration bullets) and CoverLetter_CloudflareLisbon.pdf. Used a role-qualified slug (CloudflareLisbon) rather than reusing today's Prabhavit_CV_Cloudflare.pdf, which was built for the separate Sweden requisition, to avoid the same-company file-collision trap logged in LEARNINGS (2026-09-17 08:40, Aircall).
+
+Route: clicked Apply on the LinkedIn posting, which opened https://job-boards.greenhouse.io/cloudflare/jobs/8043339 directly in a new tab (a real boards.greenhouse.io URL, not a cross-origin iframe) - no Playwright hand-off was needed.
+
+Answers given: First/Last/Email/Phone auto-populated correctly from the Greenhouse "MyGreenhouse" profile; removed a stale prefilled generic resume ("Prabhavit_CV-.pdf") before uploading the tailored one; LinkedIn URL linkedin.com/in/prabhavit; How did you hear = LinkedIn; "Do you currently live or are you willing to relocate to the job's location?" = "I am willing to relocate to this job's location."; "Do you now or will you in the future require immigration sponsorship to work at Cloudflare?" = Yes; Candidate Privacy Policy acknowledgement checked. No salary field on this form (task default EUR 45000 not surfaced).
+
+Confirmation: "Thank you for applying! Your application has been received and we will review it shortly." at https://job-boards.greenhouse.io/cloudflare/jobs/8043339/confirmation. See confirmations/CloudflareLisbon-2026-09-17.txt (PNG not saved - Claude in Chrome's computer tool has no save-to-disk option, per the brief's documented limitation; a screenshot was taken and visually confirmed the success page before logging).
+
+Blockers: none.
+LEARNINGS: none new (Greenhouse "MyGreenhouse" autofill prefilling a stale generic resume filename is a variant of the general "verify uploaded filenames" rule already in the brief, not a new trap worth a dedicated line).

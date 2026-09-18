@@ -1,0 +1,6 @@
+Rematiq GmbH — QA Engineer (Manual), Berlin
+Submitted 2026-09-10 via Claude in Chrome (tab 550850146), Ashby ATS.
+URL: https://jobs.ashbyhq.com/rematiq-gmbh/96cf3f43-d6d3-4863-a925-f0c5e1de1bd8/application?utm_source=arbeitnow.com&ref=arbeitnow.com
+
+Success banner text (captured on page after submit, screenshot save-to-disk not available in Claude in Chrome per brief so this text is the record):
+"Your application was successfully submitted. We'll contact you if there are next steps."

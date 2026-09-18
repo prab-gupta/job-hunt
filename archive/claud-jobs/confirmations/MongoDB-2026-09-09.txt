@@ -1,0 +1,5 @@
+Thanks for taking the time to apply to MongoDB!
+
+In the meantime while we review your application, please check out the latest articles and stories on our "Life at MongoDB Blog."
+
+(Confirmation page shown after clicking Submit application on the Greenhouse job board embedded at https://www.mongodb.com/careers/jobs/8053152, job Technical Services Engineer - Partners, Dublin, Ireland. Screenshot: MongoDB-2026-09-09.png)

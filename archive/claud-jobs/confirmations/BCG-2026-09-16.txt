@@ -1,0 +1,12 @@
+BCG X - Visiting Forward Deployed AI Engineer, Italy - 2026-09-16
+STATUS: NEEDS YOU (account wall, not submitted)
+
+LinkedIn: https://www.linkedin.com/jobs/view/4388505837/
+BCG careers job (id 55987, confirmed live via site search, 498 results): https://careers.bcg.com/global/en/job/BCG1US55987EXTERNALENGLOBAL/Visiting-Forward-Deployed-AI-Engineer-Italy-BCG-X
+Apply landed on: https://studenttalent.bcg.com/candidate/login?domain=bcg.com&hl=en&utm_source=linkedin&utm_medium=phenom-feeds&next=...
+
+Page text seen: "Sign in / Welcome to BCG's new candidate portal! ... Email [field] Continue OR Sign in using Google / First time here? Create an account"
+
+No guest-apply path found. Only options are email+password sign-in, Google sign-in, or Create an account. Per the standing rule, no account was created and no OAuth sign-in was performed. Nothing submitted.
+
+CV and letter ready: Prabhavit_CV_BCG.pdf, CoverLetter_BCG.pdf/.txt. See answers/bcg-2026-09-16.md and NEEDS_YOU.md section C, row 17x.

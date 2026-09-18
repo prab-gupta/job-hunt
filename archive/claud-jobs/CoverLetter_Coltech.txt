@@ -1,0 +1,14 @@
+Dear Coltech hiring team,
+
+I am writing to apply for the Artificial Intelligence Engineer contract. I build production-grade agentic AI on top of LLM APIs, and I like that this role is measured on getting a GenAI workload from problem to production, not just to a demo.
+
+At FlowSpace, a workspace marketplace, I built support AI agents that retrieve live platform data to answer customer queries and escalate to a human when confidence is low, the same retrieval-and-reasoning pattern this role's RAG and agentic work needs. I also built an AI listing bot on n8n and the Claude API that ingests a provider brochure in any format and drafts a full structured listing with a human in the loop, over 900 draft listings produced so far in production.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores role fit with Affinda and the Claude API, the result reaches the frontend, and a standardised Ultra CV is generated. I work in Python day to day for these pipelines and I am comfortable with API-based LLM providers, prompt engineering, and keeping an eye on cost and reliability once something is live.
+
+I hold an Italian EU Long Term Residence Permit and would deliver this fully remote from Italy.
+
+I would welcome the opportunity to discuss how I could contribute to the project.
+
+Regards,
+Prabhavit Gupta

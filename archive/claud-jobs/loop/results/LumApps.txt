@@ -1,0 +1,26 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4442773813/ (redirected to https://job.lumapps.com/jobs/8047496-forward-deployed-engineer-fde-m-f)
+Company: LumApps
+Role: Forward Deployed Engineer (FDE) M/F
+ATS: LumApps native career site (job.lumapps.com), reached via LinkedIn's "Responses managed off LinkedIn" Apply button (not Easy Apply)
+
+Uploaded: Prabhavit_CV_LumApps.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, Career Summary trimmed to 2 bullets, JD-relevant bullets moved to top of FlowSpace/Qomodo/Get2Germany roles, Technical Skills and Additional Information reordered)
+Cover letter: CoverLetter_LumApps.txt (200 words) pasted into the form's Cover letter text field; CoverLetter_LumApps.pdf also built (1 page) per the brief
+
+Answers given:
+- Salary expectations (Gross annual): 50000
+- Comfortable with Lyon on-site presence and able to commute: Yes
+- Name: Prabhavit Gupta, Email: prabhavitg@gmail.com, Phone: +39 351 610 7807 (Italy)
+- Work authorisation for France: not a direct form field on this ATS; the standard non-Italy transparency line (not authorised, needs employer-side permit, ready to relocate or discuss remote) was written into the cover letter body instead
+- French: stated as beginner level in the cover letter, not claimed as a job skill
+- Required consent (privacy policy): ticked; marketing/future-opportunities checkbox: left unticked
+
+Blockers: none. No CAPTCHA, no login/account-creation wall, no anti-AI attestation.
+
+Confirmation: "Thanks for applying / We have received your application and we will be reviewing it shortly." (page also showed an "Applied" step-1 progress marker). Saved to confirmations/LumApps-2026-09-09.txt.
+
+Dedupe: NEW (python3 loop/dedupe.py --check "LumApps" "https://www.linkedin.com/jobs/view/4442773813/"), no prior LumApps rows in applications.csv.
+
+Hard gates re-checked on live JD: no numeric years floor, seniority "Not Applicable" (not Senior/Lead/Principal), degree requirement is "a degree in CS or IT" (note only, not hard MSc/PhD - Prabhavit has a BA), stack is "Node.js, TypeScript, Java or Python" (an or-list, not Java-only), JD in English, France is EU with hybrid/relocation acceptable, no anti-AI clause found.
+
+LEARNINGS: LumApps' LinkedIn listing shows "Responses managed off LinkedIn" (external ATS, not Easy Apply) despite having a generic Apply button; the destination is LumApps' own single-page career-site form (job.lumapps.com) with no login wall - straightforward to automate, no shadow-DOM modal or multi-step wizard like typical Easy Apply flows.

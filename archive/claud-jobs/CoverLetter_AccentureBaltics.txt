@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Accenture Baltics hiring team,
+
+I am applying for the GenAI Forward Deployed Engineer role in Riga. I have three years of professional experience building software with AI tools embedded at every stage, and working directly with clients to turn their requirements into shipped features.
+
+At FlowSpace I use Claude Code daily as part of how I build: an AI listing bot that turns a workspace provider's brochure into a drafted listing with a human in the loop, over 900 drafts produced, and support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, both built with the Claude API. I also worked directly inside a team of developers on product and business logic documentation, and was the point of contact between the internal team and an external agency, the client-facing communication this role is built around.
+
+At UltraStrategy I built a CV-parsing pipeline integrated into the platform, using Affinda and the Claude API for parsing and generation and n8n and Eden AI for the surrounding orchestration, a second example of GenAI tools shipped into a live product rather than used as a demo.
+
+I want to be direct about one gap. I have three years of experience and have not held a formal people-management or team-lead title, so the role's ask for 3+ years leading development teams is not something I can claim. What I can offer is hands-on delivery experience and a genuine, daily habit of building with AI tools rather than around them.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Latvia and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Riga and complete that process.
+
+Regards,
+Prabhavit Gupta

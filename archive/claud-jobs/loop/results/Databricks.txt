@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465994667/
+Apply form: https://www.databricks.com/company/careers/professional-services-operations/ai-forward-deployed-engineer---france-8813516002?gh_jid=8813516002 (Req ID CSQ427R333, gh_jid 8813516002)
+ATS: Greenhouse, embedded as a cross-origin iframe on Databricks' own careers page. The direct job-boards.greenhouse.io/databricks/jobs/8813516002 URL redirects straight into this same embedded page (no iframe-free entry point for this tenant), but Playwright MCP's frame-aware locators reach into the iframe fine, unlike Claude in Chrome's accessibility tree.
+
+This is a RETRY of the same-day NEEDS YOU row: Chrome could not see any field inside the cross-origin iframe. This pass used Playwright per the task instruction, reusing all materials and field values gathered earlier in answers/databricks-2026-09-16.md.
+
+Uploaded: Prabhavit_CV_Databricks.pdf (Resume/CV slot), CoverLetter_Databricks.pdf (Cover Letter slot). Both attached via the Attach button + file chooser, confirmed by filename shown in the form afterward.
+
+Fields filled: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Phone 3516107807 (Country Italy +39), LinkedIn Profile https://www.linkedin.com/in/prabhavit/, How did you hear about this job = LinkedIn, "based in France or willing to relocate" = Yes, "legally authorized to work" = No, "need sponsorship" = Yes, sanctions/export-control checkboxes = "None of the above" checked, follow-up immigration checkboxes = "Not applicable (i.e., I selected none of the above for the prior question)" checked, "worked for Databricks before" = No.
+
+New trap found (not in the original field list because it carried no visible asterisk): the Phone group's Country combobox is enforced as required on submit. First submit attempt was rejected with an inline "Select a country" error and an [invalid] state on the combobox, even though Phone itself had a value. Fixed by typing "Italy" into the Country combobox and selecting the "Italy +39" option, then resubmitting. The decorative reCAPTCHA badge never challenged.
+
+Result: page changed to "Thank you for applying to Databricks! Your application has been received. If there is a fit, someone will be getting back to you shortly." Screenshot saved to confirmations/Databricks-2026-09-16.png, confirmation text saved to confirmations/Databricks-2026-09-16.txt.
+
+CSV: appended one SUBMITTED row to applications.csv (2026-09-16, Databricks, AI Forward Deployed Engineer - France).
+
+LEARNINGS: On Databricks' embedded Greenhouse form, the Phone/Country combobox has no visible asterisk but IS required by the submit validator ("Select a country" error, combobox marked invalid) even when the adjacent Phone number field is filled. Add to ats-guides/greenhouse.md: always set the Phone/Country selector explicitly on Greenhouse forms that show one, even if it looks optional, before relying on the "no asterisk = optional" heuristic.

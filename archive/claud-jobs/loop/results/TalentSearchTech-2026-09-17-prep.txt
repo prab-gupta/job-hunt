@@ -1,0 +1,32 @@
+STATUS: PREP ONLY (materials built, not submitted — hold for Easy Apply cap per queue.csv)
+Company: Talent Search Technology | Role: Generative AI Engineer | Warsaw, Poland
+URL: https://www.linkedin.com/jobs/view/4468222917/
+JD source: scratchpad/jd/4468222917.txt
+
+Files built (slug TalentSearchTech, none pre-existing, no clobber):
+- Prabhavit_CV_TalentSearchTech.tex / .pdf — 2 pages, photo renders (400x400 jpeg confirmed via pdfimages)
+- CoverLetter_TalentSearchTech.tex / .txt / .pdf — 1 page, 295 words
+
+CV diff vs Prabhavit_CV_EN.tex (parity check: zero invented bullets):
+- Career Summary trimmed 3 -> 2 bullets (kept general AI/automation intro + "AI-assisted development, prompt engineering, API integrations" — prompt engineering directly matches the JD's generative-model-development theme; dropped "Transformed business requirements...")
+- FlowSpace Product Responsibilities: "Streamlined customer support with AI agents" moved to top
+- FlowSpace Technical Responsibilities: unchanged (AI listing/scraping tool already first)
+- Get2Germany: "Developed AI based automation tools for finding courses, internships and jobs" moved to top
+- UltraStrategy: unchanged (2 bullets, both kept — this JD's AI/automation theme requires >=2 UltraStrategy bullets, satisfied)
+- No bullets deleted; no role/date/location touched
+
+Letter: lead role UltraStrategy (CV-parsing pipeline: Affinda for extraction, Claude API for generation, human review before delivery — covers data preprocessing, prompt design, output evaluation, live-product integration), paired with FlowSpace (support AI agents with confidence-based escalation, AI listing bot). Letter is explicit that the generative AI background is LLM-API and applied-NLP based, not GAN/VAE/deep-learning-research, and explicitly disclaims Azure/Dynamics 365/Power Platform experience — no overclaiming toward the JD's deep-learning/Azure wishlist.
+
+Field answers a browser agent will need:
+- Years of experience: 3
+- Salary: EUR 45000 (JD gives no band; contract role)
+- Work authorisation (Poland): No, not currently authorised; sponsorship/employer-side permit needed = Yes. Transparency line used verbatim: "I hold Italian EU long-term resident status. I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process."
+- Partita IVA: Yes
+- Driver's license: No
+- Notice/start: available immediately, two weeks after offer
+- Languages: English C2, Hindi native, Italian B1-B2
+
+Anything odd in the JD:
+- Requested skillset (GANs/VAEs, computer vision, speech-to-text, Azure Cloud, Dynamics 365/Power Platform, AI/ML Awareness Testing) is well beyond Prabhavit's actual generative-AI experience, which is LLM-API integration and applied NLP (Claude API, Affinda), not deep-learning research or Azure MLOps. Letter is honest about this gap rather than claiming the "good to have" list.
+- No stated salary band or seniority requirement beyond the generic "Seniority level: Mid-Senior level" LinkedIn tag (no explicit years-of-experience figure in the JD body itself, unlike the other three rows) — used the standard 3-years honesty framing anyway per LI-PICK rule.
+- Queue note flags this as a "09-17 re-admit (killed 09-16 as agency)" — user/LinkedIn re-suggested it, apply anyway per LI-PICK.

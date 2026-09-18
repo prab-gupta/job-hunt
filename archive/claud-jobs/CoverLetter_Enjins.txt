@@ -1,0 +1,16 @@
+Dear Enjins Team,
+
+I am writing to apply for the Forward Deployed AI Engineer role. Over the last three years I have worked repeatedly at the point where a client's messy, real environment meets a production AI system, which is the core of what this role asks for.
+
+At FlowSpace, a coworking marketplace, I took over a live platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live and grew from 2,000 to 4,500plus users. I also built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, and an AI listing bot, built with n8n and the Claude API, that turns a provider's brochure in any format into a drafted listing with a human in the loop.
+
+At UltraStrategy I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific role types, the result is shown in the frontend, and a standardised Ultra CV is then generated, using Affinda, Eden AI and the Claude API.
+
+Both projects meant working with real client data and legacy constraints rather than a clean spec, building the layer that turns a general system into something usable for one business, and feeding what I learned back into the product. I am confident with ambiguity, comfortable presenting to both technical and non technical stakeholders, and used to owning a deployment from discovery to production.
+
+I hold Italian EU long term resident status and would need the applicable employer side permit or sponsorship process to work in the Netherlands. I am ready to relocate to Utrecht and complete that process.
+
+Thank you for considering my application.
+
+Best regards,
+Prabhavit Gupta

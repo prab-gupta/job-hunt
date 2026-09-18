@@ -1,0 +1,97 @@
+AI Software Engineer
+ACENSI Italia
+Greater Milan Metropolitan Area
+1 week ago
+84 applicants
+See who ACENSI Italia has hired for this role
+Apply
+Save
+Report this job
+Chi siamo
+E se il tuo prossimo progetto iniziasse proprio qui?
+ACENSI, gruppo europeo di consulenza nella trasformazione digitale, accompagna aziende di primo piano in diversi settori come banca, assicurazioni, energia e telecomunicazioni. Con oltre 2.200 talenti in Francia e a livello internazionale (Canada, Belgio,Portogallo, Romania, Mauritius, Singapore), ACENSI progetta e realizza soluzioni digitali che trasformano in modo duraturo le organizzazioni dal 2003. Guidata dall’innovazione e dall’expertise, ACENSI pone l’intelligenza artificiale al centro della propria visione.
+Oggi, compiamo un nuovo passo nella nostra crescita entrando nel mercato italiano.
+Siamo alla ricerca di un/una
+AI Software Engineer
+da inserire nel nostro team di
+Milano
+, con un forte orientamento al cliente e alla realizzazione di soluzioni innovative basate sull’Intelligenza Artificiale Generativa e Agentica.
+La persona ideale ha esperienza nello sviluppo di applicazioni AI in ambiente di produzione e una solida conoscenza delle architetture agentiche, dei Large Language Models e delle tecnologie di orchestrazione.
+Responsabilità principali
+Progettare e sviluppare architetture e applicazioni basate su
+AI Generativa e Agentica
+in ambiente di produzione.
+Sviluppare applicazioni
+full-stack
+e realizzare integrazioni tramite API.
+Progettare e implementare soluzioni basate su
+Large Language Models (LLM)
+e architetture
+multi-agent
+.
+Sviluppare e integrare pipeline
+RAG (Retrieval-Augmented Generation)
+.
+Progettare e gestire l’orchestrazione di agenti e workflow utilizzando
+LangChain e LangGraph
+.
+Sviluppare e configurare
+MCP driver
+utilizzando il
+Model Context Protocol (MCP)
+.
+Integrare soluzioni AI con infrastrutture e tecnologie cloud, container e sistemi distribuiti.
+Collaborare con i clienti e con i team tecnici per comprendere le esigenze e trasformarle in soluzioni tecnologiche concrete.
+Contribuire alla definizione delle migliori pratiche di sviluppo, deployment e gestione delle applicazioni AI.
+Requisiti
+Almeno
+2 anni di esperienza
+nello sviluppo di soluzioni basate su
+AI Generativa e Agentica
+in ambiente di produzione.
+Esperienza
+full-stack
+e nell’integrazione tramite
+API
+.
+Solida conoscenza di
+Agentic AI, LLM, architetture multi-agent e RAG
+.
+Esperienza con
+LangChain, LangGraph e MCP (Model Context Protocol)
+.
+Buona conoscenza di
+Python o C#/.NET Core
+.
+Conoscenza di
+Vertex AI, Google ADK e KAgent
+.
+Familiarità con
+SQL/NoSQL
+e tecnologie cloud/infrastrutturali come
+Kubernetes, Docker, Linux, Kafka, Elasticsearch e Git
+.
+Ottime capacità di
+problem solving
+, lavoro in team e orientamento al cliente.
+Inglese professionale
+.
+Dove
+📍
+Milano, Italia
+RAL indicativa :
+€35.000 – €45.000
+Pronto/a a guidare l’innovazione Data & IA presso ACENSI Italia? Unisciti a noi e lascia il tuo segno!
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Information Technology
+Industries
+IT Services and IT Consulting
+Referrals increase your chances of interviewing at ACENSI Italia by 2x
+See who you know
+

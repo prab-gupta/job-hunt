@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4450592461/ (apply goes to https://talent.docs.mercor.com/welcome)
+Uploaded: nothing submitted anywhere. Built and saved Prabhavit_CV_Mercor.pdf (tailored, AI-evaluation/testing bullets led) and CoverLetter_Mercor.pdf/.txt (UltraStrategy + FlowSpace, adversarial/confidence-evaluation angle).
+Answers given: none (no form touched).
+Blockers: JD's own application process is "Upload resume, AI interview based on your resume, Submit form" on Mercor's own platform (talent.docs.mercor.com) - an account wall plus an AI interview, exactly the stop condition named in the task. No account created, no browser form opened, per instruction to never create accounts.
+LEARNINGS: none (no ATS interaction attempted).

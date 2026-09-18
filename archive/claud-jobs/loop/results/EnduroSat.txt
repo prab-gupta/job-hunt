@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464617541/
+Uploaded: resume "Prabhavit_CV-.pdf" selected from LinkedIn's resume library (matches ROOT/Prabhavit_CV_Original_EN.pdf, the user's original CV per brief). No cover letter field existed in this Easy Apply flow (2-page JazzHR flow: contact info + resume, then review/submit) — ROOT/CoverLetter_EnduroSat.txt and ROOT/CoverLetter_EnduroSat.pdf were prepared but had nowhere to attach.
+Answers given: First/last name, phone country code Italy (+39), mobile 351 610 7807, email prabhavitg@gmail.com, address Via Zanetti 10, city Venice, state Veneto, postal 30175 (all standard identity per brief). Unticked "Follow EnduroSat" before submit. No years/notice/salary/consent fields appeared on this short form.
+Blockers: none. No CAPTCHA, no account creation, no sign-in wall.
+Confirmation: "Your application was sent to EnduroSat! You can keep track of your application in the 'Applied' tab of My Jobs" + page status "Application submitted".
+LEARNINGS: this EnduroSat posting runs on a JazzHR-backed LinkedIn Easy Apply that is only 2 steps (contact info, then resume) before Review/Submit — no cover-letter field, no screening questions, no years/notice/salary fields at all. Shortest Easy Apply flow seen in this run; nothing to log as a new trap beyond "some Easy Apply flows are this minimal."

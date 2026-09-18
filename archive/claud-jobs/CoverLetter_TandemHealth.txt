@@ -1,0 +1,14 @@
+Dear Tandem Health hiring team,
+
+I am applying for the Forward Deployed Engineer role in Stockholm. I have three years of professional experience, and the shape of that work has been deploying and fixing software inside a live product used by real people, not shipping a feature and moving on.
+
+At FlowSpace I took over a live workspace marketplace and automated the migration of its data off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live and grew from 2,000 to 4,500+ users. I also built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, and shipped OfficeRnD and Nexudus API integrations for automated bookings, the kind of debug the integration, patch the configuration, keep the deployment running work this role describes.
+
+At Urlink I worked as project manager and AI-assisted developer, building the platform and its logic with AI-assisted development and implementing automations driven directly by client requirements, on Next.js, Supabase, Netlify and GitHub. That mix of talking to the people using the product and then writing the code that fixes what they need is what draws me to this role.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Sweden and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Stockholm and complete that process.
+
+I would welcome the chance to talk about how I would approach deployments in your customers' environments.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4414650658/
+ATS: McKinsey careers site (Avature-style), https://jobs.mckinsey.com/en_US/careers/ApplicationMethods?folderId=108548
+
+Dedupe: python3 loop/dedupe.py --check "QuantumBlack" "https://www.linkedin.com/jobs/view/4414650658/" -> NEW (no URL hit). grep for the company in applications.csv found no prior row for QuantumBlack at all (the only prior sighting was in queue.csv, a different requisition: "Software Engineer, Amsterdam", Avature, NEEDS YOU-account, distinct req and level) - did not block.
+
+Hard gates: no anti-AI disclaimer, English JD, no language requirement. Years: JD wants 4+ (he has 3). Core stack: JD is Kubernetes/cloud-infrastructure/DevSecOps heavy (AWS/Azure/GCP, K8s at production scale, Terraform/Ansible/Helm, IAM/RBAC); his production stack is TypeScript/Next.js/Laravel. Per this session's task override (FDE-ALL rule: no kills for fit/years/seniority/stack for these rows), none of this killed the row; the letter states both gaps in its opening paragraph.
+
+Uploaded: nothing (blocked before any upload step).
+Answers given: none submitted.
+Blockers: McKinsey's own ATS forces account creation on every resume-sharing path (device upload, Google Drive, or "without resume"); the page states this outright ("you'll create an account in the process"). No guest-apply option exists. Per the standing rule (never create accounts, never enter a password), stopped there.
+
+Materials built and saved:
+- Prabhavit_CV_QuantumBlack.pdf/.tex - rebuilt fresh from Prabhavit_CV_EN.tex (the existing copy on disk was dated 2026-09-06, before the 09-11 faithful-original rule, so it was untrusted and has been overwritten with a parity-clean rebuild). 2 pages (pdfinfo confirmed).
+- CoverLetter_QuantumBlack.pdf/.tex/.txt - 0 em-dashes (grep confirmed). FlowSpace lead paragraph, UltraStrategy second paragraph, Germany work-authorisation transparency line.
+- Full detail in answers/quantumblack-2026-09-16.md and NEEDS_YOU.md row 18e.
+
+LEARNINGS: none new (McKinsey's own-ATS account wall matches the existing queue.csv note for the Amsterdam Software Engineer req at the same company).

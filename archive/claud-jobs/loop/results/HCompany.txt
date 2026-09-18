@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://jobs.ashbyhq.com/hcompany/53ef301a-ba59-4352-b5f0-bb7f3b6dc9df/application (from LinkedIn https://www.linkedin.com/jobs/view/4407761868/)
+Uploaded: nothing, form not filled.
+Answers given: none.
+Blocker/reason: live Ashby form has a REQUIRED screening question "Can you speak French fluently?*" (Yes/No only). LinkedIn JD text only hinted at French via one ambiguous intro line not repeated in the formal Requirements section, but the live form makes it an explicit hard requirement. Prabhavit does not speak French fluently (English C2, Italian conversational only). Per task rule (French required = kill), this is a KILL, not NEEDS YOU. CV Prabhavit_CV_HCompany.pdf and letter CoverLetter_HCompany.pdf/.txt were pre-built (before the live form was checked) but never used; kept on file.
+LEARNINGS: for FDE-ALL rows, a JD's soft/ambiguous language mention in the intro blurb can turn into a hard required Yes/No screening question on the live ATS form - always re-check the live form (not just the LinkedIn JD text) before ruling a row's language gate clear, even for an "English JD" row the task pre-cleared.

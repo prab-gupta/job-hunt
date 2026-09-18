@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463240633/ (external ATS: https://jobs.deel.com/onera/job-details/6cdb823c-29d1-4a81-9d73-70da22c5879b/application)
+ATS: Deel (jobs.deel.com/onera)
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (resume field, only upload slot on this form — no cover-letter field/upload existed, so CoverLetter_Onera.txt was not attached).
+
+Answers given:
+- Name/email/phone/LinkedIn: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, linkedin.com/in/prabhavit
+- "Are you legally authorized to work in the country where the position takes place?" -> No. Reasoning: LinkedIn lists location "Romania"; the Deel form's Job details panel shows the actual employable-country list is Moldova, Poland, Romania, Czech Republic, Albania, Greece (fixed list via Deel EOR) — Italy is not on it, so treated like the brief's "must be Romania/NL" case: authorised No, employer-side permit path implied by Deel-as-EOR. No free-text field existed to add the standard transparency line.
+- Privacy-policy consent checkbox: ticked (required). No marketing/newsletter checkbox present on this form.
+
+Hard gates re-checked on live JD (Python/Selenium must-have, Playwright/TypeScript nice-to-have, Seniority "Not Applicable", no year threshold, no MSc/PhD, English only, no Romanian/Dutch requirement) — none fail, proceeded per Fit 50 rule.
+
+Blockers: none. Form submitted successfully, confirmation message: "Thanks for applying! Your application was successfully submitted. Our team will review your submission, and we will reach out to you with any updates or next steps."
+
+Dedupe: python3 loop/dedupe.py --check "Onera Health" returned NEW; no prior Onera row in applications.csv.
+
+LEARNINGS: Onera Health's LinkedIn posting shows only "Romania" as location, but the real ATS (Deel) reveals the true employable-country set (6 countries, mixed EU/non-EU) only on the application page itself — worth checking the Deel "Job details" panel before assuming a single-country location from LinkedIn alone. Also: this Deel application template carries no cover-letter/message field at all, just name/email/phone/LinkedIn/resume/one yes-no question/consent checkbox.

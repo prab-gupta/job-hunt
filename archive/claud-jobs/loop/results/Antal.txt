@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466048869/
+Uploaded: Prabhavit_CV_Antal.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, AI/automation-themed keeps 2 UltraStrategy + 2 Get2Germany bullets, 2 pages), explicitly uploaded over the pre-selected Prabhavit_CV_Spark.pdf.
+Cover letter: CoverLetter_Antal.pdf/.tex/.txt written in Italian (JD is Italian), two-role evidence FlowSpace + UltraStrategy/Get2Germany, mentions Microsoft Copilot Studio and Power Automate certs already on file, 0 em-dashes. No cover letter field on this Easy Apply form; kept on file only.
+Answers given: email prabhavitg@gmail.com, phone country code Italy +39 (prefilled), phone number 351 610 7807 (typed after first Next attempt failed "Please enter a valid phone number" validation - field was blank on this tenant, unlike Spark's prefilled one), top-choice page skipped unchecked, unchecked "Follow Antal International".
+Dedupe: fuzzy HIT on company name, but both prior Antal rows (Krakow Test Automation Engineer NEEDS YOU, Krakow Senior PHP DROPPED) are different requisition/city/level, did not block. Agency-gate override per task instruction (client role via recruiter, junior AI automation, 50km from Venice).
+Blockers: none.
+Confirmation: "Application submitted" in the job page's own Application status panel. confirmations/Antal-2026-09-16.png + .txt.
+LEARNINGS: this tenant's phone-number field was NOT prefilled (only the country code was), unlike the Spark Easy Apply form on the same day where phone was prefilled - always check the phone textbox value before clicking Next, do not assume LinkedIn prefills it on every tenant.

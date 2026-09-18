@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Software Development Engineer role on the Unified Content Processing Platform team.
+
+At FlowSpace, I built and own an AI pipeline that ingests broker documents in any format, PDF, website, or spreadsheet, and uses LLM based extraction to draft structured listing records, with validation and human review before anything reaches the platform. It has produced over 900 draft listings to date. I also built RAG backed support agents that escalate to a human when confidence is low, the same pattern of automated processing plus a human checkpoint that compliance systems rely on. My stack is TypeScript, Next.js, Node.js, Laravel, and Supabase or PostgreSQL, plus integrations against external APIs such as OfficeRnD and Nexudus. I have owned these systems end to end in production.
+
+Amazon's scale, and the mission of making compliance simpler for selling partners while keeping shoppers safe, is exactly the content processing problem I want to work on next.
+
+I am based in Venice, Italy, hold an Italian EU long term residence permit, and am ready to relocate to Iasi. I am not currently authorised to work in Romania and would need the employer side permit process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

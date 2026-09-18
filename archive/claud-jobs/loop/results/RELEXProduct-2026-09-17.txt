@@ -1,0 +1,30 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4467704517/ (LinkedIn) -> https://www.relexsolutions.com/careers/jobs/product-engineer/?gh_jid=7993916003 (RELEX's own careers page, Greenhouse-powered, gh_jid=7993916003)
+
+What happened (agent P36, Playwright handoff from an earlier Chrome-only NEEDS YOU attempt today):
+- Read loop/APPLY_AGENT_BRIEF.md, answers/work-authorisation.md, last 25 lines of loop/LEARNINGS.md, and the prior agent's notes in this same file (now overwritten) plus scratchpad/jd/4467704517.txt.
+- Dedupe: HIT COMPANY (prior 2026-09-06 SUBMITTED row is a different requisition, Forward Deployed Engineer | Merchandising, gh job 7901313003). Non-blocking per task instructions; proceeded.
+- Materials were already built by the prior agent and left unchanged: Prabhavit_CV_RELEXProduct.pdf/.tex and CoverLetter_RELEXProduct.pdf/.txt/.tex. Verified 0 em-dashes in the letter txt.
+- Loaded Playwright MCP tools. Only tab open was a blank about:blank tab (no Mendix/Konfetti tabs present); used it as my own tab.
+- Navigated straight to https://job-boards.greenhouse.io/relex/jobs/7993916003; it redirected to the same relexsolutions.com/careers/jobs/product-engineer/?gh_jid=7993916003 page with the embedded grnhse_iframe (no bare boards.greenhouse.io form available for this posting).
+- Playwright's frame-aware locators (page.locator('iframe[...]').contentFrame()...) reached every field inside the cross-origin iframe that Chrome's accessibility tree could not see at all, confirming the brief's guidance.
+- Dismissed the cookie banner (Use necessary cookies only).
+- Filled First Name, Last Name, Email, Phone via browser_fill_form first; a later re-check via browser_evaluate((el)=>el.value) found First Name/Last Name/Email had reverted to empty strings (cause unclear, possibly a re-render after the file uploads or combobox interactions reset those particular inputs) while Phone and the later-filled Location/textarea fields held. Caught this before submitting by verifying every text field's real DOM value, not just the accessibility-tree label, then refilled and reconfirmed all three (Prabhavit / Gupta / prabhavitg@gmail.com).
+- Phone: selected Country = Italy +39 from the flyout list; typed the bare national number 3516107807 per this task's explicit instruction (matches the Campari Phenom precedent in LEARNINGS.md that bare national numbers validate better than +39-prefixed ones on some ATSes); field displayed "351 610 7807" with +39 already shown separately in the Country slot.
+- Location (City): typed "Venice", selected "Venice, Venezia, Italy" from the autocomplete list.
+- Uploaded Prabhavit_CV_RELEXProduct.pdf to Resume/CV and CoverLetter_RELEXProduct.pdf to Cover Letter via the Attach buttons + browser_file_upload; verified both filenames rendered in the form after upload.
+- Custom required question ("Describe a time you built and deployed a solution to a complex customer or business problem using an existing engineering framework or platform. What was your role, and what was the outcome?"): answered with the FlowSpace AI listing bot (brochure-to-draft pipeline on the existing Next.js/Laravel stack, owned end to end, 900+ drafts, cut manual data entry) plus the legacy-platform-to-Next.js/Laravel live migration (2,000 to 4,500+ users). Both facts trace to loop/OUTREACH_FACTS.md / Master Experience via the FlowSpace bullets already used in the CV/letter. No legacy platform brand name used.
+- Are you fluent in English: Yes.
+- Are you currently based in one of our mentioned office locations: Yes - the posting's own location is Greater Venice Metropolitan Area, which matches Prabhavit's home address (Venice, Italy); honest, not inflated.
+- Do you currently have a legal work permit to sign a permanent full-time employment contract in the mentioned office locations: Yes - Italian EU long-term resident status authorises work in Italy with no sponsorship needed, per answers/work-authorisation.md.
+- What are your monthly salary expectations for this position: "EUR 3,750 gross/month (approx. EUR 45,000 gross/year)" - task specified EUR 45000 (annual convention), converted to the field's monthly ask exactly as answers/sixt-2026-09-11.md did for an identical monthly-salary field.
+- Privacy Policy confirmation dropdown: Yes (only option, required consent, not a marketing opt-in).
+- Re-snapshotted the full form before submitting; every field confirmed correct (re-verified First/Last/Email/Phone/custom-answer values via DOM .value reads, not just the accessibility tree).
+- Clicked Submit application. A reCAPTCHA badge was visible on the form throughout but no visible challenge fired on submit.
+- Result: Greenhouse embed replaced with "Thank you for applying. / Your application has been received. Please check your email for further details." at the same relexsolutions.com/careers/jobs/product-engineer/?gh_jid=7993916003 URL.
+- Screenshotted the confirmation to confirmations/RELEXProduct-2026-09-17.png, wrote confirmations/RELEXProduct-2026-09-17.txt with the success text, appended one 10-field row to applications.csv (status SUBMITTED), appended the new answers to answers/relexproduct-2026-09-17.md, closed my Playwright tab.
+
+Blockers: none. No CAPTCHA challenge, no account wall, no anti-AI attestation.
+
+LEARNINGS: no new ATS trap beyond what was already logged at 09:30 today (RELEX's employer-branded careers page embeds a cross-origin Greenhouse iframe; Playwright's frame-aware locators reach it fine). One data point worth flagging separately below: Greenhouse's own top-of-form text fields (First/Last/Email) can silently revert to empty after being filled via fill_form and before other fields are touched - always re-verify every text field's real .value right before Submit, not just the accessibility-tree snapshot, even on a form that never showed an error.

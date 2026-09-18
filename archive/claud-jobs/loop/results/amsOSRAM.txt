@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4466072410/ -> https://career5.successfactors.eu/careers?company=OSRAMP&career_job_req_id=23485&career_ns=job_application&jobPipeline=LinkedIn&utm_source=LinkedinJobPostings
+Uploaded: nothing yet (blocked before upload could be reached in a submittable state).
+Answers given: none submitted; standing answers and materials prepared and documented in answers/amsosram-2026-09-16.md.
+Blockers: SuccessFactors account-creation wall - Email/Retype Email/Password/Retype Password/First Name/Last Name/Primary Phone required on the same page as the CV and cover-letter upload, no guest path. User-only per the brief.
+LEARNINGS: none new (matches the known SuccessFactors account-wall pattern already documented for other rows in NEEDS_YOU.md).

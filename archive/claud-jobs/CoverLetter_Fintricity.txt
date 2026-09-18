@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer role at Fintricity.
+
+At FlowSpace, I built and operated production LLM systems that process real enterprise data daily. My main project was an agentic data pipeline that ingests documents in any format (PDF, web page, spreadsheet, photo), extracts structured data using LLM APIs with multi-step orchestration, tool calling, and RAG retrieval, and pushes validated results to the backend after human review. This system handles hundreds of different data sources, each with its own format and failure modes, and runs daily without supervision. I built evaluation and monitoring layers to track extraction quality, catch regressions, and flag outputs that needed human review.
+
+I also built RAG-backed support agents that answer customer queries against live platform data and escalate to a person on low confidence. I implemented confidence scoring and retrieval quality monitoring so the team could track where the agents were reliable and where they needed human backup. On the integration side, I shipped customer-facing API integrations against booking systems (OfficeRnD, Nexudus), CRM pipelines (Attio, Amplemarket), and payment flows (Stripe), owning each engagement from technical discovery through production delivery.
+
+Fintricity builds AI systems for enterprise clients, turning frontier AI capability into robust, production-grade solutions. The AI Engineer role, designing and operating production LLM and agentic systems, implementing RAG and tool calling, building evaluation pipelines, and deploying securely in enterprise environments, maps directly to what I built at FlowSpace. I bring hands-on production experience with LLM APIs, agentic orchestration, RAG systems, and the habit of building systems that are reliable enough to run without supervision.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

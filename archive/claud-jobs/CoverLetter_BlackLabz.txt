@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Junior Full Stack Engineer role at Black Labz.
+
+I have spent the last two and a half years shipping full-stack features in production at FlowSpace, a workspace marketplace platform, using TypeScript, React and Node.js on top of Next.js, plus a Laravel backend on Supabase and PostgreSQL. I integrated OfficeRnD and Nexudus over REST for automated bookings, wrote Playwright tests to keep releases stable, and built an LLM-driven listing pipeline that turns brochures in any format into structured, human-reviewed listings. I am comfortable with HTTP, REST, SQL and Git, and I read and can explain every line I ship, including the parts AI helped write.
+
+What draws me to Black Labz is the structure: well-defined tickets, a senior reviewing every PR, and a real path to owning a full feature within six months. An office-first team of three developers and one DevOps engineer, shipping a live product with real users and real money, is exactly the close-quarters setup I learn fastest in.
+
+I am based in Venice, Italy, hold Italian EU long-term resident status, and am ready to relocate to Tallinn. I am not yet authorised to work in Estonia and would need the employer-side work permit process, which I am glad to start as soon as we move forward. My salary expectation is EUR 3,500 gross per month.
+
+Regards,
+Prabhavit Gupta

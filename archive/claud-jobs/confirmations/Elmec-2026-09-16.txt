@@ -1,0 +1,8 @@
+Buongiorno Prabhavit Gupta
+La tua registrazione all'annuncio Customer Success Manager è stata completata con successo.
+Un'email di conferma è stata inviata all'indirizzo prabhavitg@gmail.com
+
+Team HR di Elmec
+
+Confirmation page URL: https://elmec.intervieweb.it/app.php?opmode=guest&module=annunci&l=junior-customer-success-manager-488504&message=confirmMessage&IdForm=6266&IdAnnuncio=488504&lang=it&d=linkedin
+(No PNG saved - Claude-in-Chrome had no save_to_disk file path available this session; this txt is the record per the Chrome-browser section of the brief.)

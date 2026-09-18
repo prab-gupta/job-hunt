@@ -1,0 +1,13 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4467197803/ (offsite; applied direct at https://www.google.com/about/careers/applications/apply/412c3e01-0453-49eb-9317-d7d2df100fb9/form)
+Company: Google | Role: AI Outcome Customer Engineer, Forward Deployed Engineering, Google Cloud | Location: Madrid, Spain
+
+Uploaded: Prabhavit_CV_GoogleFDE.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked). Letter CoverLetter_GoogleFDE.pdf/.txt built (0 em-dashes) but this ATS had no cover-letter upload step within the stage reached.
+
+Answers given: full "Careers profile" completed - legal name, Venice/Italy/30175 address, +39 351 610 7807 phone, resume uploaded and parsed, education (Ca' Foscari, Bachelor's, Graduated), all 7 work history entries (employer/title/dates/country/city) completed and verified, Alphabet-experience=No, first-job=No, personalize-profile=No, both required consent checkboxes ticked. Page's own "Last updated" timestamp confirms this is saved server-side.
+
+Blocker (user-only, not a data problem): clicking "Submit profile & continue" never advances past step 1 of 4. Chrome network log shows a reproducible client-side error on every attempt: POST to HiringCportalFrontendUi/jserror with "W_jd is not defined", plus two CSP-violation reports fired at page load. This points to the Claude-in-Chrome extension's own content scripts being blocked by Google's page CSP, leaving a variable the site's submit logic depends on undefined - an automation-environment incompatibility with this specific ATS, not a login/2FA wall (Chrome was already signed in as prabhavitg@gmail.com throughout, no login prompt ever appeared) and not a missing/invalid field (checked exhaustively, none found).
+
+What's needed: open the same URL signed in as prabhavitg@gmail.com in an ordinary browser (or via Playwright) and click Submit to finish step 1, then complete steps 2-4 (Role Information, Voluntary self-identification, Review & apply).
+
+LEARNINGS line to add: Google Careers (google.com/about/careers/applications/apply/...) submit button throws a client-side "W_jd is not defined" error under Claude-in-Chrome automation (CSP-blocked content script leaves a dependency undefined), silently failing every submit with a generic "Missing response to a required question" toast even when the form is fully and correctly filled; profile data does persist server-side per the page's own "Last updated" timestamp. Treat as NEEDS YOU / hand off to Playwright or a manual session, not as a data-validation problem.

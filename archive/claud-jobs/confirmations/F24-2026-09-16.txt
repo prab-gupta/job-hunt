@@ -1,0 +1,4 @@
+LinkedIn Easy Apply success dialog (F24, Junior Software Engineer, Zagreb):
+"Your application was sent to F24!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+Application status panel on job page also showed: "Application submitted - now"

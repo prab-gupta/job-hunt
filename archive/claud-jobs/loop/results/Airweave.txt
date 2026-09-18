@@ -1,0 +1,11 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4325011614/ (apply routes to inline form on https://www.ycombinator.com/companies/airweave/jobs/OH2VNh6-founding-forward-deployed-engineer)
+Uploaded: Prabhavit_CV_Airweave.pdf uploaded into the form's Resume field (not yet submitted).
+CoverLetter_Airweave.pdf/.txt built and saved on file (this form has no separate cover-letter upload field).
+Answers given: First/Last name, email, LinkedIn URL, phone corrected to Italy (+39) 351 610 7807, current
+location Venice Italy, "legally authorized to work in the United States" = No, "require sponsorship for a US
+employment visa" = Yes (both honest; these are the form's own boilerplate US questions even though the role is
+Amsterdam-based), and a free-text pitch in "What interests you about Airweave?" covering FlowSpace and Urlink.
+Blockers: hCaptcha "I am human" checkbox directly above Send Message. Left unsubmitted per brief (CAPTCHA is
+user-only). Form state left filled in Chrome tab 550851243.
+LEARNINGS: none new (hCaptcha handling already documented in the brief).

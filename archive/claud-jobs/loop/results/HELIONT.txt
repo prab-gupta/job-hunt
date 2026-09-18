@@ -1,0 +1,16 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4464358927/
+Company: HELIONT
+Role: DEVOPS ENGINEER – CLOUD & AI, Bologna hybrid, RAL EUR 35,000 or P.IVA up to EUR 250/day, 3/5 years
+
+Reason: posting closed. Cheap check (curl -s -A "Mozilla/5.0" https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4464358927 | grep -c apply-button) returned 0, matching the header already saved on the JD file (APPLY_BUTTON_COUNT: 0 = closed). Confirmed live in Claude-in-Chrome (tab 550850586): the job page text reads "No longer accepting applications", no Apply/Easy Apply control present, "19 applicants", "3 days ago".
+
+This is a LI-PICK row (queue.csv: LI-PICK (other_lang_es)). Under the LI-PICK rule kill is allowed only for closed posting / already-submitted / missing required language — a closed posting is one of the three, so this kills cleanly regardless of fit, years, or the cloud-admin gap that would otherwise need an honesty caveat.
+
+Dedupe: python3 loop/dedupe.py --check "HELIONT" "<url>" = NEW. grep -i heliont applications.csv = no prior row (checked before this run's append).
+
+Uploaded: nothing. CV/letter: not drafted (killed before the build step per brief step 3 — hard gates/posting-status checked before drafting).
+Blockers: none other than closed posting.
+LEARNINGS: none new; confirms the existing cheap-check gate (apply-button count 0) is reliable here — LinkedIn UI text matched it exactly ("No longer accepting applications").
+
+Logged: applications.csv row appended (date=2026-09-11, status=KILLED). No confirmations/ files created (no submission, no success text). No answers/ file created (no free-text answers were written).

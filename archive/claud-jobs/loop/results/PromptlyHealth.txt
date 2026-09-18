@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4446732955/
+Apply routes to: https://people-jobs.com/promptlyhealth/apply/2ccaed54-a839-4f4b-b703-38499c6e6fd1 (Revolut People ATS)
+Uploaded: Prabhavit_CV_PromptlyHealth.pdf (CV field); no cover-letter field existed on this form.
+Answers: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, Current company FlowSpace, Current country Italy, Preferred locations Europe; Education University of Venice/International Relations/Bachelor's Oct 2020-Jun 2024; salary 45000-55000/0; English C2; years 2-3; healthcare experience=none, programming=Python or SQL not both, live-healthcare solutions=No, willing to travel=Yes, interview-transcript AI consent=Yes, other-roles marketing checkbox left unticked; additional-link field=linkedin.com/in/prabhavit (turned out required).
+Confirmation: "Thank you for your application! We will be in touch with you shortly." (confirmations/PromptlyHealth-2026-09-17.png + .txt)
+Blockers: none this session. Prior Chrome blocker (canvas-blind/unreachable form) resolved cleanly by Playwright.
+LEARNINGS: Revolut People ATS (people-jobs.com) "Add additional link e.g. LinkedIn, Github, portfolio, website" field has no visible asterisk but is enforced as required on submit ("This field is required"); add a link (LinkedIn is fine) before resubmitting if this trips.

@@ -1,0 +1,105 @@
+% =====================================================================
+%  Prabhavit Gupta — one-page CV template (tailor the 3 marked blocks)
+%  Compile:  tectonic Prabhavit_CV_Newtwen.tex
+%  Needs:    photo.jpg  in the same folder as this .tex
+%  Rules:    ONE PAGE. No em-dashes. Plain voice. Clickable companies.
+%            No "sample of my code" line. Salary blank or "negotiable".
+%            Never write "no-code" or "Bubble" — say "off a legacy stack".
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.8cm,bottom=0.8cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Backend \& Cloud Platform Engineer, Data Pipelines \& Infrastructure}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+ \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+I build production backend services and data pipelines that process unstructured inputs into validated, structured outputs at scale. At FlowSpace I architected and owned a multi-stage computational pipeline that ingests documents in any format (PDFs, web pages, photos, spreadsheets), runs extraction and validation through orchestrated Python services, and pushes clean results to a PostgreSQL backend after human-in-the-loop review. I have shipped Docker-based services to production on AWS, built CI/CD pipelines with GitHub Actions, and managed relational database schemas through migrations on a live platform. I make architecture decisions daily and own systems end to end: design, build, deploy, monitor, and iterate based on real production data.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{Backend \& cloud infrastructure:} Python, PostgreSQL, Docker, REST APIs, AWS, CI/CD (GitHub Actions), infrastructure as code, database schema design and migrations, production monitoring and debugging
+ \item \textbf{Data \& computational pipelines:} multi-stage data processing pipelines, unstructured-to-structured extraction, validation and transformation workflows, orchestrated Python services, human-in-the-loop review systems, confidence scoring
+ \item \textbf{Full-stack \& integrations:} TypeScript, JavaScript, Node.js, Next.js, React, API integrations (booking systems, CRM pipelines, payment flows), Supabase, Git, webhooks
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Full-Stack \& AI Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Architected and owned a multi-stage data pipeline that ingests documents in any format (PDF, web page, photo or spreadsheet), runs extraction and validation through orchestrated Python services, and pushes clean results to a PostgreSQL backend after human review. Handles hundreds of sources with different formats and structures.
+ \item Built RAG-backed support agents that answer customer queries against live platform data and escalate to a person on low confidence. Implemented confidence scoring and retrieval quality monitoring.
+ \item Built integrations against customer APIs and booking systems (OfficeRnD, Nexudus), CRM pipelines (Attio, Amplemarket, Swan), and payment flows (Stripe), translating client requirements into working systems and iterating on feedback.
+ \item Took over a live marketplace on a legacy stack and worked with the team to migrate it to a coded Next.js and Laravel product on PostgreSQL. Scaled from 2,000 to 4,500+ users.
+ \item Owned systems end to end: scoped requirements with clients, designed the architecture, built and deployed, monitored production, and iterated based on real data and failure modes.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+Integrated Google APIs, built AI tools to find courses, internships and jobs, and optimized the database. Stack: n8n, Google APIs.\\[1pt]
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+Integrated the Clubee API across the frontend, ran unit testing and QA, and built shop and federation-dashboard tools.\\[1pt]
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Developer (Internship)}{Utrecht, Netherlands}
+Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, and debugged features.
+
+% ================= FREELANCE PROJECTS =================
+\section{Freelance Projects}
+\begin{itemize}
+ \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025), Project Manager \& AI-Assisted Developer. Worked directly with the client on requirements, built the platform and its logic, and implemented client-driven automations. Stack: Next.js, Supabase, Netlify.
+ \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (2024 to 2025), AI Automation Developer. Built a CV-parsing tool (LLM data extraction) with n8n and Eden AI, and a platform serving different user profiles.
+ \item \textbf{\href{https://www.qomodo.me/}{Qomodo}} (2024 to 2025), AI Developer. Built a dashboard for companies to manage their branches, and implemented Figma designs.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU; available immediately. \quad \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).}
+
+\end{document}

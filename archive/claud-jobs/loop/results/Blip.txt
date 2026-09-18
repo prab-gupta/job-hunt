@@ -1,0 +1,17 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4460047347/
+Company/role: Blip, Pre Sales Engineer, Madrid, Spain (Hybrid). Lane B, fit 65.
+ATS: LinkedIn Easy Apply (native modal, Greenhouse-powered behind the scenes, no offsite redirect).
+
+Uploaded: Prabhavit_CV_Blip.pdf (tailored, verified 2 pages + parity check against Prabhavit_CV_EN.tex passed) as resume; CoverLetter_Blip.pdf (newly compiled from the finalized CoverLetter_Blip.txt via tectonic, since this form's cover-letter field was upload-only, no text box) as cover letter.
+
+Answers given: LinkedIn profile URL; "Do you live in Madrid?" = No; expected gross annual salary = 50000 EUR; years of pre-sales experience = 3 years (general professional-experience figure, no domain-specific pre-sales tenure fact exists); "worked in business messaging sector?" = No (truthful — FlowSpace is coworking/real estate); EEO fields (race, gender, veteran, disability) = prefer not to say / do not want to answer; data-processing consent = Yes (required); unticked the optional "Follow Blip" page-follow checkbox.
+
+Cover letter edit: removed an unverifiable "ran discovery calls ... walking clients through the platform" claim from the draft (not traceable to Prabhavit - Master Experience.md) and replaced it with the file's actual verified claim about mediating between internal team, agency and customers.
+
+Confirmation: "Your application was sent to Blip! You can keep track of your application in the 'Applied' tab of My Jobs" — screenshot at confirmations/Blip-2026-09-09.png, text at confirmations/Blip-2026-09-09.txt.
+
+No blockers — no CAPTCHA, no login wall (already logged in as Prabhavit Gupta), no anti-AI attestation.
+
+LEARNINGS: LinkedIn Easy Apply can carry a Greenhouse `applicantTrackingSystemName` query param on the URL even though the whole flow stays inside LinkedIn's own 7-step modal (no offsite redirect) — don't treat that query param alone as evidence of an offsite ATS; check for the actual dialog/modal before treating an Easy Apply job as anything other than native LinkedIn. Also: an Easy Apply cover-letter step can be upload-only with no paste box, so keep a CoverLetter_<Co>.tex/.pdf pair ready (not just .txt) for any job where a cover letter is wanted.

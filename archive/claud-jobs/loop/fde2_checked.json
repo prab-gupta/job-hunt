@@ -1,0 +1,2904 @@
+{
+ "keep": [
+  {
+   "id": "4466779679",
+   "title": "Forward Deployed Engineer",
+   "company": "Jaipur Robotics",
+   "location": "Lombardy, Italy",
+   "geo": "Italy",
+   "url": "https://www.linkedin.com/jobs/view/4466779679/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466779679.txt",
+   "senior": false
+  },
+  {
+   "id": "4468277476",
+   "title": "Forward Deployment Engineer",
+   "company": "Xenon Seven",
+   "location": "Monte Libretti, Latium, Italy",
+   "geo": "Italy",
+   "url": "https://www.linkedin.com/jobs/view/4468277476/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468277476.txt",
+   "senior": false
+  },
+  {
+   "id": "4453067762",
+   "title": "Forward Deployed Engineer I",
+   "company": "Kinaxis",
+   "location": "Ro, Emilia-Romagna, Italy",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4453067762/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4453067762.txt",
+   "senior": false
+  },
+  {
+   "id": "4420926058",
+   "title": "Forward Deployed Engineer",
+   "company": "HCLSoftware",
+   "location": "Rome, Latium, Italy",
+   "geo": "Italy",
+   "url": "https://www.linkedin.com/jobs/view/4420926058/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4420926058.txt",
+   "senior": false
+  },
+  {
+   "id": "4325011614",
+   "title": "Founding Forward Deployed Engineer",
+   "company": "Airweave (YC X25)",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4325011614/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4325011614.txt",
+   "senior": false
+  },
+  {
+   "id": "4448988083",
+   "title": "Forward Deployed Engineer",
+   "company": "ENDGAME",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4448988083/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4448988083.txt",
+   "senior": false
+  },
+  {
+   "id": "4463391194",
+   "title": "Forward Deployed Engineer (Audit experience required)",
+   "company": "DataSnipper",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4463391194/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4463391194.txt",
+   "senior": false
+  },
+  {
+   "id": "4462959131",
+   "title": "Forward Deployed Engineer - Amsterdam",
+   "company": "HighRadius",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4462959131/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4462959131.txt",
+   "senior": false
+  },
+  {
+   "id": "4371308967",
+   "title": "Forward Deployed Software Engineer",
+   "company": "Palantir Technologies",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4371308967/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4371308967.txt",
+   "senior": false
+  },
+  {
+   "id": "4458173720",
+   "title": "Agentic Forward Deployed Engineer",
+   "company": "HCLTech",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458173720/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458173720.txt",
+   "senior": false
+  },
+  {
+   "id": "4468223902",
+   "title": "AI Solutions Specialist - FDE II",
+   "company": "Qualco Group",
+   "location": "Athens, Attiki, Greece",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468223902/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468223902.txt",
+   "senior": false
+  },
+  {
+   "id": "4468238711",
+   "title": "AI Solutions Specialist - FDE II",
+   "company": "Quento",
+   "location": "Athens, Attiki, Greece",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468238711/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468238711.txt",
+   "senior": false
+  },
+  {
+   "id": "4459503760",
+   "title": "Forward Deployed Engineer (m/f/x)",
+   "company": "Virtual Identity",
+   "location": "Austria",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4459503760/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4459503760.txt",
+   "senior": false
+  },
+  {
+   "id": "4400433713",
+   "title": "Forward Deployed AI Engineer (all genders)",
+   "company": "United Digital Group",
+   "location": "Barcelona, Catalonia, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4400433713/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4400433713.txt",
+   "senior": false
+  },
+  {
+   "id": "4468215334",
+   "title": "Forward Deployed Engineer",
+   "company": "Mainloop AI",
+   "location": "Barcelona, Catalonia, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468215334/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468215334.txt",
+   "senior": false
+  },
+  {
+   "id": "4448318639",
+   "title": "Forward Deployed Engineer",
+   "company": "Markin.ai",
+   "location": "Barcelona, Catalonia, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4448318639/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4448318639.txt",
+   "senior": false
+  },
+  {
+   "id": "4467222132",
+   "title": "Technical Solutions Engineer (FDE)",
+   "company": "Factorial",
+   "location": "Barcelona, Catalonia, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467222132/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467222132.txt",
+   "senior": false
+  },
+  {
+   "id": "4374585728",
+   "title": "Forward Deployed Engineer - Germany",
+   "company": "Neural Concept",
+   "location": "Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4374585728/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4374585728.txt",
+   "senior": false
+  },
+  {
+   "id": "4414892687",
+   "title": "Forward Deployed Engineer (f/m/d)",
+   "company": "SPREAD AI",
+   "location": "Berlin, Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4414892687/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4414892687.txt",
+   "senior": false
+  },
+  {
+   "id": "4386770393",
+   "title": "Forward Deployed Engineer",
+   "company": "Veo Technologies",
+   "location": "Berlin, Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4386770393/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4386770393.txt",
+   "senior": false
+  },
+  {
+   "id": "4465548120",
+   "title": "Forward Deployed Engineer",
+   "company": "MBN Solutions",
+   "location": "Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4465548120/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4465548120.txt",
+   "senior": false
+  },
+  {
+   "id": "4461979163",
+   "title": "Forward Deployed Engineer (Palantir Foundry) for NATO with security clearance",
+   "company": "WLG",
+   "location": "Brussels, Brussels Region, Belgium",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4461979163/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4461979163.txt",
+   "senior": false
+  },
+  {
+   "id": "4467096352",
+   "title": "Forward Deployed Engineer | Bucharest | Romania | Hybrid",
+   "company": "Sutherland",
+   "location": "Bucharest, Bucharest, Romania",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467096352/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467096352.txt",
+   "senior": false
+  },
+  {
+   "id": "4464622703",
+   "title": "Forward Deployed Engineer with German (f/m/x)",
+   "company": "accilium",
+   "location": "Bucharest, Bucharest, Romania",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464622703/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464622703.txt",
+   "senior": false
+  },
+  {
+   "id": "4410871872",
+   "title": "Forward Deployed Engineer",
+   "company": "Kodesage",
+   "location": "Budapest, Budapest, Hungary",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4410871872/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4410871872.txt",
+   "senior": false
+  },
+  {
+   "id": "4458184734",
+   "title": "Forward Deployed Engineer (m/f/d)",
+   "company": "Allianz Technology",
+   "location": "Budapest, Budapest, Hungary",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458184734/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458184734.txt",
+   "senior": false
+  },
+  {
+   "id": "4456918511",
+   "title": "Forward Deployed Engineers",
+   "company": "KPMG Denmark",
+   "location": "Copenhagen, Capital Region of Denmark, Denmark",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4456918511/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4456918511.txt",
+   "senior": false
+  },
+  {
+   "id": "4439861515",
+   "title": "Forward Deployed Engineer",
+   "company": "BLP",
+   "location": "Copenhagen, Capital Region of Denmark, Denmark",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4439861515/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4439861515.txt",
+   "senior": false
+  },
+  {
+   "id": "4453234984",
+   "title": "Forward Deployed Engineering Specialist",
+   "company": "Accenture UK & Ireland",
+   "location": "Dublin, County Dublin, Ireland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4453234984/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4453234984.txt",
+   "senior": false
+  },
+  {
+   "id": "4452849308",
+   "title": "Microsoft Forward Deploy Consultant",
+   "company": "Storm Technology Ltd",
+   "location": "Dublin, County Dublin, Ireland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4452849308/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4452849308.txt",
+   "senior": false
+  },
+  {
+   "id": "4417377604",
+   "title": "Forward Deployed Engineer (EU/UK Based)",
+   "company": "duvo.ai",
+   "location": "European Union",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4417377604/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4417377604.txt",
+   "senior": false
+  },
+  {
+   "id": "4441634398",
+   "title": "Forward Deployed Engineer - EMEA",
+   "company": "GitLab",
+   "location": "France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4441634398/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4441634398.txt",
+   "senior": false
+  },
+  {
+   "id": "4460731557",
+   "title": "Forward Deployed Engineer",
+   "company": "Persistent Systems",
+   "location": "Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4460731557/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4460731557.txt",
+   "senior": false
+  },
+  {
+   "id": "4467062336",
+   "title": "AI Forward Deployed Engineer",
+   "company": "Galtea",
+   "location": "Greater Barcelona Metropolitan Area",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467062336/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467062336.txt",
+   "senior": false
+  },
+  {
+   "id": "4401720999",
+   "title": "Forward Deployed AI Engineer, Germany",
+   "company": "ICEYE",
+   "location": "Greater Munich Metropolitan Area",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4401720999/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4401720999.txt",
+   "senior": false
+  },
+  {
+   "id": "4402486914",
+   "title": "Forward Deployed Engineer",
+   "company": "Akeneo",
+   "location": "Greater Nantes Metropolitan Area",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4402486914/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4402486914.txt",
+   "senior": false
+  },
+  {
+   "id": "4462798452",
+   "title": "Forward Deployed Full Stack Engineer",
+   "company": "NestAI",
+   "location": "Helsinki Metropolitan Area",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4462798452/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4462798452.txt",
+   "senior": false
+  },
+  {
+   "id": "4406538685",
+   "title": "Forward Deployed Engineer",
+   "company": "Chalk",
+   "location": "Ireland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4406538685/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4406538685.txt",
+   "senior": false
+  },
+  {
+   "id": "4451918613",
+   "title": "Forward Deployed Engineer",
+   "company": "LiveKit",
+   "location": "Ireland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4451918613/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4451918613.txt",
+   "senior": false
+  },
+  {
+   "id": "4464504676",
+   "title": "Forward Deployed AI Engineer",
+   "company": "Keyrus",
+   "location": "Lisbon, Lisbon, Portugal",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464504676/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464504676.txt",
+   "senior": false
+  },
+  {
+   "id": "4454519303",
+   "title": "Forward Deployed Software Engineer (m/f/d)",
+   "company": "KI performance GmbH",
+   "location": "Lisbon, Portugal",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4454519303/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4454519303.txt",
+   "senior": false
+  },
+  {
+   "id": "4459660430",
+   "title": "Forward Deployed Engineer",
+   "company": "dataroots, a Talan company",
+   "location": "Louvain Metropolitan Area",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4459660430/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4459660430.txt",
+   "senior": false
+  },
+  {
+   "id": "4463480170",
+   "title": "Forward Deployed Engineer (FDE)",
+   "company": "Wave Group",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4463480170/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4463480170.txt",
+   "senior": false
+  },
+  {
+   "id": "4443899271",
+   "title": "Forward Deployed Engineer",
+   "company": "Accenture Espa\u00f1a",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4443899271/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4443899271.txt",
+   "senior": false
+  },
+  {
+   "id": "4435833866",
+   "title": "Forward Deployed AI Engineer",
+   "company": "Quantrue",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4435833866/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4435833866.txt",
+   "senior": false
+  },
+  {
+   "id": "4457793675",
+   "title": "AI Forward-Deployed Engineer",
+   "company": "Alvarez & Marsal",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4457793675/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4457793675.txt",
+   "senior": false
+  },
+  {
+   "id": "4468218288",
+   "title": "Thinker (Forward Deployment/Core Engineer)",
+   "company": "Talky Labs",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468218288/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468218288.txt",
+   "senior": false
+  },
+  {
+   "id": "4467080467",
+   "title": "Forward Deployed Engineer",
+   "company": "Oplane",
+   "location": "Malmo, Sk\u00e5ne County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467080467/",
+   "apply_type": "OFFSITE",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467080467.txt",
+   "senior": false
+  },
+  {
+   "id": "4423966482",
+   "title": "Forward Deployed Engineer (EMEA)",
+   "company": "Applied Intuition",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4423966482/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4423966482.txt",
+   "senior": false
+  },
+  {
+   "id": "4465201869",
+   "title": "Forward Deployed Engineer for Robotics",
+   "company": "Agile Robots SE",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4465201869/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4465201869.txt",
+   "senior": false
+  },
+  {
+   "id": "4462055576",
+   "title": "Forward Deployed Engineer (FDE)",
+   "company": "CLAR AI",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4462055576/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4462055576.txt",
+   "senior": false
+  },
+  {
+   "id": "4466785118",
+   "title": "Forward-Deployed AI Engineer - Claude Code - \u20ac120,000 - Munich - Hybrid",
+   "company": "Findr",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4466785118/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466785118.txt",
+   "senior": false
+  },
+  {
+   "id": "4419821406",
+   "title": "Forward Deployed Engineer",
+   "company": "Growth Protocol",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4419821406/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4419821406.txt",
+   "senior": false
+  },
+  {
+   "id": "4412109035",
+   "title": "Founding Forward Deployed Engineer (Munich)",
+   "company": "Dataleap (YC S24)",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4412109035/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4412109035.txt",
+   "senior": false
+  },
+  {
+   "id": "4441067050",
+   "title": "Forward Deployed Engineer - AI",
+   "company": "AvePoint",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4441067050/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4441067050.txt",
+   "senior": false
+  },
+  {
+   "id": "4454784880",
+   "title": "Forward Deployed Engineer",
+   "company": "Auterion",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4454784880/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4454784880.txt",
+   "senior": false
+  },
+  {
+   "id": "4409017913",
+   "title": "Forward Deployed Engineer (all genders)",
+   "company": "Avelios Medical",
+   "location": "Munich, Bavaria, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4409017913/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4409017913.txt",
+   "senior": false
+  },
+  {
+   "id": "4464611808",
+   "title": "Forward Deployed Engineer \u2013 Vulnerability Management & Security",
+   "company": "AISLE\u2122",
+   "location": "Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464611808/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464611808.txt",
+   "senior": false
+  },
+  {
+   "id": "4464300548",
+   "title": "Forward Deployed Engineer",
+   "company": "Parallel",
+   "location": "Paris, \u00cele-de-France, France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464300548/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464300548.txt",
+   "senior": false
+  },
+  {
+   "id": "4468214613",
+   "title": "Forward Deployed Software Engineer",
+   "company": "Harmattan AI",
+   "location": "Paris, \u00cele-de-France, France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468214613/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468214613.txt",
+   "senior": false
+  },
+  {
+   "id": "4458347375",
+   "title": "Forward Deployed Engineer (AI Solutions)",
+   "company": "Aircall",
+   "location": "Paris, \u00cele-de-France, France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458347375/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458347375.txt",
+   "senior": false
+  },
+  {
+   "id": "4417098641",
+   "title": "Forward Deployed Engineer",
+   "company": "Lithosquare",
+   "location": "Paris, \u00cele-de-France, France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4417098641/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4417098641.txt",
+   "senior": false
+  },
+  {
+   "id": "4452599257",
+   "title": "Forward Deployment Engineer \u2013 AI Specialist",
+   "company": "NTT DATA, Inc.",
+   "location": "Paris, \u00cele-de-France, France",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4452599257/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4452599257.txt",
+   "senior": false
+  },
+  {
+   "id": "4426812753",
+   "title": "Forward Deployment Engineer",
+   "company": "Netguru",
+   "location": "Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4426812753/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4426812753.txt",
+   "senior": false
+  },
+  {
+   "id": "4444955938",
+   "title": "Forward Deployed Engineer (IR-537)",
+   "company": "Intellectsoft",
+   "location": "Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4444955938/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4444955938.txt",
+   "senior": false
+  },
+  {
+   "id": "4451398800",
+   "title": "Forward Deployed AI Engineer",
+   "company": "gravity9",
+   "location": "Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4451398800/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4451398800.txt",
+   "senior": false
+  },
+  {
+   "id": "4461669827",
+   "title": "Forward Deployed Engineer",
+   "company": "ALTEN",
+   "location": "Porto, Porto, Portugal",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4461669827/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4461669827.txt",
+   "senior": false
+  },
+  {
+   "id": "4446732955",
+   "title": "Forward Deployed Engineer",
+   "company": "Promptly Health",
+   "location": "Portugal",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4446732955/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4446732955.txt",
+   "senior": false
+  },
+  {
+   "id": "4453240970",
+   "title": "GenAI Forward deployed Engineer",
+   "company": "Accenture Baltics",
+   "location": "Riga, Riga, Latvia",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4453240970/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4453240970.txt",
+   "senior": false
+  },
+  {
+   "id": "4435006811",
+   "title": "Forward Deployed Engineer (Chief Role)",
+   "company": "Undelucram.ro",
+   "location": "Romania",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4435006811/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4435006811.txt",
+   "senior": false
+  },
+  {
+   "id": "4426904508",
+   "title": "Forward Deployed Engineer",
+   "company": "Paebbl",
+   "location": "Rotterdam, South Holland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4426904508/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4426904508.txt",
+   "senior": false
+  },
+  {
+   "id": "4438602833",
+   "title": "Forward Deployed Engineer",
+   "company": "Danfoss",
+   "location": "Sofia, Sofia City, Bulgaria",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4438602833/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4438602833.txt",
+   "senior": false
+  },
+  {
+   "id": "4467740543",
+   "title": "Forward Deployed Engineer",
+   "company": "TERASi",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467740543/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467740543.txt",
+   "senior": false
+  },
+  {
+   "id": "4391715905",
+   "title": "Forward Deployed Engineer",
+   "company": "Tandem Health",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4391715905/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4391715905.txt",
+   "senior": false
+  },
+  {
+   "id": "4465614962",
+   "title": "Forward Deployed AI Engineer",
+   "company": "KLAR Partners",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4465614962/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4465614962.txt",
+   "senior": false
+  },
+  {
+   "id": "4457679285",
+   "title": "Forward deployed engineer",
+   "company": "Cofactor",
+   "location": "Stockholm, Stockholm County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4457679285/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4457679285.txt",
+   "senior": false
+  },
+  {
+   "id": "4441928922",
+   "title": "Forward Deployed AI Engineer",
+   "company": "Enjins",
+   "location": "Utrecht, Utrecht, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4441928922/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4441928922.txt",
+   "senior": false
+  },
+  {
+   "id": "4344677212",
+   "title": "Forward Deployed Engineer",
+   "company": "StratsLab",
+   "location": "Warsaw, Mazowieckie, Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4344677212/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4344677212.txt",
+   "senior": false
+  },
+  {
+   "id": "4460351104",
+   "title": "Forward Deployed Engineer (Polish)",
+   "company": "fonio.ai",
+   "location": "Warsaw, Mazowieckie, Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4460351104/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4460351104.txt",
+   "senior": false
+  },
+  {
+   "id": "4461159580",
+   "title": "Forward Deployed Engineer",
+   "company": "Cavendish Professionals",
+   "location": "Warsaw, Mazowieckie, Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4461159580/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4461159580.txt",
+   "senior": false
+  },
+  {
+   "id": "4451396478",
+   "title": "Forward Deployed Engineer",
+   "company": "Cyclomedia",
+   "location": "Zaltbommel, Gelderland, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4451396478/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4451396478.txt",
+   "senior": false
+  },
+  {
+   "id": "4458404335",
+   "title": "Forward Deployed Engineer - New Capabilities",
+   "company": "IFS",
+   "location": "\u2019s-Hertogenbosch, North Brabant, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458404335/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458404335.txt",
+   "senior": false
+  },
+  {
+   "id": "4458365111",
+   "title": "Senior Forward Deployed Engineer \u2013 Key Accounts (AI Solutions)",
+   "company": "Aircall",
+   "location": "Berlin, Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458365111/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458365111.txt",
+   "senior": true
+  },
+  {
+   "id": "4414650658",
+   "title": "Senior Forward Deployed Engineer - QuantumBlack, AI by McKinsey",
+   "company": "QuantumBlack, AI by McKinsey",
+   "location": "Berlin, Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4414650658/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4414650658.txt",
+   "senior": true
+  },
+  {
+   "id": "4452259313",
+   "title": "Forward Deployed Engineer / Solutions Architect",
+   "company": "Talonic",
+   "location": "Berlin, Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4452259313/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4452259313.txt",
+   "senior": false
+  },
+  {
+   "id": "4468273159",
+   "title": "Forward Deployed Manager, Netherlands",
+   "company": "Fujitsu",
+   "location": "De Meern, Utrecht, Netherlands",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4468273159/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468273159.txt",
+   "senior": true
+  },
+  {
+   "id": "4453260021",
+   "title": "Forward Deployed Engineering Manager",
+   "company": "Accenture UK & Ireland",
+   "location": "Dublin, County Dublin, Ireland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4453260021/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4453260021.txt",
+   "senior": true
+  },
+  {
+   "id": "4466315412",
+   "title": "Principal Forward Deployed Engineer, AI (Remote Poland)",
+   "company": "Atlassian",
+   "location": "Gda\u0144sk, Pomorskie, Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4466315412/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466315412.txt",
+   "senior": true
+  },
+  {
+   "id": "4464630202",
+   "title": "(Senior) Forward Deployed Engineer (m/f/d)",
+   "company": "Flip",
+   "location": "Germany",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464630202/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464630202.txt",
+   "senior": true
+  },
+  {
+   "id": "4462182523",
+   "title": "Senior Forward Deployed AI Engineer",
+   "company": "Nordea",
+   "location": "Helsinki, Uusimaa, Finland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4462182523/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4462182523.txt",
+   "senior": true
+  },
+  {
+   "id": "4465793536",
+   "title": "Principal Forward-Deployed Engineer",
+   "company": "Thoughtworks",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4465793536/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4465793536.txt",
+   "senior": true
+  },
+  {
+   "id": "4458007625",
+   "title": "Senior AI Forward-Deployed Engineer / Architect",
+   "company": "Alvarez & Marsal",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4458007625/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4458007625.txt",
+   "senior": true
+  },
+  {
+   "id": "4442733590",
+   "title": "Senior Product Owner/ Forward Deployed Executive - AI Delivery",
+   "company": "Provectus",
+   "location": "Madrid, Community of Madrid, Spain",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4442733590/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4442733590.txt",
+   "senior": true
+  },
+  {
+   "id": "4454055999",
+   "title": "Senior Forward Deployed Engineer",
+   "company": "Inriver",
+   "location": "Malmo, Sk\u00e5ne County, Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4454055999/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4454055999.txt",
+   "senior": true
+  },
+  {
+   "id": "4464514835",
+   "title": "Senior Forward Deployed Engineer",
+   "company": "Keyfactor",
+   "location": "Prague, Prague, Czechia",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4464514835/",
+   "apply_type": "easy-apply?",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4464514835.txt",
+   "senior": true
+  },
+  {
+   "id": "4467047934",
+   "title": "Senior Forward Deployed Engineer (Bulgaria)",
+   "company": "Handshake",
+   "location": "Sofia, Sofia City, Bulgaria",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4467047934/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4467047934.txt",
+   "senior": true
+  },
+  {
+   "id": "4448081630",
+   "title": "Senior Forward Deployed Engineer",
+   "company": "Cloudflare",
+   "location": "Sweden",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4448081630/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4448081630.txt",
+   "senior": true
+  },
+  {
+   "id": "4455696596",
+   "title": "Senior Forward Deployed Solution Engineer (Poland)",
+   "company": "Spectro Cloud",
+   "location": "Wroc\u0142aw, Dolno\u015bl\u0105skie, Poland",
+   "geo": "EU",
+   "url": "https://www.linkedin.com/jobs/view/4455696596/",
+   "apply_type": "offsite",
+   "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4455696596.txt",
+   "senior": true
+  }
+ ],
+ "kills": [
+  [
+   "4423937244",
+   "Jobgether",
+   "Forward Deployed Engineer",
+   "Italy",
+   "company already applied/queued for FDE: ('', 'Forward Deployment Engineer - Azure AI', 'SUBMITTED')"
+  ],
+  [
+   "4444007214",
+   "Accenture Italia",
+   "Forward Deployed Engineer Specialist",
+   "Milan, Lombardy, Italy",
+   "company already applied/queued for FDE: ('2026-09-06', 'Junior Applied AI Engineer (all genders)', 'NEEDS YOU - Workday ')"
+  ],
+  [
+   "4450337951",
+   "BCG X",
+   "Forward Deployed AI Scientist, Italy - BCG X",
+   "Milan, Lombardy, Italy",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4463318888",
+   "K2 Partnering Solutions",
+   "Forward Deployed Engineer",
+   "Milan, Lombardy, Italy",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4443895338",
+   "Accenture Italia",
+   "Forward Deployed Engineer Specialist",
+   "Rome, Latium, Italy",
+   "company already applied/queued for FDE: ('2026-09-06', 'Junior Applied AI Engineer (all genders)', 'NEEDS YOU - Workday ')"
+  ],
+  [
+   "4464369915",
+   "Translated",
+   "Forward Deployed Data Scientist (On-site)",
+   "Rome, Latium, Italy",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4466059118",
+   "Salesforce",
+   "Lead Forward Deployed Engineer",
+   "Milan, Lombardy, Italy",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4438216587",
+   "Salesforce",
+   "Principal Forward Deployed Engineer, Italian Speaking",
+   "Milan, Lombardy, Italy",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4455126286",
+   "Salesforce",
+   "Senior Forward Deployed Engineer, Italian Speaking",
+   "Rome, Latium, Italy",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4440795499",
+   "Keyrus",
+   "Forward deployment engineer (H/F/NB)",
+   "Aix-en-Provence, Provence-Alpes-C\u00f4te d'Azur, France",
+   "title language marker \"(H/F/NB)\""
+  ],
+  [
+   "4452292603",
+   "Cloudflare",
+   "Forward Deployed Engineer, Hebrew speaker",
+   "Amsterdam, North Holland, Netherlands",
+   "title language marker \"Hebrew\""
+  ],
+  [
+   "4383172010",
+   "Databricks",
+   "Forward Deployed Engineer",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4373627825",
+   "Dots",
+   "Forward Deploy Engineer (FDE)",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deploy Engineer (FDE)', 'NEEDS YOU')"
+  ],
+  [
+   "4465992642",
+   "Databricks",
+   "AI Forward Deployed Engineer - Netherlands",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4466422512",
+   "Telnyx",
+   "Forward Deployed Engineer, Benelux",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer, Southern Euro', 'SUBMITTED')"
+  ],
+  [
+   "4447576487",
+   "Salesforce",
+   "Forward Deployed Engineer - Public Sector, Nonprofit & Education",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4458203867",
+   "Deloitte",
+   "Forward Deployed Engineer",
+   "Athens, Attiki, Greece",
+   "company already applied/queued for FDE: ('queue', 'Product Owner', 'NEEDS YOU')"
+  ],
+  [
+   "4463834192",
+   "K2 Partnering Solutions",
+   "Forward Deployed Engineer",
+   "Athens, Attiki, Greece",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4461085557",
+   "Juryo",
+   "Forward Deployed Engineer",
+   "Barcelona, Catalonia, Spain",
+   "JD language es"
+  ],
+  [
+   "4436741001",
+   "Salesforce",
+   "Forward Deployed Engineer - Spanish Speaker",
+   "Barcelona, Catalonia, Spain",
+   "title language marker \"Spanish Speak\""
+  ],
+  [
+   "4400444595",
+   "United Digital Group",
+   "Forward Deployed AI Engineer (all genders)",
+   "Barcelona, Catalonia, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4462665039",
+   "Murphy AI",
+   "Forward Deployed Engineer - Portuguese Native",
+   "Barcelona, Catalonia, Spain",
+   "title language marker \"Portuguese\""
+  ],
+  [
+   "4465668327",
+   "ESPRiT Engineering",
+   "Forward-Deployed Engineer - Agentic Systems & RAG (w/m/d)",
+   "Bavaria, Germany",
+   "JD language de"
+  ],
+  [
+   "4451481177",
+   "ElevenLabs",
+   "Forward Deployed Engineer - Software Engineer - Belgium",
+   "Belgium",
+   "company already applied/queued for FDE: ('2026-08-05', 'Forward Deployed Engineer - Software Eng', 'SUBMITTED')"
+  ],
+  [
+   "4441668100",
+   "Zauber",
+   "Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4460985564",
+   "The Formula Consulting",
+   "Forward Deployed Engineer (d/m/w) Defense Deutschland remote",
+   "Berlin, Berlin, Germany",
+   "title language marker \"(d/m/w)\""
+  ],
+  [
+   "4458353225",
+   "Aircall",
+   "Forward Deployed Engineer (AI Solutions) - DACH Market",
+   "Berlin, Berlin, Germany",
+   "title language marker \"DACH\""
+  ],
+  [
+   "4434001890",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4456788101",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4467067521",
+   "Beam AI",
+   "Forward Deployed Engineer (m/w/d)",
+   "Berlin, Berlin, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4442551874",
+   "Taktile",
+   "Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('', 'Forward Deployed Engineer (Berlin Office', 'SUBMITTED')"
+  ],
+  [
+   "4460635588",
+   "Otera",
+   "Forward Deployed Engineer- German Speaker (f/m/d) Remote Europe",
+   "Berlin, Berlin, Germany",
+   "title language marker \"German Speak\""
+  ],
+  [
+   "4465627199",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4458757123",
+   "Salesforce",
+   "Forward Deployed Engineer \u2014 Agentforce Orchestration",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4440888386",
+   "Taktile",
+   "Forward Deployed Engineer (Ops)",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('', 'Forward Deployed Engineer (Berlin Office', 'SUBMITTED')"
+  ],
+  [
+   "4424679619",
+   "BCG X",
+   "Forward Deployed AI Engineer, Germany & Austria - BCG X",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Visiting Forward Deployed AI Engineer, I', 'NEEDS YOU')"
+  ],
+  [
+   "4458752375",
+   "Salesforce",
+   "D360 Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4460979547",
+   "The Formula Consulting",
+   "Junior Forward Deployed Engineer (d/m/w) Defense Deutschland remote",
+   "Berlin, Berlin, Germany",
+   "title language marker \"(d/m/w)\""
+  ],
+  [
+   "4465867033",
+   "Union Investment",
+   "Forward Deployed Engineer (m/w/d) KI-native Entwicklung",
+   "Berlin, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4462509050",
+   "Limetax",
+   "Forward Deployed Engineer (m/f/d)",
+   "Berlin, Germany",
+   "JD language requirement \"professional German\""
+  ],
+  [
+   "4454701431",
+   "Xcede",
+   "Forward Deployed Engineer | AI & Enterprise Solutions | Berlin / Remote",
+   "Berlin, Germany",
+   "JD language requirement \"Professional German\""
+  ],
+  [
+   "4465858111",
+   "Union Investment",
+   "Forward Deployed Architekt*in KI-native Delivery",
+   "Berlin, Germany",
+   "JD language de"
+  ],
+  [
+   "4461792730",
+   "Bull",
+   "Forward Deployed AI Strategist - F/H",
+   "Bezons, \u00cele-de-France, France",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4440754242",
+   "Keyrus",
+   "Forward Deployed Engineer (H/F/NB)",
+   "Bordeaux, Nouvelle-Aquitaine, France",
+   "title language marker \"(H/F/NB)\""
+  ],
+  [
+   "4462975155",
+   "ALTEN",
+   "FDE - Forward Deployed Engineer H/F",
+   "Boulogne-Billancourt, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4429537362",
+   "ellamind",
+   "Forward Deployed Engineer - Agents",
+   "Bremen, Bremen, Germany",
+   "JD language requirement \"professional German\""
+  ],
+  [
+   "4443973774",
+   "Salesforce",
+   "Forward Deployed Engineer - Public Sector, Nonprofit & Education",
+   "Brussels, Brussels Region, Belgium",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4461030270",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Bucharest, Bucharest, Romania",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4465687888",
+   "adesso Bulgaria",
+   "AI Forward Deployed Engineer with German",
+   "Bulgaria",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4448052308",
+   "NTT DATA Europe & Latam",
+   "Forward Deployed Engineer - FDE (w/m/x)",
+   "Cologne, North Rhine-Westphalia, Germany",
+   "title language marker \"(w/m/x)\""
+  ],
+  [
+   "4465048454",
+   "KI performance GmbH",
+   "Forward Deployed Product Strategist (all genders)",
+   "Cologne, North Rhine-Westphalia, Germany",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4459920718",
+   "Accenture",
+   "Forward Deployed Engineer",
+   "Community of Madrid, Spain",
+   "company already applied/queued for FDE: ('2026-09-06', 'Junior Applied AI Engineer (all genders)', 'NEEDS YOU - Workday ')"
+  ],
+  [
+   "4456324586",
+   "RELEX Solutions",
+   "Forward Deployed Engineer | Merchandising",
+   "Copenhagen Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployed Engineer | Merchandisin', 'SUBMITTED')"
+  ],
+  [
+   "4435580868",
+   "Salesforce",
+   "Forward Deployed Engineer - Denmark",
+   "Copenhagen Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4453124061",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Copenhagen Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4451858225",
+   "Salesforce",
+   "Forward Deployed Engineer - Denmark",
+   "Copenhagen Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4466515503",
+   "Stott and May",
+   "Forward Deployed Engineer",
+   "Copenhagen, Capital Region of Denmark, Denmark",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4457244577",
+   "Sigma Software",
+   "Forward AI Deployment Engineer (FDE)",
+   "Cracow, Ma\u0142opolskie, Poland",
+   "company already applied/queued for FDE: ('2026-08-28', 'Forward AI Deployment Engineer (FDE)', 'SUBMITTED')"
+  ],
+  [
+   "4465639787",
+   "Capgemini",
+   "Forward Deployed Engineer",
+   "Diegem, Flemish Region, Belgium",
+   "company already applied/queued for FDE: ('queue', 'Data Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4440214854",
+   "BLP",
+   "Forward Deployed Engineer",
+   "Dublin, County Dublin, Ireland",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4466100151",
+   "Google",
+   "Forward Deployed Engineer, Google Cloud, GenAI",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4461278058",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4429112309",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4459802782",
+   "NXT",
+   "Forward Deployed Engineer",
+   "D\u00fcsseldorf, North Rhine-Westphalia, Germany",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4424693490",
+   "BCG X",
+   "Forward Deployed AI Engineer, Germany & Austria - BCG X",
+   "D\u00fcsseldorf, North Rhine-Westphalia, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Visiting Forward Deployed AI Engineer, I', 'NEEDS YOU')"
+  ],
+  [
+   "4443373440",
+   "Salesforce",
+   "Forward Deployed Engineer - Public sector, Nonprofit and Education",
+   "Espoo, Uusimaa, Finland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4437787707",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Espoo, Uusimaa, Finland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4462461178",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Espoo, Uusimaa, Finland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4373636231",
+   "Dots",
+   "Forward Deploy Engineer (FDE)",
+   "France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deploy Engineer (FDE)', 'NEEDS YOU')"
+  ],
+  [
+   "4455438309",
+   "Cohere",
+   "Forward Deployed Engineer, Infrastructure Specialist (France)",
+   "France",
+   "company already applied/queued for FDE: ('2026-08-05', 'Forward Deployed Engineer, Agentic Platf', 'SUBMITTED')"
+  ],
+  [
+   "4426058436",
+   "Cohere",
+   "Forward Deployed Engineer, Infrastructure Specialist (Europe)",
+   "France",
+   "company already applied/queued for FDE: ('2026-08-05', 'Forward Deployed Engineer, Agentic Platf', 'SUBMITTED')"
+  ],
+  [
+   "4434014494",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4456794074",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4455630341",
+   "Devoteam | Google Cloud Partner",
+   "Forward Deployed Engineer \u2013 Gen AI (m/w/d)",
+   "Frankfurt, Hesse, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4458749197",
+   "Salesforce",
+   "Forward Deployed Engineer \u2014 Agentforce Orchestration",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4458758320",
+   "Salesforce",
+   "D360 Forward Deployed Engineer",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4426053992",
+   "Cohere",
+   "Forward Deployed Engineer, Infrastructure Specialist (Europe)",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-08-05', 'Forward Deployed Engineer, Agentic Platf', 'SUBMITTED')"
+  ],
+  [
+   "4422021286",
+   "SAP",
+   "Forward Deployed Application Engineering Chief Expert (f/m/d)",
+   "Garching, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-08-14', 'Forward Deployed Engineer (all genders)', 'NEEDS YOU - Munich o')"
+  ],
+  [
+   "4418823251",
+   "Cohere",
+   "Forward Deployed Engineer, Agentic Platform (UK/Europe)",
+   "Germany",
+   "company already applied/queued for FDE: ('2026-08-05', 'Forward Deployed Engineer, Agentic Platf', 'SUBMITTED')"
+  ],
+  [
+   "4373633270",
+   "Dots",
+   "Forward Deploy Engineer (FDE)",
+   "Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deploy Engineer (FDE)', 'NEEDS YOU')"
+  ],
+  [
+   "4446228305",
+   "NiCE",
+   "Forward Deployment Engineer",
+   "Germany",
+   "company already applied/queued for FDE: ('2026-08-05', 'AI Forward Deployed Engineer, EMEA', 'SUBMITTED')"
+  ],
+  [
+   "4456866386",
+   "Spectrum IT Recruitment",
+   "AI Forward Deployed Engineer",
+   "Germany",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4441638247",
+   "GitLab",
+   "Forward Deployed Engineer - EMEA",
+   "Germany",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4466158835",
+   "Jobgether",
+   "Forward Deployed Engineer",
+   "Germany",
+   "company already applied/queued for FDE: ('', 'Forward Deployment Engineer - Azure AI', 'SUBMITTED')"
+  ],
+  [
+   "4459685375",
+   "elunic AG",
+   "Forward Deployed Engineer (m/w/d)",
+   "Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4458917449",
+   "ML6",
+   "Forward Deployed Engineer",
+   "Ghent, Flemish Region, Belgium",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4456332485",
+   "RELEX Solutions",
+   "Forward Deployed Engineer | Merchandising",
+   "Greater Barcelona Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployed Engineer | Merchandisin', 'SUBMITTED')"
+  ],
+  [
+   "4402493526",
+   "Akeneo",
+   "Forward Deployed Engineer",
+   "Greater Paris Metropolitan Region",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4459962117",
+   "Stott and May",
+   "Forward Deployed Engineer",
+   "Greater Stockholm Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4456332487",
+   "RELEX Solutions",
+   "Forward Deployed Engineer | Merchandising",
+   "Greater Stockholm Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployed Engineer | Merchandisin', 'SUBMITTED')"
+  ],
+  [
+   "4466880805",
+   "DEVjobs",
+   "Forward Deployed AI Engineer @ GGW Group",
+   "Hamburg, Germany",
+   "JD language de"
+  ],
+  [
+   "4448054283",
+   "NTT DATA Europe & Latam",
+   "Forward Deployed Engineer - FDE (w/m/x)",
+   "Hamburg, Hamburg, Germany",
+   "title language marker \"(w/m/x)\""
+  ],
+  [
+   "4453895248",
+   "VOIDS",
+   "Forward Deployed Engineer - Integrations & Customer Success (f/m/d)",
+   "Hamburg, Hamburg, Germany",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4457087629",
+   "Rabot Energy",
+   "Forward Deployed Engineer (m/f/d) - AI Automation, internal",
+   "Hamburg, Hamburg, Germany",
+   "JD language requirement \"Fluent in German\""
+  ],
+  [
+   "4424673717",
+   "BCG X",
+   "Forward Deployed AI Engineer, Germany & Austria - BCG X",
+   "Hamburg, Hamburg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Visiting Forward Deployed AI Engineer, I', 'NEEDS YOU')"
+  ],
+  [
+   "4453079369",
+   "codecentric AG",
+   "Forward Deployed Engineer (w/d/m)",
+   "Hamburg, Hamburg, Germany",
+   "title language marker \"(w/d/m)\""
+  ],
+  [
+   "4464317280",
+   "Siili Solutions",
+   "Forward Deployed Data & Integration Engineer",
+   "Helsinki Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'AI Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4441639232",
+   "GitLab",
+   "Forward Deployed Engineer - EMEA",
+   "Ireland",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4465952701",
+   "Secture",
+   "Forward Deployed Engineer",
+   "Madrid, Community of Madrid, Spain",
+   "JD language es"
+  ],
+  [
+   "4433693909",
+   "Palantir Technologies",
+   "Forward Deployed Software Engineer - Spain",
+   "Madrid, Community of Madrid, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4447916370",
+   "VML Enterprise Solutions",
+   "AI Forward Deployed Engineer",
+   "Madrid, Community of Madrid, Spain",
+   "JD language es"
+  ],
+  [
+   "4439855629",
+   "BLP",
+   "Forward Deployed Engineer",
+   "Madrid, Community of Madrid, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4442075959",
+   "Keyrus",
+   "Forward Deployed AI Engineer",
+   "Madrid, Community of Madrid, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4448151654",
+   "THE COCKTAIL",
+   "AI Forward Deployed Engineer",
+   "Madrid, Community of Madrid, Spain",
+   "JD language es"
+  ],
+  [
+   "4463563745",
+   "OpenAI",
+   "Forward Deployed Engineer - Madrid (Spanish-speaking)",
+   "Madrid, Community of Madrid, Spain",
+   "title language marker \"Spanish-speak\""
+  ],
+  [
+   "4436720733",
+   "Salesforce",
+   "Forward Deployed Engineer - Spanish Speaker",
+   "Madrid, Community of Madrid, Spain",
+   "title language marker \"Spanish Speak\""
+  ],
+  [
+   "4461946085",
+   "WLG",
+   "Forward Deployed Engineer (Palantir Foundry) for NATO with security clearance",
+   "Mons, Walloon Region, Belgium",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4458849481",
+   "Perelyn",
+   "Forward Deployed Engineer (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4462248062",
+   "Next Ventures",
+   "Forward Deployed AI Engineer \u2013 Enterprise AI Transformation | \u20ac150k",
+   "Munich, Bavaria, Germany",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4466424457",
+   "Telnyx",
+   "Forward Deployed Engineer, DACH",
+   "Munich, Bavaria, Germany",
+   "title language marker \"DACH\""
+  ],
+  [
+   "4444122397",
+   "Databricks",
+   "Sr. Forward Deployed Engineer - FDE (Fullstack)",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4455884351",
+   "Databricks",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4458858280",
+   "RIZM",
+   "Forward Deployed Engineer - in M\u00fcnster or Munich (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4458635140",
+   "Google",
+   "Forward Deployed Engineer III, Google Cloud Consulting (German)",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4455621856",
+   "Devoteam | Google Cloud Partner",
+   "Forward Deployed Engineer \u2013 Gen AI (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4465041839",
+   "KI performance GmbH",
+   "Forward Deployed Engineer (all genders)",
+   "Munich, Bavaria, Germany",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4462299945",
+   "Oliver Bernard",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "JD language requirement \"proficiency in German\""
+  ],
+  [
+   "4438413152",
+   "Mayflower GmbH",
+   "Forward Deployed Engineer (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4454274372",
+   "Anthropic",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer-Anthropic-N', 'SUBMITTED')"
+  ],
+  [
+   "4453609706",
+   "Tacto",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-08-14', 'Forward Deployed Engineer (all genders)', 'NEEDS YOU - Munich o')"
+  ],
+  [
+   "4459685371",
+   "elunic AG",
+   "Forward Deployed Engineer (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4387096546",
+   "lytra",
+   "Forward Deployed Engineer (FDE)",
+   "Munich, Bavaria, Germany",
+   "JD language requirement \"Fluent German\""
+  ],
+  [
+   "4458769016",
+   "Salesforce",
+   "Forward Deployed Engineer \u2014 Agentforce Orchestration",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4434010545",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4457001035",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4450498449",
+   "carbmee",
+   "Forward Deployed Engineer | German Speaking",
+   "Munich, Bavaria, Germany",
+   "title language marker \"German Speak\""
+  ],
+  [
+   "4407922914",
+   "Smartsheet",
+   "Sr. Forward Deployed AI Engineer (Remote Eligible in Germany)",
+   "Munich, Bavaria, Germany",
+   "JD language requirement \"Proficiency in German\""
+  ],
+  [
+   "4428910971",
+   "Lio",
+   "Forward Deployed Engineer (all genders)",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-08-14', 'Forward Deployed Engineer (all genders)', 'NEEDS YOU - Munich o')"
+  ],
+  [
+   "4458762259",
+   "Salesforce",
+   "D360 Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4453087293",
+   "codecentric AG",
+   "Forward Deployed Engineer (w/d/m)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(w/d/m)\""
+  ],
+  [
+   "4412669006",
+   "Investa Real Estate",
+   "Forward Deployed Engineer (AI / GenAI) \u2013 Real Estate & Enterprise Applications (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4464078137",
+   "KI performance GmbH",
+   "Forward Deployed Product Strategist (m/w/d)",
+   "Munich, Bavaria, Germany",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4465993694",
+   "Databricks",
+   "AI Forward Deployed Engineer - Germany",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4465051433",
+   "KI performance GmbH",
+   "Forward Deployed Product Strategist (all genders)",
+   "Munich, Bavaria, Germany",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4446785876",
+   "Accenture Espa\u00f1a",
+   "Forward Deployed Engineer",
+   "M\u00e1laga, Andalusia, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4452968720",
+   "Akeneo",
+   "Forward Deployed Engineer",
+   "Nantes, Pays de la Loire, France",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4468231606",
+   "NXTminds",
+   "Forward Deployed Engineer",
+   "North Holland, Netherlands",
+   "JD language nl"
+  ],
+  [
+   "4445341299",
+   "Bonx",
+   "Founding Forward Deployed Engineer France (up to 100k\u20ac OTE + Equity)",
+   "Paris, \u00cele-de-France, France",
+   "JD language requirement \"Native French\""
+  ],
+  [
+   "4462190866",
+   "Salesforce",
+   "Forward Deployed Engineer - Global Public Sector",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4457499554",
+   "URBAN LINKER",
+   "Forward Deployed Engineer (Data oriented) | Deeptech | H/F (Paris or London)",
+   "Paris, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4433178426",
+   "Onepoint",
+   "Forward Deployed Engineer \u2013 Agentic AI H/F",
+   "Paris, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4465841307",
+   "Allianz Technology",
+   "Forward Deployed Engineer_3202",
+   "Paris, \u00cele-de-France, France",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4455845471",
+   "InsideBoard AI",
+   "Forward Deployed Engineer",
+   "Paris, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4459339851",
+   "Salesforce",
+   "Forward Deployed Engineer - Global Public Sector",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4444494932",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4463107596",
+   "Stakha",
+   "Forward Deployed Engineer \u2013 Infrastructure / AI",
+   "Paris, \u00cele-de-France, France",
+   "JD language requirement \"Fluent French\""
+  ],
+  [
+   "4432971674",
+   "ICEYE",
+   "Forward Deployed AI Engineer, Portugal",
+   "Portugal",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4442748774",
+   "Keyrus",
+   "Forward Deployed AI Engineer",
+   "Portugal",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4423937249",
+   "Jobgether",
+   "Forward Deployed Engineer",
+   "Portugal",
+   "company already applied/queued for FDE: ('', 'Forward Deployment Engineer - Azure AI', 'SUBMITTED')"
+  ],
+  [
+   "4444958894",
+   "Intellectsoft",
+   "Forward Deployed Engineer (IR-537)",
+   "Portugal",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4434009609",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Ruhr Region",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4456781165",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Ruhr Region",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4458748880",
+   "Salesforce",
+   "D360 Forward Deployed Engineer",
+   "Ruhr Region",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4458752196",
+   "Salesforce",
+   "Forward Deployed Engineer \u2014 Agentforce Orchestration",
+   "Ruhr Region",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4461027265",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Sofia, Sofia City, Bulgaria",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4463846008",
+   "K2 Partnering Solutions",
+   "Forward Deployed Engineer",
+   "Sofia, Sofia City, Bulgaria",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4438614234",
+   "Danfoss",
+   "Forward Deployed Engineer (Sales / Customer Service)",
+   "Sofia, Sofia City, Bulgaria",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4467730709",
+   "Albatross AI",
+   "Forward Deployed Engineer",
+   "Spain",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4466179592",
+   "Jobgether",
+   "Forward Deployed Engineer",
+   "Spain",
+   "company already applied/queued for FDE: ('', 'Forward Deployment Engineer - Azure AI', 'SUBMITTED')"
+  ],
+  [
+   "4444977115",
+   "Intellectsoft",
+   "Forward Deployed Engineer (IR-537)",
+   "Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4457696540",
+   "NestAI",
+   "Forward Deployed Engineer",
+   "Stockholm, Stockholm County, Sweden",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4344008805",
+   "Palantir Technologies",
+   "Forward Deployed Software Engineer",
+   "Stockholm, Stockholm County, Sweden",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4465987748",
+   "Databricks",
+   "AI Forward Deployed Engineer - Sweden",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4443383213",
+   "Salesforce",
+   "Forward Deployed Engineer - Public sector, Nonprofit and Education",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4443280767",
+   "Databricks",
+   "Sr. Forward Deployed Engineer",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4451851299",
+   "Salesforce",
+   "Forward Deployed Engineer, Sweden",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4450336000",
+   "Google",
+   "Forward Deployed Engineer III, Generative AI, Google Cloud",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4439866370",
+   "BLP",
+   "Forward Deployed Engineer",
+   "Stockholm, Stockholm County, Sweden",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4466420458",
+   "Telnyx",
+   "Forward Deployed Engineer, Nordics",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer, Southern Euro', 'SUBMITTED')"
+  ],
+  [
+   "4435803212",
+   "Salesforce",
+   "Forward Deployed Engineer - Sweden",
+   "Stockholm, Stockholm County, Sweden",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4413899016",
+   "ATYOS",
+   "Forward Deployed Engineer Cloud (H/F)",
+   "Strasbourg, Grand Est, France",
+   "title language marker \"(H/F)\""
+  ],
+  [
+   "4448034962",
+   "NTT DATA Europe & Latam",
+   "Forward Deployed Engineer - FDE (w/m/x)",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "title language marker \"(w/m/x)\""
+  ],
+  [
+   "4434000861",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4456783125",
+   "Salesforce",
+   "Forward Deployed Engineer",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4458758321",
+   "Salesforce",
+   "D360 Forward Deployed Engineer",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4453080396",
+   "codecentric AG",
+   "Forward Deployed Engineer (w/d/m)",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "title language marker \"(w/d/m)\""
+  ],
+  [
+   "4461034221",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Tallinn, Harjumaa, Estonia",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4458965263",
+   "NestAI",
+   "Forward Deployed Embedded Software Engineer",
+   "Tampere, Pirkanmaa, Finland",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4452586929",
+   "Freeday",
+   "Forward Deployed Engineer",
+   "The Randstad, Netherlands",
+   "company already applied/queued for FDE: ('', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4351774243",
+   "Hinfact",
+   "Forward Deployed Engineer (F/H)",
+   "Toulouse, Occitanie, France",
+   "title language marker \"(F/H)\""
+  ],
+  [
+   "4458186683",
+   "Allianz Technology",
+   "Forward Deployed Engineer (m/f/d)",
+   "Unterf\u00f6hring, Bavaria, Germany",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4461017375",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Valletta, Valletta, Malta",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4424676643",
+   "BCG X",
+   "Forward Deployed AI Engineer, Germany & Austria - BCG X",
+   "Vienna, Vienna, Austria",
+   "company already applied/queued for FDE: ('2026-09-16', 'Visiting Forward Deployed AI Engineer, I', 'NEEDS YOU')"
+  ],
+  [
+   "4398199677",
+   "Palantir Technologies",
+   "Forward Deployed Software Engineer",
+   "Vilnius, Vilniaus, Lithuania",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4453240990",
+   "Accenture Baltics",
+   "GenAI Forward deployed Engineer",
+   "Vilnius, Vilniaus, Lithuania",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4461030268",
+   "Wonderful",
+   "Forward Deployed Engineer",
+   "Warsaw, Mazowieckie, Poland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4452469008",
+   "Salesforce",
+   "Forward Deployed Engineer - Polish Speaking",
+   "Warszawa, Wielkopolskie, Poland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4391496372",
+   "JetBrains",
+   "Staff Forward Deployed Engineer \u2013 AI-Native Software Development",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-16', 'Staff Forward Deployed Engineer, AI-Nati', 'SUBMITTED')"
+  ],
+  [
+   "4459641259",
+   "NewRocket",
+   "Senior/Lead Forward Deployed AI Engineer-Anthropic-Netherlands/Western Europe",
+   "Amsterdam, North Holland, Netherlands",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer-Anthropic-N', 'SUBMITTED')"
+  ],
+  [
+   "4460974228",
+   "ENDGAME",
+   "Forward Deployed Architect",
+   "Amsterdam, North Holland, Netherlands",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4448705926",
+   "Quento",
+   "AI Solutions Architect - FDE",
+   "Athens, Attiki, Greece",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4461716246",
+   "Qualco Group",
+   "AI Solutions Architect - FDE",
+   "Athens, Attiki, Greece",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4466849802",
+   "Cloudera",
+   "Forward Deployed AI Engineer (Senior/Principal Level) - based in Czechia/Poland/Spain",
+   "Barcelona, Catalonia, Spain",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer (Senior/Pri', 'NEEDS YOU')"
+  ],
+  [
+   "4453460175",
+   "Overfly",
+   "Senior Forward Deployed Engineer (m/w/d)",
+   "Berlin, Berlin, Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4463521731",
+   "Google",
+   "Senior Forward Deployed Engineer, Generative AI, Google Cloud",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4434000866",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4433898887",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Berlin, Berlin, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4432235429",
+   "Gigs",
+   "Forward Deployed Product Manager",
+   "Berlin, Berlin, Germany",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4442588766",
+   "DeepRec.ai",
+   "Technical Lead IA Appliqu\u00e9e / Forward Deployed AI Engineer",
+   "Brussels Region, Belgium",
+   "JD language fr"
+  ],
+  [
+   "4459643239",
+   "NewRocket",
+   "Senior/Lead Forward Deployed AI Engineer-Anthropic-Netherlands/Western Europe",
+   "Brussels, Brussels Region, Belgium",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer-Anthropic-N', 'SUBMITTED')"
+  ],
+  [
+   "4463507927",
+   "Adobe",
+   "Senior Forward Deployed Engineer",
+   "Bucharest, Bucharest, Romania",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer, Agents & Apps', 'NEEDS YOU')"
+  ],
+  [
+   "4414642858",
+   "QuantumBlack, AI by McKinsey",
+   "Senior Forward Deployed Engineer - QuantumBlack, AI by McKinsey",
+   "Budapest, Budapest, Hungary",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4457321193",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Bulgaria",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4465058062",
+   "KI performance GmbH",
+   "Senior AI Engineer (Forward Deployed) (all genders)",
+   "Cologne, North Rhine-Westphalia, Germany",
+   "JD language requirement \"business-level German\""
+  ],
+  [
+   "4416618094",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Cracow Metropolitan Area",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4454558595",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Cracow Metropolitan Area",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4457314248",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Croatia",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4464361153",
+   "Cloudera",
+   "Forward Deployed AI Engineer (Senior/Principal Level)",
+   "Czechia",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer (Senior/Pri', 'NEEDS YOU')"
+  ],
+  [
+   "4457316272",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Czechia",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4468263276",
+   "Fujitsu",
+   "Forward Deployed Senior Manager, Netherlands",
+   "De Meern, Utrecht, Netherlands",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4468263303",
+   "Fujitsu",
+   "Forward Deployed Manager (AI) , Belgium",
+   "Diegem, Flemish Region, Belgium",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4468270165",
+   "Fujitsu",
+   "Forward Deployed Senior Manager, Belgium",
+   "Diegem, Flemish Region, Belgium",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4422759309",
+   "EY",
+   "AI & Data - Forward Deployed AI Engineer, Manager",
+   "Dublin 2, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-09', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4460078633",
+   "Google",
+   "Staff Forward Deployed Engineer, Google Cloud Consulting",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4443819547",
+   "Google",
+   "Staff Forward Deployed Engineer, Google Cloud Consulting (Multiple Languages)",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4465816825",
+   "KX",
+   "FDE Senior Engineer, AI & Capital Markets",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('2026-08-12', 'Forward Deployed Engineer (Europe)', 'NEEDS YOU - four wri')"
+  ],
+  [
+   "4440975362",
+   "MongoDB",
+   "Senior Software Engineer, Forward Deployed AI Engineer",
+   "Dublin, County Dublin, Ireland",
+   "company already applied/queued for FDE: ('queue', 'Technical Services Engineer - Partners', 'SUBMITTED')"
+  ],
+  [
+   "4463512859",
+   "Google",
+   "Senior Forward Deployed Engineer, Generative AI, Google Cloud",
+   "Frankfurt am Main, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4461235191",
+   "QuantumBlack, AI by McKinsey",
+   "Senior Forward Deployed Engineer - QuantumBlack, AI by McKinsey",
+   "Frankfurt, Hesse, Germany",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4433898888",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4434017339",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Frankfurt, Hesse, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4447698989",
+   "SAP",
+   "Forward Deployed (Senior) AI Engineer (f/m/d)",
+   "Garching, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-08-14', 'Forward Deployed Engineer (all genders)', 'NEEDS YOU - Munich o')"
+  ],
+  [
+   "4462194034",
+   "Nordea",
+   "Senior Forward Deployed AI Scientist",
+   "Gda\u0144sk, Pomorskie, Poland",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4462183457",
+   "Nordea",
+   "Senior Forward Deployed AI Scientist",
+   "Gdynia, Pomorskie, Poland",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4464624256",
+   "Flip",
+   "(Senior) Forward Deployed Engineer (m/w/d)",
+   "Germany",
+   "title language marker \"(m/w/d)\""
+  ],
+  [
+   "4463505886",
+   "Google",
+   "Senior Forward Deployed Engineer, Generative AI, Google Cloud",
+   "Hamburg, Hamburg, Germany",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4457315292",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Hrastnik, Slovenia",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4369492706",
+   "MongoDB",
+   "Senior Software Engineer, Forward Deployed AI Engineer",
+   "Ireland",
+   "company already applied/queued for FDE: ('queue', 'Technical Services Engineer - Partners', 'SUBMITTED')"
+  ],
+  [
+   "4466856749",
+   "Cloudera",
+   "Forward Deployed AI Engineer (Senior/Principal Level) - based in Czechia/Poland/Spain",
+   "Kalisz Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer (Senior/Pri', 'NEEDS YOU')"
+  ],
+  [
+   "4464074111",
+   "KI performance GmbH",
+   "Senior AI Engineer (Forward Deployed) (all genders)",
+   "Lisbon, Lisbon, Portugal",
+   "JD language requirement \"business-level German\""
+  ],
+  [
+   "4414645773",
+   "QuantumBlack, AI by McKinsey",
+   "Senior Forward Deployed Engineer - QuantumBlack, AI by McKinsey",
+   "Madrid, Community of Madrid, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4467054603",
+   "Thinkia",
+   "Forward Deployed Engineer Senior (FDE)",
+   "Madrid, Community of Madrid, Spain",
+   "JD language es"
+  ],
+  [
+   "4458360164",
+   "Aircall",
+   "Senior Forward Deployed Engineer \u2013 Key Accounts (AI Solutions)",
+   "Madrid, Community of Madrid, Spain",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4378620746",
+   "supermodular.ai",
+   "Senior Forward Deployed Engineer | Germany",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-04', 'Senior Forward Deployed Engineer | Portu', 'SUBMITTED')"
+  ],
+  [
+   "4465063035",
+   "KI performance GmbH",
+   "Senior AI Engineer (Forward Deployed) (all genders)",
+   "Munich, Bavaria, Germany",
+   "JD language requirement \"business-level German\""
+  ],
+  [
+   "4462794737",
+   "Capgemini",
+   "Senior Forward Deployed Engineer (w/m/d)",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('queue', 'Data Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4414645771",
+   "QuantumBlack, AI by McKinsey",
+   "Senior Forward Deployed Engineer - QuantumBlack, AI by McKinsey",
+   "Munich, Bavaria, Germany",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4463517776",
+   "Google",
+   "Senior Forward Deployed Engineer, Generative AI, Google Cloud",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4461162938",
+   "Databricks",
+   "Staff Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4434019057",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4434009613",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Munich, Bavaria, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4447369754",
+   "EY",
+   "Forward Deployment Engineer - Manager - EY GDS Spain - Hybrid",
+   "M\u00e1laga, Andalusia, Spain",
+   "company already applied/queued for FDE: ('2026-09-09', 'Forward Deployed Engineer', 'SUBMITTED')"
+  ],
+  [
+   "4459637264",
+   "NewRocket",
+   "Senior/Lead Forward Deployed AI Engineer-Anthropic-Netherlands/Western Europe",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer-Anthropic-N', 'SUBMITTED')"
+  ],
+  [
+   "4442596468",
+   "DeepRec.ai",
+   "Technical Lead IA Appliqu\u00e9e / Forward Deployed AI Engineer",
+   "Paris, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4444971097",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4434314240",
+   "Popsink",
+   "Forward Deployed Engineer (Senior) \u2014 H/F",
+   "Paris, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4420731086",
+   "Databricks",
+   "Senior Forward Deployed Engineer - Full stack, FDE",
+   "Paris, \u00cele-de-France, France",
+   "company already applied/queued for FDE: ('2026-09-06', 'Forward Deployment Engineer with AI', 'SUBMITTED')"
+  ],
+  [
+   "4454545642",
+   "Notion",
+   "Forward Deployed Architect, France",
+   "Paris, \u00cele-de-France, France",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4466846825",
+   "Cloudera",
+   "Forward Deployed AI Engineer (Senior/Principal Level) - based in Czechia/Poland/Spain",
+   "Prague Metropolitan Area",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed AI Engineer (Senior/Pri', 'NEEDS YOU')"
+  ],
+  [
+   "4463972695",
+   "Wavestone",
+   "Senior Consultant / Manager \u2013 Forward Deployed AI Engineer (H/F/X)",
+   "Puteaux, \u00cele-de-France, France",
+   "JD language fr"
+  ],
+  [
+   "4457319218",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Slovakia",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4462191201",
+   "Nordea",
+   "Senior Forward Deployed AI Engineer",
+   "Stockholm, Stockholm County, Sweden",
+   "duplicate copy of the same role"
+  ],
+  [
+   "4434002759",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4434012496",
+   "Salesforce",
+   "Senior Forward Deployed Engineer",
+   "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+   "company already applied/queued for FDE: ('2026-09-16', 'Senior Forward Deployed Engineer, Italia', 'NEEDS YOU')"
+  ],
+  [
+   "4464541136",
+   "Signify Technology",
+   "Lead Forward Deployed Engineer (Python)",
+   "Tramore, County Waterford, Ireland",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4454569377",
+   "Provectus",
+   "FDE AI/ Solutions Architect (AI, Python/Data)",
+   "Valencia, Valencian Community, Spain",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4456261174",
+   "Google",
+   "Staff Forward Deployed Engineer, GenAI, Google Cloud",
+   "Warsaw, Mazowieckie, Poland",
+   "company already applied/queued for FDE: ('2026-09-11', 'Forward deployed engineer', 'SUBMITTED')"
+  ],
+  [
+   "4462188387",
+   "Nordea",
+   "Senior Forward Deployed AI Scientist",
+   "Warsaw, Mazowieckie, Poland",
+   "title: not an engineer role or language-specific"
+  ],
+  [
+   "4435727996",
+   "Kyndryl",
+   "Senior Modernization Engineer (FDE)",
+   "Wroc\u0142aw, Dolno\u015bl\u0105skie, Poland",
+   "company already applied/queued for FDE: ('2026-09-16', 'Forward Deployed Engineer', 'NEEDS YOU')"
+  ],
+  [
+   "4461715207",
+   "Devoteam Digital Impulse",
+   "Senior Forward Deployed Engineer \u2014 Industrial AI",
+   "\u00cele-de-France, France",
+   "JD language requirement \"Professional French\""
+  ]
+ ]
+}

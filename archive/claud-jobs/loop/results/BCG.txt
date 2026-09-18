@@ -1,0 +1,14 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4388505837/ (Visiting Forward Deployed AI Engineer, Italy - BCG X, Milan)
+BCG careers job page (id 55987): https://careers.bcg.com/global/en/job/BCG1US55987EXTERNALENGLOBAL/Visiting-Forward-Deployed-AI-Engineer-Italy-BCG-X
+
+Uploaded: nothing (blocked before upload step).
+Prepared: Prabhavit_CV_BCG.pdf (2 pages, from Prabhavit_CV_EN.tex, verbatim bullets, Career Summary bullets 1+3, FlowSpace 7 bullets, UltraStrategy both bullets), CoverLetter_BCG.pdf/.txt (0 em-dashes, English).
+
+Answers given: none (form never reached).
+
+Blockers: LinkedIn Apply redirects to BCG's Phenom-based careers site, job id 55987 confirmed live (site search shows 498 results incl. this exact "Visiting Forward Deployed AI Engineer, Italy - BCG X" listing; a direct URL hit first returned a broken "Basic Template" page, so used the site's own search to reach the real APPLY NOW button). Apply Now opens https://studenttalent.bcg.com/candidate/login with only three options: email+Continue sign-in, "Sign in using Google", or "Create an account". No guest-apply path exists. Per the standing no-account-creation rule, stopped here.
+
+Hard-gate note: JD requires "currently enrolled in a university master's or PhD degree program" (visiting/intern-track role) and "fluent in English and Italian". Per this session's explicit task override (apply to every Forward Deployed Engineer posting on LinkedIn in Italy/EU, kill only for closed/already-submitted/lacks-a-language), neither gate killed the row. No enrollment claim was made anywhere since the form was never reached.
+
+LEARNINGS: BCG's LinkedIn "Apply" redirect can land on a stale/broken careers.bcg.com job template even when the underlying requisition is still live; if that happens, search careers.bcg.com directly (search-results?keywords=...) to find the live job card and its own Apply Now button before concluding the posting is dead.

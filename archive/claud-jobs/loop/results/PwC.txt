@@ -1,0 +1,67 @@
+STATUS: NEEDS YOU
+
+URL (LinkedIn posting): https://www.linkedin.com/jobs/view/4446431290/
+URL (actual apply form, guest flow): https://jobs-cee.pwc.com/ce/en/apply?jobSeqNo=PWCECE748486WDEXTERNALENCE
+Job: AI Engineer (m/f), PwC Slovakia, Bratislava (on-site), req 748486WD
+
+Dedupe: NEW (python3 loop/dedupe.py --check "PwC" <url> returned NEW). Two older rows for
+"PwC Italy" (AI Developer Intern, Bologna DIG, both SKIPPED 2026-09-04) exist in
+applications.csv — different company entity, different role level, do not block.
+
+Cheap check: curl jobs-guest jobPosting API returned apply-button count = 1 (accepting
+applications). No anti-AI disclaimer found in the JD text.
+
+Hard gates: all pass. JD in English; 1-2+ years required (Prabhavit has 3); Python +
+Generative AI/LLM/RAG/NLP core stack, all claimable; English B2+ (Prabhavit is C1); on-site
+Bratislava, EU, relocation acceptable per standing rule; no MSc/PhD requirement; title is
+individual-contributor "AI Engineer", not Senior/Staff/Lead/Principal/Manager. JD itself
+names GitHub Copilot, Cursor, Claude Code and ChatPwC as tools PwC expects engineers to use
+daily, matching the planner's pre-check.
+
+Order-of-work step 1 (10-minute check): DONE, well inside the window. Apply led off LinkedIn
+to PwC's own careers site (jobs-cee.pwc.com), which uses a Phenom-based guest apply form —
+no account creation, no sign-in wall. Screenshots taken confirming this (not persisted to a
+file — see below).
+
+Materials built (step 2), both ready to upload:
+- Prabhavit_CV_PwC.tex / .pdf — from Prabhavit_CV_EN.tex per the CV tailoring rules, 2 pages,
+  photo included, tectonic compile clean, bullet-level parity check against pdftotext output
+  clean (only false-positive flags from \textbf{}/\textit{} argument stripping in my own
+  regex, not real drift). Summary trimmed to 2 bullets, FlowSpace kept 5 bullets (min 3),
+  every other role kept 1-2 bullets, Bubble/low-code item dropped from Additional
+  Information since this JD has no relation to it. Full drop list in
+  answers/PwC-2026-09-10.md.
+- CoverLetter_PwC.tex / .txt / .pdf — 247 words, no em-dashes (grep -c "—" = 0), no
+  no-code/low-code/Bubble wording, names Claude Code as a daily dev tool exactly as
+  instructed, includes the Slovakia work-authorisation transparency line, all claims trace
+  to "Prabhavit - Master Experience.md".
+
+Step 3 (guest flow found) -> step "complete it": BLOCKED. The apply form's mandatory
+Resume/CV upload field (auto-parses the file to pre-fill the rest of the form) freezes the
+Chrome tab's renderer solid on upload of Prabhavit_CV_PwC.pdf. Reproduced twice on two
+separate fresh tabs: after file_upload, every follow-up call (screenshot, read_page,
+get_page_text, javascript_tool "document.readyState") failed with a script-injection /
+CDP Runtime.evaluate timeout (45s), and the tab never recovered after 3+ cumulative minutes
+of waiting. A third fresh tab confirmed the page itself is stable and fully interactive
+before the upload (fields visible, no freeze) — the freeze is specific to the resume-upload
+step, not general Chrome congestion or page load.
+
+No form fields were actually entered because the freeze happens immediately on upload,
+before the rest of the form (name, email, education, skills, consent dropdowns) becomes
+reachable. Nothing was submitted. Per brief: leaving a blocker I cannot get past for a
+human, STATUS: NEEDS YOU.
+
+Next step for the user: open https://jobs-cee.pwc.com/ce/en/apply?jobSeqNo=PWCECE748486WDEXTERNALENCE
+in a normal browser tab (outside this automation), upload Prabhavit_CV_PwC.pdf, fill the
+short remaining fields (values prepared in answers/PwC-2026-09-10.md), paste
+CoverLetter_PwC.txt if a free-text box appears, decline the two marketing/talent-pool
+consent dropdowns, and submit.
+
+LEARNINGS (new ATS trap): jobs-cee.pwc.com (PwC CEE careers, Phenom platform) — the guest
+apply form is genuinely account-free, but its client-side resume-parse-and-autofill step can
+hang the browser tab indefinitely when driven by Claude in Chrome automation. Confirmed
+reproducible across fresh tabs; not a one-off congestion blip. Worth trying Playwright MCP
+instead of Claude in Chrome for this specific ATS if it comes up again, since the freeze may
+be tied to the extension's script-injection mechanism rather than the page itself.
+
+STATUS: SUBMITTED (planner-verified 18:15 from the Playwright thank-you page after the retry agent stalled; success text in confirmations/PwC-2026-09-10.txt)

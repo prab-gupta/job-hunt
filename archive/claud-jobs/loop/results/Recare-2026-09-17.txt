@@ -1,0 +1,20 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468608294/ -> https://careers.recaresolutions.com/o/senior-forward-deployed-platform-engineer-mwd/c/new
+Company: Recare - Senior Forward Deployed Platform Engineer (m/w/d), Remote, Berlin HQ Germany
+
+USER RULE FDE-ALL: every FDE posting in Italy/EU gets an application, senior titles included, no kill for fit/years/seniority/stack.
+
+Dedupe: python3 loop/dedupe.py --check "Recare" "https://www.linkedin.com/jobs/view/4468608294/" returned NEW.
+
+Hard gates: no anti-AI clause (grepped full JD), JD is English (English heuristic confirmed on the live posting, no German requirement anywhere in the text). Title is "Senior" - normally a kill gate, but explicitly overridden by the FDE-ALL rule per this task's instructions. Core stack (AWS SageMaker/EKS/CloudFormation, Kubernetes GPU inference, Datadog/Langfuse/OTel) is well outside Prabhavit's claimable skills and he cannot claim cloud admin experience (guardrail in OUTREACH_FACTS.md/Master Experience file) - proceeded anyway per FDE-ALL, letter is explicit and honest about this gap.
+
+Uploaded: Prabhavit_CV_Recare.pdf (built fresh from Prabhavit_CV_EN.tex, 2 pages, applied the enhanced AI/automation tailoring rule - kept 2 UltraStrategy bullets and reordered Get2Germany/FlowSpace/Career Summary to lead with AI and production-system work) and CoverLetter_Recare.pdf.
+
+Route: clicked Apply on the LinkedIn posting, which opened https://careers.recaresolutions.com/o/senior-forward-deployed-platform-engineer-mwd/c/new directly in a new tab - a Recruitee/Tellent-powered careers page, not an iframe. No Playwright hand-off needed.
+
+Answers given: Full name/email auto-typed correctly; phone country selector defaulted to Germany, changed to Italy (type-to-filter "Italy" worked in the otherwise unsearchable-looking dropdown) then typed +39 351 610 7807; "Are you legally authorized to work in Germany/the EU?" = No (per answers/work-authorisation.md, Italy-only authorisation; Germany transparency line placed in the cover letter since this form has no separate free-text field for it); notice period = "Available immediately; can start within two weeks of an offer."; desired gross annual salary = 45000 EUR (task standing default, JD states no band); how did you become aware = LinkedIn.
+
+Confirmation: "All done! Your application has been successfully submitted!" at https://careers.recaresolutions.com/o/senior-forward-deployed-platform-engineer-mwd/applied, with a green "Applied" tab badge. See confirmations/Recare-2026-09-17.txt (PNG not saved - Claude in Chrome's computer tool has no save-to-disk option; screenshot visually confirmed before logging).
+
+Blockers: none.
+LEARNINGS: new ATS pattern logged (Recare careers.recaresolutions.com runs on Recruitee, white-labelled as "Hiring with tellent recruitee") - phone country-code combobox has no visible search box but supports type-to-filter once focused/open (typing "Italy" while the Germany-default list was open filtered it down immediately). See loop/LEARNINGS.md.

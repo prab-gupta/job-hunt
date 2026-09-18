@@ -1,0 +1,35 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4454001392/
+ATS (Greenhouse): https://job-boards.greenhouse.io/nearform/jobs/7834813003
+Role: Forward Deployed Engineer, Italy (remote), full-time permanent, travel to EU client sites.
+
+LI-PICK row. Dedupe HIT URL against a prior SKIP-SENIORITY row for this exact requisition
+(2026-09-04, killed then for the JD's 8-year seniority bar). Per the LI-PICK rule that only
+closed / already-SUBMITTED-for-this-requisition / missing-required-language kill, none applied,
+so proceeded. A separate, different Nearform requisition (Senior Software Engineer - Python & AI)
+was SUBMITTED 2026-09-02 - different role, does not block, not mentioned in the letter.
+
+Uploaded: Prabhavit_CV_Nearform.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, parity-checked
+via diff - deletions/reorders only, no rewrites or new claims). MyGreenhouse autofilled a generic
+resume first; removed it and uploaded the tailored PDF. Also uploaded CoverLetter_Nearform.pdf
+(275 words, FlowSpace + UltraStrategy as the two required proof paragraphs, Urlink as a shorter
+third example, 3 years stated plainly, no em-dashes/no-code/low-code/Bubble).
+
+Answers: the Greenhouse form for this posting carried no custom screening questions (just
+name/email/phone/location/resume/cover letter/LinkedIn/"how did you hear" = LinkedIn). No
+years/salary/work-authorisation/EEO fields appeared, so the prepared standing answers (years=3,
+salary EUR 45,000-55,000, Italy authorised/no sponsorship) were not needed.
+
+Blockers: none. No CAPTCHA, no assessment, no anti-AI attestation on the application form itself
+(a live Python coding assessment is stage 2 of their interview process, not part of this form).
+
+Confirmation: "Yay! You've submitted your application..." at
+https://job-boards.greenhouse.io/nearform/jobs/7834813003/confirmation
+Saved to confirmations/Nearform-2026-09-11.txt. Screenshot PNG could not be saved to disk from
+Claude in Chrome in this environment (known limitation); txt is the record per the brief.
+
+Logged: applications.csv (1 row appended), answers/nearform-2026-09-11.md.
+
+LEARNINGS: none new - MyGreenhouse-autofill-then-replace and the Chrome PNG-save gap both match
+already-documented brief behaviour, no new ATS trap.

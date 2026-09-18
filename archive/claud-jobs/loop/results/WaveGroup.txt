@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463480170/
+Job id: 4463480170, ATS: LinkedIn Easy Apply (Madrid/Barcelona)
+
+Dedupe: HIT COMPANY on the name index but no actual prior Wave Group row exists in applications.csv (grep for company+forward returned nothing); treated as NEW.
+Hard gate re-check: live JD requires English fluency "plus Spanish, Italian and/or German" (an and/or set of three); Italian is one of the three and Prabhavit has conversational Italian, so the language requirement is met, not a kill.
+
+Uploaded: Prabhavit_CV_WaveGroup.pdf (resume, verified checked). No cover letter slot on this form.
+Contact info: phone +39 351 610 7807.
+Additional questions: commuting to Barcelona/Madrid Yes, legally authorised in Spain No, requires sponsorship Yes, Spanish proficiency None, English proficiency Professional, Python years 2, LLM/Agentic AI in production years 2, AI Voice Agents production experience No.
+Result: "Your application was sent to Wave Group!" / "Application submitted". Screenshot confirmations/WaveGroup-2026-09-17.png, text confirmations/WaveGroup-2026-09-17.txt.

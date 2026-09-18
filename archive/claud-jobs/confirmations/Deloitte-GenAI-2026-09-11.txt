@@ -1,0 +1,8 @@
+Deloitte Italia - Junior - GenAI & Hyper-automation Developer - req 10095
+URL: https://deloittecm.avature.net/en_US/careers/JobDetail/Junior-GenAI-Hyper-automation-Developer/10095
+Submitted (Playwright): https://deloittecm.avature.net/en_US/careers/Success?jobId=10095&source=LinkedIn
+
+Success text on page: "Thank you for applying! You have successfully applied to: Junior - GenAI &
+Hyper-automation Developer"
+
+Date: 2026-09-11

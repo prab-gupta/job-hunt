@@ -1,0 +1,14 @@
+Leadtech (MAU / AI-LAB) - AI Full Stack Developer
+ATS: Teamtailor (leadtech.teamtailor.com)
+Applied via: https://leadtech.teamtailor.com/jobs/8083644-ai-full-stack-developer
+
+Success text (from /thanks page after email verification):
+"Thanks for applying
+We have received your application and we will be reviewing it shortly.
+Have someone who can be a reference? Let us know."
+
+Progress indicator on the page: "Applied" (step 1 of 2, checked) / "Connect" (step 2, optional, not completed - left untouched per brief, no talent-pool opt-in).
+
+Note: this application required a two-step flow. Submit application -> Teamtailor sent an email verification link (no-reply@leadtech.teamtailor-mail.com, subject "Complete the application for AI Full Stack Developer") -> clicked the link from Gmail -> landed on the /thanks confirmation page above.
+
+PNG screenshot not saved to disk: Claude in Chrome extension does not expose a retrievable save_to_disk path in this environment (per APPLY_AGENT_BRIEF.md Chrome section, "PNG saving is not available in Chrome, the txt is the record"). Every form step was visually verified via in-session screenshots before submit.

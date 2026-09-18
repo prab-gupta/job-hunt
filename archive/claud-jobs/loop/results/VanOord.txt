@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4458748386/ -> https://careers.vanoord.com/nl/vacatures/python-developer-rotterdam-3061nl
+Uploaded: nothing (killed before touching the ATS)
+Built and saved for later: nothing (killed before drafting)
+Blocker/reason: standing hard-gate re-check on the live JD. Dedupe NEW, cheap check apply-button=1 (not closed). Re-checked the named gates (years, Senior title, MSc, Dutch, unclaimable core stack): no explicit years floor, title is plain "Python Developer" not Senior, no MSc requirement found, Python/Vue/PostgreSQL stack is claimable - but the entire live JD (LinkedIn guest API text and the careers.vanoord.com page) is written in Dutch from top to bottom, with no English version published (checked the /en/ URL variants, both 404). "JD not in English or a non-English language required" is one of the standing hard gates on its own -> KILL, quoted clause in answers/van-oord-2026-09-16.md.
+Logged: applications.csv status KILLED; answers/van-oord-2026-09-16.md.
+LEARNINGS: none new.

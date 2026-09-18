@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://se.linkedin.com/jobs/view/forward-deployed-engineer-at-scout-global-4459513740 (job id 4459513740)
+Company: Scout Global (Stockholm) - Forward Deployed Engineer, recruiter posting, Sweden line, agent C53, queue.csv line 516.
+Dedupe: python3 loop/dedupe.py --check "Scout Global" -> NEW. grep applications.csv for "Scout Global"/forward -> no prior row.
+Live JD (LinkedIn guest API, apply-button present, posting open, not closed): "Who You Are" lists "Native Swedish speaker" as an explicit requirement.
+Hard gate: standing FDE rule kills only for closed posting, prior SUBMITTED requisition, or explicit language he lacks. Prabhavit cannot claim Swedish (English C2 + conversational Italian only).
+No CV or letter built. No form opened.

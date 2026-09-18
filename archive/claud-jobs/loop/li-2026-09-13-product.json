@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4465019612",
+      "title": "Founding engineer- Mo team (AI Health Companion)",
+      "company": "Alan",
+      "companyUrl": "https://fr.linkedin.com/company/avec-alan",
+      "location": "Paris, Île-de-France, France",
+      "date": "2026-09-09",
+      "url": "https://fr.linkedin.com/jobs/view/founding-engineer-mo-team-ai-health-companion-at-alan-4465019612"
+    },
+    {
+      "id": "4462963157",
+      "title": "AI Engineer, Product - Milan",
+      "company": "indigo.ai",
+      "companyUrl": "https://it.linkedin.com/company/indigo-ai",
+      "location": "Milan, Lombardy, Italy",
+      "date": "2026-09-07",
+      "url": "https://it.linkedin.com/jobs/view/ai-engineer-product-milan-at-indigo-ai-4462963157"
+    },
+    {
+      "id": "4465411398",
+      "title": "Product AI Engineer (65K€-85K€)",
+      "company": "Joppy",
+      "companyUrl": "https://es.linkedin.com/company/joppyme",
+      "location": "Greater Madrid Metropolitan Area",
+      "date": "2026-09-12",
+      "url": "https://es.linkedin.com/jobs/view/product-ai-engineer-65k%E2%82%AC-85k%E2%82%AC-at-joppy-4465411398"
+    },
+    {
+      "id": "4465402519",
+      "title": "Generative AI Engineer",
+      "company": "Dellent",
+      "companyUrl": "https://pt.linkedin.com/company/dellent-consulting",
+      "location": "Lisbon, Lisbon, Portugal",
+      "date": "2026-09-11",
+      "url": "https://pt.linkedin.com/jobs/view/generative-ai-engineer-at-dellent-4465402519"
+    },
+    {
+      "id": "4419967966",
+      "title": "Senior AI Product Engineer – Agentic Experience (all genders)",
+      "company": "Holidu",
+      "companyUrl": "https://de.linkedin.com/company/holidu",
+      "location": "Munich, Bavaria, Germany",
+      "date": "2026-09-11",
+      "url": "https://de.linkedin.com/jobs/view/senior-ai-product-engineer-%E2%80%93-agentic-experience-all-genders-at-holidu-4419967966"
+    },
+    {
+      "id": "4464158189",
+      "title": "AI Product Engineer",
+      "company": "DL Remote",
+      "companyUrl": "https://www.linkedin.com/company/dl-remote",
+      "location": "Munich, Bavaria, Germany",
+      "date": "2026-09-10",
+      "url": "https://de.linkedin.com/jobs/view/ai-product-engineer-at-dl-remote-4464158189"
+    },
+    {
+      "id": "4466727243",
+      "title": "AI Engineer (Technical Product Owner)",
+      "company": "Foxelli Group",
+      "companyUrl": "https://nl.linkedin.com/company/foxelli-group",
+      "location": "Zagreb, Zagreb, Croatia",
+      "date": "2026-09-12",
+      "url": "https://hr.linkedin.com/jobs/view/ai-engineer-technical-product-owner-at-foxelli-group-4466727243"
+    },
+    {
+      "id": "4465884692",
+      "title": "Senior AI Product Engineer",
+      "company": "Cosuno",
+      "companyUrl": "https://de.linkedin.com/company/cosuno",
+      "location": "Berlin, Berlin, Germany",
+      "date": "2026-09-10",
+      "url": "https://de.linkedin.com/jobs/view/senior-ai-product-engineer-at-cosuno-4465884692"
+    },
+    {
+      "id": "4447568989",
+      "title": "Staff/Principal Product Engineer (AI-Native Builder)",
+      "company": "Diligent",
+      "companyUrl": "https://www.linkedin.com/company/diligent-board-member-services",
+      "location": "Budapest, Budapest, Hungary",
+      "date": "2026-09-12",
+      "url": "https://hu.linkedin.com/jobs/view/staff-principal-product-engineer-ai-native-builder-at-diligent-4447568989"
+    },
+    {
+      "id": "4462225478",
+      "title": "AI Native Product Engineer",
+      "company": "Brevo",
+      "companyUrl": "https://fr.linkedin.com/company/brevo",
+      "location": "Paris, Île-de-France, France",
+      "date": "2026-09-08",
+      "url": "https://fr.linkedin.com/jobs/view/ai-native-product-engineer-at-brevo-4462225478"
+    }
+  ]
+}

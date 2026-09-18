@@ -1,0 +1,39 @@
+PRE-FILL (Claude in Chrome, tab 550850441) — 2026-09-11 09:54 CEST
+
+URL: https://tickmill.bamboohr.com/careers/438?source=aWQ9OQ%3D%3D
+Chrome was up for this task (previous NEEDS YOU entry was filled via Playwright, which is invisible/not persisted for the user; this pass re-filled the SAME form in the user's own visible Chrome, tab id 550850441).
+
+Note: computer{action:"screenshot", save_to_disk:true} reported success but no PNG file was found on disk anywhere under $HOME or /private/tmp after the call (the extension does not persist screenshots to a location this session can read, consistent with ats-guides/bamboohr.md's existing note "PNG saving is not available in Chrome, the txt is the record"). confirmations/Tickmill-2026-09-11-chrome.png was NOT created; this txt is the record instead, verified field-by-field via read_page/javascript_tool DOM value reads plus visual screenshots at each step, not just typed-and-assumed.
+
+Fields filled and verified (via computer screenshots + javascript_tool .value reads):
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Address: Venice, Italy
+- City: Venice
+- Province: Veneto (set AFTER Country, since Country dropdown clears Province on change — bamboohr.md trap confirmed again)
+- Postal Code: 30175
+- Country: Italy (changed from default Estonia)
+- Resume: Prabhavit_CV_Tickmill.pdf uploaded (file input accepted, filename shown in form)
+- Date Available: 25/09/2026
+- Desired Pay: EUR 45,000 - 55,000 gross annual
+- Website, Blog or Portfolio: https://github.com/prab-gupta
+- LinkedIn URL: https://www.linkedin.com/in/prabhavit/
+- Who referred you for this position?: left blank (no referrer)
+- Are you open to work on-site?: Yes (radio selected)
+- What are your gross annual salary expectations? Please state currency: EUR 45,000 - 55,000 gross annual
+- What is your notice period?: Available immediately; can start within two weeks of an offer.
+- Will you now or in the future require sponsorship for employment visa status?: Yes (radio selected)
+- Acknowledgement (AI interview transcription tool consent): checked
+- Honeypot "Please leave this field blank": left empty (confirmed via DOM read)
+
+NOT touched (per brief, user-only):
+- reCAPTCHA "I'm not a robot": unchecked
+- Submit Application: not clicked
+
+Cover letter: confirmed (again) this ATS has no cover-letter upload or text field — single resume file input only. CoverLetter_Tickmill.txt remains unattached, nothing to do differently here.
+
+Field that would not accept its value: none. Every field took its intended value on the first or second attempt (Country/Province required a two-step sequence because of the known trap, not a rejection).
+
+To finish: switch to Chrome tab 550850441 (left open, do not close), tick reCAPTCHA, click Submit Application.

@@ -1,0 +1,6 @@
+# Founders Factory, Founding Lead Engineer (AI & Workflow Automation), Berlin studio, Ashby 2026-09-07
+Facts from Master Experience: FlowSpace LLM listing pipeline 900+, RAG support agents with escalation, OfficeRnD/Nexudus + CRM integrations, legacy-stack migration to Next.js/Laravel, 2000 to 4500+ users; UltraStrategy CV parsing tool (n8n + Eden AI); Get2Germany AI automation tools for courses/internships/jobs. German skills answered "Limited" (none yet, stated plainly in essay 2). Eligible to work in Germany: No.
+Fields: notice = Available immediately (2 weeks notice on current freelance work); ready to relocate to Berlin.
+Q1 problem important and solvable: Get2Germany intake pain, UltraStrategy CV parsing, FlowSpace pipeline; skilled-worker recruiting same shape; LLM + WhatsApp make it buildable in months; failure modes known.
+Q2 unique advantage: components already built and run in production; founder-style end-to-end ownership; Claude Code build speed; honest gap = German + DACH network.
+Q3 milestones: M1-2 WhatsApp intake/qualification agent with human review for one segment (<20% corrections); M3-4 matching + document chasing + ATS integration (time-to-qualified-match halved); M5-6 3-5 pilot employers, pricing evidence, CAC per channel, handover-ready codebase, ready for Technical Co-Founder.

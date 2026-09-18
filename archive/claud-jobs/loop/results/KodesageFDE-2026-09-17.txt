@@ -1,0 +1,12 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4466262127/
+Company: Kodesage | Role: Forward Deployed Engineer | Location: Budapest, Hungary
+
+Reason: live JD "Core Skills And Experience" states as a required item: "Communication: Clear English and Hungarian communication." This is a language Prabhavit does not have (English C2, conversational Italian only). Per the FDE-ALL user rule, an explicitly required language he lacks (German/Hungarian/Spanish) is a valid kill; killed with the quote.
+
+Dedupe: HIT COMPANY. A prior Kodesage FDE Budapest row exists (2026-09-16, LinkedIn id 4410871872, KILLED) for the identical clause/reason - same JD text, same required-Hungarian line, same company/role/city, almost certainly the same underlying opening reposted under a new LinkedIn job id today. Not a SUBMITTED duplicate, but the language kill applies independently either way.
+
+Cheap check: apply-button count = 1 (posting open, not closed).
+No anti-AI disclaimer found in the JD.
+No CV or cover letter built. No form opened or touched. Nothing submitted.
+No new LEARNINGS line needed (repeat of an already-logged pattern).

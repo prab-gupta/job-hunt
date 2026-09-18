@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Provectus hiring team,
+
+I am writing to apply for the Senior Product Owner / Forward Deployed Executive - AI Delivery role in Madrid. Your posting asks for someone comfortable on both sides of the forward-deployed model, framing the domain problem and getting hands-on with Claude Code, MCP integrations and delivery. That pairing is close to how I have worked for the last three years.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to 4,500 or more users. I built and still own an AI listing bot that turns a provider's brochure, in any format, into a drafted listing with a human in the loop, and support AI agents that answer customer queries from live data and escalate on low confidence. I use the Claude API and Claude Code daily inside that codebase, alongside TypeScript and n8n.
+
+At Urlink, I worked directly as project manager on client requirements while building the platform and its logic with AI-assisted development, then implemented the automations those requirements called for. That is the same loop your Programs describe: sit with the client, frame the problem, and ship something that runs.
+
+I have three years of professional experience against the 5 to 7 or more years asked for this role, and my background is hands-on engineering rather than formal product ownership or Scrum leadership. What I bring instead is direct, repeated experience owning AI delivery end to end, from client requirement to a system running in production, and daily comfort with the Claude tooling this role is built around.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process, and the role is listed as remote-friendly.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

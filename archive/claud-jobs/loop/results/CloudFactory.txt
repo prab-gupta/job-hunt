@@ -1,0 +1,14 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4461778895/
+Company: CloudFactory
+Role: Forward Deployed Engineer, Berlin (hybrid)
+ATS: LinkedIn Easy Apply
+
+Blocker: clicking Easy Apply returned LinkedIn's own account-wide dialog: "You reached today's Easy Apply limit / We limit Easy Apply submissions to help ensure each application gets the right attention. Save this job and continue applying tomorrow." This is a LinkedIn daily quota on the whole account (reached after RecT, NewRocket, and the other applications already submitted today), not specific to CloudFactory, and cannot be worked around from this session — not a Chrome-vs-Playwright issue, and not one of the standard user-only blockers, but equally not something an agent can push past. Clicked Save on the job (now shows "Saved") so it is bookmarked for a retry once the quota resets, normally the next day.
+
+Prepared and verified (not yet submitted): Prabhavit_CV_CloudFactory.pdf (parity-diffed against Prabhavit_CV_EN.tex, deletions/reordering only, 2 pages) and CoverLetter_CloudFactory.pdf/.txt (FlowSpace paired with Urlink, honest 3 years, Germany work-authorisation transparency line, 0 em-dashes verified). Both files were built by an earlier dead agent and independently re-checked in this session before being logged as ready.
+
+Dedupe was HIT COMPANY on an unrelated 2026-08-26 LEAD row (Software Engineer, Costa Rica, via Workable) — not blocking. Hard gates all passed pre-check (no anti-AI disclaimer, English JD, no hard degree requirement, core stack asks Python/Go/cloud infra but not a kill under the 2026-09-16 FDE-Italy-EU sweep rule).
+
+Logged in NEEDS_YOU.md item 18 and applications.csv (status NEEDS YOU).
+LEARNINGS: LinkedIn enforces an account-wide daily Easy Apply cap; when several rows target Easy Apply back to back, budget for hitting it and treat it as a stop-this-row blocker, not a per-job issue to retry immediately.

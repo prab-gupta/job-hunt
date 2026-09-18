@@ -1,0 +1,13 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4464310971/
+
+Task instructed re-checking the German language gate on the live JD (the earlier 2026-09-04 row was SKIP for a different posting/ATS - join.com, Zurich onsite - and does not block via dedupe, HIT COMPANY only).
+
+Live JD (Munich, Bavaria, Germany, On-site, read via Playwright) Requirements section:
+"Excellent communication skills in English and German (C1 or above); Swiss German is a strong plus."
+
+German at C1 or above is a required qualification on this posting (only Swiss German is a "plus"), and German is a language Prabhavit lacks entirely (English C2, conversational Italian only, per OUTREACH_FACTS). Killed per the task's explicit instruction to kill with the quoted clause when the live JD requires German.
+
+No CV, no letter, no application form opened. Nothing to attach.
+
+LEARNINGS: none new - reconfirms that the same company can have different language requirements across postings/ATS (this Munich LinkedIn posting requires German C1 same as the earlier Zurich join.com one, so in this case the outcome matched, but the task was right to insist on a fresh per-posting check rather than reusing the old SKIP verdict).

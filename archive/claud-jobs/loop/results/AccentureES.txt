@@ -1,0 +1,11 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4443899271/
+Requisition: R00345180 (Forward Deployed Engineer Specialist), Madrid
+
+What was uploaded: nothing submitted. CV built: Prabhavit_CV_AccentureES.pdf (verbatim subset of Prabhavit_CV_EN.tex, matches the AccentureFDE pattern used earlier today). Letter built: CoverLetter_AccentureES.pdf/.txt (FlowSpace + UltraStrategy evidence, Spain work-authorisation transparency line, 0 em-dashes).
+
+Answers prepared: years 3, salary EUR 45,000-55,000, Spain authorisation = No/needs sponsorship (transparency line used), Italian not required by this JD.
+
+Blocker: LinkedIn Apply -> Accenture careers site (accenture.com/es-es) -> Workday apply chooser -> clicked "Apply Manually" per brief -> Workday still forces Sign In (Google or Workday username/password), no guest option past that screen. Did not create an account. Logged NEEDS YOU with exact URLs in confirmations/AccentureES-2026-09-16.txt and applications.csv.
+
+LEARNINGS: Confirms the pattern already on file for Accenture Italia/DACH/Slovakia requisitions today (answers/accenturefde-2026-09-16.md) - Accenture's Workday tenant (accenture.wd103.myworkdayjobs.com) has no guest apply path anywhere, even via "Apply Manually", for Spain entity too. Any future Accenture LinkedIn row should be treated as NEEDS YOU by default unless the user has signed in.

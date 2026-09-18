@@ -1,0 +1,16 @@
+NOT SUBMITTED - account wall (NEEDS YOU)
+
+URL: https://mcengineering.intervieweb.it/jobs/gen-ai-engineer-243429/it/?src=LinkedIn
+LinkedIn posting: https://www.linkedin.com/jobs/view/4443978264/
+
+Page text on submit ("Invia"):
+
+Errore!
+Utente già registrato!
+Se hai già fatto domanda per una delle nostre posizioni aperte, accedi alla tua area candidati per inviare una nuova candidatura qui
+Hai dimenticato la password? Non preoccuparti, clicca sul seguente link per aggiornarla qui
+Grazie per la tua candidatura e a presto
+
+Meaning: prabhavitg@gmail.com already has an Inrecruiting candidate profile on this MC Engineering tenant (from two earlier stuck applications, see applications.csv rows dated 2026-08-26 and 2026-09-04). The guest form filled cleanly (name, DOB, Venice address auto-resolved to 30175 Venezia VE, phone, citizenship, Laurea 3 anni, English C2, CV uploaded, privacy box ticked) but "Invia" bounced with this error. The only paths forward are "accedi" (log in) or "aggiornarla" (reset password) - both require entering/setting a password, which is account creation/credential handling and is user-only.
+
+Screenshot: viewed on screen before and after Invia (before: all fields filled, CV attached; after: the Errore panel above). Per the master brief, PNG saving is not available through the Claude in Chrome tool in this session, so no .png file was produced - this .txt is the record, consistent with confirmations/Aprigliano-style notes elsewhere in this pipeline for Chrome-only sessions.

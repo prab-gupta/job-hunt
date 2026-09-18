@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452358576/
+Role: Forward Deployed Engineer - GenAI, Prague (Devoteam)
+ATS: LinkedIn Easy Apply (SmartRecruiters, 8-page flow)
+
+Uploaded: Prabhavit_CV_Devoteam.pdf (reused from the 2026-09-16 Devoteam Milan row, parity-diffed against Prabhavit_CV_EN.tex, re-uploaded and re-verified selected). CoverLetter_DevoteamPrague.pdf (new, English, distinct slug from the Italian Milan letter) uploaded via a separate cover-letter control on the Resume step, only reachable from the Review page's Cover letter Edit link.
+
+Answers given: availability immediate/2 weeks, salary EUR 3,750/month (EUR 45,000/year), cooperation type Employment, why-interested-in-role and why-interested-in-company free text, hybrid model = Yes with relocation, privacy consent ticked. Work experience and Education pages were pre-filled accurately from the LinkedIn profile, not edited.
+
+Blockers: none. JD states "Fluency in English" only; no Czech requirement found in the JD body or anywhere across the 8-page Easy Apply flow.
+
+Note: this row is NOT a duplicate of the 2026-09-16 SUBMITTED Devoteam row - that one was Milan (Italian JD, URL .../4446991563/), this one is Prague (English JD, URL .../4452358576/), different requisition and different city/language, confirmed via dedupe + manual URL/company-row check per the brief.

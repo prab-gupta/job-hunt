@@ -1,0 +1,15 @@
+TO: info@across.it
+SUBJECT: Candidatura spontanea: sviluppatore full-stack e automazione AI per Across
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Across,
+
+Una realtà di digital marketing nata nel 2011 a Torino, con uffici anche a Lecce e Madrid, e sempre aperta a candidature spontanee, mi sembra un buon punto di partenza per una collaborazione. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js, Laravel e Supabase. Realizzo anche automazioni n8n e Make per clienti.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito. Vi va una call di 15 minuti, o mi indirizzate a chi segue le assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

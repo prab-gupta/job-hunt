@@ -1,0 +1,114 @@
+STATUS: SUBMITTED (updated by RETRY agent P38; original NEEDS YOU attempt preserved below)
+
+=== ORIGINAL ATTEMPT (Chrome agent, earlier same day) ===
+STATUS: NEEDS YOU
+
+URL (LinkedIn posting): https://www.linkedin.com/jobs/view/4440087066/
+URL (ATS apply form): https://jobs-it.pwc.com/it/it/apply?jobSeqNo=PWAPIUIT744125WDEXTERNALITIT&utm_source=Linkedin&utm_medium=phenom-feeds&step=1&stepname=personalInformation
+
+What was uploaded: nothing was submitted. CV and cover letter were built and are ready but the CV upload could not be completed (see blocker below).
+
+Materials built (ready in ROOT):
+- Prabhavit_CV_PwCItaly.tex / .pdf (2 pages, compiled with tectonic, parity-diffed against Prabhavit_CV_EN.tex - reorders/prunes only, no invented claims)
+- CoverLetter_PwCItaly.txt / .tex / .pdf (Italian, ~270 words, 0 em-dashes grep-verified, FlowSpace + Urlink lead paragraphs, Clubee QA one-line aside, Italy work-authorisation line)
+
+Answers given (step 1 "Le mie informazioni", all confirmed filled before the blocker):
+Come hai trovato questo annuncio = Job Posting Sites / Linkedin; Hai mai lavorato per PwC = No; Paese = Italia; Nome = Prabhavit; Cognome = Gupta; Codice Postale = 30175; Citta = Venice; Provincia = Venice; email = prabhavitg@gmail.com; Tipo di dispositivo = Mobile; Prefisso = Italia (+39); Numero di telefono = 351 610 7807; Disponibile per iniziare a lavorare da = 01/10/2026 09:00; Sei disponibile al trasferimento = Si; Sesso = Non dichiarato; Data di nascita = 21/02/2001; Paese di nascita = left blank (not on file, an auto-default to Italia was reset rather than asserted); Cittadinanza = Altra Cittadinanza; Nazionalita = India. Full detail in answers/PwCItaly-2026-09-17.md.
+
+Blocker (user-only, technical): the mandatory CV/resume file-upload input on this PwC Phenom People apply form (jobs-it.pwc.com) freezes the Chrome tab renderer completely on upload. Confirmed twice independently on two separate fresh tabs (tabId 550851482 and 550851487, both now closed) - once bare, once with every step-1 field already filled first. Screenshot, get_page_text and javascript_tool (CDP Runtime.evaluate) all timed out with no recovery after roughly 2 minutes of waiting each time. This matches the PwC Slovakia freeze already logged in loop/LEARNINGS.md (2026-09-10, jobs-cee.pwc.com, job 748486WD, "confirmed on 2 separate fresh tabs") almost exactly, now reproduced on the sibling jobs-it.pwc.com instance - looks like a platform-wide Phenom/PwC-careers bug against the Claude-in-Chrome extension specifically. This task restricted the browser to Claude in Chrome only (no Playwright, no in-app Browser pane), so this agent cannot route around it.
+
+RETRY PLAYWRIGHT: PwC Phenom (jobs-it.pwc.com) CV-upload freezes the Chrome-extension renderer; same bug family as PwC Slovakia 748486WD. Open the apply URL above in Playwright, fill step 1 per answers/PwCItaly-2026-09-17.md, upload Prabhavit_CV_PwCItaly.pdf last, then continue through Esperienza / Legal reference x2 / Termini e Condizioni / Revisione and submit.
+
+LEARNINGS line added (see below): yes, new instance of a known trap (2nd confirmed PwC Phenom ATS site with the same CV-upload freeze).
+
+=== RETRY (agent P38, Playwright MCP, same day) ===
+STATUS: SUBMITTED
+
+This run used Playwright as instructed and the upload
+succeeded cleanly with no freeze ("Hai caricato il curriculum con successo").
+
+URL (LinkedIn posting): https://www.linkedin.com/jobs/view/4440087066/
+URL (ATS apply form): https://jobs-it.pwc.com/it/it/apply?jobSeqNo=PWAPIUIT744125WDEXTERNALITIT&utm_source=Linkedin&utm_medium=phenom-feeds
+Success page: https://jobs-it.pwc.com/it/it/applythankyou?status=success&jobSeqNo=PWAPIUIT744125WDEXTERNALITIT&jobId=744125WD&candidateId=C000019945209&jobApplicationId=fa8cc4040965903b915d7bc9579d0001
+
+What was uploaded: Prabhavit_CV_PwCItaly.pdf (only attachment field this form has; no
+cover-letter upload or text box exists anywhere in its 5 steps). CoverLetter_PwCItaly.pdf/.txt
+were built and kept ready per the brief but had no field to go into.
+
+Steps completed:
+1. Le mie informazioni - all fields from answers/PwCItaly-2026-09-17.md re-entered and
+   verified by reading the live DOM .value of every field (not just the accessibility
+   snapshot) before advancing: Job Posting Sites/Linkedin, No worked for PwC, Italia,
+   Prabhavit Gupta, 30175 Venice/Venice, email, Mobile, Italia (+39), phone, start date
+   01/10/2026 09:00, relocation Si, Non dichiarato, DOB 21/02/2001, Paese di nascita left
+   blank (not on file), Altra Cittadinanza, Nazionalita India.
+   Trap hit: Numero di telefono rejected "351 610 7807" (12 chars, incl. spaces) with
+   "NON deve essere piu lungo di 10 caratteri" - fixed to bare "3516107807" (10 chars),
+   matching the known Campari-Phenom 10-char trap in LEARNINGS.md.
+2. CV upload - clicked the "CV" browse button, file chooser intercepted by Playwright,
+   uploaded Prabhavit_CV_PwCItaly.pdf, success alert dialog accepted. No freeze (confirms
+   the freeze is specific to the Claude-in-Chrome extension, not the ATS).
+   Side effect: the page re-render after upload silently cleared Data di nascita back to
+   blank (caught via a full DOM re-check before Avanti, re-set via the date-picker, this
+   time no stray "Apply With LinkedIn" OAuth tab opened as it had transiently on the
+   first click attempt on this same field - that stray tab was closed immediately without
+   authorizing anything).
+3. Esperienza (resume parser step) - confirmed the known Phenom trap live: all 5 parsed
+   rows had Company Name blank with the company mashed into Job Title (e.g. "FlowSpace.co
+   Lead Developer"); the Qomodo row additionally had company/title reversed ("Qomodo  AI"
+   in the Societa field). Fixed all 5 rows' Job Title/Societa/Citta against
+   Prabhavit_CV_PwCItaly.tex verbatim (FlowSpace, Urlink, UltraStrategy, Qomodo,
+   Get2Germany - Clubee and Tractionboard were dropped by the parser's 5-row cap, expected
+   and left out). Also fixed: ligature-stripped text from the PDF-to-text parse ("Oce Rnd"
+   -> "Office Rnd", "eective" -> "effective", "nding" -> "finding", "dierent" -> "different",
+   "proles" -> "profiles"), and the Get2Germany description, which had the next role's
+   header text bled into it by the 5-row cutoff ("...Tools: Bubble.io, Figma, Trello, n8n
+   Clubee.com  Low Code Developer and Quality Assurance (Full time," - trimmed to the
+   real Get2Germany content only).
+   Education: kept the real Ca' Foscari row (set Laurea Triennale / Filosofia, dates already
+   correct 2020-2024) and removed a second, bogus education row the parser invented from an
+   Additional-Info certification line ("Microsoft Copilot Studio Agent Academy", no accurate
+   degree value existed for it) - matches the exact bug already logged in LEARNINGS.md.
+   All fixes applied via native-input-setter + dispatched input/change/blur events (not
+   Playwright type/fill) since these are React-controlled fields; re-verified via direct DOM
+   .value reads afterward, not just the accessibility tree.
+4. Legal reference (data-processing/marketing consent): "I agree to have my personal data
+   processed by PwC for the purpose of recruitment for other positions than the one I have
+   initially applied for" = No (talent-pool-style consent, declined per standing rule).
+   "I consent to receive communication... about job related events... beyond the scope of
+   this job application" = No (marketing, declined).
+5. Legal reference (PwC independence/conflict screen, 7 questions, all required, none
+   covered in the brief's standing answers so answered from the CV/facts directly):
+   - Worked for pubblica amministrazione in last 3 years: No.
+   - Held Administrator/Board/CEO/exec-with-accounting-control OR an employee/work
+     relationship position with a company in the reference period: Si (he has ongoing/recent
+     freelance and part-time employment relationships) -> triggered a required follow-up
+     "name the company/companies": answered "FlowSpace.co (attuale), Urlink,
+     UltraStrategy.com, Qomodo, Get2Germany.com" (all companies within roughly the last two
+     years per the CV).
+   - Close family member holding such positions: No (no fact source claims this).
+   - Held office in a charity/nonprofit/professional association: No.
+   - Held office (Administrator, Sindaco, OdV member) in any other company/entity: No.
+   - Held political office or is a politically exposed person: No.
+   - Holds an active Partita IVA: Si (per task instruction).
+6. Termini e Condizioni: ticked "Si, ho letto e acconsento ai termini e alle condizioni"
+   (required GDPR consent, not a marketing checkbox).
+7. Revisione: read the full rendered review of every step (all fields shown above matched
+   what was intended) before clicking Invia.
+
+Submit: clicking Invia showed the button as transiently disabled/a Playwright timeout error,
+but the page had already navigated to the success URL underneath - re-checked via
+browser_evaluate immediately after and confirmed status=success with the Italian thank-you
+text ("Abbiamo ricevuto la tua candidatura..."). Screenshot saved to
+confirmations/PwCItaly-2026-09-17.png (moved from the Playwright server's own workspace root
+to ROOT/confirmations/ since the tool's `filename` param resolved relative to the wrong
+root); text saved to confirmations/PwCItaly-2026-09-17.txt. Did not click the optional
+post-submit "Crea il tuo account" (account creation needs separate user permission and is
+not required - the application was already received without it).
+
+Salary: not reached (this Phenom form never asked for one). JD states a band of
+25,500-28,000 EUR (4th-level CCNL Commercio) plus up to 750 EUR variable.
+
+LEARNINGS line added: yes, see below - new specifics on the Phenom resume-parser trap
+(Qomodo-style reversed company/title, cross-role description bleed at the 5-row cap) and
+the field-revert-after-upload / phone 10-char / stray-OAuth-tab findings from this run.

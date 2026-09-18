@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear edenity team,
+
+I am applying for the Forward Deployed Engineer role. I like sitting close to the customer while still shipping code, owning a technical problem from customer context through to a working integration.
+
+At FlowSpace, I automated the live migration of a coworking marketplace's data off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and running the cutover while the product stayed live, growing the platform from 2,000 to 4,500+ users. I also built OfficeRnD and Nexudus API integrations for automated bookings, and support agents that answer customer queries from live platform data and escalate to a human on low confidence.
+
+At Urlink, I built the platform and its logic with AI-assisted development and implemented client-driven automations, acting as project manager on client requirements, using Next.js, Supabase, Netlify and GitHub.
+
+Both roles meant debugging unfamiliar systems, working across APIs and configuration, and translating what a customer actually needed into something shipped, which is close to what this role asks for.
+
+I am based in Venice, Italy, hold Italian EU long term resident status, and am ready to relocate to Amsterdam. I am not currently authorised to work in the Netherlands and would need the employer side TWV permit process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

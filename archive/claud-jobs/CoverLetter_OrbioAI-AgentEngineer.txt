@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Orbio AI Hiring Team,
+
+I am writing to apply for the AI Agent Engineer / Full Stack Experience (Python) role. I have three years of professional experience building and operating AI agents and LLM pipelines in production, in Python and TypeScript, which lines up closely with what this role asks for.
+
+At FlowSpace, a workspace marketplace, I built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, and an AI listing bot that takes a brochure in any format and drafts a full structured listing with a human in the loop, over 900 produced so far, using the Claude API and n8n. I also shipped the OfficeRnD and Nexudus API integrations behind automated bookings, so I have worked through what it takes to keep an agent driven system reliable and observable against real production traffic.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and scores how relevant the candidate is for specific types of roles, and the result is delivered to the frontend before a standardised Ultra CV is generated. I used n8n, Affinda and the Claude API for the parsing and generation, which is the same kind of LLM extraction and evaluation work this role asks for.
+
+I write Python and TypeScript, work comfortably with APIs, databases and version control, and I am used to debugging production issues and documenting the systems I build. I hold Italian EU long-term resident status and understand the role would need the applicable Spanish work permit process, which I am ready to complete.
+
+I would welcome the chance to talk through how I could contribute to Orbio AI's agent engineering work.
+
+Regards,
+Prabhavit Gupta

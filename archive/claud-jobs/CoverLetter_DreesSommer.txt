@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Experienced Artificial Intelligence Engineer role at Drees and Sommer Espana in Malaga.
+
+At FlowSpace, a workspace marketplace platform, I design, build and operate AI solutions end to end. I built an AI listing pipeline that ingests a provider's brochure, website or spreadsheet in any format, extracts and structures the data with an LLM, and drafts a full listing for human review, over 900 draft listings produced so far. I also built support AI agents that answer customer queries against live platform data and escalate to a person on low confidence. Day to day I work across the stack, TypeScript and Next.js on the frontend, Node.js and Laravel on the backend, and Python for the AI and data layer, plus OfficeRnD and Nexudus API integrations for bookings. I also led documentation and handover work migrating the platform onto this coded stack, mapping the data model per entity and keeping the team aligned through the cutover, close to the documentation and adoption support this role asks for.
+
+Drees and Sommer's work applying AI to real construction and real estate delivery is the kind of applied engineering I want to keep doing, and Malaga is a location I am ready to relocate to.
+
+I hold an Italian EU long term residence permit and do not currently hold Spanish work authorisation, so the role would need the employer side permit process. I am ready to relocate and start that process when needed.
+
+Kind regards,
+Prabhavit Gupta

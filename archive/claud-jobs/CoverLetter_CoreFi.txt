@@ -1,0 +1,14 @@
+Dear CoreFi hiring team,
+
+I am applying for the Sales Engineer role in Barcelona. My background sits at the point where customer requirements meet a working technical solution, which is the core of a sales engineering role on an agentic platform.
+
+At Urlink, I acted as project manager on client requirements and built the platform and its logic with AI-assisted development, translating what each client asked for into working automations. That meant sitting between the client's business need and the engineering delivery, close to the handoff a sales engineer manages between a prospect and an implementation team.
+
+At FlowSpace, I built and support customer facing AI systems in production: support agents that answer queries from live platform data and escalate to a human on low confidence, plus OfficeRnD and Nexudus API integrations for automated bookings and CRM and GTM automations for lead capture, enrichment and routing. Explaining and demonstrating these systems to non-technical stakeholders, and troubleshooting them when something did not behave as expected, is close to the discovery, demo and technical evaluation work this role describes.
+
+I am comfortable reading an API or integration question, giving a clear answer, and following up with the detail a prospect or partner needs, which I expect applies directly to CoreFi's RFPs and proofs of concept.
+
+I am based in Venice, Italy and hold Italian EU long term resident status. The role is listed as remote from Barcelona; I am not currently authorised to work in Spain and would need the employer side permit, sponsorship, or a compliant remote arrangement, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

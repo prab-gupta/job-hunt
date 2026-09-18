@@ -1,0 +1,14 @@
+Dear Allianz Technology Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer (m/f/d) role in Budapest. I have three years of professional experience building AI solutions and automations for real clients, and I am used to translating a client's actual workflow into a working production system rather than a proposal.
+
+At FlowSpace, a workspace marketplace, I took over a live platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to 4,500+ users. I also built and own an AI listing bot that turns a workspace provider's brochure, in any format, into a drafted listing with a human in the loop, and I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence. I shipped the OfficeRnD and Nexudus API integrations that power automated bookings. Stack: TypeScript, Next.js, Laravel, n8n, the Claude API.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific types of roles, the result is shown in the frontend, and a standardised Ultra CV is then generated. Affinda and the Claude API handled the parsing and generation, and the parsing tool itself was built with n8n and Eden AI. This is the closest match I have to reusing and extending an existing AI capability into a custom, client facing solution, which is close to how this role is described.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Hungary and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the AI Engagement team.
+
+Regards,
+Prabhavit Gupta

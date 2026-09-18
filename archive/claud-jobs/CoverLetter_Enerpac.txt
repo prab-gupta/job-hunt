@@ -1,0 +1,12 @@
+Dear Enerpac hiring team,
+
+I am applying for the Web Developer role in Madrid. I bring hands-on experience shipping and maintaining customer-facing web products, integrating external systems, and taking technical issues through investigation, implementation, testing, and release.
+
+At FlowSpace, I helped migrate and extend a live marketplace on a coded Next.js and Laravel stack, helping scale it from 2,000 to more than 4,500 users. I build full-stack features with TypeScript, Next.js, Node.js, REST APIs, and third-party services, including OfficeRnD and Nexudus booking integrations, CRM workflows, and customer-support tooling. I also work across product requirements, API and data-model mapping, QA, troubleshooting, and communication with internal teams and external delivery partners.
+
+Enerpac's global digital work is especially relevant to how I operate: I enjoy owning weekly priorities, identifying risks early, and improving a feature until it is dependable for its users. I have experience with responsive interfaces, API-led integrations, GitHub, automated workflows, and self-testing with Playwright and unit tests. I would be glad to deepen my experience with your content-managed and eCommerce platforms while contributing immediately with React, Next.js, Node.js, HTML, CSS, and JavaScript.
+
+I am based in Venice and hold an EU Long Term Residence Permit. I am willing to relocate to Madrid and understand this is a hybrid role with regular onsite collaboration. I am available immediately and would welcome a conversation.
+
+Regards,
+Prabhavit Gupta

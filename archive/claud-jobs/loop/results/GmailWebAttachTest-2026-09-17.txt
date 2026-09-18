@@ -1,0 +1,40 @@
+GMAIL WEB ATTACHMENT TEST - 2026-09-17 - agent C74
+
+SIGNED-IN ACCOUNT
+prabhavitg@gmail.com confirmed via tab title ("Inbox (21,206) - prabhavitg@gmail.com - Gmail") before compose.
+
+STEPS THAT WORKED
+1. Claude in Chrome, own tab (tabs_create_mcp), navigate to https://mail.google.com/. Account confirmed from tab title, not just avatar.
+2. Click Compose (pencil icon), expand popout to full New Message window (click the expand icon in the compose title bar) so fields are not clipped.
+3. Fill To by clicking the To field and typing the address, then Tab.
+   TRAP: after Tab, an autocomplete dropdown can still be open. A click meant for the Subject field can land on that dropdown and get treated as more To-field text instead of focusing Subject. Symptom seen: To field showed "prabhavit (prabhavitg@gmail.com) [1 more]" where "1 more" was actually the Subject text sitting unconverted in the To input, and Subject was left blank. Fix: click "1 more" / the To line to expand it, click right after the contact chip, Shift+End, Delete to clear the stray text, then click the real Subject field and type again. Always re-screenshot after filling To+Subject to confirm the To field shows exactly one recipient chip and nothing else before proceeding.
+4. Subject and Body: plain click on field + type. No issues once the To-field dropdown was clear.
+5. Attach file (the recipe requested):
+   a. find(query="Attach files") locates the visible button (role button, e.g. ref_1875 in this run). Clicking it or calling file_upload directly on it fails ("Element is not a file input. Found: <div>") - it is not the input itself.
+   b. Click that "Attach files" button once (computer left_click by ref). This is safe: it injects a hidden <input type=file> into the DOM and opens a native OS picker in the background, but the native picker does not block further DOM queries.
+   c. Immediately call find(query="file input choose file"). Gmail has by then injected a real file input, matched here as a distinct ref (ref_1876) described as "(file input)" - different ref from the visible button.
+   d. Call file_upload with that file-input ref and the absolute path to the PDF. Result confirmed: "Uploaded 1 file(s) to file input: Prabhavit_CV_Original_EN.pdf (68 KB total)".
+   e. Wait ~2s, screenshot: attachment chip appeared at the bottom of the compose window reading "Prabhavit_CV_Original_EN.pdf (68K)".
+6. Click Send. Toast "Message sent" appeared, Undo/View message links shown.
+
+VERIFICATION
+- Self-send landed in Inbox immediately (to = from = prabhavitg@gmail.com). Opened the message: header "Attachment test 2026-09-17 (CV 70 KB)", from prabhavit <prabhavitg@gmail.com>, both body lines present, "One attachment - Scanned by Gmail", PDF thumbnail labelled "Prabhavit_CV_Ori...".
+- Clicked the attachment thumbnail: full-screen PDF preview opened and rendered both pages of the real CV content (name, contact, experience, education) - confirms the file is intact, not corrupted/truncated, and downloadable. Closed the preview (X).
+- Checked Sent folder: top row shows the same subject with a "Prabhavit_CV_O..." PDF chip under it, confirming the attachment is present on the sent copy too.
+
+ATTACHMENT SIZE SHOWN
+68 KB (compose-time chip "Prabhavit_CV_Original_EN.pdf (68K)"; source file on disk is 69,534 bytes = 68 KiB, matches).
+
+OBSTACLES
+None blocking. Only snag was the To/Subject focus race in step 3 (stray text landing in the To field instead of Subject) - not attachment-related, easily caught by screenshot-checking the To field before moving on.
+
+RECIPE FOR IN-THREAD REPLIES (Reply -> attach -> Send), for the 13 tomorrow's CV deliveries
+1. Open the thread, click Reply (opens inline reply box at bottom of the thread, not a popout).
+2. find(query="Attach files") inside the reply box - same button pattern, click it by ref.
+3. find(query="file input choose file") right after - locates the freshly-injected hidden file input (new ref each time, do not reuse a ref from a previous message/compose).
+4. file_upload with that ref + absolute CV path (per-role CV filename per LEARNINGS.md role-qualified slug rule if the company has multiple open reqs).
+5. Screenshot / read_page to confirm the attachment chip shows the correct filename and a plausible KB size before sending - do not trust the file_upload tool result alone, confirm the chip renders in the compose UI too.
+6. Click Send (or the reply box's Send button - same control, just scoped to the thread).
+7. Optionally reopen the thread afterward and confirm the new message shows the attachment chip, same as done here for the test send.
+
+Tab closed after test (tabId 550851491). No other tabs touched. No other emails, drafts, labels or settings modified.

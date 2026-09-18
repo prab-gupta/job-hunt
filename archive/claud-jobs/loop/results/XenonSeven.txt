@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468277476/
+Uploaded: Prabhavit_CV_XenonSeven.pdf (re-uploaded explicitly, confirmed checked)
+Cover letter: CoverLetter_XenonSeven.pdf/.tex/.txt built, no upload slot reached (form stuck before the cover letter step, if any)
+Answers given so far: Contact info only - phone Italy +39 351 610 7807 mobile 3516107807, email prabhavitg@gmail.com, location Venice, Veneto, Italy (selected from typeahead)
+Blockers: Next button on the Resume step (2/6 pages) is unresponsive. Confirmed the resume radio is genuinely checked (accessibility tree AND native input.checked), button is visible/enabled/not covered by any overlay (verified via elementFromPoint), yet 6 different click strategies (Playwright ref click, JS-dispatched pointer/mouse events, re-click the radio then Next, Back-then-Next, Tab+Enter) all produced zero "navigation" network call and left the page on 2/6, versus the working page1-to-page2 transition which fired the expected call. This reproduced consistently across ~10 minutes of retries. Left the dialog open and filled, did not submit.
+Cap check: not the first row of the batch (row 3), cap already confirmed NOT active on row 1 (Findr).
+LEARNINGS line: LinkedIn Easy Apply via Workable (applicantTrackingSystemName=Workable) can silently hang on the Resume step's Next button with no error, no navigation network call, and no visible block, after a manual document re-upload; retried 6 ways with Playwright, all failed identically. Logged to NEEDS_YOU.md row 35 for the user or a future agent to retry or fall back to Chrome.

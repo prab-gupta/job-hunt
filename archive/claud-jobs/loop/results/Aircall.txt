@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458347375/
+Company/Role: Aircall - Forward Deployed Engineer (AI Solutions), Paris (hybrid)
+
+Uploaded: Prabhavit_CV_Aircall.pdf (tailored, 2 pages; FlowSpace AI agents/CRM-GTM/API-integration bullets + Get2Germany AI automation bullets moved to top, career summary trimmed to 2 bullets).
+Letter: CoverLetter_Aircall.txt drafted but not attached, this Easy Apply flow (5 pages: contact info, resume, top-choice, additional questions, review) has no cover-letter field anywhere.
+
+Answers given: LinkedIn profile URL; salary EUR 50,000; right to work in France = No; live in France = No; require sponsorship = Yes with transparency-line free text; willing to relocate = Yes; comfortable in office 3 days/week = Yes; customer-facing experience = Yes.
+
+Language gate: task note flagged "French required = kill" for this row, but I re-checked the full JD body and every field across all 5 Easy Apply pages and found no French-language requirement stated anywhere, explicit or implied (the only France-specific questions are about work authorisation/residency/sponsorship, not language). Per the standing rule that a language kill needs a quotable clause, I did not kill this row and applied instead. Confirmed via LinkedIn confirmations/applications.csv history that the row is a distinct requisition from the separate "Senior Forward Deployed Engineer, Key Accounts" Aircall posting.
+
+Blockers: none. Submitted cleanly, confirmation "Your application was sent to Aircall!" seen and saved.
+
+LEARNINGS: Two agents concurrently working different Aircall requisitions under the same company slug caused a file collision - Prabhavit_CV_Aircall.tex and CoverLetter_Aircall.txt on disk were overwritten mid-task by another session's content for the separate "Senior Forward Deployed Engineer, Key Accounts" req, after I had already compiled and uploaded my own PDF (upload was unaffected since the browser already had the file bytes). Company-only slugs are not unique enough when multiple concurrent agents apply to different reqs at the same company on the same day; consider a role-qualified slug (e.g. Aircall-FDE vs Aircall-KeyAccounts) for CV/letter filenames going forward.

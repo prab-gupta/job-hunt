@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+
+LinkedIn posting: https://www.linkedin.com/jobs/view/4380309871/
+ATS / apply URL: https://www.sixt.jobs/us/jobs/fa10f415-9736-4467-a65e-e9b004193c06 (careers.sixt.jobs guest apply, no account created)
+Confirmation URL: https://www.sixt.jobs/us/jobs/fa10f415-9736-4467-a65e-e9b004193c06/thank-you
+
+Company/role: SIXT, Tech Lead & Product Owner - AI Platform (m/f/d), Munich, Germany (hybrid). LI-PICK queue row (senior_title flag), applied per the LI-PICK rule despite the senior/lead title, years answered honestly as 3, no inflation.
+
+Dedupe: HIT COMPANY only. Prior applications.csv row (2026-08-05) is a different requisition entirely - Lisbon "Automation / n8n Solution Engineer", status CLOSED (posting had expired), non-blocking per the dedupe rule.
+
+Uploaded: Prabhavit_CV_SIXT.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic-compiled, parity-checked - only bullet deletions/reordering, no rewritten sentences, no added claims); CoverLetter_SIXT.pdf attached as a supporting file, plus a condensed 788-char version of the same letter pasted into the "Message to hiring manager" free-text field (the field has an undocumented 1000-character cap - first submit attempt with the full 266-word letter text was rejected with "must not be greater than 1000 characters"; fixed and resubmitted).
+
+Letter draws on two roles per the material rules: UltraStrategy (CV-parsing pipeline built and owned end to end, Affinda + Claude API) and FlowSpace (live-marketplace migration onto Next.js/Laravel while the product stayed live, 2,000 to 4,500+ users; AI listing bot, 900+ listings, Claude API + n8n; support agents with confidence-based escalation). Permit transparency line included (Italian EU long-term resident status, not yet authorised in Germany, employer-side permit needed, ready to relocate to Munich). 0 em-dashes, no "low-code"/"no-code"/"Bubble" terms, legacy platform referred to only as "a legacy stack".
+
+Answers given: name/email/phone/Venice Italy residence; languages English Fluent + Italian Intermediate (never Fluent/Native for Italian per standing rule); monthly salary EUR 3,750 gross (bottom of the standing EUR 45,000-55,000 annual band converted to monthly, since this specific field asked for a monthly figure - both figures shown for clarity); notice period "available immediately, two weeks after offer"; LinkedIn URL. Left blank: optional employee-referral field (honestly, no referral) and optional personal website field. Required privacy-policy consent checkbox ticked; optional talent-pool/communities checkbox left unticked per standing rule. No CAPTCHA, no assessment, no anti-AI attestation anywhere on the form.
+
+Blockers: none that stopped the application. The only snag was the undocumented 1000-char cap on the hiring-manager message field, fixed by condensing the message (full letter still delivered as an attached PDF).
+
+LEARNINGS: sixt.jobs (the SIXT careers site behind the LinkedIn "Apply" button) is a plain custom ATS, not SmartRecruiters or SuccessFactors as anticipated in the task brief - guest apply works with no login wall, and both CV and cover-letter uploads are ordinary input[type=file] elements with no shadow root, so Claude in Chrome handled the whole flow with no RETRY PLAYWRIGHT needed. New trap for future sixt.jobs applications: the "Message to hiring manager" textarea silently accepts text past 1000 characters in the DOM but rejects it only on submit - keep any pasted cover-letter text under ~900 characters up front to avoid a wasted submit attempt.
+
+Files: Prabhavit_CV_SIXT.tex/.pdf, CoverLetter_SIXT.tex/.pdf/.txt (all in ROOT), confirmations/SIXT-2026-09-11.txt (no .png - Claude-in-Chrome had no save_to_disk file path available this session; per the brief's Chrome-browser section, the .txt is the record), answers/sixt-2026-09-11.md, one row appended to applications.csv.

@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4466872753/ (ATS: https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/ITMILCOP/Forward-Deployed-Engineer_R-65787-1)
+Uploaded: nothing yet (blocked before the upload step).
+Answers given: none yet; CV Prabhavit_CV_Kyndryl.pdf and letter CoverLetter_Kyndryl.pdf/.txt built and saved for when the wall is cleared.
+Blockers: Workday "Apply Manually" (tried per brief before other options) still requires Create Account (email+password); no guest-apply path on this tenant. Distinct requisition R-65787-1 from the separate Senior FDE Kyndryl row - not touched here.
+LEARNINGS: none new; confirms the existing Workday runbook guidance (account creation or login mandatory = hand back).

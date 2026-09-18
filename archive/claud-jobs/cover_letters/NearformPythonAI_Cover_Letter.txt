@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the Senior Software Engineer - Python & AI position at Nearform, based in Italy.
+
+For the past two and a half years at FlowSpace, I built and shipped Python-based AI applications for a live coworking marketplace, working directly with clients and internal teams from requirements through production. My main project was an AI listing pipeline that takes unstructured data in any format (PDFs, web pages, photos, spreadsheets), extracts structured information using LLM APIs with agentic orchestration and tool-use patterns, and pushes results to a PostgreSQL backend after human review. I also built support AI agents with confidence scoring that escalate to a person when uncertain, and CRM automations connecting six third-party platforms via REST APIs and webhooks.
+
+What draws me to Nearform is the opportunity to apply this kind of work across a wider range of enterprise clients. I am used to translating business requirements into working software, collaborating with distributed teams, and owning delivery end to end. I work daily in Python and TypeScript, I am comfortable with Git, CI/CD, testing at all levels, and agile workflows, and I have shipped production systems using Claude and OpenAI APIs, RAG, and multi-step agent orchestration. I also have hands-on React experience from building the FlowSpace frontend.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit and am available to start immediately. I am happy to travel to client sites across Europe as needed.
+
+Regards,
+Prabhavit Gupta

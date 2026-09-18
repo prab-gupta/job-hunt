@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://join.com/companies/gokonfetti/16715524-backend-developer-laravel-aws-m-f-x-in-berlin
+Uploaded: Prabhavit_CV_Konfetti.pdf, CoverLetter_Konfetti.pdf (join.com native flow, after removing a stale pre-loaded autofill CV)
+Answers: work permit for Germany/EU-EEA citizen No, office preference Office, uses AI coding agents daily Yes, city Venice Italy, Laravel experience ~1.5 years (FlowSpace since 2024 migration), start date 2026-10-01, salary EUR 45,000-55,000 gross, plus free-text answers on AI usage, an architectural change (FlowSpace legacy-to-Laravel migration), and why Konfetti.
+Blockers: none. New ATS trap logged: join.com pre-rendered a stale generic autofill CV before any upload; removed via file-actions menu and replaced with the tailored PDF.
+Confirmation: "Application sent. You've applied to Konfetti GmbH." (confirmations/Konfetti-2026-09-17.txt)
+Full detail: answers/konfetti-2026-09-17.md

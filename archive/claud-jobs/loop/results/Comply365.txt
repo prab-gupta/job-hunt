@@ -1,0 +1,46 @@
+STATUS: NEEDS YOU
+URL: https://vistairhr.bamboohr.com/careers/221 (BambooHR, tenant vistairhr)
+Role: Onboarding Engineer, Barcelona, Spain (Hybrid) — Comply365 / CoAnalyst (Vistair)
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (Resume field), CoverLetter_Comply365.pdf (Cover
+Letter field — this tenant has one, unlike the general BambooHR guide note of "no
+cover-letter field"; wrote CoverLetter_Comply365.txt, 200 words / 4 paragraphs / 0
+em-dashes, then rendered the PDF via tectonic from CoverLetter_Comply365.tex).
+
+Gates re-checked on the live JD (fetched via LinkedIn jobs-guest API, listing
+4446251041): title "Onboarding Engineer", seniority "Not Applicable" — not
+Senior/Staff/Lead/Principal/Manager; no explicit years-of-experience minimum (only
+"a track record of delivering complex enterprise implementations", wording-only per
+brief); no MSc/PhD; JD in English with no Spanish-language requirement anywhere; core
+stack is "Python, TypeScript, or similar" plus REST APIs/SSO/SAML, all claimable; AWS is
+listed as working knowledge for integrations ("cloud platforms, AWS preferred"), not a
+cloud-admin core requirement; location Barcelona is EU and relocation-ready. No hard
+gate triggered. Compensation banner on the live page confirmed EUR 90K-EUR 110K,
+matching the task brief.
+
+Answers given: residence Venice, Italy (Via Zanetti, 10, 30175, Veneto); Desired Pay
+EUR 90,000 (bottom of the disclosed band); Date Available 23 Sep 2026; Website
+github.com/prab-gupta; LinkedIn linkedin.com/in/prabhavit; "Who referred you" left
+blank. Screening radios: EU/UK work-authorisation requirement -> No (honest — Italian
+EU long-term residence does not automatically grant Spanish work rights, employer-side
+permit needed, per answers/work-authorisation.md; no free-text field existed to attach
+the transparency line, so it's recorded in answers/comply365-2026-09-09.md instead);
+background-screening willingness -> Yes; 40% international travel incl. visas -> Yes;
+"do you require a dedicated engineering team" -> No (owns delivery independently);
+hands-on enterprise implementation/onboarding experience -> Yes; English proficiency ->
+"Fluent, professional working proficiency (C1)".
+
+Blocker: Google reCAPTCHA v2 checkbox ("I'm not a robot") sits directly above the
+"Submit Application" button. Per brief this is user-only — stopped before it, did not
+click the checkbox, did not click Submit. Screenshot taken (Chrome extension does not
+support PNG-to-disk saving per the brief's Chrome section, so the txt record stands in).
+Tab left open: tabId 550849737, form fully filled and ready — user only needs to solve
+the CAPTCHA and click Submit Application.
+
+LEARNINGS: vistairhr.bamboohr.com (Comply365/Vistair's BambooHR tenant) has BOTH a
+Cover Letter file-upload field AND a Resume file-upload field, contradicting
+ats-guides/bamboohr.md's general note that BambooHR "usually" has no cover-letter
+field/upload — this is per-tenant, always check for a second file input before assuming
+there's none. Also: this tenant's Province field switches from free-text to a
+dropdown-then-text-reflow after Country is changed via the searchable combobox, and
+changing Country clears whatever was in Province — fill Country first, then Province.

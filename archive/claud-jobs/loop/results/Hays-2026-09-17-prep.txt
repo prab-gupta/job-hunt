@@ -1,0 +1,32 @@
+STATUS: PREP ONLY (materials built, not submitted — hold for Easy Apply cap per queue.csv)
+Company: Hays | Role: RPA Developer & AI Automation (client: Havi) | Lisbon, Portugal
+URL: https://www.linkedin.com/jobs/view/4464863110/
+JD source: scratchpad/jd/4464863110.txt
+
+Files built (slug Hays, none pre-existing, no clobber):
+- Prabhavit_CV_Hays.tex / .pdf — 2 pages, photo renders (400x400 jpeg confirmed via pdfimages)
+- CoverLetter_Hays.tex / .txt / .pdf — 1 page, 261 words
+
+CV diff vs Prabhavit_CV_EN.tex (parity check: zero invented bullets):
+- Career Summary trimmed 3 -> 2 bullets (kept the general AI/automation intro + "AI-assisted development, prompt engineering, orchestrating complex API integrations" — the API-integrations clause is the closest honest match to the JD's enterprise-systems focus; dropped "Transformed business requirements...")
+- FlowSpace Product Responsibilities: "Streamlined customer support with AI agents" moved to top
+- FlowSpace Technical Responsibilities: "Integration of external APIs (Office Rnd and Nexudus) for automated bookings" moved to top (was #2) — closest analogy to RPA-style enterprise system integration
+- Get2Germany: order unchanged, "Integration of Google APIs for effective tracking of the platform" stays first (APIs theme fits Hays better than the AI-jobs-finder bullet)
+- UltraStrategy: unchanged (2 bullets, both kept)
+- No bullets deleted; no role/date/location touched
+
+Letter: lead role Get2Germany (Google APIs integration, n8n-orchestrated automation tools), paired with FlowSpace (OfficeRnD/Nexudus API integrations, CRM/GTM automation with error handling and logging). Explicitly and honestly states no UiPath or Power Automate / RPA-suite experience and no production RPA bots built — leads with the API-integration and workflow-automation transfer instead. Named "no-code" nowhere; automation platforms described by name only (n8n).
+
+Field answers a browser agent will need:
+- Years of experience: 3 (JD asks for 5+ years total, 3 years hands-on UiPath specifically — Prabhavit has 3 years total professional experience, zero UiPath; answer years fields with 3 and do not claim UiPath years)
+- Salary: EUR 45000 (JD gives no band)
+- Work authorisation (Portugal): No, not currently authorised; sponsorship/employer-side permit needed = Yes. Transparency line used verbatim from answers/work-authorisation.md: "I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process."
+- Partita IVA: Yes
+- Driver's license: No
+- Notice/start: available immediately, two weeks after offer
+- Languages: English C2, Hindi native, Italian B1-B2
+
+Anything odd in the JD:
+- Heavy hard-skill mismatch: requires UiPath (Studio/Orchestrator/REFramework), Microsoft Power Automate, Bachelor's in CS/SWE/IS, 5+ years, Azure DevOps/GitHub Actions CI/CD, SAP integration — Prabhavit has none of the named RPA tooling and a Philosophy/Economics degree, not CS. This is a genuine skills-gap row, applying only because it is LI-PICK; letter is honest about the gap rather than implying UiPath experience.
+- Employer is Havi (foodservice logistics, 10,000+ employees) via Hays as recruiter — Hays itself is the agency of record, application goes through LinkedIn Easy Apply.
+- "Bachelor's Degree ... required" is a hard gate per the brief's normal kill rules (hard MSc/PhD requirement is a kill trigger; a hard Bachelor's requirement is milder but still a real mismatch) — flagging for the user's awareness even though LI-PICK overrides the normal kill.

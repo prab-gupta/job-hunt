@@ -1,0 +1,13 @@
+STATUS: KILLED
+
+URL: https://careers.noisolation.com/jobs/8206375-ai-integration-engineer
+LinkedIn ref: https://www.linkedin.com/jobs/view/4452367547/ (LI-PICK row, queue.csv)
+ATS: Teamtailor (careers.noisolation.com)
+
+Reason: already applied/handled - same requisition. applications.csv already has an exact-URL
+SUBMITTED row for this posting: 2026-09-04, No Isolation, AI Integration Engineer, LinkedIn,
+https://careers.noisolation.com/jobs/8206375-ai-integration-engineer, SUBMITTED, confirmation
+text "Thanks for applying", CV Prabhavit_CV_NoIsolation.pdf, letter CoverLetter_NoIsolation.txt.
+The LI-PICK rule (2026-09-11) only overrides fit/years/seniority/stack gates; it still kills on
+"already SUBMITTED for the same requisition", which this is (identical company, identical role
+title, identical URL). Nothing uploaded, no letter drafted, no form opened for this row.

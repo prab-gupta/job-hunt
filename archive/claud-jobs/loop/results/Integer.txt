@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4465056835/
+Real apply target: https://www.itjobs.pt/oferta/516135/ai-engineer-generative-ai-specialist (reached via LinkedIn's "Apply on company website" -> linkedin.com/safety/go/ redirect)
+
+Uploaded: nothing -- blocked before any upload step.
+
+Prepared and staged for when Prabhavit logs in or registers on ITJobs.pt:
+- CV: Prabhavit_CV_Integer.tex/.pdf (2 pages, tectonic, parity-checked against Prabhavit_CV_EN.tex; kept 2/3 Career Summary bullets, 7 FlowSpace bullets, 1-2 bullets per other role, AI/ML skills already JD-first, dropped the Low-code clause from Additional Information only).
+- Cover letter: CoverLetter_Integer.txt (222 words, 0 em-dashes) and CoverLetter_Integer.pdf (1 page, via CoverLetter_Integer.tex + tectonic).
+- Answers ready for when the form appears: years 3; work authorisation Portugal = No, sponsorship needed = Yes, with the standard transparency line; salary EUR 50,000 (no band disclosed); relocation Yes to Faro or remote; source LinkedIn; available immediately, start two weeks after offer.
+
+Blocker: LinkedIn's "Apply on company website" link (not Easy Apply, "Responses managed off LinkedIn") lands on itjobs.pt, a Portuguese job-board mirror. On that page the actual application email/site for this posting is masked as "<endereco ocultado>" (hidden address), gated behind: "Para ter acesso aos enderecos (email/site) de candidatura neste anuncio devera estar autenticado no site." The only unlock options are "Entrar com LinkedIn" (OAuth) or registering a new ITJobs.pt account. No guest path exists to see Integer's real application address or apply. Per the brief, account-creation/login walls are user-only; no account was created, no OAuth login performed. Tab left open on the login-gated posting page (Playwright, now closed after screenshotting). Screenshot: confirmations/Integer-2026-09-10.png. Full narrative: confirmations/Integer-2026-09-10.txt.
+
+Gates re-checked on the live JD (no kill gate hit): no numeric years threshold stated, title "AI Engineer (Generative AI Specialist)" is not Senior/Staff/Lead/Principal/Manager/CTO, no MSc/PhD requirement, JD fully in English, Faro/Portugal is EU (on-site/hybrid acceptable per current rules), stack (LLMs, AI frameworks, Python, cloud as a plus, APIs, automation, prompt engineering, AI agents, RAG, vector DBs) is fully within claimable set, no anti-AI disclaimer present. Fit as given: 55.
+
+Dedupe: python3 loop/dedupe.py --check "Integer Consulting" "https://www.linkedin.com/jobs/view/4465056835/" returned NEW; no prior Integer Consulting rows in applications.csv.
+
+LEARNINGS: LinkedIn "offsite" postings for Portuguese/nearshore IT consultancies can route through itjobs.pt, which hides the employer's real application email/link behind its own login/registration wall (LinkedIn OAuth or itjobs.pt account) even though the JD text itself is fully public. Treat any itjobs.pt-hosted posting as an account-wall NEEDS YOU by default, same as a SuccessFactors-style registration gate.

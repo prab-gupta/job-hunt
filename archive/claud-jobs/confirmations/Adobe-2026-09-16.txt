@@ -1,0 +1,12 @@
+Adobe - Forward Deployed Engineer, Agents & Apps (Agentic Builders Experience team), R170734
+Submitted via Playwright (RETRY from earlier Chrome freeze) 2026-09-16
+
+Confirmation page: https://careers.adobe.com/us/en/applythankyou?status=success&jobSeqNo=ADOBUSR170734EXTERNALENUS&jobTitle=Forward%20Deployed%20Engineer%20%E2%80%93%20Agents%20%26%20Apps%20Agentic%20Builders%20Experience%20team&jobId=R170734&jobApplicationId=d5745fefd9a490015c91f7a8657b0001&candidateId=C7379657
+
+Confirmation text:
+"Thank you,
+You have successfully applied for Forward Deployed Engineer – Agents & Apps Agentic Builders Experience team (R170734)
+Your Application has successfully been submitted"
+
+Application ID: d5745fefd9a490015c91f7a8657b0001
+Candidate ID: C7379657

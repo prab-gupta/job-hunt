@@ -1,0 +1,26 @@
+STATUS: PREP ONLY (materials built, not submitted — hold for Easy Apply cap per queue.csv)
+Company: PE Global | Role: AI Deployment Manager (Content Development) | Greater Dublin
+URL: https://www.linkedin.com/jobs/view/4468205427/
+JD source: scratchpad/jd/4468205427.txt
+
+Files built (slug PEGlobal, none pre-existing, no clobber):
+- Prabhavit_CV_PEGlobal.tex / .pdf — 2 pages, photo renders (400x400 jpeg confirmed via pdfimages)
+- CoverLetter_PEGlobal.tex / .txt / .pdf — 1 page, 296 words
+
+CV: identical tailoring to Prabhavit_CV_Barden.tex (same underlying JD, same client, different recruiter) — Career Summary trimmed to 2 bullets, "Streamlined customer support with AI agents" moved to top of FlowSpace Product Responsibilities, "Developed AI based automation tools for finding courses, internships and jobs" moved to top of Get2Germany. Parity check: zero invented bullets vs Prabhavit_CV_EN.tex. No role/date/location touched.
+
+Letter: lead role UltraStrategy (CV-parsing pipeline, Affinda + Claude API), paired with FlowSpace AI listing bot (brochure-to-listing, human-in-the-loop). States plainly, per this row's task instruction, that Prabhavit does not hold the correct visa to work in Ireland today and would need an employer-side permit — the JD explicitly says the client cannot assist with sponsorship, so the letter names this directly rather than glossing over it.
+
+Field answers a browser agent will need:
+- Years of experience: 3
+- Salary: EUR 45000 (JD gives no band; 3-month contract, hybrid)
+- Work authorisation (Ireland): No, not currently authorised; sponsorship/employer-side permit needed = Yes, but JD states the client explicitly cannot assist with visa sponsorship — flag this to the user if the form has a hard-stop visa question, this is likely a KILL-on-visa-screen risk even though LI-PICK says apply anyway. Transparency line used: "I hold Italian EU long-term resident status, which does not extend to Ireland; I am not currently authorised to work there and would need an Irish employment permit, most likely requiring employer sponsorship."
+- Partita IVA: Yes
+- Driver's license: No
+- Notice/start: available immediately, two weeks after offer
+- Languages: English C2, Hindi native, Italian B1-B2
+
+Anything odd in the JD:
+- JD text is near-identical to Barden's posting (4468248135) — same biotech client, same Dublin content-AI-deployment role, being run through two different recruiters (Barden and PE Global). Legitimate to apply to both per dedupe rules (different company/agency, different requisition owner), not a duplicate.
+- Explicit line: "our client cannot assist with any visa sponsorship and candidates must have the correct visa to live and work in Ireland" — the strongest visa-hard-gate language seen in this batch; letter addresses it head-on per this row's brief. Also gives a direct email fallback: paul.wheatley@peglobal.net (not used here — materials-only, no applying).
+- Fixed at 3-month initial contract, hybrid — even shorter and more Ireland-presence-dependent than Barden's listing.

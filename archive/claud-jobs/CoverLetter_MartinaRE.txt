@@ -1,0 +1,12 @@
+Buongiorno team MARTINA RE,
+
+mi candido per il ruolo Junior AI & Automation Engineer. Da circa tre anni realizzo integrazioni e automazioni per aziende europee. Mi interessa applicare questa esperienza a processi immobiliari concreti, dal trattamento dei documenti al collegamento tra CRM, gestionali e strumenti AI.
+
+Per FlowSpace, una piattaforma di spazi di lavoro, ho costruito un bot che prepara bozze di annunci a partire da brochure e altre fonti, mantenendo la revisione umana. Quando l'AI ha inventato dati, ho confrontato le informazioni con fonti diverse e aggiunto guardrail. Ho inoltre realizzato integrazioni con OfficeRnD e Nexudus per automatizzare le prenotazioni e flussi CRM per acquisire e gestire contatti. Questo lavoro mi ha dato esperienza diretta con dati immobiliari, API e controllo degli output.
+
+Per UltraStrategy ho sviluppato una pipeline di parsing dei CV integrata nella piattaforma. Estrae i dati, valuta la rilevanza rispetto a tipi di ruolo e restituisce il risultato al frontend, fino alla generazione di un CV standardizzato. Il progetto ha usato Affinda, le API di Claude, n8n ed Eden AI. Per Get2Germany ho integrato Google API, ottimizzato il database e costruito strumenti AI per trovare corsi, stage e offerte di lavoro.
+
+Apprezzo la possibilità di lavorare con affiancamento tecnico e consolidare le mie competenze su progetti reali. La mia formazione universitaria è in filosofia, studi internazionali ed economia; porto esperienza applicativa maturata sul campo. Vivo a Venezia, sono disponibile da subito e aperto a trasferirmi per il lavoro in presenza. Sono autorizzato a lavorare in Italia senza sponsorizzazione. Il mio italiano è conversazionale.
+
+Grazie,
+Prabhavit Gupta

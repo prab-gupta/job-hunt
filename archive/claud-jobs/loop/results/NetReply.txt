@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461074334/
+Uploaded: Prabhavit_CV_NetReply.pdf (2pp, tectonic, parity-checked); CoverLetter_NetReply.pdf/.txt drafted and kept on file (no cover-letter step on this LinkedIn Easy Apply flow).
+Answers given: Italian proficiency=Conversational, legally authorised in Italy=Yes, Bachelor's Degree=Yes, comfortable hybrid=Yes; unfollowed company. Letter honestly states Python yes, Java no (JD accepts either).
+Blockers: none. LinkedIn Easy Apply pre-selected the last-used CV (Prabhavit_CV_AGM.pdf) - replaced explicitly via Upload resume, verified checked before Review.
+Confirmation: "Your application was sent to Net Reply!" - confirmations/NetReply-2026-09-11.txt/.png (+before.png). Full detail in answers/netreply-2026-09-11.md.
+LEARNINGS: none new - standard 4-page Easy Apply flow with a straightforward language/authorisation/education/hybrid question set.

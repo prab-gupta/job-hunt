@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://jobs.ashbyhq.com/prosper-ai/7784d5bc-5f72-4177-885e-10e2bb1e56e9/application (from LinkedIn https://www.linkedin.com/jobs/view/4404908204/)
+Uploaded: Prabhavit_CV_Prosper.pdf (Resume field, successful)
+Answers given: Name Prabhavit Gupta, Email prabhavitg@gmail.com, "Are you legally authorized to work in Spain?" = No, "Are you willing to come to our Barcelona office 4 days per week?" = Yes
+Blocker: last required field "Can you share your excellence signals?" instructs "do not LLM generate this... reviewed by a human who will read the CV too" - a no-AI-written-answer instruction, treated as a user-only blocker per the apply brief. Did not write that field or submit. See answers/prosper-2026-09-16.md.
+LEARNINGS: Ashby forms sometimes carry an explicit "no LLM answers" instruction on a specific free-text field even when the JD itself has no anti-AI disclaimer and the cheap/live checks pass clean - worth grepping the live application form text, not just the JD, for anti-AI language before assuming a row is clear.

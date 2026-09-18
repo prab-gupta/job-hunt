@@ -1,0 +1,17 @@
+TO: info@fabrika06.com
+SUBJECT: Full-stack and AI engineer in Veneto, same stack as Fabrika 06
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Andrea,
+
+Fabrika 06 works on the same stack I use every day, and you are a short train ride from me in Venice, so this is a direct note.
+
+At FlowSpace (coworking marketplace, London) I spent the last two years in Next.js, Laravel and Python: the LLM pipeline that turns brochures of any format into validated listings (900+ records), support agents that answer from live data with human escalation, and API integrations (OfficeRnD, Nexudus, CRM). I also worked on the migration off a legacy stack to Next.js and Laravel while the product stayed live in production.
+
+If you need an engineer who brings AI into real client projects, I can start now and work on-site in Veneto. If not, a coffee to compare notes on your pipelines would still be welcome.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. I work in English; my Italian is basic and improving. EU long-term residence permit, so hiring in Italy is straightforward.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

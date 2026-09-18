@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://univers.breezy.hr/p/efa58c39933301-forward-deployed-engineer/apply (from LinkedIn https://www.linkedin.com/jobs/view/4461691046/)
+Uploaded: Prabhavit_CV_Univers.pdf (Breezy "Autofill from resume" correctly parsed all 7 roles + education verbatim, spot-checked)
+Answers given: Full Name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Education Ca' Foscari Bachelor's (honest per today's rule, no MSc claimed), Cover Letter pasted (FlowSpace+UltraStrategy evidence, Spain work-authorisation transparency line), Privacy Notice consent ticked.
+Confirmation: "Application Submitted - Your application has been submitted successfully. Good luck!" Saved to confirmations/Univers-2026-09-16.txt (Chrome cannot save PNGs, txt is the record).
+Blockers: none.
+LEARNINGS: Breezy HR's resume autofill is reliable - parsed all 7 CV roles and education verbatim into separate fields with correct dates, no manual re-entry needed beyond confirming.

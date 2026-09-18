@@ -1,0 +1,12 @@
+Dear Onera team,
+
+I am applying for the Test Automation Engineer role, remote within the EU. Deciding what should be tested and why, not just executing a fixed script, is how I already approach QA, and a regulated product where reliability actually protects patients raises the bar in the right direction.
+
+At FlowSpace I built and maintained our Playwright end-to-end test suite for a live marketplace, and separately built AI agents running in production that I tested specifically for non-determinism and failure recovery, deciding when the system should hand off rather than guess. Python is a language I use daily across automation and data tooling, and I am comfortable owning a framework rather than just adding cases to one someone else built.
+
+Working on something that improves diagnosis for people with sleep disorders, inside a process disciplined enough for a medical environment, is a step up in stakes I want.
+
+Logistics: I am based in Venice, Italy, and authorised to work there under Italian EU long-term residence status, so this role would run fully remote from Italy. English is fluent, available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

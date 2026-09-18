@@ -1,0 +1,21 @@
+Gainable - Junior GTM Engineer (LinkedIn Easy Apply)
+URL: https://www.linkedin.com/jobs/view/4466305109/
+Submitted: 2026-09-11 via Claude in Chrome (screenshot only, PNG save unavailable in Chrome mode per brief)
+
+Success confirmation shown on screen after Submit:
+"Your application was sent to Gainable!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+
+Application status panel on the job page updated to:
+"Application submitted - now"
+
+Application details submitted:
+- Resume: Prabhavit_CV_Gainable.pdf (uploaded fresh, not picked from library)
+- Email: prabhavitg@gmail.com
+- Mobile: +39 351 610 7807
+- Additional Questions:
+  - Are you comfortable working in a remote setting? Yes
+  - Are you comfortable commuting to this job's location? Yes
+  - Have you built something with AI tools (Claude, Cursor, Lovable or similar) that other people used? Yes
+- "Follow Gainable" checkbox: unticked (not required)
+- No cover letter field was offered in this Easy Apply flow (4 pages: contact info, resume, additional questions, review). CoverLetter_Gainable.txt kept on file for reference/future use.

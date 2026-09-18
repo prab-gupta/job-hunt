@@ -1,0 +1,19 @@
+Oggetto: Candidatura per Platform Engineer / DevOps Engineer
+
+Buongiorno,
+
+vi contatto per la posizione di Platform Engineer / DevOps Engineer. In circa tre anni ho costruito e mantenuto prodotti digitali, integrazioni API e automazioni per aziende europee, lavorando tra sviluppo, dati e requisiti di prodotto.
+
+In FlowSpace ho automatizzato la migrazione di un marketplace live da uno stack legacy a Next.js e Laravel, mappando le entità e scegliendo per ciascuna il percorso API o CSV. Ho sviluppato integrazioni OfficeRnD e Nexudus per le prenotazioni, automazioni CRM e GTM, e un bot AI con n8n, Claude API e TypeScript che ha prodotto oltre 900 bozze di annunci con revisione umana. Ho anche costruito agenti di supporto che usano dati live e trasferiscono a una persona le richieste con bassa confidenza. Il prodotto è cresciuto da 2.000 a oltre 4.500 utenti mentre restava operativo.
+
+In Get2Germany ho integrato le Google API e costruito strumenti di automazione con n8n per trovare corsi, stage e offerte di lavoro, oltre a ottimizzare il database della piattaforma, un lavoro di integrazione e automazione vicino alle pipeline CI/CD e alle pratiche GitOps richieste da questo ruolo.
+
+Il vostro focus su pipeline CI/CD, Git, container, automazione e collaborazione con i team di sviluppo è vicino al mio modo di lavorare. Posso contribuire con TypeScript, Node.js, Next.js, Laravel, Docker, GitHub, Jira, n8n, integrazioni REST e documentazione dei flussi, continuando a rafforzare le competenze di piattaforma in un ambiente strutturato. Sono disponibile a valutare la modalità contrattuale più adatta, inclusa la mia Partita IVA.
+
+Vivo a Venezia e posso lavorare dall'Italia nel fuso CET. Ho un permesso di soggiorno UE di lungo periodo, non necessito di sponsorizzazione per lavorare dall'Italia e sono disponibile immediatamente. Il mio italiano è conversazionale (B1-B2) e il mio inglese è C2.
+
+Grazie per l'attenzione. Sarebbe un piacere discutere il contributo che posso offrire al vostro cliente.
+
+Cordiali saluti,
+Prabhavit Gupta
+prabhavitg@gmail.com | +39 351 610 7807

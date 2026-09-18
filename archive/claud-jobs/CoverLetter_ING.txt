@@ -1,0 +1,12 @@
+Dear ING Hubs Slovakia team,
+
+I am applying for the Copilot Studio Engineer role in Bratislava. Your team's work on intelligent automation for wholesale banking interests me because it combines process understanding, AI integration and reliable delivery. My background is in building applications and automation around real business workflows, with approximately three years of overall professional experience.
+
+At FlowSpace, I built an AI listing pipeline that processes brochures and other source material into draft listings for human review. It produced more than 900 draft records. I also worked on support agents using live platform data, CRM workflows and OfficeRnD and Nexudus booking integrations. Alongside these automations, I helped migrate the live marketplace to Next.js and Laravel as it grew from 2,000 to more than 4,500 users. At UltraStrategy, I built a CV-parsing workflow using n8n and Eden AI.
+
+I have completed Microsoft Copilot Studio Agent Academy and Power Automate certifications. My strongest delivery experience is in TypeScript, n8n and LLM integrations, with Python among my skills. My overall tenure should not be read as three years specifically in Python development. I would welcome consideration based on the relevance of my automation, document extraction and integration work, and the opportunity to deepen these skills within your engineering practices.
+
+I am based in Venice on CET/CEST, available immediately and ready to relocate to Bratislava. I hold Italian EU long-term resident status. I am not currently authorised to work in Slovakia and would need the applicable employer-side permit or sponsorship process.
+
+Regards,
+Prabhavit Gupta

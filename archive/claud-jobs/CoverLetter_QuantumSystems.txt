@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Test Automation Engineer role at Quantum-Systems. Automating the release process for VTOL ground station and drone software, where a missed regression carries real hardware and mission consequences, is exactly the kind of test pipeline problem I want to work on next.
+
+At FlowSpace, a coworking marketplace, I have spent two years as a QA and test automation engineer: writing and maintaining Playwright suites in TypeScript for end-to-end and integration testing, wired into CI (GitHub Actions) so releases only ship once tests pass. Before that, at Clubee, I integrated a partner API across the frontend and owned unit testing and QA. At FlowSpace I kept a live product working through continuous releases and a full migration off a legacy stack to coded Next.js and Laravel, while the platform scaled from 2,000 to 4,500+ users, backed by the same discipline: reviewing and expanding test coverage as features changed, not only testing what already existed.
+
+Your posting also asks for interest in AI-assisted and agent-based testing. Claude Code is my daily development tool, and I already use it to speed up test generation and catch coverage gaps, so evaluating AI agents for automating test implementation and improving verification processes is work I can start contributing to, not something I would need to ramp into.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit so no sponsorship is needed anywhere in the EU, am open to relocating to Gilching or Munich, and am available immediately.
+
+Regards,
+Prabhavit Gupta

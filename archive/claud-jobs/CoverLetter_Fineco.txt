@@ -1,0 +1,12 @@
+Gentile team di selezione,
+
+mi candido per la posizione di Lead AI Engineer, Generative AI in FinecoBank. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, su sistemi AI in produzione con utenti reali. So che cercate una figura con 7+ anni: la mia esperienza continuativa è di tre anni, ma copre direttamente l'architettura di sistemi LLM in produzione, dal prototipo al rilascio, con ownership end to end.
+
+Per UltraStrategy ho costruito la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati e valuta la rilevanza del profilo per specifici tipi di ruolo, il risultato arriva al frontend e infine viene generato un CV generalizzato ("Ultra CV"), usando Affinda e le API di Claude, con n8n ed Eden AI per lo strumento di parsing.
+
+Per FlowSpace ho costruito agenti AI di supporto che rispondono alle richieste dei clienti attingendo ai dati live della piattaforma e passano il caso a una persona quando la sicurezza della risposta è bassa, un pattern di orchestrazione con recupero delle informazioni vicino a quanto descrivete per i sistemi multiagente in produzione. Nello stesso ruolo ho gestito la migrazione dei dati da uno stack legacy a Next.js e Laravel con il prodotto sempre in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti.
+
+Mi interessa la possibilità di lavorare su architetture LLM production-grade in un contesto bancario regolamentato, dove qualità e compliance contano quanto la velocità di rilascio. Sono a Venezia, autorizzato a lavorare in Italia senza necessità di sponsorship, e disponibile per la modalità ibrida a Milano. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

@@ -1,0 +1,15 @@
+Dear Hiring Manager,
+
+I am applying for the AI Forward Deployed Engineer role at Imperum, EU remote.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace provider's brochure in any format, PDF, website, photo or spreadsheet, and drafts a full structured listing with a human in the loop, over 900 drafts produced, plus support AI agents that ground answers in live platform data and escalate to a person on low confidence, all built with the Claude API, n8n and TypeScript. I also shipped OfficeRnD and Nexudus API integrations for automated bookings and CRM and GTM automations, connecting agent logic to real customer systems the way your role describes taking building blocks and assembling them into what a customer actually needs.
+
+At Get2Germany, I integrated Google APIs to track platform activity and built AI-based automation tools that find courses, internships and jobs for users, working with n8n and the Google APIs directly against external systems and their quirks.
+
+I want to be direct about fit. I have three years of professional experience across eight European companies, and my background is in building and shipping LLM-powered agents and API integrations rather than a background in security operations. I do not have prior SOC, SIEM or MITRE ATT&CK experience, but I am comfortable learning new domains quickly, and my day to day work has been exactly the pattern this role asks for: writing code, integrating APIs, debugging a deployment and sitting with the people who use the result.
+
+I hold Italian EU long-term resident status. I am authorised to work in Italy without sponsorship and can perform a remote role from Italy under that status. If the role requires authorisation in another EU country, I would need the applicable employer-side permit or sponsorship process and am ready to complete it.
+
+Regards,
+
+Prabhavit Gupta

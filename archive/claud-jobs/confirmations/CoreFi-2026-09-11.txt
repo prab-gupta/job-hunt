@@ -1,0 +1,12 @@
+SUBMITTED: LinkedIn Easy Apply, CoreFi, Sales Engineer (Barcelona, remote).
+Success text shown: "Your application was sent to CoreFi!" (toast) and "Application submitted / now" (Application status panel on the job page).
+Submitted 2026-09-11, resumed from a prior blocker (driver's license question, now answered No per user 2026-09-11).
+Final form state:
+- Email: prabhavitg@gmail.com (pre-filled)
+- Phone: Italy (+39) 351 610 7807
+- Resume: Prabhavit_CV_CoreFi.pdf
+- "Have you completed the following level of education: Bachelor's Degree?*" -> Yes
+- "Do you have a valid driver's license?*" -> No
+- "Follow CoreFi" checkbox: unticked (non-essential, per standing rule)
+- No cover letter slot in this Easy Apply flow (CoverLetter_CoreFi.pdf/.txt built, not used)
+Apply URL: https://www.linkedin.com/jobs/view/4463964238/

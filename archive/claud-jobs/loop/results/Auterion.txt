@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4454784880/
+Apply routes to: https://auterion.com/company/careers-open-position/?gh_jid=8725581002&gh_src=gtgws4y52us (Greenhouse embedded, cross-origin iframe)
+Uploaded: Prabhavit_CV_Auterion.pdf (Resume/CV), CoverLetter_Auterion.pdf (Cover Letter)
+Answers: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, Italy, Venice, LinkedIn linkedin.com/in/prabhavit. Germany work authorisation covered in letter (No/needs sponsorship, transparency line). No separate work-auth form field or EEO section rendered.
+Confirmation: "Thank you for applying and for your interest in Auterion. Your application has been received." (confirmations/Auterion-2026-09-17.png + .txt)
+Blockers: none this session. Prior Chrome blocker (cross-origin Greenhouse iframe unreachable) resolved by Playwright's frame-aware locators.
+LEARNINGS: none new (matches existing Databricks/Atlassian cross-origin-iframe-resolved-by-Playwright pattern already in LEARNINGS.md).

@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4448081630/ (applied via https://job-boards.greenhouse.io/cloudflare/jobs/8110209)
+Uploaded: Prabhavit_CV_Cloudflare.pdf, CoverLetter_Cloudflare.pdf
+Answers given: <100k MAU service owned, no 5+ yrs SWE experience, 76-100% shipping code, comfortable with VP/C-level discovery sessions, generalist across stack layers, LinkedIn as source, does not live in Sweden, requires immigration sponsorship, privacy policy acknowledged.
+Blockers: none. Not an iframe embed as the task warned (native job-boards.greenhouse.io page) - Chrome handled it fine, no Playwright handoff needed.
+Confirmation: "Thank you for applying! Your application has been received and we will review it shortly." (confirmations/Cloudflare-2026-09-17.txt)
+LEARNINGS: Cloudflare's LinkedIn "Apply on company website" for this Sweden FDE requisition (gh_jid 8110209) opens a native job-boards.greenhouse.io page directly in the new tab, not the cloudflare.com-embedded iframe version described elsewhere - check each Cloudflare requisition individually before routing to Playwright.

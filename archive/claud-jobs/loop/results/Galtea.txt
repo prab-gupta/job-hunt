@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467062336/
+Job id: 4467062336, ATS: LinkedIn Easy Apply (Barcelona)
+
+Dedupe: NEW. Hard gate re-check: live JD lists Spanish only as "Nice to have", not required, so no language kill; 2+ years required (well within 3), no anti-AI disclaimer, no MSc/PhD gate.
+
+Uploaded: Prabhavit_CV_Galtea.pdf (resume, verified checked). No cover letter slot on this form.
+Contact info: phone +39 351 610 7807 (Italy code pre-selected).
+Additional questions: Spanish proficiency None, English proficiency Professional.
+Result: "Your application was sent to Galtea!" / "Application submitted". Screenshot confirmations/Galtea-2026-09-17.png, text confirmations/Galtea-2026-09-17.txt.

@@ -1,0 +1,16 @@
+Dear Voyado hiring team,
+
+I am applying for the Go To Market Engineer role because it combines product understanding, technical implementation and customer-facing automation. I have worked across eight European companies in roughly three years, building platforms, integrations and AI workflows that turn operational needs into usable products.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration from a legacy stack to Next.js and Laravel, choosing API or CSV paths per entity and coordinating the cutover while the product stayed live. I also built an AI listing bot that turns brochures, websites, photos or spreadsheets into structured workspace listings with human review, producing more than 900 drafts. Alongside this, I shipped OfficeRnD and Nexudus integrations and CRM and GTM automations for lead capture, enrichment, routing and outbound workflows.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform. It extracted candidate data, assessed relevance for specific role types and generated a standardised Ultra CV using Affinda, the Claude API, n8n and Eden AI. At Urlink, I built a platform and its logic through AI-assisted development and implemented client-driven automations, while managing requirements. These projects taught me to connect technical details with user goals and explain solutions clearly.
+
+I am based in Venice, Italy, work in English and conversational Italian, and can relocate to Sweden immediately. My Italian EU Long Term Residence Permit authorises work performed in Italy, but Sweden is outside that authorisation, so I would require employer sponsorship or a Swedish work permit. I am ready to relocate for an on-site or hybrid role.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how I could help Voyado turn go-to-market needs into reliable product workflows.
+
+Kind regards,
+Prabhavit Gupta
+prabhavitg@gmail.com
+https://www.linkedin.com/in/prabhavit/

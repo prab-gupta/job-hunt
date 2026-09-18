@@ -1,0 +1,14 @@
+Gentile team di NewCo AI,
+
+vi scrivo per candidarmi al ruolo di Freelance AI Automation Engineer per il vostro nuovo progetto dedicato agli agenti AI e all'automazione dei processi per le piccole e medie imprese. Lavoro come libero professionista con Partita IVA attiva e negli ultimi tre anni ho costruito pipeline di automazione e integrazioni AI per diverse aziende europee, un percorso che si adatta bene a quello che state cercando.
+
+Per Urlink, a Barcellona, ho lavorato come project manager e sviluppatore assistito da AI: ho costruito la piattaforma e la sua logica con sviluppo assistito da intelligenza artificiale e ho implementato automazioni su richiesta diretta del cliente, gestendo io stesso i requisiti insieme al cliente. Questo tipo di collaborazione da freelance, a stretto contatto con un unico referente, e' molto simile a come descrivete il vostro progetto.
+
+Per FlowSpace, un marketplace di spazi di coworking con sede a Londra, ho costruito e gestisco un bot AI che, a partire da una brochure in qualsiasi formato (PDF, sito, foto o foglio di calcolo), genera automaticamente un annuncio strutturato con verifica umana nel processo, usando n8n e le API di Claude. Ho anche sviluppato agenti di supporto AI che rispondono alle richieste dei clienti a partire dai dati live della piattaforma e passano il caso a una persona quando la confidenza e' bassa, oltre a integrazioni API (OfficeRnD e Nexudus) per le prenotazioni automatizzate.
+
+Uso regolarmente Python per automazioni, scraping e integrazioni con API di modelli LLM, n8n per orchestrare i workflow, ho una conoscenza di base di FastAPI e di Docker per containerizzare le applicazioni, e lavoro abitualmente con GNU/Linux e Git. Non ho esperienza diretta con Selenium, ma ho automatizzato test e processi di scraping con Playwright.
+
+Sono cittadino indiano con status di soggiornante di lungo periodo UE in Italia, autorizzato a lavorare in Italia senza necessita di sponsorizzazione, e la collaborazione sarebbe gestita tramite la mia Partita IVA attiva. Sono disponibile da subito.
+
+Cordiali saluti,
+Prabhavit Gupta

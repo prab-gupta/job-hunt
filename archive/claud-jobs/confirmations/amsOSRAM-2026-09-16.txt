@@ -1,0 +1,18 @@
+ams OSRAM - Agentic AI Engineer (d/m/f) - Carnaxide, Lisbon, Portugal (hybrid)
+NOT SUBMITTED - account creation wall.
+
+LinkedIn: https://www.linkedin.com/jobs/view/4466072410/
+Apply on company website -> SuccessFactors:
+https://career5.successfactors.eu/careers?company=OSRAMP&career_job_req_id=23485&career_ns=job_application&jobPipeline=LinkedIn&utm_source=LinkedinJobPostings
+
+The very first step of the application form (same page as the CV/cover-letter upload) requires
+Email Address, Retype Email Address, Choose Password (8-18 chars, upper+lower, number/punctuation),
+Retype Password, First Name, Last Name, Primary Phone before anything else can be submitted.
+No guest-apply path exists. Account creation is user-only, so the flow was stopped here.
+
+Prabhavit_CV_amsOSRAM.pdf (2 pages, parity-checked against Prabhavit_CV_EN.tex, already tailored:
+FlowSpace AI agents/API integrations led, UltraStrategy CV-parsing pipeline kept at 2 bullets,
+Get2Germany kept at 3 bullets) and CoverLetter_amsOSRAM.pdf/.txt (FlowSpace AI listing bot + RAG
+support agents lead paragraph, UltraStrategy CV-parsing/Affinda/Claude API + Copilot Studio
+certifications second paragraph, Portugal work-authorisation transparency line) are ready to upload
+once an account exists.

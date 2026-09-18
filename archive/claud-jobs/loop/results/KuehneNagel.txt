@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466549138/ (ATS: Phenom People, https://jobs.kuehne-nagel.com/global/en/apply?jobSeqNo=KUNAGLOBAL16834EXTERNALENGLOBAL, req 16834, jobApplicationId=689947)
+Uploaded: Prabhavit_CV_KuehneNagel.pdf via "CV Upload" (confirmation alert "CV Uploaded Successfully"), CoverLetter_KuehneNagel.pdf via "Additional Documents > Select File to Upload" (confirmation alert "Cover Letter Uploaded Successfully").
+Answers given:
+- Name/email/address: Prabhavit Gupta, prabhavitg@gmail.com, Via Zanetti 10, Venice, Venezia, Italy, 30175, phone +39 351 610 7807
+- Language Proficiency: English, Hindi, Italian (three rows via "+ Add Language")
+- Earliest start date: Available immediately, ready to start within two weeks of an offer.
+- Salary expectation: EUR 45,000-55,000 gross annually.
+- Do you require a work permit to work with us?: Yes (Wroclaw/Poland is not Italy; per work-authorisation.md, not currently authorised, needs employer-side permit).
+- Marketing/email consent checkbox: left unticked. Required privacy/data-consent checkbox: ticked.
+- Cookie banner: Reject All (decline non-essential).
+Blockers: none in Playwright. The frozen-upload trap that stopped the Chrome agent on both the CV Upload and Additional Documents inputs did not occur here - both file choosers opened normally and both uploads completed with a confirmation alert dialog (handled via browser_handle_dialog accept:true).
+Result: "You have successfully applied. Thank you for showing interest in working at Kuehne+Nagel. Kind regards, your Recruitment Team" - landed on /applythankyou?status=success. Screenshot: confirmations/KuehneNagel-2026-09-16.png/.txt.
+LEARNINGS: Confirms apply-bot/PATTERNS.md's Phenom People frozen-upload trap is Chrome-specific - Playwright's browser_file_upload plus browser_handle_dialog for the "Uploaded Successfully" alert works cleanly on jobs.kuehne-nagel.com. Multi-language fields use a repeating "+ Add Language" group; each new row's combobox gets a fresh ref/id (languageData[N].languagesAreYouProficientIn2) - snapshot after each Add Language click rather than assuming ref numbering.

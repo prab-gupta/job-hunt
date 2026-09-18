@@ -1,0 +1,123 @@
+\documentclass[a4paper,7pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.55cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{3pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[0pt]%
+ \textit{#3} \hfill \textit{#4}\\[0pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=-1pt, topsep=0pt, parsep=0pt}
+
+\begin{document}
+\renewcommand{\baselinestretch}{0.72}\small\normalsize
+
+% ================= HEADER =================
+\begin{center}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Full-Stack Engineer | TypeScript, Laravel \& AI Automation}\\[5pt]
+ \faPhone\ +39 351 610 7807 \quad
+ \faEnvelope\ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} \quad
+ \faLinkedin\ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} \quad
+ \faGithub\ \href{https://github.com/prab-gupta}{prab-gupta} \quad
+ \faMapMarker*\ Venice, Italy
+\end{center}
+
+% ================= SUMMARY =================
+\section{Summary}
+I build and ship full-stack product features and practical AI automation for real users. I write TypeScript, Laravel, Next.js, JavaScript, and Python, and connect LLMs, APIs, and data workflows end to end. At FlowSpace I led the migration of a live marketplace onto a coded Next.js + Laravel stack, scaling it from 2,000 to 4,500+ users while owning the AI features on top.
+
+% ================= PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+ \item \textbf{AI Listing Bot (FlowSpace):} human-in-the-loop tool that ingests a brochure in any format (PDF, website, image, or spreadsheet), drafts a full listing with an LLM, and pushes it to the backend after review. Owned end to end. Stack: n8n, Claude, TypeScript.
+ \item \textbf{Platform migration to Next.js + Laravel (FlowSpace):} led the move from a legacy no-code stack to a coded Next.js and Laravel stack. Mapped the data model, chose the migration path per entity (API endpoints or CSV export), and drove the cutover. Scaled from 2,000 to 4,500+ users.
+ \item \textbf{CRM \& GTM automation (FlowSpace):} built a CRM-to-platform integration for automated lead capture, enrichment, routing, and outbound.
+ \item \textbf{Booking API integrations (FlowSpace):} integrated the OfficeRnD and Nexudus APIs for automated bookings.
+ \item \textbf{CV parsing tool (UltraStrategy):} LLM data extraction with n8n and Eden AI across multiple user profiles.
+\end{itemize}
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{Languages \& frameworks:} TypeScript, Laravel (PHP), Next.js, JavaScript, Python
+ \item \textbf{Product \& AI:} full-stack web development, n8n, Claude, Claude Code, OpenAI/ChatGPT APIs, LLM integration, AI agents, RAG, chatbots, prompt engineering
+ \item \textbf{APIs \& integration:} REST APIs, webhooks, third-party integrations (OfficeRnD, Nexudus, Google, CRM)
+ \item \textbf{Testing \& QA:} Playwright, unit testing, human-in-the-loop review
+ \item \textbf{Tools:} Postman, GitHub, Jira, Figma
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Present}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+\textit{Own product and automation end to end for a workspace marketplace.}
+\begin{itemize}
+ \item Built GTM automations for the sales funnel: lead enrichment, routing, and outbound.
+ \item Automated CRM lead capture by integrating the company CRM with the platform.
+ \item Cut manual support work with AI agents that handle customer queries.
+ \item Designed and shipped the AI listing bot (see Selected Projects). Owned it end to end.
+ \item Own the API integrations with OfficeRnD and Nexudus for automated bookings.
+ \item Led the migration from a legacy no-code stack to a Next.js and Laravel stack. Scaled from 2,000 to 4,500+ users.
+ \item Documented product and business logic with the dev team. Coordinated delivery with an external agency.
+ \item Triage and resolve customer issues end to end.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 -- Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
+\begin{itemize}
+ \item Built the platform and its logic with AI-assisted development; implemented client-driven automations. Stack: GitHub, Netlify, Supabase, bolt.new.
+\end{itemize}
+
+\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 -- May 2025}{Automation Developer (Collaborator)}{France}
+\begin{itemize}
+ \item Built the CV-parsing tool (see Selected Projects) and a platform serving different user profiles. Stack: n8n, Eden AI.
+\end{itemize}
+
+\role{Qomodo}{2024 -- Jan 2025}{AI \& Low-Code Developer (Collaborator)}{Milan, Italy}
+\begin{itemize}
+ \item Built a dashboard for companies to manage their branches; implemented Figma designs.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Lead Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+\begin{itemize}
+ \item Integrated Google APIs, built AI automation tools to find courses, internships, and jobs, and optimized the database. Stack: n8n, Figma, Google APIs.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Low-Code Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+\begin{itemize}
+ \item Integrated the Clubee API across the frontend, ran unit testing and QA, and built domain-integration, shop, and federation-dashboard tools.
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Integrated ChatGPT/OpenAI and Sendgrid; built responsive designs and debugged features.
+\end{itemize}
+
+% ================= CERTS =================
+\section{Certifications}
+Tray.AI Build Practitioner (Sep 2024) \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\section{Work Authorization \& Languages}
+European Long Term Residence Permit (Italy). No sponsorship required. Hindi (native), English (professional), Italian (beginner).
+
+\end{document}

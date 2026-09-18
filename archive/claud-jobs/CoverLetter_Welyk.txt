@@ -1,0 +1,14 @@
+Gentile team di Welyk,
+
+mi candido per la posizione di AI Engineer su Irnerius. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, su prodotti in produzione con utenti reali, ed è proprio questo tipo di autonomia tecnica end to end che cercate in una prima figura tecnica interna.
+
+Per UltraStrategy ho costruito la pipeline che elabora e valuta i documenti caricati dagli utenti: il CV viene estratto e analizzato, il sistema valuta la rilevanza del profilo per specifici tipi di ruolo e infine genera un documento standardizzato. Per l'estrazione e la valutazione abbiamo usato Affinda e le API di Claude, con n8n ed Eden AI nella prima versione: lo stesso lavoro di AI applicata a documenti e conoscenza specialistica che descrivete per il settore legale e tributario.
+
+Per FlowSpace ho costruito agenti AI di supporto che rispondono alle richieste dei clienti attingendo ai dati live della piattaforma e passano il caso a una persona quando la sicurezza della risposta è bassa, lo stesso pattern di recupero delle informazioni che serve per un motore di valutazione tra modelli diversi. Nello stesso ruolo ho automatizzato in produzione la migrazione dei dati verso Next.js e Laravel, portando la piattaforma da 2.000 a oltre 4.500 utenti senza interrompere il servizio.
+
+Per Get2Germany ho integrato le API di Google e costruito con n8n strumenti AI per trovare corsi, stage e offerte di lavoro: lo stesso lavoro di automazione e integrazione tra sistemi interni che citate nell'annuncio.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e sono disponibile per la sede di Milano. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

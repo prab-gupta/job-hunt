@@ -1,0 +1,15 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4444008201/ (Forward Deployed Engineer Manager, Accenture Italia, Milan)
+Accenture job page (req R00345222): https://www.accenture.com/it-it/careers/jobdetails?id=R00345222_it&src=LINKEDINJP
+Workday apply page: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/Forward-Deployed-Engineer-Manager_R00345222/apply
+
+Uploaded: nothing (blocked before upload step).
+Prepared: Prabhavit_CV_AccentureFDE.pdf (2 pages, from Prabhavit_CV_EN.tex, verbatim bullets; same content as Prabhavit_CV_Salesforce.pdf, built as a separate file so the existing Prabhavit_CV_Accenture.pdf from the earlier Analyst-req NEEDS YOU row is not overwritten), CoverLetter_AccentureFDE.pdf/.txt (0 em-dashes, English).
+
+Answers given: none (form never reached).
+
+Blockers: LinkedIn Apply -> accenture.com job page (req R00345222, distinct from the Analyst R00344568 and Specialist R00344641 requisitions already on file) -> "Candidati ora" -> Workday chooser (Autofill with Resume / Apply Manually / Use My Last Application) -> "Apply Manually" -> step 1 of 6 "Create Account/Sign In" offering only "Sign in with Google" or "Sign in with email". Same accenture.wd103.myworkdayjobs.com tenant that has account-walled every Accenture requisition tried this session (Analyst, Specialist, DACH, Slovakia). No guest-apply path. Per the standing no-account-creation rule, stopped here.
+
+Hard-gate note: JD is Manager-level, asking for "extensive and demonstrable experience leading software engineering teams" and P&L-level commercial ownership, which he does not have (3 years, no formal people management). Per this session's explicit task override (apply to every Forward Deployed Engineer posting on LinkedIn in Italy/EU, Senior/Lead/Manager titles included, kill only for closed/already-submitted/lacks-a-language), this did not kill the row; the letter states the gap plainly per the LI-PICK convention for senior-titled roles.
+
+LEARNINGS: none new; confirms the established pattern that accenture.wd103.myworkdayjobs.com hard-walls every requisition at Create Account/Sign In with no guest path, regardless of which specific job is being applied to.

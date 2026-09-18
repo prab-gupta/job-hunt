@@ -1,0 +1,26 @@
+STATUS: RETRY PLAYWRIGHT
+URL: https://www.linkedin.com/jobs/view/4465955704/
+Role: Senior Forward Deployed Engineer (SoTalent, recruiter posting)
+ATS: LinkedIn Easy Apply
+
+Dedupe: NEW (python3 loop/dedupe.py --check "SoTalent" "https://www.linkedin.com/jobs/view/4465955704/").
+Hard gates: no Dutch-language requirement found in the JD body (locations offered: Amsterdam/London/Berlin, no language clause at all); English JD; no anti-AI disclaimer; no hard MSc/PhD; role is a Legal Ops AI-tooling FDE, no core-stack disqualifier. Passed all gates under the FDE-ALL rule, apply-anyway (recruiter posting).
+
+Blocker: this is a single-page Easy Apply form (contact info + resume + Follow checkbox + Submit, no Additional Questions page). The Resume section's "Upload resume" button does not inject a visible/accessible file input for Claude in Chrome: confirmed via JS that the page's one input[type=file] stays display:none even after clicking Upload resume twice; find() and read_page() (filter=all, scoped to the button) never expose a ref for it, so file_upload cannot target it. Default-selected resume in the picker was the wrong stale file (Prabhavit_CV_Aircall.pdf). Did NOT submit. Discarded the in-progress application (chose Discard, not Save, so no partial/wrong-CV application was left pending on LinkedIn's side).
+
+Already known field values for the retry (all confirmed correct, no need to re-derive):
+- Email: prabhavitg@gmail.com (auto-filled)
+- Phone country code: Italy (+39)
+- Phone: 3516107807 (auto-filled as "+39 3516107807")
+- Location shown on profile card: Venice, Veneto, Italy (no separate location field on this form)
+- Resume to upload: Prabhavit_CV_SoTalent.pdf (already built, in ROOT, from Prabhavit_CV_EN.tex via the FDE tailoring pattern, parity-diffed, 2 pages)
+- Cover letter: no upload field on this Easy Apply flow; CoverLetter_SoTalent.pdf/.txt already built and kept on file
+- Follow SoTalent checkbox: defaults to checked; uncheck before submitting
+- No other questions/pages on this form - resume upload is the only remaining step before Submit application
+
+CV/letter fit rationale (for the retry agent, so it does not have to re-derive): FlowSpace lead paragraph (live migration, support AI agent, CRM/GTM automations) paired with Urlink (AI-assisted platform build + client-driven automations) per the Legal Ops AI-tooling theme. Netherlands work-authorisation transparency line already in the letter (Italian EU LTR does not auto-extend to the Netherlands, needs employer-side permit, ready to relocate/work on-site).
+
+--- RETRY (Playwright) 2026-09-17 ---
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465955704/
+Resolved the Chrome handoff blocker (resume input stayed display:none) by switching to Playwright: clicked "Upload resume" (opens native file chooser, handled by browser_file_upload) and uploaded /Users/prab/Downloads/claud jobs/Prabhavit_CV_SoTalent.pdf explicitly. Verified the radio for Prabhavit_CV_SoTalent.pdf was checked (default had been the stale Prabhavit_CV_Plum.pdf, not Aircall this time) before proceeding. Unchecked the "Follow SoTalent" checkbox (defaulted checked). Contact info pre-filled correctly: email prabhavitg@gmail.com, phone +39 3516107807. No Additional Questions page on this Easy Apply form (single page: contact info, resume, follow checkbox, submit). Clicked Submit application; re-snapshotted and confirmed "Application submitted" / "now" in the Application status panel on the live job page. Screenshot at confirmations/SoTalent-2026-09-17.png, success text at confirmations/SoTalent-2026-09-17.txt. applications.csv row appended (date 2026-09-17, status SUBMITTED). No new ATS trap beyond what the earlier Chrome RETRY note already logged (LEARNINGS already covers the LinkedIn Easy Apply resume-picker default-to-last-upload behaviour from 2026-09-16 18:31; this case was a different failure mode, a hidden display:none input in Chrome, not a stale default, so no new LEARNINGS line needed).

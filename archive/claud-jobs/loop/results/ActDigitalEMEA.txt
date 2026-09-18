@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://fr.linkedin.com/jobs/view/forward-deployed-engineer-%E2%80%93-applied-ai-at-act-digital-emea-alter-solutions-4465576734
+Job id: 4465576734, ATS: jobposting.pro (offsite company form, "Responses managed off LinkedIn")
+
+Dedupe: HIT COMPANY~ on "act digital" fuzzy match, but the matching applications.csv row (2026-09-16, act digital, AI Agent Developer, SUBMITTED) is a different requisition at a different city (Lisbon vs this Paris FDE Applied AI role). Task confirmed this is a distinct requisition and to apply. Not blocked.
+
+JD: fetched via LinkedIn guest API, entirely in French, no explicit French-language requirement found in the text, no anti-AI disclaimer. Posting is written for senior profiles (Tech Lead/Principal/AI Architect/CTO) but per USER RULE 2026-09-17 there is no seniority kill for these FDE rows.
+
+Uploaded: Prabhavit_CV_ActDigitalEMEA.pdf (built fresh from Prabhavit_CV_EN.tex, 2 pages, zero invented lines). CoverLetter_ActDigitalEMEA.pdf/.tex/.txt built (English, 0 em-dashes); the offsite form had a "personalise your message" textarea instead of a separate cover-letter upload slot, so the full letter text was pasted there in place of the site's stock French boilerplate message.
+
+Answers given:
+- Prenom Prabhavit, Nom Gupta, Email prabhavitg@gmail.com, Telephone +39 351 610 7807
+- Civilite Monsieur, Disponibilite Immediate
+- Experience "3 a 5 ans" (honest 3 years; JD infobox states 5 ans minimum, no kill applied)
+- Diplome "BAC+2/3" (honest for a Bachelor's; JD infobox states BAC+4/5, not inflated)
+- Salary "45 a 50 000" EUR brut annuel (bottom of standing 45-55k band)
+- Keywords: LLM, RAG, AI agents, API integration, n8n, Python, TypeScript, Next.js, Laravel, Claude API, automation, Playwright, Supabase
+
+Confirmation: page title "Confirmation de votre candidature ... | 2700189", text "Nous vous confirmons la bonne prise en compte de vos informations. Votre candidature est maintenant complete." Re-read the page after the final Envoyer click before logging. Saved to confirmations/ActDigitalEMEA-2026-09-17.txt.
+
+Fit/notes: FlowSpace + UltraStrategy proof paragraphs, honest that 3 years is short of the tech-lead/principal backgrounds listed, France work-authorisation transparency line included. See answers/actdigitalemea-2026-09-17.md.
+
+applications.csv row appended with status SUBMITTED.

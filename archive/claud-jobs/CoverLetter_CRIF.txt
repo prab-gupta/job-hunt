@@ -1,0 +1,14 @@
+Dear CRIF hiring team,
+
+I am applying for the GenAI Platform and Operations Engineer role in Bologna. I have three years of hands-on experience building Generative AI features across several European companies, working directly with LLM APIs including the Claude API and OpenAI, and I want to bring that applied GenAI background into your Cloud Engineering and Operations team.
+
+At UltraStrategy, a French company, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores how relevant the candidate is for specific role types, and delivers the result to the frontend, generating a standardised CV. This involved prompt engineering and orchestrating the API calls that kept the pipeline reliable in production.
+
+At FlowSpace, a live workspace marketplace, I built and operate an AI listing bot that takes a brochure in any format and drafts a full listing with a human in the loop, using n8n and the Claude API, producing more than 900 draft listings. I also built support agents that answer customer questions from live platform data (a RAG pattern) with escalation to a human on low confidence, plus REST integrations with OfficeRnD and Nexudus.
+
+I am upfront that my production experience sits on the application and API side of GenAI systems rather than cloud infrastructure administration, and I am not claiming hands-on Azure, AWS or Kubernetes experience. What I bring is real LLM and prompt engineering practice and a fast learning curve across eight roles in three years.
+
+I am based in Venice, hold an EU Long Term Residence Permit, and am authorised to work in Italy without sponsorship. Available immediately and open to the Bologna hybrid arrangement.
+
+Regards,
+Prabhavit Gupta

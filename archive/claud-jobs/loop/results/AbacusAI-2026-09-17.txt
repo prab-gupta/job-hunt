@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468381335/ (redirected to https://careers.b.abacusai.app/careers/cmse9lath0001n4086gut5qze)
+ATS: custom form (careers.b.abacusai.app)
+Uploaded: Prabhavit_CV_AbacusAI.pdf (tailored, career summary trimmed to 2 bullets, FlowSpace/UltraStrategy bullets reordered to lead with AI-agent and API-integration work)
+Cover letter: CoverLetter_AbacusAI.tex/.pdf/.txt built (FlowSpace + UltraStrategy proof paragraphs, Poland transparency line), but the form had no cover-letter field so it was not attached/pasted.
+Answers given: Current Company FlowSpace, Current Role Lead Developer, Current Location Venice Italy, Gender Prefer not to say, School Ca' Foscari University of Venice, Years of Experience 3 years, Notice Period 15 days, Key Skills TypeScript/Next.js/Python/LLM APIs/RAG/API Integration/n8n/Laravel, Expected Salary $48,000 (EUR 45,000 converted, field required USD).
+Blockers: none.
+Dedupe: NEW (python3 loop/dedupe.py --check "Abacus.AI" "https://www.linkedin.com/jobs/view/4468381335/").
+Confirmation: confirmations/AbacusAI-2026-09-17.txt ("Application Submitted! Thank you for applying for Customer Success Engineer - Europe. Our recruiting team will review your application and reach out if there's a good fit.")
+LEARNINGS: none new (straightforward single-page custom ATS form, file input only discoverable via find(), not in read_page interactive list).

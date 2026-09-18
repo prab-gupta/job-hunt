@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4417702775/ -> https://careers.snowflake.com/.../SNCOUS7EFCFE1247594E518A308EA79EAB418EEXTERNALENUS467250B043BC47AA91D56312687E4097 (req ASHREQ-5362) -> https://jobs.ashbyhq.com/snowflake/467250b0-43bc-47aa-91d5-6312687e4097/application
+Note: earlier applications.csv row (2026-09-03) for this exact careers.snowflake.com URL was logged DEAD - CLOSED; task named this a live requisition to re-check, the live page confirmed it open (reposted, over 100 clicked apply), and the ATS turned out to be a guest-friendly Ashby form, not a Workday account wall, so it was submitted without creating any account.
+Uploaded: Prabhavit_CV_Snowflake.pdf (resume field), CoverLetter_Snowflake.pdf (Additional Attachments field).
+Answers given: Name Prabhavit Gupta, email prabhavitg@gmail.com, relocation-to-Warsaw-office = Yes, most recently worked = FlowSpace, worked at Snowflake before = No, authorised to work in Poland = No (per work-authorisation.md), U.S. person status = None of the above, citizen of a different country, PwC conflict = No, Candidate Privacy Notice = agreed.
+Confirmation: "Success - Your application was successfully submitted. We'll contact you if there are next steps."
+See answers/snowflake-2026-09-16.md, confirmations/Snowflake-2026-09-16.txt.

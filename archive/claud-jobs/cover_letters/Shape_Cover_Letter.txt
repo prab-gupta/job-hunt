@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I want to join Shape because the problem you have described is exactly what I spent two and a half years solving at FlowSpace. Revenue data scattered across systems, no automation connecting it, and a team making decisions without the signals they needed. I built the engine that fixed that, and I want to do it again at a company that is serious about construction technology and serious about its people.
+
+What I bring is direct, hands-on experience with the exact stack and mindset you are asking for. At FlowSpace I built and owned the GTM automation layer using n8n, connecting Attio (CRM), Amplemarket (outbound), Swan (payments), OfficeRnD and Nexudus (booking platforms) into automated workflows that served a revenue team daily. I also built AI agents in production using Claude and OpenAI that answer customer queries against live platform data and escalate on low confidence. Claude is my daily driver for development, automation and problem-solving, and I would be the most advanced Claude user on your team from day one.
+
+The most interesting automation I have built is an AI listing bot at FlowSpace. The property team used to spend hours manually creating marketplace listings from brochures, PDFs, web pages and spreadsheets. I built a pipeline that ingests any of these formats, uses an LLM to extract and draft the full listing (photos, descriptions, pricing, facilities), presents it for human review, and pushes it to the backend on approval. It turned hours of manual work per listing into minutes, and the engine scaled FlowSpace's catalog without adding headcount. The key was designing it as a system, not a one-off script: it handles edge cases, validates data, and runs reliably in production every day.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit, available immediately, and the remote, self-directed nature of this role matches how I work best.
+
+Regards,
+Prabhavit Gupta

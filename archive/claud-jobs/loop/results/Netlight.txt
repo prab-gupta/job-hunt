@@ -1,0 +1,38 @@
+STATUS: SUBMITTED
+
+URL: https://jobs.lever.co/netlight/8fa70f6e-3640-4384-bb1d-a108f130fef4/apply (via arbeitnow: https://www.arbeitnow.com/jobs/companies/netlight/software-engineering-data-and-ai-engineering-it-management-consultant-2026-27-graduate-hamburg-96453)
+Confirmation URL: https://jobs.lever.co/netlight/8fa70f6e-3640-4384-bb1d-a108f130fef4/thanks
+
+Dedupe: python3 loop/dedupe.py --check "Netlight" -> NEW. grep of applications.csv for Netlight found no prior rows. Proceeded.
+
+Hard gates re-checked on the live JD (arbeitnow text + Lever page):
+- No anti-AI disclaimer anywhere.
+- "Soon-to-be/recent Graduate (2026/2027) with a relevant Master's Degree ... (or Bachelor's + >=2yrs of full-time experience)": not a strict MSc requirement, there is an explicit Bachelor's + experience alternate route. Prabhavit holds a Bachelor's (Ca' Foscari, Jun 2024) plus continuous professional experience since Aug 2023 (about 3 years), satisfying the alternate route.
+- Title is a graduate-program consultant role, not Senior/Staff/Lead/Principal/Manager/CTO.
+- JD text only requires "Full business-level fluency in English"; no German requirement stated in the JD body. The application form itself has an informational German-level dropdown, answered honestly as "B1 or below" since Prabhavit does not speak German; per task instructions this alone is not a kill.
+- No unclaimable core-stack requirement (generalist consultancy: Fullstack, Backend, Data Engineering, Cloud, Architecture, Web, DevOps).
+- Location is Hamburg, Germany, on-site/relocation. On-site EU roles are an acceptable target; work authorisation handled with the Germany transparency line (not currently authorised, would need employer-side permit, ready to relocate).
+No kill triggers found. Applied.
+
+Uploaded:
+- Resume/CV: Prabhavit_CV_Netlight.pdf (built fresh from Prabhavit_CV_EN.tex, verbatim bullets, 2 pages). Career Summary trimmed to 2 bullets; Technical Skills reordered (Development first); FlowSpace's two exact-duplicate bullets under Technical Responsibilities removed; UltraStrategy kept both existing bullets and Get2Germany reordered to put the AI-automation-tools bullet next to the Google APIs bullet, satisfying the AI/automation 2-bullet-per-role minimum since the JD names a "Data and AI Engineering" track. No claims invented, no roles/dates/locations touched.
+- Cover letter: CoverLetter_Netlight.pdf uploaded into the "Other documents" slot (this Lever form has no dedicated cover letter field). English, no em-dashes (grep count 0). Two proof paragraphs: FlowSpace (legacy-stack migration onto Next.js/Laravel, OfficeRnD/Nexudus integrations, support AI agents) and UltraStrategy (CV-parsing pipeline, Affinda + Claude API, Ultra CV generation, user-profile platform), framed around client-facing consulting delivery. Germany work-authorisation transparency line included (not authorised, would need employer-side permit/sponsorship, ready to relocate to Hamburg).
+
+Answers given on the Lever form:
+- Full name / Email / Phone: auto-filled correctly from the resume parse (Prabhavit Gupta, prabhavitg@gmail.com, +393516107807), verified against Identity.
+- Current location: autofill initially produced "Venice, ITA" with a "No location found" error; cleared and retyped "Venice", selected the "Venice, ITA" autocomplete suggestion, resolved cleanly.
+- Current company: FlowSpace.co (autofilled, accurate).
+- LinkedIn URL: https://www.linkedin.com/in/prabhavit/
+- Highest degree completed: Bachelor's Degree
+- (Expected) Year of Graduation: 2024
+- English level: C1 or higher (= business fluent)
+- German level: B1 or below (= basic) -- honest, no German claimed anywhere per standing rules
+- Based in Hamburg / willing to relocate: "I am currently not based in Hamburg but willing to relocate"
+- Preferred starting date: "Available immediately; can start two weeks after an offer."
+- Other documents: CoverLetter_Netlight.pdf
+
+Blockers: none. No CAPTCHA challenge rendered (Lever's hCaptcha widget was present in the DOM but passive/invisible, never surfaced a checkbox or challenge). No account wall, no anti-AI attestation.
+
+Confirmation saved to confirmations/Netlight-2026-09-17.txt (Claude in Chrome cannot save PNG screenshots to disk, so per the brief the txt with the verified success text "Application submitted!" and the /thanks URL is the record).
+
+Full gate-check and tailoring log: answers/netlight-2026-09-17.md

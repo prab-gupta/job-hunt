@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://www.arbeitnow.com/jobs/companies/eraneos/remote-forward-deployed-engineer-all-genders-261351 (Forward Deployed Engineer (all genders), Eraneos, Hamburg/Munich/Dusseldorf/remote)
+
+Uploaded: nothing, no materials built.
+
+Blocker: hard gate, checked on the live JD raw text (curl, not a summary). The posting states: "German at C1 level or above and full professional proficiency in English." That is an explicit German-language requirement, not a "nice to have", which is a kill per the standing rule for this batch (German required = kill, "a plus" = fine). Second, independent reason: the same page carries "This job position has been removed from Arbeitnow and might not be hiring still" (closed-posting gate). Dedupe: python3 loop/dedupe.py --check "Eraneos" <url> -> NEW, no prior row for this company in applications.csv.
+
+LEARNINGS: none new (matches the existing pattern of checking the employer's own language requirement rather than trusting a LinkedIn/arbeitnow summary).

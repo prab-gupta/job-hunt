@@ -1,0 +1,14 @@
+Dear Personio Hiring Team,
+
+I am writing to apply for the Software Engineer (d/f/m), Internal AI role in Berlin. The Internal AI team's brief, building the agents and automations that a company runs on internally, is close to what I have already been doing across three years of full-stack and AI work in eight European companies.
+
+At UltraStrategy, I built a CV-parsing and profile-assessment pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and assesses how relevant the candidate is for specific role types, the result is delivered to the frontend, and the pipeline then generates a standardised "Ultra CV" with the Claude API. I also built the platform serving the different user profiles behind it. At Urlink, I led AI-assisted development on the platform and its logic, building on Next.js and Supabase and implementing client-driven automations while owning the client requirements directly, work close to internal tooling built for one operational need rather than a generic product.
+
+At FlowSpace, I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, and I automated the data migration onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live and grew from 2,000 to over 4,500 users.
+
+I have three years of professional experience and am not yet authorised to work in Germany. Personio would need to file the work permit on my side, and I am ready to relocate to Berlin for this role.
+
+I would welcome the chance to bring this experience to Personio's Internal AI team.
+
+Best regards,
+Prabhavit Gupta

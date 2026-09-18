@@ -1,0 +1,38 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4464618148/
+Applied via: LinkedIn "Apply" -> external redirect to Ashby ATS
+https://jobs.ashbyhq.com/Staycation/9cc9d2ac-4478-442a-a2b6-9b3deca9efd4 (not LinkedIn Easy Apply
+- this posting's responses are managed off LinkedIn).
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (filename verified on the form after upload).
+
+Answers given:
+- Full name / email / phone / LinkedIn: standard identity fields, filled via character-typed
+  input to satisfy Ashby's React controlled fields.
+- French proficiency: Beginner (lowest of 5 forced options, no "None" available; JD lists French
+  as nice-to-have only, not a Must-have).
+- English proficiency: Fluent (matches C1 professional/fluent from master profile).
+- "Why do you think you'd be a great fit for this role?" (explicit form note: "we are not
+  expecting a cover letter"): FlowSpace marketplace stack (Next.js/TypeScript/Node/Laravel,
+  Supabase/PostgreSQL), OfficeRnD + Nexudus booking integrations, AI listing pipeline (900+
+  listing records) - all traced to Prabhavit - Master Experience.md.
+- Salary expectations: EUR 50,000.
+No work-authorisation, years-of-experience, or notice-period fields existed on this form.
+
+Blockers: none. No CAPTCHA, no account/login wall.
+
+Cover letter: CoverLetter_Staycation.txt (197 words) and CoverLetter_Staycation.pdf (1 page,
+built via tectonic from the eduBITES .tex template) were prepared per brief but this ATS had no
+attachment/paste field for a full letter - only the shorter fit-statement box above, which was
+used instead. Files kept in ROOT for the record.
+
+Confirmation: "We have received your application and thank you for considering Staycation in
+your job search. We promise to review your application carefully and get back to you as soon as
+possible." Screenshot taken in-session; text logged to
+confirmations/Staycation-2026-09-09.txt.
+
+LEARNINGS: Staycation's Ashby form has a required "French proficiency" radio question
+(Native/Fluent/Advanced/Intermediate/Beginner, no "None" option) even though the LinkedIn JD only
+lists French implicitly via location and does not state it as a requirement. Answered Beginner
+as the honest floor given the forced choice; flag this pattern for other France-based Ashby forms.

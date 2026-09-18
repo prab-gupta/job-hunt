@@ -1,0 +1,4 @@
+Cyclomedia Technology - Forward Deployed Engineer - Recruitee application form
+URL after submit: https://cyclomediatechnology.recruitee.com/o/forward-deployed-engineer/applied
+Success text shown: "Applied - All done! Your application has been successfully submitted!"
+Submitted 2026-09-16: Full name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807 (Italy), CV Prabhavit_CV_Cyclomedia.pdf, Cover letter CoverLetter_Cyclomedia.pdf, plus 4 free-text questions (location/on-site, salary expectation, cloud infrastructure experience, agentic AI/LLM experience).

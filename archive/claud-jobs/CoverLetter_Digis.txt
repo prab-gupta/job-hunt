@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Digis Hiring Team,
+
+I am writing to apply for the Quality Assurance Automation Engineer role in Warsaw. I have three years of professional experience across eight European companies, much of it spent testing and integrating the platforms I helped build, using Python and Playwright for test automation.
+
+At Clubee, a platform based in Luxembourg, I integrated the Clubee API across the frontend and ran unit testing and quality assurance on every new feature before release, alongside building the shop, domain integration and federation dashboard tools that those tests covered.
+
+At FlowSpace, a workspace marketplace where I have led development since 2024, I use Playwright for automated testing across the product as we grew it from 2,000 to 4,500 plus users, on top of shipping the OfficeRnD and Nexudus booking integrations and an AI listing tool that turns supplier brochures into structured listings, a similar shape of problem to the supplier and inventory integrations this role tests.
+
+I am comfortable with manual and automated testing, cross browser and regression checks, and documenting and reproducing bugs clearly so a team can act on them.
+
+I hold Italian EU long term resident status. I am not currently authorised to work in Poland and would need the applicable employer side permit or sponsorship process. I am ready to relocate to Warsaw and complete that process.
+
+I would welcome the chance to bring this testing experience to Digis and the platform your team is building for online sellers.
+
+Regards,
+Prabhavit Gupta

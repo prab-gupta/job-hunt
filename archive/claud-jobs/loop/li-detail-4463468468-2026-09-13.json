@@ -1,0 +1,14 @@
+{
+  "id": "4463468468",
+  "title": "Artificial Intelligence Engineer",
+  "company": "Coltech",
+  "companyUrl": "https://uk.linkedin.com/company/coltechglobal",
+  "location": "European Union",
+  "date": null,
+  "url": "https://www.linkedin.com/jobs/view/4463468468",
+  "description": "We are working closely on a major project with an exciting AI Enterprise Technology Consultancy based in the UK looking for an AI Product Engineer to join its growing engineering team. Rate: 550-£700/day (Outside IR35) | Fully Remote | 6-Month Initial Contract with Extension Potential. Key Responsibilities Design and build production-grade Agentic AI solutions using LLMs. Develop and optimize Retrieval-Augmented Generation (RAG) pipelines using vector databases and knowledge retrieval frameworks. Build AI agents capable of tool use, workflow orchestration, and autonomous task execution. Implement prompt engineering, evaluation frameworks, and guardrails for enterprise AI applications. Integrate Azure OpenAI, OpenAI APIs, and third-party tools into scalable business solutions. Develop monitoring, observability, and LLMOps processes for deployed AI systems. Optimize latency, cost, and accuracy of GenAI workloads in production. Work closely with stakeholders to identify high-value AI automation opportunities. Skills We're Looking For Hands-on experience with LangGraph, LangChain, CrewAI, AutoGen, or Semantic Kernel Strong knowledge of RAG architectures , embeddings, and vector databases (Pinecone, Weaviate, Azure AI Search) Experience with Azure OpenAI and enterprise AI deployments Strong Python engineering skills Experience deploying AI solutions on Azure using Docker and CI/CD pipelines If you're an engineer who wants to build AI products from problem to production, have genuine ownership and work in an environment where AI is at the heart of the product, I'd love to hear from you.",
+  "seniority": "Mid-Senior level",
+  "employmentType": "Contract",
+  "jobFunction": "Engineering",
+  "industries": "Artificial Intelligence and IT Services and IT Consulting"
+}

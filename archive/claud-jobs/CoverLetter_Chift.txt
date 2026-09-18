@@ -1,0 +1,14 @@
+Dear Chift hiring team,
+
+I am applying for the GTM Engineer role. At FlowSpace, I built and ran the automation layer connecting our CRM, marketing, and sales functions, covering lead capture, enrichment, routing, and outbound, while also owning the AI agents and LLM pipelines that turn raw data into structured, actionable records for the team.
+
+My core stack is n8n for workflow automation, Python and TypeScript for the surrounding logic, and REST APIs and webhooks for the integrations themselves, including OfficeRnD and Nexudus for live booking data. I already use Claude Code and other AI tools daily to build these systems, from data extraction to human in the loop review, and I would bring the same builder mentality to Chift, shipping a rough version fast, watching how it performs, then refining it.
+
+I also scaled the FlowSpace platform from 2,000 to 4,500 plus users and worked directly between the internal team, an external agency, and customers, which is close to the connective role Chift describes between marketing and sales.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Belgium and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Brussels and complete that process.
+
+I would welcome the chance to bring this automation and AI background to Chift's revenue engine.
+
+Regards,
+Prabhavit Gupta

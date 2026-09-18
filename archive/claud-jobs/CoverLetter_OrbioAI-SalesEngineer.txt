@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Orbio AI Hiring Team,
+
+I am writing to apply for the AI Sales Engineer role. My background is engineering with direct client facing delivery rather than quota carrying sales, which I believe fits the technical side of this role, understanding what a customer needs, building the proof of concept, and handing over a solution that actually works.
+
+At Urlink, I worked as both the developer and the project manager on an AI assisted platform build, sitting directly with the client to gather requirements and turning them into working features on Next.js and Supabase. I translated business needs into technical specifications myself and iterated with the client until the platform matched what they actually needed, which is close to the pre sales to implementation handoff this role describes.
+
+At FlowSpace, I built the CRM and GTM automations that support lead capture, enrichment and outbound, and an AI listing bot that turns a brochure in any format into a structured listing with a human in the loop, over 900 produced so far, using the Claude API and n8n. I am used to explaining technical systems like these to non technical stakeholders and to iterating on them from customer feedback.
+
+I am fluent in English, professional level, and have conversational Italian. I do not currently speak Spanish, though I am happy to work towards it. I hold Italian EU long-term resident status and understand the role would need the applicable Spanish work permit process, which I am ready to complete.
+
+I would welcome the opportunity to discuss how I could support Orbio AI's pre-sales and customer success work.
+
+Regards,
+Prabhavit Gupta

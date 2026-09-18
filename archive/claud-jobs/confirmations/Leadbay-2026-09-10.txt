@@ -1,0 +1,30 @@
+Leadbay (YC F25) — Forward Deployed Engineer - FRA
+LinkedIn posting: https://www.linkedin.com/jobs/view/4464152918/
+Application form: https://www.ycombinator.com/companies/leadbay/jobs/5DnVXA8-forward-deployed-engineer-fra (quick-apply modal)
+
+STATUS: NOT SUBMITTED — blocked by a live hCaptcha widget ("I am human", generic label
+"Widget containing checkbox for hCaptcha security challenge") on the apply modal. Per the
+apply-agent brief, CAPTCHA is a user-only blocker: the form was left filled and untouched
+at the CAPTCHA/Send Message step.
+
+Form state at the point of stopping (verified on screen, Claude in Chrome tab 550850079):
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email Address: prabhavitg@gmail.com
+- LinkedIn URL: https://www.linkedin.com/in/prabhavit/
+- Phone: Italy (+39) 351 610 7807
+- Current location: Venice, Metropolitan City of Venice, Italy
+- Upload Resume: Prabhavit_CV_Leadbay.pdf (attached, verified filename shown next to the file input)
+- "What interests you about Leadbay?": filled with an adapted paragraph referencing the
+  FlowSpace CRM/GTM automations, OfficeRnD/Nexudus integrations, support AI agents, the
+  AI listing bot, and github.com/prab-gupta/llm-doc-parser (the JD asks applicants to name
+  one shipped project; the JD explicitly says it "values GitHub projects").
+- hCaptcha checkbox: left unchecked.
+- Send Message button: not clicked.
+
+No success text was produced because the form was not submitted.
+
+The Claude in Chrome tab (id 550850079) was closed after this review; field values do not
+persist across a tab close. To finish: reopen the apply-form URL above, click "Apply to role",
+retype the fields listed (all copied verbatim in answers/leadbay-2026-09-10.md), solve the
+hCaptcha, and click Send Message.

@@ -1,0 +1,16 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear RELEX Solutions Hiring Team,
+
+I am writing to apply for the Product Engineer role in the Greater Venice area. I have three years of experience owning products end to end, from customer requirement through production, and I want to bring that to a Supply Chain product team.
+
+At FlowSpace, I own a live workspace marketplace end to end. I grew usage from 2,000 to 4,500 plus users through iterative product development, driven by real usage and support feedback. I built and still run an AI listing bot that turns a provider's brochure, in any format, into a drafted listing with a human in the loop, producing over 900 drafts, and I built support AI agents that answer customer queries from live data and escalate to a person on low confidence. I also shipped the OfficeRnD and Nexudus API integrations that automated bookings, so I have first-hand DevOps experience building and deploying against existing frameworks and third-party systems.
+
+At Urlink, I worked as project manager and AI-assisted developer for a client studio in Barcelona. I built the platform and its logic on Next.js and Supabase, and sat directly with the client to translate their requirements into working automations, pushing back where the stated need did not match the underlying problem. That combination, close enough to the customer to question the ask, technical enough to ship the fix, is the loop this role is asking for.
+
+I am based in the Greater Venice area, authorised to work in Italy with no sponsorship required, and comfortable using AI tools as part of daily engineering work. I would welcome the chance to discuss the role.
+
+Regards,
+Prabhavit Gupta

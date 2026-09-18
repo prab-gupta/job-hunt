@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4417098641/ (apply routes via LinkedIn safety-redirect to https://jobs.ashbyhq.com/lithosquare/87723620-e098-455b-89a9-d67586fb43b2/application)
+Uploaded: Prabhavit_CV_Lithosquare.pdf (Resume, required). No cover letter field on this form.
+Answers given:
+- Name: Prabhavit Gupta / Email: prabhavitg@gmail.com
+- "Are you eligible to work in France ?": No (honest per work-authorisation.md)
+- "Will you require a visa sponsorship?": Yes (honest)
+- "Where are you currently based (City/Country)?": Venice, Italy
+- "What are your salary expectations ?": EUR 45,000
+- Notice period: Immediately available
+- English proficiency: Professional (never Fluent/Native per standing rule)
+- Geospatial data experience: No (honest, no GIS/geospatial background)
+Submitted successfully: "Your application was successfully submitted. We'll contact you if there are next steps."
+Screenshot: confirmations/Lithosquare-2026-09-16.png, text: confirmations/Lithosquare-2026-09-16.txt
+Blockers: none.
+LEARNINGS: same Ashby stale-field-validation bug as the Harmattan AI row today, this time on the Name field -
+fill() left the field visually correct but Ashby's client validation flagged it "Missing entry for required
+field: Name" on first submit. Fix again: click field, select-all, backspace, retype with fill(), click another
+field to blur, then resubmit. Two occurrences in one session on two different jobs.ashbyhq.com/<company> forms
+via Playwright fill_form/fill - looks like a real, repeatable Ashby quirk (likely a React onBlur/onChange
+mismatch) rather than a one-off; worth adding to LEARNINGS.md as a general Ashby-via-Playwright note: always
+verify no "Your form needs corrections" alert appears after Submit before treating a rejected submit as a real
+blocker, and retry once with select-all-retype-blur before escalating.

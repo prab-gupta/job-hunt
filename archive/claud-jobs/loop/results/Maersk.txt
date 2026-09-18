@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4456701654/
+ATS: Maersk own Workday tenant, https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/DKCPH55---Copenhagen---Esplanaden-50/Software-Engineer_R193814?source=LinkedIn
+
+Dedupe: NEW (no prior Maersk row in applications.csv).
+Apply-button pre-check: grep -c apply-button on the guest jobPosting HTML = 1 (posting live). No "Not currently accepting applications" banner on the live LinkedIn page.
+Live-page apply check: LinkedIn shows a plain "Apply" button, not Easy Apply ("Responses managed off LinkedIn"), which routes to Maersk's own Workday careers site, requisition R193814, Copenhagen (DKCPH55, on-site, full-time).
+
+Hard gates re-checked on the full JD (via curl guest jobPosting endpoint): "2-5 years of experience" (bucket contains 3, passes), title "Software Engineer" (not Senior/Lead/Principal/Manager/CTO), education "BE or B Tech in a Computer Science or a science/engineering discipline" (Bachelor's, not a hard MSc/PhD gate), JD is English with no Danish language requirement, "Proficiency in Python, Java, or similar programming languages" (Python explicitly listed, so not a Java/.NET/Go/Rust-only core stack), cloud platforms only "familiarity" (not a cloud-admin requirement), no anti-AI clause found via grep. All gates passed.
+
+What was uploaded: nothing. What was filled: nothing. The application wizard's first step, "Create Account/Sign In," is mandatory even via "Apply Manually" (tried first per the Telia-guest-flow exception): only Sign in with Apple, Sign in with Google, or Sign in with email are offered, no guest-continue path. "Autofill with Resume" and "Use My Last Application" hit the same wall. Per policy, no account was created and no sign-in was attempted.
+
+Tailored materials were built and are ready in ROOT for the user to upload once signed in: Prabhavit_CV_Maersk.tex/.pdf (2 pages, tectonic clean, career summary/skills/experience reordered and trimmed for the AI & Data JD, no sentence rewritten) and CoverLetter_Maersk.tex/.pdf/.txt (205 words, 0 em-dashes, claims traced to Prabhavit - Master Experience.md: FlowSpace TypeScript/Next.js/Node.js + Laravel/Supabase-PostgreSQL stack, OfficeRnD/Nexudus integrations, the AI listing pipeline with 900+ draft listings, support agents on live data, Venice base, honest Denmark EU-long-term-resident-mobility exclusion with the employer-permit transparency line).
+
+Blocker: mandatory Create Account / Sign In wall on Maersk's Workday tenant, before any form field is reachable.
+Chrome tab left open for the user: tab id 550849906 (https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/DKCPH55---Copenhagen---Esplanaden-50/Software-Engineer_R193814/apply/applyManually?source=LinkedIn)
+
+LEARNINGS: maersk.wd3.myworkdayjobs.com forces Create Account/Sign In (Apple/Google/email only, no guest option) on Apply Manually as well as on Autofill with Resume and Use My Last Application, unlike Telia's guest-flow exception on the same Workday platform. Treat Maersk Workday postings as an account wall by default.

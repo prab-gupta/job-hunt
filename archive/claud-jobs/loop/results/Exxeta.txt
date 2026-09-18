@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://de.linkedin.com/jobs/view/forward-deployed-ai-engineer-all-genders-at-exxeta-4463419480 (Forward Deployed AI Engineer (all genders), Exxeta, Munich)
+
+Uploaded: nothing, no materials built.
+
+Blocker: hard gate, checked on the live JD (LinkedIn guest API, full text pulled). The posting is written almost entirely in German (JD-not-in-English gate) and explicitly requires fluent German: "Let's talk: Du sprichst fliessend Deutsch und Englisch - super, dann findest du dich bei Exxeta bestens zurecht." (You speak fluent German and English, great, then you will fit right in at Exxeta.) Two independent kill reasons per the standing rule for this batch: JD not in English, and an explicit fluent-German requirement (not a "nice to have"). Dedupe: python3 loop/dedupe.py --check "Exxeta" <url> -> NEW, no prior row for this company.
+
+LEARNINGS: none new.

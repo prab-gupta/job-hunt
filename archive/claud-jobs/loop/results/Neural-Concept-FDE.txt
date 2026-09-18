@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4374585728/
+Role: Forward Deployed Engineer - Germany, Bavaria
+Reason: Live JD "Who You Are" list states "You are fluent in English and German (preferably native)" as a plain requirement (contrast: the CAD/CAE line in the same list is explicitly tagged "is a plus"; German is not). User's 2026-09-16 FDE rule kills on German required. Task note only flagged the CAE/simulation gap as an honest-disclosure item (which alone would not have killed it under the no-stack-kill override), but the language gate fires independently. Nothing built or submitted.
+Dedupe: NEW, no prior row.
+LEARNINGS: none new.

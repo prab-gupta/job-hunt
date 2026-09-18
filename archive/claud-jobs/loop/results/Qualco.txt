@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468223902/ (AI Solutions Specialist - FDE II, Qualco Group, Athens, Attiki, Greece)
+
+Nothing uploaded, no CV/letter built.
+
+Blocker: this LinkedIn "Easy Apply" is Workable-backed (URL param applicantTrackingSystemName=Workable) and resolves to the same requisition already killed yesterday under the "Quento" LinkedIn listing (req AISA_2609, apply.workable.com/qualcogroup/j/920CE984D4, same AI Solutions Specialist - FDE II title, identical Quento Technologies S.A./Qualco Group description text). Reached page 6/7 (Additional Questions) and found the identical mandatory question:
+
+"Do you speak Greek fluently?*" (Yes / No radio, no plus/nice-to-have framing)
+
+Prabhavit has English C2 and conversational Italian (B1-B2) only, no Greek. Per the task's explicit carve-out ("if this form has the same question, kill with the quoted text"), killed before uploading any resume or submitting.
+
+Dedupe: python3 loop/dedupe.py --check "Qualco Group" url -> HIT COMPANY (prior Qualco Group LEAD/KILLED rows exist) but no prior row was SUBMITTED for this exact requisition, so dedupe did not block on its own; killed independently on the live-form Greek-fluency gate, consistent with the 2026-09-16 precedent in applications.csv for the same req under the Quento listing.
+
+No LEARNINGS entry needed: this confirms and does not add a new ATS trap (same pattern already documented for the plain-FDE Qualco kill and the Quento kill).

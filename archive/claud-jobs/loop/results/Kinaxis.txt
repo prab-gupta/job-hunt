@@ -1,0 +1,15 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4453067762/ (apply routes to https://careers-kinaxis.icims.com/jobs/35111/forward-deployed-engineer-i/candidate, req 2026-35111)
+Uploaded: nothing submitted. Prabhavit_CV_Kinaxis.pdf and CoverLetter_Kinaxis.pdf/.txt built and saved.
+Answers given: none submitted (stopped before any data-saving step past the account wall).
+Blockers: iCIMS "Create a login to access your application" (Email/Login + Password + Password re-enter, all
+required) appears at step 2 of 2, after an email+GDPR-consent guest step that looked account-free but was not.
+Same wall a 2026-08-24 row already hit on this identical requisition. Account creation is off-limits per brief.
+LEARNINGS: Kinaxis/iCIMS's apparent "guest" email-entry step (Enter Your Information: Email + consent) is NOT
+account-free — it is only step 1 of 2; step 2 (Candidate Profile) still forces account creation with a
+password. Don't treat the email-entry screen alone as evidence of a guest path on this ATS.
+LEARNINGS: This listing's own candidate-profile page labels the job "RO-Remote" / code 2026-35111, matching the
+JD body's "Location Cluj, Romania - Hybrid, Other locations in Romania - Remote", even though LinkedIn's location
+tag for the ad is "Ro, Emilia-Romagna, Italy" (a real Italian comune, not Romania). The real requisition may be
+Romania-based, not Italy-based; flagged in NEEDS_YOU.md row 23 and answers/kinaxis-2026-09-16.md for the planner
+to resolve before this is submitted, since it changes the correct work-authorisation answer.

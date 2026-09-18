@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463930389/
+ATS: LinkedIn Easy Apply
+Uploaded: Prabhavit_CV_Kingo.pdf (tailored from Prabhavit_CV_EN.tex, reorder/delete only, 2 pages, compiled with tectonic)
+Cover letter: CoverLetter_Kingo.txt/.pdf built but not used — Easy Apply had no letter field (4 pages: contact info, resume, additional questions, review)
+Answers given: years of Software Development experience = 3; Do you live in Bulgaria? = No; Comfortable working directly with international clients in English to translate business requirements into software? = Yes; phone +39 351 610 7807; resume Prabhavit_CV_Kingo.pdf
+Blockers: none
+Confirmation: "Application submitted" on job page. Screenshots + txt in confirmations/Kingo-2026-09-11.*
+LEARNINGS: none new — matches ats-guides/linkedin-easy-apply.md (multi-page modal, resume library defaults to stale file, must explicitly upload the tailored PDF).

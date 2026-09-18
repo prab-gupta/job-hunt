@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+
+URL: https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004?gh_src=1vo3v42l4us
+Confirmation URL: https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004/confirmation?gh_src=1vo3v42l4us
+
+Dedupe: python3 loop/dedupe.py --check "Mirakl" "https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004?gh_src=1vo3v42l4us" -> NEW. grep -i mirakl applications.csv had no prior rows.
+
+Uploaded: Prabhavit_CV_Mirakl.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic compiled clean, filename verified in the form before submit) and CoverLetter_Mirakl.pdf (filename verified in the form before submit). Old MyGreenhouse-autofilled default CV (Prabhavit_CV-.pdf) was removed first and replaced.
+
+Answers given: years 3 (implicit, not asked directly on this form); onsite Paris/Bordeaux 4 days/week = Yes; speak French fluently = No (honest, no French claimed); based in France and willing to relocate to Paris or Bordeaux = Yes; Privacy = Acknowledge. Salary not asked on this form (floor 55000 held in reserve). Cover letter carries the France work-authorisation transparency line (not currently authorised to work in France, would need employer-side permit/sponsorship, open to Paris or Bordeaux).
+
+Identity fields (Prénom, Nom, email, phone, country, location) were autofilled correctly by Greenhouse's MyGreenhouse profile and re-verified via DOM read-back (document.getElementById) immediately before submit: first_name=Prabhavit, last_name=Gupta, email=prabhavitg@gmail.com, phone(id=phone)="351 610 7807" appearing exactly once in the page HTML, country selector=+39 Italy, candidate-location="Venice, Venezia, Italy". No manual retyping was needed.
+
+Blockers: none. This was a direct job-boards.greenhouse.io posting, not an embedded cross-origin iframe, so Claude in Chrome could read and fill every field directly; no Playwright handoff needed.
+
+Confirmation text: "Thank you for applying. Your application has been received. If there is a fit, someone will be getting back to you." Saved to confirmations/Mirakl-2026-09-18.txt (PNG screenshot saving is not available via Claude in Chrome per the browser brief; the txt is the record).
+
+No new LEARNINGS.md line needed - this tenant behaved as the greenhouse.md runbook already describes for a direct job-boards.greenhouse.io posting (no iframe trap), and the MyGreenhouse-autofill-may-overwrite-name/email/phone risk noted in the task brief did not materialise (autofill was correct and verified).

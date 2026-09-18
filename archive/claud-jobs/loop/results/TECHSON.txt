@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458061459/
+Uploaded: Prabhavit_CV_TECHSON.pdf (tailored English CV, 2 pages, uploaded explicitly, replacing the pre-selected Prabhavit_CV_PrimeEng.pdf left over from the previous application)
+Cover letter: no field in this Easy Apply flow (5 pages: contact info, resume, optional top-choice, additional questions, review). CoverLetter_TECHSON.pdf/.txt kept on file (Italian, FlowSpace + Get2Germany proof paragraphs).
+Answers given: phone 351 610 7807 (Italy +39 prefilled); OpenShift years = 0; Bash years = 0; AWS years = 0 (all honest - none of these are documented anywhere in OUTREACH_FACTS/Master Experience, and cloud admin AWS/GCP/Azure is explicitly on the never-claim list).
+Blockers: none, but see LEARNINGS.
+LEARNINGS: mid-flow the Playwright tab crashed to about:blank right after clicking Next on the "Mark job as top choice" (optional) page of a 5-page Easy Apply flow. Re-navigating to the same job URL confirmed LinkedIn had NOT recorded any partial submission (Easy Apply button still showed normally, no "Applied" state), and the resume-library upload from the crashed attempt did not persist, so the flow had to be fully restarted from page 1/5 including a fresh CV upload. Worth a quick job-page reload + Easy-Apply-button check after any browser crash mid-application before assuming a partial submit happened.

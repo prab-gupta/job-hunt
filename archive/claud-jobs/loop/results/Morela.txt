@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461307289/
+Company: Morela Solutions
+Role: Forward Deployed Engineer - Fastest Growing AI Start-Up in Europe (Athens, Greece)
+
+Uploaded: Prabhavit_CV_Morela.pdf (tailored from Prabhavit_CV_EN.tex, parity-diffed, 2 pages).
+Cover letter: CoverLetter_Morela.pdf/.txt built and kept on file, no cover-letter field on this Easy Apply flow (4 pages only: contact info, resume, additional questions, review).
+
+Answers given:
+- Mobile phone: 3516107807 (Italy +39 pre-selected).
+- Years of Consulting experience: 3 (honest, JD asks 5+, not a kill per FDE-ALL task rule).
+- Unchecked "Follow Morela Solutions" checkbox (marketing/follow checkboxes left unticked per standing rule).
+
+Blockers: none.
+Confirmation: job page's Application status panel showed "Application submitted / now". confirmations/Morela-2026-09-16.txt (PNG screenshot save not available in Chrome per brief).
+
+Dedupe: NEW. No anti-AI disclaimer in JD.
+No LEARNINGS issue - standard 4-page Easy Apply flow with a stale pre-selected CV default (Prabhavit_CV_Devoteam.pdf), handled via Upload resume + re-verify pattern already documented in the brief.

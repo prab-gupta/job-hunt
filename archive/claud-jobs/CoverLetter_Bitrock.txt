@@ -1,0 +1,16 @@
+Buongiorno team Bitrock,
+
+mi candido per il ruolo Software Engineer AI - Freelance. Da circa tre anni lavoro su piattaforme e automazioni per aziende europee, con TypeScript, API e strumenti basati su LLM. Il vostro annuncio mi interessa per l'attenzione a valutazione degli output, controlli e integrazione dell'AI nei processi aziendali.
+
+Per FlowSpace ho costruito un bot che trasforma brochure e altre fonti in bozze di annunci, mantenendo la revisione umana prima della pubblicazione. Quando il modello ha inventato dati, ho confrontato le informazioni con fonti diverse e aggiunto guardrail. Ho anche realizzato integrazioni con OfficeRnD e Nexudus per automatizzare le prenotazioni e flussi CRM per acquisizione e gestione dei contatti.
+
+In UltraStrategy ho sviluppato una pipeline di parsing dei CV integrata nella piattaforma: estrae i dati, valuta la rilevanza rispetto a tipi di ruolo e restituisce il risultato al frontend, fino alla generazione di un CV standardizzato. Sono stati usati Affinda, le API di Claude, n8n ed Eden AI. Per Urlink ho costruito la piattaforma e la logica con sviluppo assistito da AI, traducendo le richieste del cliente in automazioni.
+
+La mia esperienza più forte riguarda integrazioni applicative e workflow LLM. Non presento Kafka, IAM enterprise o programmazione funzionale avanzata come competenze già consolidate; sono aree da approfondire rispetto al vostro stack. Posso però portare esperienza concreta nel collegare modelli, dati e prodotti utilizzati da clienti reali.
+
+Vivo a Venezia e posso iniziare subito. Sono autorizzato a lavorare dall'Italia senza sponsorizzazione e interessato alla collaborazione da remoto indicata nell'annuncio.
+
+GitHub: https://github.com/prab-gupta/llm-doc-parser
+
+Grazie,
+Prabhavit Gupta

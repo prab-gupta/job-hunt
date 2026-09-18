@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4403240502/
+Reason: dup - prior SUBMITTED row for the same requisition already exists in applications.csv.
+
+Dedupe check:
+- python3 loop/dedupe.py --check "Alpitronic" "https://www.linkedin.com/jobs/view/4403240502/" -> HIT COMPANY
+- grep -i alpitronic applications.csv -> found:
+  2026-09-04,Alpitronic,Full Stack Developer - Cybersecurity Hardening,Onboard ATS,https://alpitronic.onboard.org/en/jobs/RGbnPjG2,SUBMITTED,"Application successfully sent! Confirmation email sent.",EUR 45000-55000,yes - cover letter in message field,(Bolzano on-site, CV Prabhavit_CV_Alpitronic.pdf, cover letter in message field, source LinkedIn)
+
+Same company, same exact role title (Full Stack Developer - Cybersecurity Hardening), same Bolzano on-site posting, already SUBMITTED 2026-09-04 via the Onboard ATS. Per APPLY_AGENT_BRIEF.md dedupe section: this is a HIT for the same requisition, not just a fuzzy company hit, so it is KILLED as a duplicate before any drafting.
+
+No CV, no cover letter, no browser session opened. Nothing to upload or submit against an already-submitted requisition. applications.csv row appended (status KILLED, notes explain the dup). No answers/ file needed (no new claims made). LI-PICK rule does not override an existing-SUBMITTED-for-same-requisition kill (brief: "Kill ONLY when the posting is closed, the same requisition is already SUBMITTED, or a language he lacks is required" - this is exactly the "already SUBMITTED" case).
+
+Nothing unusual otherwise. Files touched: applications.csv (appended one row), loop/results/Alpitronic.txt (this file). No pre-existing files were modified or deleted.

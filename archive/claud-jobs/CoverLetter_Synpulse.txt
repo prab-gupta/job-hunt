@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Junior Software Engineer position at Synpulse in Bratislava. The opportunity to build software for financial institutions, learn within a collaborative engineering team, and contribute across development, testing, and integration strongly matches the way I have grown as an engineer.
+
+At FlowSpace, I helped maintain and scale a live marketplace from 2,000 to more than 4,500 users while contributing to its migration to a coded Next.js and Laravel stack. I shipped features across frontend, backend, and data flows, integrated external booking APIs, and used scripts and workflow automation to move information reliably between systems. I also built an AI-assisted listing pipeline that processes PDFs, web pages, photos, and spreadsheets, routes drafts through human review, and sends approved data to the backend. These projects taught me to understand an existing system, make careful implementation decisions, test changes, and keep customer-facing software dependable.
+
+Synpulse's focus on banking systems and its emphasis on learning, coding standards, automation, and user-focused problem solving are especially appealing to me. My production work centers on TypeScript, JavaScript, Laravel, REST APIs, and integration and workflow automation. Python is an active learning area, and I am motivated to deepen my Java and SQL skills in a financial-services environment. I bring fluent professional English, a practical approach to debugging, and a habit of learning unfamiliar codebases quickly.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately. I would welcome the opportunity to discuss how I could contribute to Synpulse.
+
+Regards,
+Prabhavit Gupta

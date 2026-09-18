@@ -1,0 +1,12 @@
+Dear Cyclomedia Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer role on your AI Platform team. Over the past three years I have built and operated AI systems that have to keep working once real users depend on them, not just work once in a demo, and that is the standard this role is built around.
+
+At FlowSpace, I built and still own an AI listing bot that takes a workspace provider's brochure in any format, PDF, website, photo or spreadsheet, and drafts a full structured listing with a human in the loop, producing more than 900 drafts so far. I also built support AI agents that answer customer queries from live platform data and escalate to a person when confidence is low, which meant designing the monitoring and fallback logic around the agent, not just the agent itself. Alongside that I shipped OfficeRnD and Nexudus API integrations for automated bookings and the CRM and GTM automations that keep lead data consistent across tools, all on a platform that grew from 2,000 to 4,500 plus users.
+
+At UltraStrategy, I built the CV parsing pipeline behind the platform using n8n, Eden AI, Affinda and the Claude API: a user uploads a CV, the pipeline extracts and scores it against specific role types, and the result reaches the frontend before a standardised Ultra CV is generated. That work was about keeping a multi step pipeline coherent as inputs varied, which is the same discipline a schema registry and data architecture need as a platform scales.
+
+I hold an Italian EU Long Term Residence Permit. I am not currently authorised to work in the Netherlands without the applicable employer side permit or sponsorship process, and I am ready to relocate to Zaltbommel and complete that process.
+
+Regards,
+Prabhavit Gupta

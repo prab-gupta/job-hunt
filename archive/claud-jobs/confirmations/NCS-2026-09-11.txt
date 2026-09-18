@@ -1,0 +1,30 @@
+Not submitted - two blockers, neither user-error nor a normal ATS trap.
+
+LinkedIn job https://www.linkedin.com/jobs/view/4446993455/ (NCS Group, Artificial Intelligence
+Engineer, "Milan, Lombardy, Italy", On-site, "31 people clicked apply", "Responses managed off
+LinkedIn") -> clicked the real, logged-in Apply button -> opened
+https://jobs.smartrecruiters.com/NCS3/6000000001312916--eg-senior-ai-native-builder ("#EG Senior
+/ AI Native Builder") -> clicked "I'm interested" -> Easy Apply form at
+https://jobs.smartrecruiters.com/oneclick-ui/company/NCS3/publication/6849722c-d2c2-4bd6-aaf9-c7e626ff2e11?dcr_ci=NCS3
+
+This is the same requisition the au.smrtr.io short link opened yesterday. The JD text and the
+ATS header both say Singapore, and the screening page asks outright "This opportunity is based in
+Singapore. Are you willing to relocate if needed?" There is no separate Milan-specific ATS page.
+
+Filled everything reachable: personal info, LinkedIn/GitHub profile links, the cover letter
+pasted into "Message to the Hiring Team", and every screening question except the Singapore
+relocation Yes/No (no standing answer covers relocation outside the EU) - privacy consent ticked.
+
+Blocked on:
+1. Resume upload - the dropzone's <input type=file> lives inside one of ~1,870 shadow roots on
+   this SmartRecruiters "oneclick-ui" page, unreachable by find/read_page/file_upload (confirmed
+   with javascript_tool inspection: 2 matching file inputs exist and are visible, but no
+   accessibility-tree ref reaches them). Needs Playwright.
+2. "Are you willing to relocate to Singapore?" (required) - a real decision outside every
+   standing rule.
+
+CV + cover letter built and ready to upload once these are resolved:
+- Prabhavit_CV_NCS.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages)
+- CoverLetter_NCS.pdf and CoverLetter_NCS.txt (268 words, pasted into the Message field already)
+
+Tab left open on the screening-questions page: Claude-in-Chrome tabId 550850486.

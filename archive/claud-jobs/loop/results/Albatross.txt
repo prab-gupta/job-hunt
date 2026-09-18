@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467739665/
+ATS: LinkedIn Easy Apply (Workable-backed, apply.workable.com/usealbatross)
+
+Uploaded: Prabhavit_CV_Albatross.pdf (built fresh from Prabhavit_CV_EN.tex, parity-diffed, 2 pages, tectonic). Explicitly re-uploaded via "Upload resume" since the resume picker defaulted to the most recently uploaded prior CV (Prabhavit_CV_MPower.pdf) - verified Prabhavit_CV_Albatross.pdf checked before proceeding.
+
+Cover letter: CoverLetter_Albatross.pdf/.txt built (0 em-dashes) and also pasted directly into the Easy Apply "Cover letter" text box on the Resume page (no separate upload field on this form).
+
+Answers given:
+- Contact info: name/phone-code/email auto-filled; added mobile 3516107807 and Location (city) via the Venice, Veneto, Italy typeahead option.
+- Additional Questions: "What would be your working location?" = Venice, Italy (remote, open to travel across Europe). "Do you have the permit to work in Europe?" = Yes. Free-text: "Tell us about a time you looked at a dataset and noticed something unexpected..." answered honestly with a real anecdote from the UltraStrategy CV-parsing pipeline (Affinda/Claude API/n8n/Eden AI): multi-column and non-standard-date CVs were being mis-parsed, lowering relevance scores; added a normalisation pass and human check for low-confidence parses. Personal data consent checkbox ticked.
+- No explicit "degree" question appeared on the 4-page form despite the JD listing "Degree in engineering or computer science" - so no answer (honest or otherwise) was needed on that point this time.
+
+Dedupe: HIT COMPANY only (two prior Albatross rows are different postings/ATS, neither SUBMITTED/NEEDS YOU/INTERVIEW/REJECTED for this requisition - task explicitly said apply anyway).
+
+Blockers: none. Submitted successfully - confirmation modal "Your application was sent to Albatross AI!", job page Application status panel showed "Application submitted".
+
+LEARNINGS: none new - this run reconfirmed the known LinkedIn resume-picker-defaults-to-most-recent quirk (2026-09-16 18:31 entry) and the Venice combobox-typeahead pattern already documented; no new trap found.

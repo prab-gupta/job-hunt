@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4455231603/
+Company: ALTEN Polska
+Role: Forward Deployed AI Engineer
+
+Dedupe: HIT COMPANY~ (fuzzy) reported by dedupe.py, but grep of applications.csv for "alten" (case-insensitive) returned zero prior rows. No genuine prior ALTEN application exists. Treated as NEW.
+
+Hard gate re-check on live JD (LinkedIn guest API, job id 4455231603): APPLY_BUTTON_COUNT = 1, not closed. Language requirement in the JD is "Good English, at least B2/B2+" only; no Polish requirement found anywhere in the text (grepped and read in full) - confirms the task note that this posting already passed the English check. No anti-AI disclaimer. JD asks for 6-7 years IT-relevant experience and named tools (LangChain, LangGraph, DSPy, RAGAS, vector DBs) that are not claimed; per the FDE-ALL rule this is not a kill (no fit/years/stack kills), letter is honest about the years gap.
+
+Apply flow: clicked Apply on the LinkedIn posting -> opened a native eRecruiter form (form.erecruiter.pl/form/7633f99fd6ec4514a02d1d5eec78f741), no LinkedIn login needed, plain HTML file input (no shadow DOM/iframe trap). Filled Firstname/Surname/Email/Phone/Country (Italy)/City (Venice), uploaded Prabhavit_CV_ALTEN.pdf, selected availability "Natychmiast" (Immediately), filled the Polish salary free-text field with the standing EUR 45-55k band plus a PLN note and UoP/B2B flexibility, left the optional future-recruitment consent checkbox unticked. Clicked Send. Re-read the page after submit: URL redirected to .../thank-you and the page showed "Thank you for filling out the form! We hope the recruitment process will be successful for you..." Confirmation saved to confirmations/ALTEN-2026-09-17.txt (no PNG - not available via Claude in Chrome per the brief).
+
+Materials: Prabhavit_CV_ALTEN.pdf/.tex built fresh from Prabhavit_CV_EN.tex (Career Summary trimmed to 2 bullets, AI-agent bullet moved to top of FlowSpace, AI-automation bullet moved to top of Get2Germany; diffed against the EN source, zero invented lines, 2 pages). CoverLetter_ALTEN.pdf/.tex/.txt built (English, 0 em-dashes, two proof paragraphs FlowSpace + UltraStrategy, honest on the 3-years-vs-6-7-years gap, Poland work-authorisation transparency line) but this ALTEN form had no cover-letter upload slot or message box, so the letter is on file only, not submitted anywhere.
+
+No blockers. No new LEARNINGS entry needed (plain HTML form, no traps).

@@ -1,0 +1,37 @@
+STATUS: NEEDS YOU
+
+URL: https://gitkraken.bamboohr.com/careers/180
+Company / Role: GitKraken - Software Engineer (Full Stack Product Engineer, Insights)
+ATS: BambooHR
+Chrome tab: tabId 550849667 (Claude in Chrome, user's real browser - not Playwright), left open per instructions
+
+Gates re-verified on the live JD (matches the prior agent's verification, unchanged):
+- Title "Software Engineer", Minimum Experience "Mid-level" - not Senior/Staff/Lead/Principal.
+- Location: hybrid, based in Alicante, Spain (EU) - relocation role, not remote-from-Italy.
+- Stack: React, Go, PostgreSQL, AWS; JD explicitly allows ramping Go quickly - not a hard core-language gate.
+- JD in English, no MSc/PhD requirement, posting live.
+
+Uploaded: Prabhavit_CV_Original_EN.pdf to the Resume field, confirmed attached (filename shown in form after upload). No cover-letter field exists on this BambooHR form (Resume is the only file input), so CoverLetter_GitKraken.pdf/.txt was not attached.
+
+Fields filled (all screenshot-verified):
+- First Name: Prabhavit / Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Desired Pay: EUR 50,000
+- Website, Blog or Portfolio: github.com/prab-gupta
+- LinkedIn URL: linkedin.com/in/prabhavit
+- "Where do you currently reside/intend to perform this role?": Venice, Italy. Open to relocating to Alicante, Spain for this role.
+- Honeypot "Please leave this field blank": left empty, untouched
+- No marketing/talent-pool/newsletter checkboxes exist on this form (verified via full page text) - nothing to untick
+
+Answers given (4 required essays, reused verbatim from answers/gitkraken-2026-09-09.md written by a prior agent):
+1. Why do you want to join GitKraken? - tied FlowSpace's TypeScript/Laravel product work and AI-assisted data workflows to GitKraken Insights' problem of turning PR/DORA/agent-adoption data into something engineering leaders can act on.
+2. What is the engineer still uniquely responsible for in an AI-assisted environment? - owning the spec, the judgment calls AI can't make, and accountability for what ships.
+3. How would you take a feature from vague idea to production using AI? - own the requirement, the technical plan, API/data-model decisions, edge cases, and final review; delegate scaffolding, drafts, and repetitive tests to AI (names Claude Code as the tool).
+4. How do you decide if a large AI-generated PR is safe to ship? - read the full diff, check tests hit risky paths not just the happy path, watch for silent behavior changes, require a human reviewer on data/payments/auth-touching changes, don't ship what you can't explain.
+
+Blocker: a Google reCAPTCHA v2 "I'm not a robot" checkbox sits directly above the Submit Application button. This is a user-only blocker per the apply brief and the standing no-bypass-bot-detection rule. It was not clicked and Submit was not pressed.
+
+What is left for the user: open Chrome tab 550849667 (already on this filled form), tick the "I'm not a robot" reCAPTCHA box, and click "Submit Application". Full field list also saved to confirmations/pending-gitkraken-2026-09-09.txt.
+
+LEARNINGS: none new - confirms the prior BambooHR reCAPTCHA-before-submit / no-cover-letter-field trap already logged; also confirms this form carries no marketing/talent-pool checkboxes to untick.

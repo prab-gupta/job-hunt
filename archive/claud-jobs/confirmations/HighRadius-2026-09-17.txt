@@ -1,0 +1,7 @@
+LinkedIn Easy Apply confirmation, 2026-09-17
+Job: Forward Deployed Engineer - Amsterdam at HighRadius (Amsterdam, North Holland, Netherlands)
+URL: https://www.linkedin.com/jobs/view/4462959131/
+
+Application status panel on job page after submit:
+"Application submitted - now"
+"Go to company site" link shown alongside it.

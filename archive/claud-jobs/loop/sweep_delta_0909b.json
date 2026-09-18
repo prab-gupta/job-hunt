@@ -1,0 +1,580 @@
+{
+"date": "2026-09-09",
+"since": "2026-09-09T07:2",
+"leads_count": 67,
+"passed": [
+{
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-platform-berlin-germany-269686",
+"verdict": "PASS",
+"reason": "Backend infrastructure role with TS/Node and GCP. No years requirement stated. Distributed team, Germany is EU. Full-stack engineer role matches profile (APIs, payments, subscriptions, auth services). No seniority gate.",
+"ats": "Greenhouse",
+"apply_url": "https://job-boards.greenhouse.io/speechify/jobs/5976192004",
+"lane": "C",
+"fit": 78,
+"account_wall": false,
+"lead": {
+"source": "arbeitnow",
+"company": "Speechify",
+"role": "Software Engineer, Platform - Berlin, Germany",
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-platform-berlin-germany-269686",
+"location": "Berlin, Germany"
+},
+"refuted": false,
+"refute_reason": "No refutation criteria found. Posting requires TS/Node (candidate has both), no minimum years stated, non-senior IC title, EU location (Berlin) matches candidate's geographic preference, no core stack blockers, posting is open through 2026-10-21, and company is named (not agency-unnamed-client)."
+},
+{
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-platform-frankfurt-germany-387886",
+"verdict": "PASS",
+"reason": "Backend TS/Node role in Frankfurt (EU on-site); stack match (TypeScript/Node core); flat organization, no senior seniority level implied; reasonable mid-level position; user open to EU on-site; GCP preferred (within cloud portfolio scope)",
+"ats": "Arbeitnow",
+"apply_url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-platform-frankfurt-germany-387886/apply",
+"lane": "C",
+"fit": 85,
+"account_wall": false,
+"lead": {
+"source": "arbeitnow",
+"company": "Speechify",
+"role": "Software Engineer, Platform - Frankfurt, Germany",
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-platform-frankfurt-germany-387886",
+"location": "Frankfurt, Hesse, Germany"
+},
+"refuted": false,
+"refute_reason": "Posting meets candidate profile: Frankfurt location (EU), English-speaking workplace, TS/Node requirement matches candidate stack, no years or seniority level specified, GCP is cloud provider platform not a prohibited language/stack, no agency or unnamed client"
+},
+{
+"url": "https://pl.linkedin.com/jobs/view/kimchi-sales-engineer-emea-remote-at-cast-ai-4464983860",
+"verdict": "PASS",
+"reason": "EMEA remote location approved. Sales Engineer/Solutions Architect role (lane B). No hard gate violations. No explicit years requirement. Stack includes AI coding agents and LLM integration (domain fit). Candidate lacks direct SE/presales experience but has AI/automation foundation.",
+"ats": "LinkedIn Easy Apply",
+"apply_url": "https://www.linkedin.com/jobs/view/kimchi-sales-engineer-emea-remote-at-cast-ai-4464983860",
+"lane": "B",
+"fit": 20,
+"account_wall": false,
+"lead": {
+"source": "linkedin",
+"company": "Cast AI",
+"role": "Kimchi Sales Engineer | EMEA (Remote)",
+"url": "https://pl.linkedin.com/jobs/view/kimchi-sales-engineer-emea-remote-at-cast-ai-4464983860",
+"location": "Poland"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"url": "https://fr.linkedin.com/jobs/view/ai-driven-fullstack-engineer-at-neo2-digital-4464632325",
+"verdict": "PASS",
+"reason": "EU location (Toulouse, France); hybrid full-stack role matches user stack (TypeScript/Next.js/Node + Python/LLM). Evidence suggests English-language JD (English role title, no French keywords on English LinkedIn version, international tech hub). Lane C full-stack engineer fit 75 (EU hybrid +10 bonus).",
+"ats": "LinkedIn",
+"apply_url": "https://www.linkedin.com/jobs/view/ai-driven-fullstack-engineer-at-neo2-digital-4464632325",
+"lane": "C",
+"fit": 75,
+"account_wall": false,
+"lead": {
+"source": "linkedin",
+"company": "NEO2 Digital",
+"role": "AI Driven FullStack Engineer",
+"url": "https://fr.linkedin.com/jobs/view/ai-driven-fullstack-engineer-at-neo2-digital-4464632325",
+"location": "Toulouse, Occitanie, France"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-toulouse-france-5150",
+"verdict": "PASS",
+"reason": "Backend TS/Node platform engineer at EU location. No experience floor > 3 years. Tech stack match (TS/Node, GCP/AWS, Docker, Kubernetes). Not Senior/Staff level. English JD.",
+"ats": "Arbeitnow (aggregator, redirects to company ATS)",
+"apply_url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-toulouse-france-5150",
+"lane": "C",
+"fit": 70,
+"account_wall": false,
+"lead": {
+"source": "arbeitnow",
+"company": "Speechify",
+"role": "Software Engineer, Platform - Toulouse, France",
+"url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-toulouse-france-5150",
+"location": "Toulouse, France"
+},
+"refuted": false,
+"refute_reason": "Posting is open, direct employer (Speechify), EU location (Toulouse), 100% remote company. Required: TS/Node backend \u2014 candidate has this. No years requirement stated beyond \"proven experience.\" No Senior/Staff/Lead level. No language or location barriers. GCP is listed as ideal but under preferences section, not hard blocker. Candidate's Python and Node/TypeScript stack sufficient for platform backend role."
+},
+{
+"url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-paris-france-21064",
+"verdict": "PASS",
+"reason": "Identical to Toulouse posting. Backend TS/Node platform engineer. EU location (Paris, France). No years > 3 requirement. Matching stack. English language.",
+"ats": "Arbeitnow (aggregator, redirects to company ATS)",
+"apply_url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-paris-france-21064",
+"lane": "C",
+"fit": 70,
+"account_wall": false,
+"lead": {
+"source": "arbeitnow",
+"company": "Speechify",
+"role": "Software Engineer, Platform - Paris, France",
+"url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-paris-france-21064",
+"location": "Paris, France"
+},
+"refuted": false,
+"refute_reason": "Posting does not contain disqualifying requirements. Candidate has required TS/Node backend skill, is at correct experience level (2.5-3yr fits salary range), EU location matches, no seniority/language barriers. GCP listed without explicit 'required' tag (unlike Node which does); learnable for backend engineer."
+},
+{
+"url": "https://be.linkedin.com/jobs/view/forward-deployed-engineer-at-inku-4464643394",
+"verdict": "PASS",
+"reason": "FDE role matching stack (Python primary, TypeScript, LLM APIs, agent frameworks production). 2\u20133 years requirement = fit (2.5\u20133yr range). Belgium on-site/hybrid acceptable (EU). Entry-level FDE focused on fast prototyping aligns with Prabhavit's automation/integration background.",
+"ats": "LinkedIn",
+"apply_url": "https://be.linkedin.com/jobs/view/forward-deployed-engineer-at-inku-4464643394",
+"lane": "B",
+"fit": 80,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Inku",
+"role": "Forward Deployed Engineer",
+"url": "https://be.linkedin.com/jobs/view/forward-deployed-engineer-at-inku-4464643394",
+"location": "Louvain Metropolitan Area"
+},
+"refuted": false,
+"refute_reason": "Job requirements align with candidate: 2-3 years experience requirement matches candidate's 2.5-3 years; required stack (Python primary + TypeScript + LLM pipelines + cloud infrastructure) all present; English-only working proficiency acceptable; Belgium location within \"any EU location\" criterion; role is Forward Deployed Engineer (IC level, not Senior/Lead/Principal); posting open (valid 2027-03-08); direct Inku hiring."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-valerdat-4465014238",
+"verdict": "PASS",
+"reason": "FDE role (supply-chain AI deployment). Python + data-integration + ERP-APIs match. No explicit exp ceiling stated (entry-friendly). Spain EU location acceptable. Focus on system integration and customer deployment aligns with Prabhavit's FastAPI/integration work.",
+"ats": "LinkedIn",
+"apply_url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-valerdat-4465014238",
+"lane": "B",
+"fit": 75,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Valerdat",
+"role": "Forward Deployed Engineer",
+"url": "https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-valerdat-4465014238",
+"location": "Barcelona, Catalonia, Spain"
+},
+"refuted": false,
+"refute_reason": "No explicit stated contradictions. Posting specifies Python + data pipeline work (candidate's LLM background), no minimum years or senior level required, no stated language requirement beyond clear communication (candidate has English), location is Barcelona (EU-compatible). First reviewer pass holds."
+},
+{
+"url": "https://bg.linkedin.com/jobs/view/ai-ml-engineer-at-central-consulting-company-4463007786",
+"verdict": "PASS",
+"reason": "2\u20135 years AI/ML exp (2.5\u20133yr = fit). Python + deployment required. Nice-to-have explicitly lists RAG/automation/applied LLMs (Prabhavit's core stack). Integration/deployment-focused (not algorithm development). Bulgaria EU acceptable.",
+"ats": "LinkedIn",
+"apply_url": "https://bg.linkedin.com/jobs/view/ai-ml-engineer-at-central-consulting-company-4463007786",
+"lane": "A",
+"fit": 70,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Central Consulting Company",
+"role": "AI/ML Engineer",
+"url": "https://bg.linkedin.com/jobs/view/ai-ml-engineer-at-central-consulting-company-4463007786",
+"location": "Sofia, Sofia City, Bulgaria"
+},
+"refuted": false,
+"refute_reason": "Candidate meets all stated requirements. No refutation criteria found: 2.5-3 years experience fits within 2-5 year range; Python with LLM pipelines covers Python + AI/ML framework requirement; Sofia location is EU (candidate open to EU relocation); English-language role matches profile; AI/ML Engineer level is not Senior/Staff; posting active until March 2027; direct hire from named company Central Consulting Company."
+},
+{
+"url": "https://ro.linkedin.com/jobs/view/machine-learning-ai-engineer-at-schaeffler-4465011797",
+"verdict": "PASS",
+"reason": "Python/PyTorch/Transformers/RAG/agentic AI stack matches core skills. Hands-on technical role with team guidance (player-coach, not pure Senior title). EU location. Production AI/LLM experience required matches background.",
+"ats": "LinkedIn",
+"apply_url": "https://ro.linkedin.com/jobs/view/machine-learning-ai-engineer-at-schaeffler-4465011797",
+"lane": "A",
+"fit": 70,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Schaeffler",
+"role": "Machine Learning & AI Engineer",
+"url": "https://ro.linkedin.com/jobs/view/machine-learning-ai-engineer-at-schaeffler-4465011797",
+"location": "Bra\u0219ov, Bra\u0219ov, Romania"
+},
+"refuted": false,
+"refute_reason": "No explicitly stated requirement of >3 years, Senior/Staff/Lead/Principal level, required non-English language, or incompatible core stack. Position in Bra\u015fov, Romania (EU), remains open through 2026-10-09, direct employer posting. Candidate's Python + LLM pipeline expertise aligns with role's AI engineering requirements."
+},
+{
+"url": "https://nl.linkedin.com/jobs/view/ai-automation-engineer-at-bk-it-solutions-4465013489",
+"verdict": "PASS",
+"reason": "No experience gate, excellent Python/Azure/OpenAI/Claude stack match, automation focus aligns with n8n background, Randstad Netherlands EU",
+"ats": "LinkedIn",
+"apply_url": "https://nl.linkedin.com/jobs/view/ai-automation-engineer-at-bk-it-solutions-4465013489",
+"lane": "A",
+"fit": 85,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "BK IT Solutions",
+"role": "AI & Automation Engineer",
+"url": "https://nl.linkedin.com/jobs/view/ai-automation-engineer-at-bk-it-solutions-4465013489",
+"location": "The Randstad, Netherlands"
+},
+"refuted": false,
+"refute_reason": "Posting specifies experience as optional (\"een pr\u00e9\"), title is Engineer not Senior, Python explicitly listed (candidate has it), location Randstad NL is EU, direct employer not agency. No stated requirement exceeds 3 years, senior level, restricted stack, non-EU location, or closed status."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032581",
+"verdict": "PASS",
+"reason": "All experience levels explicitly accepted; Python/Flask + React stack matches user's profile; AI-native platform role aligns with user's LLM/automation background; EU on-site in Spain (nearby Italy); bachelor's degree acceptable; no hard gates triggered",
+"ats": "LinkedIn",
+"apply_url": "https://es.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032581",
+"lane": "A",
+"fit": 90,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Alan",
+"role": "Fullstack Software Engineer - Work Environment (x/f/m)",
+"url": "https://es.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032581",
+"location": "Basque Country, Spain"
+},
+"refuted": false,
+"refute_reason": "Posting meets all candidate criteria. \"Software engineers of all experience levels\" explicitly welcomes 2.5-3 year candidates. Python/React stack matches. English-only acceptable. Spain (EU) with remote options. Posting open until Oct 9. Named company, not agency."
+},
+{
+"url": "https://pt.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032580",
+"verdict": "PASS",
+"reason": "Same role as Spain posting (Europe-wide listing); all experience levels; Python/Flask + React stack match; AI-native platform focus; EU on-site in Portugal",
+"ats": "LinkedIn",
+"apply_url": "https://pt.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032580",
+"lane": "A",
+"fit": 85,
+"account_wall": true,
+"lead": {
+"source": "linkedin",
+"company": "Alan",
+"role": "Fullstack Software Engineer - Work Environment (x/f/m)",
+"url": "https://pt.linkedin.com/jobs/view/fullstack-software-engineer-work-environment-x-f-m-at-alan-4465032580",
+"location": "France, Viana do Castelo, Portugal"
+},
+"refuted": false,
+"refute_reason": "Stack matches (Python/React/LLM pipelines), experience requirement is \"all experience levels\" with no stated minimum, English-only acceptable (French bonus), hiring across EU countries (France/Spain/Belgium) with \"flexible office & remote options\", and recruitment note explicitly states \"we hire people, not roles\" and \"high potential and curiosity matter most.\" No disqualifying factors found: not Senior-level, not closed, company posting (not agency), no required language beyond English, no incompatible tech stack (Flask is learnable alongside Python candidate brings), EU location acceptable for Italian LTR resident."
+}
+],
+"killed": [
+{
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-data-infrastructure-acquisition-dusseldorf-germany-dusseldorf-101145",
+"company": "Speechify",
+"role": "Software Engineer, Data Infrastructure & Acquisition - D\u00fcsseldorf, Germany",
+"reason": "Requires 5+ years industry experience (exceeds 3-year max gate). Also requires BS/MS/PhD in CS or related field explicitly."
+},
+{
+"url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-data-infrastructure-acquisition-stuttgart-germany-292139",
+"company": "Speechify",
+"role": "Software Engineer, Data Infrastructure & Acquisition - Stuttgart, Germany",
+"reason": "Requires 5+ years industry experience (exceeds 3-year max gate). Also requires BS/MS/PhD in CS or related field explicitly."
+},
+{
+"url": "https://be.linkedin.com/jobs/view/ai-automation-engineer-at-mozzeno-4464988217",
+"company": "mozzeno",
+"role": "AI Automation Engineer",
+"reason": "JD unavailable"
+},
+{
+"url": "https://ch.linkedin.com/jobs/view/ai-automation-engineer-at-lastminute-com-4463008139",
+"company": "lastminute.com",
+"role": "AI Automation Engineer",
+"reason": "JD unavailable"
+},
+{
+"url": "https://br.linkedin.com/jobs/view/ai-automation-engineer-remote-work-ref%23304095-at-bairesdev-4464689796",
+"company": "BairesDev",
+"role": "AI Automation Engineer - Remote Work | REF#304095",
+"reason": "Required experience 5+ years exceeds candidate's 2.5-3 years (hard gate violation)"
+},
+{
+"url": "https://pe.linkedin.com/jobs/view/ai-automation-engineer-remote-work-ref%23302974-at-bairesdev-4462090104",
+"company": "BairesDev",
+"role": "AI Automation Engineer - Remote Work | REF#302974",
+"reason": "Required experience 5+ years exceeds candidate's 2.5-3 years (hard gate violation)"
+},
+{
+"url": "https://hu.linkedin.com/jobs/view/kimchi-sales-engineer-emea-remote-at-cast-ai-4464980886",
+"company": "Cast AI",
+"role": "Kimchi Sales Engineer | EMEA (Remote)",
+"reason": "Sales Engineer role, not core engineering. Position is presales/solutions-focused (converting technical evals to business, enabling account executives). Prabhavit is full-stack engineer, not presales engineer."
+},
+{
+"url": "https://ro.linkedin.com/jobs/view/kimchi-sales-engineer-emea-remote-at-cast-ai-4464992270",
+"company": "Cast AI",
+"role": "Kimchi Sales Engineer | EMEA (Remote)",
+"reason": "Sales Engineer role, not core engineering. Position is presales/solutions-focused (converting technical evals to business, enabling account executives). Prabhavit is full-stack engineer, not presales engineer."
+},
+{
+"url": "https://pl.linkedin.com/jobs/view/applied-ai-engineer-at-maxima-consulting-4464631421",
+"company": "Maxima Consulting",
+"role": "Applied AI Engineer",
+"reason": "Core tech stack mismatch. Requires PyTorch/JAX for deep learning model training/fine-tuning. Prabhavit's Python is LLM APIs/applications/automation/scraping/QA \u2014 not ML model infrastructure."
+},
+{
+"url": "https://th.linkedin.com/jobs/view/technical-customer-engineer-ii-at-nordson-corporation-4463822468",
+"company": "Nordson Corporation",
+"role": "Technical Customer Engineer II",
+"reason": "Location outside EU (Bangkok, Thailand); on-site position with no remote EU/worldwide specification. User based in Venice, Italy accepts EU on-site/hybrid/remote OR remote from UK/US/CH with explicit approval, not Thailand on-site."
+},
+{
+"url": "https://uk.linkedin.com/jobs/view/software-engineer-at-elyos-ai-4462288874",
+"company": "Elyos AI",
+"role": "Software Engineer",
+"reason": "Location in UK (not EU, post-Brexit); on-site position without explicit remote-from-EU-allowed clause. User based in Venice, Italy accepts EU on-site/hybrid/remote OR remote from UK/US/CH with explicit approval. This is UK on-site only."
+},
+{
+"url": "https://pe.linkedin.com/jobs/view/process-automation-integration-specialist-remote-work-ref%23303664-at-bairesdev-4464907508",
+"company": "BairesDev",
+"role": "Process Automation & Integration Specialist - Remote work | REF#303664",
+"reason": "JD in Spanish (non-English language required) - hard gate violation"
+},
+{
+"url": "https://cl.linkedin.com/jobs/view/ai-automation-engineer-remote-work-ref%23304096-at-bairesdev-4464909320",
+"company": "BairesDev",
+"role": "AI Automation Engineer - Remote Work | REF#304096",
+"reason": "Required experience 5+ years exceeds 3-year hard limit (monthsOfExperience: 60 in schema)"
+},
+{
+"url": "https://ua.linkedin.com/jobs/view/middle-automation-qa-engineer-at-patrianna-4454443107",
+"company": "Patrianna",
+"role": "Middle Automation QA Engineer",
+"reason": "JD in Ukrainian (non-English language); location Ukraine is outside EU with no explicit EU/worldwide remote clause - dual hard gate violation"
+},
+{
+"url": "https://mk.linkedin.com/jobs/view/qa-automation-engineer-at-hornetsecurity-4453100870",
+"company": "Hornetsecurity",
+"role": "QA Automation Engineer",
+"reason": "Location outside EU without explicit EU/worldwide remote: Skopje, North Macedonia is not EU. Role requires on-site presence with hybrid/home-office option, but location base is outside Prabhavit's eligible zones (EU on-site/hybrid/remote only)."
+},
+{
+"url": "https://ae.linkedin.com/jobs/view/artificial-intelligence-ai-machine-learning-engineer-at-jaheziya-4463522010",
+"company": "Jaheziya",
+"role": "Artificial Intelligence (AI) & Machine Learning Engineer",
+"reason": "Location outside EU without explicit EU/worldwide remote: Abu Dhabi, UAE not eligible. Job requires 3\u20138 years AI systems engineering (minimum 3 years, Prabhavit has 2.5\u20133), and location is strictly UAE with no remote EU allowance mentioned."
+},
+{
+"url": "https://ae.linkedin.com/jobs/view/generative-ai-engineer-at-vdart-digital-4463234948",
+"company": "VDart Digital",
+"role": "Generative AI Engineer",
+"reason": "Location outside EU without explicit EU/worldwide remote: Abu Dhabi, UAE, on-site 5 days/week, no EU/worldwide remote option. Additionally, role mandates airline/aviation/travel industry experience; Prabhavit's background is coworking (FlowSpace), no airline domain experience."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/software-engineer-at-iris-grupo-tecnol%C3%B3gico-4464666445",
+"company": "IRiS Grupo Tecnol\u00f3gico",
+"role": "Software Engineer",
+"reason": "Core stack Java/Apache Camel/Spring Boot (not in Prabhavit's skill set); minimum 3\u20135 years required, candidate has 2.5\u20133 years"
+},
+{
+"url": "https://it.linkedin.com/jobs/view/presales-engineer-cyber-security-at-hwg-sababa-4463514848",
+"company": "HWG Sababa",
+"role": "Presales Engineer Cyber Security",
+"reason": "Presales role in cybersecurity (not development); requires deep domain expertise in security tools (QRadar, Splunk, Sentinel); misaligned with full-stack developer skillset"
+},
+{
+"url": "https://it.linkedin.com/jobs/view/tecnical-sales-engineer-at-j-o-b-just-on-business-spa-4464469601",
+"company": "J.O.B. JUST ON BUSINESS SPA",
+"role": "TECNICAL SALES ENGINEER",
+"reason": "Technical sales in HVAC/industrial equipment, not software development; requires Mechanical Engineering degree and 3\u20135 years B2B sales experience; misaligned with candidate background"
+},
+{
+"url": "https://it.linkedin.com/jobs/view/sales-engineer-at-cosmic-group-4440060205",
+"company": "Cosmic Group",
+"role": "Sales Engineer",
+"reason": "Wrong domain: Sales Engineering role in semiconductor/ATE sector, not software engineering. Requires 3-5 years Sales Engineering experience in specialized hardware domain outside Prabhavit's core stack (TypeScript/Next.js/React/Node/Laravel/PHP/Python)."
+},
+{
+"url": "https://himalayas.app/companies/vigil/jobs/full-stack-javascript-typescript-engineer",
+"company": "Vigil",
+"role": "Full Stack JavaScript/TypeScript Engineer",
+"reason": "JD unavailable: page blocked by Cloudflare challenge, cannot verify posting details"
+},
+{
+"url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-data-infrastructure-acquisition-toulouse-france-308687",
+"company": "Speechify",
+"role": "Software Engineer, Data Infrastructure & Acquisition - Toulouse, France",
+"reason": "Hard gates: (1) Required experience 5+ years exceeds 3-year limit; (2) Strictly requires BS/MS/PhD in Computer Science\u2014Prabhavit has BA not CS degree"
+},
+{
+"url": "https://jobs.workable.com/view/jE3Ur3CefhWccd19sfHih7/%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82-%CE%B1%CF%85%CF%84%CE%BF%CE%BC%CE%B1%CF%84%CE%B9%CF%83%CE%BC%CE%BF%CF%8D-%2F-automation-engineer-in-athina-at-e.j.-papadopoulos-s.a.",
+"company": "E.J. Papadopoulos S.A.",
+"role": "\u039c\u03b7\u03c7\u03b1\u03bd\u03b9\u03ba\u03cc\u03c2 \u0391\u03c5\u03c4\u03bf\u03bc\u03b1\u03c4\u03b9\u03c3\u03bc\u03bf\u03cd / Automation Engineer",
+"reason": "Hard gate violations: (1) Requires minimum 3 years experience (user 2.5-3, gate is > 3); (2) JD is primarily in Greek, not English; (3) Industrial automation/PLC/SCADA role - embedded control system, not web/software engineering - core stack mismatch."
+},
+{
+"url": "https://jobs.workable.com/view/rgpVW42jkNPPL2UNLvvK1S/software-engineer---python-in-amman-at-tamatem",
+"company": "Tamatem",
+"role": "Software Engineer - Python",
+"reason": "Location is Amman, Jordan (outside EU), on-site required, no EU/remote option mentioned."
+},
+{
+"url": "https://jobs.lever.co/binance/a6651f27-4e58-4841-91ae-5c79e2296d36",
+"company": "binance",
+"role": "Binance Accelerator Programm - Software Engineer (Convert)",
+"reason": "Location is Asia (outside EU), no indication of EU remote allowed."
+},
+{
+"url": "https://jobs.lever.co/binance/f1aa0f91-9dac-4eba-bfd7-b39fc4f98cb2",
+"company": "binance",
+"role": "Binance Accelerator Programm - Software Engineer (Stocks)",
+"reason": "Location is Taiwan, Taipei (outside EU), no indication of EU remote allowed."
+},
+{
+"url": "https://ro.linkedin.com/jobs/view/agentic-ai-engineer-for-entune-at-itility-4437178244",
+"company": "Itility",
+"role": "Agentic AI Engineer for Entune",
+"reason": "Core tech stack includes C# (.NET) as primary backend language alongside Python. C# is not in Prabhavit's skill set."
+},
+{
+"url": "https://cz.linkedin.com/jobs/view/machine-learning-engineer-at-etnetera-activate-3925664816",
+"company": "Etnetera Activate",
+"role": "Machine Learning Engineer",
+"reason": "Czech language explicitly required as core job requirement (spoken and written). Non-English language requirement triggers hard gate."
+},
+{
+"url": "https://nl.linkedin.com/jobs/view/ai-engineer-at-enexis-4462508694",
+"company": "Enexis",
+"role": "AI engineer",
+"reason": "refuted: Job requires \"Minimaal 3 jaar ervaring met software- en/of AI-engineering\" (minimum 3 years experience). Candidate has 2.5-3 years; anyone at the 2.5-year end falls below the explicit minimum threshold."
+},
+{
+"url": "https://se.linkedin.com/jobs/view/ai-engineer-to-macgregor-at-wise-it-4463014655",
+"company": "Wise IT",
+"role": "AI Engineer to MacGregor",
+"reason": "Required experience 5-7 years exceeds 3-year threshold"
+},
+{
+"url": "https://my.linkedin.com/jobs/view/ai-automation-agent-engineer-at-rankpage-4463816839",
+"company": "Rankpage",
+"role": "AI Automation & Agent Engineer",
+"reason": "JD unavailable (JS-only page; cannot fetch content via curl). Location also outside EU without explicit remote-from-EU allowance."
+},
+{
+"url": "https://fr.linkedin.com/jobs/view/founding-engineer-mo-team-ai-health-companion-at-alan-4465019612",
+"company": "Alan",
+"role": "Founding engineer- Mo team (AI Health Companion)",
+"reason": "JD unavailable (JS-only page; cannot fetch content via curl)."
+},
+{
+"url": "https://de.linkedin.com/jobs/view/forward-deployed-engineer-m-f-d-at-limetax-4462509050",
+"company": "Limetax",
+"role": "Forward Deployed Engineer (m/f/d)",
+"reason": "JD unavailable (JS-only page; cannot fetch content via curl)."
+},
+{
+"url": "https://be.linkedin.com/jobs/view/ai-and-llm-expert-at-neev-4465029056",
+"company": "Neev",
+"role": "AI and LLM Expert",
+"reason": "Hard gate: position requires >3 years experience for Medior/Mid-Senior level; candidate profile is 2.5\u20133 years (does not exceed threshold)"
+},
+{
+"url": "https://de.linkedin.com/jobs/view/solutions-engineer-at-deeprec-ai-4465026501",
+"company": "DeepRec.ai",
+"role": "Solutions Engineer",
+"reason": "Hard gates: (1) requires 3+ years production software experience; candidate has 2.5\u20133 years. (2) requires C1 German for client communication; candidate is English-only"
+},
+{
+"url": "https://de.linkedin.com/jobs/view/ai-engineer-m-w-x-at-zeiss-group-4465020049",
+"company": "ZEISS Group",
+"role": "AI Engineer (m/w/x)",
+"reason": "Hard gates: (1) requires German language skills (good German + English); candidate is English-only. (2) on-site only in Germany. (3) requires 'mehrj\u00e4hrige' (multiple years) practical experience, typically 3+ years; candidate is 2.5\u20133 years"
+},
+{
+"url": "https://de.linkedin.com/jobs/view/technical-support-engineer-at-autel-automotive-intelligence-%E2%80%93-europe-4426932672",
+"company": "AUTEL Automotive Intelligence \u2013 Europe",
+"role": "Technical Support Engineer",
+"reason": "German language required (hard gate: JD not in English or non-English language required); technical support role (not engineering); stack mismatch (automotive/EV support vs software engineering)"
+},
+{
+"url": "https://fi.linkedin.com/jobs/view/ai-solution-engineer-at-qalmari-4463000783",
+"company": "Qalmari",
+"role": "AI Solution Engineer",
+"reason": "Job description in Finnish (hard gate: JD not in English or non-English language required); cannot assess full requirements without English version"
+},
+{
+"url": "https://at.linkedin.com/jobs/view/ai-quality-automation-engineer-m-f-d-at-med-el-4460189745",
+"company": "MED-EL",
+"role": "AI Quality Automation Engineer (m/f/d)",
+"reason": "Hard gate: C#/.NET is primary required stack (cannot be claimed by Prabhavit); role emphasizes collaboration with C#/.NET services, APIs, distributed systems; Prabhavit core stack is TypeScript/Next.js + Laravel/PHP + Python"
+},
+{
+"url": "https://za.linkedin.com/jobs/view/ai-solutions-engineer-at-mri-software-4395255544",
+"company": "MRI Software",
+"role": "AI Solutions Engineer",
+"reason": "Location outside EU without explicit EU/worldwide remote; requires US EST working hours (8:30am-5:00pm EST)."
+},
+{
+"url": "https://de.linkedin.com/jobs/view/agentic-ai-platform-engineer-at-hdi-group-4464480720",
+"company": "HDI Group",
+"role": "Agentic AI Platform Engineer",
+"reason": "Job posting in German; requires C2 mastery-level German language skills; user English-only."
+},
+{
+"url": "https://de.linkedin.com/jobs/view/agentic-ai-platform-engineer-at-hdi-group-4464483710",
+"company": "HDI Group",
+"role": "Agentic AI Platform Engineer",
+"reason": "Job posting in German; requires C2 mastery-level German language skills; user English-only."
+},
+{
+"url": "https://pt.linkedin.com/jobs/view/ai-llm-full-stack-engineer-at-siemens-energy-4463872020",
+"company": "Siemens Energy",
+"role": "AI/LLM Full-Stack Engineer",
+"reason": "User has 2.5-3 years experience; role requires 3+ years (stated minimum not met); role specifically requires Python/FastAPI backend expertise (user's primary stack is Node/TypeScript); role requires Bachelor's/Master's in Computer Science Engineering (user has BA, not CS); role requires minimum 1+ year dedicated AI/ML focus (user's LLM work is supplementary, not primary focus). Combined stack and experience gaps make user significantly below stated requirements."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/developer-javascript-python-ai-expert-at-k-lagan-4463001505",
+"company": "K-LAGAN",
+"role": "Developer JavaScript & Python (AI Expert)",
+"reason": "Hard gate: Senior-level role requirement. JD explicitly states 'Perfil Senior Full Stack con autonom\u00eda total para liderar tareas' (Senior Full Stack profile). Candidate has 2.5-3 years experience, not Senior level."
+},
+{
+"url": "https://de.linkedin.com/jobs/view/software-qa-engineer-testautomation-selenium-katalon-web-software-inhouse-mwd-at-vesterling-ag-4437756410",
+"company": "Vesterling AG",
+"role": "Software QA Engineer / Testautomation | Selenium, Katalon, Web-Software | Inhouse (mwd)",
+"reason": "Hard gate: Non-English language required. JD is in German and explicitly requires 'Gute Deutschkenntnisse in Wort und Schrift' (good German language skills written and spoken). Candidate is English-only."
+},
+{
+"url": "https://it.linkedin.com/jobs/view/ai-engineer-full-stack-ai-at-mindbe-software-digital-solutions-4463008708",
+"company": "Mindbe - Software & Digital Solutions",
+"role": "AI Engineer (Full-Stack AI)",
+"reason": "Hard gate: JD not in English. Posting is in Italian on LinkedIn Italy site. Candidate is English-only and role likely requires Italian workplace communication."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/ai-engineer-at-davidson-consulting-4463806892",
+"company": "Davidson consulting",
+"role": "AI Engineer",
+"reason": "Requires minimum 4 years professional experience; Prabhavit has 2.5-3 years"
+},
+{
+"url": "https://es.linkedin.com/jobs/view/ai-ml-engineer-at-mane-4465028486",
+"company": "MANE",
+"role": "AI & ML Engineer",
+"reason": "Double hard gate violation: requires 5+ years experience (Prabhavit has 2.5-3) and Master's degree in CS/AI/Data Science (Prabhavit has BA); also Senior level position"
+},
+{
+"url": "https://es.linkedin.com/jobs/view/agentic-ai-engineer-life-sciences-knowledge-graphs-barcelona-catalonia-spain-remote-at-data-ai-magazine-4464982516",
+"company": "Data & AI Magazine",
+"role": "AGENTIC AI ENGINEER (LIFE SCIENCES & KNOWLEDGE GRAPHS) BARCELONA, CATALONIA, SPAIN (REMOTE)",
+"reason": "refuted: Job requires \"4+ years of AI engineering experience is a starting point\" but candidate has 2.5-3 years. Explicit year requirement exceeds candidate's experience range."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/ai-software-engineering-analyst-at-santander-4455928821",
+"company": "Santander",
+"role": "AI Software Engineering Analyst",
+"reason": "Required experience: 5+ years DevOps/SRE/Platform Engineering. Exceeds Prabhavit's 2.5\u20133 years by 2+ years"
+},
+{
+"url": "https://es.linkedin.com/jobs/view/developer-ia-python-llms-at-krell-4465033161",
+"company": "Krell",
+"role": "Developer | IA, Python & LLMs",
+"reason": "Required experience: 5 years. Exceeds Prabhavit's 2.5\u20133 years by 2+ years. Hard gate violation"
+},
+{
+"url": "https://es.linkedin.com/jobs/view/sales-engineer-spain-at-jeco-energies-4464612733",
+"company": "Jeco Energies",
+"role": "Sales Engineer Spain",
+"reason": "refuted: Language disqualification. Candidate profile states \"English only\". Job posting explicitly requires in Technical & professional competencies: \"Fluent in Spanish and English (additional languages are a plus)\". Spanish fluency is a mandatory competency, not optional. Candidate cannot meet this requirement for a sales role based in Madrid, Spain targeting industrial clients requiring bilingual communication."
+},
+{
+"url": "https://es.linkedin.com/jobs/view/platform-product-engineer-at-zone-co-4464902368",
+"company": "Zone & Co",
+"role": "Platform Product Engineer",
+"reason": "Required experience 6+ years exceeds 3-year maximum threshold. Prabhavit has 2.5-3 years experience."
+}
+]
+}

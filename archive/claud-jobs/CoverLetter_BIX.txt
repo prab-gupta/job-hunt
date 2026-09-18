@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer (n8n) role at BIX Tecnologia.
+
+At FlowSpace, I built and maintained n8n workflows in production that automated business processes across operations, CRM, finance, and customer communications. I connected dozens of SaaS platforms via REST APIs and webhooks, handled OAuth flows and rate limiting, and monitored workflow health to catch failures before they affected downstream systems. I deployed and managed containerized services with Docker, worked with PostgreSQL daily for data storage and pipeline state, and built complex multi-step automations that ran without supervision.
+
+I also integrated OpenAI and Claude (Anthropic) APIs into production pipelines for document extraction, structured data validation, and customer support automation. I built an AI data pipeline that ingests documents in any format (PDF, web page, spreadsheet, photo), extracts structured data using LLM APIs with agentic orchestration, and pushes validated results to the backend after human review. This system handles hundreds of different data sources, each with its own API format and failure modes. At UltraStrategy I built a CV-parsing tool using n8n and Eden AI that extracts structured candidate data from uploaded documents.
+
+BIX Tecnologia is building scalable n8n automation infrastructure, and the AI Engineer role, managing self-hosted n8n deployment, building complex workflow integrations, connecting AI/LLM capabilities to production automations, and working with Docker and PostgreSQL, maps directly to what I built at FlowSpace. I bring production n8n experience, hands-on Docker and PostgreSQL skills, and the habit of building automations that are reliable enough to run without supervision.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

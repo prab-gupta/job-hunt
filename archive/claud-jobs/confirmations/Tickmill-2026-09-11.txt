@@ -1,0 +1,26 @@
+NEEDS YOU: Google reCAPTCHA v2 checkbox ("I'm not a robot") sits directly above the "Submit Application" button on Tickmill's BambooHR application form. Playwright is invisible to the user and Claude in Chrome is down for this task, so the checkbox cannot be solved or clicked. The form is fully filled and the resume is uploaded, but the application was NOT submitted.
+
+URL: https://tickmill.bamboohr.com/careers/438?source=aWQ9OQ%3D%3D (reached via LinkedIn Apply on company website, https://www.linkedin.com/jobs/view/4400171556/)
+
+Form state as left (all fields filled, nothing submitted):
+- First Name: Prabhavit / Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Address: Venice, Italy / City: Venice / Province: Veneto / Postal Code: 30175 / Country: Italy
+- Resume: Prabhavit_CV_Tickmill.pdf (uploaded)
+- Date Available: 25/09/2026
+- Desired Pay: EUR 45,000 - 55,000 gross annual
+- Website, Blog or Portfolio: https://github.com/prab-gupta
+- LinkedIn URL: https://www.linkedin.com/in/prabhavit/
+- Who referred you for this position?: left blank (no referrer)
+- Are you open to work on-site?: Yes
+- Gross annual salary expectations: EUR 45,000 - 55,000 gross annual
+- Notice period: Available immediately; can start within two weeks of an offer.
+- Will you now or in the future require sponsorship for employment visa status?: Yes
+- Acknowledgement (AI interview transcription tool consent): checked
+- reCAPTCHA "I'm not a robot": NOT checked (blocker)
+- Submit Application: NOT clicked
+
+No cover letter field exists on this ATS (single resume file input only, no essay/text box that fits a cover letter); CoverLetter_Tickmill.txt was prepared but has no slot to attach or paste.
+
+To finish: open https://tickmill.bamboohr.com/careers/438?source=aWQ9OQ%3D%3D, re-enter the same answers above (the session/tab is not persisted for the user), tick the reCAPTCHA, and click Submit Application.

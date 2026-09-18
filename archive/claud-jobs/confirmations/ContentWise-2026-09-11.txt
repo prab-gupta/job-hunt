@@ -1,0 +1,11 @@
+ContentWise - DevOps Engineer - Milan (Greenhouse ATS via LinkedIn offsite)
+Submitted: 2026-09-11
+URL (confirmation page): https://job-boards.greenhouse.io/contentwisespa/jobs/7522303003/confirmation?gh_src=1tjkyfao3us
+ATS apply URL: https://job-boards.greenhouse.io/contentwisespa/jobs/7522303003?gh_src=1tjkyfao3us&source=LinkedIn
+LinkedIn posting: https://www.linkedin.com/jobs/view/4459204957/
+
+Success text (page heading + body):
+"Thank you for applying.
+Your application has been received. If there is a fit, someone will be getting back to you."
+
+Note: PNG screenshot save is not available in this Claude in Chrome session (save_to_disk returned no file path); this .txt is the confirmation record per the apply-agent brief's fallback rule.

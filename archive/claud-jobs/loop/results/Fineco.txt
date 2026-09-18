@@ -1,0 +1,34 @@
+STATUS: NEEDS YOU
+
+LinkedIn: https://www.linkedin.com/jobs/view/4450343817/
+ATS: https://finecobank.intervieweb.it/jobs/lead-ai-engineer-generative-ai-103477/it/ (Inrecruiting, guest apply form, no account wall)
+
+Uploaded: Prabhavit_CV_Fineco.pdf (2 pages, tailored, parity-checked)
+Letter kept on file (no field for it on this ATS): CoverLetter_Fineco.pdf/.txt (Italian, 279 words)
+
+Answers given: full guest form filled - identity, DOB, gender N/D, nationality/citizenship
+India, phone, residence 30175 Venezia VE Italia, protected-category No, codice fiscale
+possession Si, FlowSpace work-history entry (Freelance/Partita IVA), education Laurea
+Triennale in Filosofia (Ott 2020-Giu 2024), English written/spoken Ottimo, Italian
+written/spoken Buono, source LinkedIn, no Fineco connections, no elected/appointed positions,
+CV uploaded and confirmed attached, privacy consent ticked, data-accuracy consent given.
+
+Blockers (did not submit): three required fields ask for facts not on file and not safely
+inferable -
+1. Luogo di nascita (place of birth) - geolocation-only combobox, no birthplace on record.
+2. Valutazione conseguita (final Bachelor's grade, /60, /100 or /110) - not on record.
+3. Codice fiscale italiano (the actual tax-code string) - not on record.
+
+LEARNINGS: This FinecoBank tenant's Inrecruiting form is far more detailed than the other
+intervieweb.it tenants seen today (MC Engineering) - it adds birthplace, gender, nationality,
+citizenship, protected-category status, an explicit codice-fiscale-italiano yes/no gate that
+reveals a free-text code field, a full work-history entry, and a degree-grade field. Same
+platform, very different field set per company - never assume one intervieweb.it tenant's
+field list from another.
+
+Tab left open and fully filled (everything except the 3 blocked fields): Claude in Chrome
+tabId 550850585, plus the originating LinkedIn tab 550850584.
+
+Files: confirmations/Fineco-2026-09-11.txt, answers/fineco-2026-09-11.md,
+Prabhavit_CV_Fineco.tex/.pdf, CoverLetter_Fineco.txt/.tex/.pdf.
+Logged: applications.csv row (2026-09-11, FinecoBank, NEEDS YOU), NEEDS_YOU.md section C row 17q.

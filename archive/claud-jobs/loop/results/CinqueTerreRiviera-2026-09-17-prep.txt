@@ -1,0 +1,24 @@
+STATUS: PREP DONE (materials-only, not applied)
+URL: https://www.linkedin.com/jobs/view/4468374668/
+Company: Cinque Terre Riviera incoming tour operator | Role: AI Operations Strategist | Vernazza, Liguria, Italy | full-time, on-site
+Dedupe: NEW (python3 loop/dedupe.py --check "Cinque Terre Riviera" checked, no prior row)
+Anti-AI disclaimer grep: none found in scratchpad/jd/4468374668.txt
+
+Files built:
+- Prabhavit_CV_CinqueTerreRiviera.tex / .pdf (tectonic OK, 2 pages, photo embedded 1 image object, parity check passed vs Prabhavit_CV_EN.tex)
+- CoverLetter_CinqueTerreRiviera.tex / .txt / .pdf (Italian, 243 words, 0 em-dashes, no Bubble/no-code wording, no Claude/Anthropic attribution, no FastAPI/Kubernetes/PyTorch claims)
+
+Letter language: Italian.
+
+CV tailoring notes: strong AI/automation JD (workflow automation, AI customer-care tools, recommendation-style personalisation, data-driven ops) so kept 2 UltraStrategy bullets and 2 Get2Germany bullets. Technical Skills reordered AI/ML category first. FlowSpace Product Responsibilities (AI support agents, scaling) placed ahead of Technical (AI listing tool, CRM/GTM automations) since the JD's lead ask is customer-care AI + ops automation. Letter evidence: FlowSpace support AI agents + CRM/GTM automation as lead, UltraStrategy CV-parsing pipeline as pair, Get2Germany AI course/job-finder tools as a supporting aside, matching the task's explicit instruction to use FlowSpace support agents + UltraStrategy pipeline as evidence.
+
+Field answers for tomorrow's browser agent:
+- Years of experience: 3 (numeric); bucket dropdown pick the one containing 3.
+- Salary: JD states no salary figure at all. Use standing default EUR 45,000 (or the 45,000-55,000 band if a range field is offered).
+- Work authorisation: role is Italy (Vernazza, on-site) -> Yes, authorised, No sponsorship needed. No transparency line required.
+- Partita IVA: Yes.
+- Driver's license: No (note: Vernazza/Cinque Terre is a car-restricted zone in practice, but JD does not ask about driving; answer the standard No if asked).
+- Italian: conversational, B1-B2. NOTE: this is a fully on-site Italian small-business role with a lot of direct client/owner contact ("assistenza ai clienti", "comunicazione con i proprietari") -- B1-B2 conversational Italian may be tested more directly here than in most postings; flag for the user.
+- How did you hear: LinkedIn.
+
+Anything odd in the JD: lists "Titolo di studio in ambito tecnologico" (a degree in a technological field) under Qualifiche, but this is not phrased as a hard/mandatory requirement (no "richiesto"/"obbligatorio"), so it did not trigger the hard MSc/PhD gate; Prabhavit's BA in Philosophy/International Studies/Economics is not a tech degree, worth the user double-checking if asked directly at interview. Role is "Not Applicable" seniority on LinkedIn (no clear level), fully on-site in a small tourism/hospitality operator, a genuine niche fit for the AI-automation-for-small-business angle in his profile.

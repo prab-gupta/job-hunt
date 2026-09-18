@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear scandiweb Hiring Team,
+
+I am writing to apply for the AI Native GTM Specialist role. I already use AI tools daily to move from idea to a working system, and I have three years of professional experience building and automating the platforms and pipelines that go to market runs on.
+
+At Urlink, I worked as both the developer and the project manager on an AI assisted platform build, turning client requirements directly into working features on Next.js and Supabase, deployed through Netlify and GitHub. I moved fast between idea and shipped feature, testing what the client actually needed as I went, which is close to the launch first, iterate constantly approach this role calls for.
+
+At FlowSpace, a workspace marketplace, I built the CRM and GTM automations that support lead capture, enrichment and outbound, and I shipped the OfficeRnD and Nexudus API integrations behind automated bookings. I also built an AI tool that turns any brochure or web page into a structured listing with a human in the loop, over 900 produced so far, which is the same pattern as turning raw input into a launched asset at speed.
+
+I am comfortable with APIs, webhooks and modern automation tooling such as n8n, and I write in Python, JavaScript and TypeScript. I hold Italian EU long-term resident status and would be glad to take this on remotely from Italy, or to discuss the applicable permit process if the role requires being based in Latvia.
+
+I would welcome the opportunity to discuss how I could contribute to scandiweb's GTM execution.
+
+Regards,
+Prabhavit Gupta

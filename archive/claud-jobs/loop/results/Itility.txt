@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4437178244/ (Itility -> Agentic AI Engineer for Entune, Iasi, Romania)
+Applied via: LinkedIn Apply button (Responses managed off LinkedIn, not Easy Apply) -> external redirect to Recruitee, https://careers.itility.nl/o/agentic-ai-engineer-for-entune
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (filename verified on the form after upload).
+
+Answers given:
+- Full name: Prabhavit Gupta
+- Email: prabhavitg@gmail.com
+- Phone: changed pre-filled Romania +40 to Italy +39 351 610 7807
+- Cover letter: pasted as text via the "Write it here instead" link (no upload field needed); full text in CoverLetter_Itility.txt / CoverLetter_Itility.pdf (1 page, built with tectonic, 199 words, no em-dashes, no "no-code"/"low-code"/"Bubble"/Claude/Anthropic)
+- "Do you live within a radius of approximately 60 minutes' travel time from Iasi, or are you willing to relocate?": Yes
+- Privacy/data-processing consent checkbox: ticked (required)
+- Work authorisation was not a separate form field; addressed in the cover letter closing line per the authorised-No/employer-permit-Yes branch (Italian EU long-term residence, ready to relocate to Iasi, transparency line on needing Itility's employer-side permit process).
+
+Fit: 70. Dedupe: NEW (no prior Itility row).
+Hard gates re-checked on full JD (via LinkedIn guest API): English JD, no anti-AI clause, title "Agentic AI Engineer" (LinkedIn seniority level: Not Applicable, not Senior/Staff/Lead/Principal/Manager), no explicit years>3 requirement, degree line is "Bachelor's or Master's ... or similar" (not a hard MSc/PhD requirement), core required language is Python with C# only listed as "helps" (claimable), Entune named throughout so proceeded per instruction.
+
+Blockers: none. Confirmation text seen: "All done! Your application has been successfully submitted!" (Application tab shows "Applied" checkmark; post-submit URL .../applied).
+
+Logged: confirmations/Itility-2026-09-09.txt, applications.csv (SUBMITTED row, 10 fields), answers/itility-2026-09-09.md.
+
+LEARNINGS: careers.itility.nl is a white-labeled Recruitee tenant (URL pattern /o/<slug>/c/new, matches the Recruitee ATS-guide pattern already documented) reached via a LinkedIn "off-LinkedIn" Apply redirect rather than Easy Apply, even though the LinkedIn listing shows Hybrid/Full-time badges that could look like Easy Apply at a glance - always check for the external-link icon and "Responses managed off LinkedIn" text on the Apply button before assuming Easy Apply. The phone country-code selector defaults to the job's own country (Romania here) rather than a neutral default; it's a searchable dropdown (type the country name to filter) so switching to Italy was a one-line fix, not a scroll-hunt.

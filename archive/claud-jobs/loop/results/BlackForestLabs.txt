@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4460560830/
+ATS: Ashby (jobs.ashbyhq.com/black-forest-labs)
+
+Uploaded: Prabhavit_CV_BlackForestLabs.pdf (2 pages, tailored from Prabhavit_CV_EN.tex; FlowSpace 3 bullets led with AI agents/migration/scale, Urlink reordered ahead of UltraStrategy as the client-facing pair, all bullets verbatim-traced to EN.tex), CoverLetter_BlackForestLabs.pdf (also .txt, 0 em-dashes grep-verified).
+
+Answers given: Name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, LinkedIn linkedin.com/in/prabhavit, Website left blank (optional). No salary/years/work-authorisation fields existed on this Ashby form; those facts were instead covered in the cover letter (Germany transparency line: not authorised in Germany, would need employer-side permit/sponsorship, ready to relocate).
+
+Fit: honest letter states no robotics/VLA background up front, then pairs FlowSpace (AI listing bot, support agents, API integrations, built with Claude API/n8n/TypeScript) with Urlink (client-facing AI-assisted platform build, project manager on client requirements) as the nearest transferable evidence, per task instruction "honest: no robotics background, strong on integration and customer-facing delivery." Applied under the 2026-09-16 clear-all-FDE-Italy/EU rule (no kill for stack mismatch).
+
+Confirmation: confirmations/BlackForestLabs-2026-09-16.txt ("Your application was successfully submitted. We'll contact you if there are next steps.")
+
+Blockers: none.
+LEARNINGS: none new; Ashby Name/Email fields needed the InputEvent('insertText') native-setter JS per the brief's documented trap (form_input alone would likely have been ignored by React state), Phone and LinkedIn fields accepted form_input directly without issue.

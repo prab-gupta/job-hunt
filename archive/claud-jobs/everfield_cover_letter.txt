@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the AI Builder role at Everfield.
+
+At FlowSpace, I was the hands-on builder for a coworking marketplace and its AI layer. I dropped into a live product on a legacy stack, helped migrate it to Next.js and Laravel, scaled it to 4,500+ users, and then built an agentic data pipeline on top: document ingestion in any format (PDF, web page, photo, spreadsheet), multi-stage LLM extraction with tool-use orchestration, confidence scoring, and human-in-the-loop review before results hit production. I also shipped RAG-backed support agents and integrated booking systems, CRMs, and payment flows. I use Claude Code as my default development tool every day and have shipped production code in TypeScript, Python, and PHP across multiple codebases.
+
+What draws me to Everfield is the shape of the work: jumping into real BU codebases, prototyping agent-first features with customers, shipping in weeks, and handing off clean. That is exactly how I work. I am comfortable with ambiguity, legacy code, and switching contexts fast. The idea of doing this across a portfolio of European B2B SaaS companies, with a tight product-engineering pair and the freedom to prototype in days, is the best version of what I want to do next.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit (no sponsorship needed), and am available immediately.
+
+Regards,
+Prabhavit Gupta

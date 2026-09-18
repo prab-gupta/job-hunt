@@ -1,0 +1,16 @@
+STATUS: KILLED
+URL: https://joinhyra.com/jobs/4dfb9a20-f17f-4a97-bdaa-6024768df4a1
+Dedupe: HIT COMPANY (not HIT URL). Prior row: 2026-09-04,Hyra,Solutions Engineer,SKIP - unverifiable - a non-blocking status per the brief, and a different role, so dedupe alone did not stop this run. Killed on the live JD instead.
+
+What was found: the exact URL/UUID in the task resolves to a live, fully-rendered posting (not a JS-shell or 404) titled "Senior Applied AI / ML Engineer (f/m/x)" for employer BMW Group, Munich BY, hybrid, posted 2026-09-08. This does not match the task's "Hyra, AI Software Engineer" description.
+Cross-checked the LinkedIn fallback (listing 4464038044 / api jobPosting 4464038044): identical job content (edge GenAI model engineering for the BMW Intelligent Personal Assistant voice assistant - base model selection, training/finetuning/eval pipelines, quantization/pruning/distillation compression, hardware-aware model variants), generically re-titled "AI Software Engineer" with employer shown as "Hyra" and the line "Apply via Hyra to be considered for this opportunity." Hyra is a recruiting/staffing platform re-listing a client (BMW Group) requisition under a generic title on LinkedIn; the real employer, title and JD live on joinhyra.com.
+
+Hard gates applied to the live JD - three independent kills:
+1. Title is Senior (hard gate: Senior/Staff/Lead/Principal/Manager/CTO -> KILL).
+2. Core daily job is PyTorch/Transformers model engineering: producing training, finetuning and evaluation pipelines, implementing quantization/pruning/distillation compression, co-owning latency/memory KPIs on target hardware. Zero application-layer/RAG/product component. This is exactly the kill condition named in the queue note ("PyTorch/model-training as the core daily job with no application-layer component").
+3. Location is Munich, Germany, hybrid on-site - no remote-from-Italy option; would need German employer-side sponsorship (work-authorisation table: any non-Italy EU country = authorised No, sponsorship Yes).
+(Also notable but not needed to kill: "several years"/"extensive experience" in applied ML, and a university degree requirement.)
+
+Not opened past the JD read: no CV or cover letter uploaded, no Apply button clicked, no form filled, nothing submitted. No browser tab left open (closed after reading the JD). No confirmations/answers files created since nothing was submitted and no free-text answers were written.
+
+LEARNINGS: joinhyra.com is a recruiting-agency job board, not a direct-employer careers site - the same requisition UUID can carry a generic client-facing title on LinkedIn ("AI Software Engineer at Hyra") while the agency's own portal reveals the real client, real title and real seniority (BMW Group, "Senior Applied AI / ML Engineer"). When a queue note's role/title doesn't match what the live URL renders, re-derive the hard-gate decision from the live JD's real employer and title, not the queue's label.

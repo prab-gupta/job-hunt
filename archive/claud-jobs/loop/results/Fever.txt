@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://es.linkedin.com/jobs/view/ai-engineer-%E2%80%93-internal-automation-forward-deployed-at-fever-4443631457 (job id 4443631457)
+Company: Fever (Madrid) - AI Engineer, Internal Automation (Forward Deployed), Spain line, agent C53, queue.csv line 523.
+Dedupe: python3 loop/dedupe.py --check "Fever" -> HIT COMPANY~ (fuzzy match). grep applications.csv for Fever/forward found an EXACT dup: applications.csv row 862, date 2026-08-26, company "FeverUp", role "AI Engineer - Internal Automation (Forward Deployed)" (title identical bar hyphen vs en-dash), status SUBMITTED, ats https://job-boards.greenhouse.io/feverup/jobs/4940097101.
+Confirmed same posting family: the live LinkedIn guest-API JD's own <h2> title tag reads "AI Engineer – Internal Automation (Forward Deployed)", matching the SUBMITTED row's title verbatim.
+Per the brief's dedupe rule (loop/APPLY_AGENT_BRIEF.md): a SUBMITTED row for the same company at the same role within 60 days blocks (22 days here, same exact title) -> KILLED as duplicate, not re-applied.
+Note for the planner: the task briefing said "an earlier verifier dropped it for 6+ years" - that is also true on the live JD (first requirement bullet: "6+ years of software engineering, with hands-on production experience shipping AI systems"), but the years gate is waived under the standing FDE-ALL rule. The actual blocker found here is the prior SUBMITTED application on 2026-08-26, which the task briefing did not know about. Do not resubmit; if you want this pursued further it would need to be an update/follow-up on the existing 08-26 application, not a second fresh submission.
+No CV or letter built. No form opened.

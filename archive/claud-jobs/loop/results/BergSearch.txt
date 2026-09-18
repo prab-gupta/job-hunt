@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4456705662/
+Role: Forward Deployed Engineer (Berg Search, recruiter posting, Athens)
+ATS: LinkedIn Easy Apply
+
+Uploaded: Prabhavit_CV_BergSearch.pdf (built from Prabhavit_CV_EN.tex, parity-diffed, FDE tailoring pattern, 2 pages). No cover letter upload field on this flow; CoverLetter_BergSearch.pdf/.txt kept on file.
+
+Answers given: form was a single page (contact info pre-filled + resume + submit, no Additional Questions page) so no separate work-authorisation/salary/language questions were asked directly; Follow-company checkbox unchecked.
+
+Blockers: none. No Greek-language requirement found anywhere - neither in the JD body nor as a screening question (this form had no Additional Questions page at all, unlike the two other Athens postings noted in LEARNINGS that reportedly had a mandatory Greek question).
+
+Learnings: the "Upload resume" hidden file input was reachable here on the first find() re-run after clicking the button, in contrast to the SoTalent row (same day, same ATS pattern) where the input stayed display:none and unreachable after two attempts. This looks like a per-load rendering inconsistency in LinkedIn's Easy Apply widget rather than a hard platform limitation - worth 1-2 retries of click-then-find before escalating to RETRY PLAYWRIGHT.

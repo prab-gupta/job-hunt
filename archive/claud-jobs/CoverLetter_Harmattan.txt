@@ -1,0 +1,18 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Harmattan AI team,
+
+I am writing to apply for the Forward Deployed Software Engineer role. I have three years of experience taking loosely defined, real-world requirements and turning them into working software end to end, then staying with it through deployment and the debugging that follows once real people depend on it.
+
+At FlowSpace, I took over a live workspace marketplace and drove the full data migration off a legacy stack onto Next.js and Laravel while the product stayed live, mapping the old structure to the new one and choosing the migration path, API or CSV, per entity. The platform grew from 2,000 to 4,500+ users through that cutover. I also built and own an AI listing bot that takes a brochure in any format and drafts a full listing with a human in the loop, and support AI agents that answer customer queries from live platform data and escalate to a person when confidence drops, which is the same discipline your agents need around accuracy in the field.
+
+At Get2Germany, I integrated Google APIs and built the automation tools that connected our platform to external course, internship and job data, alongside work optimising the underlying database. That was hands-on work building the interfaces and connectors between systems that had to hold up in production, not just in a demo.
+
+I should be honest that my production language background is TypeScript and PHP, not Python plus a lower-level language such as C++, Rust or Go, so the core stack here is a genuine stretch. What I can offer is the same end-to-end ownership this role describes: taking an ambiguous problem, building the solution myself, and debugging it in front of the people using it. I am comfortable with frequent travel and open to relocating to Paris.
+
+I would welcome the opportunity to discuss how I could contribute to Harmattan AI's deployment team.
+
+Regards,
+
+Prabhavit Gupta

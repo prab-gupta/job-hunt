@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4454055999/ -> https://career.inriver.com/jobs/8217669-senior-forward-deployed-engineer
+Uploaded: Prabhavit_CV_Inriver.pdf (built fresh from Prabhavit_CV_EN.tex, parity-diffed, zero invented lines, 2 pages)
+Cover letter: pasted in full into the form's Cover letter textbox (0 em-dashes; FlowSpace + Get2Germany evidence; honest 3-years-vs-7-plus-years paragraph; Sweden work-authorisation transparency line)
+Answers given: highest educational level Bachelor's Degree; two screening essays (migration-scenario answer grounded in the FlowSpace live migration; hands-on-vs-advisor answer grounded in the FlowSpace AI listing bot/support agents); able to work in Malmo office 2-3x/week = Yes; name Prabhavit Gupta; email prabhavitg@gmail.com; phone +39 351 610 7807 (country switched to Italy); required privacy consent ticked; optional marketing consent left unticked.
+Blockers: none. Genuine Teamtailor guest-apply form, no account wall, no CAPTCHA, no Swedish-language requirement anywhere.
+Confirmation: "Thanks for applying. We have received your application and we will be reviewing it shortly." Re-checked the page after Submit (URL moved to /thanks/...).
+Logged: applications.csv (2026-09-17, SUBMITTED), answers/inriver-2026-09-17.md, confirmations/Inriver-2026-09-17.txt.
+LEARNINGS: none new.

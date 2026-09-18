@@ -1,0 +1,12 @@
+Company: SOSV HAX (posting for portfolio startup Minut)
+Role: Full Stack Engineer
+ATS: Personio (minut.jobs.personio.de/job/2551340)
+URL applied: https://minut.jobs.personio.de/job/2551340/apply
+Originating LinkedIn posting: https://www.linkedin.com/jobs/view/4463576378/
+Date: 2026-09-09
+
+Success text shown on page after Submit Application:
+"THANK YOU
+We have received your application and will contact you shortly!"
+
+Note: Claude in Chrome PNG screenshot saving is not available in this session per the browser-alternative section of the brief; this text file is the confirmation record, per that same section.

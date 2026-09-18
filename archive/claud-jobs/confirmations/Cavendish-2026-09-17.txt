@@ -1,0 +1,11 @@
+Cavendish Professionals - Forward Deployed Engineer - Warsaw, Poland
+URL: https://www.linkedin.com/jobs/view/4461159580/
+Submitted: 2026-09-17 (LinkedIn Easy Apply, Claude in Chrome)
+
+Confirmation dialog text: "Your application was sent to Cavendish Professionals! You can keep track of your application in the 'Applied' tab of My Jobs"
+Job page also showed: Application status - Application submitted, now.
+
+Resume uploaded: Prabhavit_CV_Cavendish.pdf (verified selected/top of list before Next).
+Screening answers: Python years = 0, LLM years = 3, Generative AI years = 3.
+Follow Cavendish Professionals checkbox: unticked (marketing opt-in, standing rule).
+No cover letter field in this flow; CoverLetter_Cavendish.pdf/.txt kept on file.

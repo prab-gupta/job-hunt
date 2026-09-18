@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4458406485",
+      "title": "Développeur(se) IA et automatisation",
+      "company": "Reflet - Digital and Creative Agency",
+      "companyUrl": "https://fr.linkedin.com/company/reflet-digital",
+      "location": "Strasbourg, Grand Est, France",
+      "date": "2026-09-11",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-ia-et-automatisation-at-reflet-digital-and-creative-agency-4458406485"
+    },
+    {
+      "id": "4463512336",
+      "title": "Senior Intelligent Automation & Agentic AI Engineer",
+      "company": "LUZA Group",
+      "companyUrl": "https://br.linkedin.com/company/luza-group",
+      "location": "Porto, Portugal",
+      "date": "2026-09-08",
+      "url": "https://pt.linkedin.com/jobs/view/senior-intelligent-automation-agentic-ai-engineer-at-luza-group-4463512336"
+    },
+    {
+      "id": "4463969681",
+      "title": "IA Developer",
+      "company": "CONTENUR",
+      "companyUrl": "https://es.linkedin.com/company/contenur",
+      "location": "Madrid, Community of Madrid, Spain",
+      "date": "2026-09-11",
+      "url": "https://es.linkedin.com/jobs/view/ia-developer-at-contenur-4463969681"
+    },
+    {
+      "id": "4466316335",
+      "title": "AI Transformation Engineer",
+      "company": "Rydoo",
+      "companyUrl": "https://be.linkedin.com/company/rydoo",
+      "location": "Lisbon, Lisbon, Portugal",
+      "date": "2026-09-11",
+      "url": "https://pt.linkedin.com/jobs/view/ai-transformation-engineer-at-rydoo-4466316335"
+    },
+    {
+      "id": "4464234166",
+      "title": "AI Transformation Engineer",
+      "company": "Rydoo",
+      "companyUrl": "https://be.linkedin.com/company/rydoo",
+      "location": "Lisbon Metropolitan Area",
+      "date": "2026-09-11",
+      "url": "https://pt.linkedin.com/jobs/view/ai-transformation-engineer-at-rydoo-4464234166"
+    },
+    {
+      "id": "4462522063",
+      "title": "Junior AI Automation Developer",
+      "company": "Horwood-Köhler GmbH",
+      "companyUrl": "https://de.linkedin.com/company/horwood-k%C3%B6hler",
+      "location": "Munich, Bavaria, Germany",
+      "date": "2026-09-08",
+      "url": "https://de.linkedin.com/jobs/view/junior-ai-automation-developer-at-horwood-k%C3%B6hler-gmbh-4462522063"
+    },
+    {
+      "id": "4447219331",
+      "title": "AI & AUTOMATION ENGINEER (LIEGE-BELGIUM)",
+      "company": "GAMING1",
+      "companyUrl": "https://be.linkedin.com/company/gaming1",
+      "location": "Liège, Walloon Region, Belgium",
+      "date": "2026-09-11",
+      "url": "https://be.linkedin.com/jobs/view/ai-automation-engineer-liege-belgium-at-gaming1-4447219331"
+    },
+    {
+      "id": "4465629065",
+      "title": "AI Automation Engineer",
+      "company": "monkinet.io",
+      "companyUrl": "https://es.linkedin.com/company/monkinet-io",
+      "location": "Málaga, Andalusia, Spain",
+      "date": "2026-09-10",
+      "url": "https://es.linkedin.com/jobs/view/ai-automation-engineer-at-monkinet-io-4465629065"
+    },
+    {
+      "id": "4463913137",
+      "title": "AI Application Developer (m/f/d)",
+      "company": "HARMAN International",
+      "companyUrl": "https://www.linkedin.com/company/harman-international",
+      "location": "Garching, Bavaria, Germany",
+      "date": "2026-09-10",
+      "url": "https://de.linkedin.com/jobs/view/ai-application-developer-m-f-d-at-harman-international-4463913137"
+    },
+    {
+      "id": "4464542174",
+      "title": "AI Agent Developer",
+      "company": "act digital",
+      "companyUrl": "https://br.linkedin.com/company/act-digital",
+      "location": "Lisbon, Portugal",
+      "date": "2026-09-10",
+      "url": "https://pt.linkedin.com/jobs/view/ai-agent-developer-at-act-digital-4464542174"
+    }
+  ]
+}

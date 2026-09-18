@@ -1,0 +1,8 @@
+{
+  "role": "AI Engineer",
+  "location": "Berlin, Germany",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the AI Engineer role at Jamie. An AI meeting assistant lives or dies on whether the output is trustworthy enough that someone stops taking their own notes, which makes it a product problem as much as a model problem. That framing is the reason I am applying rather than the salary band in the title.",
+  "role_specific": "My work has been prompt engineering and orchestration rather than model training. At FlowSpace I built the support AI agents that ran against real users, which meant dealing with non-determinism honestly: testing for the cases where the model returns something unusable, building the fallback path, and deciding what the system does when it is not confident. I have connected OpenAI and Anthropic APIs into production workflows through n8n and directly, built RAG retrieval over real document sets, and shipped the surrounding product in Next.js and Laravel. I should say plainly that my German is beginner level, and that my agent work has been in n8n and direct API orchestration rather than a Python agent framework, so I would be learning your idioms in the first weeks.",
+  "closing": "I would welcome the chance to talk about how you are handling accuracy and user trust in the transcript pipeline."
+}

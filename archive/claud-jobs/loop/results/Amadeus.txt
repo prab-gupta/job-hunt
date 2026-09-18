@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4463505540/
+Real ATS: Workday, https://amadeus.wd502.myworkdayjobs.com/en-US/jobs/job/Lisbon/Product-Owner_R37221/apply/applyManually?source=LinkedIn (req R37221)
+
+Uploaded: nothing — blocked before the upload step.
+
+Prepared and staged for when Prabhavit creates the account:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_Amadeus.pdf (1 page, via CoverLetter_Amadeus.tex + tectonic) and CoverLetter_Amadeus.txt (205 words, 0 em-dashes)
+- Answers: years 3 / "about three years"; work authorisation Portugal = No, sponsorship needed = Yes, with the standard transparency line; salary EUR 45,000 (no band disclosed); relocation Yes to Lisbon; available immediately, start two weeks after offer.
+
+Blocker: LinkedIn's "Apply" is not Easy Apply ("Responses managed off LinkedIn") and opens Amadeus's Workday tenant directly. Workday's own Apply button offers "Autofill with Resume," "Apply Manually," and "Use My Last Application" — all three require sign-in. "Apply Manually," the only option that looks like a guest path, lands straight on a mandatory "Create Account/Sign In" step (Email Address, Password, Verify New Password, all required) before any application field, job question, or resume upload is shown. No genuine apply-without-account path exists on this tenant. Per the brief, no account was created. Tab left open, tabId 550849777, on the Create Account screen, nothing typed into it.
+
+Gates re-checked on the live JD (no kill gate hit): no numeric years threshold stated, title is plain "Product Owner" (not Senior/Lead/Staff/Principal/Manager), no MBA/MSc/PhD requirement, English only (no Portuguese requirement), Lisbon/Portugal is EU with relocation planned. Fit as given: 72.
+
+Dedupe: NEW (dedupe.py --check returned NEW; no prior Amadeus rows in applications.csv).
+
+LEARNINGS: Amadeus's Workday tenant (amadeus.wd502.myworkdayjobs.com) has no guest/apply-without-account path — even "Apply Manually" requires creating an account (email+password) before step 1. Treat any Amadeus Workday posting the same way going forward: NEEDS YOU by default, don't bother probing "Apply Manually" as a bypass.

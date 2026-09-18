@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4440070260/
+ATS: Lever (jobs.eu.lever.co/prima/b1d718c7-bf92-44de-8607-13c5c4005cc0/apply)
+Uploaded: Prabhavit_CV_Prima.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic, parity-checked - no rewritten sentences, no added claims)
+Cover letter: CoverLetter_Prima.txt/.pdf prepared per brief but this form has no cover letter field (Resume/CV only); not attached.
+Answers given: Resume auto-parse correctly filled Full name/Email/Phone/Current location/Current company (verified against CV). LinkedIn URL added. Visa sponsorship: No, with a text answer naming the Italian EU long-term residence permit. How did you hear: LinkedIn. Public administration role: No. Bachelor's grade: answered honestly that the exact mark is not on file (Italian 110-point scale), no fabricated number. Master's grade: answered "not applicable, no master's degree held." Selection Process Needs: left blank. Future-contact marketing checkbox: left unticked.
+Confirmation: "Application submitted! Thank you for applying. Our recruitment team will review your application and will be in touch." (confirmations/Prima-2026-09-17.txt)
+Blockers: none.
+Italian-language gate: JD's exact "Nice-to-Have" clause is "Business proficiency in Italian or Spanish, in addition to English." Not a hard requirement (Nice-to-Have section, Italian OR Spanish, JD explicitly says it wants applicants even if they don't meet every requirement) - applied per the task's KILL-only-if-required-and-professional/fluent/native rule.
+Dedupe: HIT COMPANY only. Prior row 2026-09-02 "Prima, Software / Machine Learning Engineer, SKIP - DEEP ML ROLE" is a different requisition/role and does not block this "Data Scientist GenAI" row.
+Notes: JD prefers a quantitative academic background (Math/Physics/Data Science/Engineering); Prabhavit's Philosophy/International Studies/Economics degree does not strictly match, but the JD explicitly welcomes applicants who do not meet every requirement, so this was not treated as a gate.
+LEARNINGS: no new ATS trap. Standard Lever form with resume-parse autofill (accurate here, unlike some other ATS resume parsers noted in earlier LEARNINGS entries) plus custom radio-button questions (visa sponsorship, source, public administration) and two free-text "final grade in points" questions under University grades - free text allowed an honest non-numeric answer where a locked dropdown (see the 2026-09-17 Fever entry) would not have.

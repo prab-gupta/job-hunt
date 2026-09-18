@@ -1,0 +1,16 @@
+{
+  "priority": ["Italy", "EU remote from Italy", "EU relocation"],
+  "target_roles": [
+    "implementation engineer",
+    "technical support engineer",
+    "QA automation engineer",
+    "full-stack developer",
+    "AI automation engineer",
+    "forward deployed engineer"
+  ],
+  "experience_years": 3,
+  "languages": {"English": "C1", "Hindi": "native", "Italian": "beginner"},
+  "education": "Bachelor's, non-technical",
+  "work_authorization": "Italy long-term residence permit; other EU states require case review",
+  "application_policy": "unchanged CV; CV/basic forms only; no essays, cover letters, portfolio, assessment, CAPTCHA, login or fabricated answers"
+}

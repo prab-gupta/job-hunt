@@ -1,0 +1,35 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4456373968/ (offsite apply -> Greenhouse https://job-boards.greenhouse.io/pagerduty/jobs/6147470004)
+Role: AI/ML Engineer (explicitly early-career), PagerDuty, Lisbon Portugal, hybrid. Fit 85, lane A.
+
+Dedupe: NEW (python3 loop/dedupe.py --check "PagerDuty" clean; grep of applications.csv found no prior PagerDuty rows).
+
+Cheap check: curl guest API apply-button count = 1 (passed). Live JD confirmed via job-boards.greenhouse.io/pagerduty board JSON: exact title "AI/ML Engineer", Lisbon, requisition EFY27584, distinct from the separate "Senior AI/ML Engineer" (EFY27583) posting -- confirmed the correct non-senior req before applying.
+
+Hard gates re-checked on live JD, all clear:
+- "2+ years of software engineering experience building and shipping production software" -- within our 3, no >3 requirement.
+- No Senior/Staff/Lead/Principal/Manager/CTO title; JD explicitly says "early-career AI/ML Engineer", seniority level "Not Applicable".
+- "Degree in CS/a related field, or equivalent practical experience" -- not a hard MSc/PhD requirement.
+- JD entirely in English, no Portuguese language requirement anywhere in the posting.
+- Core stack asked: LLM APIs, RAG, agents, prompt orchestration, Python, cloud infrastructure exposure (nice-to-have) -- all within Prabhavit's claimable ladder, no Java/.NET/C++/Go/Rust/Django/FastAPI-as-core/cloud-admin requirement.
+- Grepped full JD text for "AI-generated", "AI assistance", "without any AI", "no AI" etc: zero matches, no anti-AI disclaimer.
+- Posting live and accepting applications (72 applicants shown, Apply control present, form rendered normally, no "?error=true" or "not accepting applications" banner).
+
+CV: built Prabhavit_CV_PagerDuty.tex/.pdf from Prabhavit_CV_EN.tex per brief rules. Career Summary kept 2 of 3 bullets (production/AI-agents bullet + prompt-engineering/API-orchestration bullet, dropped the more generic "LLM-driven applications" bullet). FlowSpace: 4 bullets kept (Streamlined customer support with AI agents; Scaled platform 2000->4500+; AI tool for processing/scraping data; Integration of external APIs Office Rnd/Nexudus) -- satisfies >=3 minimum, dropped both migration-to-Bubble bullets (no relation to this early-career AI/ML infra role) and internal-process/CRM/GTM bullets. UltraStrategy: kept both of 2 bullets (satisfies the AI-role >=2 minimum). Get2Germany: kept 2 of 4 (AI automation tools + Google APIs, satisfies the AI-role >=2 minimum). Urlink/Qomodo/Clubee/Tractionboard: kept >=1 each per the general minimum. Skills reordered (AI/ML and Typescript led) rather than inserting a literal "Python" token, since Python is not a skill-list item anywhere in the base CV -- documented in answers/cv-tailoring-pagerduty-2026-09-10.md, same precedent as the VitaminWell/Integer/Leadbay tailoring notes. Compiled with tectonic, 2 pages, clean (only harmless FontAwesome CMap warnings). Parity check: 51/56 pdftotext lines >25 chars matched the base .tex verbatim after normalization; the 5 remaining are reordered comma-separated skill/tool lists (same tokens) plus the allowed "Low code development/" prefix drop -- no fabricated claims. Effective PASS.
+
+Cover letter: CoverLetter_PagerDuty.txt/.pdf, 248 words (200-250 target). Two-role-minimum satisfied: led with UltraStrategy (CV-parsing pipeline, Affinda + Claude API, relevance scoring, standardised Ultra CV) paired with FlowSpace (support AI agents, confidence-based escalation to a human) as the second full paragraph, plus a one-line Urlink aside (AI-assisted platform build, client automations) as the required third line. FlowSpace is not the only proof paragraph. No em-dashes (grep -c U+2014 = 0). No no-code/low-code/Bubble wording (grepped clean). No Claude/Anthropic attribution beyond naming "the Claude API" as a tool used on the UltraStrategy project. All claims traced to loop/OUTREACH_FACTS.md section 3 (UltraStrategy, FlowSpace, Urlink entries).
+
+Answers given on the Greenhouse form (this form was short -- First/Last Name, Preferred First Name, Email, Country+Phone, Resume/CV, Cover Letter, LinkedIn Profile, Website, and one custom question):
+- Identity/contact fields autofilled correctly from MyGreenhouse (Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807) -- verified, not touched.
+- Resume/CV: removed the stale MyGreenhouse-autofilled "Prabhavit_CV-.pdf" (known Greenhouse trap per ats-guides/greenhouse.md) and uploaded Prabhavit_CV_PagerDuty.pdf.
+- Cover Letter: uploaded CoverLetter_PagerDuty.pdf (a Cover Letter upload field was present, so the PDF went there; no separate free-text cover-letter box existed).
+- LinkedIn Profile: already correctly autofilled (linkedin.com/in/prabhavit).
+- Website: left blank (no portfolio site to add).
+- "Are you based in Lisbon?" (required dropdown, Yes/No only, no free-text follow-up): answered No -- accurate, Prabhavit is based in Venice, Italy, not Lisbon. No salary, years-of-experience, EEO/demographics, or separate work-authorization field existed on this form, so no other standing answers were needed; the work-authorisation transparency line for Portugal was not applicable to any field (none existed) but is carried by the cover letter's closing paragraph (Italian EU long-term resident status, will need the employer-side permit process, ready to relocate to Lisbon).
+
+Submitted and confirmed: clicked "Submit application", page navigated to /jobs/6147470004/confirmation with tab title "Thank you for applying" and body text "Hello and thank you for your interest in working at PagerDuty! We received your application and look forward to reviewing it. There are a lot of great companies hiring, and we're honored that you would consider PagerDuty. ... PagerDuty Recruiting" -- confirmation text captured BEFORE writing SUBMITTED to the log. Saved to confirmations/PagerDuty-2026-09-10.txt. Screenshot was taken via Claude in Chrome's computer tool with save_to_disk, but no file path was recoverable from this environment (consistent with the brief's own note that PNG save-to-disk is not available in Chrome here) -- the txt is the record per the brief's fallback instruction.
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation, no cross-origin iframe (the Greenhouse form rendered directly on job-boards.greenhouse.io, not embedded in a company-domain iframe like the MongoDB precedent) -- Claude in Chrome handled the entire flow, Playwright was not needed.
+
+No new ATS lesson beyond confirming the known Greenhouse MyGreenhouse-stale-resume trap (ats-guides/greenhouse.md) still applies exactly as documented.

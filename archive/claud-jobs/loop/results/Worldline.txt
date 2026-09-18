@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4455341422/
+Real ATS: SAP SuccessFactors, https://career2.successfactors.eu/careers?company=Worldline (Career Opportunities: Product Owner, req 305050), reached via Worldline's own careers site jobs.worldline.com/job/Product-Owner/305050-en_US
+
+Uploaded: nothing — blocked before the upload step.
+
+Prepared and staged for when Prabhavit creates the account:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_Worldline.pdf (1 page, via CoverLetter_Worldline.tex + tectonic) and CoverLetter_Worldline.txt (203 words, 0 em-dashes)
+- Answers: years 3 / "about three years, 2.5 at FlowSpace"; work authorisation Romania = No, sponsorship needed = Yes, with the standard transparency line; salary EUR 45,000 (no band disclosed); relocation Yes to Bucharest; available immediately, start two weeks after offer; Follow Worldline left unticked (not reached).
+
+Blocker: LinkedIn's "Apply" on this posting is not Easy Apply ("Responses managed off LinkedIn," external-link icon) and opens Worldline's own careers site directly. Its "Apply now" button redirects to Worldline's SAP SuccessFactors career portal. The landing screen shows Resume/CV and Cover Letter upload boxes immediately followed by mandatory Email Address, Retype Email Address, and Choose Password fields (with a stated complexity policy) plus a "Please sign in" link for existing users — a hard account-creation wall before any job-specific question is shown. No genuine apply-without-account path exists on this tenant. Per the brief, no account was created. Tab left open, tabId 550849784, on the account-creation screen, nothing typed into it.
+
+Gates re-checked on the live JD (no kill gate hit): no numeric years threshold stated, title is plain "Product Owner" (not Senior/Lead/Staff/Principal/Manager), Master's degree listed as preferred not required, PMP/SAFe/Scrum Master/Product Owner certifications listed as nice-to-have not required, English only (no Romanian language requirement), Bucharest/Romania is EU with relocation planned. Fit as given: 45 (hard-gates-only rule: apply since no gate fails).
+
+Dedupe: NEW (dedupe.py --check returned NEW; no prior Worldline rows in applications.csv).
+
+LEARNINGS: Worldline's LinkedIn posting is not Easy Apply and routes through jobs.worldline.com to an SAP SuccessFactors tenant (career2.successfactors.eu) whose very first screen requires creating an account (email + password) alongside the resume upload, before any application question. Treat any Worldline/SuccessFactors posting the same way going forward: NEEDS YOU by default.

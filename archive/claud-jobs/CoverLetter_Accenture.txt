@@ -1,0 +1,21 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Accenture Italia Hiring Team,
+
+I am writing to apply for the AI Native Software Engineering Specialist role in Rome. Over the past three years I have built and shipped AI systems that go from raw input to a production-facing result, and I want to bring that same practice to your AI Native engineering team.
+
+At FlowSpace, I built and still own an AI listing bot that takes a workspace provider's brochure, in any format, and drafts a full structured listing with a human in the loop, producing over 900 drafts so far, and I built support AI agents that answer customer queries from live platform data and escalate to a person when confidence is low. Both run in production against real users. I also automated the migration of a live marketplace off a legacy stack onto Next.js and Laravel while the product stayed live, growing the platform from 2,000 to 4,500 plus users.
+
+At UltraStrategy, I built the CV-parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda and scores how relevant the candidate is for specific types of roles, the result is delivered to the frontend, and the pipeline then generates a standardised Ultra CV using the Claude API. I built this extraction tool with n8n and Eden AI.
+
+I also integrated Google APIs and built AI tools that find courses, internships and jobs at Get2Germany, so API integration and AI-driven automation run through most of my recent work, not just one project.
+
+I am authorised to work in Italy and can start this role without sponsorship.
+
+I would welcome the opportunity to discuss how I could contribute to the AI Native Software Engineering team.
+
+Regards,
+
+Prabhavit Gupta

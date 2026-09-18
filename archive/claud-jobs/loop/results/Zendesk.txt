@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4385038372/
+Real ATS: Workday, https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote%2C-Spain/Senior-Solutions-Consultant_R33452/apply/applyManually?source=LinkedIn (req R33452; URL slug reads "Senior-Solutions-Consultant" but page title, heading, and req number confirm this is the same "Sales Engineer" posting, locations Remote Spain / Lisbon Portugal)
+
+Uploaded: nothing — blocked before the upload step.
+
+Prepared and staged for when Prabhavit creates the account:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_Zendesk.pdf (1 page, via CoverLetter_Zendesk.tex + tectonic) and CoverLetter_Zendesk.txt (201 words, 0 em-dashes)
+- Answers: years 3 (numeric) / "about three years" (free text); work authorisation Portugal = No, sponsorship needed = Yes, with the standard transparency line; salary EUR 45,000 (no band disclosed); relocation Yes to Lisbon; available immediately, start two weeks after offer.
+
+Blocker: LinkedIn's "Apply" is not Easy Apply ("Responses managed off LinkedIn") and opens Zendesk's Workday tenant directly. Workday's own Apply button offers "Autofill with Resume," "Apply Manually," and "Use My Last Application" — all three require sign-in. "Apply Manually," the only option that looks like a guest path, lands straight on a mandatory "Create Account/Sign In" step (Email Address, Password, Verify New Password, Candidate Privacy Notice acknowledgement, all required) before any application field, job question, or resume upload is shown. No genuine apply-without-account path exists on this tenant. Per the brief, no account was created. Tab left open, tabId 550849844, on the Create Account screen, nothing typed into it.
+
+Gates re-checked on the live JD via curl jobs-guest jobPosting API (no kill gate hit): 2-4 years required (not >3), title plain "Sales Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO), Bachelor's or equivalent practical experience (no hard MSc/PhD), English only, no "proven presales/SE required" hard quote (technical support/implementation consulting/customer success accepted as qualifying alternatives), APIs/JSON/webhooks/JavaScript-preferred all claimable per brief, Lisbon/Portugal is EU with relocation planned, posting live (104 applicants, reposted 22h ago). Zendesk's disclosure that AI/automated systems "may be used to screen or evaluate applications" is about their own screening process, not a restriction on candidate AI use — not an anti-AI kill trigger. Fit as given: 45 (hard-gates-only rule, applied since none failed).
+
+Dedupe: NEW (dedupe.py --check returned NEW; grep -i zendesk applications.csv had no prior Zendesk rows — the only other hits were an unrelated Siena AI note mentioning Zendesk as a stack keyword).
+
+LEARNINGS: Zendesk's Workday tenant (zendesk.wd1.myworkdayjobs.com) has no guest/apply-without-account path — matches the brief's prediction exactly, and confirms the Amadeus-tenant finding generalizes: even "Apply Manually" requires creating an account (email+password) before step 1. Also noted: this LinkedIn posting's "Apply on company website" link resolved to a Workday req whose URL slug ("Senior-Solutions-Consultant") did not match the LinkedIn job title ("Sales Engineer") — always confirm by requisition number and on-page title/location, not by the URL slug alone, before treating it as a wrong-job redirect.

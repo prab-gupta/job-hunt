@@ -1,0 +1,31 @@
+{
+  "session_id": "bcb8f0c1-d0c4-4c1d-a57f-ae30c2e2275e",
+  "source_path": "/Users/prab/.claude/projects/-Users-prab/bcb8f0c1-d0c4-4c1d-a57f-ae30c2e2275e.jsonl",
+  "scope": "user and assistant text; exact repeated messages collapsed; tool traces omitted; mixed-topic sessions filtered",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": "2026-08-19T05:15:23.506Z",
+      "text": "load session d6628a8f-a50f-4c8a-9b4c-552fbbd26e49",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-19T05:15:32.235Z",
+      "text": "Session not found. Check ID or search.",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-19T05:15:52.873Z",
+      "text": "its my job search session",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-19T05:16:08.503Z",
+      "text": "Two candidates:\n\n- `local_fb071ddb...` title \"J\" — 2026-08-19 (today)\n- `local_8d55b522...` title \"Job application prompt for AI/automation roles\" — 2026-08-05\n\nWhich?",
+      "repeat_count": 1
+    }
+  ]
+}

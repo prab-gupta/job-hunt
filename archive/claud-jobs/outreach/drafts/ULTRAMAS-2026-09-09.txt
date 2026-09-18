@@ -1,0 +1,15 @@
+TO: info@ultramas.io
+SUBJECT: Candidatura spontanea: sviluppatore full-stack e automazione AI per ULTRAMAS
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di ULTRAMAS,
+
+Un'agenzia radicata da oltre 25 anni in provincia di Bergamo, con integrazione ERP e automazione dei processi per aziende B2B e manifatturiere, è esattamente il tipo di lavoro che faccio ogni giorno. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js, Laravel e Supabase. Realizzo anche automazioni n8n e Make per clienti.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito. Vi va una call di 15 minuti, o mi indirizzate a chi segue le assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

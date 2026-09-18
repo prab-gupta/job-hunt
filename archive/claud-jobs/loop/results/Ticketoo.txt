@@ -1,0 +1,54 @@
+STATUS: RETRY PLAYWRIGHT
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4462804105/
+URL (ATS, via the logged-in Apply button): https://claude.ai/code/artifact/103aac72-cbb5-4d63-961d-b3639fe8b77e
+(Apply now button on that page is labelled "Candidati ora"; second button "Guarda il ruolo" = View the role.)
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Ticketoo" <url>; grep -i ticketoo applications.csv = no match).
+Posting confirmed open (apply-button count 1; Apply control present with "Responses managed off LinkedIn").
+LI-PICK row (queue.csv), Italian JD, no anti-AI disclaimer found.
+
+WHAT WAS BUILT (ready to upload once the form is reachable):
+- CV: Prabhavit_CV_Ticketoo.tex/.pdf — 2 pages (tectonic + pdfinfo confirmed), built from
+  Prabhavit_CV_EN.tex, verbatim bullets only (diff shows deletions/reordering, no rewrites, no new
+  claims). FlowSpace 5 bullets (min 3), UltraStrategy both bullets kept (the task's "Python
+  bullets"), Get2Germany 3 bullets incl. both mandated ones, every other role >=1 bullet.
+- Cover letter (Italian): CoverLetter_Ticketoo.txt/.tex/.pdf — 264 words, 0 em-dashes, "voi" not
+  "Lei". Order: opening (3 years stated plainly, honest Django/FastAPI line) -> UltraStrategy
+  Python pipeline (Affinda + Claude API, lead proof) -> Get2Germany automations (second proof) ->
+  FlowSpace backend Laravel/Node + automated migration + API integrations -> closing (Venice
+  based, authorised in Italy, open to Rome/hybrid).
+- Full field/answer set for the handoff, including the salary note (task says quote EUR
+  45,000-55,000; the JD's own stated RAL band is lower, 28-35K EUR — worth a sanity check before
+  submitting) is in answers/ticketoo-2026-09-11.md.
+
+BLOCKER (why this could not be filled or submitted in Chrome):
+LinkedIn's off-site Apply link opens a Claude Artifact page (claude.ai/code/artifact/...,
+banner "Content is user-generated and unverified", "Made with Claude Design") whose entire body
+renders inside a cross-origin iframe (frame.claudeusercontent.com). Confirmed via DOM inspection
+(javascript_tool) — the parent page's JS cannot reach any element inside it. Clicking "Candidati
+ora" at its screen coordinates registered but produced no visible change after repeated tries with
+waits; scrolling the page also did nothing. This is the exact "cross-origin iframe" case the brief
+says to hand to Playwright rather than force through Chrome.
+
+Per Browser ownership rules: stopped here, did not open Playwright myself. Both of my own Chrome
+tabs (job page + artifact tab) were closed; no other agent's tabs were touched.
+
+NEXT STEP FOR PLAYWRIGHT: open the ATS URL above, click "Candidati ora", and see whether Playwright
+(via its own frame-aware API) can reach the real application form inside that iframe. If a form
+appears, use the CV/letter/answers already built and listed above and in
+answers/ticketoo-2026-09-11.md. If the form asks for a salary figure that must sit inside the
+posting's own 28-35K EUR band, use the bottom of that band (28,000) instead of the standing
+45,000-55,000 figure and note the deviation when logging.
+
+LEARNINGS: first seen instance of a company's "off-site ATS" actually being a Claude Artifact
+(claude.ai/code/artifact/...) rendering a mock/prototype careers page inside a cross-origin iframe
+that Claude in Chrome could not interact with at all (no click effect, no scroll). Worth flagging
+if this recurs, since the "Candidati ora" button may itself be non-functional/decorative rather
+than a real form gateway — Playwright should verify a real submission path exists before assuming
+this is only a tool-capability gap.
+
+Files: Prabhavit_CV_Ticketoo.tex/.pdf, CoverLetter_Ticketoo.tex/.txt/.pdf, answers/ticketoo-2026-09-11.md.
+No row added to applications.csv (nothing submitted, no terminal decision reached — this is an
+infrastructure handoff, not a user-judgment blocker). No confirmations/ files (no success screen
+seen). queue.csv, STATE.md, RULES.md, LEARNINGS.md not touched.

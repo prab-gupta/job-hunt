@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4438602833/ -> https://jobs.danfoss.com/job/Forward-Deployed-Engineer/50259-en_GB/ -> https://career2.successfactors.eu/careers?company=danfossas
+Uploaded: nothing yet (blocked before the CV upload step completed a full application).
+Answers given: none submitted yet.
+Blocker: SAP SuccessFactors application landing page requires Email Address, Retype Email Address, Choose Password (8-18 chars, upper+lower case, number or punctuation), Retype Password, First Name, Last Name directly on the same page as the CV upload. The only alternative offered is "For everyone else: Please sign in", which is the same account-creation form. No guest-apply path exists. Per the brief this is an account-creation wall and user-only.
+Materials ready: Prabhavit_CV_Danfoss.pdf (2 pages, tectonic clean) and CoverLetter_Danfoss.pdf/.txt (0 em-dashes). Logged in answers/danfoss-2026-09-16.md, NEEDS_YOU.md row 18d, and applications.csv (status NEEDS YOU).
+LEARNINGS: none new - matches the task brief's own note that Danfoss uses SuccessFactors/Workday with no guest path and requires account creation.

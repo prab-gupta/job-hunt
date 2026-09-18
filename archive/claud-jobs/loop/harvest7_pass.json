@@ -1,0 +1,173 @@
+[
+{
+"id": "4466889098",
+"verdict": "PASS",
+"reason": "Meets experience gate (1\u20132 years required), EU location (Greece). However, hardware/electrical field service role (BESS/PCS/SCADA systems) is entirely outside user's software-engineering stack (TypeScript/Next.js/React/Node/Laravel). Fit reflects skill mismatch, not a gate violation.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466889098/",
+"easy_apply": false,
+"lane": "B",
+"fit": 28,
+"years_required": "1\u20132",
+"location_type": "on-site",
+"lead": {
+"id": "4466889098",
+"title": "Field Application Engineer/After-sales Engineer - Greece",
+"company": "Jinko ESS Europe",
+"location": "Greece",
+"url": "https://www.linkedin.com/jobs/view/4466889098/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "All stated requirements met: experience 1-2 years minimum (candidate 2.5-3 years), Associate level (not Senior+), English only (no other language required), EU location (Greece, candidate open to any EU), no forbidden core stacks (job requires BESS/PCS/RESS domain knowledge, not Java/.NET/C++/Go/Rust/Scala/Kotlin/Django/FastAPI-only/cloud admin/embedded), direct company posting, still open. Hidden domain mismatch (software dev vs hardware field engineer) not captured by stated refutation criteria."
+},
+{
+"id": "4468343317",
+"verdict": "PASS",
+"reason": "Location: Verona, Italy (on-site, +10 fit bonus). No hard gates hit. However: role is healthcare technical consultant/sales engineer (Lane F), not software development. Requires biomedical engineering knowledge and physician-facing support, not coding. Bachelor's in Biomedical Engineering preferred (candidate has BA, not specific field, but not strictly required). English B2+ required (candidate English-only, should meet). Limited fit due to role function mismatch with dev-focused CV, but passes gates.",
+"ats_url": "https://www.linkedin.com/jobs/view/4468343317/",
+"easy_apply": true,
+"lane": "F",
+"fit": 25,
+"language_required": "English (B2 minimum)",
+"location_type": "On-site",
+"years_required": "Not stated (experience in healthcare is plus, not required)",
+"lead": {
+"id": "4468343317",
+"title": "Associate Technical Consultant CRM",
+"company": "Medtronic",
+"location": "Verona, Veneto, Italy",
+"url": "https://www.linkedin.com/jobs/view/4468343317/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "4467970656",
+"verdict": "PASS",
+"reason": "Entry-level GenAI/LLM specialist role in Milan (hybrid). Excellent stack match: Claude LLM, RAG, embeddings, AI agents, prompt engineering. Apprenticeship contract (3yr) appropriate for 2.5-3yr experience. Base \u20ac23.4k rising to \u20ac28k. Italy location ideal.",
+"ats_url": "https://www.linkedin.com/jobs/view/4467970656/",
+"easy_apply": true,
+"lane": "A",
+"fit": 85,
+"location_type": "Hybrid, Italy (Milan)",
+"years_required": "Entry-level / Apprentice",
+"language_required": "Italian (conversational acceptable, no native requirement stated)",
+"lead": {
+"id": "4467970656",
+"title": "Junior Generative AI Specialist",
+"company": "F2Informatica | Consulenza, Cloud, NoSQL, IoT",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4467970656/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "Entry-level GenAI specialist role at F2Informatica (Milan, direct employer). JD states no experience minimum, Junior seniority only. Candidate's 2.5\u20133 yrs with Python-LLM pipelines, Node/TypeScript, and prompt-engineering interest match stated requirements (GenAI, LLM, Claude/OpenAI, RAG, API integration). Italy-based hybrid role acceptable for Italian EU resident open to EU locations. No stated requirement exceeds candidate's scope."
+},
+{
+"id": "4468239113",
+"verdict": "PASS",
+"reason": "Associate-level Innovation role at Leonardo (Rome, on-site). No hard gates triggered. Seniority match: role says 'preferably Expert/Senior but junior motivated profiles welcome.' Stack: AI, AR/VR, Data Analytics, Blockchain, systems engineering (partial overlap). Main concern: JD asks for Ingegneria (Engineering degree), he has BA (not in engineering field); JD emphasizes MBSE/systems depth vs. his AI/LLM focus. Weak fit but gates pass.",
+"ats_url": "https://www.linkedin.com/jobs/view/4468239113/",
+"easy_apply": true,
+"lane": "B",
+"fit": 45,
+"location_type": "On-site, Italy (Rome)",
+"years_required": "Associate / Junior+",
+"language_required": "English C1 required",
+"lead": {
+"id": "4468239113",
+"title": "Innovation & Capability Specialist",
+"company": "Leonardo",
+"location": "Rome, Latium, Italy",
+"url": "https://www.linkedin.com/jobs/view/4468239113/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "No refuting criteria found. JD explicitly accepts junior candidates (\"ma si valutano positivamente anche profili junior motivati ad apprendere e crescere nel ruolo\"), role is Employee-level (not Senior/Lead/Principal), requires only English C1 (candidate meets), located in Rome/Italy (EU), and does not require experience beyond 3 years or tech stack outside candidate's capabilities (Python covers AI/LLM requirement). Pass is valid."
+},
+{
+"id": "4466209537",
+"verdict": "PASS",
+"reason": "Full-stack product engineer at AI startup. Stack match: React/TypeScript + Python/FastAPI (exact fit). No explicit years required, explicitly welcomes 'exceptional candidates with alternative backgrounds.' Emphasizes AI-assisted development (Prabhavit's strength). Lisbon hybrid in EU. Early-stage but strong technical alignment.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466209537/",
+"easy_apply": true,
+"lane": "C",
+"fit": 85,
+"lead": {
+"id": "4466209537",
+"title": "Product Engineer",
+"company": "DOJO AI",
+"location": "Lisbon, Portugal",
+"url": "https://www.linkedin.com/jobs/view/4466209537/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "Pass is valid. JD explicitly lists mid-level tier: \"A few years in (mid-level) - You're shipping features across the stack, growing fast\" matching 2.5-3 years. Required stack (React/TypeScript + Python/FastAPI) matches candidate. No seniority requirement, no language requirement beyond English, Lisbon is EU (candidate open to any EU location), posting is open and direct hire."
+},
+{
+"id": "4448591480",
+"verdict": "PASS",
+"reason": "Junior-focused (1-3 yrs required) full-stack with Node.js/TypeScript backend and React frontend. Location: Milan, Italy (perfect fit); role suits his experience level and stack match",
+"ats_url": "https://www.linkedin.com/jobs/view/4448591480/",
+"easy_apply": true,
+"lane": "C",
+"fit": 85,
+"years_required": "1-3 years",
+"location_type": "Hybrid (Milan)",
+"language_required": "English",
+"lead": {
+"id": "4448591480",
+"title": "Full Stack Developer \u2013 CT Office Incubation Team",
+"company": "AVEVA",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4448591480/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No disqualifying factors found. Job explicitly targets early-career developers (1\u20133 years, under guidance). Milan is a stated location. Stack (Python, Node.js, TypeScript/React, Laravel) matches the \"e.g.\" backend/frontend examples. Language is English-only. Posting is open, direct from AVEVA (not agency), and recent. Pass is valid."
+},
+{
+"id": "4466240262",
+"verdict": "PASS",
+"reason": "Multiple profiles offered (Web/Mobile Developer, Data Engineer, Software Engineer). Requires 2+ additional years for BA holders; Prabhavit has 2.5-3 years total. Stack matches (JavaScript, TypeScript, React, NodeJS, Python, PostgreSQL). Italy on-site location acceptable.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466240262/",
+"easy_apply": true,
+"lane": "C",
+"fit": 65,
+"years_required": "2+ (with Bachelor's degree)",
+"location_type": "On-site (Rome, Italy)",
+"lead": {
+"id": "4466240262",
+"title": "Information Technology Developer (various profiles)",
+"company": "FAO",
+"location": "Rome, Latium, Italy",
+"url": "https://www.linkedin.com/jobs/view/4466240262/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD matches candidate profile: 2.5\u20133 years exceeds \"at least 1 year\" minimum; English C1 meets requirement (other languages desirable only); stack includes candidate's TypeScript, React, Node, Python; Rome, Italy location aligns with EU residency; seniority \"Not Applicable\" (no Senior+); posting open until 30 Sep 2026; direct FAO role, not unnamed agency."
+},
+{
+"id": "4458792307",
+"verdict": "PASS",
+"reason": "Mid-senior AI consultant role aligns with LLM/automation expertise (n8n, RAG, AI agents); no hard gates triggered; mid-senior level without explicit 5+ year requirement; Portugal EU location acceptable",
+"ats_url": "https://www.linkedin.com/jobs/view/4458792307/",
+"easy_apply": true,
+"lane": "A",
+"fit": 72,
+"location_type": "on-site",
+"years_required": "not stated (mid-senior level implied)",
+"language_required": "English",
+"lead": {
+"id": "4458792307",
+"title": "AI Consultant",
+"company": "Creatio",
+"location": "Portugal",
+"url": "https://www.linkedin.com/jobs/view/4458792307/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No stated refutation found. The JD does not explicitly require >3 years of experience, Senior/Staff/Lead level, languages other than English, incompatible tech stacks, or non-EU locations without remote. Candidate with 2.5-3 years, Python/LLM background, English, and EU availability aligns with stated requirements."
+}
+]

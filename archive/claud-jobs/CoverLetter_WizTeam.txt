@@ -1,0 +1,12 @@
+Dear Wiz-Team hiring team,
+
+I am applying for the Technical Support Engineer role in Turin. I have three years of professional experience as a full-stack and AI developer, most of it spent close to production incidents, API integrations and the kind of troubleshooting this role needs.
+
+At FlowSpace, a live workspace marketplace, I built support agents that answer customer queries directly from live platform data and escalate to a human when confidence is low, so I have hands on experience designing for graceful failure and knowing when to hand off. I also shipped REST integrations with OfficeRnD and Nexudus for automated bookings, which means reading logs, API requests and third-party responses to trace an issue back to its root cause is part of my regular work, not a new skill.
+
+At Clubee, a SaaS platform in Luxembourg, I integrated the Clubee API across the frontend and ran unit testing and QA on every new feature, which built the habit of checking application behaviour carefully before and after a change ships, the same discipline production support demands.
+
+I work daily with Python and TypeScript, am comfortable with SQL for corrective queries, and use tools like Jira and GitHub as part of normal delivery. I am based in Venice, authorised to work in Italy without sponsorship, and open to the Turin hybrid schedule and the shifted hours this role covers.
+
+Regards,
+Prabhavit Gupta

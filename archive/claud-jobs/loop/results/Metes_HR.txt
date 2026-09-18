@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461724452/
+Uploaded: Prabhavit_CV_Metes_HR.pdf (reused from a prior agent's unfinished run, parity-checked against Prabhavit_CV_EN.tex, 2 pages; uploaded explicitly, replacing the pre-selected Prabhavit_CV_Reply.pdf left over from the previous application in this browser session)
+Cover letter: no field in this Easy Apply flow (5 pages: contact info, resume, optional top-choice, additional questions, review). CoverLetter_Metes_HR.pdf/.txt kept on file (Italian; rewrote it before use to add a Get2Germany second proof paragraph, since the version left by the prior agent had only FlowSpace, which breaks the two-role letter-evidence rule).
+Answers given: phone 351 610 7807 (Italy +39 prefilled); RAL 35-45k aware = Yes; years of experience in infra/platform/DevOps roles = 3; CI/CD pipeline + Git workflow experience = No (honest - he has Git/GitHub experience but no documented CI/CD pipeline-building); aware of 3 days/week on-site Bologna or Imola = Yes; Follow Metes HR unchecked.
+Blockers: none.
+LEARNINGS: found an orphaned CV+letter pair from a dead prior-session agent (queue.csv note "Playwright batch 6 16:17 | 0916 reset after limit/session end (agent died)"), no results/confirmations/applications.csv trace existed so it was correctly treated as not-a-dup; worth checking loop/queue.csv notes for "agent died" markers when a CV file exists but dedupe.py says NEW.

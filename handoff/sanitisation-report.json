@@ -1,0 +1,101 @@
+{
+  "redactions": [
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a600899084063f2e3.jsonl",
+      "kind": "provider-token",
+      "count": 1
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a600899084063f2e3.jsonl",
+      "kind": "provider-token",
+      "count": 1
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a8f18acfbd85606f9.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-ab83279130318a4df.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a8f18acfbd85606f9.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a85fbb5fb56f9e1bc.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-a85fbb5fb56f9e1bc.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-ab83279130318a4df.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-aaf2ba23a60fc0041.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026/transcript/subagents/agent-aaf2ba23a60fc0041.jsonl",
+      "kind": "credential-like assignment",
+      "count": 1
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-ab83279130318a4df.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a600899084063f2e3.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-aaf2ba23a60fc0041.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a8f18acfbd85606f9.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a85fbb5fb56f9e1bc.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-ab83279130318a4df.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a600899084063f2e3.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-aaf2ba23a60fc0041.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a8f18acfbd85606f9.jsonl",
+      "kind": "expanded archive/final pass"
+    },
+    {
+      "path": "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026-expanded/transcript/subagents/agent-a85fbb5fb56f9e1bc.jsonl",
+      "kind": "expanded archive/final pass"
+    }
+  ],
+  "manual_review_candidates": [],
+  "expanded_zip_containers": [
+    "archive/previous-repository/_archive/Job search archive - 12 Aug 2026 (superseded).zip",
+    "archive/previous-repository/_archive/Job search - COMPLETE - 12 Aug 2026.zip",
+    "archive/claud-jobs/_archive/Job search archive - 12 Aug 2026 (superseded).zip",
+    "archive/claud-jobs/_archive/Job search - COMPLETE - 12 Aug 2026.zip"
+  ]
+}

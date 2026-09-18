@@ -1,0 +1,27 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+Dear STAM Hiring Team,
+I am writing to apply for the Software Engineer/Developer role in the Digital Solutions Business Area in
+Genoa. I have three years of continuous professional experience across eight European companies, building
+web based solutions end to end, from requirements analysis through frontend and backend implementation
+to QA.
+At FlowSpace, a live workspace marketplace, I took over an existing platform and automated its migration
+oﬀ a legacy stack onto Next.js and Laravel, mapping the old structure to the new one, choosing the migration
+path per entity between API endpoints and CSV exports, and driving the cutover while the product stayed
+in production. In the same role I integrated the OﬃceRnD and Nexudus APIs for automated bookings
+and built an internal tool for calculating commute times, working closely with the rest of the development
+team on both product and business logic documentation, close to the full software development life cycle
+involvement this role calls for.
+At Get2Germany, I built and optimised the platform’s database while integrating Google APIs, and at
+Tractionboard I worked on responsive interfaces and debugging alongside a ChatGPT/OpenAI integration,
+which maps directly to the responsive web interface and database work described in the role.
+I hold a good working knowledge of Python, JavaScript and TypeScript, have worked with relational
+databases including Supabase and PostgreSQL, and I am comfortable with Jira, Trello and Slack in an
+agile team setting. My English is professional and I regularly draft technical project documentation. I hold
+Italian EU long term resident status and am authorised to work in Italy without sponsorship, and I am
+open to relocating to Genoa for the role.
+I would welcome the opportunity to discuss how I could contribute to STAM’s Digital Solutions team.
+Regards,
+Prabhavit Gupta
+
+

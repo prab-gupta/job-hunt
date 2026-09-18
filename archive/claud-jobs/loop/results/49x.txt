@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4462841787/
+Company: 49x, Forward Deployed Engineer, Budapest, Hungary
+Dedupe: NEW (no company/URL hit in applications.csv)
+Cheap check: apply-button count = 1, posting live
+Hard gate: language requirement he lacks. JD states "Native level Hungarian speaker. You will be working on Hungarian client projects as well." He has English C2 and conversational Italian only, no Hungarian. Per the user's 2026-09-16 rule for this LI FDE Italy/EU sweep (kill only on closed / already-submitted / language he lacks), this is an explicit language kill.
+No CV or letter built (killed before drafting, per order-of-work).
+LEARNINGS: none new.

@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the AI Integration Engineer role at No Isolation. I have spent the past two and a half years building exactly the kind of systems this role calls for: workflow orchestration with n8n, LLM-powered automation pipelines, and API integrations across business-critical platforms.
+
+At FlowSpace, I designed and shipped an AI data pipeline that orchestrates multi-step LLM agents with tool use, structured output parsing, and retrieval-augmented generation. The pipeline ingests documents in any format and pushes validated results to production after human review. I also built integrations against booking systems (OfficeRnD, Nexudus), CRM platforms (Attio, Amplemarket), and payment flows (Stripe), handling rate limits, webhooks, and retry logic across service boundaries. Before that, I used n8n extensively at Get2Germany to automate data flows between Google APIs and internal tools.
+
+What draws me to No Isolation is the opportunity to be the first person in this role and shape how AI and automation support the business from the inside. I have direct experience working with non-technical stakeholders to translate ambiguous requirements into working systems, and I care about building integrations that are reliable, well-documented, and easy for teams to trust. I work daily with Claude Code as my primary development tool and have hands-on experience with RAG, context engineering, evaluation frameworks, and function calling.
+
+I am based in Venice, Italy and am open to relocating to Oslo. I hold a European Long Term Residence Permit and am available immediately.
+
+Regards,
+Prabhavit Gupta

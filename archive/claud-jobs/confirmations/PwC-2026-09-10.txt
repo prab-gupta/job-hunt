@@ -1,0 +1,5 @@
+PwC Slovakia, AI Engineer (m/f) 748486WD, Bratislava. Guest Phenom flow https://jobs-cee.pwc.com/ce/en/applythankyou?status=success&jobSeqNo=PWCECE748486WDEXTERNALENCE
+Page title: Thank you for applying
+Heading: Thank you for your application and interest in a role with PwC!
+Text: You have successfully applied for AI Engineer (m/f)(748486WD). You will receive an email confirming your application.
+Verified by the planner via Playwright snapshot at 18:15 CEST on 2026-09-10 (the sonnet agent stalled after submit).

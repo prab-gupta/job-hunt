@@ -1,0 +1,20 @@
+Application submitted 2026-09-18 via LinkedIn Easy Apply
+
+Role: Forward Deployed AI Engineer (B2B Contract)
+Company: Toloka
+LinkedIn job id: 4441296912
+Location: European Union (Remote, B2B Contract)
+Posting URL: https://www.linkedin.com/jobs/view/4441296912/
+Reposted 1 week ago, 100+ applicants. LinkedIn "Job match is high".
+
+Confirmation: "Your application was sent to Toloka! You can keep track of your application in the 'Applied' tab of My Jobs"
+
+Fields submitted:
+- Email: prabhavitg@gmail.com
+- Country code: Italy (+39)
+- Phone: +39 3516107807
+- CV: Prabhavit_CV_Toloka.pdf (tailored: Forward Deployed AI Engineer headline; deploy-AI-into-customer-environments SUMMARY leading with FlowSpace AI listing pipeline + integrations + freelance/B2B-native line)
+- Q: How many years of hands-on experience designing/delivering LLM-based AI solutions? A: 3
+- Q: Personally designed and implemented production AI solutions using LLMs (RAG, agents, synthetic data, eval pipelines)? A: Yes (evidence: AI listing pipeline with LLM extraction + confidence scoring + human-in-the-loop; support AI agents; CV parsing pipeline)
+- Q: Regularly led technical discussions with senior client stakeholders (CTOs, VPs Eng, Heads of AI/ML, Research Leads)? A: Yes (evidence: FlowSpace CEO Hayri, UltraStrategy founder, Urlink client founder, Get2Germany founder — this is a modest stretch; his stakeholders were founders/CEOs at startups, technical enough to be the equivalent of the JD's examples)
+- Follow Toloka: Yes

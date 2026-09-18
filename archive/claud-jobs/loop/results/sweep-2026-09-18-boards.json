@@ -1,0 +1,59 @@
+{
+  "search_label": "Boards sweep: Euremot, Himalayas, aijobs, Lever, SmartRecruiters - Italy/remote Italy only",
+  "candidate": "Prabhavit Gupta",
+  "sweep_notes": {
+    "raw_candidates": 35,
+    "after_gates": 1,
+    "verified_live": 1,
+    "sources_searched": [
+      "euremotejobs.com/job-region/remote-jobs-europe/ and individual listing pages",
+      "himalayas.app/jobs and public API documentation (API search endpoint inaccessible to WebFetch)",
+      "aijobs.net (redirects to Foorilla hiring shell; no usable individual job listing)",
+      "jobs.lever.co direct postings and company boards",
+      "jobs.smartrecruiters.com direct postings"
+    ],
+    "queries": [
+      "site:euremotejobs.com AI automation remote Europe",
+      "site:himalayas.app/jobs AI automation remote Italy",
+      "site:aijobs.net AI automation solutions engineer remote Europe",
+      "site:jobs.lever.co OR site:jobs.smartrecruiters.com AI Remote Europe engineer",
+      "site:jobs.lever.co Italy AI Remote engineer",
+      "site:jobs.smartrecruiters.com Italy TypeScript remote engineer"
+    ],
+    "dropped_examples": [
+      "Sysdig - Senior AI & Product Enablement Specialist: live Lever posting, Flexible - Italy, but requires deep containers/Kubernetes/Linux/cloud expertise and 3+ years instructing; Python/Bash-heavy and outside the realistic profile.",
+      "Imaginary Cloud - AI Engineer (.NET / Azure AI): live Euremot listing, but requires a technical CS/Data/AI degree and states EUR 27,785-43,450, below the floor at the bottom of the band; Portugal-specific eligibility.",
+      "Partner One Capital / NetWitness - Presales Engineer: live Euremot listing, but requires Dutch and English fluency.",
+      "Welo Data - Project Lion Senior Prompt Engineer: live Lever listing, but requires native Italian, 4+ years prompt engineering, and a technical/analytical degree.",
+      "Redcare Pharmacy - AI Solutions Engineer / AI Enablement Engineer: SmartRecruiters listing requires a CS/AI/data engineering technical degree and strong Python/Azure Databricks.",
+      "360Learning - Solutions Engineer DACH: live Lever posting, but requires fluent German and restricts hiring to Germany, France, UK or Spain.",
+      "Talent Factor Ltd - AI Solutions Engineer: SmartRecruiters posting is an agency listing and requires native/near-native German or Spanish/Italian; no named end client.",
+      "Jobgether Lever listings: aggregator/repost with no named end client; excluded under the staffing/aggregator gate.",
+      "ThriveCart - Quality Assurance Engineer: Euremot page loaded but was posted 6 months ago, outside freshness window.",
+      "Lemon.io Senior AI Engineer and Senior .NET Full-stack Developer: Euremot pages are marketplace placements and require 3-5+ years plus Python/.NET stacks; excluded for aggregator/seniority/stack mismatch.",
+      "aijobs.net: current URL redirects to Foorilla hiring shell rather than a verifiable individual posting; channel is a dead end for this sweep."
+    ],
+    "channel_notes": [
+      "Himalayas API search URLs were inaccessible through the permitted WebFetch tool; board HTML results were stale/non-chronological and did not yield a verifiable Italy-eligible survivor.",
+      "aijobs.net no longer exposes its prior job board at the checked URL; it redirects to Foorilla and should not be swept again unless a new direct listing route is found."
+    ]
+  },
+  "roles": [
+    {
+      "title": "Junior AI & Product Enablement Specialist",
+      "company": "Sysdig",
+      "url": "https://jobs.lever.co/sysdig/eaa1171f-938a-456e-af20-1f8621e74ab2",
+      "fit": 66,
+      "track": "B - Forward-deployed / Solutions",
+      "basis": "Employee",
+      "location": "Remote - Flexible - Italy",
+      "eligibility": "Tier 1 - Italy explicitly listed",
+      "comp": "EUR 29,000-36,000 gross/year",
+      "posted": "2026-08-27 (date shown by corroborating listing; live employer page fetched 2026-09-18)",
+      "why": "Live employer Lever posting explicitly accepts Flexible - Italy; junior scope matches roughly 3 years, AI coding-agent use, scripting/automation, APIs, technical documentation and demos/workshops.",
+      "watch_outs": "Compensation is below Prabhavit's preferred range. Role is cloud-native enablement with Bash/Python, YAML/Markdown, containers, Linux and CI/CD; Python is only a scripting requirement, but cloud-training experience is a gap. Lever form is CV-only/basic fields with no required cover letter or essay visible.",
+      "source": "Lever direct posting",
+      "verified": "fetched 2026-09-18 - live; exact title, Flexible - Italy, remote, requirements and compensation confirmed"
+    }
+  ]
+}

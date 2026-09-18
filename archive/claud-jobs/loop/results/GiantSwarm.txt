@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464792765/ (Apply routes to Personio: https://giant-swarm.jobs.personio.de/job/2774421/apply)
+Uploaded: Prabhavit_CV_GiantSwarm.pdf (CV field), CoverLetter_GiantSwarm.pdf (Other/optional documents field, form's own instructions said CV + certificates + short cover letter go under Documents)
+Answers given: Name Prabhavit Gupta, email prabhavitg@gmail.com, phone +39 351 610 7807, Location Venice Italy, Available from Immediately, LinkedIn https://www.linkedin.com/in/prabhavit/, Expected salary (per year/gross/EUR) 45,000, GitHub https://github.com/prab-gupta
+Blockers: none. No CAPTCHA, no account wall.
+Confirmation: "THANK YOU / We have received your application and will contact you shortly!" saved to confirmations/GiantSwarm-2026-09-16.txt (PNG saving not available on the Claude in Chrome path per brief, txt is the record).
+LEARNINGS: none new; standard Personio form with hidden file inputs behind styled "Add file" buttons, unhid them via a one-line JS style toggle then used file_upload on the underlying input refs.

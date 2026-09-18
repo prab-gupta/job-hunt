@@ -1,0 +1,10 @@
+CarOnSale - Machine Learning Engineer (m/f/x) - Greenhouse (job-boards.eu.greenhouse.io/caronsale)
+URL: https://job-boards.eu.greenhouse.io/caronsale/jobs/4968904101?gh_src=LinkedIn
+Confirmation page: https://job-boards.eu.greenhouse.io/caronsale/jobs/4968904101/confirmation?gh_src=LinkedIn
+
+Success text on page:
+"Thank you for applying.
+Your application is in. We review every submission carefully and will be in touch soon.
+Your CarOnSale Recruiting Team"
+
+Submitted 2026-09-16.

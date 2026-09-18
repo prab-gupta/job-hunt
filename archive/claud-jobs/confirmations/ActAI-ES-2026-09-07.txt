@@ -1,0 +1,15 @@
+Company: Bjak / ActAI Spain
+Role: Full Stack Engineer, AI systems
+Date: 2026-09-07
+ATS: Ashby
+Form: https://jobs.ashbyhq.com/bjakcareer/68560a5b-469a-412f-bc94-b90c0fc55dd3/application
+Success evidence: Success. Thank you so much for your interest in joining Bjak and considering us as part of your career journey! Wishing you the best of luck in the process!
+Screenshot evidence: Captured from the live Ashby success screen immediately after submission.
+CV: Prabhavit_CV_Original_EN.pdf
+Cover letter: No form field; CoverLetter_ActAI_ES.pdf remains saved locally.
+Current base: Venice, Italy
+Work VISA needed for Spain: Yes
+Backend production experience: B, contributed significantly but did not own end-to-end.
+Production AI deployment: directly deployed and managed AI systems in production execution.
+English: Professional/Fluent.
+Consent: required Bjak recruitment-marketing/business-updates checkbox accepted with explicit user authorization.

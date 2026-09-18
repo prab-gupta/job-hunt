@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://job-boards.greenhouse.io/speechify/jobs/5976192004
+Role: Software Engineer, Platform (requisition cross-posted for Berlin, Frankfurt, Toulouse and Paris; applied once, per instructions)
+ATS: Greenhouse
+
+Uploaded:
+- Resume/CV: Prabhavit_CV_Original_EN.pdf (removed a stale MyGreenhouse-autofilled "Prabhavit_CV-.pdf" first)
+- Cover Letter: CoverLetter_Speechify.pdf (built from CoverLetter_eduBITES.tex template, tectonic, confirmed 1 page, 0 em-dashes)
+
+Answers given:
+- How did you hear about this opportunity?: LinkedIn
+- Why do you want to work at Speechify?: Speechify's document-to-audio mission tied to FlowSpace backend ownership (TypeScript/Node APIs, Supabase/PostgreSQL booking flows, OfficeRnD/Nexudus integrations) mapping to the Platform team's mandate (payments, subscriptions, auth, APIs); closed on wanting a fully distributed team.
+- What is one of the hard technical problems you have worked on?: FlowSpace's AI listing pipeline (multi-format ingestion: PDF/website/spreadsheet/photo -> structured validated listing; orchestration/agentic-extraction/verification was the hard part; now runs across 900+ listings).
+- Where are you located?: Western Europe (only a region-level dropdown was offered, no city/country field; no separate Yes/No work-authorisation question rendered on this form)
+- EEO: Gender = Decline To Self Identify, Hispanic/Latino = Decline To Self Identify, Veteran Status = I am not a protected veteran (factual), Disability Status = I do not want to answer
+- Salary: not asked (no field on form; JD states a wide Germany-based USD 30,000-120,000 + bonus + stock range)
+
+Blockers: none. Did not claim GCP/cloud-admin experience anywhere (guardrail); framed only claimable stack (TS/Node, Supabase/PostgreSQL, OfficeRnD/Nexudus, LLM pipeline). Location framed as Venice, Italy / remote-from-Italy / Italian EU long-term residence, no sponsorship needed, in the cover letter and free-text answers.
+
+Confirmation text (job-boards.greenhouse.io/speechify/jobs/5976192004/confirmation): "Thanks for applying. Great news! Your application has been successfully submitted, thank you for your interest in working at Speechify."
+
+LEARNINGS: Speechify's Greenhouse form triggered MyGreenhouse browser autofill on Apply click, which reattached a stale "Prabhavit_CV-.pdf" to the Resume/CV slot exactly as PATTERNS.md warns for Greenhouse in general -- confirms the trap applies here too, remove-and-reupload before trusting any autofilled resume field. Also: the post-submit confirmation page offers an optional external Google Form "first screen coding exam" link -- not part of the application itself, left for Prabhavit to decide on.

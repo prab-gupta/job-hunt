@@ -1,0 +1,19 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468238711/ (AI Solutions Specialist - FDE II, Quento, Athens, Greece)
+Apply target: https://apply.workable.com/qualcogroup/j/920CE984D4/apply/ (req AISA_2609, Hybrid)
+
+Dedupe: python3 loop/dedupe.py --check "Quento" = NEW. grep -i quento applications.csv = no prior row. Proceeded.
+
+Hard gates on JD text: no anti-AI disclaimer, no explicit language requirement visible in the LinkedIn JD text itself, years/seniority/stack not a kill per the standing USER FDE-ALL override.
+
+Opened Workable application form and began filling: First name Prabhavit, Last name Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Address Venice, Italy. Before reaching the CV upload step, the form's Details section surfaced two mandatory screening questions: "Are you eligible to work in the country you are applying to?" and "Do you speak Greek fluently?" (both required Yes/No, no "nice to have" framing). Prabhavit has English (C2) and conversational Italian only, no Greek.
+
+Per the standing kill gate (JD/form explicitly requires a language he lacks = kill), stopped here. Did not answer the screening questions, did not upload CV or cover letter, did not submit.
+
+Note: applications.csv already had a same-day KILLED row for Qualco Group (a different requisition, 4460703001, Easy Apply) killed for the identical Greek-fluency-required reason. This confirms the pattern rather than duplicating it (different req id AISA_2609 vs the other).
+
+Prepared but unused: Prabhavit_CV_Quento.tex/.pdf (2 pages, verbatim bullets from Prabhavit_CV_EN.tex), CoverLetter_Quento.tex/.pdf/.txt (0 em-dashes). Kept on disk in case the user wants to override and apply manually; not attached to any submission.
+
+Blockers: language gate (Greek), not a technical/account blocker.
+
+LEARNINGS: Quento/Qualco Group's Workable application form for THIS requisition (AISA_2609) has a hard-required "speak Greek fluently" screening question even though the LinkedIn JD text prefetched for this row did not mention Greek at all. Language gates can be hidden in the live ATS form, not just the JD body - worth re-checking the live form even when the JD text passes the grep.

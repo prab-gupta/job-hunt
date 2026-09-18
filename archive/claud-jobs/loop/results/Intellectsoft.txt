@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4444955938/ (LinkedIn) -> https://apply.workable.com/intellectsoft/j/3BB5AB2E95/apply/ (Workable ATS, offsite)
+Uploaded: Prabhavit_CV_Intellectsoft.pdf (2 pages, Technical Skills reordered Automation-first, FlowSpace Technical Responsibilities reordered API-integration-first)
+Cover letter: pasted into optional "Cover letter" textbox (CoverLetter_Intellectsoft.txt content), leads FlowSpace (migration, OfficeRnD/Nexudus API integrations, CRM/GTM automations) paired with UltraStrategy (CV-parsing pipeline), honest paragraph on Go/Java and AWS/GCP/Azure cloud-admin gaps.
+Answers: Where do you live now = Venice, Italy. When available to start = Immediately; two weeks notice after an offer. English level = Professional / C1-C2, fluent written and spoken. Privacy Notice consent ticked.
+Blockers: none.
+Confirmation: "Your application has been submitted successfully. A copy of your application will be sent to prabhavitg@gmail.com for your records." (confirmations/Intellectsoft-2026-09-16.txt)
+LEARNINGS: Workable form_input on name/email textboxes left React state stale (fields showed empty + required error after form_input calls); real keyboard click+type worked cleanly. Same pattern as the known Ashby form_input issue - worth checking on any Workable form.

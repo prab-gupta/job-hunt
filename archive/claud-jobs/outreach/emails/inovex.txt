@@ -1,0 +1,17 @@
+TO: info@inovex.de
+SUBJECT: Re: Data / ML Engineer, applied AI engineer with client delivery experience
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hello inovex team,
+
+inovex is hiring a Data / Machine Learning Engineer, and delivery-focused data and ML engineering on client projects is the work I do, and I am writing directly. The posting asks for German at C1, which I do not have (English C1), so this is a question about English-speaking project teams rather than that exact opening.
+
+At FlowSpace (coworking marketplace, London) I built the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far, plus the Nexudus and OfficeRnD API integrations and RAG support agents with confidence scoring and human escalation. Stack: Python, TypeScript, Laravel, n8n, Claude and OpenAI APIs, PostgreSQL, Docker. The pipeline is the kind of practical ML system your posting describes: LLM extraction, validation rules, human review, and monitoring of what the model gets wrong.
+
+Could you pass this to the hiring team, or point me to the right person for a 15 minute call? My background is the comparable-experience route rather than a STEM degree, stated up front.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Based in Venice with an EU long-term residence permit; remote from Italy from day one, or EU relocation with the employer-side permit.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

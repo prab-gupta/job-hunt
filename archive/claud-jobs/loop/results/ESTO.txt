@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4455450096/
+Dedupe: python3 loop/dedupe.py --check "ESTO Group" "https://www.linkedin.com/jobs/view/4455450096/" returned HIT COMPANY.
+applications.csv already has two SUBMITTED rows for this exact requisition (same ATS URL https://jobs.esto.eu/jobs/8235300-ai-automation-engineer, same company ESTO/ESTO Group, same role AI Automation Engineer):
+  2026-08-24,ESTO,AI Automation Engineer,Teamtailor,SUBMITTED
+  2026-08-26,ESTO Group,AI Automation Engineer,Teamtailor,SUBMITTED (confirmation text: "You already applied for this job.")
+Both within the last 60 days. Per brief dedupe rule this blocks: stop, do not reapply. No CV, no letter, no browser opened, no form touched.

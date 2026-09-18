@@ -1,0 +1,15 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4448046356/
+Company: NTT DATA Europe & Latam
+Role: Forward Deployed Engineer - FDE (w/m/x)
+Location: Ettlingen, Baden-Wurttemberg, Germany
+
+Dedupe: python3 loop/dedupe.py --check reported HIT COMPANY (not HIT URL). grep on applications.csv found five prior NTT DATA rows: two LEAD/SKIP for unrelated requisitions, one SKIP for a Senior ML Engineer role, one KILLED (req 4448036395, same role title, German-required kill on 09-16), and one SUBMITTED (req 4452599257, NTT DATA Paris via Phenom, 09-17 00:05, different requisition entirely). None of these is this requisition (4448046356), so dedupe did not block by itself, consistent with the task note.
+
+Hard gate check: read the live JD text (scratchpad/jd/4448046356.txt). Under "Basic Qualifications", after "Bachelor's degree or equivalent work experience." the JD states verbatim: "Fluency in German and English" and only then does the "Preferred Skills" section begin. This places German fluency inside the required qualifications, not the preferred list. Prabhavit cannot claim German. Per the FDE-ALL standing rule, the one carve-out is "a language he lacks is explicitly required (German required = kill, quote the clause)." That applies here.
+
+This is the same outcome, same clause, same employer and role title as the sibling requisition (4448036395) already KILLED on 2026-09-16, just a different city (Ettlingen vs the other posting's location) and a different LinkedIn job id, so it was evaluated as a distinct, non-duplicate posting rather than skipped as already-handled.
+
+No CV or cover letter drafted. No ATS form opened, no browser session used. Nothing new broke; no LEARNINGS.md line added (this confirms the existing German-requirement pattern for this employer/role, not a new trap).
+
+Logged: one KILLED row appended to applications.csv (date 2026-09-17).

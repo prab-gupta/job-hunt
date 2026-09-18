@@ -1,0 +1,14 @@
+Kilo Health (Bioma) - Full-Stack Engineer @Bioma - Riga, Latvia
+Applied via Teamtailor: https://teamtailor.kilo.co/jobs/8353852-full-stack-engineer-bioma
+Submitted: 2026-09-10
+
+Success page text (after clicking Submit application):
+"Thanks for applying
+We have received your application and we will be reviewing it shortly. We usually respond within a week.
+Have someone who can be a reference? Let us know."
+
+Confirmation URL: https://teamtailor.kilo.co/jobs/8353852-full-stack-engineer-bioma/applications/cd5241ae-3dad-43c8-afe5-cc918c3ad65a/thanks/...
+Tab title after submit: "Applied to Full-Stack Engineer @Bioma"
+
+Note: PNG screenshot not saved to disk (Claude in Chrome does not expose a file path for
+save_to_disk in this session) - this txt is the confirmation record per apply-bot guidance.

@@ -1,0 +1,4 @@
+Application submitted! Your application for Experienced Artificial Intelligence Engineer (AI Engineer) at Drees & Sommer Digital Services has been submitted successfully. You'll receive a confirmation email shortly.
+
+URL at success: https://jobs.smartrecruiters.com/oneclick-ui/company/DreesSommerSE/publication/2519b635-39c4-4533-a06c-20aaff635d17/success
+Submitted via Playwright MCP, 2026-09-10.

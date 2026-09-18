@@ -1,0 +1,31 @@
+{
+  "session_id": "8ca15c42-d8a9-40d1-9eb7-9b2335ce6145",
+  "source_path": "/Users/prab/.claude/projects/-Users-prab/8ca15c42-d8a9-40d1-9eb7-9b2335ce6145.jsonl",
+  "scope": "user and assistant text; exact repeated messages collapsed; tool traces omitted; mixed-topic sessions filtered",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": "2026-09-16T06:11:15.743Z",
+      "text": "Context: the job-search pipeline lives in /Users/prab/Downloads/claud jobs. applications.csv is the dedupe source of truth (10 columns: date,company,role,ats,url,status,confirmation_text,salary_stated,cover_letter_attached,notes). loop/dedupe.py checks it by company name.\n\nToday (2026-09-11) I applied to MAU / AI-LAB's \"AI Full Stack Developer\" role (Teamtailor, https://leadtech.teamtailor.com/jobs/8083644-ai-full-stack-developer). The task named the company \"MAU\", so `python3 loop/dedupe.py --check \"MAU\" ...` and `grep -i \"MAU\" applications.csv` both came back clean. The real ATS organisation is \"Leadtech\" (leadtech.teamtailor.com, emails from leadtech.teamtailor-mail.com) - MAU/AI-LAB is just a product brand within Leadtech.\n\nWhile completing an email-verification step for that application I searched Gmail (account prabhavitg@gmail.com) and found two rejection emails from Leadtech, both for a DIFFERENT requisition, \"AI Automation Engineer\":\n- Thread 19fa76fc4d0251ea, 2026-07-28, subject \"Thank you for your time - Leadtech\" (rejection, following an application received 2026-07-27, thread 19fa50d744a8384e)\n- Thread 19fefeaa6dd9d8fb, 2026-08-11, subject \"Thank you for your time - Leadtech\" (rejection, following an application received 2026-08-10, thread 19feb976e69c559e, plus a \"Welcome to Leadtech TT\" talent-community email same day, thread 19feba5474358917)\n\nNeither of these applications or rejections is logged in applications.csv at all - only unrelated Leadtech rows exist (an ACTION_REQUIRED WTTJ row from 2026-08-06 for \"AI Full Stack Developer\" that was never completed, two DEAD Workable postings, one DEAD Teamtailor \"AI Product Engineer\" posting). This is a real gap: the candidate applied to and got rejected from Leadtech twice in the last 6 weeks, and the dedupe system has no record of it.\n\nPlease:\n1. Add two SUBMITTED-then-REJECTED-style rows to applications.csv for these two \"AI Automation Engineer\" applications/rejections (best-guess ATS/URL from context if not otherwise discoverable - check Gmail threads above for any application-received email that might name the original posting URL or ATS), so the historical record is complete.\n2. Check loop/dedupe.py and/or wherever company names get resolved for a place to record that \"MAU\" and \"AI-LAB\" are brand names for the Leadtech Teamtailor org, so a future `--check \"MAU\" ...` call also searches \"Leadtech\" (or vice versa). A simple alias map or a note in a relevant README/RULES file may be the lightest fix - use judgment on how the existing dedupe tooling is structured before adding new machinery.\n3. Do not touch today's already-submitted MAU/AI-LAB \"AI Full Stack Developer\" application (applications.csv row dated 2026-09-11, company Leadtech, status SUBMITTED) - that one already went through and should stay as is.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-09-16T06:11:31.041Z",
+      "text": "Reading dedupe tooling + CSV structure first, then Gmail threads for the original posting URL.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-09-16T06:16:21.107Z",
+      "text": "Fixing the two new rows so the ATS field has no commas, then final verification.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-09-16T06:17:29.128Z",
+      "text": "Done. Two backfilled Leadtech rows logged, brand alias fix live in dedupe, row for the Sep 11 application untouched.\n\n**1. applications.csv** ([applications.csv:3974](Downloads/claud%20jobs/applications.csv:3974), [applications.csv:3975](Downloads/claud%20jobs/applications.csv:3975))\n- 2026-07-27 Leadtech, AI Automation Engineer, ATS \"Workable (best guess)\", URL apply.workable.com/j/5C848DC811, status REJECTED. Notes carry the Gmail thread ids (application 19fa50d744a8384e, rejection 19fa76fc4d0251ea).\n- 2026-08-10 Leadtech, AI Automation Engineer, ATS \"Teamtailor (best guess)\", URL leadtech.teamtailor.com/jobs, status REJECTED. Thread ids 19feb976e69c559e, 19fefeaa6dd9d8fb, 19feba5474358917 in notes.\n- ATS/URL are best guesses and flagged as such in the row. Evidence: LinkedIn job 4443779109 (Leadtech Group, posted Jul 22) mirrors to Workable job 5C848DC811 via freehire; the \"Welcome to Leadtech TT\" email on Aug 10 reads as a Teamtailor Connect welcome. The Gmail connector is not attached to this session, so the original emails could not be re-read. Salary and cover-letter fields say \"unknown (backfilled row)\".\n- Row 3907 (Sep 11 MAU application) is byte-identical to before. Note it is already REJECTED as of Sep 15, not SUBMITTED.\n- Backup at applications.csv.bak-0916. The file is being written by another live session (a Coltech row landed mid-edit); that row was preserved.\n\n**2. dedupe alias** ([loop/dedupe.py:29](Downloads/claud%20jobs/loop/dedupe.py:29))\n- Added `ALIASES` dict inside `norm_co`: mau, ai-lab, \"mau / ai-lab\", \"mau ai-lab\" resolve to leadtech. Applies to both corpus build and `--check`, and to sweep.py which imports `is_seen`.\n- Verified after `--rebuild`:\n\n```\nMAU       HIT COMPANY\nAI-LAB    HIT COMPANY\nLeadtech  HIT COMPANY\n```\n\n- Lesson appended to [loop/RULES.md](Downloads/claud%20jobs/loop/RULES.md) (dated 2026-09-16): when the queue company differs from the ATS domain or email sender org, check both names and add the pair to ALIASES.\n\nSkipped: generic \"ai lab\" alias (could be a real company). Add when a real brand-name collision shows up.\n\nNext: nothing required. Optionally attach the Gmail connector and paste the two application-received emails if you want the ATS fields upgraded from \"best guess\".",
+      "repeat_count": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4447309300/
+Company: Outset - Forward Deployed Software Engineer (EU), Ireland/EU remote, LinkedIn offsite -> Ashby
+
+Reason: dedupe duplicate. python3 loop/dedupe.py --check "Outset" "https://www.linkedin.com/jobs/view/4447309300/" returned HIT COMPANY. grep -i outset applications.csv shows a 2026-08-06 row for Outset, "Forward Deployed Software Engineer - EU", ashby direct URL (jobs.ashbyhq.com/outset/ef882074-b4bd-4e7e-b0ab-325e3c5c6a93), status SUBMITTED. This LinkedIn posting is the identical role title/company, reposted, 42 days after the original SUBMITTED date - inside the 60-day same-role/same-level dedupe window, and effectively the same requisition (Ashby normally has one open FDE-EU req). Per the task's own kill criteria (closed / same requisition already SUBMITTED / mandatory language-or-eligibility gap he cannot meet), this hits "same requisition already SUBMITTED".
+
+Verified the live LinkedIn page first (job open, Apply button present, Remote, $180K-$240K, reposted 10 hours ago, no LinkedIn "Applied" banner since the original application went via Ashby direct rather than LinkedIn Easy Apply, so LinkedIn itself has no record to show).
+
+Uploaded: nothing. No CV or cover letter built (killed before the materials step). No form opened.
+Blockers: none (not a user-only blocker, a straightforward dedupe kill).
+LEARNINGS: none new - this is the existing dedupe rule working as documented (HIT COMPANY + matching applications.csv row inside 60 days = block), no new ATS trap.

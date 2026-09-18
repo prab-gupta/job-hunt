@@ -1,0 +1,69 @@
+{
+  "search_label": "Ashby + Greenhouse ATS discovery — AI automation / FDE / solutions — 2026-09-18",
+  "candidate": "Prabhavit Gupta",
+  "sweep_notes": {
+    "raw_candidates": 52,
+    "after_gates": 0,
+    "verified_live": 6,
+    "sources_searched": [
+      "Ashby job pages and posting API attempts",
+      "Greenhouse employer ATS single-posting pages",
+      "Google discovery restricted to jobs.ashbyhq.com, job-boards.greenhouse.io, and job-boards.eu.greenhouse.io"
+    ],
+    "queries": [
+      "site:jobs.ashbyhq.com AI Automation remote Europe",
+      "site:jobs.ashbyhq.com Applied AI Engineer Europe remote",
+      "site:jobs.ashbyhq.com Solutions Engineer EMEA 2+ years AI",
+      "site:job-boards.greenhouse.io Forward Deployed Engineer Europe",
+      "site:job-boards.greenhouse.io AI workflow remote Europe engineer",
+      "site:job-boards.greenhouse.io AI Solutions Engineer Remote Italy",
+      "site:job-boards.greenhouse.io Solutions Engineer AI 2+ years Europe"
+    ],
+    "dropped_examples": [
+      "BoWatt — Ashby page was a JavaScript shell and its API endpoint was inaccessible; Germany-based eligibility could not be verified, so omitted.",
+      "Cake — live Greenhouse page, but requires 6+ years and strong Python/MLOps; candidate has about 3 years and explicitly does not know Python.",
+      "Tellius — live Greenhouse page, but explicitly only open to candidates residing and authorized in the United States; also requires a CS/Math/Stats degree.",
+      "Nearform — live Italy Greenhouse page, but requires significant senior experience; posting says seniors typically have at least 8 years and demands Python/Kubernetes.",
+      "Taxbit — live Madrid Greenhouse page, but requires 5+ years and a native European language; relocation would also be required.",
+      "Aircall — live Paris Greenhouse page and excellent n8n/low-code fit, but hybrid Paris relocation plus France work-right, French-residency and 3-days-office questions; company already appears in the full dedupe set.",
+      "Phaidra — live Greenhouse page, but role is USA/Canada-only and requires 5–10 years plus HVAC/controls expertise.",
+      "Cresta — live Greenhouse page, but Principal/5+ years and US-only; portfolio and LinkedIn required on form.",
+      "PlanetScale — live Greenhouse page, but 5+ years of deep MySQL/PostgreSQL operations and database migrations; company was not new but role was outside profile.",
+      "GitLab — live Greenhouse page, but Staff-level role; dropped for seniority.",
+      "Vercel — live Greenhouse page, but hybrid London/Berlin and German/French fluency required.",
+      "Postman — Greenhouse search hit returned HTTP 404 on direct fetch; DEAD.",
+      "Greenhouse and Ashby search hits already in the shared company dedupe set were excluded even when otherwise relevant."
+    ]
+  },
+  "roles": [],
+  "near_misses": [
+    {
+      "company": "Aircall",
+      "role": "Forward Deployed Engineer (AI Solutions)",
+      "where": "Paris Office; hybrid, 3 days/week",
+      "why_not": "Live and unusually strong n8n/Make/Zapier/API/AI-agent match, but requires relocation to France and France work-right/residency answers; company is already in dedupe set.",
+      "action": "Do not repeat in this sweep"
+    },
+    {
+      "company": "BoWatt GmbH",
+      "role": "Applied AI Engineer (Germany-based)",
+      "where": "Germany; remote within Germany",
+      "why_not": "Search result showed €70K–€100K, 3+ years, agentic workflows and TypeScript, but Ashby page loaded only a JS shell and API verification failed.",
+      "action": "Recheck through Ashby API in a future sweep"
+    },
+    {
+      "company": "Cake",
+      "role": "Solutions Engineer, AI/ML",
+      "where": "Remote; eligibility not stated on page",
+      "why_not": "Live, but 6+ years, full MLOps and strong Python are explicit requirements; form also requires a cover letter, duplicate resume and LinkedIn.",
+      "action": "Drop"
+    },
+    {
+      "company": "Tellius",
+      "role": "Solutions Engineer",
+      "where": "Remote, United States only",
+      "why_not": "Live, but page explicitly requires current US residence/work authorization and a CS/Math/Stats degree.",
+      "action": "Drop"
+    }
+  ]
+}

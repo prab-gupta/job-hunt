@@ -1,0 +1,17 @@
+STATUS: CLOSED
+URL: https://www.linkedin.com/jobs/view/4414892687/
+Task instruction: an earlier agent (C37) killed this row citing an assumed German-language requirement with no evidence, and this task asked to re-check the live JD and form and apply unless German is actually required.
+
+Re-check:
+- Live LinkedIn JD (full text re-read): no German-language line anywhere, must-haves are JS/TypeScript/React, SQL, ETL/data integration, customer-facing delivery, low-code/AI tooling. The earlier kill reason does not hold. Confirms the German-requirement kill was wrong.
+- However, the real ATS tells a different story. LinkedIn's "Apply on company website" link goes to SPREAD's Personio board at spread-gmbh.jobs.personio.de/job/2530228 - this returns "404 This URL does not exist".
+- Checked SPREAD's own live careers page (spread-gmbh.jobs.personio.de): 9 open roles listed across Marketing, People Operations, Sales, Strategy and Operations, and Value Realization. No Forward Deployed Engineer role anywhere on the current list.
+- Conclusion: the posting is closed on the employer's own ATS (role filled or pulled), and the LinkedIn listing is stale (LinkedIn itself shows "4 months ago", "100 people clicked apply" - an old, lingering listing). This is a posting-closed kill, not a language kill.
+
+Uploaded: nothing. No CV or letter built (stopped before drafting per the hard gate on a closed/404 posting).
+Answers given: none.
+Blockers: none user-facing; the block is that the destination job no longer exists.
+
+Dedupe: prior applications.csv row for this exact URL was KILLED (wrong reason, "German required"). This session's re-check appends a new CLOSED row with the corrected evidence rather than editing the old row, per "never edit/overwrite a file you did not create" - the history now shows both the mistaken kill and the corrected finding.
+
+LEARNINGS: a LinkedIn listing can keep an active "Apply" button and an "X months ago" timestamp long after the destination ATS posting is gone (Personio 404, role absent from the company's own live board). When re-checking a row flagged as "killed without evidence", verify against the destination ATS directly, not only against the LinkedIn JD text - the language-requirement question and the posting-still-live question are independent checks.

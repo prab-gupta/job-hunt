@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4448591480/ (LinkedIn) -> offsite apply -> https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Cambridge-United-Kingdom/Full-Stack-Developer---CT-Office-Incubation-Team_R014998
+
+Dedupe: NEW (no prior record for AVEVA in applications.csv or any history source).
+Anti-AI disclaimer grep on JD: none found. JD explicitly welcomes AI-assisted coding tools including Claude Code by name, so this is a strong, safe fit.
+LinkedIn apply-button API check: 1 (open). Page confirms "Responses managed off LinkedIn" (offsite/Workday).
+
+Materials built and ready (uploaded nowhere, blocker hit before upload step):
+- Prabhavit_CV_AVEVA.tex/.pdf: built from Prabhavit_CV_EN.tex verbatim, parity-diffed (no invented claims). 2 pages confirmed. Career Summary trimmed to 2 bullets (AI-assisted development/prompt engineering/API integrations; production-ready features/AI agents/rapid prototypes/QA). Technical Skills reordered to lead with Development (Claude Code, Laravel, Typescript). FlowSpace kept 6 bullets (AI data tool, OfficeRnD/Nexudus, Next.js/Laravel migration, commute-time tool, AI support agents, scale); Urlink kept all 3 (AI-assisted platform build); UltraStrategy and Get2Germany kept 2-3 bullets each (AI/automation minimum rule, squarely on-theme for this JD); Qomodo/Clubee/Tractionboard each kept relevant bullets. No sentences rewritten.
+- CoverLetter_AVEVA.tex/.pdf/.txt: English, ~290 words, no em-dash (grep confirmed 0). Two proof paragraphs: FlowSpace (legacy-stack migration to Next.js/Laravel kept live, AI listing bot with human-in-the-loop drafting 900+ listings, OfficeRnD/Nexudus integration, Claude Code named as a day-to-day tool matching the JD's named AI-assisted coding tools) and Urlink (AI-assisted platform build and client automations, small-team rapid iteration). All claims trace to loop/OUTREACH_FACTS.md.
+- Full breakdown in answers/aveva-2026-09-17.md.
+
+Blocker (user-only, standing Workday rule in the brief):
+Clicking Apply on the AVEVA Workday tenant (aveva.wd3.myworkdayjobs.com) opens "Start Your Application" with Autofill/Apply Manually/Use Last Application. "Apply Manually" (checked per LEARNINGS practice of verifying each tenant) still lands on a "Sign In" step with only two options: "Sign in with Google" or "Sign in with email" (account creation), no guest-apply path. Wall visible in tab 550851423 at https://aveva.wd3.myworkdayjobs.com/en-US/AVEVA_careers/job/Cambridge%2C-United-Kingdom/Full-Stack-Developer---CT-Office-Incubation-Team_R014998/apply/applyManually?source=LinkedIn.
+
+Did not sign in with Google or create an account. Logged NEEDS YOU. All materials are ready in ROOT for the user to finish: upload Prabhavit_CV_AVEVA.pdf, paste CoverLetter_AVEVA.txt, location = Milan (Hybrid, 50% on-site, chosen over London/Cambridge per task), salary = EUR 45,000 (JD states no numeric figure for the Italy location), years = 3, Italy authorised/no sponsorship.
+
+applications.csv: row appended, status NEEDS YOU.
+No new LEARNINGS line needed (Workday sign-in-wall-after-Apply-Manually pattern already documented, e.g. kcura.wd1 entry 2026-09-16 18:10).

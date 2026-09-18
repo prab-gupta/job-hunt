@@ -1,0 +1,9 @@
+Devoteam - Forward Deployed Engineer, GenAI, Prague (Czechia)
+URL: https://www.linkedin.com/jobs/view/4452358576/
+Submitted: 2026-09-17 via LinkedIn Easy Apply
+
+Confirmation shown on submit:
+Job page Application status panel: "Application submitted - now"
+
+CV uploaded: Prabhavit_CV_Devoteam.pdf (reused from the 2026-09-16 Devoteam Milan row, parity-checked against Prabhavit_CV_EN.tex; verified selected, green radio, top of resume list, re-timestamped 9/17/2026)
+Cover letter uploaded: CoverLetter_DevoteamPrague.pdf (new, English, distinct slug from the Milan Italian letter to avoid overwriting it) via the Resume step's separate Upload cover letter control, verified selected.

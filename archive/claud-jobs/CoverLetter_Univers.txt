@@ -1,0 +1,14 @@
+Dear Univers hiring team,
+
+I am applying for the Forward Deployed Engineer role in Madrid. I work directly with live systems and real client data, turning ambiguous operational problems into production features, then support them once they are live.
+
+At FlowSpace, I took over a live coworking marketplace and automated its migration off a legacy stack onto Next.js and Laravel, mapping the old data model to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to 4,500+ users. I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, plus OfficeRnD and Nexudus API integrations for automated bookings. Stack: TypeScript, Next.js, Node.js, Laravel, n8n and the Claude API.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI for the extraction tool itself.
+
+Both roles meant learning a client's operational workflow quickly, integrating data and APIs into an end to end solution, and iterating until it held up in production, which is close to what this role asks for.
+
+I am based in Venice, Italy. I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Madrid and complete that process.
+
+Regards,
+Prabhavit Gupta

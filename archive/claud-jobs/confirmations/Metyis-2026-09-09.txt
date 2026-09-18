@@ -1,0 +1,9 @@
+Metyis AG - AI Solutions Engineer (Fashion) - Application
+URL: https://metyisag.recruitee.com/o/ai-solutions-engineer-fashion/applied
+Source LinkedIn posting: https://www.linkedin.com/jobs/view/4463869648/
+
+Confirmation page text:
+"All done!
+Your application has been successfully submitted!"
+
+Tab header changed to "Applied [checkmark]" on the Application tab.

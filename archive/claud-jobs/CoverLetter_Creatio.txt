@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Creatio Team,
+
+I am applying for the AI Consultant role in Poland. I am a full-stack and AI developer with three years of production experience across eight European companies, and I am drawn to a role that sits between AI agent design and business consulting, because that is the shape of work I have already been doing on client accounts.
+
+At Urlink in Barcelona, I worked as project manager and AI-assisted developer: gathering client requirements directly, then building the platform and its logic and implementing client-driven automations on Next.js, Supabase and Netlify. That loop, translating a stakeholder's process into a working solution, is close to the core of what this role asks for.
+
+At FlowSpace, a coworking marketplace I have led as developer since 2024, I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, and the CRM integration and GTM automations that consolidate leads and automate outbound for the sales funnel. Both were framed the way this role frames AI agents: as workflow redesigns with a measurable outcome, not just a model call.
+
+I also built a CV-parsing pipeline at UltraStrategy using n8n, Affinda and the Claude API, so I understand how an AI agent specification moves from a business problem to a delivery team.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Kind regards,
+Prabhavit Gupta

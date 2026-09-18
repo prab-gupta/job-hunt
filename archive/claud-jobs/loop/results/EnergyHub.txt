@@ -1,0 +1,46 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4452503285/
+ATS: Greenhouse - https://job-boards.greenhouse.io/energyhub/jobs/8652307002
+Confirmation: https://job-boards.greenhouse.io/energyhub/jobs/8652307002/confirmation
+Success text: "Thank you for applying. Your application has been received. If there is a fit, someone will be getting back to you."
+
+Dedupe: NEW (python3 loop/dedupe.py --check "EnergyHub" "<url>" -> NEW, no blocking history).
+
+Hard gates re-checked on the live JD (LinkedIn guest API + Greenhouse posting, both fetched fresh):
+2+ years experience required (not >3) - OK. Title "Software Engineer I", plain, not Senior/Staff/
+Lead/Principal/Manager/CTO - OK. No hard MSc/PhD requirement. English JD, Finnish/Swedish explicitly
+NOT required - OK. Stack is mixed (TypeScript, JavaScript, React, Python, Go, Django, PostgreSQL,
+Docker, AWS) - not a Go-only or Django-only core, so did not trip the "Go/Django as sole core" kill
+gate; TypeScript/React/Python are squarely claimable. Helsinki, Finland is in the EU (weekly office
+presence required, remote allowed some days) - not a "location outside EU" kill. No anti-AI clause
+found (grepped full JD for "AI-generated"/"AI assistance"/"without any AI"/"no AI"; in fact the JD is
+explicitly AI-tool-friendly and names Claude Code as a tool the team already uses). No kill gate hit.
+
+Note: the job had no LinkedIn Easy Apply option, only "Apply on company website" -> external redirect
+to a Greenhouse form. Confirmed the destination form was live and submittable (First/Last
+Name/Email/Phone/Location/Resume/Cover Letter/custom questions, Submit button present) before
+building the tailored CV and letter. Filled in Claude in Chrome, in a fresh own tab (550849921,
+closed after submission), separate from the shared tab group of other in-flight applications.
+
+Uploaded: Prabhavit_CV_EnergyHub.pdf (tailored, 2 pages) - replaced a stale auto-attached
+"Prabhavit_CV-.pdf" from MyGreenhouse autofill. CoverLetter_EnergyHub.pdf (1 page) uploaded to the
+Cover Letter field.
+
+Answers given: How did you hear -> LinkedIn. Over 18 -> Yes. Unlimited/unrestricted authorisation to
+work in Finland -> No. Require company sponsorship/assistance for Finland -> Yes (per
+answers/work-authorisation.md: Italian EU long-term resident status does not itself grant work rights
+in another EU country). Alarm.com dealer/partner/supplier ties -> No. Restrictive covenant/non-compete
+-> No. On a US nonimmigrant visa (F-1) -> No. Education auto-filled correctly (Ca' Foscari Venezia,
+Bachelor's Degree, Oct 2020 - Jun 2024) except School, which needed a manual pick from the dropdown
+(typing "Ca' Foscari" with the apostrophe returned no options; "Foscari" alone matched "Universita
+Ca'' Foscari Venezia"). Salary field not present on this form; JD states EUR 4,000-5,000/month.
+
+Blockers: none. No CAPTCHA, no account-creation wall, no anti-AI attestation.
+
+Screenshot: PNG saving is not available via Claude in Chrome per the brief; the success text above
+plus confirmations/EnergyHub-2026-09-09.txt are the record.
+
+LEARNINGS: none new - Greenhouse's "stale MyGreenhouse autofill CV" trap (already documented in
+apply-bot/PATTERNS.md and ats-guides/greenhouse.md) fired exactly as documented; the fix (remove +
+upload tailored PDF via the file input ref, not the Attach button) worked cleanly.

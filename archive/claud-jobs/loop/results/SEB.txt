@@ -1,0 +1,27 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465693068/
+Company: SEB Global Services (SEB bank)
+Role: Specialist in Integrations within Digital Banking Services unit / Digital Solutions, Vilnius, Lithuania
+ATS: LinkedIn Easy Apply (Lever EU behind the scenes, applicantTrackingSystemName=Lever+EU)
+
+Pre-checks: dedupe --check returned NEW (no prior row for this URL or company). Guest API curl grep -c apply-button returned 1 (posting live). Logged-in posting showed an active "Easy Apply to this job" button and no "Application submitted" panel, so this was not a repeat. Full JD read: no anti-AI disclaimer, no years-of-experience requirement stated, title is "Bank Operations Specialist" (not Senior/Staff/Lead/Principal/Manager/CTO), no MSc/PhD requirement, JD in English, Vilnius EU location, core stack is integrations/robotics/scripting (claimable). Hard gates passed.
+
+Uploaded: Prabhavit_CV_SEB.pdf (tailored from Prabhavit_CV_EN.tex, relevant-first for API integrations/OfficeRnD/Nexudus/CRM automations/platform migration, 2 pages, tectonic, parity-checked against the base .tex) and CoverLetter_SEB.pdf/.txt (218 words, 0 em-dashes, no no-code/low-code/Bubble wording, no Claude/Anthropic mention).
+
+Answers given (LinkedIn Easy Apply, 8-page Lever-style flow):
+- Contact info: phone +39 351 610 7807, email prabhavitg@gmail.com (both pre-filled/selected)
+- Resume: uploaded Prabhavit_CV_SEB.pdf, selected as active resume
+- "Mark job as top choice": left unchecked (optional)
+- Salary expectations (gross per month)*: "EUR 3,750 gross per month (approx. EUR 45,000 gross annual)" — converted from the task's EUR 45,000 Lithuanian-market standing figure since the field asked specifically for a monthly gross number
+- Full-time Mon-Fri 9:00-18:00 availability*: Yes
+- Motivation (1-2 sentences)*: tied to FlowSpace API integrations/CRM automation/GTM automation experience and the role's banking-systems integration focus
+- Detail-oriented example*: cited the FlowSpace live-platform migration (per-entity API vs CSV data mapping while the product stayed live), traced to Prabhavit - Master Experience.md
+- Cover letter upload: CoverLetter_SEB.pdf, includes the work-authorisation transparency line (Italian EU long-term resident, not authorised in Lithuania, needs employer-side permit/sponsorship, ready to relocate to Vilnius) since the form itself had no separate authorisation Yes/No field
+- Current location*: Venice, Italy
+- "Follow SEB" checkbox: unchecked (was checked by default; treated as a marketing/follow toggle per brief's unticked-marketing-checkboxes rule)
+
+Confirmed "Your application was sent to SEB!" + "Application submitted" panel before logging. Screenshot and success text saved to confirmations/SEB-2026-09-10.png and .txt. Row appended to applications.csv, answers saved to answers/seb-2026-09-10.md.
+
+Dropped CV bullets (FlowSpace): "Facilitated communication between internal team and Agency", "Streamlined customer support with AI agents", duplicate "AI tool for processing of data..." line, duplicate migration bullet under Technical Responsibilities, "Developed a tool for companies to calculate commute times". Other six roles trimmed to their single most integration-relevant bullet each (min 1 satisfied per brief).
+
+ATS lesson: this LinkedIn Easy Apply posting was actually powered by Lever EU (visible in the post-click URL param applicantTrackingSystemName=Lever+EU) and asked custom free-text questions (salary/month, availability, motivation, detail-orientation, current location) instead of the usual structured work-authorisation/years-of-experience radio buttons — no explicit authorisation or relocation question appeared on the form itself, so the transparency line had to ride in the cover letter upload instead of a dedicated field. Worth remembering that LinkedIn-labeled Easy Apply can proxy a Lever flow with non-standard free-text screening questions.

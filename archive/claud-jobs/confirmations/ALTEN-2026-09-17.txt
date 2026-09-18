@@ -1,0 +1,7 @@
+ALTEN Polska - Forward Deployed AI Engineer (Senior AI Engineer req on eRecruiter form)
+Submitted 2026-09-17 via form.erecruiter.pl/form/7633f99fd6ec4514a02d1d5eec78f741
+
+Confirmation page (URL redirected to .../thank-you):
+"Thank you for filling out the form!
+We hope the recruitment process will be successful for you. Please ensure that emails related to this recruitment do not end up in your spam folder. Good luck!"
+Page footer: "powered by eRecruiter"

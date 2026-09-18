@@ -1,0 +1,29 @@
+SQLI - AI Engineer (Semantic Kernel / Microsoft Agent Framework)
+Applied via LinkedIn Easy Apply, 2026-09-18
+Job URL: https://www.linkedin.com/jobs/view/4440517265/
+Location: Valencia, Valencian Community, Spain (Remote)
+Salary disclosed by employer: 40,000 - 50,000 EUR/yr
+Full-time
+Company: SQLI - IT services & consulting
+
+CV used: Prabhavit_CV.pdf (standard CV, per user instruction "use the standard cv, keep going")
+
+Contact info:
+- Name: Prabhavit Gupta
+- Email: prabhavitg@gmail.com
+- Country code: Italy (+39)
+- Phone: 3516107807
+- Location: Venice, Veneto, Italy
+
+Screening / additional questions:
+- Work experience auto-populated from LinkedIn profile
+- Education auto-populated from LinkedIn profile
+- Skipped "Mark job as top choice" (premium optional)
+- Ticked "Acepto" for Spanish privacy consent
+
+Confirmation screen: "Application submitted now" then "Turn your resume into a profile that recruiters notice" popup shown.
+
+No cover letter field on Easy Apply.
+No anti-AI screening questions.
+
+Watch-outs: SQLI is a large Spain-based IT services consultancy (not a startup) - lower per-hire attention likelihood but Semantic Kernel / MS Agent Framework is a technical AI focus and Spain-Remote fits Tier 1.

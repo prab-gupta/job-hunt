@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4455326284/
+Uploaded: Prabhavit_CV_Nostrion.pdf (explicit upload, overrode LinkedIn's carried-over default Prabhavit_CV_P4B.pdf)
+Cover letter: CoverLetter_Nostrion.pdf/.txt prepared (includes "one thing shipped" answer: github.com/prab-gupta/llm-doc-parser) but not attached, no cover letter or message field in this LinkedIn flow
+Answers given: Bachelor's degree = Yes; years experience Product Development = 3; require visa sponsorship = Yes; legally authorised to work in Netherlands = No; phone 3516107807 (field was blank)
+Blockers: none
+Notes: JD asks for a Master's degree in a quantitative field and a "send us one thing you shipped" free-text answer; applied anyway per user rule (no kill for degree requirement), but the shipped-project writeup had no form field to go into, so it lives only in the prepared cover letter. Confirmation: confirmations/Nostrion-2026-09-16.png + .txt

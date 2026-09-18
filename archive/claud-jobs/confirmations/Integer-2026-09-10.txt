@@ -1,0 +1,14 @@
+NEEDS YOU — account/login wall on the real ATS, no submission made.
+
+Job: AI Engineer (Generative AI Specialist), Integer Consulting, Faro, Portugal
+LinkedIn posting: https://www.linkedin.com/jobs/view/4465056835/ ("Responses managed off LinkedIn")
+Real apply target: ITJobs.pt listing mirror — https://www.itjobs.pt/oferta/516135/ai-engineer-generative-ai-specialist
+(reached via LinkedIn's "Apply on company website" link, which goes through a linkedin.com/safety/go/ redirect wrapper to the itjobs.pt URL above)
+
+Flow taken: LinkedIn job page -> "Apply on company website" -> itjobs.pt listing page. The actual application address (Integer's application email or site link) is masked on the page as "<endereço ocultado>" (hidden address) behind a login/registration wall. The page states: "Para ter acesso aos endereços (email/site) de candidatura neste anuncio devera estar autenticado no site." (To access the application address in this ad you must be logged in on the site.) The only options offered are "Entrar com LinkedIn" (LinkedIn OAuth login) or creating an ITJobs.pt account (email + password) via /user/register. There is no guest/anonymous path to see the real application email or to apply.
+
+No account was created and no OAuth login was performed, per brief guardrails (account creation/login walls are a user-only blocker).
+
+Screenshot: confirmations/Integer-2026-09-10.png (full-page screenshot of the itjobs.pt posting showing the masked "<endereço ocultado>" application address and the LinkedIn-login/register-only gate).
+
+Cover letter prepared regardless (for use once Prabhavit logs in or registers and the real Integer application address/link is revealed): CoverLetter_Integer.txt (222 words, 0 em-dashes) and CoverLetter_Integer.pdf (1 page, built from CoverLetter_Integer.tex via tectonic). Tailored CV also prepared: Prabhavit_CV_Integer.tex/.pdf (2 pages, tectonic, parity-checked against Prabhavit_CV_EN.tex).

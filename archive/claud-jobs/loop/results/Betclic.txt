@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4446576410/ (LinkedIn) -> Apply on company website -> https://betclic-group.breezy.hr/p/c2b9c0e3462801-technical-product-manager-f-m/apply (Breezy HR)
+
+Company: Betclic Group. Role: Technical Product Manager F/M, Bordeaux, France (hybrid, 4 days/month on-site). Fit 56, lane D (technical PM).
+
+Dedupe: NEW, no prior Betclic rows in applications.csv.
+
+Gates re-checked on live JD: no anti-AI disclaimer, no stated years-requirement over 3, title not Senior/Lead/Principal/Manager, no MSc/PhD requirement, JD English only with no French required (none claimed), Bordeaux EU on-site/hybrid acceptable, no disqualifying core-stack requirement. JD explicitly welcomes engineers/technical leaders growing into Product Management and asks for experience on technical platforms/developer tools/internal products.
+
+Uploaded: Prabhavit_CV_Betclic.pdf (built from Prabhavit_CV_EN.tex per brief rules: kept 2/3 summary bullets, reordered Technical Skills Development-first, reordered FlowSpace bullets JD-relevant-first with 8 FlowSpace bullets kept total, trimmed other 6 roles to 1-2 bullets each with no role/date/location removed; 2 pages via tectonic; parity check passed, all diffs vs base .tex were ligature/dash/layout rendering artifacts, no fabricated content). Cover letter CoverLetter_Betclic.txt (232 words, 0 em-dashes, no low-code/no-code/Bubble/Claude wording) pasted into the form's native Cover Letter text box (no separate PDF upload field on this form).
+
+Dropped CV bullets: FlowSpace "Streamlined customer support with AI agents"; Urlink "Implementing UIs made with AI"; Get2Germany "UI/UX work, design from Figma to Bubble"; Clubee "Unit testing and quality assurance of new features"; Tractionboard "Implementation of designs from Figma to Bubble", "Implementation of Sendgrid", "Responsive designs, de-bugging", "Google Ads 4 implementation". Two exact duplicate FlowSpace bullets in the original .tex (a repeated "AI tool for processing of data..." line and a repeated "Overseeing the migration..." line under Technical Responsibilities) were also removed as duplicates, keeping one instance of each.
+
+Answers given: Full Name/Email/Phone/Address per standing identity; Desired Salary EUR 50000 Yearly (no band shown to align to); Recruitment Privacy Notice consent ticked (required). Breezy's own resume parser auto-filled 7 Work History rows, 1 Education row, and the Experience Summary from the uploaded CV — spot-checked against the CV and left as parsed, except Education start/end dates which the parser left blank and were filled manually (2020-10-01 / 2024-06-01, matching Oct 2020 - Jun 2024 on the CV). No work-authorisation, EEO, or years-of-experience question appeared on this particular Breezy form, so none was answered (not skipped, never presented). One hidden unlabeled field (honeypot) was left blank.
+
+LEARNINGS (new ATS trap, Breezy HR / betclic-group.breezy.hr and likely other Breezy tenants): the required consent checkbox can render as checked (confirmed via form_input and visually via zoom) yet still fail submit with "Consent is required to apply" / "Your application contains errors" — the validator reads a state that a programmatic check does not update. Fix: click the checkbox with a real mouse click (toggle off then on, or just a real click if starting unchecked) rather than relying on form_input alone, then resubmit.
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation.
+
+Confirmation: page navigated to .../apply/submitted with green checkmark and text "Your application has been submitted successfully. Good luck!" — saved to confirmations/Betclic-2026-09-09.txt. PNG screenshot not available to save via this Chrome tool per brief (Claude-in-Chrome alternative section) — the txt is the record.

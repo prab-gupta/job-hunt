@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Cluster365 hiring team,
+
+I am applying for the Artificial Intelligence Engineer role in Malta. I build production AI systems end to end, from LLM orchestration and retrieval pipelines through to the backend services and human escalation paths that keep them reliable, which lines up with Cluster365's Agentic Orchestration Platform.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result is delivered to the frontend, and a standardised profile is then generated. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI for the extraction tool itself, which is close to the structured output and evaluation work this role asks for.
+
+At FlowSpace, I built and own an AI listing bot that reads a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, producing over 900 drafts, and I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, which is the same reliability and evaluation mindset behind the KPIs in this role. I also shipped OfficeRnD and Nexudus API integrations and CRM automations on the same platform, using TypeScript, Node.js and Claude Code.
+
+I hold Italian EU long term resident status and am not yet authorised to work in Malta, so I would need the employer side permit or sponsorship process, which I am ready to start immediately. I am available to start within two weeks of an offer.
+
+Regards,
+Prabhavit Gupta

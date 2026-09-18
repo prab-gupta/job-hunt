@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4453460182/ (LI-PICK row) -> ATS: https://www.personio.com/careers/1387be54-7a61-4015-b603-11ea35803a49/apply/
+Company: Personio. Role: Software Engineer (d/f/m) - Internal AI. Location: Berlin (also Munich, Dublin), hybrid 2 days/week office.
+
+Dedupe: NEW (checked via loop/dedupe.py and grep -i personio applications.csv; many prior Personio-ATS rows exist for other companies, none for Personio itself as employer).
+Cheap check: LinkedIn jobs-guest API apply-button count = 1, posting open, confirmed live with Apply button on the page.
+LI-PICK: JD requires 4+ years and "strong Python skills" as primary backend language; applied anyway per the LI-PICK rule (kill only if closed/dup/missing language). Years answered honestly (3), not inflated. No anti-AI disclaimer in the JD.
+
+Uploaded: Prabhavit_CV_Personio.pdf (tailored from Prabhavit_CV_EN.tex per the brief's rules: Career Summary trimmed to 2 bullets, FlowSpace/UltraStrategy/Get2Germany bullets reordered and pruned to lead with AI-agent/automation evidence, Low-code item dropped from Additional Information; 2 pages, 315 KB, parity-checked against the base tex with zero added words).
+
+Cover letter: CoverLetter_Personio.txt drafted (280 words, zero em-dashes, two-role evidence per the letter rule: UltraStrategy CV-parsing pipeline with Affinda/Claude API + Urlink AI-assisted development lead, then FlowSpace support agents and automated migration as the second/third proof). BLOCKER NOTED: the live Personio form has no cover-letter upload field and no free-text box for it — CV-only form. The letter exists as a drafted deliverable but could not be attached or pasted anywhere on this ATS.
+
+Answers given: full name/email/phone (393516107807, digits-only field, no +), LinkedIn, portfolio link (llm-doc-parser GitHub demo), years hands-on multi-step AI agent production experience = 2, years professional production software experience = 3, Python skill rating = 6/10, country Italy / city Venice, preferred work location = Berlin (checkbox list), legal right to work in Germany = No, require sponsorship/support = Yes, how heard = Job Board: LinkedIn, salary = EUR 45,000-55,000, start date = 25/09/2026 (two weeks out), gender = Prefer not to say. Left the "contact me about job opportunities for up to 2 years" checkbox unticked (talent-pool consent, not required). Cookie banner: saved with only Essential enabled.
+
+Confirmation: "Thank you for applying! Please look out for an email confirmation from us shortly. Be sure to check your junk or spam folder if you don't see our message." Screenshotted before and after clicking Apply in-session.
+
+Blockers: none that stopped submission. Two notes only: (1) no cover-letter field existed on this ATS, so the drafted letter went unused by the form itself; (2) the phone field explicitly required digits-only with no special characters, so submitted as country-code-prefixed digits (393516107807) rather than the usual "+39 351 610 7807" format.
+
+LEARNINGS: Personio's own careers site (personio.com/careers/<uuid>/apply) is a distinct ATS shape from the personio.com-hosted third-party job boards (<company>.jobs.personio.com) already logged dozens of times in applications.csv — worth noting for future dedupe/grep sweeps that "Personio" as an ATS name can mean either the vendor's own careers page or a client's board on the Personio platform.
+
+Files: confirmations/Personio-2026-09-11.txt (PNG not saved — Claude in Chrome doesn't support screenshot-to-disk, per the brief). answers/personio-2026-09-11.md. applications.csv row appended. Prabhavit_CV_Personio.tex/.pdf, CoverLetter_Personio.txt in ROOT.

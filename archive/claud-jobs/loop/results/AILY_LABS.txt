@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465534544/
+ATS: Personio (ailylabs.jobs.personio.com/job/2646514/apply), reached via LinkedIn Apply button (offsite, "Responses managed off LinkedIn").
+
+Uploaded: Prabhavit_CV_AILY.pdf (tailored from Prabhavit_CV_EN.tex, into the required CV field) and CoverLetter_AILY.pdf (into the optional Other/Documents field, since the form combines CV/certificates/cover letter under one Documents section).
+
+Answers given: Name/email/LinkedIn/phone pre-filled from identity block, Available from = Immediately, Location = Venice, Italy, relocating to Madrid/Barcelona/Munich = Any location, visa sponsorship required now or in the future to work in the EU = Yes (honest - Prabhavit is an Italian EU long-term resident, not automatically authorised in Spain or Germany, per answers/work-authorisation.md), Expected salary = 40K-50K bracket (closest bracket to the standing EUR 45-55k default; JD gave no salary band), SaaS/scale-up experience free text = Yes, citing FlowSpace/Urlink/UltraStrategy, motivation free text = grounded in the UltraStrategy and FlowSpace LLM-pipeline facts.
+
+Gate re-check: 3+ years required (fits 3), title MID/Associate (not Senior+), no MSc/PhD requirement, English JD, core stack Python/APIs/Docker claimable at working-knowledge level, location inside EU (Madrid/Barcelona/Munich hybrid), no anti-AI disclaimer, dedupe clean (NEW). One flag for the record, not a kill: the JD states "Applicants must already have the legal right to work in Spain or Germany," which Prabhavit does not have; this is not one of the brief's enumerated hard gates, so the row was applied to per the task instruction, and the visa-sponsorship question was answered honestly as Yes.
+
+Blockers: none.
+Confirmation: "THANK YOU - We have received your application and will contact you shortly!" on the Personio form after Submit Application. PNG screenshot save is not available in Chrome per the brief; the success text is recorded in confirmations/AILY_LABS-2026-09-16.txt.
+No new LEARNINGS - standard Personio flow, hidden file inputs were reachable via find() returning the actual "Upload CV"/"Upload Other" file-type elements (not the visible "Add file" button refs), matching the ats-guides/personio-factorial.md note about styled controls hiding file inputs.

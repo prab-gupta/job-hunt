@@ -1,0 +1,12 @@
+Dear SIXT hiring team,
+
+I am applying for the Tech Lead and Product Owner, AI Platform role in Munich. In three years shipping production software across eight European companies, I have repeatedly ended up owning both the build and the roadmap for AI features, and that pattern is why this role interests me.
+
+At UltraStrategy I built and owned the CV-parsing pipeline end to end: a user uploads a CV, the pipeline extracts the data with Affinda, scores how relevant that candidate is for specific role types, and generates a standardised Ultra CV using the Claude API. I chose and connected the tools myself, and also built the platform that serves different user profiles.
+
+At FlowSpace, as Lead Developer, I took over a live marketplace and drove its migration off a legacy stack onto Next.js and Laravel while the product stayed live, moving each entity through API endpoints or CSV exports as the platform grew from 2,000 to 4,500+ users. I also built an AI listing bot that turns a brochure in any format into a drafted listing with a human in the loop, 900+ produced with the Claude API and n8n, plus support agents that escalate to a person on low confidence, the same reliability tradeoff a GenAI platform used by 80+ people has to manage.
+
+I hold Italian EU long-term resident status. I am not yet authorised to work in Germany and would need the employer-side permit process; I am ready to relocate to Munich and complete it. I am fluent in English and welcome the chance to discuss the role.
+
+Regards,
+Prabhavit Gupta

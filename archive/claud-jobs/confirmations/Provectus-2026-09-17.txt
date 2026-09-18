@@ -1,0 +1,27 @@
+Provectus - Senior Product Owner/ Forward Deployed Executive - AI Delivery - Madrid, Spain
+URL: https://www.linkedin.com/jobs/view/4442733590/
+Submitted: 2026-09-17 (LinkedIn Easy Apply, Claude in Chrome, 9-page Lever-backed flow)
+
+Job page showed: Application status - Application submitted, now.
+
+Resume uploaded: Prabhavit_CV_Provectus.pdf (verified selected/top of list before proceeding).
+Screening answers (free text, honest, tied to OUTREACH_FACTS.md):
+- Enterprise clients for AI/digital transformation: yes at smaller/mid-size scale (Urlink, FlowSpace).
+- RAG/prompt engineering/embeddings/vector DBs/AI agents: yes on prompt engineering and AI agents; RAG/vector DBs working knowledge only, no production use.
+- AWS for AI/ML: no direct AWS experience (Supabase/Vercel/Netlify/n8n stack instead).
+- Presented to senior stakeholders/executives: yes (Urlink client, FlowSpace agency/stakeholder coordination).
+- AI/AWS/CSPO/SAFe certifications: no AWS/CSPO/SAFe; listed Microsoft Copilot Studio Agent Academy, Microsoft Intro to Building AI Agents, Microsoft Power Automate, Tray.AI Build Practitioner/Foundations.
+- AI/ML, GenAI, agentic systems: yes, described FlowSpace AI listing bot/support agents and UltraStrategy CV-parsing pipeline.
+- Years in Product Ownership/Solution Ownership/Delivery Leadership: no formal title, ~1 year de facto (FlowSpace feature ownership, Urlink PM role).
+- Hands-on Claude/Claude Code/Cowork/MCP: yes on Claude and Claude Code daily; no Cowork or MCP integrations.
+- FSI or HCLS experience: none, described actual sectors (workspace marketplace, HR tech, relocation platforms).
+- B2B contract Gross Monthly USD: Minimum 3800, Maximum 4500 (derived from the standing EUR 45000/year default, converted and split into a monthly band; the JD asked for a monthly B2B contract figure rather than an annual salary field).
+- Seniority level for this role: Middle (honest self-rating against Trainee/Junior/Middle/Senior/Lead/Architect/Staff/Head options; not inflated to Senior).
+- Conversational English level: Advanced (highest option offered; standing answer is C2/professional).
+- Country: Italy. City of residence: Venice. Notice period: Available immediately; can start within 2 weeks of an offer.
+- 4-year future-contact marketing consent: No (standing rule, decline marketing opt-ins).
+- LinkedIn: https://www.linkedin.com/in/prabhavit/
+- Which location are you applying for: corrected from the pre-selected default (Valencia) to Madrid, matching the actual posting.
+- Current location: Venice, Italy.
+Follow Provectus checkbox: unticked (marketing opt-in, standing rule).
+No dedicated cover letter upload field in this Lever-backed flow; CoverLetter_Provectus.pdf/.txt kept on file.

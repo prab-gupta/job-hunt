@@ -1,0 +1,12 @@
+Queue-it — Product Manager (Copenhagen, DK)
+Submitted 2026-09-09 via careers.queue-it.com/jobs/8342051-product-manager (Teamtailor)
+
+Confirmation page text (URL: https://careers.queue-it.com/jobs/8342051-product-manager/applications/4ac96886-0b7d-4172-ae5b-230d1038c4e3/thanks/...):
+
+"Thanks for applying
+We have received your application and we will be reviewing it shortly."
+
+Progress indicator shown: Applied (checked, step 1 of 2) / Connect (step 2, not completed).
+Tab title after submit: "Applied to Product Manager".
+
+Note: PNG screenshot save is not available via the Claude in Chrome tool in this session (save_to_disk returns no retrievable path); this txt is the record per APPLY_AGENT_BRIEF.md guidance for that limitation. A screenshot was visually reviewed on-screen before this file was written, showing the same "Thanks for applying" confirmation.

@@ -1,0 +1,5 @@
+Page not found.
+It seems we cannot find this page.
+(apply.workable.com/oops - the target ATS URL for job id 401F0266AC no longer resolves to a job)
+
+Confirmed via the company's live Workable careers page (apply.workable.com/supportyourapp/): banner reads "This job is no longer available." and the current openings list (all locations, filters cleared) contains no "AI Solutions Specialist" role - only Customer Support Consultant, T3 Support Engineer and Administration & Operations Specialist postings. LinkedIn still displays the listing as active ("Over 100 people clicked apply", reposted 1 week ago), but the actual employer ATS has removed the requisition.

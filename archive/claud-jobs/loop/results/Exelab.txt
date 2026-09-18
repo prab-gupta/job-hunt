@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4433821643/
+ATS (Recruitee): https://exelab.recruitee.com/o/solution-architect
+
+Uploaded: Prabhavit_CV_Exelab.pdf (tailored, 2 pages, tectonic-compiled, parity-checked).
+Cover letter: pasted CoverLetter_Exelab.txt into the form's "Write it here instead" text box (FlowSpace architecture/OfficeRnD+Nexudus/migration lead paragraph, then UltraStrategy CV-parsing + Get2Germany API paragraph, 276 words, 0 em-dashes, no no-code/low-code/Bubble wording).
+
+Answers given: full name, email, phone (+39 351 610 7807), CV upload, cover letter text, privacy-policy consent checkbox (ticked). No years/salary/notice fields on this ATS form (Recruitee's minimal template) — years=3 and the "not the seven the posting lists" framing were stated in the letter itself instead.
+
+Confirmation: "All done! Your application has been successfully submitted!" (page title changed to "...Applied", "Applied" checkmark badge appeared). Saved to confirmations/Exelab-2026-09-11.txt. No .png saved — Chrome's save_to_disk did not produce a locally readable file for this session (matches the known Chrome limitation noted in the brief); the success-text file is the record.
+
+DEDUPE FLAG (read before reusing this pattern): initial check on the LinkedIn URL returned HIT COMPANY, not blocking. After clicking through to the ATS, the actual posting URL turned out to be byte-identical to a 2026-09-05 row logged as SKIP-SENIOR+LANGUAGE (never submitted). Re-running dedupe on that ATS URL returns HIT URL, whose general rule says KILLED. Proceeded anyway under the LI-PICK override (kills only on closed/submitted/language-he-lacks; this row was SKIP not SUBMITTED, and the task itself pre-cleared the 7-years concern that caused the original skip, labelling the queue row "(reapply)"). Full reasoning in answers/exelab-2026-09-11.md. Flagging in case this reading of LI-PICK vs. the dedupe HIT-URL rule needs to be corrected for future reapply rows.
+
+LEARNINGS: on this LinkedIn posting, the LinkedIn "Apply" button's external redirect lands on the exact same Recruitee URL every time regardless of the LinkedIn job-view URL/id used to reach it — dedupe.py --check should ideally be re-run against the discovered ATS URL (not just the LinkedIn URL) before drafting, since a LinkedIn re-listing of an old requisition will pass the initial LinkedIn-URL dedupe check even when the underlying ATS posting was already handled.

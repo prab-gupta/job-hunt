@@ -1,0 +1,64 @@
+STATUS: NEEDS YOU
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4454968804/
+ATS: Workday (axis.wd3.myworkdayjobs.com), requisition R-123923, offsite apply confirmed by
+"Responses managed off LinkedIn" on the LinkedIn posting.
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Axis Communications" ... returned NEW).
+Cheap check: curl LinkedIn guest jobPosting API apply-button count = 1.
+Live LinkedIn page: On-site, Full-time, Apply button present, no "not accepting applications" banner,
+75 people clicked apply, posting not closed.
+
+Hard gates re-checked on the live JD (both LinkedIn and the Workday posting, identical text):
+- No anti-AI disclaimer anywhere in the JD (grepped for "AI-generated", "AI assistance", "without any
+  AI", "no AI").
+- No explicit years-required number stated ("solid professional experience", not ">3 years"). 3 years
+  is compatible.
+- Title "Experienced Software Test Engineer" - not Senior/Staff/Lead/Principal/Manager/CTO.
+- Degree is soft: "We'd love to hear that you have: A Bachelor's or Master's degree..." - not a hard
+  requirement.
+- JD fully in English; "Knowledge of Swedish is a plus" only.
+- Core stack (test automation, Python/pytest, Git, APIs, databases, CI/CD, Linux, RTSP/HTTP, computer
+  vision/AI concepts to be tested, not built) does not require a disallowed core language (no
+  Java/.NET/C++/Go/Rust/Django/FastAPI-as-core/cloud-admin requirement).
+- Location: Lund, Sweden, on-site - Sweden is in the EU, so the "outside the EU with no remote-from-
+  Italy" kill gate does not apply; on-site EU roles are an acceptable target per current guidance.
+- Posting End Date 2026-09-16 (6 days left to apply at time of check) - not closed/expired.
+No kill gate hit. Proceeded to build materials.
+
+CV: Prabhavit_CV_Axis.tex/.pdf built from Prabhavit_CV_EN.tex (tectonic, 2 pages, parity-checked).
+Fit-relevant framing: QA/testing bullets (Clubee "Unit testing and quality assurance of new features")
+moved to top, Playwright test-automation and AI-agent/human-review bullets prioritized, CRM/GTM/sales
+bullets dropped as irrelevant to a test-engineering role. Full drop list in
+answers/axis-2026-09-10.md.
+
+Cover letter: CoverLetter_Axis.txt/.pdf, 247 words, 0 em-dashes, no no-code/low-code/Bubble/Claude
+wording, claims traced to Prabhavit - Master Experience.md (Clubee QA, FlowSpace Playwright, AI
+listing pipeline with human review, confidence-based support-agent escalation, Python/TypeScript/
+Node.js, GitHub). Explicitly avoided claiming computer vision or ML-research expertise per the
+claim-ladder guardrail (the JD's computer-vision/neural-network language describes what is being
+tested, not a skill to claim).
+
+Standing answers prepared (not yet entered on the ATS - see BLOCKER below): years 3, salary EUR
+50,000 (SEK 45,000/month if forced), work authorisation No / sponsorship Yes with the Sweden
+transparency line, relocation ready to Lund, source LinkedIn, EEO decline.
+
+BLOCKER (fill order step 3 of 6 not reached): Axis's Workday tenant (axis.wd3.myworkdayjobs.com)
+requires account creation/sign-in as a mandatory first step with no guest-application path. All three
+"Start Your Application" options (Autofill with Resume, Apply Manually, Use My Last Application) route
+to the same Sign In page, which offers only Sign in with Apple / Google / LinkedIn (OAuth/SSO) or Sign
+in with email (creates a Workday account with a password). No account was created, no password
+entered, no OAuth/SSO login performed, per the brief's guardrails and ats-guides/workday.md rule 2.
+Tab left open and unsubmitted at Chrome tab id 550850090 for the user to sign in and continue; the
+tailored CV and cover letter are ready to upload once signed in.
+
+Confirmations: confirmations/Axis-2026-09-10.txt (no .png - the blocker occurs before any success
+state or form content to screenshot meaningfully; matches the MSD/Leadbay NEEDS YOU precedent of a
+txt-only record for an account-wall blocker).
+Answers: answers/axis-2026-09-10.md.
+
+LEARNINGS: Axis's Workday tenant (axis.wd3.myworkdayjobs.com) has no guest-apply path - all three
+"Start Your Application" entry points (Autofill with Resume / Apply Manually / Use My Last
+Application) converge on a mandatory Create Account/Sign In step with only OAuth (Apple/Google/
+LinkedIn) or email+password account creation offered. Treat this tenant as account-wall-gated for
+future Axis postings too.

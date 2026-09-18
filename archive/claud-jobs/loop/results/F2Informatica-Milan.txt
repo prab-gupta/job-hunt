@@ -1,0 +1,24 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466081961/
+
+Uploaded: Prabhavit_CV_F2Informatica.pdf (explicitly via the "Upload resume" control; verified checked/selected on the review page, not the pre-selected library default Prabhavit_CV_Gainable.pdf).
+Cover letter: CoverLetter_F2Informatica.txt/.tex/.pdf built (Italian, plural "voi", no "Lei", 281 words, 0 em-dashes) but this LinkedIn Easy Apply flow had no cover-letter step (5 pages: contact info, resume, optional top-choice, additional questions, review) - kept on file for reference/reuse.
+
+Answers given (page 4, "Domande aggiuntive"):
+- Quanti anni di esperienza hai con genAI E LLM? -> "2" (numeric-only field; an initial "1-2 anni" value was rejected as "Invalid input")
+- Hai conseguito corsi di studio su GenAI e LLM? -> Yes (Microsoft "Introduction to building AI agents" and Copilot Studio Agent Academy certifications on file)
+- Valuti un contratto di apprendistato? -> Yes
+- Sei disponibile a lavorare in sede a Milano 3 volte a settimana circa? -> Yes
+Contact info: email prabhavitg@gmail.com (pre-filled), phone +39 351 610 7807 (country code Italy selected, number typed in).
+Unticked the default-checked "Follow F2Informatica" box (non-essential).
+
+Blockers: none.
+
+Success text (post-submit "Next best action" dialog): "Your application was sent to F2Informatica | Consulenza, Cloud, NoSQL, IoT! You can keep track of your application in the "Applied" tab of My Jobs"
+
+Dedupe: NEW (python3 loop/dedupe.py --check "F2Informatica" <url> -> NEW; grep -i f2informatica applications.csv had no prior rows before this task).
+LI-PICK row. Sibling posting of the same title in Naples (id 4465629083) was checked first and found CLOSED ("No longer accepting applications", confirmed both via guest-API curl and the live logged-in LinkedIn page) - killed separately, see loop/results/F2Informatica-Naples.txt. This Milan posting (3 applicants, posted <1 hour before apply) was a distinct, live requisition with its own Easy Apply flow, so applied per the task's "otherwise apply" branch.
+
+Files: Prabhavit_CV_F2Informatica.tex/.pdf, CoverLetter_F2Informatica.txt/.tex/.pdf, confirmations/F2Informatica-Milan-2026-09-11.txt, confirmations/F2Informatica-Milan-2026-09-11.png (post-submit), confirmations/F2Informatica-Milan-2026-09-11-before.png (pre-submit review page), answers/f2informatica-milan-2026-09-11.md, applications.csv row (SUBMITTED).
+
+LEARNINGS: this JD text is identical across both the Naples and Milan F2Informatica postings (JD body still says "Sede di lavoro: Napoli" even on the Milan-titled posting) - a copy-paste job ad, not evidence they are the same requisition. Treat same-title F2Informatica-style postings as separate requisitions unless LinkedIn itself shows "Application submitted" on the sibling. Also: this tenant's numeric "years of experience" free-text field silently rejects non-digit characters (a dash) with "Invalid input" that only clears after blur - retype as a plain integer if that happens.

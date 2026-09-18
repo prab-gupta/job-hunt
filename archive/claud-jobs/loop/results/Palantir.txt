@@ -1,0 +1,13 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4371308967/ (Apply on company website; not opened, killed before drafting)
+Uploaded: nothing (no materials drafted).
+Answers given: none.
+Blockers: none (this is a hard-gate kill, not a blocker).
+Reason: the live JD's "What We Require" section states two absolute requirements: "Security clearance or the
+ability to obtain a clearance" and "Dutch language fluency". Per the task's own rule for this LinkedIn FDE sweep
+("Dutch/German/etc. required = kill, 'a plus' = fine"), Dutch listed under "What We Require" (not "Bonus
+points"/"Nice to have") is an explicit language kill. The security-clearance requirement independently reinforces
+this (unrealistic for a non-EU-country national on Italian EU long-term residence). Dedupe was checked first
+(HIT COMPANY on two unrelated prior rows, different requisitions/ATS, neither blocking) but the kill here is from
+the hard gate, not dedupe.
+LEARNINGS: none new.

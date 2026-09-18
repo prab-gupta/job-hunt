@@ -1,0 +1,39 @@
+STATUS: SUBMITTED
+
+URL (LinkedIn posting): https://www.linkedin.com/jobs/view/4463058052/
+URL (real ATS, found via LinkedIn's off-site Apply link, not the dead nexcess.net/careers page):
+https://ats.rippling.com/nexcess/jobs/68a79af9-cd62-44d4-b0dc-4311559f521b
+
+Uploaded: Prabhavit_CV_Nexcess.pdf (résumé), CoverLetter_Nexcess.pdf (cover letter upload).
+
+Answers given:
+- First name / Last name / Email / Current company / Phone / Location / LinkedIn link: all
+  auto-filled correctly by Rippling's résumé parser, verified against identity before submitting,
+  none edited.
+- Pronouns: left blank (no "prefer not to say" option offered).
+- SMS-consent radio (job-application text updates from Nexcess, optional): "No - I do not consent
+  to receiving text messages."
+- No salary, years-of-experience, EEO/demographics, or work-authorisation questions were present on
+  this form. The Cyprus work-authorisation transparency line (authorised No, sponsorship Yes, EU
+  long-term-resident context) was placed in the cover letter instead, per
+  answers/work-authorisation.md.
+
+Dropped CV bullets (FlowSpace Technical Responsibilities trimmed from 7 to 3: kept
+OfficeRnD/Nexudus API integration, the legacy-stack-to-Next.js/Laravel migration, and one AI-tool
+bullet; dropped the CRM/lead-capture bullet, the GTM-automations bullet, an exact-duplicate AI-tool
+bullet, and the commute-time-tool bullet). Full per-role breakdown in
+answers/nexcess-2026-09-10.md.
+
+New ATS / process lesson: the LinkedIn queue row said "the LinkedIn Apply link goes to
+https://www.nexcess.net/careers", and that page's embedded Jobvite widget (jobs.jobvite.com/liquidweb)
+is completely dead — every path on it 302-redirects to search.jobvite.com?invalid=1, and the "All
+open positions" section renders empty. Taking that at face value would have produced a false
+STATUS: CLOSED. The real, live ATS is Rippling, and it was only found by actually clicking
+LinkedIn's "Apply" button in the browser and following the pop-up tab's redirect. Future rows:
+verify a company's own careers-page ATS widget is actually alive before concluding CLOSED; a
+LinkedIn "Apply on company website" click is more reliable than the URL a queue row or a cached
+page implies.
+
+Confirmation: confirmations/Nexcess-2026-09-10.txt (screenshot could not be saved to disk — Claude
+in Chrome has no PNG-save capability in this tool set, per the browser section of
+APPLY_AGENT_BRIEF.md — the success text is the record).

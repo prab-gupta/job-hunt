@@ -1,0 +1,12 @@
+Dear Filed team,
+
+I am applying for the Fullstack AI Developer (Python/React) role in Stockholm. Your job description is candid about the hard part: agentic systems that have to hit a professional's level of accuracy, not a benchmark you invented. That is the work I want.
+
+At FlowSpace I owned that problem end to end. I built and ran AI agents on live platform data, including a confidence threshold that escalates to a human instead of guessing, and a listing bot that turns a brochure in any format into a structured record with a human in the loop before it ships. Both had to hold up in front of real users, not just in a demo. I also shipped the fullstack features around them, migrating the platform to a Next.js and Laravel stack while scaling it from 2,000 to 4,500 plus users, and wired the integrations, OfficeRnD and Nexudus among them, that kept the data those agents depend on current.
+
+My day to day stack is TypeScript and Python, with n8n and direct LLM API work for the agent and evaluation layer. Earlier, at Clubee, I ran unit testing and QA on every feature I shipped, the same instinct your evaluation and verification systems need.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Sweden and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Stockholm and complete that process.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://fr.linkedin.com/jobs/view/forward-deployed-engineer-at-sia-4467703876
+Job id: 4467703876, ATS: LinkedIn Easy Apply (SmartRecruiters, onsite, Paris)
+
+Supersedes the earlier NEEDS YOU (RETRY PLAYWRIGHT) row: a prior Chrome agent could not reach the Easy Apply resume-upload file input. Playwright's browser_file_upload reached it cleanly this time.
+
+Uploaded: Prabhavit_CV_Sia.pdf (resume), CoverLetter_Sia.pdf (cover letter, uploaded successfully).
+Contact info: phone +39 351 610 7807, location Venice, Veneto, Italy.
+French additional questions answered: disponibilite immediate, plus haut diplome (Licence/Bachelor, Philosophie/Etudes internationales/Economie), annees d'experience 3, pretentions salariales 45 000-55 000 EUR brut annuel, comment avez-vous entendu parler de Sia -> LinkedIn.
+Ticked the required privacy-notice consent checkbox.
+Result: "Your application was sent to Sia!" / "Application submitted". Screenshot confirmations/Sia-2026-09-17.png, text confirmations/Sia-2026-09-17.txt.
+No new LEARNINGS entry needed (Playwright resolved the already-documented Chrome file-input trap as expected).

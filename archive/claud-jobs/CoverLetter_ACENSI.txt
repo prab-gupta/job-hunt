@@ -1,0 +1,15 @@
+Gentile team ACENSI Italia,
+
+mi candido per il ruolo di AI Software Engineer perché unisce sviluppo full-stack, integrazioni API e applicazioni di AI generativa e agentica rivolte a problemi concreti dei clienti.
+
+In UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma. L'utente carica un CV, il flusso estrae i dati, valuta la rilevanza per specifici tipi di ruolo, restituisce il risultato al frontend e genera un "Ultra CV" standardizzato. Ho usato Affinda e le API di Claude, orchestrando lo strumento con n8n ed Eden AI. Questa esperienza mi ha insegnato a progettare flussi LLM con output strutturati e controlli verificabili.
+
+In FlowSpace ho sviluppato e gestito in produzione un bot AI per redigere annunci di spazi di lavoro da brochure, siti web, foto o fogli di calcolo. Il flusso, realizzato con n8n, l'API di Claude e TypeScript, mantiene una revisione umana prima dell'invio al backend e ha prodotto oltre 900 bozze. Durante il lavoro ho verificato che i dati generati potevano contenere dettagli inventati, quindi ho aggiunto controlli sulle fonti e guardrail prima della pubblicazione. Ho inoltre costruito agenti di supporto che usano dati della piattaforma e inoltrano a una persona i casi a bassa confidenza, oltre a integrazioni API OfficeRnD e Nexudus.
+
+Lavoro con Next.js, Laravel, Node.js, TypeScript, n8n, API LLM, RAG e integrazioni tra sistemi. LangChain, LangGraph, MCP, Vertex AI e Google ADK non fanno ancora parte della mia esperienza pratica, ma il mio percorso di costruzione e gestione di workflow AI mi permette di apprenderli rapidamente. Ho esperienza nel rapporto con clienti e team tecnici grazie a Urlink e FlowSpace.
+
+Vivo a Venezia, lavoro sul fuso CET, ho un permesso di soggiorno UE di lungo periodo italiano e una Partita IVA attiva. Sono autorizzato a lavorare in Italia, disponibile subito e aperto alla collaborazione con il team di Milano.
+
+Cordiali saluti,
+Prabhavit Gupta
+

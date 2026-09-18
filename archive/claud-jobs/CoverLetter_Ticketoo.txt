@@ -1,0 +1,14 @@
+Gentile team di Ticketoo,
+
+mi candido per la posizione di Software Engineer a Roma. Ho tre anni di esperienza come sviluppatore full-stack e AI in otto aziende europee, sempre su sistemi in produzione con utenti reali. Il mio Python è soprattutto pipeline LLM, automazione, scraping e QA: non ho ancora usato Django in produzione, ma conosco FastAPI e imparo in fretta quando serve.
+
+Per UltraStrategy ho costruito in Python la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati e ne valuta la rilevanza per il ruolo, il risultato arriva al frontend e infine genera un "Ultra CV" standardizzato, usando Affinda e le API di Claude.
+
+Per Get2Germany ho integrato le Google API e costruito strumenti AI per trovare corsi, stage e offerte di lavoro, oltre a ottimizzare il database che li sosteneva.
+
+Per FlowSpace ho automatizzato la migrazione dei dati da uno stack legacy verso un backend Laravel e Node, mappando la struttura vecchia sulla nuova ed eseguendo il cutover con il prodotto sempre in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti. Ho anche costruito integrazioni API con OfficeRnD e Nexudus per le prenotazioni automatizzate.
+
+Quello che mi interessa del vostro annuncio è proprio questo equilibrio tra backend solido e sistemi anti-frode basati su AI, il tipo di lavoro end-to-end che ho già fatto. Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship, e sono disponibile a trasferirmi a Roma o a lavorare in modalità ibrida. Resto a vostra disposizione per la call conoscitiva.
+
+Cordiali saluti,
+Prabhavit Gupta

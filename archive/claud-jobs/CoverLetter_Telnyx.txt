@@ -1,0 +1,16 @@
+Dear Telnyx Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer, Southern Europe role based in Milan. I have three years of production engineering experience across eight European companies, most of it spent embedded with a customer or a client, owning a system from architecture through to the moment it is live and someone depends on it, which is the shape of the pod model you describe.
+
+At FlowSpace, I took over a live marketplace and owned the migration off a legacy stack onto Next.js and Laravel end to end: I mapped the old data structure to the new one, chose the migration path per entity, and drove the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. On the same platform I built support AI agents that answer customer queries from live data and escalate to a human on low confidence, an outcome close to the reliable, production-grade AI behaviour you are describing, and I shipped OfficeRnD and Nexudus API integrations plus CRM and GTM automations that real customers use daily.
+
+At UltraStrategy, I built the CV parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda and scores how relevant that candidate is for specific types of roles, the result is delivered to the frontend, and the pipeline then generates a standardised Ultra CV using the Claude API, work built with n8n and Eden AI end to end from data intake to a governed output.
+
+I work daily in Python, TypeScript and Node.js, build and consume REST APIs against Postgres and Supabase, and use Docker and Playwright to package and test what I ship. I am comfortable being the engineer a customer's team calls when something breaks, reading the code and the docs first and making the call myself.
+
+I am based in Venice, Italy, with an Italian EU Long Term Residence Permit and authorised to work in Italy without sponsorship, ready to work from Milan with travel. My professional working language is English at a fully fluent level, and my Italian is conversational, built from living and working in Italy; I am continuing to build it toward the level this pod needs and would welcome the chance to discuss how quickly I can get there.
+
+I would welcome the opportunity to discuss how I could contribute at Telnyx.
+
+Regards,
+Prabhavit Gupta

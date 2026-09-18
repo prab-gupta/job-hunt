@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the QA Engineer (Manual) role in Berlin. At FlowSpace, a workspace marketplace, I have owned product quality on a live platform for the past two and a half years, triaging and resolving customer issues end to end and working with the internal team and an external agency to get fixes verified and shipped. Before that, at Clubee, I ran unit testing and QA on new features as part of my role there.
+
+Most of what I build at FlowSpace is AI enabled, and testing it overlaps directly with what you describe. I built and operate an AI listing pipeline that turns unstructured brochures into structured listings, with a human reviewer checking every output before it goes live, and a support AI agent that answers customer queries against live data and escalates to a person whenever its confidence is low. Both required designing checks for non deterministic output, not just pass or fail assertions, and building the judgment to say a result is not ready.
+
+I am comfortable investigating with browser dev tools, logs and API calls before escalating, and writing bug reports that a team can act on without needing me in the room.
+
+I am based in Venice, Italy, and hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the employer-side permit process, which I am ready to start immediately. I am ready to relocate to Berlin.
+
+Regards,
+Prabhavit Gupta

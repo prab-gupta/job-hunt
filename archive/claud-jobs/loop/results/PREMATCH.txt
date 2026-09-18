@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.arbeitnow.com/jobs/companies/prematch-sports-gmbh/software-engineer-data-all-genders-koln-128715
+Company: PREMATCH Sports GmbH (Koln) - Software Engineer, Data (All Genders)
+Dedupe: python3 loop/dedupe.py --check "PREMATCH Sports GmbH" <url> -> NEW. grep applications.csv for prematch -> no rows. Not blocked by dedupe.
+Hard gate check on live JD (arbeitnow listing page, no separate ATS reached): "Is this a match?" section states "Experience: You bring 6-8 years of experience in software engineering and data engineering." This exceeds the required-years > 3 hard gate (explicit 6-8 years), so KILL before drafting any material.
+Secondary note (not the deciding reason but consistent): the listed tool stack (Pulumi, Kubernetes, AWS, RabbitMQ) skews toward cloud/infra admin rather than the claimable stack, reinforcing the kill.
+No CV, letter or form filled. No browser session beyond reading the arbeitnow JD text (get_page_text), so no "Apply Now" ATS was opened.

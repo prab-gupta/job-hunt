@@ -1,0 +1,14 @@
+Duferco - Forward Deployed Engineer - 2026-09-09
+No submission occurred. Blocked before any application form was reachable.
+
+LinkedIn posting: https://www.linkedin.com/jobs/view/4463234704/ ("Apply" button, "Responses managed off LinkedIn" - external ATS, not Easy Apply)
+Real ATS: Talentics - https://duferco.talentics.ai/job/ce2e4e2d-3560-47d1-8655-400dce5e2d9f
+Job page shows only one action: "Login to Apply".
+Clicking it routes to https://duferco.talentics.ai/auth, a "Welcome Back" screen with:
+  EMAIL
+  PASSWORD
+  Forgot password?
+  [Sign In]
+  Don't have an account? Sign Up
+No SSO/Google/LinkedIn login option, no guest-apply path. This is an account-creation-or-login wall, which is a user-only blocker per the apply brief - no account was created and no sign-in was attempted.
+Status: NEEDS YOU.

@@ -1,0 +1,18 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4450218427/
+Reason: dup - prior SUBMITTED row for the same requisition already exists in applications.csv.
+
+Dedupe check:
+- python3 loop/dedupe.py --check "YGO" "https://www.linkedin.com/jobs/view/4450218427/" -> HIT COMPANY
+- grep -iE ",YGO," applications.csv -> found:
+  2026-08-26,YGO,AI Product Engineer,Ashby,https://jobs.ashbyhq.com/ygo/6ab28b86-724d-453b-b0b3-f31882022b5a,SUBMITTED,Confirmed - Your application was successfully submitted,,no,"Remote EU. Sent: Name, email, CV, Claude Code usage answer, agentic systems answer, LLM production answer, timezone Yes, Go experience answer"
+
+Same company (YGO), same exact role title (AI Product Engineer), submitted 2026-08-26 (16 days ago, well inside the 60-day window) via Ashby. Today's LinkedIn posting (https://www.linkedin.com/jobs/view/4450218427/) opened in Claude-in-Chrome tab 550850606: page text confirmed "YGO / AI Product Engineer / Berlin, Germany / Reposted 1 week ago" - this is a LinkedIn repost of the same requisition already handled, not a new opening.
+
+Per APPLY_AGENT_BRIEF.md dedupe section: a prior SUBMITTED row for the same requisition = KILLED (dup). Per the LI-PICK section (this was an LI-PICK row): "Kill ONLY when the posting is closed, the same requisition is already SUBMITTED, or a language he lacks is explicitly required" - this is exactly the already-SUBMITTED case, so LI-PICK's normal override (ignore years/seniority/stack fit) does not apply here.
+
+Note for context only (not the kill reason): the JD lists "strong Golang experience" as a must, which Prabhavit does not have - irrelevant to this decision since LI-PICK rows apply regardless of stack fit, but the dup kill fires first anyway.
+
+No CV, no cover letter, no browser form filled, nothing submitted. No answers/ file needed (no new claims made). JD file at /private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4450218427.txt left unused. Tab 550850606 closed after confirming.
+
+Files touched: applications.csv (appended one row, status KILLED), loop/results/YGO.txt (this file). No pre-existing files were modified or deleted.

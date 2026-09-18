@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Support Engineer (EMEA) role at Supabase.
+
+At FlowSpace, I ran a production Supabase-hosted PostgreSQL database serving 4,500+ users. I wrote complex SQL queries daily for data migrations, reporting, and debugging, and I traced API failures across interconnected services to find root causes. When customers reported issues, I reproduced them, documented the fix, and turned recurring patterns into internal tooling or documentation so the same problem got resolved faster the next time. I monitored GitHub Issues and community channels, triaged incoming reports by severity, and directed users to existing answers or code examples when the solution was already documented.
+
+I also built an AI data pipeline that ingests documents in any format, extracts structured data via API orchestration, and pushes validated results to the backend after human review. This involved integrating hundreds of different API formats, each with its own failure modes, which gave me a strong instinct for where developer integrations break and how to help someone debug them quickly. I worked with JavaScript, TypeScript, Python, React, and Next.js across these projects, and I am comfortable on Linux/Unix systems and the command line.
+
+Supabase is the platform I already build on. The Support Engineer role, triaging developer issues across billing, PostgreSQL, auth, and API topics, reproducing bugs, improving documentation, and identifying where internal tooling can speed things up, maps directly to how I worked at FlowSpace. I am based in CET and comfortable covering Monday through Friday in European time zones.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

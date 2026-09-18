@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Aircall team,
+
+I am writing to apply for the Senior Forward Deployed Engineer, Key Accounts role. I have three years of professional experience against the six plus years asked for the senior level, and I want to be upfront about that while making the case for what I do bring: production automation and AI systems built and owned directly with clients, which is close to the embedded, account level ownership this role describes.
+
+At FlowSpace, I built the CRM integration that consolidated leads and automated lead capture, plus GTM automations for the sales funnel, lead enrichment and outbound, all on n8n. I also shipped the OfficeRnD and Nexudus API integrations for automated bookings and support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, the kind of configuring intents, actions and guardrails this role asks for. The platform grew from 2,000 to 4,500 plus users while I drove the migration off a legacy stack onto Next.js and Laravel with the product staying live throughout.
+
+At Urlink, I worked as both developer and project manager on an AI assisted platform build, taking client requirements directly and implementing the automations they needed. That mix of technical delivery and direct client ownership is close to the trusted advisor relationship this role asks for with Key Account stakeholders.
+
+I use Claude and Claude Code daily in my own workflow and I am comfortable with APIs, webhooks and JSON end to end. I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to Aircall's Forward Deployed Engineering team.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,10 @@
+Telia Company - Full-Stack Engineer (req 60472, Vilnius/Uppsala) - Workday guest application
+Submitted 2026-09-09 via https://teliacompany.wd3.myworkdayjobs.com/en-US/Telia_careers/job/Uppsala/Full-Stack-Engineer_60472-1/apply/applyManually?source=LinkedIn
+
+Success page text (Claude in Chrome, PNG save not available so this is the record per brief):
+"Congratulations! Thank you for taking the first step! We appreciate the energy and time you have put into applying for this job. Now it is our turn. We will connect with you soon! Get to know us better at Telia."
+
+Confirming URL after submit carried a Job_Application_ID query param:
+https://teliacompany.wd3.myworkdayjobs.com/en-US/Telia_careers?source=LinkedIn&Job_Application_ID=52ca66fc00659001589ccd431c3a0000
+
+Post-submit modal offered optional account creation (email/password) to track the application. Declined - no account created, no password entered, per standing rule against creating accounts.

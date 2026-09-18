@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4437981280/ (Ashby: https://jobs.ashbyhq.com/unity-advisory/f998f73a-0671-4262-8a5b-7eebd38d8008/application?src=linkedin)
+Uploaded: Prabhavit_CV_UnityAdvisory.pdf (tailored, GTM/CRM/automation bullets led)
+Answers given: Name/email, Current Location Venice Italy, visa sponsorship Yes (UK role, standing rule), expected annual base salary 50000, "why interested" essay (2 sentences, GTM pipelines/automation), marketing-contact checkbox left unticked.
+Blockers: none. Success banner: "Many thanks for your interest in Unity Advisory. Your application was successfully submitted and one of our Talent Acquisition team will contact you in due course regarding any next steps."
+LEARNINGS: Ashby numeric-only fields (salary here) strip non-digit characters and mis-concatenate if you type over existing partial text without first selecting-all (cmd+a) and deleting; always clear fully before retyping a number into an Ashby numeric field. Ashby Name/Email text inputs on this tenant accepted plain computer "type" fine (React insertText JS workaround was not needed here, only used pre-emptively).

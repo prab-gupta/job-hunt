@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Founding Engineer role at WhyBrilliant. Inverting hiring so an agent works for the candidate and only introduces on a genuine match is exactly the kind of 0 to 1 bet I want to help push from prototype into a production-grade market network handling thousands of live voice interviews.
+
+At FlowSpace I built and ran AI agent systems in production end to end. I built an agentic listing pipeline in TypeScript and Python that pulls data from documents in any format, runs it through LLM APIs for extraction, and pushes 900+ validated records to the backend after human review. I also built support agents that answer member questions against live data and escalate on low confidence, shipped OfficeRnD and Nexudus API integrations, and led a live-product migration off a legacy stack onto coded Next.js and Laravel, scaling FlowSpace from 2,000 to 4,500+ users.
+
+That is the same shape of work this role asks for: a Next.js frontend, Python services underneath, LLM workflows that need to hold up past the demo, and one person owning the whole chain end to end. I have working knowledge of Python backend services and Docker alongside my TypeScript stack, use Claude Code daily, and I am comfortable making the pragmatic trade-offs a first technical hire has to make without a spec to follow.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit so no sponsorship is needed anywhere in the EU, and I am open to relocating within the EU, including Berlin. I am available immediately.
+
+Regards,
+Prabhavit Gupta

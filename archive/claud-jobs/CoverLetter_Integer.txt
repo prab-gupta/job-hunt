@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer (Generative AI Specialist) role at Integer Consulting in Faro.
+
+At FlowSpace, a workspace marketplace platform, I built and operate an AI listing pipeline end to end: it takes a workspace provider's brochure, website or spreadsheet in any format, extracts and structures the data with an LLM, and drafts a full listing for a human reviewer before it goes live. I also built RAG-backed support agents that answer customer queries against live platform data and escalate to a person when confidence is low, and I integrated OfficeRnD and Nexudus APIs for automated bookings. Earlier, at UltraStrategy, I built a CV-parsing tool using n8n and Eden AI to extract structured fields from unstructured documents. Across these projects I have worked with LLM APIs, prompt engineering, agent orchestration and third-party API integrations in production, not just in a demo.
+
+Integer's nearshore model, matching AI talent to real client projects across Portugal and Europe, is the kind of hands-on delivery work I want more of, and Faro or a remote setup both suit me well.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am ready to relocate to Faro or work remotely. I do not currently hold Portuguese work authorisation and would need the employer-side permit process.
+
+Regards,
+Prabhavit Gupta

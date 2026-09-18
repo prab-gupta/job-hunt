@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Software Test Engineer role at Platform Science.
+
+At FlowSpace, quality work has been part of my daily practice. I wrote Playwright end to end and API tests against a live marketplace, used Postman to verify OfficeRnD and Nexudus API integrations, and ran SQL checks against Supabase and PostgreSQL to confirm data integrity. I built validation checks into an AI listing pipeline that has produced over 900 draft listings for human review, and evaluated RAG based support agents for response quality, tracking non deterministic behaviour and escalating low confidence answers. I use Git based version control daily and am comfortable wiring tests into CI pipelines.
+
+I should be upfront that Selenium and Java are not tools I have used. Playwright and JavaScript are, and I would build that depth on the job.
+
+Platform Science's open IoT platform for fleets, and its cross border Leuven and Lille team structure, is the kind of quality critical, collaborative environment I want to work in.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and would need employer sponsored work authorisation for Belgium. Ready to relocate to Leuven, available immediately.
+
+Regards,
+Prabhavit Gupta

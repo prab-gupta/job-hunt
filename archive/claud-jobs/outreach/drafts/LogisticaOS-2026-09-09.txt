@@ -1,0 +1,17 @@
+TO: info@logistica-os.com
+SUBJECT: Applied-AI engineer for Logistica OS
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Hi Logistica OS team,
+
+Digital co-workers that track pallet accounts, handle returns and cut admin time by up to 90 percent in freight logistics is exactly the agent work I do. At FlowSpace I built an LLM pipeline that produced 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD and Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Working example: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, EU long-term resident, authorised to work in Italy; for a role based elsewhere in the EU I'd need the employer-side permit process, and I'm available immediately.
+
+Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

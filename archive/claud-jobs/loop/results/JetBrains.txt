@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4391493532/ (Apply on company website -> https://job-boards.eu.greenhouse.io/jetbrains/jobs/4814057101)
+Uploaded: Prabhavit_CV_JetBrains.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, 2pp), CoverLetter_JetBrains.pdf
+Answers: First/Last name, email, phone (all autofilled by Greenhouse, verified), LinkedIn profile URL, How did you hear about this role = "Saw a LinkedIn job posting (Jobs section)", Preferred location = Berlin, Germany, optional talent-pool data-retention checkbox left unticked
+Blockers: none. No anti-AI disclaimer, no CAPTCHA, native (non-iframe) Greenhouse form worked fine in Claude in Chrome.
+Confirmation: "Thank you for applying! We have received your application, and our team will review it soon." Saved to confirmations/JetBrains-2026-09-16.txt
+LEARNINGS: This JetBrains FDE requisition (4814057101, multi-location EU posting) resolves to job-boards.eu.greenhouse.io directly, not an embedded cross-origin iframe -- worked fine with Claude in Chrome find/form_input/file_upload, no RETRY PLAYWRIGHT needed.

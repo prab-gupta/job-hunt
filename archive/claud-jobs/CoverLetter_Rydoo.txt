@@ -1,0 +1,14 @@
+Hello Rydoo team,
+
+I am applying for the AI Transformation Engineer role. I have around three years of experience building platforms, API integrations and AI workflows for European companies. The role's focus on practical internal tools across teams fits my experience translating business requirements into working automations.
+
+At FlowSpace, I built CRM and GTM workflows for lead capture, enrichment, routing and outbound, alongside API integrations with OfficeRnD and Nexudus for automated bookings. I also built an AI listing tool that drafts workspace listings from brochures and other sources with human review. When it invented information, I checked the data against different sources and added guardrails. That is the kind of reliability problem I would expect to address when deploying internal AI tools beyond a prototype.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the product. It extracts data, assesses relevance for role types, returns results to the frontend and generates a standardised CV. The work used Affinda, the Claude API, n8n and Eden AI. At Get2Germany, I integrated Google APIs, optimised the database and built AI tools for finding courses, internships and jobs.
+
+I would bring an approach grounded in the user's workflow: understand the current process, connect the required systems, keep human review where the output needs it and iterate from actual use. I am interested in applying that approach to Rydoo's internal operations across finance, sales and customer-facing teams.
+
+I am based in Venice and available immediately. I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Best regards,
+Prabhavit Gupta

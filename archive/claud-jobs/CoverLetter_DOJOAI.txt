@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear DOJO team,
+
+I am writing to apply for the Product Engineer role. I am a full-stack and AI developer with three years of professional experience across eight European companies, fitting the mid-level tier your posting describes: shipping features across the stack and taking on real ownership early.
+
+At Urlink, a Barcelona startup, I built the platform and its core logic with AI-assisted development and implemented automations driven directly by client requirements, while also acting as project manager on those requirements. That is the same wide surface your role asks for, interface, service and logic owned by one person, moving from a fuzzy need to a shipped feature without waiting on a handoff. Stack: Next.js, Supabase, Netlify, bolt.new.
+
+At FlowSpace, a live workspace marketplace, I built and own an AI listing bot that turns a provider brochure in any format into a drafted listing with a human in the loop, 900 plus listings produced, and support AI agents that answer customer queries from live platform data and escalate to a person on low confidence. Both run in production on a platform I helped grow from 2,000 to 4,500 plus users while automating its migration off a legacy stack onto Next.js and Laravel. Earlier, at UltraStrategy, I built a CV-parsing pipeline with Affinda and the Claude API that extracts and scores candidate data before generating a standardised profile.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the chance to talk through how I could contribute to DOJO.
+
+Regards,
+Prabhavit Gupta

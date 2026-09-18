@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the AI Outcome Customer Engineer, Forward Deployed Engineering role in Madrid.
+
+At FlowSpace, a workspace marketplace platform, I sit close to the business and turn what stakeholders need into shipped software. I built the OfficeRnD and Nexudus API integrations that keep partner booking data in sync, and I drove an end to end migration of the platform onto Next.js and Laravel while it stayed live, mapping the old data structure to the new one and moving each entity across through API endpoints or CSV exports. The platform grew from 2,000 to 4,500+ users over that period. I also built and operate a support agent that answers customer questions from live platform data and escalates to a person on low confidence, the kind of measurable AI adoption this role is meant to drive.
+
+At Get2Germany I integrated Google APIs to track platform activity and built AI based tools that found courses, internships and jobs for users, working directly with the underlying data and services rather than a UI layer. At UltraStrategy I led a CV parsing pipeline built on Affinda and the Claude API: a user uploads a CV, the pipeline extracts the data, scores their fit for specific roles, and delivers a standardised result to the frontend.
+
+I have three years of hands on delivery across eight companies, most of it spent owning a system end to end, from client requirement through to a working integration in production. I am comfortable reading and debugging code, tracing an issue through an API call, and clearing technical blockers so a rollout keeps moving, which is the daily reality behind this kind of customer facing engineering role. I hold Italian EU long term resident status. I am not currently authorised to work in Spain and would need the applicable employer side permit or sponsorship process. I am ready to relocate to Madrid and complete that process.
+
+Regards,
+Prabhavit Gupta

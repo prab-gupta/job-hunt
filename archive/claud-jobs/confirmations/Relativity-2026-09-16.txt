@@ -1,0 +1,7 @@
+NOT SUBMITTED - Workday account wall (NEEDS YOU).
+https://kcura.wd1.myworkdayjobs.com/External_Career_Site/job/Krakw/Advanced--AI-Engineer_26-0420
+Clicked Apply then "Apply Manually" (skips resume-autofill parsing only). Step 1 of 6 is still
+"Create Account/Sign In" with Sign in with Apple/Google/LinkedIn or email+password, and an
+explicit "Create Account" button. No guest-apply path on this tenant. Screenshot:
+Relativity-2026-09-16.png (shows the Sign In step with the email/password form and Create
+Account option).

@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Gentile team di Officine IADR,
+
+mi candido per la posizione DEV_202608_03 Web & Mobile Developer, indicando anche DEV_202608_02 Backend Developer come posizione di interesse secondaria. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, tra frontend TypeScript, backend PHP/Laravel e integrazione di API REST tra sistemi diversi, esattamente il lavoro descritto in entrambe le posizioni.
+
+Per FlowSpace ho integrato API esterne (OfficeRnD e Nexudus) per le prenotazioni automatizzate e sviluppato strumenti sul lato backend con Laravel e TypeScript, collaborando con il team di sviluppo sulla logica di prodotto e sulla documentazione tecnica condivisa tra frontend e backend, lo stesso lavoro di dialogo tra interfacce e servizi che richiede il ruolo DEV_202608_03.
+
+Per Get2Germany ho integrato le API di Google e lavorato sull'ottimizzazione del database della piattaforma, mentre per Clubee ho integrato l'API aziendale su tutto il frontend e curato unit testing e quality assurance delle nuove funzionalità, l'approccio proattivo e orientato ai dettagli tecnici che cercate per il ruolo DEV_202608_02.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship. Resto a vostra disposizione per un colloquio a Genova.
+
+Cordiali saluti,
+Prabhavit Gupta

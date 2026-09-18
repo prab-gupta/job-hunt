@@ -1,0 +1,13 @@
+STATUS: KILLED
+URL: https://jobs.ashbyhq.com/dash0/1937975c-df33-47e9-b6ae-e9d446bdfc1f
+Company: Dash0
+Role: Forward Deployed Engineer, EMEA (remote)
+ATS: Ashby
+
+Dedupe: `python3 loop/dedupe.py --check "Dash0" "<url>"` returned "HIT URL". Traced the hit: this exact URL is present in role-sweep-blindspot-26Aug.csv (a sourcing/shortlist file, not an application record) via the dedupe corpus's global digit-run match (IDNUM regex matched "1937975" from the UUID prefix). grep of applications.csv for "dash0" found only one row: 2026-08-05, Enterprise Solutions Engineer - EMEA, status CLOSED, different URL/UUID. Per the dedupe rule, a CLOSED row for a different requisition does not block, and a HIT URL sourced only from a lead/sweep CSV (never actually applied) is not "already handled". Proceeded to check the live JD per the task's explicit instruction that this FDE requisition is new.
+
+Live check: navigated to the URL in Claude in Chrome. Page rendered "Job not found - The job you requested was not found." Re-checked after a 2s wait (ruling out a render/JS-shell delay per ats-guides/ashby.md). Then loaded jobs.ashbyhq.com/dash0 directly: 43 open positions listed (Customer Solutions, G&A, General, Product & Design, Sales departments) - Commercial/Enterprise Solutions Engineer (Benelux/Berlin/Boston/EMEA/Munich/Nordics/UK/US/West Coast), Account Executive, SDR, Partnerships Manager, etc. No "Forward Deployed Engineer" title anywhere on the current board.
+
+Conclusion: the specific FDE requisition has been closed/removed since it was sourced into the queue. Hard gate "posting closed/404" applies. KILLED. No CV, no cover letter, no form filled, nothing submitted.
+
+LEARNINGS: two notes appended (dedupe HIT URL false-positive source; Dash0 FDE req went 404).

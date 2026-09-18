@@ -1,0 +1,15 @@
+TO: info@cobot.me
+SUBJECT: Engineer who has built against coworking management APIs
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Thilo,
+
+Cobot and FlowSpace sit on two sides of the same problem: operators need their spaces listed, bookable and supported without manual work. At FlowSpace (coworking marketplace, London) I built the OfficeRnD and Nexudus integrations behind bookings, an LLM pipeline that turns operator brochures in any format into validated listings after human review (900+ records), and support agents that answer against live data and escalate on low confidence.
+
+If Cobot is hiring an engineer for integrations, customer or applied-AI work, I can show working code on day one, and I know the operator side well enough to talk to customers directly. If not, I would still appreciate 15 minutes on where you see automation going for space operators.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Venice based, EU long-term residence permit, remote or Berlin, available immediately.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

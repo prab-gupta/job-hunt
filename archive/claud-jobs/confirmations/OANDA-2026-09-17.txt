@@ -1,0 +1,6 @@
+NEEDS YOU: OANDA Associate Software Engineer (React.js, Python), Krakow, JR000903.
+LinkedIn Apply redirected to https://oanda.wd10.myworkdayjobs.com/en-US/External/job/Krakow/Associate-Software-Engineer--Reactjs--Python-_JR000903/apply/applyManually
+This is a Workday job board. Even "Apply Manually" (not just "Autofill with Resume") forces a Create Account step (Email Address, Password, Verify New Password) before any application fields are shown. No guest-apply path exists.
+Account creation and entering passwords are user-only actions (not something this agent may do).
+Materials are ready: Prabhavit_CV_OANDA.pdf and CoverLetter_OANDA.pdf/.txt, both tailored (FlowSpace + Clubee proof paragraphs, Poland transparency line, Python/FastAPI as working knowledge).
+To finish: sign in to https://oanda.wd10.myworkdayjobs.com (create account with your own email/password), then re-open the job at https://www.linkedin.com/jobs/view/4467991514/ -> Apply -> Apply Manually, and upload Prabhavit_CV_OANDA.pdf / paste CoverLetter_OANDA.txt through My Experience / Application Questions / Voluntary Disclosures / Review.

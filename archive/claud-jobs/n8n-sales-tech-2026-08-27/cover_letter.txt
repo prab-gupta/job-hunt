@@ -1,0 +1,14 @@
+Dear Nicolas,
+
+I am applying for the Sales Tech and Automation Specialist role you posted on the n8n community board. I have spent the past two and a half years building and maintaining exactly this kind of stack for a B2B marketplace, and n8n is a tool I use daily.
+
+At FlowSpace, a coworking marketplace, I owned the CRM and GTM automation pipeline end to end. I connected Attio (CRM), Amplemarket (outbound), and Swan (payments) into a single n8n-powered pipeline, debugged broken workflows when they failed, maintained database views and CRM fields, and kept the systems running as the team scaled from 2,000 to 4,500+ users. I also integrated external booking platforms (OfficeRnD, Nexudus) via their APIs and webhooks. When workflows broke, I was the one who traced the issue step by step and fixed it.
+
+I write JavaScript (including code steps in n8n), SQL, and Python. I work with REST APIs, webhooks, Airtable, PostgreSQL, and Supabase daily. I am comfortable debugging messy workflows, maintaining CRM pipelines, and communicating clearly in Slack. I am based in Italy, available for ongoing remote work, and my working hours overlap with European business hours.
+
+I am available from 1 September 2026. My rate expectation is EUR 250-300 per day, and I am open to discussing a monthly retainer for ongoing work.
+
+Regards,
+Prabhavit Gupta
+prabhavitg@gmail.com
++39 351 610 7807

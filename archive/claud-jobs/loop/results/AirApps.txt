@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4463041026/ (redirects off-LinkedIn to Ashby: https://jobs.ashbyhq.com/airapps/09b346eb-59ce-4ea8-872c-58cbc7774c9c?src=LinkedIn)
+Company: Air Apps - Frontend Web Developer, Lisbon (on-site). Fit 68.
+
+Not Easy Apply: LinkedIn shows "Apply" with an external-link icon and "Responses managed off LinkedIn" - clicking it opens the Ashby application page (Overview tab confirmed: Lisbon, on-site, Engineering, compensation "To be discussed EUR 47K - 58K").
+
+Hard gates re-checked on the live JD (identical text on LinkedIn's jobs-guest API fetch and the Ashby overview): "Around 3+ years of experience" - passes, boundary not exceeded. Stack listed is HTML/CSS/JS with React, Vue, or Angular (React named first, not the sole core) - claimable. No Senior/Staff/Lead/Principal/Manager title, no MSc/PhD requirement, JD in English, on-site EU with relocation acceptable. All hard gates pass.
+
+BLOCKER: the JD carries an "Application Disclaimer" section: "At Air Apps, we value transparency and integrity in our hiring process. Applicants must submit their own work without any AI-generated assistance. Any use of AI in application materials, assessments, or interviews will result in disqualification." This is the same class of blocker as the Kairos and Gensyn rows logged 2026-08-05 (required free-response answered "without AI assistance") and is listed in APPLY_AGENT_BRIEF.md's Browser section as a user-only blocker requiring NEEDS YOU. Writing an AI-drafted cover letter or free-text answers for this specific employer would trigger the disqualification clause it states, so no cover letter was drafted and no application fields were touched.
+
+Dedupe: python3 loop/dedupe.py --check "Air Apps" "https://www.linkedin.com/jobs/view/4463041026/" returned NEW. grep -i "air apps" applications.csv had no prior rows.
+
+Uploaded: nothing. CV not uploaded, no cover letter built (CoverLetter_AirApps.txt/.pdf/.tex were NOT created - would themselves be the AI-generated material the posting disqualifies).
+Answers given: none - stopped before the Application tab.
+
+Tabs left open (Claude in Chrome, own tab group, spawned by my Apply click): tabId 550849799 (LinkedIn job posting) and tabId 550849800 (Ashby application page, Overview tab). Prabhavit needs to write the application himself (or explicitly accept the disqualification risk) on the Ashby form; his own CV upload and cover-letter text will need to go in by hand for this one.
+
+LEARNINGS: new ATS trap/pattern - LinkedIn "jobs-guest" API JD text should be scanned for an explicit anti-AI disclaimer (grep for "AI-generated" / "AI assistance" / "without any AI") as part of the hard-gate pass, since it silently converts an otherwise-passing role into NEEDS YOU after the cover letter would already be built. Worth adding to APPLY_AGENT_BRIEF.md's hard-gate checklist so future runs catch it before drafting materials, not after.

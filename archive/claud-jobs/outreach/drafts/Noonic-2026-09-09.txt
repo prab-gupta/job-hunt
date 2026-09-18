@@ -1,0 +1,15 @@
+TO: info@noonic.com
+SUBJECT: Candidatura spontanea: automazione n8n e AI per Noonic
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Noonic,
+
+Ho visto le tre divisioni di Noonic, in particolare quella AI/automazione con n8n e OpenAI insieme a e-commerce Shopify/Laravel: lavoro ogni giorno con n8n e Laravel su progetti simili. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e automazioni n8n per clienti esterni, su uno stack Next.js + Laravel + Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, anche in presenza nel Nord-Est o da remoto. Vi va una call di 15 minuti, o potreste indirizzarmi alla persona giusta per le assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

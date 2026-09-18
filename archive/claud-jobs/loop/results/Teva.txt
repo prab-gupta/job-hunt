@@ -1,0 +1,24 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4436326581/ (LinkedIn posting for Teva Pharmaceuticals, Supply Chain AI Solutions Engineer, Madrid, Spain)
+Applied at: https://www.careers.teva/careers/apply?domain=tevapharm.com&pid=563602812692776&utm_source=JobBoard-LinkedIn (Phenom People application form on Teva's own careers site)
+
+What was uploaded:
+- Resume: Prabhavit_CV_Teva.pdf (tailored from Prabhavit_CV_EN.tex; Career Summary trimmed to 2 bullets, Professional Experience reordered/trimmed per JD relevance, Additional Information section dropped; dropped-bullet log in answers/teva-2026-09-09.md)
+- Additional document: CoverLetter_Teva.pdf (also built as .txt/.tex; 200 words, no em-dashes, no banned terms)
+
+Answers given:
+- Contact info: auto-parsed from the resume (email, first/last name, phone). Corrected phone country selector from the auto-picked "Holy See" to "Italy" (both share +39).
+- Address: Country Italy, City Venice, Postal Code 30175, Address "Via Zanetti, 10".
+- "Do you have the proper authorization to work in the country specified for this vacancy?" -> No (Spain is outside Italy; Italian EU long-term resident status does not itself grant Spanish work rights).
+- "Have you ever worked as an employee of Teva or one of the Teva companies?" -> No.
+- "Are you willing to relocate?" -> Yes.
+- Gender (voluntary EEO section) -> Decline to Self-Identify.
+- "How did you hear about this opportunity?" -> LinkedIn.
+- No salary or years-of-experience field appeared on this form.
+
+Blockers: none. This was not a LinkedIn Easy Apply flow (external, "Responses managed off LinkedIn") and did not hit the Workday create-account wall the brief anticipated for Teva; it landed on Teva's own Phenom People career-site form, fillable end to end without login or account creation. Required Data Privacy Policy consent modal was accepted (equivalent to the required-consent checkbox).
+
+Confirmation: "Thank you for your application, Prabhavit!" success modal shown after submit; URL changed to /careers/apply/success. Screenshot could not be saved to disk in Chrome mode per the brief; the confirmation text and URL are recorded in confirmations/Teva-2026-09-09.txt.
+
+LEARNINGS: Teva's LinkedIn posting is not Easy Apply and does not route to Workday like the other Teva/pharma postings seen in this session's tab group — it routes to a Phenom People-hosted form directly on careers.teva. The custom combobox widgets on this form (phone country code, address country) do not accept form_input() writes directly and do not filter correctly on a fresh click+type (the typed text appends to existing content instead of replacing it) — the reliable pattern was: click the field, triple-click to select all, Backspace repeatedly to clear, then type the filter text and click the single filtered option.

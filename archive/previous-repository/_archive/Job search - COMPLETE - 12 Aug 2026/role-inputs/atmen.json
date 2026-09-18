@@ -1,0 +1,8 @@
+{
+  "role": "Customer Solutions Engineer",
+  "location": "Madrid, Spain",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the Customer Solutions Engineer role at Atmen. Automating green certification compliance for fuels, chemicals and materials is the kind of problem where the software is only half the job: the other half is sitting with an industrial customer, understanding a process that has run on spreadsheets and PDFs for years, and getting them onto something that actually holds. Your posting is clear that this is a delivery and customer role rather than a pure engineering one, and that is the part of my work I want more of.",
+  "role_specific": "My daily work revolves around the exact requirements outlined in your role: taking a business requirement from a client, translating it into a working system, and staying with it through the awkward middle where the real edge cases appear. I utilize workflow orchestration tools (such as n8n) and direct API integration to connect external systems with foundational models like OpenAI and Anthropic's Claude, which means I can build the integration myself rather than only specifying it. Across the freelance work for UltraStrategy, Get2Germany and Clubee, and at FlowSpace, the constant has been client-facing delivery. To be plain about the gaps: I have no background in energy, fuels or regulatory compliance, and my Spanish is not working-level, so I would be operating in English.",
+  "closing": "I would be glad to talk through what a first customer implementation looks like at Atmen and where it usually gets stuck."
+}

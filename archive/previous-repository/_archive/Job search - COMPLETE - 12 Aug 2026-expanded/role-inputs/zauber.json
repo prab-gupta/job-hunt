@@ -1,0 +1,8 @@
+{
+  "role": "Forward Deployed Engineer",
+  "location": "Berlin, Germany",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the Forward Deployed Engineer role at Zauber. The part of the posting that made me apply is the integration surface: ERP, TMS, SFTP and event queues are exactly the kind of systems where the customer's real process lives, and where a clean integration is worth more than a clever feature. Sitting with the customer, learning how their operation actually runs, and then building the thing that removes the friction is the work I want to keep doing.",
+  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I build in TypeScript and Node.JS across Next.JS and React, connect REST and GraphQL APIs and webhooks between systems, and I utilize prompt chaining, RAG architectures and orchestration tools (such as n8n) to wire foundational models like OpenAI and Anthropic's Claude into real products rather than demos. At FlowSpace I took over an already built system, debugged it, and saw it through a migration to Next.JS and Laravel while it scaled from 2,000 to over 4,500 active users. Being straight about gaps: my infrastructure work has been deployment-level rather than deep Terraform, and I have not integrated a TMS specifically.",
+  "closing": "I would be glad to talk through one of your customer integrations and where you have seen them break."
+}

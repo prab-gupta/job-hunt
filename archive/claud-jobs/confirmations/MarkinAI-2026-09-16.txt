@@ -1,0 +1,12 @@
+Markin.ai - Forward Deployed Engineer - submitted 2026-09-16
+
+Success page text (markin.ai/it/careers/forward-deployed-engineer#apply, after clicking "Invia candidatura"):
+
+"Grazie, abbiamo ricevuto."
+"Ti contatteremo a breve all'indirizzo email che hai fornito. Nel frattempo, sentiti libero di condividere qualsiasi altra cosa a careers@markin.ai."
+
+(Translation: "Thank you, we have received it. We will contact you shortly at the email address you provided. In the meantime, feel free to share anything else at careers@markin.ai.")
+
+Verified visually via in-session screenshot; PNG could not be confirmed saved to an accessible path from Claude in Chrome, this text is the record per established session practice.
+
+Submitted fields: Nome Prabhavit, Cognome Gupta, Email prabhavitg@gmail.com, Telefono +39 351 610 7807, LinkedIn https://www.linkedin.com/in/prabhavit/, Posizione Attuale "Lead Developer, FlowSpace", Perché Markin/perché questo ruolo = FlowSpace (OfficeRnD/Nexudus API integrations, CRM/n8n automations, legacy-stack migration) paired with Get2Germany (Google APIs, database optimisation) paragraph. CV/Curriculum link field left blank (optional, no file-upload option existed on this form, only a link field).

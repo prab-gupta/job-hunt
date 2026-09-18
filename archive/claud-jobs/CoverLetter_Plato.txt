@@ -1,0 +1,14 @@
+Dear Plato team,
+
+Plato is building the AI operating system for distribution, bringing cutting-edge AI software to mid-market distributors who have never had it. That is the shape of work I already do: turning a business process nobody has automated into a working system.
+
+At Get2Germany, I integrated Google APIs and built AI tools that find courses, internships and jobs for users, plus optimised the underlying database. That is signal-based automation and orchestration, not administration, and it is close to the outbound and enrichment work this role asks for.
+
+At Urlink, I was the AI-assisted developer and project manager: I built the platform and its logic with AI-assisted development, translated client requirements into automations, and shipped with Next.js, Supabase and bolt.new. That is the same loop this role needs, take a business requirement and turn it into a shipped, working system.
+
+At FlowSpace, I built the CRM integration that consolidated leads and automated lead capture, plus GTM automations covering the sales funnel, lead enrichment and outbound. I also built AI agents in production and shipped OfficeRnD and Nexudus API integrations. My CRM experience is n8n and API-level automation rather than administering HubSpot day to day, but the underlying skill, architecting how data flows through a CRM, is the same one.
+
+I am an Indian citizen with Italian EU long-term resident status. I am not yet authorised to work in Germany and would need Plato to file the employer-side permit, a process I am ready to start immediately. I am open to relocating to Berlin.
+
+Regards,
+Prabhavit Gupta

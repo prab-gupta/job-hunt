@@ -1,0 +1,157 @@
+# Job sweep — handoff brief (Prabhavit)
+
+## Mission
+Find, verify and rank 12–20 LIVE job/contract openings that fit the candidate below.
+Precision beats volume: a dead link, a US-payroll-only "remote" role, or a staff-level
+posting costs more than a missed opportunity. Every row in the final output must come
+from a posting page you actually loaded during THIS run — never from a search snippet,
+never from a reconstructed URL.
+
+If the `job-hunt` skill folder is in your workspace, read `references/candidate-profile.md`
+and `references/sources.md` and prefer them over this summary; use
+`scripts/build_shortlist.py` for output. Otherwise this brief is self-contained.
+Don't interview the user first — run the default sweep and state your assumptions.
+
+## Candidate (condensed)
+- Prabhavit Gupta — AI Solutions & Automation Engineer / Lead Developer, ~3 yrs, all
+  European startups. Based Venice, Italy.
+- **EU Long-Term Residence Permit — no sponsorship needed in the EU.** Postings saying
+  "must have existing EU work authorization / cannot sponsor" are OPEN to him and
+  low-competition. Treat as a selling point.
+- Last role: Lead Developer (freelance, full-time) at FlowSpace.co (London, remote),
+  Mar 2024 – Jul 2026. Contract ended → available NOW; posting freshness matters.
+- No CS degree (BA, Ca' Foscari Venice). English professional, Italian beginner, Hindi native.
+- Interview-evidenceable: shipped production AI agents (support agents, scraping/parsing,
+  CV parsing with n8n + Eden AI); grew FlowSpace 2,000 → 4,500+ users; led live migration
+  Bubble.io → Next.js + Laravel; API integration depth (OfficeRnD, Nexudus, OpenAI,
+  Eden AI, SendGrid, Google APIs); GTM/revenue automation; breadth across 8 European
+  companies — fast ramp is the contractor pitch.
+
+## Target tracks, weighted A > B > C > D
+- A — AI/automation: AI Solutions / Automation / Implementation Engineer, Applied AI
+  Engineer, LLM/Agent Engineer
+- B — forward-deployed / client-facing: Forward Deployed Engineer, Solutions Engineer,
+  Solutions Architect (mid), AI Implementation Consultant, technical Sales Engineer
+- C — product/full-stack: Full-stack (TypeScript/Next.js/Laravel), Product Engineer,
+  Founding Engineer, Low-code / Rapid Prototyping Engineer
+- D — technical product: Technical PM, AI PM/PO, Product Ops (technical)
+
+## Scope defaults (an explicit request overrides)
+- Geography worldwide, tiered:
+  Tier 1 = workable from Italy today — remote Europe/EMEA/worldwide, or Italy
+  on-site/hybrid (Venice/Milan on-site is a PLUS, the only place it is).
+  Tier 2 = UK/CH/NO companies hiring remote-across-Europe.
+  Tier 3 = relocation/sponsorship (US, Canada, Gulf, SG, AU) — strong matches only,
+  flagged `Relocation`/`Sponsorship`, kept a minority.
+  A US company that engages international contractors = Tier 1, not Tier 3.
+- Work basis: employment AND contract/freelance/B2B/fixed-term/fractional/part-time,
+  same sheet, flagged; capture the day/hourly RATE for contracts so salary vs rate
+  can be compared.
+- Freshness: posted ≤30 days, prefer ≤7.
+- Size: 12–20 verified. Expect ~1 in 3 raw candidates to survive verification →
+  collect 50+ raw (3–4× target). <30 raw = your vocabulary was too narrow (same job
+  is posted as "AI Automation Engineer" / "Applied AI Engineer" / "Solutions Engineer"
+  / "Automation Consultant"), not an empty market. Never pad a narrowed request back
+  out to hit a count.
+
+## Discovery playbook (parallelise; subagents get one source family each and must
+## return already-verified rows in a fixed shape: title, company, url, eligibility
+## wording, comp, posted date, basis)
+1. Domain-restricted search on ATS hosts (hard-filter if your search supports it),
+   one query per track: jobs.ashbyhq.com · job-boards.greenhouse.io AND
+   job-boards.eu.greenhouse.io (different companies on each) · jobs.smartrecruiters.com
+   (NOT careers.smartrecruiters.com — index pages only) · join.com (good for contract/
+   part-time) · <co>.jobs.personio.com (append ?language=en) · jobs.lever.co (noisiest:
+   snippets lie about location, heavy with aggregators — always fetch before trusting).
+2. One contract-vocabulary query with the literal words: "contract", "6-month contract",
+   "12-month contract", "(Contract)", freelance, B2B, fixed-term, part time, fractional,
+   day rate.
+3. One stack-keyword query — his sharpest, least-crowded edge: n8n, AI agents, low-code,
+   Bubble.io, Playwright, Zapier/Make/Tray.ai, workflow automation, RAG, Supabase.
+4. Board fetches: euremotejobs.com (/job-region/remote-jobs-europe/, /remote-jobs-emea/,
+   /jobs/remote-software-engineering-jobs/ — freshest feed, region strings distinguish
+   Europe/EMEA/worldwide) · himalayas.app (/jobs, /jobs/countries/italy — SERIALIZE,
+   it 429s under concurrency; per-job region restriction strings are gold; dates are
+   non-chronological, read each row) · remoterocketship.com (?sort=DateAdded — SIGNAL
+   ONLY, no direct-apply URLs: take company+title, find the original on the ATS) ·
+   arbeitnow.com/api/job-board-api and remoteok.com/api (clean JSON; remoteok salary
+   fields are $0 — ignore) · aijobs.net (best salary transparency).
+5. LinkedIn: linkedin.com/jobs is robots-disallowed for fetch tools. ONLY if you have
+   browser automation with the user's logged-in session, use it as a discovery signal
+   (company + title), then verify on the company's own ATS. Never source a row from a
+   LinkedIn page alone.
+6. Skip — tested dead/blocked: weworkremotely, welcometothejungle, landing.jobs, jobicy,
+   nofluffjobs, EURES/europa.eu, workatastartup, remotive, workingnomads, freelancermap.
+   Freelance marketplaces (Malt, Braintrust, Contra, Upwork, Toptal) are login-walled —
+   contract work comes via the §2 queries, G2i (on Ashby), join.com, euremotejobs.
+
+## Hard gates — drop if any is true
+1. Requires professional fluency in a language he lacks (Italian is beginner; no
+   German/French/Dutch/Spanish). English-only is fine.
+2. Deep-specialist asks he can't evidence: ML research/PhD/publications, foundation-model
+   training, CUDA/GPU, large-scale SRE, mobile-native (Swift/Kotlin), heavy data
+   engineering (Spark/dbt/Airflow).
+3. Staffing agency / body shop / aggregator repost with no named end client (Jobgether
+   etc., common on Lever — verify the entity).
+4. Unpaid, equity-only, commission-only, or talent-pool listings.
+5. Anything you cannot confirm is live.
+NOT gates: non-EU location, sponsorship, relocation → Tier 3 with a flag.
+Keep a short list of notable drops + one-line reasons for the report.
+
+## Verify every survivor by loading it
+- Normalise URLs first (strip Ashby ?embed=js, /application, ?utm_data, ?locationId;
+  add ?language=en on Personio).
+- From the loaded page pull: exact title, company, the ELIGIBILITY SENTENCE (not the
+  word "Remote" in the title), comp/rate, posted date, seniority ask, employment vs
+  contract.
+- Greenhouse trap: a dead posting URL silently returns the whole board index — if a
+  single-posting fetch describes many different jobs, the role is CLOSED. Drop it.
+- Personio dead roles hard-404 (clean drop). Lever: read location from the page body.
+- Ashby HTML often returns a JS shell ("enable JavaScript" / meta-title "Jobs") — that
+  means the FETCH failed, not that the role closed. Read Ashby via its API instead.
+- Cheapest verification — one JSON call verifies a whole org:
+  Greenhouse: https://boards-api.greenhouse.io/v1/boards/<token>/jobs?content=true
+  Ashby: https://api.ashbyhq.com/posting-api/job-board/<org>?includeCompensation=true
+  Lever: https://api.lever.co/v0/postings/<co>?mode=json
+  Workable: https://apply.workable.com/api/v1/widget/accounts/<subdomain>?details=true
+  (apply.workable.com pages are an SPA — the API is the only readable route.)
+- A negative from a truncated fetch/API read is NOT evidence a role is closed: get two
+  independent reads that agree, or corroborate elsewhere. Burden of proof on the negative.
+- A quiet omission beats a broken row.
+
+## Score each survivor /100
+role & track match 30 (actual responsibilities vs what he's done, not title) ·
+eligibility & work basis 25 (Tier 1 full, Tier 2 most, Tier 3 fraction;
+contractor-friendly US = Tier 1) · stack overlap 20 (named tools he shipped with —
+n8n in a JD beats generic "Python required") · seniority realism 15 (target mid,
+2–5 yrs or unstated; "Senior" OK at ~4–5 yrs with stack match; DROP Staff/Principal/
+Head-of/people-management Lead/7+ yrs; contracts judged on deliverable scope, not
+year count) · signal quality 10 (freshness, disclosed comp, 10–300-person startup/
+scale-up, clear scope).
+Use the full range — identical 82–88 scores carry no information.
+Bands: 80+ apply this week · 65–79 solid · 50–64 backup · <50 omit (mention in
+notes if interesting).
+
+## Output
+- If scripts/build_shortlist.py is available: write roles.json per its docstring and
+  run it (it owns layout, tier colours, fit colour-scale, Search-notes sheet).
+- Otherwise: a CSV + readable ranked table with columns:
+  Fit | Role | Company | Track | Tier | Basis | Salary/Rate | Location & eligibility
+  wording | Posted | URL (verified live) | Why it fits (1 line) | Watch-outs.
+- Always include search notes: sources swept, queries run, raw → gated → verified
+  counts, notable drops. If given a previous shortlist, dedupe and mark new vs
+  carried-over.
+
+## Report back (brief — the sheet holds the detail)
+One line on coverage ("N verified from ~M raw") · top 3, one line each with the
+specific reason · which 1–2 to apply to first · a market read: pay bands/rates seen,
+which title framings are live vs dried up, anything in his profile visibly costing
+applications (known example: heavy Bubble.io/no-code weighting reads as "no-code
+contractor" to code-first teams — presentation issue, not skills gap) · for non-EU
+contract roles, note the invoicing side (Partita IVA, W-8BEN for US, Deel/Wise) only
+when load-bearing. No padding, no encouragement.
+
+## Out of scope
+Finding only. Do NOT submit applications, fill forms, or contact anyone — applying is
+a separate phase with its own rules file (application-rules.md) and runs on explicit
+request only.

@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4448318639/ (Forward Deployed Engineer, Markin.ai, Barcelona)
+Apply target: https://markin.ai/it/careers/forward-deployed-engineer#apply (Markin's own careers page, custom form, not a third-party ATS)
+
+Dedupe: python3 loop/dedupe.py --check "Markin.ai" and --check "Markin" = NEW. grep -i markin applications.csv only matched an unrelated Epoch AI row on the substring "mark". Proceeded.
+
+Hard gates: no anti-AI disclaimer, no language requirement in the JD (English only).
+
+Cookie banner: Rejected (decline non-essential).
+
+Filled: Nome Prabhavit, Cognome Gupta, Email prabhavitg@gmail.com, Telefono +39 351 610 7807, LinkedIn o Portfolio (LinkedIn URL), Posizione Attuale "Lead Developer, FlowSpace", and the required "Perché Markin, perché questo ruolo" field with a condensed pitch pairing FlowSpace (API integrations, CRM/n8n automations, legacy-stack migration) with Get2Germany (Google APIs, database optimisation), plus a Python/TypeScript/JavaScript line and the Spain work-authorisation transparency line. 0 em-dashes.
+
+The optional "CV / Curriculum (LINK)" field only accepts a hosted link, not a file upload, and carried no red asterisk (not required); left blank since no hosted CV link exists. Prabhavit_CV_MarkinAI.pdf and CoverLetter_MarkinAI.pdf/.txt were built and saved to disk per the brief's CV-tailoring rules but could not be attached to this specific form.
+
+Clicked "Invia candidatura". Confirmation: "Grazie, abbiamo ricevuto. Ti contatteremo a breve all'indirizzo email che hai fornito." Saved to confirmations/MarkinAI-2026-09-16.txt.
+
+Uploaded: nothing (no upload control on this form).
+
+Answers given: see answers/markin-ai-2026-09-16.md.
+
+Blockers: none.
+
+LEARNINGS: Markin's own careers page (not an ATS) accepts a CV only as a hosted link, not a file upload, and that field is optional. Worth keeping a permanently-hosted CV link (e.g. a stable Drive/Dropbox share) on file for this kind of form in future sweeps.

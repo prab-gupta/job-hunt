@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Bounce Hiring Team,
+
+I am writing to apply for the Product Engineer, New Verticals role in Lisbon. I have spent the past three years building new product surfaces from idea to production, often as the only engineer on the client or business side of the table, which fits the ambiguity and ownership this role asks for.
+
+At Urlink, I worked as project manager and developer on a new client platform build: I built the platform and its logic with AI-assisted development and implemented client-driven automations, working directly with the client to turn requirements into shipped features on Next.js, Supabase, Netlify and GitHub, with no existing codebase to lean on. That is the same starting point New Verticals describes, prototype to production with fast iteration and a lot of ambiguity.
+
+At FlowSpace, I took over a live workspace marketplace and drove the data migration off a legacy stack onto Next.js and Laravel, growing the platform from 2,000 to 4,500 plus users while the product stayed live. I also built and still own an AI listing bot and support AI agents that run in production against real customer data with a human in the loop, so I am used to shipping a new capability, watching how real users touch it, and iterating quickly based on what I see.
+
+My day-to-day stack is TypeScript, React and Next.js, with working knowledge of Node APIs and testing. I have not worked in Elixir before, but I pick up new languages fast when they sit in a stack I already understand end to end.
+
+I hold Italian EU Long Term Residence status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Lisbon and complete that process.
+
+I would welcome the chance to talk about how I could contribute to new verticals at Bounce.
+
+Regards,
+Prabhavit Gupta

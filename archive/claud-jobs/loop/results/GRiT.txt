@@ -1,0 +1,25 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4233592715/ (LinkedIn posting; "Responses managed
+off LinkedIn", not Easy Apply) -> Apply on company website ->
+https://grit-solutions.key.work/jobs/profile/register/1/297 (Keywork ATS form)
+
+Uploaded: Prabhavit_CV_GRiT.pdf (tailored 2-page CV built from Prabhavit_CV_EN.tex).
+
+Answers given: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Phone
++39 3516107807 (Italy prefix selected), LinkedIn https://www.linkedin.com/in/prabhavit,
+City Venice, Country Italy, Privacy Policy consent ticked, cover letter (CoverLetter_GRiT.txt,
+195 words) pasted into the "Please tell us the reason to apply" field.
+
+Blocker: a required Google reCAPTCHA ("I'm not a robot") checkbox sits directly above the
+Apply/Save button, which stays disabled until it is solved. Per the standing
+no-bypass-bot-detection rule, it was left untouched and the form was not submitted. The
+form is fully filled and verified; the user only needs to solve the reCAPTCHA and click
+Apply. Tab left open in the Playwright MCP browser at the URL above.
+
+LEARNINGS: New ATS seen for the first time - Keywork (key.work), used here as
+grit-solutions.key.work. Apply flow is /jobs/opportunity/<id> -> click Apply ->
+/jobs/profile/register/1/<id>, a guest form (no login/account creation) with CV upload,
+cover-letter textarea, name/email/phone/LinkedIn, city/country combobox, and a required
+Privacy Policy checkbox, gated by a Google reCAPTCHA next to the submit button. No
+ats-guides file existed for it; worth adding one if more Keywork postings turn up.

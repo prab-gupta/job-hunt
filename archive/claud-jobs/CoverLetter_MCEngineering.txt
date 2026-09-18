@@ -1,0 +1,14 @@
+Gentili Signori/e,
+
+mi rivolgo a voi per la posizione di Claude Code Specialist, a supporto del vostro progetto interno per il cliente in ambito Banking. Uso Claude Code ogni giorno come strumento principale di sviluppo, in produzione su progetti reali, ed è un'esperienza concreta che si adatta bene a un progetto di adozione dell'AI-assisted coding.
+
+In FlowSpace, la piattaforma di coworking dove lavoro come Lead Developer da marzo 2024, uso Claude Code ogni giorno per sviluppare nuove funzionalità e per automatizzare la migrazione dei dati da uno stack legacy a Next.js e Laravel, mantenendo il prodotto live durante tutto il passaggio e portando la piattaforma da 2.000 a oltre 4.500 utenti. Per UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma del cliente: l'utente carica il CV, la pipeline estrae i dati con Affinda, valuta la rilevanza del profilo per tipi di ruolo specifici usando le API di Claude, e genera infine un CV standardizzato mostrato nel frontend.
+
+Ho un secondo riscontro concreto in altri due progetti. Per Urlink, a Barcellona, ho sviluppato la piattaforma e la sua logica con sviluppo assistito da AI, oltre ad automazioni su richiesta diretta del cliente. Per Get2Germany ho integrato le Google API e costruito strumenti AI per trovare corsi, stage e offerte di lavoro, ottimizzando anche il database.
+
+In tre anni ho lavorato in otto aziende europee diverse, il che mi ha abituato a entrare rapidamente in nuovi contesti tecnici e a lavorare in autonomia. Sono disponibile da subito, in full remote dall'Italia, e parlo inglese fluente (C2) e italiano a livello conversazionale.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

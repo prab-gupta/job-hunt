@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465544175/
+Company: Metheion, Full-Stack Edge AI Engineer - Leuven, Belgium (LinkedIn Easy Apply, LI-PICK row, order 3/3, mid-senior, honest 3-years letter)
+
+Dedupe: NEW. Hard gates re-checked on the live JD: Hybrid Leuven, Easy Apply confirmed present, no closed/not-accepting banner, no anti-AI disclaimer in the JD text. Mid-senior title and a CUDA/edge-device (NVIDIA Jetson) requirement Prabhavit cannot claim did not trigger a kill per the LI-PICK rule (kill only for closed/duplicate/language-he-lacks); the letter does not fabricate edge-AI experience.
+
+Uploaded: Prabhavit_CV_Metheion.pdf (tailored from Prabhavit_CV_EN.tex, reorder/prune only, zero new bullet text, 2-page tectonic compile). Cover letter CoverLetter_Metheion.pdf/.txt built (~230 words, opens with an honest "three years of production experience" line, leads with FlowSpace paired with Urlink plus a Clubee QA aside, Belgium work-authorisation transparency line, 0 em-dashes) but no text box was offered in this Easy Apply flow so it was kept on file only.
+
+Answers given: email/phone prefilled (phone typed as 3516107807, Italy +39 prefilled). Resume step initially defaulted to a stale library CV from another session (Prabhavit_CV_CST.pdf) - re-uploaded and verified Prabhavit_CV_Metheion.pdf selected (green checkmark) on the resume step, then again on the final Review step. This flow had only 3 pages total (contact info, resume, review) with no additional-questions page.
+
+Confirmation: job page's "Application status" panel showed "Application submitted / now" immediately after Submit. Chrome cannot save PNGs so the record is confirmations/Metheion-2026-09-17.txt (per the brief's Chrome section).
+
+Blockers: none. Nothing new for LEARNINGS.

@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465560817/ (ATS: Greenhouse embedded in a careerpuck.com job board, https://app.careerpuck.com/job-board/domino-data-lab/job/8201819?gh_jid=8201819, req/gh_jid 8201819).
+
+Submitted 2026-09-16 via Playwright (this row was RETRY-handed-off from a Chrome agent that could not reach the cross-origin Greenhouse iframe). Playwright's read_page/click/type worked fine inside the same "grnhse_iframe" that blocked Chrome.
+
+Uploaded: Prabhavit_CV_Domino.pdf (Resume/CV), CoverLetter_Domino.pdf (Cover Letter). Both built earlier 2026-09-16, verified against answers/domino-2026-09-16.md.
+
+Fields filled:
+- First Name: Prabhavit, Last Name: Gupta, Email: prabhavitg@gmail.com
+- Phone country: Italy +39, Phone: +39 351 610 7807
+- Location (City): Venice, Venezia, Italy (selected from autocomplete)
+- LinkedIn Profile: https://www.linkedin.com/in/prabhavit/
+- "Are you legally authorized to work in Germany?": No (per answers/work-authorisation.md, non-Italy EU country; transparency line already in the letter)
+- "Point of Data Transfer": Acknowledge/Confirm (this was the GDPR data-transfer acknowledgement, not a country selector; only one option existed)
+- Talent-pool reuse consent ("may Domino consider you for other positions"): No, per standing rule of leaving marketing/talent-pool consent unticked; the field accepted No without blocking submission
+
+Confirmation: "Thanks for applying! Your application has been received. We'll review it and if we see a fit, someone will get back to you shortly." Screenshot: confirmations/Domino-2026-09-16.png, text: confirmations/Domino-2026-09-16.txt. Logged one row to applications.csv.
+
+Hard gates and dedupe verified clean on the live JD (see answers/domino-2026-09-16.md): no explicit years requirement, title "Forward Deployed Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO), no MSc/PhD gate, English JD, Python/SQL/TypeScript/Docker claimable, no anti-AI clause, Berlin EU location. Dedupe: NEW (no prior Domino rows in applications.csv; Barcelona copy of the same requisition still sits unsubmitted in queue.csv lane C, so no DUP).
+
+LEARNINGS (already recorded by the handoff agent, confirmed true): Domino Data Lab's careers site (app.careerpuck.com, "Made with puck") embeds its Greenhouse apply form in a cross-origin iframe ("grnhse_iframe") exactly like the mongodb.com trap in ats-guides/greenhouse.md. job-boards.greenhouse.io/dominodatalab/jobs/8201819 redirects straight back to the careerpuck.com wrapper, no iframe-free entry point. Playwright reads and fills this iframe with ordinary refs (Chrome's read_page/find could not). Add careerpuck.com to the ats-guides/greenhouse.md iframe-trap list.

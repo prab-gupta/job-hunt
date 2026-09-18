@@ -1,0 +1,108 @@
+{
+  "search_label": "Contract and freelance AI automation sweep: join.com, Personio, and direct company careers — 18 Sep 2026",
+  "candidate": "Prabhavit Gupta",
+  "sweep_notes": {
+    "raw_candidates": 41,
+    "after_gates": 9,
+    "verified_live": 4,
+    "sources_searched": [
+      "join.com direct postings and join.com search results",
+      "Personio-hosted boards and personio.com career pages",
+      "Direct company career pages: Acentecom, Zinex Solutions, Zylabyte, Galleon, Autumn.ai, Drag AI, Itransition, Augusto, Zarat.ai",
+      "Search engines used only for discovery; every listed row was verified by loading the employer's own page"
+    ],
+    "queries": [
+      "site:join.com AI automation engineer contract remote Europe n8n",
+      "site:join.com automation engineer freelance remote Europe API AI",
+      "site:jobs.personio.com AI automation engineer remote Europe",
+      "contract freelance AI automation engineer remote Europe company careers",
+      "n8n contract remote AI engineer jobs",
+      "AI Automation Engineer Europe Remote contract careers",
+      "AI Implementation Engineer contract remote Europe careers",
+      "workflow automation engineer remote contract company careers"
+    ],
+    "dedupe": "Checked applications.csv and loop/dedupe.py corpus; all listed companies returned NEW. Company substring matches were excluded.",
+    "drops": [
+      "Brixon Group / AI Operator (join.com) — LIVE, but German and English fluency required; candidate has Italian B1/B2 and English, so language gate killed it.",
+      "Octonomy AI / AI Pre-Sales Solutions Engineer (Personio) — LIVE, but Cologne remote employment is Germany-oriented and the senior framing is weaker for ~3 years; German language/eligibility was not explicit enough to treat Italy as eligible.",
+      "Personio Senior Software Engineer roles — hybrid Munich/Berlin/London or London office; would require moving from Venice, so location gate killed them.",
+      "TITANS / AI Solutions Engineer (join.titans.eu) — LIVE contract with €5,600–€6,400/month, but Slovak or Czech native language required and advanced Python/microservices are central; language and Python gates killed it.",
+      "Itransition / AI Solutions Engineer — LIVE remote EU listing, but requires strong Python/AWS Bedrock/SageMaker and a cover letter; Python profile mismatch and NEEDS HIM form.",
+      "Augusto / AI Workflow Engineer and Developer — employer page explicitly says applications are no longer accepted; DEAD.",
+      "Autumn.ai careers — search hit did not produce a readable loaded posting page; unverifiable, dropped.",
+      "Drag AI careers — loaded page was only a three-line shell with no reliable posting detail; unverifiable, dropped.",
+      "Zarat.ai careers — direct page returned 502 during verification; unverifiable, dropped."
+      ,"Zylabyte / AI Implementation Engineer — live remote contract page, but it gives no country list or Italy/Europe eligibility sentence; per Italy-only verification rule, not listed."
+    ],
+    "channels_dead_ends": [
+      "Personio produced no Italy-eligible contract/freelance roles in this sweep; its surfaced technical roles were Germany/London hybrid or language-gated.",
+      "join.com produced one live relevant AI/n8n role, but its German requirement killed it; do not repeat the same broad join.com query without a language filter."
+    ]
+  },
+  "roles": [
+    {
+      "title": "AI Developer",
+      "company": "Acentecom",
+      "url": "https://acentecom.com/careers/ai-developer",
+      "fit": 91,
+      "track": "A - AI/Automation",
+      "basis": "Full-time / Contract",
+      "location": "Remote — LATAM, Europe, EMEA",
+      "eligibility": "Tier 1 — Europe/EMEA remote explicitly listed",
+      "comp": "Not disclosed",
+      "posted": "17 Sept 2026",
+      "why": "Direct match for shipped LLM agents, API integrations, workflow automation, QA, and n8n/Make; Europe Remote is explicit and no degree or year gate is stated.",
+      "watch_outs": "DTC e-commerce is strongly preferred; compensation is undisclosed.",
+      "source": "Employer career page",
+      "verified": "Fetched 2026-09-18 — live page; exact eligibility: LATAM Remote · Europe Remote · EMEA Remote; CV upload required, written field optional (CV-ONLY). Form takes CV plus factual fields."
+    },
+    {
+      "title": "AI Automation Engineer",
+      "company": "Zinex Solutions",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 88,
+      "track": "A - AI/Automation",
+      "basis": "Full-time · Contract",
+      "location": "Remote — Worldwide; 4+ hours overlap with 09:00–18:00 PKT",
+      "eligibility": "Tier 1 — Worldwide remote explicitly listed",
+      "comp": "Not disclosed; expected monthly rate or salary requested",
+      "posted": "Not stated; live on 18 Sept 2026",
+      "why": "Ships AI agents and automated workflows for support, sales qualification, document retrieval, and reporting; TypeScript, Next.js, Claude API, webhooks and PostgreSQL overlap strongly.",
+      "watch_outs": "Python appears in the stack; candidate should position TypeScript/n8n/API strengths and learning Python. 4+ hours PKT overlap is required. Form asks a required ‘Why Are You a Fit?’ response, so NEEDS HIM.",
+      "source": "Employer career page",
+      "verified": "Fetched 2026-09-18 — live page; exact eligibility: Every role is remote and open worldwide; contract; form loaded with required ‘Why Are You a Fit?’ (NEEDS HIM)."
+    },
+    {
+      "title": "Integrations Engineer",
+      "company": "Zinex Solutions",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 86,
+      "track": "A - AI/Automation / B - Solutions",
+      "basis": "Full-time · Contract",
+      "location": "Remote — Worldwide; 4+ hours overlap with 09:00–18:00 PKT",
+      "eligibility": "Tier 1 — Worldwide remote explicitly listed",
+      "comp": "Not disclosed; expected monthly rate or salary requested",
+      "posted": "Not stated; live on 18 Sept 2026",
+      "why": "Directly asks for REST APIs, webhooks, OAuth, TypeScript and n8n to connect client systems — an unusually close match to his API/webhook and automation work.",
+      "watch_outs": "Python is listed alongside TypeScript; form requires an exact written ‘Why Are You a Fit?’ answer (NEEDS HIM).",
+      "source": "Employer career page",
+      "verified": "Fetched 2026-09-18 — live page; exact eligibility: Every role is remote and open worldwide; contract; required ‘Why Are You a Fit?’ form field."
+    },
+    {
+      "title": "QA Automation Engineer",
+      "company": "Zinex Solutions",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 82,
+      "track": "A - AI/Automation / C - QA",
+      "basis": "Full-time · Contract",
+      "location": "Remote — Worldwide; async-friendly; 3+ hours overlap",
+      "eligibility": "Tier 1 — Worldwide remote explicitly listed",
+      "comp": "Not disclosed; expected monthly rate or salary requested",
+      "posted": "Not stated; live on 18 Sept 2026",
+      "why": "Named Playwright, TypeScript, Python, CI/CD and API testing; the work covers testing AI behaviour and software, aligning with his Playwright/QA and LLM integration experience.",
+      "watch_outs": "Python is listed; candidate should lead with Playwright/TypeScript/API QA and present Python as learning. Form requires ‘Why Are You a Fit?’ (NEEDS HIM).",
+      "source": "Employer career page",
+      "verified": "Fetched 2026-09-18 — live page; exact eligibility: Every role is remote and open worldwide; contract; required ‘Why Are You a Fit?’ form field."
+    },
+  ]
+}

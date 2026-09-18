@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4462346812/
+Reason: JD (prefetched text) explicitly lists "You speak Swedish and English" under the "You might be a fit if" requirements, with no "appreciated but not required" softening (unlike the Advisense/Transcendent Group posting, which explicitly says Swedish is not required). Per the task's rule, a language requirement Prabhavit lacks (Swedish; he has English C2 and conversational Italian only) is a hard kill for FDE rows.
+Dedupe: `python3 loop/dedupe.py --check "Brickanta" "https://www.linkedin.com/jobs/view/4462346812/"` -> HIT COMPANY. grep applications.csv shows one prior Brickanta row: 2026-09-10, Solution Engineer - Integrations Focus, YC, status NEEDS YOU (hCaptcha blocker, not submitted). Different role/requisition, so this alone would not have blocked - the Swedish requirement is what killed this row.
+Uploaded: none. No CV or letter drafted (killed before the drafting step per the brief's order of work).
+Blockers: none beyond the language gate.
+LEARNINGS: none new.

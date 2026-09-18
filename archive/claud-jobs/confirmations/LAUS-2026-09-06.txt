@@ -1,0 +1,3 @@
+LAUS INFORMATICA SRL - Integration & Automation Developer (Python / n8n), Sesto San Giovanni - Indeed Apply
+Confirmed 2026-09-06 20:53 on https://myjobs.indeed.com/applied: "Candidatura inviata oggi tramite Indeed" (job jk=a184eea5440e1465, viewjob page shows "Candidatura inviata").
+Flow: smartapply.indeed.com location step (30175 Venezia prefilled) -> CV step (Indeed profile file) -> review -> sent. CV attached = Indeed profile file "Prabhavit_CV.pdf" uploaded "0 minuti fa", which previews as the OLD August CV text (Career Summary, Bubble.io mention). Profile CV replacement with Prabhavit_CV_Base.pdf in progress.

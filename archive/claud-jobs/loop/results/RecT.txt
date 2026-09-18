@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462289319/
+Company: RecT Solutions
+Role: Forward Deployed Engineer, Athens, Greece
+ATS: LinkedIn Easy Apply
+
+Uploaded: Prabhavit_CV_RecT.pdf (parity-diffed against Prabhavit_CV_EN.tex, deletions/reordering only). Letter CoverLetter_RecT.pdf/.txt built and kept on file (no letter field in this Easy Apply flow); FlowSpace + UltraStrategy proof paragraphs, 0 em-dashes verified, honest 3 years vs the JD's 5+ ask, Greece work-authorisation transparency line.
+
+Resumed a dead agent's tab (550851217) that had already uploaded and selected Prabhavit_CV_RecT.pdf on the Resume page. This session filled the Additional Questions page and submitted:
+- Comfortable working onsite: Yes
+- Greek proficiency: None
+- Currently based in Greece: No
+- Hands-on experience with APIs, data flows, distributed systems: Yes
+- Years of experience in customer-facing technical roles: 3
+- Experience with LLM evaluation, observability, reliability in production: Yes (support AI agents with confidence-based escalation)
+- Years of hands-on software/technical engineering experience: 3
+- Personally built/deployed an LLM or AI-agent solution: Yes
+- Follow RecT Solutions checkbox: unchecked
+
+Confirmation: "Your application was sent to RecT Solutions!" / job page Application status panel: "Application submitted". Screenshot/text saved to confirmations/RecT-2026-09-16.txt.
+
+No blockers. Dedupe was NEW. Hard gates all passed (no anti-AI disclaimer, English JD, no degree requirement, no core-stack disqualifier; 5+ years asked but not a kill under the 2026-09-16 FDE-Italy-EU sweep rule).

@@ -1,0 +1,10 @@
+Talonic - Forward Deployed Engineer / Solutions Architect - Berlin, Germany
+URL: https://www.linkedin.com/jobs/view/4452259313/
+Submitted: 2026-09-17 (LinkedIn Easy Apply, Claude in Chrome)
+
+Job page showed: Application status - Application submitted, now.
+
+Resume uploaded: Prabhavit_CV_Talonic.pdf (verified selected/top of list before Next).
+Screening answer: "Are you located in Berlin, or in close proximity to Berlin?" = No (honest, based in Venice, Italy).
+Follow Talonic checkbox: unticked (marketing opt-in, standing rule).
+No cover letter field in this flow; CoverLetter_Talonic.pdf/.txt kept on file. Note: JD's own "How to Apply" text asks candidates to email careers@talonic.ai with 3 built things instead of a cover letter, but the live LinkedIn posting has a working Easy Apply control, used per task instruction.

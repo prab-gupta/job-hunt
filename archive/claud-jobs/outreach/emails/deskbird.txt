@@ -1,0 +1,15 @@
+TO: hello@deskbird.com
+SUBJECT: Solutions / integrations engineer with coworking-platform API experience
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Ivan,
+
+I spent two years building the integration layer of a coworking marketplace, which is why deskbird is on my short list. At FlowSpace (London) I shipped the OfficeRnD and Nexudus booking integrations, an LLM pipeline that turns any operator document into a validated listing after human review (900+ records), and support agents that answer availability and pricing questions against live data. The platform grew from 2,000 to 4,500+ users over that period.
+
+Workplace software wins or loses on how well it plugs into the systems customers already run, and that plumbing plus applied AI is exactly what I do: TypeScript, Python, n8n, Claude and OpenAI APIs, and a lot of time with operators explaining why a sync failed. If deskbird is hiring in solutions, integrations or customer engineering, I would ramp fast. If not, 15 minutes on how you see AI landing in workplace tools would still be valuable to me.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Venice based, EU long-term residence permit, remote or EU relocation (Munich or St. Gallen both fine), available now.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

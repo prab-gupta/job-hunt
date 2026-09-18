@@ -1,0 +1,19 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4463004972/
+
+Reason: Posting closed/404 hard gate. The live LinkedIn job page shows "Not currently accepting applications" and "Responses managed off LinkedIn", with no Apply or Easy Apply button anywhere on the page (verified via full page-text extraction and a screenshot on a fresh tab, after waiting for the page to finish rendering). The JD's own "How to apply" section says only "send us your CV" with no email address or external ATS link, and no such link appears elsewhere on the page. There was no channel to submit to.
+
+Uploaded: nothing. No form was opened; nothing was submitted.
+
+Prepared but not sent (kept on file for if the posting reopens or Renessai is reached another way):
+- Prabhavit_CV_Renessai.tex / Prabhavit_CV_Renessai.pdf — tailored from Prabhavit_CV_EN.tex, 2 pages with photo. Career Summary trimmed to the 2 most relevant bullets; FlowSpace's Technical Responsibilities moved above Product Responsibilities and reordered toward agentic/data-pipeline/API work; a duplicate migration bullet and two off-topic bullets (agency-communication, commute-time tool) dropped; other roles reordered toward JD relevance with no bullets, roles, dates or locations removed; Technical Skills reordered; "Low code development/" dropped from Additional Information (JD has no relation to it). Full diff logged in answers/renessai-2026-09-09.md.
+- CoverLetter_Renessai.txt / .tex / .pdf — 189-word body, no em-dashes, 1 page. Claims (900+ listings drafted, RAG support agents with confidence-based escalation, Next.js/TypeScript/Laravel/Supabase, daily Claude Code use, Venice-based with Finland work-authorisation transparency line) all traced to Prabhavit - Master Experience.md.
+
+Answers given: none (no form reached).
+
+Blockers: closed posting on LinkedIn, no alternate application channel found in the JD.
+
+Dedupe: NEW (dedupe.py --check returned NEW; no prior Renessai row in applications.csv).
+
+LEARNINGS: LinkedIn can render "Not currently accepting applications" plus "Responses managed off LinkedIn" with zero Apply/Easy Apply control on the page even while `jobs-guest/jobs/api/jobPosting` still serves a full live-looking JD via curl — the API endpoint alone is not proof the posting is open. Always load the actual job page in a browser and look for an Apply button before investing in CV/letter tailoring; here the tailoring finished before that check ran (curl JD read first, browser opened last), which was backwards and wasted the tailoring pass. Do the closed/404 browser check before drafting next time.

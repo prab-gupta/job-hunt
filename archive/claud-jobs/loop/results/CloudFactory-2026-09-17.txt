@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461778895/
+Company/Role: CloudFactory - Forward Deployed Engineer, Berlin (hybrid)
+
+Retry of the 2026-09-16 NEEDS YOU row (blocked only by LinkedIn's daily Easy Apply cap, which cleared overnight). Job was in "Saved" state from yesterday; clicking Easy Apply today opened the real 4-page form cleanly, no cap dialog.
+
+Uploaded: Prabhavit_CV_CloudFactory.pdf (already built and parity-verified 2026-09-16, reused unchanged).
+Letter: CoverLetter_CloudFactory text pasted into the ATS's own cover-letter textbox on the Additional Questions page (this Workable form has an inline text field, not a file upload, for the cover letter; discovered via the Review page's "Cover letter" section after the first pass through, went back and filled it before resubmitting).
+
+Answers given: Earliest start date 10/1/2026 (two weeks out, standing rule); expected annual gross salary EUR 50000; right to work in Job Location (Germany) = No; most significant/comparable accomplishment = the FlowSpace AI listing bot (900+ draft listings, brochure to listing with human in the loop); why applying = three years building AI automation/agentic workflows with clients (FlowSpace AI listing bot, UltraStrategy CV-parsing pipeline on n8n/Eden AI); currently a CloudWorker = No; based in Italy; GDPR consent ticked; "Follow CloudFactory" unticked.
+
+Note: the `type` action dropped characters on two free-text fields (visible typos like "automaion", "bochure", "tokeep") - caught this on review, refilled both via form_input (which sets the value directly) instead of `type`, verified via reading the DOM values before submitting.
+
+Blockers: none. Submitted cleanly, confirmation "Your application was sent to CloudFactory!" and "Application submitted - now" seen. See answers/cloudfactory-2026-09-17.md and confirmations/CloudFactory-2026-09-17.txt.

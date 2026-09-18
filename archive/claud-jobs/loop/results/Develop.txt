@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463309979/ -> https://www.aplitrak.com/?adid=RGF2aWQuMDU5OTguMTU1MEBhbXBlcnNhbmRjb25zdWx0aW5nLmFwbGl0cmFrLmNvbQ (aplitrak relay for Ampersand Consulting, requisition BBBH7225)
+Uploaded: Prabhavit_CV_Develop.pdf (tailored FDE CV, parity-checked against Prabhavit_CV_EN.tex, 2 pages)
+Letter: CoverLetter_Develop.tex/.pdf/.txt built for the record; no cover-letter field on this aplitrak form.
+Answers given: Name "Prabhavit Gupta", Email "prabhavitg@gmail.com", Phone "+39 351 610 7807", Eligibility "No, I am not currently eligible to work (work permit/visa/citizenship) in the country to which I am applying" (Germany, per work-authorisation.md).
+Blockers: none (no CAPTCHA, no account wall, no anti-AI attestation).
+LEARNINGS: this LinkedIn posting is agency-relayed (recruiter Ampersand Consulting via aplitrak). Clicking LinkedIn's Apply button auto-fires LinkedIn's own "Your profile was shared with the job poster" side effect using the on-file LinkedIn profile (not the tailored CV) with no review step, before the real aplitrak application page opens in a new tab. Worth flagging for form-quirks.md: for agency/aplitrak-relayed LinkedIn listings, expect this automatic profile share as a harmless side effect, and treat the external aplitrak/company-site form as the real, reviewable application.
+Confirmation: "Forward Deployed Engineer (BBBH7225) Munich, Germany / Thank you for submitting your application." Saved to confirmations/Develop-2026-09-16.txt.

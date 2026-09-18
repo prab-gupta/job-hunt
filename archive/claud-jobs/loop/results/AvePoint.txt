@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4441067050/
+Job id: 4441067050, ATS: LinkedIn Easy Apply (Greenhouse-backed, Munich)
+
+Dedupe: HIT COMPANY but the only prior row is 2026-08-15 DROPPED (London onsite + 5+ yrs, different requisition/URL/ATS, never applied) -- does not block; treated as NEW application to this Munich requisition.
+Hard gate re-check: live JD lists additional languages only as a "Strong plus", no explicit German requirement found anywhere in the text (contrary to the task note's assumption); 5+ years and Director-level LinkedIn tag present but no kill per FDE-ALL rule.
+
+Uploaded: Prabhavit_CV_AvePoint.pdf (resume) and CoverLetter_AvePoint.pdf (cover letter, uploaded successfully), both verified checked on the review page.
+Contact info: phone +39 351 610 7807.
+EEO voluntary self-identification (US federal-contractor form): Race/Ethnicity, Gender, Veteran status all "I prefer not to specify"; Disability "I do not want to answer" (per standing rule).
+Additional questions: LinkedIn profile URL given, how did you hear -> LinkedIn, requires sponsorship Yes, salary expectations EUR 45,000-55,000 gross annual.
+Result: "Your application was sent to AvePoint!" / "Application submitted". Screenshot confirmations/AvePoint-2026-09-17.png, text confirmations/AvePoint-2026-09-17.txt.

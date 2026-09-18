@@ -1,0 +1,11 @@
+EnergyHub (Software Engineer I, Kapacity.io) - applied 2026-09-09
+
+Confirmation page: https://job-boards.greenhouse.io/energyhub/jobs/8652307002/confirmation
+
+Success text (visible on page after Submit application):
+"Thank you for applying.
+Your application has been received. If there is a fit, someone will be getting back to you."
+
+Applied via: company ATS (Greenhouse), reached through LinkedIn's "Apply on company website" link
+(job posting had no LinkedIn Easy Apply option, only external redirect to Greenhouse).
+Filled and submitted in Claude in Chrome (own tab).

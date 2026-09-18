@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4463524382/ (LinkedIn Apply redirected off-platform to jobs.iqvia.com/en/jobs/R1552230-1, then to IQVIA's Workday: https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Warsaw-Poland/Data---AI-Solutions-Consultant_R1552230/apply/applyManually, requisition R1552230)
+
+Company: IQVIA. Role: Data & AI Solutions Consultant, Athens, Greece (hybrid; requisition also open in Warsaw, Barcelona, Oeiras). Fit 85. Stack confirmed live: Python (FastAPI or similar) full-stack app dev, SQL/SQL Server, RESTful APIs, AI/LLM integration (RAG, agent-based solutions, structured AI workflows), React/TypeScript advantageous-not-required. Candidate profile asks for 2 to 4 years in software/data engineering or technical consulting.
+
+Hard gates re-checked on the live JD: years 2-4 (not a >3 floor), title not Senior/Staff/Lead/Principal/Manager/CTO, no MSc/PhD requirement anywhere in the posting, JD in English with no Greek language requirement, core stack (Python/FastAPI/SQL/RAG) is directly claimable and not a narrow Java/.NET/Go/Rust or cloud-admin role, Athens is inside the EU and relocation-ready. No hard gate triggered.
+
+Dedupe: `python3 loop/dedupe.py --check "IQVIA" "https://www.linkedin.com/jobs/view/4463524382/"` returned NEW. `grep -i iqvia applications.csv` (before this run) returned no prior rows.
+
+Blocker: LinkedIn's "Apply" button on this posting is not Easy Apply ("Responses managed off LinkedIn" shown under the title). It opens a new tab to IQVIA's own careers site (jobs.iqvia.com), whose "Apply Now" opens a further new tab to IQVIA's Workday instance. The "Start Your Application" screen offers Autofill with Resume / Apply Manually / Use My Last Application; "Apply Manually" leads straight to step 1 of a 6-step stepper labelled "Create Account/Sign In", requiring a new email + password before My Information / My Experience / Application Questions / Voluntary Disclosures / Review become reachable. This matches the brief exactly (IQVIA normally uses Workday with a sign-in/create-account wall). Account creation and entering an authentication password are both out of scope for autonomous action. No account was created, no password entered, nothing submitted.
+
+Prepared and ready for whoever finishes this manually:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_IQVIA.txt (198 words, 0 em-dashes, paste-ready). No PDF built since no upload/message field was ever reached to require one.
+- Work-authorisation answer: Greece is outside Italy -> authorised No, employer-side permit/sponsorship Yes, transparency line ready in answers/iqvia-2026-09-09.md
+- Years: 3. Relocation: yes, to Athens.
+
+Tab left open for manual completion: tabId 550849754 (Chrome tab group, shared), on the Create Account/Sign In step. Two earlier tabs in the same redirect chain (550849750 LinkedIn posting, 550849752 IQVIA careers page) were also left open for reference.
+
+Logged: confirmations/IQVIA-2026-09-09.txt, applications.csv row (status NEEDS YOU), answers/iqvia-2026-09-09.md.
+LEARNINGS: none new - this is the same LEGO/Workday pattern already documented (LinkedIn "Apply", not "Easy Apply", plus "Responses managed off LinkedIn" is the tell for an off-platform redirect; Workday's "Apply Manually" forces account creation with a password before any application fields exist). New wrinkle worth noting: IQVIA's Workday requisition is shared across four countries and the canonical URL/page title default to "Warsaw-Poland" regardless of which country's LinkedIn posting you started from - always confirm the actual JD text (Athens, Greece here) rather than trusting the Workday URL slug for location.

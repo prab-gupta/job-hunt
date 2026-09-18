@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4462533872/ (LinkedIn Apply redirected off-platform to LEGO's Workday: https://lego.wd103.myworkdayjobs.com/en-US/LEGO_External/job/Billund/Front-End-Software-Engineer_0000035564/apply/applyManually, requisition 0000035564)
+
+Company: the LEGO Group. Role: Front-End Software Engineer, BrickLink Catalog team, Billund, Denmark (hybrid, 3 days/week). Fit 78. Stack confirmed live: React, Next.js, TypeScript, Vitest or Playwright testing, Storybook (preferred, not required), no Danish requirement, no Senior/Staff/Lead title, no explicit years floor, no MSc/PhD requirement. No hard gate triggered.
+
+Dedupe: `python3 loop/dedupe.py --check "LEGO" "https://www.linkedin.com/jobs/view/4462533872/"` returned NEW. No prior LEGO row in applications.csv.
+
+Blocker: LinkedIn's "Apply" button on this posting is not Easy Apply ("Responses managed off LinkedIn"). It opens a new tab to LEGO's Workday career site. The "Start Your Application" modal offers Autofill with Resume / Apply Manually / Use My Last Application; "Apply Manually" leads straight to a "Create Account/Sign In" step requiring a new email + password (Candidate Home account, explicit password-complexity rules shown) before My Information / My Experience / Application Questions / Voluntary Disclosures / Review become reachable. This is an account-creation + password wall, out of scope for autonomous action. No account was created, no password entered, nothing submitted.
+
+Prepared and ready for whoever finishes this manually:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_LEGO.txt (187 words, 0 em-dashes, paste-ready) and CoverLetter_LEGO.pdf (1 page, built from CoverLetter_LEGO.tex via tectonic)
+- Work-authorisation answer: Denmark is outside the EU long-term-resident mobility directive -> authorised No, employer-side permit/sponsorship Yes, transparency line ready in answers/lego-2026-09-09.md
+- Years: 3. Relocation: yes, to Billund.
+
+Tab left open for manual completion: tabId 550849739 (Chrome tab group), on the Create Account step.
+
+Logged: confirmations/LEGO-2026-09-09.txt, applications.csv row (status NEEDS YOU), answers/lego-2026-09-09.md.
+LEARNINGS: LinkedIn's "Apply" (blue button with an external-link glyph, vs the plain "Easy Apply" label) is the tell for an off-platform redirect before you even click — this LEGO posting shows "Responses managed off LinkedIn" under the title, and Apply opened a Workday tab rather than the in-page modal. Workday's "Apply Manually" path forces account creation with a password before any application fields exist; "Autofill with Resume" and "Use My Last Application" were not tried since both still sit behind the same Create Account/Sign In gate shown at the top of the stepper.

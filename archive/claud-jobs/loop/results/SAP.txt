@@ -1,0 +1,14 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4447913243/
+Company: SAP
+Role: Forward Deployed AI Engineer Expert / Senior (f/m/d), Garching (Munich)
+
+Dedupe: HIT COMPANY (exact "SAP"), but the only prior row is 2026-09-10 "(Junior) Applied AI Developer", status KILLED, different role/level. Does not block.
+
+Hard gate re-check on live JD (LinkedIn guest API job id 4447913243, mirrored on jobs.sap.com requisition 457517): APPLY_BUTTON_COUNT = 1, not closed. Grepped the full JD text for a German-language requirement - none found; the only German-flavoured text is the "(f/m/d)" gender-neutral title suffix, which is not a language ask. Grepped for anti-AI disclaimer patterns (AI-generated / AI assistance / without any AI / no AI) - no literal match; the JD does contain a generic "AI Usage in the Recruitment Process" line pointing to SAP's own ethical-AI-usage guidelines for the recruitment process itself, which is not the same as a "no AI-written applications" ban, so not treated as a kill. Job body describes the role as "Principal Forward Deployed Architect T3 + T4PF" needing 10+ years and a Bachelor's or Master's (Bachelor's accepted, so not a hard MSc/PhD gate) - no kill per the FDE-ALL rule (no fit/years/seniority kills); letter is honest about the large years gap.
+
+Apply flow: clicked Apply on LinkedIn -> jobs.sap.com job detail page. Extracted the real apply link via JS (same jobs2web/dialogApplyBtn pattern already seen on EY) and triggered it directly, which redirected to career5.successfactors.eu/careers?company=SAP, a bare Sign In page carrying career_job_req_id=457517 in its URL params. The page offers only "Sign In" (email+password) or "Create an account" (login_ns=register) - no guest-apply path, confirmed via read_page (only those two auth links plus nav chrome in the interactive DOM).
+
+Per the task instruction (guest path first, else materials + NEEDS YOU), stopped here. Logged NEEDS YOU in applications.csv and added row 18l to NEEDS_YOU.md section C (Account creation) with the exact URL chain and the prepared standing answers (years 3, salary band, Germany work-authorisation Not-authorised/sponsorship-needed).
+
+Materials: Prabhavit_CV_SAP.pdf/.tex built fresh from Prabhavit_CV_EN.tex (same FDE tailoring pattern as ALTEN/EY: Career Summary trimmed to 2 bullets, AI-agent bullet moved to top of FlowSpace, AI-automation bullet moved to top of Get2Germany; diffed, zero invented lines, 2 pages). CoverLetter_SAP.pdf/.tex/.txt built (English, 0 em-dashes, two proof paragraphs FlowSpace + UltraStrategy, honest on the 3-years-vs-10-plus-years-Principal-Architect gap, Germany work-authorisation transparency line). Both held on file, not uploaded anywhere (account wall reached before any upload step).

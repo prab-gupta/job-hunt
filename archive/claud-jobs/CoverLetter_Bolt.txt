@@ -1,0 +1,12 @@
+Dear Bolt hiring team,
+
+I am applying for the Integration / Automation Engineer role. I build and operate third-party API integrations and automation behind production systems, and want to bring that discipline to Bolt's People Technology stack across HRIS, ATS, and payroll.
+
+At FlowSpace I integrated OfficeRnD and Nexudus into the booking flow so availability and reservations sync automatically between platforms. Vendor responses are not always consistent, so I built retries and validation around those syncs, and when migrating FlowSpace off its legacy stack I decided per entity whether to pull data through the vendor API or fall back to a CSV export, depending on which was reliable. At Get2Germany I integrated Google APIs for platform tracking, handling authentication and rate limits so tracking stayed accurate as usage grew, alongside n8n automation.
+
+At UltraStrategy I built the CV-parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda, assesses relevance against specific role types using the Claude API, returns the result to the frontend, and generates a standardised Ultra CV, orchestrated end to end with n8n. It runs unattended in production, the kind of automation depth I would bring to Bolt as it grows toward agentic, AI-powered automation.
+
+I am based in Venice, Italy, and ready to relocate to Tallinn. I hold Italian EU long-term resident status. I am not currently authorised to work in Estonia and would need employer-side permit or sponsorship, which I am ready to complete.
+
+Regards,
+Prabhavit Gupta

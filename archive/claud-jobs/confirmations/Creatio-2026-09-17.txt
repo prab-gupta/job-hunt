@@ -1,0 +1,13 @@
+Creatio - AI Consultant - submitted 2026-09-17
+
+Form: https://www.creatio.com/company/careers/job-openings/ai-consultant?source=LinkedIn (via LinkedIn Apply redirect from https://www.linkedin.com/jobs/view/4458792307/)
+
+Success text shown on page after clicking Share:
+"THANK YOU! Your application was successfully sent."
+
+Fields submitted: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Attach your CV = Prabhavit_CV_Creatio.pdf (verified filename shown as prabhavit_cv_creatio.pdf before submit), Link to LinkedIn Profile = https://www.linkedin.com/in/prabhavit/.
+No cover letter field existed on this form (only CV attach + LinkedIn URL); CoverLetter_Creatio.pdf/.txt prepared but not attachable.
+
+Note: the JD/LinkedIn card said location "Portugal" but the actual Creatio application page states "The role is based in Poland." Cover letter text was corrected to say Poland before submission (see CoverLetter_Creatio.tex/.txt).
+
+(PNG screenshot not saved: Claude in Chrome does not support saving screenshots to disk in this session; this text file is the confirmation record per the browser-alternative section of the brief.)

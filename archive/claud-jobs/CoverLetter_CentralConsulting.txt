@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the AI/ML Engineer role at Central Consulting Company. Translating models into results for real businesses on EU-funded projects is exactly the kind of applied work I want to keep doing.
+
+At FlowSpace I built and shipped a production LLM extraction pipeline that has drafted 900+ workspace listings from documents in any format, with validation rules and human review before anything reaches the backend. I also built RAG-backed support agents that answer against live platform data and escalate to a human on low confidence, evaluating their accuracy as I iterated. Day to day I work in Python, build data tooling around Supabase and PostgreSQL, and deploy models and agents through APIs that other teams and customers actually use.
+
+My ML depth is working knowledge, fine-tuning basics, embeddings, and evaluation, built while shipping production LLM systems rather than through research. That is a fair description of where I am strongest: taking a model from proof of concept to something a business team can rely on.
+
+I am based in Venice, Italy, hold an Italian EU long-term residence permit, and am ready to relocate to Sofia, with the employer-side permit process to follow.
+
+Regards,
+Prabhavit Gupta

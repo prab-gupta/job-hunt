@@ -1,0 +1,14 @@
+Gentile Team Datwave,
+
+Mi candido con interesse per la posizione di Junior AI Engineer - Google. Ho tre anni di esperienza professionale come sviluppatore full-stack e AI, con pipeline LLM e agenti in produzione.
+
+In UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline ne estrae i dati con Affinda e le API di Claude e valuta la rilevanza del candidato per specifici tipi di ruolo, il risultato viene mostrato nel frontend e infine viene generato un "Ultra CV" standardizzato; lo strumento di parsing è stato costruito con n8n ed Eden AI. In FlowSpace ho inoltre sviluppato agenti di supporto che rispondono alle richieste dei clienti a partire dai dati live della piattaforma ed effettuano l'escalation verso un operatore umano in caso di bassa confidenza.
+
+Come seconda prova, in Get2Germany ho integrato le API di Google, costruito strumenti AI per trovare corsi, stage e offerte di lavoro con n8n, e ottimizzato il database.
+
+Il mio lavoro con gli LLM si è basato finora sulle API di Claude e di OpenAI e su n8n; non ho ancora amministrato Google Cloud direttamente, ma conosco Python per pipeline di automazione, integrazioni API e QA, e SQL per la gestione dei dati, e sono pronto a costruire su Vertex AI.
+
+Come cittadino indiano con permesso di soggiorno UE di lungo periodo, sono autorizzato a lavorare in Italia senza necessità di sponsorizzazione. Sono basato a Venezia, disponibile a Milano, e felice di portare questa esperienza al vostro team, anche nelle attività di ricerca e scouting che caratterizzano il ruolo.
+
+Cordiali saluti,
+Prabhavit Gupta

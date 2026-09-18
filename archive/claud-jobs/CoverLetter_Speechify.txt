@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Software Engineer, Platform role at Speechify.
+
+Your Platform team owns payments, subscriptions, auth and the APIs the rest of the product depends on, and that is the work I have been doing at FlowSpace for the past two years. I helped migrate our marketplace to a coded Next.js and Laravel stack, then built and owned backend services on top: booking flows backed by Supabase and PostgreSQL, live OfficeRnD and Nexudus API integrations for automated bookings, and a production LLM pipeline that has drafted more than 900 workspace listings from raw broker material. Along the way I scaled the platform from 2,000 to 4,500+ users and carried production ownership, debugging it myself when a booking or an integration broke.
+
+I want to work on backend systems that other product teams build on, at a company that is fully distributed by design rather than remote as an afterthought. Speechify's mission, turning any document into audio so reading is never the bottleneck, is also a problem I care about.
+
+I am based in Venice, Italy, hold an Italian EU long-term residence permit, and can perform this role remotely from Italy without sponsorship. Available immediately.
+
+Regards,
+Prabhavit Gupta

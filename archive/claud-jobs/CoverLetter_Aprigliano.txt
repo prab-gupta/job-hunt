@@ -1,0 +1,12 @@
+Gentile team di selezione,
+
+mi candido per la posizione di Full Stack Developer AI-First (Tools & Automazione Interni) a Milano. Ho tre anni di esperienza come sviluppatore full-stack e AI in otto aziende europee, lavorando ogni giorno con strumenti come Claude Code per scrivere codice più velocemente e iterare sui feedback.
+
+Per FlowSpace gestisco una piattaforma full-stack in produzione: ho automatizzato la migrazione dei dati da uno stack legacy a Next.js e Laravel mantenendo il prodotto sempre online, mappando la struttura vecchia sulla nuova ed effettuando il cutover per ogni entità tramite endpoint API o export CSV, portando gli utenti da 2.000 a oltre 4.500. Ho anche integrato il CRM aziendale con automazioni per la cattura e l'instradamento dei lead, e costruito un bot che legge brochure in qualsiasi formato e redige annunci di spazi di lavoro con un umano nel ciclo.
+
+Per Urlink ho costruito la piattaforma e la sua logica con sviluppo assistito da AI, implementando automazioni su richiesta diretta dei clienti e ricoprendo anche il ruolo di project manager sui requisiti. Per UltraStrategy ho costruito la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati e ne valuta la rilevanza per specifici tipi di ruolo, il risultato arriva al frontend e infine genera un CV generalizzato, usando Affinda e le API di Claude.
+
+Quello che mi interessa del vostro annuncio è il contatto diretto con la direzione e la possibilità di costruire strumenti concreti fin dal primo giorno, esattamente il tipo di lavoro che ho già fatto. Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship, e sono disponibile a trasferirmi a Milano. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Handshake team,
+
+I am writing to apply for the Senior Forward Deployed Engineer role based in Sofia. I want to be upfront: I have three years of professional experience, not the six plus years the posting asks for. What I can offer instead is dense, shipped ownership across eight European companies in that time: building a platform from scratch with a client, and taking over and migrating a live production system.
+
+At Urlink, I built the platform and its logic with AI-assisted development on Next.js and Supabase, and implemented client-driven automations, while also acting as the project manager on client requirements, so I was the one translating a business ask into a shipped feature and back again.
+
+At FlowSpace, a live workspace marketplace, I took over the platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the data model entity by entity and driving the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I also built and own an AI listing bot and support AI agents that escalate to a person on low confidence, so I know what it takes to turn a one off fix into something reusable.
+
+I use Claude and Claude Code daily, critically, the way the role describes, as a tool I check rather than trust blindly. I hold Italian EU long-term resident status. I am not currently authorised to work in Bulgaria and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Sofia and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the Sofia team.
+
+Regards,
+Prabhavit Gupta

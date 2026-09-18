@@ -1,0 +1,16 @@
+Dear HCLTech Hiring Team,
+
+I am writing to apply for the Agentic Forward Deployed Engineer role in Amsterdam. Your posting describes translating business challenges into production-ready agentic solutions and embedding closely with clients to deliver them. That is the pattern of my last three years of work.
+
+At FlowSpace, I built and still own an AI listing bot: given a workspace provider's brochure in any format, PDF, website, photo or spreadsheet, the pipeline drafts a full listing with a human in the loop and sends it to the backend, over 900 drafts produced. I also built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, the same tool-calling and confidence-gated pattern your posting describes for business transformation agents. I worked daily with the Claude API and Claude Code inside that codebase, plus TypeScript and n8n for the automation layer.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific roles, the result is delivered to the frontend, and a standardised CV is generated. Affinda and the Claude API handled the parsing and generation, and I built the platform serving the different user profiles behind it.
+
+I have three years of professional experience against the 8 to 12 years asked for here, and I have not worked hands-on with a named Agent Development Kit such as LangGraph, CrewAI or Google ADK. What I bring is production experience building comparable multi-step, tool-calling agent pipelines with n8n and the Claude API, and a genuine habit of shipping fast with AI tooling rather than around it.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

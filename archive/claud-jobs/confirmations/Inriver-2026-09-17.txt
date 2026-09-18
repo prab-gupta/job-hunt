@@ -1,0 +1,7 @@
+Confirmation page: https://career.inriver.com/jobs/8217669-senior-forward-deployed-engineer/applications/5d3ffbff-8076-4a63-b1bb-a87b35e6965d/thanks/...
+
+"Thanks for applying
+We have received your application and we will be reviewing it shortly."
+
+Progress indicator showed: Applied (checked) -> Connect (step 2, optional, not completed).
+Screenshot not saved as PNG per brief (Claude in Chrome cannot save PNGs to disk); this txt is the record of the success text actually seen on screen.

@@ -1,0 +1,20 @@
+SAP - (Junior) Applied AI Developer (f/m/d) for the AI Frontrunner team
+Checked 2026-09-10 via Claude in Chrome.
+
+LinkedIn posting 1: https://www.linkedin.com/jobs/view/4464194771/
+  - Listed On-site, Full-time, "53 people clicked apply", Apply button live and clickable.
+LinkedIn posting 2 (twin): https://www.linkedin.com/jobs/view/4464501758/
+  - Listed On-site, Part-time, "36 people clicked apply", Apply button live and clickable.
+
+Both Apply buttons route to the same SAP careers (SuccessFactors-adjacent, jobs.sap.com) requisition:
+https://jobs.sap.com/job/Potsdam-%28Junior%29-Applied-AI-Developer-%28fmd%29-for-the-AI-Frontrunner-team-14469/1435648533/?feedId=384233&utm_campaign=SAP_Linkedin&utm_source=LinkedinJobPostings
+
+That page's visible body text reads, verbatim:
+
+"Sorry, this position has been filled."
+
+No search results, no application form, no guest-vs-account decision was reachable because the requisition itself is closed. This is the ground truth from the employer's own ATS; LinkedIn's "Apply" affordance and click counters are stale.
+
+Conclusion: posting closed at source. Killed per brief hard gate (posting closed/404 = stop) before any CV or cover letter was drafted and before any form field was touched.
+
+Screenshot: captured in-session (tool image id ss_0903qpx49) showing the "Sorry, this position has been filled." page; could not be located as a saved file on this machine's filesystem from this session's Bash sandbox (save_to_disk did not resolve to a discoverable path after search across scratchpad, Downloads, and Claude cache directories), so no .png file accompanies this .txt.

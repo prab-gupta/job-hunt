@@ -1,0 +1,14 @@
+Gentile team Istituto Ganassini,
+
+mi candido con interesse per il ruolo di Agentic AI Productivity Specialist a Milano, perché unisce esattamente ciò che ho fatto negli ultimi tre anni: mappare processi, orchestrare agenti AI e automazioni end to end con strumenti come n8n, e portare quei flussi in produzione con controlli affidabili.
+
+In FlowSpace ho costruito e gestito un bot AI che trasforma brochure di spazi di lavoro in qualsiasi formato, PDF, sito web, foto o foglio di calcolo, in annunci strutturati, con revisione umana prima della pubblicazione. Il flusso, realizzato con n8n, l'API di Claude e TypeScript, ha prodotto oltre 900 bozze. Ho inoltre sviluppato agenti di supporto che rispondono ai clienti usando dati live della piattaforma e inoltrano a una persona i casi a bassa confidenza, oltre a integrazioni API (OfficeRnD, Nexudus) e automazioni CRM per la generazione e l'instradamento dei lead.
+
+In UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, il flusso ne estrae i dati e valuta la rilevanza per specifici tipi di ruolo, il risultato arriva al frontend e viene generato un CV standardizzato. Ho usato Affinda, l'API di Claude, n8n ed Eden AI, imparando a progettare flussi LLM con controlli verificabili e output strutturati, il tipo di affidabilità che un contesto regolamentato come quello farmaceutico richiede.
+
+Ho anche certificazioni Microsoft su Copilot Studio, Power Automate e la costruzione di agenti AI, e mi trovo a mio agio nel formare i team all'adozione quotidiana di questi strumenti.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorizzazione, disponibile da subito e aperto al trasferimento a Milano.
+
+Cordiali saluti,
+Prabhavit Gupta

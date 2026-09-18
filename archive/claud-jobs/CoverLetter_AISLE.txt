@@ -1,0 +1,19 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear AISLE Hiring Team,
+
+I am applying for the Forward Deployed Engineer, Vulnerability Management role.
+
+At FlowSpace, I took over a live workspace marketplace and automated its data migration off a legacy stack onto Next.js and Laravel while the product stayed live, growing the platform from 2,000 to over 4,500 users. I integrated OfficeRnD and Nexudus into the platform for automated bookings and built support AI agents that ground answers in live platform data and escalate to a human on low confidence. I have worked directly inside a live production system, reading its structure and wiring in new integrations without breaking what was already running.
+
+At Get2Germany, I integrated Google APIs into the platform and built AI tools that search for courses, internships and jobs, alongside optimising the underlying database, on n8n and the Google APIs. That is the same pattern of deep, hands-on integration work this role asks for: going into an existing system, understanding it well enough to change it safely, and shipping a working result.
+
+I want to flag a gap directly. I do not hold a security clearance and I do not have a background in vulnerability management, memory-safety analysis or systems-level languages such as C, C++, Go or Rust. My production code has been TypeScript, PHP and Python for application-layer and automation work rather than security engineering. What I can bring is three years of hands-on, customer-facing integration work inside live systems and the technical-lead pattern this role needs, without the specific security domain background.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+
+Prabhavit Gupta

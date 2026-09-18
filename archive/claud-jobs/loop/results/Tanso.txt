@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://tanso.jobs.personio.de/job/2765212
+Uploaded: Prabhavit_CV_Tanso.pdf, CoverLetter_Tanso.pdf (Personio native form, no LinkedIn ATS ID)
+Answers: Available from Immediately (2 weeks notice), Expected salary EUR 50,000, Location Venice Italy, English Advanced (C1), Why join Tanso free-text (FlowSpace migration + Urlink full-stack build), relocate to Munich Yes, legally authorised to work in Germany No.
+Blockers: none.
+Confirmation: "THANK YOU! We have received your application and will contact you shortly." (confirmations/Tanso-2026-09-17.txt)
+Full detail: answers/tanso-2026-09-17.md

@@ -1,0 +1,12 @@
+Dear UniCredit Hiring Team,
+
+I am writing to apply for the AI Engineer role in Verona. My work over the last three years has centred on designing and operating agentic AI systems in production, which is the core focus of this role on UniCredit's AI Platform.
+
+At FlowSpace, I own AI feature delivery for a live marketplace. I built and operate an AI listing bot that ingests brochures in any format, PDF, website, photo or spreadsheet, extracts structured data with LLM APIs, and routes it through human review before it reaches the platform backend; it has produced more than 900 draft listings. I also built support agents that answer customer queries from live platform data and escalate to a human on low confidence, plus REST integrations with OfficeRnD and Nexudus for automated bookings. This is production work: it has to handle malformed input, non-deterministic model output, and failure recovery, not just a working demo.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores relevance against specific role types, and generates a standardised profile. Orchestrating that pipeline with n8n and Eden AI taught me to design reliable evaluation and quality gates around LLM output, close to the reusable agent patterns and evaluation work this role describes.
+
+My documented stack is TypeScript, Node.js, Laravel, APIs, n8n, and LLM and RAG workflows, with working knowledge of Docker. Python and Kubernetes are areas I am actively building on top of that base. I hold an Italian EU long-term residence permit, am authorised to work in Italy without sponsorship, and am available immediately.
+
+Regards,
+Prabhavit Gupta

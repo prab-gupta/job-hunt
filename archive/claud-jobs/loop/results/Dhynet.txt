@@ -1,0 +1,17 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4465057104/
+
+Reason: Posting closed/404 hard gate, caught at Order-of-work step 2 (live-page apply check before any tailoring). The live LinkedIn job page (Dhynet, AI Machine Learning Engineer, Perugia/Umbria/Italy, Remote, Full-time, posted 23 minutes ago, 9 applicants) shows "Not currently accepting applications" directly under the Remote/Full-time chips. No Apply or Easy Apply button anywhere on the page after full render (confirmed via screenshot and a full get_page_text extract on a fresh own tab, tabId 550849864, closed after). No external ATS link and no "how to apply" instructions anywhere in the JD body; the only contact path is a Message button to the job poster (Arturo Cimieri, CEO and founder). There was no channel to submit to.
+
+JD gate checks (all would have passed - not what killed this one): fetched the live JD text via curl https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465057104 as well as the rendered page. JD is in Italian throughout (Descrizione del ruolo / Qualifiche), which is acceptable for an Italy-based role per the task's precedent exception - no madrelingua/ottima conoscenza Italian requirement anywhere, no explicit years-of-experience threshold, STEM degree listed only as "titolo preferenziale" (preferred, not mandatory) so no hard-MSc gate, LinkedIn's own seniority tag is Entry level, and the stack (Python, TensorFlow, PyTorch, scikit-learn, MLOps/cloud deploy) is framed around integrating AI solutions into business applications rather than pure research, so it would have been claimable at a working-knowledge level. Grepped the JD HTML for anti-AI disclaimer variants (AI-generated, senza AI, generata da AI, etc.) - zero hits.
+
+Uploaded: nothing. No CV tailored (Prabhavit_CV_Dhynet.tex/.pdf never built), no cover letter written (CoverLetter_Dhynet.txt never built), no form opened, nothing submitted.
+
+Answers given: none (no form reached).
+
+Blockers: closed posting on LinkedIn ("Not currently accepting applications"), no alternate application channel found in the JD or on the page.
+
+Dedupe: python3 loop/dedupe.py --check "Dhynet" "https://www.linkedin.com/jobs/view/4465057104/" returned NEW; grep -i dhynet applications.csv returned nothing before this run. Not a dedupe block.
+
+LEARNINGS: none new - this is the same "Not currently accepting applications, zero Apply control, curl API still serves a full live-looking JD" pattern already logged for Renessai on 2026-09-09 (see loop/results/Renessai.txt). Confirms the rule: always load the actual job page in a browser and check for an Apply/Easy Apply control before building anything, since the jobs-guest curl endpoint alone is not proof a posting is open. Followed that order correctly here (browser check first, killed before any tailoring), so no tailoring effort was wasted this time.

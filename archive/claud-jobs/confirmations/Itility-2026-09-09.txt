@@ -1,0 +1,7 @@
+Itility (Agentic AI Engineer for Entune) - Recruitee application, https://careers.itility.nl/o/agentic-ai-engineer-for-entune
+
+Confirmation page text (Application tab shows "Applied" with checkmark):
+"All done!
+Your application has been successfully submitted!"
+
+URL after submit: https://careers.itility.nl/o/agentic-ai-engineer-for-entune/applied

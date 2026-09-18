@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458404335/
+Company/Role: IFS - Forward Deployed Engineer, New Capabilities, 's-Hertogenbosch (on-site)
+
+Uploaded: Prabhavit_CV_IFS.pdf (tailored, 2 pages; FlowSpace live-migration/API-integration bullets led, Get2Germany database-optimization bullet led, career summary kept the AI-assisted-development bullet given IFS's own emphasis on agentic AI workflows).
+Letter: CoverLetter_IFS.txt drafted (FlowSpace + Urlink proof roles, honest about the C#/.NET stack gap) but not attached - the review page's "Cover letter" section had a broken Edit link that routed to the Resume page instead of an actual letter field; no genuine cover-letter input exists in this 7-page SmartRecruiters flow.
+
+Answers given: nationality Indian; will require NL employment VISA = Yes; heard about IFS via LinkedIn; fluent in English = Yes; fluent in Dutch = No; notice "Immediately available; 2 weeks after offer"; preferred salary "EUR 50,000 gross base annual"; never worked at IFS; gender "Prefer not to say"; privacy consent ticked.
+
+Stack and language notes: this is a heavy .NET/C#/optimization role Prabhavit cannot honestly claim, but the standing FDE-in-EU rule says no stack kill for these rows, so I applied with an honest letter naming his real stack instead of inventing .NET experience. The form has an explicit required "Are you fluent in the local language (Dutch)?" question; answered "No" truthfully and the form still accepted submission (a data field, not a hard block) - no JD-body language requirement was found to justify a kill either.
+
+Blockers: none. Submitted cleanly, "Application submitted - now" seen and saved.
+
+Flag for user: LinkedIn auto-filled this SmartRecruiters form's Work Experience and Education pages directly from Prabhavit's LinkedIn profile (confirmed by a raw urn:li:geo location value in one field, not a resume-parser artifact). Two entries do not appear in OUTREACH_FACTS.md or the Master Experience file: "Press Coordinator for EU Parliament" at "Venice Diplomatic Society" (5/2023-5/2023) and "No-Code Developer" at "Design & Desktop" (3/2022-12/2022), plus a "Collaborator" role at "Anqa.it" (7/2024-8/2025). Left untouched since editing the user's own LinkedIn profile was out of scope, but worth the user checking whether these are real minor gigs or stale/incorrect profile data, since they now went to IFS as part of this application.

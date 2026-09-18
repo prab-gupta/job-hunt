@@ -1,0 +1,37 @@
+STATUS: KILLED
+URL: https://www.make.com/en/careers-detail?gh_jid=7778897003 (Greenhouse job id 7778897003; board API https://boards-api.greenhouse.io/v1/boards/make/jobs/7778897003)
+
+REASON: Dedupe hit, stopped before any drafting or browser work.
+
+applications.csv already has a SUBMITTED row for this exact requisition:
+  2026-08-05,Make (Celonis),GTM Engineer - Revenue Programs,Greenhouse (embed),
+  https://job-boards.greenhouse.io/embed/job_app?for=make&token=7778897003,SUBMITTED,
+  "Confirmed - 'Thank you for applying. Perfectly! You've taken the first step
+  towards becoming our new Maker! ...'"
+
+The embed URL's token=7778897003 is the same Greenhouse job id as today's target
+(7778897003) and the role title is character-for-character identical (GTM Engineer -
+Revenue Programs, Madrid). That prior application was SUBMITTED 36 days ago with a
+full cover letter, salary EUR 30,000-40,000, work-authorisation/sponsorship answers,
+hybrid confirmation, Make/Zapier/n8n proficiency, and Clay = no experience (honest) -
+i.e. essentially the same package this task asked me to build again.
+
+Per APPLY_AGENT_BRIEF.md dedupe rule: "HIT URL = this exact posting was already
+handled: write KILLED." Company + role/requisition match, status SUBMITTED, well
+inside the 60-day window. `python3 loop/dedupe.py --check "Make" <board-api-url>`
+returned NEW only because it doesn't fuzzy-match the embed-token URL format against
+the boards-api URL format; the manual grep of applications.csv for "make" caught it.
+
+WHAT WAS NOT DONE (correctly, per the gate): no CV file created/copied, no cover
+letter drafted, no answers file written, browser pane never opened, no screenshots,
+no queue.csv edit (brief forbids editing queue.csv; that file's Make row still shows
+status APPLYING and should be corrected by hand to SKIP/DUP or similar).
+
+LOGGED: one KILLED row appended to applications.csv (2026-09-10, Make, GTM Engineer -
+Revenue Programs, Greenhouse, KILLED, notes citing the 2026-08-05 duplicate).
+
+LEARNINGS: dedupe.py's automated check can miss a real duplicate when the two
+recorded URLs for the same job use different Greenhouse URL shapes (embed job_app
+token link vs. boards-api/careers-detail link with the same job id). Worth teaching
+dedupe.py to extract and compare the Greenhouse job id/token instead of the full URL
+string.

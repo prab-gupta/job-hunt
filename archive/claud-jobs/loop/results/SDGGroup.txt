@@ -1,0 +1,28 @@
+STATUS: SUBMITTED
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4463052030/
+Applied via (offsite, Teamtailor): https://careers.sdggroup.com/jobs/6022708-ai-quant-pre-sales
+
+The LinkedIn posting is "Apply on company website" (Responses managed off LinkedIn), not Easy Apply,
+so the application was completed on SDG's own Teamtailor careers page.
+
+Dedupe: NEW, no prior SDG row in applications.csv.
+Gates re-checked on live JD: no years floor, title not Senior/Lead/Manager/CTO, education line asks
+for "a degree" (not a hard MSc/PhD requirement, matches his Bachelor's), JD in English, no anti-AI
+clause, no unclaimable core stack. All passed.
+
+Uploaded: Prabhavit_CV_SDGGroup.pdf (CV field), CoverLetter_SDGGroup.pdf (Additional files field).
+Cover letter textbox: full Italian letter pasted.
+Answers: name/email/phone, salary expectation 55,000 EUR (bottom of the JD's stated 55-75k RAL band),
+Locations -> Milan checked, privacy consent checkbox checked.
+
+Angle: presales/solutions per the task - UltraStrategy client-facing CV-parsing pipeline (demos,
+different user profiles) paired with FlowSpace's client-delivered AI solutions (listing bot, support
+agents). Letter is explicit and honest that Prabhavit has no quantitative-finance background.
+
+Confirmation: page title "Applied to AI Quant Pre-Sales", heading "Thanks for applying", status
+"Applied". Screenshot at confirmations/SDGGroup-2026-09-16.png, text at
+confirmations/SDGGroup-2026-09-16.txt. Answers at answers/sdggroup-2026-09-16.md.
+
+LEARNINGS: none new (Teamtailor form behaved like the Finomnia precedent - CV field + separate
+Additional files field + free-text cover letter textbox, all straightforward with Playwright
+file_upload).

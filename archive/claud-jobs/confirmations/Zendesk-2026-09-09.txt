@@ -1,0 +1,15 @@
+NEEDS YOU — account creation wall, no submission made.
+
+Job: Sales Engineer, Zendesk, Lisbon, Portugal (hybrid)
+LinkedIn posting: https://www.linkedin.com/jobs/view/4385038372/ ("Responses managed off LinkedIn" — not Easy Apply)
+Real ATS: Workday — https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote%2C-Spain/Senior-Solutions-Consultant_R33452/apply/applyManually?source=LinkedIn (requisition R33452)
+
+Note: the Workday URL slug reads "Senior-Solutions-Consultant" but the page title, on-page heading, and requisition R33452 all confirm this is the same "Sales Engineer" posting (locations listed: Remote, Spain / Lisbon, Portugal) — a stale/renamed slug, not a different job.
+
+Flow taken: LinkedIn "Apply" button (not Easy Apply) -> new tab opened directly to Zendesk's Workday posting -> clicked Workday's "Apply" -> "Start Your Application" modal offered "Autofill with Resume" / "Apply Manually" / "Use My Last Application" -> clicked "Apply Manually" (the closest thing to a guest path) -> Workday immediately requires "Create Account/Sign In" as application step 1 of 6 (Email Address, Password, Verify New Password, all required, plus a Candidate Privacy Notice acknowledgement) before any application field, job info, or resume upload is shown.
+
+No guest "apply without account" path exists on this ATS instance — "Apply Manually" still lands on the same Create Account gate as "Autofill with Resume". Per brief: no account creation performed. Tab left open for Prabhavit: tabId 550849844 (Chrome, MCP tab group), on the Create Account screen, nothing typed into it.
+
+Screenshot: not saved as PNG (Claude in Chrome does not support saving screenshots to disk in this session); this txt is the record, screenshot was visually confirmed showing the Create Account form with Email Address / Password / Verify New Password fields, none filled.
+
+Cover letter prepared regardless (for use once Prabhavit creates the account): CoverLetter_Zendesk.txt (201 words, 0 em-dashes) and CoverLetter_Zendesk.pdf (1 page, built from CoverLetter_Zendesk.tex via tectonic).

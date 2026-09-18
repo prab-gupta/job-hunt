@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4419328245/ (real ATS: https://job-boards.greenhouse.io/taxbit/jobs/6008505004, Madrid, Spain)
+Uploaded: Prabhavit_CV_Taxbit.pdf (resume, replaced a stale autofilled resume), CoverLetter_Taxbit.pdf (cover letter)
+Answers given: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Country +39 Italy, Phone 351 610 7807, LinkedIn Profile https://www.linkedin.com/in/prabhavit/, Website blank. No other screening questions on this Greenhouse form.
+Fit/gate notes: dedupe HIT COMPANY on a prior Wellfound row (2026-09-04, status SKIP) - did not block. JD's "native fluency in a main European language" is not an explicit named-language requirement, so not a kill; work-authorisation clause (Spain, no sponsorship) answered honestly in the letter, not a kill under USER RULE.
+Confirmation: "Thank you for applying" at https://job-boards.greenhouse.io/taxbit/jobs/6008505004/confirmation. Saved confirmations/Taxbit-2026-09-17.txt.
+Logged: applications.csv SUBMITTED row (2026-09-17), answers/taxbit-2026-09-17.md.

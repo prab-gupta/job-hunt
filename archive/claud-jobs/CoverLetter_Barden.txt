@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Barden team,
+
+I am writing to apply for the AI Deployment Manager (Content Development) role. I want to be upfront: I have three years of professional experience, shorter than the mid-senior level this role is pitched at, but spent hands on across eight European companies building and piloting exactly the kind of AI-enabled content and data workflows this role asks for.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend as a first draft, and a standardised Ultra CV is generated after review. Affinda and the Claude API handled the extraction and generation, and n8n and Eden AI built the parsing tool itself, the same evaluate-then-pilot approach this role is built around.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace brochure in any format, PDF, website, photo or spreadsheet, and drafts a structured, reusable listing with a human in the loop before it goes live, 900 plus listings drafted so far. That is the same first-draft-plus-governance pattern this role needs for story decks and congress updates: modular content, tagged and reused, checked before publication.
+
+I have no pharmaceutical or regulated-content background, but I have run AI content and data pipelines end to end, from tool evaluation through pilot to scaled rollout, and I am comfortable defining tagging and reuse principles with a content team. I hold Italian EU long-term resident status, which does not extend to Ireland. I am not currently authorised to work there and would need an Irish employment permit, generally requiring employer sponsorship, and I am ready to pursue that process.
+
+I would welcome the opportunity to discuss how I could contribute to your team.
+
+Regards,
+Prabhavit Gupta

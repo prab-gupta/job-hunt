@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4448285518/
+ATS: Allibo (joblink.allibo.com job page redirected from LinkedIn Apply, then am.allibo.com application form)
+Uploaded: Prabhavit_CV_TXTGroup.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic, parity-checked - no rewritten sentences, no added claims)
+Cover letter: CoverLetter_TXTGroup.txt/.pdf prepared per brief but this form has no cover letter field; a condensed version was pasted into the "Presentation" free-text field on step 2.
+Answers given: Name/Surname/Email, phone +39 351 610 7807, DOB 21/02/2001, Education Degree (3 years), Subject of study Economics Area, Experience With experience/3 years, Employment-protected category No, Home Venice/Italy/VE, Languages Italian Intermediate (B1/B2), English Advanced (C1/C2), German/Spanish/French No knowledge, Presentation = condensed letter, privacy consent ticked.
+Confirmation: "Thank you! Your data have been correctly collected and placed under the protection of our HR team." (confirmations/TXTGroup-2026-09-17.txt)
+Blockers: none.
+Notes: JD lists PyTorch/NumPy/deep-learning framework and Python backend (FastAPI/Flask/Django) as required skills that Prabhavit cannot claim. Per explicit task instruction, applied anyway with an honest cover letter/Presentation text stating his ML experience is LLM APIs, embeddings and evaluation (UltraStrategy Affinda + Claude API pipeline) rather than production PyTorch training. Salary: JD states EUR 29,000-34,000 gross/year (below the standing 45000 default); no salary field was actually present on this form. Dedupe: HIT COMPANY only, both prior TXT rows (2026-08-06 LEAD "AI Engineer", 2026-09-04 SKIPPED "Aerospace Customer Support Engineer" at TXT e-solutions) are different roles and do not block this new "Machine Learning Engineer" requisition.
+LEARNINGS: no new ATS trap beyond what is already documented (two-step Allibo flow: CV-submission mini-form on the employer's joblink.allibo.com page, which on submit hands off to a fuller am.allibo.com profile-completion form with DOB/education/language-level/free-text Presentation fields).

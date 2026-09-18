@@ -1,0 +1,10 @@
+Dear Betclic Team,
+
+I am writing to apply for the Technical Product Manager role in Bordeaux. I come from the engineering side of a platform rather than a product title, and this posting describes exactly that transition: an engineer who wants to own the decisions behind the tools other teams build on.
+
+At FlowSpace, a workspace marketplace that grew from 2,000 to 4,500 plus users, I was the engineer other teams depended on for the platform underneath the product. I owned the integrations layer end to end, connecting OfficeRnD and Nexudus for automated bookings, and built the CRM and GTM automation that consolidated leads from separate tools into one pipeline. I also designed and shipped an internal AI listing pipeline, an end to end tool that takes a provider's raw brochure in any format and drafts a full marketplace listing with a human in the loop, the kind of developer facing internal product this role is meant to own. Alongside this I helped migrate FlowSpace's stack to Next.js and Laravel while the product stayed live, working directly with engineering, an external agency and internal stakeholders to align priorities.
+
+That mix, real engineering ownership plus the habit of turning technical constraints into product decisions for non technical stakeholders, is what draws me to this role. I would welcome the chance to bring that experience to Betclic's internal engineering platforms.
+
+Best regards,
+Prabhavit Gupta

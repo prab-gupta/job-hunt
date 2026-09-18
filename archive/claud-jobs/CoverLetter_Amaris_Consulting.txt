@@ -1,0 +1,14 @@
+Gentile team di Amaris Consulting,
+
+vi scrivo per candidarmi al ruolo di Embedded Software Engineer | HMI | Automotive a Perugia. Il mio percorso e' quello di uno sviluppatore software con esperienza in automazione, integrazione di API e testing rigoroso, e sono interessato a portare queste competenze verso il software embedded e l'HMI in ambito automotive, un'area che voglio sviluppare con continuita'.
+
+Per FlowSpace, un marketplace di spazi di coworking con sede a Londra, sono lo sviluppatore principale: ho automatizzato la migrazione dell'intero livello dati da uno stack legacy a Next.js e Laravel, mappando ogni entita' e scegliendo il percorso di migrazione caso per caso, portando la piattaforma da 2.000 a oltre 4.500 utenti con il prodotto sempre in produzione. Ho anche costruito agenti di supporto AI che leggono i dati live della piattaforma ed escalano a una persona quando la confidenza e' bassa, oltre a integrazioni API (OfficeRnD e Nexudus) per le prenotazioni automatizzate.
+
+Per Clubee, in Lussemburgo, ho integrato le API Clubee su tutto il frontend e mi sono occupato di unit testing e quality assurance delle nuove funzionalita', lavorando in un contesto Agile con rilasci frequenti, un rigore che considero centrale anche nello sviluppo embedded.
+
+Non ho esperienza diretta in C/C++ su centraline ECU ne' in AUTOSAR, ma ho una solida base di programmazione, integrazione di sistemi e debugging, e sono pronto a investire nel percorso di formazione interno per costruire competenze specifiche nel dominio automotive.
+
+Ho un livello C2 in inglese e status di soggiornante di lungo periodo UE in Italia, autorizzato a lavorare senza necessita' di sponsorizzazione. Sono disponibile a trasferirmi a Perugia e a lavorare on-site, e posso iniziare da subito.
+
+Cordiali saluti,
+Prabhavit Gupta

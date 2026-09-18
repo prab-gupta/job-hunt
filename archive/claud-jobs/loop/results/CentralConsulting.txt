@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463007786/
+Company: Central Consulting Company — AI/ML Engineer — Sofia, Bulgaria
+Method: LinkedIn Easy Apply (Chrome)
+
+Uploaded: resume Prabhavit_CV-.pdf (LinkedIn library, matches ROOT/Prabhavit_CV_Original_EN.pdf).
+Answers given: email prabhavitg@gmail.com; phone Italy (+39) 351 610 7807; Follow-company checkbox unticked. No years/salary/notice/free-text fields were present on this Easy Apply form — it was a minimal single-page form (contact info + resume + follow checkbox + submit only).
+Cover letter: written to ROOT/CoverLetter_CentralConsulting.txt (200 words) and compiled to ROOT/CoverLetter_CentralConsulting.pdf (1 page, tectonic), but not attached — the form had no message box or upload slot for it.
+Blockers: none. No CAPTCHA, no login wall, no account creation.
+Confirmation: "Your application was sent to Central Consulting Company!" and "Application status: Application submitted" (visible on job page after submit).
+
+Hard gates re-checked on live JD: 2-5yr band clears true 2.5yr; Entry level (LinkedIn tag), no MSc/PhD requirement, no Bulgarian-language requirement, core role is model integration/deployment for business use (not core training/research). Work authorisation for Bulgaria: No / employer-side permit-sponsorship: Yes (per standing rule for non-Italy EU roles).
+
+LEARNINGS: This LinkedIn Easy Apply posting rendered as a single-page modal (contact info + resume library + follow checkbox + submit) with no additional screening questions and no cover-letter field — simpler than the usual 4-5 page LinkedIn flow. Chrome (Claude in Chrome) worked fine end to end despite the brief's note that it was down; no fallback to Playwright was needed.

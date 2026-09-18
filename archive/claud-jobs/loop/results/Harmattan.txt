@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468214613/ (apply routes via LinkedIn safety-redirect to https://jobs.ashbyhq.com/harmattan-ai/361b01cd-1e9a-4827-9bcc-36b8aa403aa3/application)
+Uploaded: Prabhavit_CV_Harmattan.pdf (Resume, English only, required). No cover letter field on this form.
+Answers given:
+- Name: Prabhavit Gupta / Email: prabhavitg@gmail.com
+- "Why are you interested in Harmattan AI?": honest pitch on end-to-end ownership from FlowSpace's live migration + AI agents, wanting to apply that to a higher-stakes domain.
+- "How did you hear about us?": LinkedIn
+- "What are your salary expectations?": EUR 45,000
+- "When can you start?": immediately/two weeks, plus the work-authorisation.md transparency line for France (not authorised, would need employer-side permit/sponsorship, ready to relocate).
+- "Do you have the Right to Work in France?": No (honest)
+- "Are you willing to relocate to Paris?": Yes
+Submitted successfully: "Thank you for applying to Harmattan AI! We'll review your application and be in touch about the next steps."
+Screenshot: confirmations/Harmattan-2026-09-16.png, text: confirmations/Harmattan-2026-09-16.txt
+Blockers: none.
+LEARNINGS: on jobs.ashbyhq.com/harmattan-ai's Application form, filling the "How did you hear about us?" textbox with browser_fill_form left it visually showing the value but Ashby's own client-side validation flagged it "Missing entry for required field" on submit (same class of stale-field-state issue documented for Chrome's form_input on Ashby, but here it happened via Playwright's fill()). Fix: click the field, select-all, retype with fill() again (or type character by character), then click elsewhere to blur before resubmitting. Worth a note in LEARNINGS.md if this recurs on other Ashby forms via Playwright.

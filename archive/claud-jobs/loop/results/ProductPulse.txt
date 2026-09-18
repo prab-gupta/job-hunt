@@ -1,0 +1,27 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4463861680/
+
+Company: Wemolo (parking-management IoT platform, Munich), posting run by Product Pulse (product-management recruiting firm; client named in the JD, not an unnamed-client agency posting). Recruiter: Hulya Bayram.
+
+Dedupe: HIT COMPANY. `grep -i wemolo applications.csv` returned one prior row (2026-08-06, "Junior Business Automation and AI Manager", status LEAD, not applied). Different requisition and a different level from this Product Manager role, and LEAD status does not block per the brief's rule. Proceeded.
+
+Apply-button pre-check: `curl -s -A "Mozilla/5.0" .../jobPosting/4463861680 | grep -c apply-button` = 1. Live-page check confirmed an active "Apply" control (8 people clicked apply, no "not accepting applications" banner). Not LinkedIn Easy Apply: the button reads "Apply" with an external-link icon and "Responses managed off LinkedIn".
+
+Full JD (confirmed complete via guest API HTML, not truncated): Product Manager for Wemolo's IoT Platform, owning cloud- and web-based platform capabilities behind the connected hardware fleet; intersection of internal tooling, event-driven platform logic, operational scalability; works with Operations, System Performance, Customer Success, Technical Implementation, Installations, Engineering, leadership; success = driving product strategy and execution end to end (discovery, prioritization, configuration/rollout/monitoring/fleet-ops tooling, reliable/observable/scalable platform logic).
+
+Hard gates re-checked on full JD: no years-of-experience figure stated; LinkedIn's own seniority field says "Not Applicable" and the title is plain "Product Manager" (not Senior/Lead/Principal/Manager-as-people-manager); JD is English throughout, no German requirement anywhere; no hard MSc/PhD requirement; grepped the full guest-API HTML for "AI-generated", "AI assistance", "without any AI", "no AI" - no matches, no anti-AI clause. All gates passed.
+
+Clicking Apply opened a Workfully ATS form in a tab spawned by my own click (https://hiring.workfully.com/recruiter/d25664e0-84db-4f06-8ab9-09baeef526b2/job/68684df4-8d27-4111-800b-374ec564d65f/apply), no login/account-creation wall, guest apply. Form fields: resume upload, LinkedIn Profile URL, First Name, Last Name, Email, Phone, a Cloudflare Turnstile widget (auto-resolved to "Success!" with no interaction needed, not a CAPTCHA blocker), and a required privacy-policy consent checkbox. No years/salary/work-authorisation questions on this form.
+
+Uploaded: Prabhavit_CV_ProductPulse.pdf (tailored from Prabhavit_CV_EN.tex per the CV tailoring rules: Career Summary trimmed to 2 bullets, Technical Skills reordered with Project/Design and Automation first, FlowSpace Product Responsibilities reordered to lead with the platform-growth bullet, FlowSpace Technical Responsibilities reordered to lead with the OfficeRnD/Nexudus integration bullet and trimmed of CRM/GTM/commute-time bullets that don't relate to an IoT-platform PM role, other roles trimmed to their most relevant 1-3 bullets each, "Low code development/AI based development" dropped from Additional Information per the Bubble/low-code carve-out since the JD has no relation to it. No sentences rewritten, no claims added, no role/date/location deleted, FlowSpace kept well above the 3-bullet floor. Compiled with tectonic, verified 2 pages via pdfinfo, filename verified on the upload widget after upload). Fit 75 as given.
+
+No cover letter field existed on this form, so nothing was pasted or uploaded for it. Wrote CoverLetter_Wemolo.txt (196 words, 0 em-dashes) and CoverLetter_Wemolo.tex/.pdf (1 page, tectonic) anyway per the brief, ready for follow-up. Claims traced to Prabhavit - Master Experience.md: 900+ workspace listings drafted (AI listing pipeline), RAG support agents with low-confidence escalation, OfficeRnD/Nexudus booking integrations, "technical enough to read the code" framing, two and a half years at FlowSpace (Mar 2024 - Aug 2026). Logistics line used the standard work-authorisation transparency skeleton (Italian EU long-term residence permit does not auto-extend to Germany, employer-side sponsorship needed), Venice based, ready to relocate to Munich, no German claimed.
+
+Answers given on the form: LinkedIn https://www.linkedin.com/in/prabhavit, First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, privacy consent ticked.
+
+Submitted and confirmed on screen: "Your profile has been successfully submitted! Thank you for applying for the Product Manager (all genders) - IoT Platform at Wemolo, I will reach out to you soon regarding the next steps." Saved to confirmations/Wemolo-2026-09-09.txt (PNG screenshot save not available in this Chrome MCP session per the brief; the txt is the record).
+
+Logged: applications.csv row appended (status SUBMITTED). Answers and CV-tailoring rationale in answers/wemolo-2026-09-09.md. Both tabs I created (the LinkedIn job tab and the Workfully tab spawned by my Apply click) were closed after confirming success.
+
+LEARNINGS: on this Workfully ATS form, `form_input` set the privacy-consent checkbox's underlying value but did not update its visual checked state (nor, apparently, fire the change event the Submit button's enabled/disabled logic listens to) - a direct `computer left_click` on the checkbox's ref was needed to actually check it and enable Submit. Always visually re-verify a required checkbox after `form_input`, don't trust the tool's "previous: false" success message alone.

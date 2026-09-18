@@ -1,0 +1,25 @@
+STATUS: SUBMITTED
+LinkedIn: https://www.linkedin.com/jobs/view/4465539678/ (OFFSITE)
+Apply routes to: https://join.com/companies/menhir/16661361-full-stack-ai-engineer-lisbon
+
+Not a new submission this session. dedupe.py and a company-name grep of applications.csv both said
+NEW, but opening the join.com Apply target showed a browser-account banner: "You've applied on Aug 20,
+2026" for prabhavitg@gmail.com. Application details (join.com/talent/applications/52288079) confirm
+Status: Submitted, same job posting (join.com id 16661361), CV Prabhavit_CV_Menhir.pdf, cover letter
+Cover_Menhir.pdf, start date 2026-09-01, expected comp EUR 40000.
+
+Action: did not refill or resubmit the join.com form (would duplicate a live application). Did not send
+any email to Menhir per this task's explicit instruction (a separate outreach batch email to
+contact@menhir.ai was scheduled for today by another process - flag: it may now be redundant given a
+completed ATS application already exists).
+
+Logged: applications.csv row (date 2026-09-16, SUBMITTED, backfilling the Aug 20 application),
+confirmations/Menhir-2026-09-16.txt (banner + application details), answers/menhir-2026-09-16.md.
+
+Blockers: none for me to act on; this row was already handled before this session started.
+
+LEARNINGS: join.com keeps a persistent "you've applied" banner tied to the signed-in browser account
+even when the local project files (Prabhavit_CV_Menhir.*, Cover_Menhir.*) no longer exist in ROOT and
+applications.csv never got the row. Same pattern as the CityZ entry from 2026-08-16. When an offsite
+Apply lands on join.com, always check for this banner before treating dedupe.py's "NEW" as final -
+dedupe only knows what applications.csv has recorded, not what the ATS account itself has recorded.

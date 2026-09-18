@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4457754997/
+Apply route: https://analogdevices.wd1.myworkdayjobs.com/External/job/Ireland-Limerick/Forward-Deployed-Engineer_R264809
+
+Uploaded: nothing (blocked before any upload step)
+Answers given: none (blocked before the form)
+
+Blocker: Workday "Apply Manually" (tried per task note before any account-linked option)
+still forces step 1 of 6 "Create Account/Sign In" - email + password + verify password, with
+an explicit "Create Account" button. No guest-apply path found on this tenant, matching the
+"Ireland/Workday likely" expectation in the task.
+
+Materials ready: Prabhavit_CV_AnalogDevices.pdf, CoverLetter_AnalogDevices.pdf/.txt (0
+em-dashes verified). Full field values and standing answers in
+answers/analogdevices-2026-09-16.md. Logged to applications.csv as NEEDS YOU and to
+NEEDS_YOU.md row 17.
+
+LEARNINGS: none new - this is the same Workday account-wall pattern seen repeatedly today
+(Kyndryl, Relativity), not a new ATS trap.

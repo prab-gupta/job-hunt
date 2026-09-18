@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4454519303/ (offsite -> https://kigroup.recruitee.com/o/forward-deployed-software-engineer-all-genders)
+ATS: Recruitee
+
+Uploaded: Prabhavit_CV_KIPerformance.pdf (2 pages), CoverLetter_KIPerformance.pdf.
+Answers given: Full name, Email, Phone (country changed from the form's Portugal default to Italy, +39 351 610 7807), CV upload, Cover letter upload, notice period "Available immediately; can start within two weeks of an offer", salary expectations "EUR 50,000 gross per year", Data protection notice consent ticked (required), Talent Pool 2-year storage consent left unticked (optional). Text-message consent checkbox left unticked. See answers/kiperformance-2026-09-16.md.
+
+Blockers: none. Dedupe HIT COMPANY~ was non-blocking (prior row is a different, dropped Munich requisition requiring German; this Lisbon posting has no German requirement).
+
+LEARNINGS line: this Recruitee tenant's phone-country selector is a plain listbox with no visible search box, but supports keyboard type-ahead (typing "Italy" while the dropdown is open jumps straight to it) - faster than scrolling a long alphabetical country list.
+
+Confirmation: "Applied. All done! Your application has been successfully submitted!" Saved to confirmations/KIPerformance-2026-09-16.txt.

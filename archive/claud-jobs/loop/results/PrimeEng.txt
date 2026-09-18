@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4460708977/
+Uploaded: Prabhavit_CV_PrimeEng.pdf (tailored English CV, 2 pages, uploaded explicitly, replacing the pre-selected Prabhavit_CV_Metes_HR.pdf left over from the previous application in this session)
+Cover letter: no field in this Easy Apply flow (4 pages: contact info, resume, optional top-choice, review - no additional-questions page). CoverLetter_PrimeEng.pdf/.txt kept on file (Italian, FlowSpace + Clubee proof paragraphs).
+Answers given: phone 351 610 7807 (Italy +39 prefilled). No screening questions on this posting. Follow Prime Engineering Italia unchecked.
+Blockers: none.
+LEARNINGS: none new (dedupe.py --check flagged HIT COMPANY~ on "Prime Engineering Italia" but the actual match was Primer.io, an unrelated company; confirms the brief's "fuzzy hits on a different company never block" rule works as intended).

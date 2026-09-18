@@ -1,0 +1,49 @@
+{
+  "session_id": "e2f29e8f-1847-4c2e-95a2-6ca2366dd9b0",
+  "source_path": "/Users/prab/.claude/projects/-Users-prab/e2f29e8f-1847-4c2e-95a2-6ca2366dd9b0.jsonl",
+  "scope": "user and assistant text; exact repeated messages collapsed; tool traces omitted; mixed-topic sessions filtered",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": "2026-08-25T14:07:48.893Z",
+      "text": "load 804b6284-b8c4-4655-879b-09f57c45f1a4",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-25T14:08:06.026Z",
+      "text": "Can't read that artifact — this session uses `ANTHROPIC_AUTH_TOKEN` auth, not a claude.ai account. Artifacts need the claude.ai login.\n\nOptions:\n1. Run `/login` and pick \"Claude account with subscription\"\n2. Unset `ANTHROPIC_AUTH_TOKEN` first, then login\n\nAfter that, artifacts will work.",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-25T14:09:52.575Z",
+      "text": "Continue my job search session from conversation 804b6284-b8c4-4655-879b-09f57c45f1a4. Read the full transcript at /Users/prab/.claude/projects/-Users-prab/804b6284-b8c4-4655-879b-09f57c45f1a4.jsonl if you need details.\n\nKey state:\n- Job search active. Standing rules in memory (read MEMORY.md + project_job_search.md + feedback_eu_ltr_work_permit.md).\n- Salary calibrated: Italy/remote €45-55k, NL/Northern EU €55-65k, USD $54-70k.\n- EU LTR work permit: does NOT auto-grant work rights outside Italy. NL requires employer-filed TWV. Many companies refuse. Best targets = remote-Italy or EOR.\n- TOPdesk (NL): HR interviewing, sent legal argument email about EU LTR work permit process. Waiting for their response after they said they'd research it.\n- Sweep 11 depleted. 791 rows in applications.csv as of Aug 24.\n- 4 apps submitted Aug 24: Bluprintx, LumiMeds, Block Labs, Remote.com PM.\n- Tailored LaTeX CV pipeline at ~/.proficiently/jobs/ (edit HEADLINE/SUMMARY/SKILLS only, compile with tectonic).\n- Interview cheat sheet for TOPdesk at scratchpad (session-local, may be gone).\n\nStanding HANDOFF rules: never fabricate. Salary per market (above). Never leave cover-letter blank. Always attach tailored CV. No Claude/Anthropic attribution in git. No em-dashes. No \"no-code\" or \"Bubble\" - say \"off a legacy stack\". Phone: +39 351 610 7807. Email: prabhavitg@gmail.com. Location: Venice, Italy. EU LTR permit. Available immediately.\n\nPick up wherever I left off.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-25T14:11:23.906Z",
+      "text": "Bash back. Let me read handoff + recent state.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-25T14:14:04.991Z",
+      "text": "\n\n\n",
+      "repeat_count": 3
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-25T14:14:05.770Z",
+      "text": "\n",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-25T14:24:04.055Z",
+      "text": "API Error: Request rejected (429) · Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day",
+      "repeat_count": 1
+    }
+  ]
+}

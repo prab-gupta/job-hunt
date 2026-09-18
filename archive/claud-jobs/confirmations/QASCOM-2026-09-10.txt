@@ -1,0 +1,8 @@
+LinkedIn Easy Apply confirmation - QASCOM - Full Stack Software Engineer
+URL: https://www.linkedin.com/jobs/view/4442026849/
+Date submitted: 2026-09-10
+
+Confirmation dialog text: "Your application was sent to QASCOM! You can keep track of your application in the "Applied" tab of My Jobs"
+
+Job page after submit shows: "You applied on company site 9/10/2026 - Submitted resume"
+Resume submitted: Prabhavit_CV_QASCOM.pdf

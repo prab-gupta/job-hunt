@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Product Owner role in Lisbon. Travel platforms are a natural fit for how I already work: defining features across mobile, backend, and third-party APIs, then staying with them through integration and go-live.
+
+At FlowSpace, I owned discovery through rollout for three products end to end. I wrote the specs and shipped them: an AI listing pipeline that turned raw broker documents into over 900 structured listing drafts, RAG-backed support agents with confidence scoring and human escalation, and OfficeRnD and Nexudus booking integrations. Each one meant working daily with operators to understand real constraints and with engineers to define what needed building, then prioritising the backlog as those needs changed through testing and delivery.
+
+Amadeus sits at a scale of API-driven, multi-team delivery I want more of, and the Travel Ready Native mission, defining features that hold up across mobile SDKs and backend systems, is the kind of ownership I look for.
+
+I am based in Venice and ready to relocate to Lisbon. I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process, which I am ready to complete.
+
+Regards,
+Prabhavit Gupta

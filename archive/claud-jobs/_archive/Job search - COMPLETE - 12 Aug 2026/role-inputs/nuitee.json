@@ -1,0 +1,8 @@
+{
+  "role": "GTM Engineer",
+  "location": "Remote in EU / hybrid Barcelona",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the GTM Engineer role at Nuitée. The part of the posting that made me apply is that thousands of companies already signed up and started integrating on their own, and nobody has yet built the system that decides which of them matter. That is a plumbing problem before it is a growth problem, and plumbing between APIs, a CRM and a set of automations is what I actually do.",
+  "role_specific": "At FlowSpace I built the lead capture and enrichment pipeline into the CRM, the outbound and GTM automations on top of it, and a scraping and parsing tool that increased the number of listings on the platform. The enrichment work is the closest analogue to what you are describing: take a signal from outside the product, turn it into structured fields on a record, and make something downstream fire off the result without a person in the middle. I build those flows in n8n and by calling APIs directly, and I use Claude and Claude Code daily to build faster rather than to write copy. On the data side I work in Postgres and Supabase and am comfortable with SQL, though I should be straight that I have not used PostHog, Clay or BigQuery specifically.",
+  "closing": "I am at the bottom of your three to five year band and my GTM work has been one part of a broader engineering job rather than the whole of it, so I would rather you know that up front. I would be glad to walk through the FlowSpace lead pipeline in detail."
+}

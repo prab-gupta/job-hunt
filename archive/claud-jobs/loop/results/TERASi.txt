@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467740543/ (offsite apply -> https://careers.terasi.io/jobs/8380688-forward-deployed-engineer)
+ATS: Workable-style custom careers site (careers.terasi.io)
+
+Uploaded: Prabhavit_CV_TERASi.pdf (resume field), CoverLetter_TERASi.pdf (additional files field)
+Answers given: EU/EEA citizen = No (honest, Indian citizen / Italian EU long-term resident); three essay questions answered honestly drawing on FlowSpace (live migration, AI agents, API integrations) and Urlink (client-driven automation, PM role) - see answers/TERASi-2026-09-16.md for full text. No hardware/RF background disclosed honestly in the "why this" answer per material rules (no invented claims).
+Blockers: none. No CAPTCHA, no login wall, no anti-AI attestation.
+LEARNINGS: none new; standard Workable-style single-page form (essay questions + personal info + resume/additional-files upload + consent checkboxes).
+
+Confirmation: "Thanks for applying. We have received your application and we will be reviewing it shortly." -> confirmations/TERASi-2026-09-16.txt
+CSV: applications.csv row appended (SUBMITTED).

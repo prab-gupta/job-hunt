@@ -1,0 +1,7 @@
+UNIQA Group Services - AI Integration Engineer, Agentic AI Platform (Nitra, Slovakia)
+Submitted 2026-09-18 (session date 2026-09-17), via https://www.uniqa-gsc.sk/pracovna-pozicia/?pid=5359617 (Contact Form 7 "Reagovat na pracovnu ponuku")
+Confirmation text shown on page (Slovak): "Dakujeme za vasu spravu. Bola odoslana." (Thank you for your message. It has been sent.)
+Form class after submit: wpcf7-form sent
+Uploaded: Prabhavit_CV_UNIQAIntegration.pdf (your-cv field) and CoverLetter_UNIQAIntegration.pdf (your-cl field)
+Fields: Meno a priezvisko = Prabhavit Gupta, E-mail = prabhavitg@gmail.com, Telefon = +39 351 610 7807, GDPR consent checkbox = checked
+Same portal/employer as the sibling AI Engineer application (pid=5359600, submitted the same session); separate requisition (pid=5359617), separate materials, no account/profile system on this ATS so no reuse-of-login question arose.

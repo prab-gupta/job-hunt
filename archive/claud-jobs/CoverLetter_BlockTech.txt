@@ -1,0 +1,12 @@
+Dear BlockTech team,
+
+I am applying for the Quantitative Developer role in Amsterdam. I should be upfront: I am not a quant researcher, I am a product engineer who builds the infrastructure that takes something from a rough idea to a reliable production system, which is what this role is actually asking for underneath the title.
+
+At FlowSpace I built the AI listing pipeline, a data pipeline that takes unstructured input, a brochure, a website, a spreadsheet, and turns it into over 900 validated production records, with a check for when output needs a human rather than going live blind. I also own the Playwright end-to-end test suite across a Next.js and Laravel platform, so shipping code that keeps working once it is live, not just once in a demo, is the daily job.
+
+The short distance between a good idea and live results is exactly the environment I want to be building infrastructure for next.
+
+Logistics: I hold an Italian EU long-term residence permit. I am not yet authorised to work in the Netherlands and would need an employer-side TWV permit, which I am ready to start alongside relocating. English is fluent, available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

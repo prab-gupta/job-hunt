@@ -1,0 +1,15 @@
+NEEDS YOU — account creation wall, no submission made.
+
+Job: Junior React Front-end Developer, EY, Nicosia, Cyprus (Requisition ID 1729609)
+Posting: https://careers.ey.com/ey/job/Nicosia-Junior-React-Front-end-Developer-1087/1419132333/?feedId=353401&utm_source=LinkedInJobPostings&utm_campaign=j2w_linkedin
+LinkedIn mirror (JD fallback): https://www.linkedin.com/jobs/view/4445134428/
+Real ATS: SAP SuccessFactors — https://career5.successfactors.eu/careers?company=EYHRISPRD1, "Career Opportunities: Sign In"
+
+Flow taken: EY careers page -> rejected non-essential cookies -> clicked "Apply now" -> dropdown showed one option, "Apply Now" (the LinkedIn-apply option was not offered, hidden behind the cookie consent that was declined) -> clicked it -> redirected straight to SuccessFactors Sign In (career5.successfactors.eu/careers?company=EYHRISPRD1). This screen requires either "Already have an account?" (Email Address + Password sign-in) or "Not a registered user yet? Create an account to apply for our career opportunities." No guest/apply-without-account or email-only path exists before any job-specific field is shown.
+
+No account created, per brief guardrails (never create accounts / enter passwords on Prabhavit's behalf).
+
+Browser note: task specified continuing in Chrome tab 550849770 (Claude in Chrome), which was already on the EY job page from a prior cut-off agent. That tab became unresponsive (repeated "page still loading" / script-injection timeouts across ~2 minutes of retries on get_page_text, find, and javascript_tool, while the surrounding multi-agent Chrome session kept spawning unrelated stray tabs) — matches the brief's own note that Claude in Chrome can be down. Switched to the brief's documented fallback, Playwright MCP, opened a fresh page at the same URL, and reached the account wall there. Chrome tab 550849770 was left as-is (still showing the EY JD page, unresponsive to further calls) since I could not confirm its state; the actual blocker evidence above is from the Playwright session, which is left open on the SuccessFactors Sign In page for Prabhavit to review (career5.successfactors.eu/careers?company=EYHRISPRD1, nothing typed in).
+
+Cover letter prepared regardless (for use once Prabhavit creates the account): CoverLetter_EY.txt and CoverLetter_EY.pdf (1 page, 0 em-dashes, matches live JD — Junior React Front-end Developer, Nicosia, Technology Transformation Consulting practice).
+CV ready to upload: Prabhavit_CV_Original_EN.pdf.

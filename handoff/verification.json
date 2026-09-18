@@ -1,0 +1,12 @@
+{
+  "source_files": 5712,
+  "source_files_changed_for_sanitisation": 5,
+  "unexplained_missing_files": [],
+  "open_queue_rows": 131,
+  "to_apply": 13,
+  "needs_action": 118,
+  "conversation_exports": 15,
+  "root_links_checked": true,
+  "credential_pattern_check": "passed",
+  "errors": []
+}

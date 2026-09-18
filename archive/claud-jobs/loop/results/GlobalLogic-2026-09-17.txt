@@ -1,0 +1,25 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4466854163/ (offsite -> https://www.globallogic.com/careers/forward-deployed-ai-product-architect-irc302350-2/?utm_source=LinkedIn&utm_medium=jobboard&utm_campaign=career#apply_now)
+Company: GlobalLogic - Forward-Deployed AI Product Architect IRC302350 - Romania (remote)
+
+Uploaded: Prabhavit_CV_GlobalLogic.pdf (tailored from Prabhavit_CV_EN.tex; verified filename shown on the form). No separate cover letter upload field exists on this form; CoverLetter_GlobalLogic.pdf/.txt were still built per the brief and are ready if the user wants to attach or paste them elsewhere.
+
+Fields filled and verified:
+- First Name / Last Name: Prabhavit / Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Gender: Do not want to disclose
+- Country of Residence: Italy (this field is a searchable custom dropdown, not a native select; had to click it open and type "Italy" to select, a plain form_input value set did not stick)
+- City: Venice
+- How did you hear about this job: LinkedIn
+- LinkedIn Profile URL: https://www.linkedin.com/in/prabhavit/
+- "Considered for future open positions" checkbox: left unticked (standing rule, optional talent-pool consent)
+
+BLOCKER (user-only): a reCAPTCHA "I'm not a robot" checkbox sits directly above the Submit button. Per policy this agent must never solve or bypass CAPTCHA/bot-detection challenges. The form was left fully filled and unsubmitted on tab 550851469. The user needs to tick the box (and complete any follow-up image challenge) then click Submit.
+
+Dedupe: NEW.
+
+Fit note: JD asks 15+ years total and 5+ delivering high-scale products; Prabhavit has 3. Per the standing FDE-ALL rule this was applied anyway with an honest letter (not attachable here) that names the gap and frames the UltraStrategy CV-parsing pipeline and FlowSpace legacy-system migration/AI agents as product-architecture evidence.
+
+No new LEARNINGS line: GlobalLogic's own careers site uses a plain custom form with a visible reCAPTCHA checkbox before submit, which is a standard/expected blocker type already covered by existing policy, not a new ATS trap worth recording.

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear ALTEN Polska team,
+
+I am writing to apply for the Forward Deployed AI Engineer role. I want to be upfront: I have three years of professional experience, shorter than the six to seven years asked for, but dense and hands on, across eight European companies, spent close to both the technology and the customer, which is exactly how this role is described.
+
+At FlowSpace, a live workspace marketplace, I took over the platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the data model entity by entity and driving the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I built and own an AI listing bot that takes a workspace brochure in any format, PDF, website, photo or spreadsheet, and drafts a full listing with a human in the loop, 900 plus listings drafted so far. I also built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, alongside the OfficeRnD and Nexudus booking integrations and the CRM and GTM automations around them.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. Affinda and the Claude API handled the parsing and generation, and n8n and Eden AI built the extraction tool itself.
+
+I am comfortable moving between architecture discussions, hands on development and stakeholder conversations, and I use Claude and Claude Code daily as part of how I build. I hold Italian EU long-term resident status. I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process, and open to the Gdansk hybrid option as well as remote.
+
+I would welcome the opportunity to discuss how I could contribute to your team.
+
+Regards,
+Prabhavit Gupta

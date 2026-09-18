@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4445892220/
+Company: Amaris Consulting
+Role: Embedded Software Engineer | HMI | Automotive
+
+Uploaded: Prabhavit_CV_Amaris_Consulting.pdf (tailored, replacing the pre-selected Prabhavit_CV_NewCo_AI.pdf in LinkedIn's resume library).
+Cover letter: CoverLetter_Amaris_Consulting.pdf/.txt written in Italian, kept on file only, no letter field on this Easy Apply flow.
+Answers given: "Quanti anni di esperienza di lavoro hai con Embedded Devices?" = 0; "Do you have, at least, 2 years of experience in the automotive sector?" = No. Both honest per the row's instruction (no embedded C/HMI/automotive experience on file). Mobile phone filled 351 610 7807 under Italy (+39). "Mark as top choice" left unchecked.
+Blockers: none.
+Confirmation: "Your application was sent to Amaris Consulting!" — confirmations/Amaris-Consulting-2026-09-16.png and .txt.
+LEARNINGS: nothing new broke.

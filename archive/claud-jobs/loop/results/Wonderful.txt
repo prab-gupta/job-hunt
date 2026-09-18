@@ -1,0 +1,9 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4456366999/
+ATS: Ashby (https://jobs.ashbyhq.com/wonderful/3080203f-602a-409d-a151-98fa3c798dc7/application)
+Uploaded: Prabhavit_CV_Wonderful.pdf (tailored from Prabhavit_CV_EN.tex, reorder/delete only, 2 pages, tectonic)
+Cover letter: CoverLetter_Wonderful.txt/.pdf built but not used, no letter field on this Ashby form
+Answers given: Name/Email/Phone typed, resume uploaded, LinkedIn URL, local language (Italian) = Basic, English = Fluent, on-site with clients = Yes, visa sponsorship needed = No, client-facing experience = Yes
+Blockers: Ashby rejected the submit with "We've previously reviewed your application for this position, and for the same role we believe it's best to allow a one-year gap before reconsidering." No entry for Wonderful existed in applications.csv before this row, so the cooldown must trace to a prior out-of-band submission on this email or a shared Ashby posting id across the other cities in the task (Milan/Berlin/Vienna/Prague/Brussels/Amsterdam). Not resolvable client-side; not a user-actionable blocker (no CAPTCHA/account wall), so this is a KILL rather than NEEDS YOU.
+Confirmation: exact Ashby block message saved to confirmations/Wonderful-2026-09-16.txt (PNG screenshot save not available in Chrome per brief).
+LEARNINGS: Ashby enforces a one-year reapplication cooldown per applicant email on some employer configs, surfaced only after the full form is filled and Submit is clicked (no earlier warning). Worth noting in the loop's Ashby guide for future FDE-role batches: check for this cooldown message post-submit before logging SUBMITTED.

@@ -1,0 +1,15 @@
+TO: info@wavelop.com
+SUBJECT: Full-stack + AI automation engineer, Veneto
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Nicola e team,
+
+Building custom automation and AI tools for Triveneto's manufacturing SMEs is the same work I ship day to day. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy, happy to meet in person in Treviso. Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

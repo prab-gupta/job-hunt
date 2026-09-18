@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4457622982/
+Uploaded: Prabhavit_CV_Openjobmetis.pdf (tailored, re-uploaded explicitly after the resume picker defaulted to a stale prior CV).
+Letter: CoverLetter_Openjobmetis.pdf/.txt (Italian, voi/formal register) prepared and saved; no cover-letter field existed on this Easy Apply form so it was not attached.
+Answers given: email prabhavitg@gmail.com, phone +39 3516107807, resume as above, "mark as top choice" left unchecked, "anni di esperienza" with Python=2, Java=0, PHP=2 (honest estimates, no exact fact on file, grounded in real UltraStrategy/Get2Germany/FlowSpace Python and Laravel-PHP work, Java never used), "Follow Openjobmetis SpA" left at its default checked state.
+Blockers: none.
+Confirmation: "Application submitted" banner shown on the job page after Submit application. See confirmations/Openjobmetis-2026-09-16.png and .txt, answers/openjobmetis-2026-09-16.md.
+No new LEARNINGS entry needed (resume-picker default and top-choice-page no-crash both match already-documented behaviour).

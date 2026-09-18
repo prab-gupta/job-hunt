@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4451398800/
+Apply routes to: https://www.gravity9.com/apply/?post=26245 (custom WordPress/Elementor form)
+Uploaded: Prabhavit_CV_Gravity9.pdf (CV/resume field only, no cover letter field on this form)
+Answers: Prabhavit Gupta, prabhavitg@gmail.com, +48 351 610 7807; open to talent-pool opportunity=Yes, Poland residence=No, needs Poland visa support=Yes; required consent ticked, optional future-recruitment consent left unticked.
+Confirmation: "All done! Your application has been successfully submitted!" (redirected to gravity9.com/applied/) - confirmations/Gravity9-2026-09-17.png + .txt
+Blockers: none this session. Prior Chrome blocker was a frozen tab right after Send with no confirmation ever observed; task instructed to check for a fresh-vs-submitted state and resubmit if fresh. Form showed fresh, so resubmitted once as instructed. Cannot confirm whether the frozen Chrome attempt also submitted server-side; possible duplicate application record at gravity9, not correctable from this session.
+LEARNINGS: none new beyond what NEEDS_YOU.md row 29 already documented (Chrome-freeze-after-Send pattern); this session's resubmit via Playwright completed cleanly with no freeze.

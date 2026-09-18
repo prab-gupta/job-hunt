@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4463806810/ (Apply redirects off-LinkedIn to https://www.jackandjill.ai/jobs/engineer/full-stack-engineer-equity-at-livia-6ab6a219-4e5f-4502-83a4-fc0ecfdd5aff)
+Company: Livia (Milan proptech, condominium administration AI platform), recruited via Jack & Jill (jackandjill.ai). Role: Full-Stack Engineer (+ Equity), first dedicated engineering hire. Fit 90.
+
+Dedupe: python3 loop/dedupe.py --check "Livia" "https://www.linkedin.com/jobs/view/4463806810/" returned NEW. grep -i "livia\|jack.*jill" applications.csv found one prior row: 2026-09-04, "Pharosyn / Jack & Jill AI", Founding AI Engineer, status DEAD (removed, London in-office, Russell Group requirement). Different company (Pharosyn, not Livia) and DEAD status - does not block per the brief's dedupe rules.
+
+Hard gates re-checked on the live JD (LinkedIn jobs-guest API text, matches the jackandjill.ai posting): no explicit years-of-experience number ("solid full-stack experience with TypeScript and React"); title is "Full-Stack Engineer", not Senior/Staff/Lead/Principal/Manager/CTO; no MSc/PhD requirement; JD is in English; Italian is "highly beneficial... for navigating specific legal and administrative domain concepts", not stated as mandatory or a fluency requirement; core stack is Next.js + TypeScript (claimable); location is Milan, Italy (EU, remote flexibility mentioned). No anti-AI disclaimer anywhere in the JD (grepped for "AI-generated"/"AI assistance"/"without any AI"/"no AI" - none present; the posting is itself built around AI recruiting, framed positively). All hard gates pass.
+
+BLOCKER: this is not LinkedIn Easy Apply. The LinkedIn posting shows "Apply" with an external-link icon and "Responses managed off LinkedIn". Clicking it opens jackandjill.ai's job page, where the only application entry point is a "Talk to Jack" button. That button leads straight to a Sign up / Log in wall (app.jackandjill.ai/sign-in, options "Sign up with LinkedIn" or "Sign up with email") - there is no form to fill without creating a Jack & Jill account. Per the platform's own copy, after signup the next step is a conversation with Jack ("an AI agent for job searching and career coaching... gets to know you on a quick call") and ultimately Jill ("an AI Recruiter") deciding whether to introduce the candidate to Livia. This is a double user-only blocker per the task brief: (1) an account-creation wall, and (2) a chat/voice AI interview process - both explicitly called out as NEEDS YOU, no account creation.
+
+No account was created. No CV was tailored and no cover letter was drafted (the tailoring step was never reached - the order-of-work gate for a working apply path failed before any drafting). Nothing was submitted.
+
+Tabs left open in the Claude in Chrome tab group (both spawned by this task, per instructions left open because status is NEEDS YOU):
+- tabId 550849869 - the LinkedIn job posting (https://www.linkedin.com/jobs/view/4463806810/)
+- tabId 550849870 - the Jack & Jill sign-up/sign-in page reached via the Apply -> Talk to Jack flow (https://app.jackandjill.ai/sign-in?...&company_name=Livia)
+
+Next step for Prabhavit: sign up at jackandjill.ai (LinkedIn OAuth or email) himself, then have his own conversation with Jack to be considered for the Livia introduction.
+
+LEARNINGS: new ATS-adjacent pattern - "Jack & Jill" (jackandjill.ai) postings on LinkedIn always show "Apply" (not Easy Apply, "Responses managed off LinkedIn") and the Apply click always lands on a jackandjill.ai job page whose only CTA is "Talk to Jack", which is an account-signup + AI-conversation wall, not a fillable form. Any future Jack & Jill / jackandjill.ai posting should be treated as NEEDS YOU at the apply-check step (order-of-work step 2) without proceeding to CV/letter drafting, regardless of how good the JD fit looks.

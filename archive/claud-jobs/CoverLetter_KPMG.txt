@@ -1,0 +1,14 @@
+Gentile team KPMG Advisory,
+
+mi candido per la posizione di Junior ServiceNow Developer - Implementation all'interno del Team Enterprise Platform. Non ho esperienza diretta con ServiceNow, ma tre anni di esperienza professionale nella costruzione di flussi di lavoro automatizzati e integrazioni API, e sono pronto a certificarmi sulla piattaforma.
+
+Per FlowSpace ho preso in carico un marketplace già attivo e ne ho automatizzato la migrazione dei dati da uno stack legacy a Next.js e Laravel: ho mappato la struttura esistente su quella nuova, scelto per ogni entità il percorso di migrazione più adatto tra endpoint API o esportazioni CSV, e guidato il passaggio mantenendo il prodotto sempre in produzione, un lavoro di raccolta requisiti e traduzione in flussi operativi vicino a quanto descritto nell'annuncio. Nello stesso ruolo ho integrato le API di OfficeRnD e Nexudus per le prenotazioni automatizzate e costruito automazioni CRM per la cattura e l'instradamento dei lead, con JavaScript/TypeScript come linguaggio principale.
+
+Per Get2Germany ho integrato le API di Google e costruito strumenti di automazione basati su AI per trovare corsi, stage e offerte di lavoro, oltre a ottimizzare il database, orchestrando i flussi con n8n.
+
+Ho un'ottima conoscenza dell'inglese e sono disponibile per trasferte in Italia e all'estero in base alle esigenze progettuali. Vivo a Venezia, sono cittadino indiano con permesso di soggiorno UE di lungo periodo e sono autorizzato a lavorare in Italia senza necessità di sponsorizzazione.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

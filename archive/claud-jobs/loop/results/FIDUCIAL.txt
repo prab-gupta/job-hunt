@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4441997235/ (real ATS: https://jobs.ashbyhq.com/Fiducial/6a6e8f3b-632a-4197-84f0-82a8a0c113aa/application, Delft, Netherlands)
+Uploaded: Prabhavit_CV_FIDUCIAL.pdf (resume). No cover-letter upload field on this Ashby form; CoverLetter_FIDUCIAL.pdf/.txt built and kept on file.
+Answers given: Full Name Prabhavit Gupta, Email prabhavitg@gmail.com, phone +39 351 610 7807, office-comfort Yes, sponsorship-needed Yes, earliest start 09/27/2026, EU/UK travel Yes, 1-2 week/month deployment Yes.
+Fit/gate notes: JD is UAV/drone hardware (Ardupilot/Betaflight, Linux terminal, no software/AI overlap) and states "WE CANNOT PROVIDE VISA SPONSORSHIP". Per USER RULE (FDE blanket-apply), neither the stack mismatch nor the no-sponsorship line is a kill; applied honestly, letter states upfront that he has no UAV hardware background. No Dutch language requirement found, not a language kill.
+Confirmation: "Your application was successfully submitted. We'll contact you if there are next steps." Saved confirmations/FIDUCIAL-2026-09-17.txt.
+Logged: applications.csv SUBMITTED row (2026-09-17), answers/fiducial-2026-09-17.md.

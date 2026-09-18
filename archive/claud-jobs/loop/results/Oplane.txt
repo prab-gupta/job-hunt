@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467080467/ -> https://www.oplane.com/careers/forward-deployed-engineer -> https://www.oplane.com/careers/apply?position=Forward%20Deployed%20Engineer
+Uploaded: Prabhavit_CV_Oplane.pdf (Resume/CV field, confirmed attached).
+Answers given: Full Name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, LinkedIn https://www.linkedin.com/in/prabhavit/, "Tell us about yourself" answered with a self-intro and the JD's specific question about a deployment that went badly (honest FlowSpace migration story: an entity's API-endpoint path failed under load mid-cutover, switched to CSV export/reconciliation, verified counts, resumed with no data lost and the product staying live), plus Urlink aside and the Sweden work-authorisation transparency line.
+Blockers: none. No account wall, no CAPTCHA. Cookie banner: Rejected non-essential cookies before submitting.
+Confirmation: page showed "Application Submitted! Thank you for your interest in joining Oplane. We'll review your application and get back to you soon." Re-checked the page after Submit.
+LEARNINGS: none new. JD explicitly said not to apply via LinkedIn messages and to use the company's own form; followed that instruction exactly.

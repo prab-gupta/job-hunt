@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Full-Stack Engineer role on the Bioma team.
+
+At FlowSpace, I own full-stack development end to end. I helped lead the migration of a live marketplace platform off its legacy stack onto Next.js and Laravel, working through the data model, the migration plan per entity, and the cutover while the product stayed live, and I have shipped full-stack features across that platform since, growing it from 2,000 to 4,500 plus users. I built AI agents that answer customer queries against live data and escalate to a human when confidence is low, and I use Claude Code and other AI assisted development tools daily to move faster through implementation and debugging, close to how this role expects the stack to be used. I also integrated third party APIs, OfficeRnD and Nexudus for bookings, and built CRM and lead capture automations, the kind of business logic and integration work this role covers.
+
+What draws me to Bioma is the chance to own that same full stack surface, architecture through deployment, on a product with real users and a fast measure and iterate loop, rather than a narrow slice of it.
+
+I am based in Venice, Italy, hold an Italian EU long term residence permit, and am ready to relocate to Riga or Vilnius. I am not currently authorised to work in Latvia and would need the employer side permit or sponsorship process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

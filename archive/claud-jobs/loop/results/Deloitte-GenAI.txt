@@ -1,0 +1,65 @@
+STATUS: SUBMITTED
+
+LinkedIn posting: https://www.linkedin.com/jobs/view/4434980443/
+ATS (Deloitte Avature, requisition 10095): https://deloittecm.avature.net/en_US/careers/JobDetail/10095?source=LinkedIn
+Apply flow entry point: https://deloittecm.avature.net/en_US/careers/ApplicationMethods?jobId=10095&source=LinkedIn
+Success page: https://deloittecm.avature.net/en_US/careers/Success?jobId=10095&source=LinkedIn
+
+LI-PICK row (Milan/Rome, hybrid, Smart Solutions Lab, "Junior - GenAI & Hyper-automation Developer").
+JD is Italian; applied regardless of title level per the LI-PICK rule. JD saved to
+answers/deloitte-genai-jd-2026-09-11.txt. No anti-AI disclaimer found. Posting confirmed open
+(apply-button count 1, live Apply control present).
+
+Dedupe: HIT COMPANY~ (fuzzy company match). Both matching rows in applications.csv are 2026-08-06
+Deloitte Milan/Rome, requisition 4446033941 / 4446055368, title "Experienced, Agentic GenAI and
+Hyper-Automation", status LEAD (never applied). Different requisition, different level from this Junior
+posting (LinkedIn 4434980443 / req 10095). LEAD status does not block per brief. Proceeded.
+
+Uploaded: Prabhavit_CV_Deloitte.pdf (tailored from Prabhavit_CV_EN.tex, tectonic-compiled, 2 pages).
+CoverLetter_Deloitte.pdf / CoverLetter_Deloitte.txt were built and ready (Italian, "voi", no em-dash,
+UltraStrategy + Get2Germany lead proof, FlowSpace second proof) but this Avature wizard has no cover
+letter upload or paste field at any step, so the letter was never attached - not a gap, the form simply
+does not ask for one.
+
+RETRY: the tab left open by a previous pass had died (`chrome-error://chromewebdata/`, "Confirm Form
+Resubmission" / ERR_CACHE_MISS - session state lost), so the wizard was redone from scratch via the
+ApplicationMethods URL. Steps 1-2 repeated the same honest answers as the first pass (full detail in
+answers/deloitte-genai-2026-09-11.md): Gender/Legally protected status = prefer not to disclose, DOB
+21-02-2001, phone +39 351 610 7807, Nationality India, Citizenship NON EU, Residence Permit = Other - Not
+in the list, Willing to relocate Yes -> Milano, privacy consent ticked, talent pool declined. Education:
+Bachelor Degree, Obtained, Universita Ca' Foscari di Venezia, Program = Economics, Finance, Accounting,
+dates auto-parsed 2020-10 to 2024-06.
+
+BLOCKER RESOLVED: the required "Current employer" closed autocomplete had no entry for FlowSpace, but
+searching "Self employed" (plain, no hyphen) surfaced a clean generic option "Self employed" (plus an
+all-caps duplicate "SELF EMPLOYED") alongside odd company-name matches - selected the plain "Self
+employed" entry, an honest description of freelance FlowSpace work per the brief's own framing. Did not
+need the remaining fallback candidates (Libero professionista, Lavoratore autonomo, Independent,
+Consultant, Other, Altro, N/A, Flowspace variants, SmartUp, Get2Germany). Employer location = Other
+(FlowSpace HQ is UK; only Greece/Italy/Malta/Other offered). Current job = Yes, start date 2024-03.
+
+Final page (still inside the "Compliance" step per the stepper, effectively combining whatever the
+wizard's steps 4-5 were - no separate salary/language/years-of-experience fields exist anywhere in this
+ATS despite the "step 3 of 5" label): non-competition agreement = No, relatives employed by Deloitte =
+No, relatives in PA directorship = No, submit-confirmation checkbox ticked. Clicked Submit; landed on the
+Success page: "Thank you for applying! You have successfully applied to: Junior - GenAI &
+Hyper-automation Developer". Skipped the optional post-submit "Create an account" panel (password
+fields) - not required for the application and outside this agent's authority to fill without explicit
+user consent.
+
+Logged: confirmations/Deloitte-GenAI-2026-09-11-before.png (compliance page pre-submit),
+confirmations/Deloitte-GenAI-2026-09-11.png (Success page), confirmations/Deloitte-GenAI-2026-09-11.txt.
+applications.csv row (2026-09-11, Deloitte, Junior - GenAI & Hyper-automation Developer, Avature)
+updated in place from NEEDS YOU to SUBMITTED, 10 fields. No NEEDS_YOU.md entry existed for req 10095.
+
+LEARNINGS (new ATS trap, still true from the first pass): the CV file input on Avature's first step
+accepted the file via Claude in Chrome (input.files showed the correct PDF) but the surrounding
+React/jQuery UI never reacted to it even after manually dispatched native `change`/`input` events and a
+jQuery `.trigger('change')` - a genuine frozen-upload case. Playwright's real file-chooser-based upload
+worked immediately both times. Separately: an open tab in a shared Playwright context can silently die
+(ERR_CACHE_MISS on reload) between agent runs if another concurrent process navigates it away and back;
+always re-navigate to the flow's entry URL fresh rather than trusting a resumed tab's live state, and
+re-verify every field once the page reloads since parsed-CV autofill (name/email) only fires on a fresh
+resume upload, not on a bare Register-page reload.
+
+Never deleted or overwrote any file not created in this task.

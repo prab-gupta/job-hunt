@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464611808/ (Apply routes to https://jobs.ashbyhq.com/aisle/066b852c-0b46-4225-beed-e943e7197650/application)
+Uploaded: Prabhavit_CV_AISLE.pdf (2 pages, triggered Ashby's autofill for Name/Email)
+Answers given: Location Venice, Venice, Italy; LinkedIn Profile URL; Additional Information free text (honest disclosure of no security clearance / no vulnerability-management background, FlowSpace + Get2Germany evidence, Netherlands work-authorisation transparency line); How did you hear about us = LinkedIn; Do you currently hold an active security clearance = No (honest)
+Blockers: none. Native Ashby application page (not a cross-origin embed), reachable and fillable from Chrome.
+LEARNINGS: this JD requires an active national security clearance as a hard gate, which Prabhavit does not meet; applied anyway per USER RULE 2026-09-16 (kill only on closed/duplicate/language) with an honest No on the clearance toggle. Confirmation text: "Your application was successfully submitted. We'll contact you if there are next steps." Saved to confirmations/AISLE-2026-09-16.txt.

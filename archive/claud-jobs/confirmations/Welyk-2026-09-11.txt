@@ -1,0 +1,11 @@
+Welyk (Irnerius) - AI Engineer | Irnerius - submitted 2026-09-11
+
+Confirmation page (recruiting.welyk.tech, Teamtailor-powered ATS):
+URL: https://recruiting.welyk.tech/jobs/8284991/applications/63fc09ab-9300-41ed-b185-a0b82106ef69/thanks
+
+Success text on page:
+"Grazie per la tua candidatura
+Abbiamo ricevuto la tua candidatura e a breve la esamineremo.
+Hai qualcuno che possa farti da referenza? Facci sapere."
+
+Post-submit optional survey "Come hai trovato questo ruolo?" answered: Linkedin (per standing "how did you hear" rule), then "Invia risposte" clicked, which routed to the thanks/confirmation page above.

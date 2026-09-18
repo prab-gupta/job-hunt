@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Sesamy Team,
+
+I am applying for the Integration & Technical Delivery Specialist role in Stockholm. I am a full-stack and AI developer with three years of production experience across eight European companies, and this role, sitting between a partner's API questions and an engineering roadmap, is close to work I already do.
+
+At Get2Germany in Berlin, I integrated Google APIs into the platform, kept the tracking and data layer accurate, and built AI tools that surface courses, internships and jobs, so I am used to owning an integration end to end and keeping it correct as the platform changes.
+
+At FlowSpace, a coworking marketplace I have led as developer since 2024, I shipped the OfficeRnD and Nexudus API integrations that power automated bookings, plus CRM integration and GTM automations that keep leads consolidated across systems. I use the Claude API and n8n daily to move faster through delivery and documentation work, the same AI-driven efficiency this role asks for.
+
+At Clubee I integrated a partner API across the frontend and ran unit testing and QA on new features, so I know the discipline of keeping an integration and its documentation both working and accurate.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Sweden and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Kind regards,
+Prabhavit Gupta

@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Software Engineer, Product role at Monumental.
+
+At FlowSpace I worked as a product engineer end to end: talking to the people using what I built, shipping it, and iterating fast. I built full-stack features in TypeScript and React on Next.js, plus a Laravel backend on Supabase and PostgreSQL, and shipped OfficeRnD and Nexudus integrations that operators use daily for bookings. I also built and own an AI listing pipeline that has drafted 900+ workspace listings from raw broker documents, taking it from prototype to a tool the team relies on. I use coding agents daily to move faster while staying accountable for what I ship.
+
+Monumental's product engineering model, owning a problem from a colleague through to a shipped tool, is exactly how I already work, and doing it for software that runs actual robots and buildings is the kind of concrete, high-stakes problem I want next.
+
+I am based in Venice and ready to relocate to Amsterdam. I hold Italian EU long-term residence, not Dutch work authorisation, and would need the employer-side permit process (TWV or highly skilled migrant), which I am ready to complete.
+
+Regards,
+Prabhavit Gupta

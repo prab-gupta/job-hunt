@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to express my interest in the Software Engineer, LLM & Automation role at Basis Research Institute. Your mission to build intelligence and advance problem-solving through AI research is compelling, and the operational automation work described in this role maps directly to what I have been building in production for the past two years.
+
+At FlowSpace, I built the company's core AI data pipeline: an agentic system that ingests documents in any format (PDF, web page, photo, spreadsheet), runs multi-stage LLM extraction with tool-use orchestration across Claude and OpenAI, validates outputs with confidence scoring and automated evals, and pushes clean structured data to the backend after human-in-the-loop review. This system handles hundreds of sources with different formats and has been running reliably in production for over a year. I also built RAG-backed support agents with retrieval quality monitoring and escalation logic, and integrated third-party APIs including booking systems, CRMs, and payment flows, dealing daily with rate limits, OAuth, error retries, and complex data orchestration.
+
+The technical stack you describe, including Python, structured generation with JSON schemas and function calling, cloud deployment, API orchestration, and LLM pipeline architecture, is what I work with every day. I am comfortable with iterative, experimental development and translating automation opportunities into production systems.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit and am available immediately for contract or part-time work. I am open to remote collaboration and occasional travel.
+
+Regards,
+Prabhavit Gupta

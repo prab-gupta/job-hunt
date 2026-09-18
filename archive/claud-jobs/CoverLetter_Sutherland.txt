@@ -1,0 +1,12 @@
+Dear Sutherland hiring team,
+
+I am applying for the Forward Deployed Engineer role in Bucharest. Over the past three years I have configured and delivered AI-driven tools directly for end users, owning solutions from the first requirement through to something running in front of real customers.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform using Affinda and the Claude API: a user uploads a CV, the pipeline extracts the data and scores how relevant that candidate is for specific role types, the result is shown in the frontend, and a standardised Ultra CV is then generated. The underlying parsing tool was built with n8n and Eden AI, which meant working closely with document ingestion, prompt tuning and checking outputs against expected results.
+
+At FlowSpace, I built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, plus an AI listing bot that drafts full listings from any brochure format with a human in the loop, over 900 produced so far. I also ran unit testing and QA on new features earlier in my career at Clubee, so validating configuration against expected behaviour before it reaches a customer is a habit, not a new skill.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Romania and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Bucharest for a hybrid role and start soon after an offer.
+
+Regards,
+Prabhavit Gupta

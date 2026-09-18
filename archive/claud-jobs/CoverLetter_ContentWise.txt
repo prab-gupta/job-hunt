@@ -1,0 +1,14 @@
+Dear ContentWise hiring team,
+
+I am applying for the DevOps Engineer role in Milan. I have three years of experience building automation and API integrations across several European companies, and I am drawn to your work on automation, orchestration and installation procedures for AWS, GCP and on premises infrastructure.
+
+At FlowSpace, a live workspace marketplace, I took over and automated the data migration off a legacy stack onto Next.js and Laravel: mapping the old structure to the new one, choosing the migration path per entity through API endpoints or CSV exports, and driving the cutover while the product stayed live, taking the platform from 2,000 to 4,500+ users. I also lead platform operations there, including CI workflows around Docker, a Supabase/Postgres database, and OfficeRnD and Nexudus API integrations for automated bookings.
+
+At Get2Germany, I integrated Google APIs and built automation tools with n8n that search for courses, internships and jobs, and optimised the database. At UltraStrategy, I built a CV parsing pipeline using n8n, Affinda and the Claude API that extracts CV data, scores candidate relevance and generates a standardised profile.
+
+I want to be direct: my automation experience sits at the application level, not cloud administration. I have not administered AWS or GCP infrastructure or run Kubernetes in production. What I bring is real automation and API engineering practice, and I want to grow that into infrastructure automation, learning quickly across new stacks.
+
+I am based in Venice, authorised to work in Italy without sponsorship, conversational in Italian and professional level in English, and available for the Milan hybrid role immediately.
+
+Regards,
+Prabhavit Gupta

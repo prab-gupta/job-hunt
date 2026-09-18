@@ -1,0 +1,34 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464468514/
+Company: Gecal Informatica Srl
+Role: Full Stack Developer Node.js/React (Turin, Piedmont, Italy, hybrid)
+Applied via: LinkedIn Easy Apply
+
+Uploaded: resume "Prabhavit_CV-.pdf" from LinkedIn's library (pre-selected by default,
+matches ROOT/Prabhavit_CV_Original_EN.pdf per brief).
+
+Answers given:
+- Contact info: email prabhavitg@gmail.com, phone +39 351 610 7807.
+- Additional question "Qual è il tuo grado di conoscenza della lingua Italiano?" answered
+  Parlato / Conversational (honest: beginner-and-improving, not None, not Professional/Native).
+- Salary not asked on the form (JD states RAL 32-33K, below standard band, not a form field).
+- Unticked "Follow Gecal Informatica Srl to stay up to date with their page".
+- No cover letter field existed in this Easy Apply flow (4 pages: contact, resume, one
+  question, review) — ROOT/CoverLetter_Gecal.txt written and kept on file, not attachable.
+
+Blockers: none. No CAPTCHA, no account creation, no anti-AI attestation.
+
+Confirmation seen: "Your application was sent to Gecal Informatica Srl! You can keep track
+of your application in the "Applied" tab of My Jobs" plus "Application status: Application
+submitted" on the job page.
+
+Gates re-checked live (JD is in Italian but only requires English B2, no Italian-fluency
+clause): Associate level, no year minimum, no MSc/PhD, core stack Node.js/React/SQL claimable
+(Java/Kubernetes listed only as nice-to-have), Turin EU hybrid. No hard gate hit.
+
+LEARNINGS: none new — standard LinkedIn Easy Apply resume-library trap held true (correct file
+was pre-selected this time, but always verify). One-off Italian-proficiency dropdown question
+answered via the Conversational/Parlato bucket as the closest honest match for "beginner and
+improving" when only None/Conversational/Professional/Native options exist.
+
+Logged: applications.csv row, confirmations/Gecal-2026-09-09.txt, answers/gecal-2026-09-09.md.

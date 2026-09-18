@@ -1,0 +1,23 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463902015/
+
+Uploaded: Prabhavit_CV_Esprimo.pdf (explicitly via the "Upload resume" control; verified checked/selected on the review page).
+Cover letter: CoverLetter_Esprimo.txt/.tex/.pdf built (Italian, plural "voi", no "Lei", 263 words, 0 em-dashes) but this LinkedIn Easy Apply flow had no cover-letter step (5 pages: contact info, resume, optional top-choice, additional questions, review) - kept on file for reference/reuse.
+
+Answers given (page 4, "Domande aggiuntive"):
+- Qual'è la tua aspettativa economica (RAL, netto/mese oppure tariffa giornaliera se p.iva)? -> "35000" (numeric-only field; an initial "RAL 34-36k" was rejected as "Invalid input", same trap as the F2Informatica years-field earlier today)
+Contact info: email prabhavitg@gmail.com (pre-filled), phone country code Italy (+39) pre-selected, phone +39 351 610 7807 typed in.
+Unticked the default-checked "Follow Esprimo S.r.l." box (non-essential). Left "Mark job as a top choice" unchecked (optional).
+
+Blockers: none.
+
+Success text (post-submit "Next best action" dialog): "Your application was sent to Esprimo S.r.l.! You can keep track of your application in the "Applied" tab of My Jobs"
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Esprimo" <url> -> NEW; grep -i esprimo applications.csv had no prior rows before this task).
+Milan, Associate level, on-site, 34 applicants at time of apply, 2-4 years experience required (of which >=1 year AI) - Prabhavit's 3 years fit within range, degree requirement satisfied via the JD's own "Laurea STEM o esperienza equivalente" equivalence clause.
+
+CV and letter role priority followed the task instruction: UltraStrategy CV-parsing pipeline (Affinda + Claude API) paired with FlowSpace's AI support agents (framed as the RAG-agent lead theme - retrieval over live platform data with confidence-based escalation) as the lead evidence, Get2Germany (Google APIs, AI automation tools) as the second/supporting role.
+
+Files: Prabhavit_CV_Esprimo.tex/.pdf, CoverLetter_Esprimo.txt/.tex/.pdf, confirmations/Esprimo-2026-09-11.txt, confirmations/Esprimo-2026-09-11.png (post-submit), confirmations/Esprimo-2026-09-11-before.png (pre-submit review page), answers/esprimo-2026-09-11.md, applications.csv row (SUBMITTED).
+
+LEARNINGS: LinkedIn's short free-text fields with a character-count widget (seen twice today: F2Informatica's "years with genAI/LLM" and this salary-expectation field) silently reject any non-digit character with "Invalid input" that clears only after blur/retype as a pure number - never trust a range, unit suffix ("k"), or dash in these fields; retype as digits-only on the first "Invalid input" sighting rather than debugging further.

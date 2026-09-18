@@ -1,0 +1,9 @@
+STATUS: KILLED
+URL: https://fr.linkedin.com/jobs/view/forward-deployed-engineer-at-ppt-consulting-4466807809
+Job id: 4466807809
+
+Reason: LinkedIn guest API fetch of this posting shows 0 matches for "apply-button" and the top-card CTA container is empty (no Apply / Easy Apply control rendered at all, confirmed by dumping the raw HTML, not a grep/truncation artefact). Per the brief's cheap-check rule, 0 apply-button = posting not accepting applications = CLOSED, stop.
+
+Anomaly noted: the fetched description body for this "PPT Consulting" posting is a verbatim duplicate of the Sia FDE posting's company/job description text (same French paragraphs word for word). This looks like a broken or mirrored LinkedIn listing rather than a genuinely live PPT Consulting posting. Flagging in case the loop wants to re-check this listing later; no materials were drafted, nothing was opened in the browser past the guest-API fetch.
+
+No dedupe run (never reached apply stage). Nothing logged to answers/. applications.csv row appended with status KILLED.

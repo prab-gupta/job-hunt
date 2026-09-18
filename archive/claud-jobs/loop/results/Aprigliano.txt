@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465075816/
+
+Uploaded: Prabhavit_CV_Aprigliano.pdf (explicitly via the "Upload resume" control; verified checked/selected in the single-page form, replacing the pre-selected default which was the just-uploaded Prabhavit_CV_F2Informatica.pdf from the prior lead - the "last-used CV" trap confirmed again on a second, different tenant).
+Cover letter: CoverLetter_Aprigliano.txt/.tex/.pdf built (Italian, plural "voi", no "Lei", 289 words, 0 em-dashes) but this LinkedIn Easy Apply flow was a single page (contact info + resume + optional top-choice + submit, no Review step and no cover-letter box) - kept on file for reference/reuse.
+
+Contact info pre-filled correctly and verified: email prabhavitg@gmail.com, phone country code Italy (+39), phone +39 351 610 7807.
+Unticked the default-checked "Follow Aprigliano Law Firm" box (non-essential). Left "Mark job as a top choice" unchecked (optional).
+
+Blockers: none.
+
+Success text (post-submit "Next best action" dialog): "Your application was sent to Aprigliano Law Firm! You can keep track of your application in the "Applied" tab of My Jobs"
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Aprigliano" <url> -> NEW; grep -i aprigliano applications.csv had no prior rows before this task).
+Milan, entry level, on-site, 93 applicants at time of apply.
+
+CV role priority followed the task instruction: FlowSpace full-stack platform + automated migration led (migration bullet moved to top of Product Responsibilities, CRM-automation bullet moved to top of Technical Responsibilities to match the JD's explicit CRM-customisation ask), Urlink AI-assisted client automations and UltraStrategy CV-parsing pipeline kept as the second/third proof roles. Letter followed the same order in its two proof paragraphs.
+
+Files: Prabhavit_CV_Aprigliano.tex/.pdf, CoverLetter_Aprigliano.txt/.tex/.pdf, confirmations/Aprigliano-2026-09-11.txt, confirmations/Aprigliano-2026-09-11.png (post-submit), confirmations/Aprigliano-2026-09-11-before.png (pre-submit filled form), answers/aprigliano-2026-09-11.md, applications.csv row (SUBMITTED).
+
+LEARNINGS: the resume-library "last used CV" trap persists across different LinkedIn tenants in the same session - after applying to F2Informatica with Prabhavit_CV_F2Informatica.pdf, this Aprigliano form's radio group pre-selected that same file as the default, not the old Prabhavit_CV_Gainable.pdf. Always verify the checked radio against the intended filename per lead, never assume the previous upload has "expired" out of the default slot.

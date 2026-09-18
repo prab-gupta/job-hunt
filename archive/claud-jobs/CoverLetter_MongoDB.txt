@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Technical Services Engineer - Partners role in Dublin.
+
+This role's mix of hands on troubleshooting and partner facing work matches how I already spend my days. At FlowSpace, a workspace marketplace platform, I maintain the product end to end and am the one who understands and resolves customer issues as they come up, working from the application layer down to the integrations underneath it. I built and run the OfficeRnD and Nexudus API integrations that keep partner booking data in sync, and I coordinate daily between our internal team and an external delivery agency. Earlier, at Clubee, I integrated their API across the frontend and ran unit testing and QA on new features, so I am used to isolating where a bug actually lives before proposing a fix.
+
+I also build and operate AI agents in production, including support agents that answer customer queries against live data and escalate to a human when confidence is low, so I follow the GenAI space this role touches on. My core stack is TypeScript and Node.js, with Python for automation work, and I am comfortable tracing an issue through several systems rather than assuming it sits in one.
+
+I hold Italian EU long term resident status. I am not currently authorised to work in Ireland and would need the employer side permit or sponsorship process, which I am ready to start, and I can relocate to Dublin for the hybrid schedule.
+
+Regards,
+Prabhavit Gupta

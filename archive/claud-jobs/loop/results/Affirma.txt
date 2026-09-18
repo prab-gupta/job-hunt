@@ -1,0 +1,53 @@
+STATUS: NEEDS YOU
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4465024150/
+URL (offsite ATS, Logic Melon / Tracker RMS USA): https://usa.applybe.com/?a=1253F17671.0
+
+Job: Application Migration Developer, Affirma, Romania (remote). Applies to Azure
+Communication Services migration work: identify ACS dependencies in customer
+applications, implement replacement integrations, testing/cutover support.
+
+Dedupe: dedupe.py returned HIT COMPANY~ (fuzzy). grep -i "affirma" applications.csv
+found no prior Affirma row (fuzzy hit did not match a real prior application) —
+proceeded.
+
+Hard gates re-verified on live JD: no anti-AI disclaimer; "2-4+ years" required, 3
+fits; title "Application Migration Developer" (IC), not Senior/Staff/Lead/Principal/
+Manager/CTO; no MSc/PhD requirement; JD fully in English; "C#, Python, JavaScript/
+TypeScript, or Java" is an OR list, not a C#/.NET-only requirement (TS and Python are
+claimable); Romania remote is within the EU; posting live (24 clicked apply, Apply
+control led to a real job-specific guest-apply form titled "Apply for Application
+Migration Developer - Iasi, Romania ... JOB-2856"). No kill gate hit.
+
+What was uploaded/filled:
+- Prabhavit_CV_Affirma.pdf uploaded (built from Prabhavit_CV_EN.tex, 2 pages,
+  tectonic clean compile, parity check passed).
+- CoverLetter_Affirma.txt (239 words) pasted into the form's cover-letter textarea
+  (no separate PDF field existed on this form).
+- First name: Prabhavit / Last name: Gupta / Email: prabhavitg@gmail.com
+- Mobile phone: 393516107807 (digits only, no "+", no spaces)
+- Work eligibility radio: "I am not currently eligible to live or work in Romania"
+  (per answers/work-authorisation.md; Romania is EU-but-not-Italy)
+- "I wish to receive a copy of this application": left unchecked
+
+Blocker (user-only, per brief): live Google reCAPTCHA ("I'm not a robot" checkbox,
+reCAPTCHA Enterprise) sits directly above the APPLY NOW button. Form left filled and
+NOT submitted. CAPTCHA and APPLY NOW button were not touched. Browser tab 550850097
+(Claude in Chrome, own tab, no other tabs touched) left open with the form intact for
+the account-holder to solve the CAPTCHA and click APPLY NOW.
+
+LEARNINGS (new ATS lessons, for PATTERNS.md if worth adding):
+1. Logic Melon / Tracker RMS USA phone-number field rejects any "+" prefix and spaces
+   ("Please enter only digits" on blur) even though its own placeholder example uses
+   a national-format number with no country code; digits-only "393516107807" (country
+   code + number concatenated) validated cleanly.
+2. This ATS's file-upload button ("PICK FILE") is a decoy in the accessibility tree:
+   `find` on the visible button resolved to an unrelated submit button, and a second
+   `find` for the real `<input type="file" id="CVFile">` (invisible opacity:0 overlay
+   positioned over the button, a common custom-file-button pattern) came back typed
+   as "hidden" and was refused by file_upload. Fix: use javascript_tool to
+   getElementById('CVFile') and set a unique aria-label on it, then find() that label
+   to get a correctly-typed "file" ref, then file_upload against that ref. Worked.
+
+See confirmations/Affirma-2026-09-10.txt and answers/affirma-2026-09-10.md for full
+detail.

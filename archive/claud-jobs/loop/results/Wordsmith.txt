@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4420946259/ -> https://jobs.ashbyhq.com/wordsmith/ddbc4f1c-7198-4342-ab1a-97f53533a83a/application
+Uploaded: Prabhavit_CV_Wordsmith.pdf (2 pages, design/build bullets led). No cover-letter upload field existed on the Ashby form; CoverLetter_Wordsmith.pdf/.txt kept on file for reference.
+Answers given: Name Prabhavit Gupta, Location Venice Venice Italy, Email prabhavitg@gmail.com, salary EUR 45,000-55,000 (or GBP equivalent) negotiable, notice immediately available/two weeks after offer, Portfolio https://github.com/prab-gupta (honest substitute, no design portfolio exists, disclosed in the letter).
+Blockers: none. Guest Ashby form, no account wall.
+LEARNINGS: Wordsmith's LinkedIn "Apply on company website" opens a fresh Ashby tab (jobs.ashbyhq.com/wordsmith/...) rather than navigating the LinkedIn tab in place - watch for the new tabId in tabs_context after the click. Ashby's "Portfolio" field was required with no alternate text option; used the GitHub profile URL since no design portfolio exists, and said so plainly in the cover letter rather than skipping the field.

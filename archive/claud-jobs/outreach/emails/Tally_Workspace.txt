@@ -1,0 +1,15 @@
+TO: hello@tallyworkspace.com
+SUBJECT: Applied-AI engineer for flex-office leasing automation
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06) 
+
+Hi Laura,
+
+Your posts on bringing AI and automation into office leasing are close to what I have been building. At FlowSpace (flex-office marketplace, London) I built the AI listing pipeline that turns any operator brochure into a validated listing after human review (900+ records), support agents that answer availability and pricing questions against live data, and the OfficeRnD and Nexudus booking integrations. The platform grew from 2,000 to 4,500+ users while the ops team stayed the same size.
+
+I am looking for a solutions, forward-deployed or AI automation engineering role at a company in this space. If Tally is building anything like this, I would like to help; if not, I would value 15 minutes on how you see the supply side automating.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Venice based, EU long-term residence permit, remote or EU relocation, available now.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

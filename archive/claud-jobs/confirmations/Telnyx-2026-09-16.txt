@@ -1,0 +1,8 @@
+Forward Deployed Engineer, Southern Europe at Telnyx
+Applied via Greenhouse: https://job-boards.greenhouse.io/telnyx54/jobs/7992715003/confirmation
+
+Success page text (seen after Submit application):
+"Thank you for your interest in joining Telnyx! We appreciate your application and the effort you've put into applying.
+While we go through the selection process, we kindly ask for your patience. Rest assured that if your qualifications match our requirements, we will be in touch to discuss the next steps. If we are unable to move forward with your application at this time, please keep an eye on our website for future opportunities."
+
+Page title: "Thank you for applying"

@@ -1,0 +1,8 @@
+COMPANY: MitUP & ME Consulting
+ROLE: QA Automation Engineer
+LOCATION: Porto, Portugal
+APPLY_TYPE: easy_apply
+APPLY_BUTTON_COUNT: 2
+URL: https://www.linkedin.com/jobs/view/4466221670/
+
+ Desenvolver, implementar e manter testes automatizados para garantir a qualidade e a confiabilidade das aplicações. Criar e executar cenários de testes funcionais, regressivos e de integração . Identificar, documentar, acompanhar e validar a correção de bugs e não conformidades . Desenvolver e manter scripts e frameworks de automação de testes . Participar da definição de estratégias e cenários de testes junto às equipas de desenvolvimento e demais stakeholders. Executar testes manuais quando necessário para complementar a cobertura de automação. Analisar resultados dos testes e gerar evidências e relatórios de qualidade. Integrar os testes automatizados aos processos de CI/CD , contribuindo para a execução contínua dos testes. Trabalhar em conjunto com developers, Product Owners e demais profissionais para identificar riscos e garantir os requisitos de qualidade. Contribuir para a melhoria contínua dos processos, práticas e padrões de Quality Assurance . Garantir a cobertura adequada dos testes e a estabilidade das entregas ao longo do ciclo de desenvolvimento. Atuar na prevenção de falhas, antecipando riscos e propondo melhorias na qualidade do produto. Show more Show less Seniority level Mid-Senior level Employment type Full-time Job function Information Technology Industries IT Services and IT Consulting Referrals increase your chances of interviewing at MitUP & ME Consulting by 2x See who you know 

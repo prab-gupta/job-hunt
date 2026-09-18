@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://fr.linkedin.com/jobs/view/founding-forward-deployed-engineer-ai-at-bazylic-4467963587 (job id 4467963587)
+Company: Bazylic (Paris) - Founding Forward Deployed Engineer, AI, France line, agent C53, queue.csv line 528.
+Dedupe: python3 loop/dedupe.py --check "Bazylic" -> NEW. grep applications.csv for Bazylic/forward -> no prior row.
+Live JD (LinkedIn guest API, apply-button present, posting open, not closed): requirements list states "Fluent in French and English" explicitly.
+Hard gate: task instructions pre-flagged "French required = kill" for this row; confirmed on the live JD text. Prabhavit cannot claim French.
+No CV or letter built. No form opened.

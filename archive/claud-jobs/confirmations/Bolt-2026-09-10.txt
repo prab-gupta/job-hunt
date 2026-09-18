@@ -1,0 +1,8 @@
+Bolt - Integration / Automation Engineer - 2026-09-10
+
+Applied via Bolt's own careers site application form (https://bolt.eu/en/careers/positions/c2fff325-8414-401f-b9c2-d3605f13a024/?tab=apply), reached via the LinkedIn "Apply" (offsite) control on https://www.linkedin.com/jobs/view/4455419257/.
+
+Success text shown on the page after submit:
+
+"Application received
+Thanks for applying. We'll be in touch soon."

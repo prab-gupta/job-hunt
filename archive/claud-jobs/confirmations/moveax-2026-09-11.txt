@@ -1,0 +1,13 @@
+moveax — Software Engineer — Rome (Hybrid)
+Applied via: https://careers.moveax.it/o/software-engineer-3 (LinkedIn OFFSITE apply, from https://www.linkedin.com/jobs/view/4459299332/)
+Submitted: 2026-09-11 (Claude in Chrome, tab 550850501)
+
+Success text (page after Send):
+"All done!
+Your application has been successfully submitted!"
+
+Page also showed an "Applied ✓" badge next to the Application tab, and the URL changed
+to https://careers.moveax.it/o/software-engineer-3/applied confirming the submission.
+
+Note: PNG screenshot not saved to disk (Claude in Chrome does not support save_to_disk
+in this session per APPLY_AGENT_BRIEF Browser ownership section) — this txt is the record.

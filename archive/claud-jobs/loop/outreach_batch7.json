@@ -1,0 +1,41 @@
+[
+ {
+  "company": "Rea Soluzioni",
+  "city": "Roma",
+  "site": "https://www.reasoluzioni.it",
+  "email": "consulenza@reasoluzioni.com",
+  "email_source_url": "https://www.reasoluzioni.it",
+  "email_quote": "seen on-page by the batch6 sender 2026-09-10",
+  "what_they_do": "Rome software house with Web Developer positions",
+  "hook": "Web Developer positions",
+  "open_role": "Web Developer",
+  "addressee": "team",
+  "language": "it"
+ },
+ {
+  "company": "Algomera",
+  "city": "Brindisi",
+  "site": "https://algomera.it",
+  "email": "info@algomera.it",
+  "email_source_url": "https://algomera.it",
+  "email_quote": "seen on-page by the batch6 sender 2026-09-10",
+  "what_they_do": "Cloud software development company in Brindisi",
+  "hook": "cloud software development team, UI/UX and developer openings",
+  "open_role": null,
+  "addressee": "team",
+  "language": "it"
+ },
+ {
+  "company": "Exprivia",
+  "city": "Molfetta",
+  "site": "https://www.exprivia.it",
+  "email": "recruitingexprivia@exprivia.com",
+  "email_source_url": "https://www.exprivia.it",
+  "email_quote": "seen on the careers portal by the batch6 sender 2026-09-10",
+  "what_they_do": "Italian IT group with developer positions across Italy",
+  "hook": "developer positions across Italy",
+  "open_role": "developer positions",
+  "addressee": "team",
+  "language": "it"
+ }
+]

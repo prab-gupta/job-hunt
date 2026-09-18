@@ -1,0 +1,17 @@
+TO: info@rewirenow.com
+SUBJECT: Data & AI Engineer for Rewire
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Hi Rewire team,
+
+Building and deploying custom AI and GenAI solutions for enterprise clients is exactly the work I do. At FlowSpace I built an LLM pipeline that produced 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD and Nexudus API integrations, on a Next.js + Laravel + Supabase stack, plus n8n automations for clients.
+
+Working example: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, EU long-term resident, authorised to work in Italy; for an Amsterdam-based role I'd need the employer-side permit process, and I'm available immediately.
+
+Worth a 15 minute call, or could you point me to whoever handles your Data & AI Engineer hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

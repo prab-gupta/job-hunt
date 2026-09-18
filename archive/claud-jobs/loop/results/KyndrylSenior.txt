@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4466872754/ (Apply on company website -> https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Italy-Milan-ITMILVP22-Office/Senior-Forward-Deployed-Engineer_R-65797-1?source=REC_APPLICANT_SOURCE_LinkedIn)
+Uploaded: nothing yet (blocked before the upload step)
+Answers: none entered yet
+Blockers: Kyndryl's Workday tenant forces "Create Account/Sign In" (Email Address, Password, Verify New Password) with no guest-apply path, even via "Apply Manually". Re-checked once per task instruction, same result as the separate plain-FDE Kyndryl row (req R-65787-1) already logged NEEDS YOU today. Account creation is user-only per the standing rule; stopped without creating one.
+Prepared and ready: Prabhavit_CV_Kyndryl.pdf (reused, parity-checked against Prabhavit_CV_EN.tex, one non-verbatim addition found and fixed), CoverLetter_KyndrylSenior.pdf/.txt (new letter distinct from the other requisition's letter). Logged NEEDS_YOU.md section C row 18b and applications.csv (NEEDS YOU row).
+LEARNINGS: Kyndryl's Workday tenant (kyndryl.wd5.myworkdayjobs.com) walls every requisition tried so far with a mandatory Create Account step; treat as a standing wall for this employer, not a one-off, until a guest path is found.

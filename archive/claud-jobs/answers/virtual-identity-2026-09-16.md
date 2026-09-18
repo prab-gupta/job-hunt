@@ -1,0 +1,10 @@
+# VirtualIdentity - dropped bullets / CV build note (2026-09-16)
+
+CV: Prabhavit_CV_VirtualIdentity.tex / .pdf, built from Prabhavit_CV_EN.tex, bullets kept verbatim.
+
+Dropped (same across all four FDE rows tonight, JD has no relation):
+- Get2Germany: "UI/UX work, design from Figma to Bubble" (irrelevant to AI/automation JD; Google APIs + AI automation tools + platform/db optimisation kept).
+- Tractionboard: "Implementation of designs from Figma to Bubble", "Google Ads 4 implementation" (irrelevant; ChatGPT/OpenAI integration, Sendgrid, responsive/debugging kept).
+- Additional Information IT Skills: dropped "Low code development/" prefix (JD has no relation to low-code/Bubble), kept "AI based development, AI (RAG, Chatbot) and API integration, Automation (n8n), Project Management, Communication".
+
+FlowSpace Technical Responsibilities: dropped the literal duplicate bullets already present verbatim elsewhere in the master tex ("AI tool for processing of data and increasing listings on platform" duplicate of the scraping bullet; "Overseeing the migration of app from Bubble.io to Next.JS and Laravel" duplicate of the Product Responsibilities bullet). No new claims added, no bullet content lost.

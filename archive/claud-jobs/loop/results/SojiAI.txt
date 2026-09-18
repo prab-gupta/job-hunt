@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452595224/
+ATS: join.com (join.com/companies/soji)
+
+Uploaded: Prabhavit_CV_SojiAI.pdf (2 pages, tailored from Prabhavit_CV_EN.tex; FlowSpace 3 bullets led, Get2Germany reordered ahead of Urlink/UltraStrategy as the API-integration/enterprise pair, all bullets verbatim-traced to EN.tex), CoverLetter_SojiAI.pdf (also .txt, 0 em-dashes grep-verified).
+
+Answers given: available to start 2026-09-16 (immediately, per standing answer), expected yearly compensation EUR 50000. Note: the join.com apply flow auto-loaded a pre-existing candidate profile (Prabhavit Gupta, +39 351 610 7807, Italy, LinkedIn linkedin.com/in/prabhavit) already signed in from a prior application session in this shared Chrome profile; no new account was created by this task. The pre-attached generic CV was removed and replaced with the Soji-tailored CV, and the cover letter was uploaded fresh.
+
+Fit: JD requires 8+ years and a senior title, and "Fluency in English required, German a strong plus" (not required, so no language kill). Per the 2026-09-16 clear-all-FDE-Italy/EU rule, years/seniority/stack mismatches are not kills. Letter opens honest about no aviation domain background, then pairs FlowSpace (CRM/GTM automations, OfficeRnD/Nexudus integrations, support AI agents) with Get2Germany (Google APIs integration, AI tools, database optimisation, prior Berlin experience) as the nearest systems-integration/enterprise-deployment evidence.
+
+Confirmation: confirmations/SojiAI-2026-09-16.txt ("Application sent / You've applied to Soji AI UG.")
+
+Blockers: none. Page noted reCAPTCHA protection but no visible challenge appeared during the flow.
+LEARNINGS: join.com carries a persistent logged-in candidate profile across sessions in this Chrome instance; always check for and replace a pre-attached CV/cover letter with the company-tailored files rather than assuming the form is empty.

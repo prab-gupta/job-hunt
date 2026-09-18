@@ -1,0 +1,15 @@
+TO: jobs@moku.io
+SUBJECT: AI + automation engineer, Veneto based
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao team Moku,
+
+I've been following how you fold GenAI and predictive analytics into client automation work, it is the same kind of problem I ship. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus booking integrations, on a Next.js + Laravel + Supabase stack.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, open to Veneto-area work and happy to meet in person. Worth a 15 minute call, or could you point me to whoever leads engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

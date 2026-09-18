@@ -1,0 +1,66 @@
+[
+ {
+  "source": "arbeitnow",
+  "company": "Tanso",
+  "role": "Software Engineer (f/m/x)",
+  "url": "https://www.arbeitnow.com/jobs/companies/tanso/software-engineer-munich-332789",
+  "location": "Munich"
+ },
+ {
+  "source": "arbeitnow",
+  "company": "gropyus",
+  "role": "Software Engineer (all genders)",
+  "url": "https://www.arbeitnow.com/jobs/companies/gropyus/software-engineer-all-genders-berlin-berlin-134437",
+  "location": "Berlin, Berlin"
+ },
+ {
+  "source": "arbeitnow",
+  "company": "Konfetti GmbH",
+  "role": "Backend Developer - Laravel / AWS (m/f/x) in Berlin",
+  "url": "https://www.arbeitnow.com/jobs/companies/konfetti-gmbh/backend-developer-laravel-aws-in-berlin-302664",
+  "location": "Berlin"
+ },
+ {
+  "source": "greenhouse:feverup",
+  "company": "feverup",
+  "role": "Graduate Software Engineer",
+  "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4951979101",
+  "location": "Spain"
+ },
+ {
+  "source": "linkedin",
+  "company": "Cornerstone OnDemand",
+  "role": "Advanced Technical Support Engineer",
+  "url": "https://pl.linkedin.com/jobs/view/advanced-technical-support-engineer-at-cornerstone-ondemand-4468271208",
+  "location": "Cracow, Ma\u0142opolskie, Poland",
+  "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468271208.txt",
+  "id": "4468271208"
+ },
+ {
+  "source": "linkedin:Berlin",
+  "company": "Logistica OS",
+  "role": "Founding Engineer",
+  "url": "https://de.linkedin.com/jobs/view/founding-engineer-at-logistica-os-4466204424",
+  "location": "Berlin, Berlin, Germany",
+  "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466204424.txt",
+  "id": "4466204424"
+ },
+ {
+  "source": "linkedin:Barcelona",
+  "company": "HP",
+  "role": "AI /ML Engineer",
+  "url": "https://es.linkedin.com/jobs/view/ai-ml-engineer-at-hp-4468316016",
+  "location": "Sant Cugat del Vall\u00e8s, Catalonia, Spain",
+  "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4468316016.txt",
+  "id": "4468316016"
+ },
+ {
+  "source": "linkedin:Barcelona",
+  "company": "Apple",
+  "role": "Applied Machine Learning Engineer - SEAR",
+  "url": "https://es.linkedin.com/jobs/view/applied-machine-learning-engineer-sear-at-apple-4466821913",
+  "location": "Barcelona, Catalonia, Spain",
+  "jd_file": "/private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4466821913.txt",
+  "id": "4466821913"
+ }
+]

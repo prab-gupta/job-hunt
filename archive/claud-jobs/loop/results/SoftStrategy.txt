@@ -1,0 +1,5 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4448577082/
+Nothing uploaded, no CV or letter drafted.
+Reason: hard gate, core stack. The JD's "Riteniamo Fondamentali Per La Tua Candidatura" (fundamental requirements) section states "Esperienza consolidata nello sviluppo backend con framework Django e/o FastAPI" as a fundamental requirement, not a plus (the plus section is separate and lists Power Apps/Dataverse/Power Automate only). The role is explicitly titled "Sviluppatore Python Backend" and the JD frames Django/FastAPI as the core backend implementation framework. Per the brief's stack hard gate (Django/FastAPI backend as the core = kill), killed before drafting materials.
+No blocker beyond the gate; no LEARNINGS entry needed (existing gate rule handled this correctly).

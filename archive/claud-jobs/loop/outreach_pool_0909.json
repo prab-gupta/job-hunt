@@ -1,0 +1,1017 @@
+[
+ {
+  "company": "Computas",
+  "email": "contact@computas.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Computas",
+   "segment": "EU consultancy",
+   "website": "https://computas.com",
+   "prime person": "Trond Eilertsen",
+   "title": "CEO",
+   "email (verified on-page)": "contact@computas.com",
+   "linkedin": "https://www.linkedin.com/company/computas-as",
+   "what they do": "Applied AI & software consultancy (Norway's first AI company); delivers AI/ML/software to clients",
+   "open role in his lane": "AI Developer / Data Engineer-MLOps — https://careersno.computas.com/jobs/5719385-ai (LIVE, 4+ yrs, no degree gate)",
+   "region": "Oslo, NO",
+   "why he fits": "Applied-AI delivery consultancy; AI Developer role is experience-based (confirm EEA work-auth)",
+   "email source page": "https://www.computas.com/en/contact",
+   "flags / notes": "Norway (EEA, not EU) - confirm work-auth; AI Developer role experience-based, no degree.",
+   "email subject": "Applied-AI engineer — re: AI Developer (Computas)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Trond,\n\nI saw Computas is hiring an AI Developer — applied-AI delivery for clients is exactly my lane. I'm an applied-AI engineer who ships production agents and the integration plumbing around the"
+  }
+ },
+ {
+  "company": "DareData",
+  "email": "contact@daredata.ai",
+  "flags": [
+   "ALREADY_OUTREACHED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "DareData",
+   "segment": "EU consultancy",
+   "website": "https://www.daredata.ai",
+   "prime person": "Rui Figueiredo",
+   "title": "Co-founder & CTO",
+   "email (verified on-page)": "contact@daredata.ai",
+   "linkedin": "https://www.linkedin.com/in/rui-figueiredo/",
+   "what they do": "End-to-end AI partner; builds production ML systems & AI agents for clients, remote-first",
+   "open role in his lane": "Spontaneous Application (Remote) — https://www.daredata.ai/careers/spontaneous-application",
+   "region": "Lisbon, PT (remote)",
+   "why he fits": "Ships production AI + agents end-to-end, explicitly remote & pragmatic builders — his agent/harness lane",
+   "email source page": "https://www.daredata.ai/about/contacts",
+   "email subject": "Applied-AI engineer (agents + integrations) — DareData",
+   "ready-to-send email (edit any [ ], then send)": "Hi Rui,\n\nDareData building production AI systems and agents end-to-end, remote-first, is exactly how I like to work. I'm an applied-AI engineer who ships production agents and the integration plumbing"
+  }
+ },
+ {
+  "company": "Superlinear",
+  "email": "jobs@superlinear.eu",
+  "flags": [
+   "ALREADY_OUTREACHED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Superlinear",
+   "segment": "EU consultancy",
+   "website": "https://superlinear.eu",
+   "prime person": "Laurent Sorber",
+   "title": "Co-founder & CTO",
+   "email (verified on-page)": "jobs@superlinear.eu",
+   "linkedin": "https://www.linkedin.com/in/laurentsorber/",
+   "what they do": "AI/ML consultancy that embeds Forward Deployed Engineers on client projects (GenAI, data, optimization)",
+   "open role in his lane": "Forward Deployed Engineer (API & Data) — https://superlinear.recruitee.com/o/forward-deployed-engineer-api-data (LIVE, no degree gate)",
+   "region": "Brussels/Ghent, BE",
+   "why he fits": "Literally hiring FDEs; API & Data variant = integration/backend, no Master's — his exact lane",
+   "email source page": "https://superlinear.eu/careers",
+   "flags / notes": "FDE (API & Data) variant = no degree gate; the plain/Optimization FDE roles DO require a Master - skip those.",
+   "email subject": "Re: Forward Deployed Engineer (API & Data) — applied-AI eng",
+   "ready-to-send email (edit any [ ], then send)": "Hi Laurent,\n\nI saw Superlinear is hiring a Forward Deployed Engineer (API & Data) and embeds engineers directly on client projects — that's exactly the work I want to do. I'm an applied-AI engineer wh"
+  }
+ },
+ {
+  "company": "inovex",
+  "email": "info@inovex.de",
+  "flags": [
+   "ALREADY_OUTREACHED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "inovex",
+   "segment": "EU consultancy",
+   "website": "https://www.inovex.de",
+   "prime person": "Stephan Mueller & Tobias Joch",
+   "title": "Managing Directors",
+   "email (verified on-page)": "info@inovex.de",
+   "linkedin": "https://www.linkedin.com/company/inovex",
+   "what they do": "IT project house delivering ML/data engineering & AI solutions on client projects",
+   "open role in his lane": "Data Engineer / ML Engineer — https://www.inovex.de/de/karriere/stellenangebote/data-engineer-machine-learning-engineer/ (LIVE, STEM 'or comparable', 2+ yrs)",
+   "region": "Karlsruhe/Munich/Berlin, DE",
+   "why he fits": "Delivery-focused ML/data engineering for clients; no strict Master's; remote-friendly",
+   "email source page": "https://www.inovex.de/de/impressum/",
+   "email subject": "Applied-AI engineer — re: Data/ML Engineer (inovex)",
+   "ready-to-send email (edit any [ ], then send)": "Hello inovex team,\n\nI saw inovex is hiring a Data/ML Engineer — delivery-focused ML and data engineering on client projects is exactly what I do. I'm an applied-AI engineer who ships production agents"
+  }
+ },
+ {
+  "company": "statworx",
+  "email": "info@statworx.com",
+  "flags": [
+   "ALREADY_OUTREACHED",
+   "APPLIED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "statworx",
+   "segment": "EU consultancy",
+   "website": "https://www.statworx.com",
+   "prime person": "Sebastian Heinz",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@statworx.com",
+   "linkedin": "https://www.linkedin.com/in/sebastian-heinz-90885272/",
+   "what they do": "Data science / AI / GenAI consultancy; builds & deploys ML/LLM solutions for enterprise",
+   "open role in his lane": "AI Engineer (m/w/d) — https://statworx.jobs.personio.de/job/1243792?language=en (LIVE, 2+ yrs, no degree gate)",
+   "region": "Frankfurt, DE",
+   "why he fits": "Role wants LLM/genAI engineering with no degree requirement — matches his RAG/LLM build work",
+   "email source page": "https://www.statworx.com/en/impressum",
+   "email subject": "Re: AI Engineer — applied-AI engineer (ships agents + code)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Sebastian,\n\nI saw statworx is hiring an AI Engineer — building and deploying LLM/GenAI solutions for enterprise is exactly what I do. I'm an applied-AI engineer who ships production agents and the "
+  }
+ },
+ {
+  "company": "Boosha AI",
+  "email": "info@boosha.it",
+  "flags": [
+   "ALREADY_OUTREACHED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Boosha AI",
+   "segment": "IT consultancy",
+   "website": "https://boosha.it",
+   "prime person": "Mario Di Girolamo",
+   "title": "CEO",
+   "email (verified on-page)": "info@boosha.it",
+   "linkedin": "https://www.linkedin.com/in/digirolamomario/",
+   "what they do": "AI integration & automation consultancy: agents, assistants, doc search, HR automation (OpenAI/Anthropic/Zapier/n8n partners)",
+   "open role in his lane": "none listed",
+   "region": "Bologna, IT",
+   "why he fits": "n8n + LLM agent automation is his exact lane; English site",
+   "email source page": "https://boosha.it/en/contact-us/",
+   "flags / notes": "Bonus: CEO direct mario@boosha.it and Head of Sales luca@boosha.it also published on contact page.",
+   "email subject": "Applied-AI engineer — n8n + LLM agents (Boosha)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Mario,\n\nI've been following Boosha — your AI-agent and automation work on OpenAI/Anthropic and n8n is my exact daily stack. I'm an applied-AI engineer who ships production agents and the integratio"
+  }
+ },
+ {
+  "company": "Martes AI",
+  "email": "contact@martes-ai.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Martes AI",
+   "segment": "IT consultancy",
+   "website": "https://www.martes-ai.com",
+   "prime person": "Andrea Belli Contarini",
+   "title": "Co-Founder",
+   "email (verified on-page)": "contact@martes-ai.com",
+   "linkedin": "https://it.linkedin.com/in/andreabellicontarini",
+   "what they do": "AI consultancy for Italian firms: strategy, custom AI-agent dev, process automation, training (50+ clients)",
+   "open role in his lane": "none listed",
+   "region": "Rome, IT",
+   "why he fits": "Custom AI agents + automation delivery to clients — applied-AI/forward-deployed",
+   "email source page": "https://www.martes-ai.com/contatti/",
+   "email subject": "Applied-AI engineer — custom agents + automation (Martes)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Andrea,\n\nMartes' custom AI-agent development and process automation for Italian firms is exactly the forward-deployed work I do. I'm an applied-AI engineer who ships production agents and the integ"
+  }
+ },
+ {
+  "company": "i3k",
+  "email": "info@i3k.eu",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "i3k",
+   "segment": "IT consultancy",
+   "website": "https://www.i3k.eu",
+   "prime person": "Francesco Marchetti",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@i3k.eu",
+   "linkedin": "not found",
+   "what they do": "EU-sovereign AI infra: 100% on-prem RAG Enterprise, open-source LLM platform for regulated industries",
+   "open role in his lane": "none listed",
+   "region": "Milan, IT",
+   "why he fits": "On-prem RAG/LLM implementation — his RAG + LLM-harness skills; English site",
+   "email source page": "https://www.i3k.eu/en/",
+   "email subject": "Applied-AI engineer — on-prem RAG (i3k)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Francesco,\n\ni3k's 100% on-prem RAG Enterprise for regulated industries caught my eye — building and shipping that kind of LLM harness is exactly what I do. I'm an applied-AI engineer who ships prod"
+  }
+ },
+ {
+  "company": "Cato (get-cato.com)",
+  "email": "info@get-cato.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "Cato (get-cato.com)",
+   "segment": "Vertical-AI startup",
+   "website": "https://www.get-cato.com",
+   "prime person": "Andrea Zorzetto",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "info@get-cato.com",
+   "linkedin": "https://www.linkedin.com/in/andreazorzetto/",
+   "what they do": "AI-native platform automating public tenders/procurement: extracts requirements from legal docs, drafts bids",
+   "open role in his lane": "none titled; founder says actively hiring AI/growth → cold-email",
+   "region": "Milan, IT",
+   "why he fits": "LLM agents + RAG over legal/tender docs is literally their product; founder hiring AI now",
+   "email source page": "https://www.get-cato.com/en",
+   "email subject": "Applied-AI engineer — RAG over tender docs (Cato)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Andrea,\n\nCato automating public tenders — extracting requirements from legal docs and drafting bids with LLMs — is exactly the kind of product I love to build, and I saw you're growing the AI side."
+  }
+ },
+ {
+  "company": "ComplyDo",
+  "email": "info@complydo.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "A",
+   "company": "ComplyDo",
+   "segment": "Vertical-AI startup",
+   "website": "https://www.complydo.io",
+   "prime person": "Leo Schuhmann",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "info@complydo.io",
+   "linkedin": "https://www.linkedin.com/in/leo-schuhmann/",
+   "what they do": "AI agents for GRC/compliance: map regulations to controls, find gaps, auto-fill security questionnaires (YC)",
+   "open role in his lane": "none on site (YC) → cold-email",
+   "region": "Berlin, DE",
+   "why he fits": "Building AI agents/RAG over regulatory docs = exact wheelhouse; YC pace suits FDE/applied-AI",
+   "email source page": "https://www.complydo.io/about-us",
+   "email subject": "Applied-AI engineer — GRC agents + RAG (ComplyDo)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Leo,\n\nComplyDo's AI agents mapping regulations to controls and auto-filling security questionnaires is exactly the RAG/agent work I do. I'm an applied-AI engineer who ships production agents and th"
+  }
+ },
+ {
+  "company": "Breakcold",
+  "email": "support@breakcold.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Breakcold",
+   "segment": "AI-agent / GTM tool",
+   "website": "https://www.breakcold.com",
+   "prime person": "Arnaud Belinga",
+   "title": "Co-founder",
+   "email (verified on-page)": "support@breakcold.com",
+   "linkedin": "https://fr.linkedin.com/in/arnaud-belinga-ai-native-crm",
+   "what they do": "AI-native sales CRM / social-selling CRM for SMBs",
+   "open role in his lane": "none (small team)",
+   "region": "Paris, FR",
+   "why he fits": "GTM tool; founder famously answers DMs personally — cold email will land",
+   "email source page": "https://www.breakcold.com/privacy-policy",
+   "email subject": "Applied-AI / GTM engineer (Breakcold)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Arnaud,\n\nBreakcold's AI-native sales CRM is right in the GTM tooling space I build in. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: at FlowSpace "
+  }
+ },
+ {
+  "company": "Captain Data",
+  "email": "gdpr@captaindata.co",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Captain Data",
+   "segment": "AI-agent / GTM tool",
+   "website": "https://www.captaindata.com",
+   "prime person": "Guillaume Odier",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "gdpr@captaindata.co",
+   "linkedin": "https://www.linkedin.com/in/guillaumeodier/",
+   "what they do": "GTM data automation / enrichment & orchestration platform for outbound teams",
+   "open role in his lane": "none confirmed (careers on WTTJ)",
+   "region": "Nantes/Paris, FR",
+   "why he fits": "Core 'GTM engineer' ecosystem; his n8n/API automation skills map directly",
+   "email source page": "https://www.captaindata.com/privacy",
+   "flags / notes": "Only GDPR email published (.co domain); GTM-tool ecosystem.",
+   "email subject": "GTM engineer — n8n/API automation (Captain Data)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Guillaume,\n\nCaptain Data sits right in the GTM-engineering space I work in — my n8n and API automation maps straight onto your enrichment and orchestration. I'm an applied-AI engineer who ships pro"
+  }
+ },
+ {
+  "company": "Flank",
+  "email": "careers@flank.ai",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Flank",
+   "segment": "AI-agent / GTM tool",
+   "website": "https://flank.ai",
+   "prime person": "Lilian Breidenbach",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "careers@flank.ai",
+   "linkedin": "https://www.linkedin.com/in/lilianbreidenbach/",
+   "what they do": "Autonomous AI agents for enterprise legal teams (intake, drafting, redlining via email/browser)",
+   "open role in his lane": "Delivery Director (UK, remote+travel); careers@ for unlisted — https://flank.ai/careers",
+   "region": "Berlin, DE",
+   "why he fits": "Vertical AI agents; forward-deployed/implementation flavor; founder-reachable",
+   "email source page": "https://flank.ai/careers",
+   "email subject": "Applied-AI / implementation engineer (Flank)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Lilian,\n\nFlank's autonomous agents for legal teams — working through email and the browser — are exactly the vertical-AI work I do, and the implementation/delivery side is my lane. I'm an applied-A"
+  }
+ },
+ {
+  "company": "Dribia",
+  "email": "info@dribia.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Dribia",
+   "segment": "EU consultancy",
+   "website": "https://dribia.com",
+   "prime person": "Oleguer Sagarra",
+   "title": "Co-founder & co-CEO",
+   "email (verified on-page)": "info@dribia.com",
+   "linkedin": "https://es.linkedin.com/in/oleguersagarra",
+   "what they do": "Data science / AI consultancy; bespoke ML/AI solutions for clients",
+   "open role in his lane": "Open application — https://dribia.com/en/contact/",
+   "region": "Barcelona, ES",
+   "why he fits": "Bespoke applied-AI/data delivery shop; open application for builders",
+   "email source page": "https://dribia.com/en/contact/",
+   "email subject": "Applied-AI engineer — bespoke AI delivery (Dribia)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Oleguer,\n\nDribia's bespoke applied-AI and data delivery is exactly the work I do. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: at FlowSpace I bui"
+  }
+ },
+ {
+  "company": "Idiro Analytics",
+  "email": "info@idiro.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Idiro Analytics",
+   "segment": "EU consultancy",
+   "website": "https://idiro.com",
+   "prime person": "Aidan Connolly",
+   "title": "CEO & founder",
+   "email (verified on-page)": "info@idiro.com",
+   "linkedin": "https://ie.linkedin.com/company/idiro-analytics",
+   "what they do": "Data science / AI consultancy + talent arm placing AI/data engineers (perm & contract)",
+   "open role in his lane": "AI & Data Talent (perm/contract) — https://idiro.com/ai-and-data-talent/",
+   "region": "Dublin, IE",
+   "why he fits": "Places vetted AI/data engineers on contract (his EUR250-300/day lane) + consulting delivery",
+   "email source page": "https://idiro.com/contact/",
+   "email subject": "Applied-AI engineer, contract-friendly (Idiro)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Aidan,\n\nIdiro placing AI/data engineers on permanent and contract work is interesting to me — I do the delivery work and I'm available for contract at EUR 250-300/day. I'm an applied-AI engineer wh"
+  }
+ },
+ {
+  "company": "Merantix Momentum",
+  "email": "momentum@merantix.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Merantix Momentum",
+   "segment": "EU consultancy",
+   "website": "https://en.merantix-momentum.com",
+   "prime person": "Thomas Wollmann",
+   "title": "Managing Director",
+   "email (verified on-page)": "momentum@merantix.com",
+   "linkedin": "https://de.linkedin.com/company/merantix-momentum",
+   "what they do": "Applied AI studio/consultancy (Merantix group) building & deploying custom AI/ML for clients",
+   "open role in his lane": "AI Platform Engineer (m/f/d) — Berlin ('MSc CS or equivalent working experience')",
+   "region": "Berlin, DE",
+   "why he fits": "AI Platform Engineer = building deployment/harness infra around models — his non-training lane",
+   "email source page": "https://en.merantix-momentum.com/imprint",
+   "flags / notes": "Also info@merantix-momentum.com (general). AI Platform Eng role says MSc \"or equivalent working experience\".",
+   "email subject": "Applied-AI engineer — building the model harness (Merantix)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Thomas,\n\nMerantix Momentum's applied-AI studio work — building the deployment and integration harness around models — is exactly what I do (I integrate LLMs and ship them, rather than train them). "
+  }
+ },
+ {
+  "company": "Rewire",
+  "email": "info@rewirenow.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Rewire",
+   "segment": "EU consultancy",
+   "website": "https://rewirenow.com",
+   "prime person": "Wouter Huygen",
+   "title": "Partner & CEO",
+   "email (verified on-page)": "info@rewirenow.com",
+   "linkedin": "https://nl.linkedin.com/company/rewirenow",
+   "what they do": "Data & AI consultancy (ex-MIcompany); builds/deploys data & AI solutions for enterprise",
+   "open role in his lane": "Junior Data & AI Engineer — https://rewire.recruitee.com/o/data-scientist",
+   "region": "Amsterdam, NL",
+   "why he fits": "Delivery consultancy hiring Data & AI Engineers to build client solutions",
+   "email source page": "https://rewirenow.com/en/contact/",
+   "email subject": "Applied-AI engineer — re: Data & AI Engineer (Rewire)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Wouter,\n\nI saw Rewire is hiring Data & AI Engineers to build and deploy client solutions — that's my lane. I'm an applied-AI engineer who ships production agents and the integration plumbing around"
+  }
+ },
+ {
+  "company": "craftworks",
+  "email": "office@craftworks.at",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "craftworks",
+   "segment": "EU consultancy",
+   "website": "https://www.craftworks.ai",
+   "prime person": "Simon Grabher",
+   "title": "CEO",
+   "email (verified on-page)": "office@craftworks.at",
+   "linkedin": "https://www.linkedin.com/company/craftworks-gmbh",
+   "what they do": "Industrial applied-AI/data consultancy; builds & delivers AI/ML for manufacturing/enterprise",
+   "open role in his lane": "Talent (m/f/d) – Focus AI — https://www.craftworks.ai/careers/talent-m-f-d-focus-ai/",
+   "region": "Vienna, AT",
+   "why he fits": "Delivers applied-AI solutions to clients; open AI builder track",
+   "email source page": "https://www.craftworks.ai/imprint",
+   "email subject": "Applied-AI engineer — industrial AI delivery (craftworks)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Simon,\n\ncraftworks delivering applied AI to manufacturing and enterprise is right in my wheelhouse. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: "
+  }
+ },
+ {
+  "company": "DozenDev",
+  "email": "ciao@dozendev.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "DozenDev",
+   "segment": "IT consultancy",
+   "website": "https://dozendev.it",
+   "prime person": "Domenico Mazza",
+   "title": "Founder",
+   "email (verified on-page)": "ciao@dozendev.it",
+   "linkedin": "not found",
+   "what they do": "Custom AI agents & RAG on private docs, data automation (ETL), Next.js/React apps for SMEs",
+   "open role in his lane": "none (no careers page)",
+   "region": "Turin, IT",
+   "why he fits": "Exact stack: AI agents/RAG + ETL automation + Next.js — pure FDE build work",
+   "email source page": "https://dozendev.it",
+   "email subject": "Applied-AI engineer — agents + RAG + Next.js (DozenDev)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Domenico,\n\nI've been following DozenDev — building custom AI agents and RAG over private docs, plus the ETL and Next.js around them, is exactly the work I do. I'm an applied-AI engineer who ships p"
+  }
+ },
+ {
+  "company": "Gorilli",
+  "email": "contact@gorilli.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Gorilli",
+   "segment": "IT consultancy",
+   "website": "https://www.gorilli.io",
+   "prime person": "Paolo Antonio Rossi",
+   "title": "CEO & Co-Founder",
+   "email (verified on-page)": "contact@gorilli.io",
+   "linkedin": "https://www.linkedin.com/in/paoloantoniorossi/",
+   "what they do": "AI development, full-stack engineering, Web3, cloud/DevOps, startup product building",
+   "open role in his lane": "none (no careers page)",
+   "region": "Milan, IT",
+   "why he fits": "AI + full-stack product builds match his Python/TS/Next.js + LLM; English site",
+   "email source page": "https://www.gorilli.io/en/contact",
+   "email subject": "Applied-AI + full-stack engineer (Gorilli)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Paolo,\n\nGorilli's mix of AI development and full-stack product builds is exactly how I work — Python/TypeScript/Next.js with LLMs on top. I'm an applied-AI engineer who ships production agents and "
+  }
+ },
+ {
+  "company": "PugliAI",
+  "email": "sales@pugliai.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "PugliAI",
+   "segment": "IT consultancy",
+   "website": "https://pugliai.com",
+   "prime person": "Gregor Maric",
+   "title": "Co-Founder & CEO",
+   "email (verified on-page)": "sales@pugliai.com",
+   "linkedin": "https://it.linkedin.com/company/pugliai",
+   "what they do": "AI consulting for SMEs across manufacturing, fashion, finance, healthcare, tourism (15+ experts)",
+   "open role in his lane": "posts #hiring on LinkedIn (careers page down)",
+   "region": "Brindisi/Bergamo, IT",
+   "why he fits": "Ships custom AI to SMEs; English-friendly (CEO authored English book)",
+   "email source page": "https://pugliai.com/en/contact.html",
+   "email subject": "Applied-AI engineer — custom AI for SMEs (PugliAI)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Gregor,\n\nPugliAI shipping custom AI to SMEs across manufacturing, fashion, finance and more is exactly the delivery work I enjoy. I'm an applied-AI engineer who ships production agents and the inte"
+  }
+ },
+ {
+  "company": "Sernicola Labs",
+  "email": "info@sernicola-labs.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Sernicola Labs",
+   "segment": "IT consultancy",
+   "website": "https://www.sernicola-labs.com",
+   "prime person": "Lorenzo Sernicola",
+   "title": "Founder & Project Director",
+   "email (verified on-page)": "info@sernicola-labs.com",
+   "linkedin": "https://www.linkedin.com/in/lorenzosernicola/",
+   "what they do": "AI systems & automation: doc-trained chatbots, autonomous agent networks, AI in CRM/DB (NL queries) on OpenAI/Llama",
+   "open role in his lane": "none listed",
+   "region": "Milan, IT",
+   "why he fits": "Autonomous agents + LLM-in-app/CRM integration — his agent-build + integration work",
+   "email source page": "https://www.sernicola-labs.com/sviluppo-sistemi-intelligenza-artificiale-e-automation/",
+   "email subject": "Applied-AI engineer — agents + LLM-in-CRM (Sernicola)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Lorenzo,\n\nSernicola Labs' autonomous agent networks and LLM-in-CRM/DB work is right in my wheelhouse. I'm an applied-AI engineer who ships production agents and the integration plumbing around them"
+  }
+ },
+ {
+  "company": "Jimini AI",
+  "email": "contact@jimini.ai",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Jimini AI",
+   "segment": "Vertical-AI startup",
+   "website": "https://www.jimini.ai",
+   "prime person": "Raphael Arroche",
+   "title": "Co-founder & CEO",
+   "email (verified on-page)": "contact@jimini.ai",
+   "linkedin": "https://www.linkedin.com/company/jimini-ai/",
+   "what they do": "LLM copilot for lawyers — legal research, analysis, drafting; partnered with the Paris Bar",
+   "open role in his lane": "Careers (WTTJ) — not open-verified",
+   "region": "Paris, FR",
+   "why he fits": "RAG/LLM harness for legal workflows; Python/TS (they run github.com/JiminiAI)",
+   "email source page": "https://www.jimini.ai/en",
+   "email subject": "Applied-AI engineer — legal RAG harness (Jimini)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Raphael,\n\nJimini's LLM copilot for lawyers — RAG over legal corpora with real retrieval quality — is right in my wheelhouse; I build the harness around models. I'm an applied-AI engineer who ships "
+  }
+ },
+ {
+  "company": "Pandektes",
+  "email": "careers@pandektes.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "Pandektes",
+   "segment": "Vertical-AI startup",
+   "website": "https://pandektes.com",
+   "prime person": "Casper Laursen",
+   "title": "CEO & Co-founder",
+   "email (verified on-page)": "careers@pandektes.com",
+   "linkedin": "https://www.linkedin.com/in/casper-b-laursen-996908130/",
+   "what they do": "GenAI legal search / verified legal-research database for European law",
+   "open role in his lane": "Open application to careers@ — https://pandektes.com/careers (live)",
+   "region": "Copenhagen, DK",
+   "why he fits": "RAG over legal corpora + retrieval quality = his LLM/RAG lane",
+   "email source page": "https://pandektes.com/careers",
+   "email subject": "Applied-AI engineer — GenAI legal search (Pandektes)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Casper,\n\nPandektes' GenAI search over European law is exactly my RAG lane. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: at FlowSpace I built an L"
+  }
+ },
+ {
+  "company": "ReportAId",
+  "email": "press@reportaid.ai",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "B",
+   "company": "ReportAId",
+   "segment": "Vertical-AI startup",
+   "website": "https://www.reportaid.ai",
+   "prime person": "Giuseppe Faraci",
+   "title": "CEO & Co-founder",
+   "email (verified on-page)": "not found (use founder LinkedIn)",
+   "linkedin": "https://www.linkedin.com/in/giuseppefaraci/",
+   "what they do": "NLP/RAG structures unstructured clinical documents into care plans; live at San Raffaele",
+   "open role in his lane": "none found → cold-email",
+   "region": "Milan, IT",
+   "why he fits": "LLM/RAG over messy clinical docs + integration harness = his core",
+   "email source page": "press@reportaid.ai only in 2025 press release - not on site",
+   "flags / notes": "No email on own site; press@reportaid.ai was a 2025 press-release media contact only. Use founder LinkedIn (Giuseppe Faraci).",
+   "email subject": "[LinkedIn DM] Applied-AI engineer — clinical RAG (ReportAId)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Giuseppe,\n\nReportAId turning messy clinical documents into structured care plans with NLP/RAG is exactly my kind of build. I'm an applied-AI engineer who ships production agents and the integration"
+  }
+ },
+ {
+  "company": "Klaaryo",
+  "email": "dpo@klaaryo.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Klaaryo",
+   "segment": "AI-agent / GTM tool",
+   "website": "https://www.klaaryo.com",
+   "prime person": "Luca Tamborino Frisari",
+   "title": "Co-founder",
+   "email (verified on-page)": "dpo@klaaryo.com",
+   "linkedin": "https://www.linkedin.com/in/luca-tamborino-frisari/",
+   "what they do": "Conversational AI agent automating recruiting/onboarding, integrates ATS/HCM",
+   "open role in his lane": "none confirmed (careers: https://www.klaaryo.com/lavora-con-noi)",
+   "region": "Bari, IT",
+   "why he fits": "Italy geo-fit; small vertical-AI agent team; applied LLM product",
+   "email source page": "https://www.klaaryo.com/privacy-policy",
+   "flags / notes": "Only DPO/privacy email published; better route = founder LinkedIn or /lavora-con-noi.",
+   "email subject": "Applied-AI engineer — recruiting agents + ATS (Klaaryo)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Luca,\n\nKlaaryo's conversational AI agent for recruiting, integrating ATS/HCM, is right in my wheelhouse. I'm an applied-AI engineer who ships production agents and the integration plumbing around t"
+  }
+ },
+ {
+  "company": "Trigify",
+  "email": "hugo@trigify.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Trigify",
+   "segment": "AI-agent / GTM tool",
+   "website": "https://www.trigify.io",
+   "prime person": "Max Mitcham",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "hugo@trigify.io",
+   "linkedin": "https://www.linkedin.com/in/max-mitcham/",
+   "what they do": "GTM signal-intelligence: person-level buying signals across social platforms for CRMs & AI agents",
+   "open role in his lane": "none confirmed",
+   "region": "UK (remote) — NEEDS SPONSORSHIP",
+   "why he fits": "GTM-engineer-native product; but UK entity — not work-authorized UK without sponsorship",
+   "email source page": "https://www.trigify.io/privacy-policy",
+   "flags / notes": "UK entity - NEEDS SPONSORSHIP. Email is founder Max Mitcham (hugo@ alias), from privacy policy.",
+   "email subject": "Applied-AI / GTM engineer (Trigify)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Max,\n\nTrigify's person-level buying signals for CRMs and AI agents is exactly the GTM-engineering work I do. I'm an applied-AI engineer who ships production agents and the integration plumbing arou"
+  }
+ },
+ {
+  "company": "One Data",
+  "email": "marketing@onedata.de",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "One Data",
+   "segment": "EU consultancy",
+   "website": "https://onedata.ai",
+   "prime person": "Andreas Boehm & Stefan Roskos",
+   "title": "Managing Directors",
+   "email (verified on-page)": "marketing@onedata.de",
+   "linkedin": "https://de.linkedin.com/company/one-data-it",
+   "what they do": "Data intelligence / AI solutions firm; data & analytics delivery for enterprise",
+   "open role in his lane": "(Senior) Value Engineer — https://one-data.jobs.personio.de/job/2649882?language=en",
+   "region": "Passau/Munich, DE",
+   "why he fits": "Client-facing data/AI solutions delivery; moderate fit (leans consulting/product)",
+   "email source page": "https://onedata.ai/impressum/",
+   "email subject": "Applied-AI engineer — re: Value Engineer (One Data)",
+   "ready-to-send email (edit any [ ], then send)": "Hello One Data team,\n\nOne Data's client-facing data and AI solutions delivery lines up with my integration and product work. I'm an applied-AI engineer who ships production agents and the integration "
+  }
+ },
+ {
+  "company": "Agentix",
+  "email": "info@agentixai.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Agentix",
+   "segment": "IT consultancy",
+   "website": "https://agentixai.it",
+   "prime person": "not found",
+   "email (verified on-page)": "info@agentixai.it",
+   "linkedin": "https://www.linkedin.com/company/agentix-ai-bergamo",
+   "what they do": "AI agency for SMEs: custom AI agents (voice, sales, lead-gen, RAG), automations, AI SEO, training",
+   "open role in his lane": "none listed",
+   "region": "Bergamo, IT",
+   "why he fits": "RAG agents + automations for SMEs — squarely his agent/automation lane",
+   "email source page": "https://agentixai.it/chi-siamo/",
+   "email subject": "Applied-AI engineer — agents + automations (Agentix)",
+   "ready-to-send email (edit any [ ], then send)": "Hello Agentix team,\n\nAgentix's custom AI agents and automations for SMEs are exactly my daily build. I'm an applied-AI engineer who ships production agents and the integration plumbing around them: at"
+  }
+ },
+ {
+  "company": "Mocchi's",
+  "email": "info@mocchis.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Mocchi's",
+   "segment": "IT consultancy",
+   "website": "https://www.mocchis.com",
+   "prime person": "not found",
+   "email (verified on-page)": "info@mocchis.com",
+   "linkedin": "https://it.linkedin.com/company/mocchi-s",
+   "what they do": "Custom AI/ML software, AR/VR, web/mobile apps, dashboards, ERP",
+   "open role in his lane": "none listed",
+   "region": "Conegliano/Treviso, IT",
+   "why he fits": "AI + custom app/dashboard builds; local to his base in Venice",
+   "email source page": "https://www.mocchis.com/contatti",
+   "email subject": "Applied-AI + app engineer, local to Veneto (Mocchi's)",
+   "ready-to-send email (edit any [ ], then send)": "Hello Mocchi's team,\n\nMocchi's custom AI/ML and app builds are right in my wheelhouse — and I'm just up the road in Venice. I'm an applied-AI engineer who ships production agents and the integration p"
+  }
+ },
+ {
+  "company": "Quinck",
+  "email": "info@quinck.io",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "Quinck",
+   "segment": "IT consultancy",
+   "website": "https://www.quinck.io",
+   "prime person": "Antonio Marotta",
+   "title": "Founder",
+   "email (verified on-page)": "info@quinck.io",
+   "linkedin": "https://it.linkedin.com/company/quinck",
+   "what they do": "Software house: IoT/data-driven systems, web & mobile apps, custom software, consulting",
+   "open role in his lane": "intern/freelance only",
+   "region": "Imola, IT",
+   "why he fits": "Custom software + data/integrations fit his full-stack (lighter on LLM/AI)",
+   "email source page": "https://www.quinck.io/it/contatti",
+   "email subject": "Full-stack + integration engineer (Quinck)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Antonio,\n\nQuinck's data-driven systems and custom software builds line up well with my full-stack and integration work. I'm an applied-AI engineer who ships production agents and the integration pl"
+  }
+ },
+ {
+  "company": "SPS Fulfillment",
+  "email": "info@spsfulfillment.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "SPS Fulfillment",
+   "segment": "Vertical-AI startup",
+   "website": "https://spsfulfillment.com",
+   "prime person": "Thomas Garufi",
+   "title": "CEO",
+   "email (verified on-page)": "info@spsfulfillment.com",
+   "linkedin": "https://www.linkedin.com/in/thomas-garufi/",
+   "what they do": "AI-native 4PL: agents orchestrate warehouse selection, carrier monitoring, auto-rerouting",
+   "open role in his lane": "Careers: https://spsfulfillment.com/careers (team US-based)",
+   "region": "Italian founders, now NEW YORK, US",
+   "why he fits": "AI-agent orchestration = his lane BUT team US-based → remote/EU only, not US-authorized",
+   "email source page": "https://spsfulfillment.com/contact-us",
+   "flags / notes": "Team relocated to New York, US - remote/EU only; not US-authorized without sponsorship.",
+   "email subject": "Applied-AI engineer (remote/EU) — agent orchestration (SPS)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Thomas,\n\nSPS's AI agents orchestrating warehouse selection, carrier monitoring and rerouting are exactly my lane. I'm an applied-AI engineer who ships production agents and the integration plumbing"
+  }
+ },
+ {
+  "company": "ViteSicure",
+  "email": "info@vitesicure.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "ViteSicure",
+   "segment": "Vertical-AI startup",
+   "website": "https://vitesicure.it",
+   "prime person": "Eleonora Del Vento",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@vitesicure.it",
+   "linkedin": "https://it.linkedin.com/in/eleonoradelvento",
+   "what they do": "Embedded/plug-and-play life & protection insurance platform (insurtech)",
+   "open role in his lane": "Careers: https://vitesicure.it/lavora-con-noi/ (no in-lane title confirmed)",
+   "region": "Milan, IT",
+   "why he fits": "Embedded-insurance = API/integration + product eng (TS/Laravel/Next.js)",
+   "email source page": "https://vitesicure.it/",
+   "email subject": "Applied-AI / product engineer (ViteSicure)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Eleonora,\n\nViteSicure's embedded insurance platform — the API/integration and product engineering behind it — lines up with exactly what I build (TypeScript, Laravel, Next.js). I'm an applied-AI en"
+  }
+ },
+ {
+  "company": "einwert",
+  "email": "info@einwert.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Net-new (email + website)",
+  "row": {
+   "priority": "C",
+   "company": "einwert",
+   "segment": "Vertical-AI startup",
+   "website": "https://en.einwert.com",
+   "prime person": "Christina Mauer",
+   "title": "Founder & CEO",
+   "email (verified on-page)": "info@einwert.com",
+   "linkedin": "https://www.linkedin.com/in/dr-christina-mauer/",
+   "what they do": "AI hybrid real-estate valuation / ESG value management (proptech)",
+   "open role in his lane": "none (careers page empty)",
+   "region": "Munich, DE",
+   "why he fits": "Valuation needs data/integration harness + full-stack; RAG on property docs",
+   "email source page": "https://en.einwert.com/ueber-uns",
+   "email subject": "Applied-AI / full-stack engineer (einwert)",
+   "ready-to-send email (edit any [ ], then send)": "Hi Christina,\n\neinwert's hybrid real-estate valuation needs exactly the data/integration harness and full-stack work I do, including RAG over property docs. I'm an applied-AI engineer who ships produc"
+  }
+ },
+ {
+  "company": "Pillar",
+  "email": "info@pillar.it",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Pillar",
+   "website": "https://pillar.it",
+   "email": "info@pillar.it",
+   "verified": "reported (privacy policy) - VERIFY",
+   "linkedin": "https://www.linkedin.com/in/gabriel-guinea-montalvo/",
+   "note": "Fintech OS for construction firms; AI reconciles transactions, tracks "
+  }
+ },
+ {
+  "company": "Logistica OS",
+  "email": "info@logistica-os.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Logistica OS",
+   "website": "https://www.logistica-os.com",
+   "email": "info@logistica-os.com",
+   "verified": "reported (contact page) - VERIFY",
+   "linkedin": "https://www.linkedin.com/in/flavio-alario-bb382386/",
+   "note": "AI operating system for supply chains; AI agents + OCR auto-reconcile "
+  }
+ },
+ {
+  "company": "deepset",
+  "email": "info@deepset.ai",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "deepset",
+   "website": "https://www.deepset.ai",
+   "email": "info@deepset.ai",
+   "verified": "YES (imprint, anti-scrape)",
+   "linkedin": "https://de.linkedin.com/in/milos-rusic",
+   "note": "Imprint writes it as 'info at deepset.ai' (anti-scrape). FDE role asks 7+ yrs (senior)."
+  }
+ },
+ {
+  "company": "Qdrant",
+  "email": "info@qdrant.com",
+  "flags": [
+   "APPLIED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Qdrant",
+   "website": "https://qdrant.tech",
+   "email": "info@qdrant.com",
+   "verified": "YES (impressum)",
+   "linkedin": "https://de.linkedin.com/in/zayarni",
+   "note": "Open-source vector database for AI/RAG/agent search"
+  }
+ },
+ {
+  "company": "Langfuse",
+  "email": "contact@langfuse.com",
+  "flags": [
+   "APPLIED"
+  ],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Langfuse",
+   "website": "https://langfuse.com",
+   "email": "contact@langfuse.com",
+   "verified": "YES (imprint)",
+   "linkedin": "https://de.linkedin.com/in/marcklingen",
+   "note": "Open-source LLM engineering platform: tracing, evals, prompt mgmt, obs"
+  }
+ },
+ {
+  "company": "Twin (Twin Labs)",
+  "email": "support@twin.so",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "Twin (Twin Labs)",
+   "website": "https://twin.so",
+   "email": "support@twin.so",
+   "verified": "YES (privacy)",
+   "linkedin": "https://www.linkedin.com/in/hugomercier/",
+   "note": "Autonomous AI 'employee' agents in Slack/Gmail that navigate web tools"
+  }
+ },
+ {
+  "company": "SylloTips",
+  "email": "info@syllotips.com",
+  "flags": [],
+  "src": "Email outreach - 19 Aug 2026.xlsx/Already in tracker - add email",
+  "row": {
+   "company": "SylloTips",
+   "website": "https://www.syllotips.com",
+   "email": "info@syllotips.com",
+   "verified": "reported (footer) - VERIFY",
+   "linkedin": "https://it.linkedin.com/in/giorgio-barnab%C3%B2-384578a4",
+   "note": "Human-in-the-loop AI agents in MS Teams that learn from expert employe"
+  }
+ },
+ {
+  "company": "Anchor Offices",
+  "email": "contact@anchoroffices.com",
+  "flags": [],
+  "src": "Outreach - people to contact.xlsx/Outreach - people to contact",
+  "row": {
+   "priority": "A",
+   "company": "Anchor Offices",
+   "category": "Competitor",
+   "what they do": "Premium private office space, London + Sydney; browse + book viewings",
+   "website": "https://www.anchoroffices.com/",
+   "linkedin company page": "https://www.linkedin.com/company/anchor-offices",
+   "prime person + title": "person titles UNconfirmed",
+   "person linkedin or published email": "contact@anchoroffices.com (published on homepage)",
+   "why prabhavit is relevant": "Direct FlowSpace competitor he named; company email published",
+   "status / source note": "VERIFIED company + email; people below need title check"
+  }
+ },
+ {
+  "company": "Desana",
+  "email": "hello@desana.io",
+  "flags": [
+   "STATUS:VERIFIED web + published email"
+  ],
+  "src": "Outreach - people to contact.xlsx/Outreach - people to contact",
+  "row": {
+   "priority": "A",
+   "company": "Desana",
+   "category": "Competitor",
+   "website": "desana.io",
+   "linkedin company page": "uk.linkedin.com/company/desanahq",
+   "prime person + title": "Michael Cockburn, Co-Founder & CEO",
+   "person linkedin or published email": "uk.linkedin.com/in/michael-cockburn-41316997 / hello@desana.io",
+   "why prabhavit is relevant": "'Booking.com for offices', 32k+ resources across operators = the exact supply-integration he solved w/ OfficeRnD+Nexudus",
+   "status / source note": "VERIFIED web + published email",
+   "contacted?": "YES - connect req sent",
+   "date contacted": "2026-08-18"
+  }
+ },
+ {
+  "company": "Fabrika 06",
+  "email": "andrea@fabrika06.com",
+  "flags": [
+   "ALREADY_OUTREACHED",
+   "STATUS:VERIFY title; direct email pub"
+  ],
+  "src": "Outreach - people to contact.xlsx/Outreach - people to contact",
+  "row": {
+   "priority": "A",
+   "company": "Fabrika 06",
+   "category": "IT consultancy",
+   "what they do": "Vicenza n8n/Make/LLM consultant for Veneto SMEs",
+   "website": "fabrika06.com",
+   "linkedin company page": "not found (solo/boutique)",
+   "prime person + title": "Andrea Prando, Founder / AI Consultant",
+   "person linkedin or published email": "linkedin.com/in/andrea-prando/ ; andrea@fabrika06.com",
+   "why prabhavit is relevant": "Same region (Veneto) + same stack (n8n/Make/OpenAI/Claude)",
+   "status / source note": "VERIFY title; direct email published",
+   "contacted?": "YES - connect req sent",
+   "date contacted": "2026-08-18"
+  }
+ },
+ {
+  "company": "Operto",
+  "email": "nicola.graham@operto.com",
+  "flags": [],
+  "src": "Outreach - people to contact.xlsx/Outreach - people to contact",
+  "row": {
+   "priority": "B",
+   "company": "Operto",
+   "category": "Proptech automation",
+   "website": "operto.com",
+   "linkedin company page": "not found",
+   "prime person + title": "Nicola Graham, Partnerships Manager",
+   "person linkedin or published email": "not found (email nicola.graham@operto.com UNVERIFIED - do not trust)",
+   "why prabhavit is relevant": "FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents",
+   "status / source note": "VERIFY; VP Revenue Rick Gay"
+  }
+ },
+ {
+  "company": "CardNexus",
+  "email": "support@cardnexus.com",
+  "flags": [],
+  "src": "Client & project leads - 19 Aug 2026.xlsx/Pitch targets",
+  "row": {
+   "company": "CardNexus",
+   "what they do": "Multi-game trading-card marketplace (20+ TCGs)",
+   "the build you'd pitch (specific)": "Seller listing automation: card photo -> AI identifies game/set/edition/condition -> auto-draft listing with live market price; bulk collection import",
+   "why now": "Raised ~EUR 3.5M pre-seed (Jun 2026) for team expansion; sellers list manually today",
+   "contact": "Tristan Foureur, CEO & Co-founder",
+   "email / linkedin (+source)": "support@cardnexus.com  [VERIFIED on site]  · LinkedIn: /in/tfoureur/",
+   "website": "cardnexus.com",
+   "region": "France (Paris)",
+   "your play": "LISTING BOT"
+  }
+ },
+ {
+  "company": "Parodi Forwarding",
+  "email": "manlio@parodifw.it",
+  "flags": [],
+  "src": "Client & project leads - 19 Aug 2026.xlsx/Pitch targets",
+  "row": {
+   "company": "Parodi Forwarding",
+   "what they do": "Freight forwarding, transport, warehousing & customs (40+ yrs)",
+   "the build you'd pitch (specific)": "Customs/shipping DOCUMENT PROCESSING: parse bills of lading, invoices, packing lists, customs declarations (any format) -> structured data -> auto-fill customs/ERP + reconciliation",
+   "why now": "Traditional document-heavy customs SME digitalising",
+   "contact": "Manlio Marino (staff)",
+   "email / linkedin (+source)": "manlio@parodifw.it  [VERIFIED on site]  · general: info@parodifw.it",
+   "website": "parodifw.it",
+   "region": "Italy (Genoa)",
+   "your play": "DOC PROCESSING"
+  }
+ }
+]

@@ -1,0 +1,87 @@
+{
+  "verified_date": "2026-09-09",
+  "scope": "Research only. No sending, forms, shared log edits or browser actions. Five new Italian outreach targets.",
+  "history_checks": [
+    "/Users/prab/Downloads/claud jobs/loop/outreach.csv",
+    "/Users/prab/Downloads/claud jobs/applications.csv",
+    "/Users/prab/Downloads/claud jobs/loop/gmail_threads.jsonl"
+  ],
+  "history_limitation": "Local Gmail snapshot checked; parent should reconcile live Gmail before sending if available.",
+  "headroom": {
+    "used": true,
+    "saved_tokens": 0,
+    "note": "Search prose compression was no-op; optional localhost proxy unreachable. No savings claimed."
+  },
+  "targets": [
+    {
+      "company": "Doozy Service",
+      "email": "hello@doozy.it",
+      "location": "Selvazzano Dentro / Padova, Veneto",
+      "source_url": "https://www.doozy.it/lavora-con-noi/",
+      "hook_url": "https://www.doozy.it/",
+      "hook": "Laravel and Next.js custom software, n8n AI workflows, and MirooCRM with an integrated agent for lead qualification and follow-up.",
+      "fit": "FlowSpace Next.js/Laravel migration, CRM/GTM automation, human-reviewed listing pipeline.",
+      "language_constraints": "Written English appears as a preferred skill; Italian workplace proficiency is not explicitly specified. Italian beginner must be disclosed. Full-stack ad requires Padova province residence and at least one office day weekly; general careers says within one hour of office. Pitch spontaneous collaboration while stating Venice.",
+      "email_evidence": "Careers page explicitly gives hello@doozy.it as alternative to application form, twice.",
+      "status": "Spontaneous application email route; full-stack vacancy geographic constraint.",
+      "dedupe_snapshot_hits": [],
+      "email_language": "Italian, per user request; disclose actual beginner Italian level."
+    },
+    {
+      "company": "Thigor Agency",
+      "email": "info@thigoragency.com",
+      "location": "Vicenza, Veneto; also Sao Paulo",
+      "source_url": "https://thigoragency.com/consulenza-gratuita-marketing-vicenza",
+      "hook_url": "https://thigoragency.com/lavora-con-noi-agenzia-marketing-vicenza",
+      "hook": "Careers page specifically lists Web Developer e n8n Specialist for sites, integrations, webhooks, CRM and operational automation.",
+      "fit": "Direct n8n/API/CRM and customer workflow fit; real FlowSpace examples stronger than marketing-only pitch.",
+      "language_constraints": "Official contact FAQ explicitly says team works in Italian, Portuguese and English. Confirm English-first delivery suitability; no invented Italian fluency.",
+      "email_evidence": "Official contact page and careers search index show Italy inbox info@thigoragency.com. Direct shell careers fetch 406, web official search and rendered page verified.",
+      "status": "Career interest area and spontaneous applications; general/partnership email.",
+      "dedupe_snapshot_hits": [],
+      "email_language": "Italian, per user request; disclose actual beginner Italian level."
+    },
+    {
+      "company": "Astra Digital",
+      "email": "info@digitalastra.it",
+      "location": "Verona, Veneto; remote delivery throughout Italy",
+      "source_url": "https://digitalastra.it/contatti/",
+      "hook_url": "https://digitalastra.it/marketing-automation-milano/",
+      "hook": "n8n process automation, CRM lead scoring and follow-up, document reconciliation/ETL and human handoff from AI chatbots.",
+      "fit": "FlowSpace GTM automation, integrations and human review; contractor/collaboration pitch appropriate.",
+      "language_constraints": "English site navigation and English service content available; this does not confirm English working language. Disclose beginner Italian and professional English.",
+      "email_evidence": "Official contact page names info@digitalastra.it for detailed requests, quotes or collaborations; direct HTML confirms.",
+      "status": "Cold collaboration inquiry, no live vacancy verified.",
+      "dedupe_snapshot_hits": [],
+      "email_language": "Italian, per user request; disclose actual beginner Italian level."
+    },
+    {
+      "company": "Uqido",
+      "email": "info@uqido.com",
+      "location": "Padova, Veneto; Milan office",
+      "source_url": "https://www.uqido.com/contatti/",
+      "hook_url": "https://chatdoc.uqido.com/",
+      "hook": "ChatDoc business unit turns technical and administrative document archives into searchable company knowledge.",
+      "fit": "FlowSpace multiformat document-to-listing AI pipeline, human review and public llm-doc-parser demo.",
+      "language_constraints": "English website and Say Ciao or Hello contact framing available, but internal English-first work unconfirmed. Disclose beginner Italian. Do not claim ML research/computer vision expertise.",
+      "email_evidence": "Decoded public Cloudflare data-cfemail in official contact HTML to info@uqido.com; corroborated on official ChatDoc search result.",
+      "status": "Speculative applied-AI/integration inquiry, not application to specific Sales Engineer or ML opening.",
+      "dedupe_snapshot_hits": [],
+      "email_language": "Italian, per user request; disclose actual beginner Italian level."
+    },
+    {
+      "company": "Syncronika",
+      "email": "jobs@syncronika.it",
+      "location": "Milan; remote distributed team since 2015, Italy and abroad",
+      "source_url": "https://www.syncronika.it/lavora-con-noi/",
+      "hook_url": "https://www.syncronika.it/agenti-ai-e-automazioni/treviso/",
+      "hook": "Applied AI and system integration using n8n/Make plus custom Python/Node APIs; usual profiles include Laravel/Node platforms, middleware and automation.",
+      "fit": "FlowSpace Laravel/Next.js delivery, APIs, n8n and agent workflows. Team distribution supports Italy-based pitch.",
+      "language_constraints": "Team includes professionals in Italy and abroad, but no explicit English working-language guarantee. State Italian beginner and English professional; hybrid depends on project.",
+      "email_evidence": "Careers page explicitly invites spontaneous email applications; decoded public Cloudflare data-cfemail gives jobs@syncronika.it, distinct from footer info@syncronika.it.",
+      "status": "No current vacancies: careers explicitly accepts spontaneous applications.",
+      "dedupe_snapshot_hits": [],
+      "email_language": "Italian, per user request; disclose actual beginner Italian level."
+    }
+  ]
+}

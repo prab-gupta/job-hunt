@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464617362/ (LinkedIn "Apply" button was an off-platform redirect, "Responses managed off LinkedIn" - not Easy Apply; followed in my own tab to leyton.teamtailor.com and applied there. Real ATS = Teamtailor.)
+Duplicate posting (same JD, not applied): https://www.linkedin.com/jobs/view/4463529210/ (poster "Leyton Legal Società tra Avvocati")
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (CV). No cover-letter field existed on this form (only "Upload CV" and generic "Additional files" uploads, no message/text box); CoverLetter_Leyton.txt was written per the brief but had nowhere to go, so it was kept unused.
+
+Answers given (5 free-text essay questions, no other form fields beyond name/email/phone/CV/consent):
+1. "Tell us about something you have built using AI" -> FlowSpace listing bot (n8n + Claude + TypeScript, brochure/website/photo/spreadsheet -> drafted listing, 900+ listings, human-in-the-loop), with explicit split of what the agent did vs what I did (deciding the human checkpoint, the spec, the escalation path).
+2. "One technical decision, why not the obvious alternative" -> per-entity API-vs-CSV migration sync during the FlowSpace platform migration instead of one big-bang CSV cutover, and why (live bookings during migration).
+3. "Your coding-agent harness" -> Claude Code as daily driver, cost/risk-tiered model routing, hooks for standing rules, isolated-branch + additive-only pattern for risky live-route changes.
+4. "Agentic pipeline for development (planner/architect/implementer)" -> honest answer: a lighter plan-then-execute-then-review flow with human checkpoints, not a fully autonomous multi-agent loop; said so directly since the question allowed "not built, say so."
+5. "Last thing an AI agent got badly wrong, how did you catch it" -> a migration agent's small null count hid a mapper bug that had silently dropped ~29% of a field's real values; caught by demanding a source-absent vs mapper-bug split rather than trusting the top-line null count.
+
+Full essay text saved to answers/leyton-2026-09-09.md.
+
+No work-authorisation Yes/No field, salary field, notice-period field, or numeric years-of-experience field appeared anywhere on this form. Consent to Leyton storing personal data (Privacy Policy) ticked; a post-submit "Stand out from the crowd" marketing/talent-pool opt-in appeared after the thank-you page and was left unticked (not part of the application itself).
+
+Confirmation: "Thanks for applying / We have received your application and we will be reviewing it shortly." (Teamtailor thank-you page, "Applied" step marked complete). Saved to confirmations/Leyton-2026-09-09.txt. No PNG saved (Chrome tool screenshot saving unavailable per brief; the txt is the record).
+
+CSV: one SUBMITTED row appended to applications.csv (10 fields, ats = "LinkedIn Apply -> leyton.teamtailor.com (Teamtailor)").
+
+LEARNINGS: Leyton/Mainloop's careers.teamtailor.com form is a 5-essay screening form (AI project built, one technical decision, coding-agent harness, agentic dev pipeline, last AI-agent mistake) with only name/email/phone/CV/consent besides that, no salary/authorisation/notice/years fields at all. LinkedIn's "Apply" (vs "Easy Apply") button on a "Responses managed off LinkedIn" posting reliably opens the real ATS in a new tab; that new tab is safe to treat as your own working tab since it was spawned directly from your own click.

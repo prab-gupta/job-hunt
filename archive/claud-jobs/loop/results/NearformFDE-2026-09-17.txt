@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4432575344/ (offsite, applied direct at https://job-boards.greenhouse.io/nearform/jobs/7644791003)
+Company: Nearform | Role: Forward Deployed Engineer | Location: Ireland
+
+Uploaded: Prabhavit_CV_NearformFDE.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked) and CoverLetter_NearformFDE.pdf (0 em-dashes).
+Answers given: Country Italy, Location Venice, currently residing in Ireland = No, require sponsorship to work in Ireland = Yes, willing to travel to client sites in Europe = Yes, salary range = EUR 70,000-80,000 (contains the JD's stated EUR75,000 floor), Data Privacy confirmed.
+
+Dedupe note: Nearform has 4 separate country-specific Forward Deployed Engineer requisitions on Greenhouse (US/Italy/Ireland/UK). A different one (Italy, job 7834813003) was already SUBMITTED on 2026-09-11; this Ireland requisition (job 7644791003) was confirmed distinct by fetching both jobs directly from Nearform's Greenhouse API before applying, so this is not a duplicate.
+
+Blockers: none. Confirmation "Yay! You've submitted your application." at confirmations/NearformFDE-2026-09-17.txt.
+No new LEARNINGS line needed (no new ATS trap; the multi-requisition-per-company Greenhouse pattern was already logged for Aircall on 2026-09-17 08:40).

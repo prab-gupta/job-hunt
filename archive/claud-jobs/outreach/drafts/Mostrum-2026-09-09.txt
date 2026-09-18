@@ -1,0 +1,15 @@
+TO: hello@mostrum.com
+SUBJECT: Full-stack + AI engineer, Vicenza area
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Alessandro e team,
+
+Custom CRM/ERP builds with AI layered on top of business data is exactly the mix I work in. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy, happy to meet in person. Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

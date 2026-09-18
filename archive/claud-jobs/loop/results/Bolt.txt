@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4455419257/ (applied via https://bolt.eu/en/careers/positions/c2fff325-8414-401f-b9c2-d3605f13a024/?tab=apply)
+
+Uploaded: Prabhavit_CV_Bolt.pdf (tailored from Prabhavit_CV_EN.tex; roles reordered FlowSpace/Get2Germany/Clubee/UltraStrategy/Urlink/Tractionboard/Qomodo per today's user override not to lean on FlowSpace alone; Get2Germany Google-API bullet and Clubee API bullet kept high; 8 FlowSpace bullets kept; 2 pages, tectonic, parity check passed). No cover-letter field on this ATS, so CoverLetter_Bolt.txt (248 words, no em-dashes) was written but not uploaded.
+
+Answers given: source=LinkedIn, based=Italy/Veneto/Venice, VISA/Relocation assistance=Yes I need VISA/Relocation assistance, hybrid 3 days/week=Yes, notice period=None, demographic survey (gender/age/parent/disability)=Prefer not to disclose throughout, privacy consent ticked. Full detail in answers/bolt-2026-09-10.md.
+
+Blockers: none. No CAPTCHA, no login wall, no shadow-root upload issue - this ATS is a plain HTML form on bolt.eu.
+
+Success text: "Application received / Thanks for applying. We'll be in touch soon." Saved to confirmations/Bolt-2026-09-10.txt.
+
+LEARNINGS: Bolt does not use Greenhouse for this posting despite the brief's guess - it's a custom in-house careers form at bolt.eu/en/careers, reached by clicking LinkedIn's offsite "Apply" button (opens a new tab). The form has no cover-letter field at all, only Resume upload plus a handful of dropdowns/radios and a fully optional demographic survey (with an explicit "Prefer not to disclose" option on every demographic question, making the standing-answer rule trivial to apply). Notable JD detail: seniority listed as "Not Applicable" on LinkedIn metadata despite a substantive engineering role - worth checking that field directly rather than inferring seniority from title alone.

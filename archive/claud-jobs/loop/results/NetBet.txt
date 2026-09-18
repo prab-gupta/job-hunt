@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465815834/
+Uploaded: Prabhavit_CV_NetBet.pdf (explicitly uploaded via "Upload resume", verified on both the Resume step and the Review page; LinkedIn had pre-selected Prabhavit_CV_IASS.pdf from the library, which was NOT used).
+Letter: CoverLetter_NetBet.pdf/.txt built (UltraStrategy + FlowSpace evidence, Malta transparency line) but not attached - 4-page Easy Apply flow had no letter slot.
+Answers given: phone country code Italy (+39) + mobile 351 610 7807, years AI experience = 3, years LLM experience = 3, salary expectation = 50000. Unticked "Follow NetBet" checkbox before submit.
+Blockers: none. Note - "What is your salary expectation?" field rejected "EUR 50,000" as Invalid input; resubmitted as plain number "50000".
+LEARNINGS: confirms the pre-selected-CV trap again on a second lead in the same session (library defaults to whatever was uploaded most recently) - always re-verify the checked file name at every resume-bearing step, including the final Review page.

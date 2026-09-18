@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463964238/
+Uploaded: Prabhavit_CV_CoreFi.pdf (tailored, replacing the stale library default that had carried over from an earlier same-day application)
+Answers given: email prabhavitg@gmail.com, phone Italy (+39) 351 610 7807, "Have you completed the following level of education: Bachelor's Degree?*" = Yes, "Do you have a valid driver's license?*" = No (fact confirmed by user 2026-09-11, recorded in answers/work-authorisation.md). No cover letter field in this Easy Apply flow. Unticked the default-checked "Follow CoreFi" checkbox (non-essential opt-in).
+Blockers: none this run. This application had previously stopped at the driver's license question because no fact was on file; the user supplied the answer (No) and this run resumed the Easy Apply flow (prior tab had closed, reopened from the job URL) and completed pages 1-4, then submitted.
+Success confirmed: toast "Your application was sent to CoreFi!" and the job page's Application status panel reading "Application submitted / now".
+LEARNINGS: none new (no new ATS trap; confirms LinkedIn Easy Apply resets the resume selector to the most-recently-used library file on a fresh page load, so always explicitly re-upload the tailored PDF rather than trusting the pre-selected radio).

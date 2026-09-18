@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://platoapp.jobs.personio.de/job/2758311 (Personio) -- listing found via https://www.arbeitnow.com/jobs/companies/platoapp/founding-gtm-engineer-berlin-422757, DevProofs LinkedIn repost id 4464821576 is the same requisition, not applied there separately.
+
+Uploaded:
+- Prabhavit_CV_Plato.pdf (CV slot, required) -- 64,712 bytes, verified byte-for-byte against the source file after reconstruction in-browser.
+- CoverLetter_Plato.pdf (Other slot, optional -- form said "no cover letter is needed" but the slot exists and the task asked for it attached).
+
+Answers given:
+- First/Last: Prabhavit / Gupta; Email: prabhavitg@gmail.com; Phone: +39 351 610 7807
+- Available from: 25/09/2026 (two weeks out)
+- Expected salary: EUR 45,000 - 55,000
+- No work-authorisation/relocation form fields existed on this short form; the Germany transparency line and Berlin relocation openness are stated in the cover letter body instead.
+
+Blockers: none. No CAPTCHA, no account creation, no anti-AI attestation, no assessment.
+
+Confirmation: "THANK YOU / We have received your application and will contact you shortly!" (captured via get_page_text/read_page; no PNG -- the Browser pane could not composite frames in this non-interactive session).
+
+LEARNINGS:
+1. Personio's CV and "Other" file inputs can be filled without a native file-picker: build the file in-page via `atob` -> `Uint8Array` -> `Blob` -> `File`, assign through a `DataTransfer` to `input.files`, then dispatch `change`+`input` events. Personio's React form accepts this exactly like a real upload (the "Uploaded files" list renders the filename).
+2. That technique requires the whole file's base64 to be typed into a `javascript_tool` call. Reliable up to only a few thousand characters per call -- a 20,000-char chunk silently landed 324 characters short on one attempt with no error (self-authored transcription loss, not a tool limit: a JS-generated 20,000-char string via `.repeat()` landed exactly). Fix: chunk at 2,000-4,000 chars and check `variable.length` against the expected cumulative total after every single append; on any mismatch, truncate back to the last verified checkpoint and resend the failed chunk in smaller pieces. After the last chunk, decode and check the assembled Blob's byte size against the source file's exact size before touching the file input.
+3. For a large PDF (this CV was ~322KB, dominated by an 800x800 embedded photo), re-encoding the photo as a small JPEG (400x400, quality ~70) into a new file and swapping the `\includegraphics` reference cut the PDF to ~65KB, making the in-browser reconstruction 5x faster and far less error-prone. Never touch the shared photo_orig.png source; make a new per-job photo file instead.
+4. Confirmed a same-name trap: platoapp.com is an unrelated multiplayer-games messenger app, not the B2B "Plato" (AI operating system for distribution) behind this Personio tenant. Always verify the "About us" text on the actual ATS/job page before quoting a company's own words in a letter -- do not assume a plausible-looking top-level domain is the right company.

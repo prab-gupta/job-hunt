@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4465905330/ (offsite -> https://basf.jobs/dark_blue_EMEA/job/Madrid-AI-Engineer-Agentic-Coding-%28mfd%29/142942-en_US/ -> https://career5.successfactors.eu/careers?company=C0000159936P)
+Uploaded: nothing yet (blocked before upload step). Prabhavit_CV_BASF.pdf and CoverLetter_BASF.pdf/.txt built and saved in ROOT.
+Answers given: none yet, form not reached. Standing answers prepared in answers/basf-2026-09-16.md for when the user is past the account wall (years 3, salary EUR 45,000-55,000, Spain authorised No / employer permit Yes, hybrid Madrid Yes).
+Blockers: SuccessFactors "Career Opportunities: Sign In" page, only email+password login or "Create an account", no guest-apply path. Per brief, did not create an account. Logged in NEEDS_YOU.md row 17r and applications.csv.
+LEARNINGS: none new (SuccessFactors account wall is an already-documented trap).

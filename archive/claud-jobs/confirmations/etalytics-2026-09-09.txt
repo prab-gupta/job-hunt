@@ -1,0 +1,8 @@
+etalytics GmbH - QA Engineer (m/f/d) Test Automation
+URL applied: https://join.etalytics.com/o/qa-engineer-mfd-test-automation/c/new?source=LinkedIn+Basic+Jobs
+(reached via LinkedIn job https://www.linkedin.com/jobs/view/4464470633/ -> "Apply on company website" -> Recruitee-style ATS on join.etalytics.com)
+
+Confirmation page (https://join.etalytics.com/o/qa-engineer-mfd-test-automation/applied):
+"All done!
+Your application has been successfully submitted!"
+Applied tab marked with checkmark next to "Application".

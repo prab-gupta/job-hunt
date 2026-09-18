@@ -1,0 +1,11 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4456918511/
+
+Blocker/reason: language gate. Live JD "What We Are Looking For" states "Fluency in English and Danish" as required (no plus/nice-to-have qualifier). Task instruction for this row explicitly said "Danish required = kill" (English C2 and conversational Italian only on file). No years/seniority/agency/stack kills applied per the USER RULE 2026-09-16 sweep (this JD is also a wide senior-to-Director band with a "relevant master's degree" ask, both waived for this batch); the language gate fired regardless and is the sole reason for the kill.
+
+Dedupe: NEW (dedupe.py --check KPMG; grep applications.csv for "kpmg" found only the unrelated KPMG Italy Junior ServiceNow Developer row, different company/country/requisition, status NEEDS YOU, does not block per the dedupe rule).
+
+Cheap check: apply-button=1 (posting open, not pursued further).
+
+No CV or letter built, no form touched, nothing submitted.

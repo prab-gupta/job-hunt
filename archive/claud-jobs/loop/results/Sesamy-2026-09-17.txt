@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465515898/
+Company: Sesamy, Integration & Technical Delivery Specialist - Stockholm (LinkedIn Easy Apply, LI-PICK row, order 2/3)
+
+Dedupe: NEW. Hard gates re-checked on the live JD: On-site Stockholm, Easy Apply confirmed present, no closed/not-accepting banner, no anti-AI disclaimer in the JD text.
+
+Uploaded: Prabhavit_CV_Sesamy.pdf (tailored from Prabhavit_CV_EN.tex, reorder/prune only, zero new bullet text, 2-page tectonic compile). Cover letter CoverLetter_Sesamy.pdf/.txt built (~230 words, leads with Get2Germany paired with FlowSpace plus a Clubee aside, Sweden work-authorisation transparency line, 0 em-dashes) but no text box was offered in this Easy Apply flow so it was kept on file only.
+
+Answers given: email/phone prefilled (phone typed as 3516107807, Italy +39 prefilled); commuting to Stockholm = Yes; Svenska proficiency = None; Engelska proficiency = Professional. Resume step initially defaulted to a stale library CV from another session (Prabhavit_CV_DOJOAI.pdf) - re-uploaded and verified Prabhavit_CV_Sesamy.pdf selected (green checkmark) before Review, then again confirmed on the Review page.
+
+Confirmation: job page's "Application status" panel showed "Application submitted / now" immediately after Submit. Chrome cannot save PNGs so the record is confirmations/Sesamy-2026-09-17.txt (per the brief's Chrome section).
+
+Blockers: none. Nothing new for LEARNINGS - the resume-picker-defaults-to-last-upload trap was already documented (2026-09-16 18:31 entry); this run reconfirms it, no new pattern.

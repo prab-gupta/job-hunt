@@ -1,0 +1,17 @@
+TO: info@cofoundry.it
+SUBJECT: AI and integrations engineer for the Cofoundry network (Venice based)
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Erica,
+
+I am an applied AI engineer based in Venice, and Cofoundry is the kind of coworking network my last two years were built around, so this is a direct note.
+
+At FlowSpace (coworking marketplace, London) I built the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far, the support agents that answer availability and pricing questions from live data with human escalation, and the OfficeRnD and Nexudus API integrations for bookings. The platform grew from 2,000 to 4,500+ users over that period.
+
+For a network like Cofoundry that means location onboarding, bookings and member support that mostly run themselves. If you are looking for someone on AI, integrations or product, I would like to talk, and I am in Italy so I can come by in person.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. I work in English; my Italian is basic and improving. EU long-term residence permit, so hiring in Italy is straightforward.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

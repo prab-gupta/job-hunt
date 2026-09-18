@@ -1,0 +1,10 @@
+NEEDS YOU - Accenture Espana, Forward Deployed Engineer, Madrid
+LinkedIn posting: https://www.linkedin.com/jobs/view/4443899271/
+Requisition: R00345180 (Forward Deployed Engineer Specialist)
+Careers listing: https://www.accenture.com/es-es/careers/jobdetails?id=R00345180_es
+Apply URL (blocker): https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Madrid-Castellana-85/Forward-Deployed-Engineer-Specialist_R00345180-1/apply/applyManually
+
+Blocker: Clicked Apply on LinkedIn -> Accenture careers site "Envia tu CV" -> Workday apply chooser (Autofill with Resume / Apply Manually / Use My Last Application) -> clicked Apply Manually -> Workday still forces a Sign In screen (Google account or Workday username/password) before any application fields are shown. No guest path exists past this screen, matching the pattern seen today across Accenture Italia, DACH and Slovakia requisitions. Did not create an account per brief.
+
+CV and letter were built and are ready to submit once the user signs in:
+Prabhavit_CV_AccentureES.pdf, CoverLetter_AccentureES.pdf/.txt

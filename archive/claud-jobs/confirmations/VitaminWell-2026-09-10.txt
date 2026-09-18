@@ -1,0 +1,11 @@
+Vitamin Well Group -- Fullstack Engineer -- Stockholm, Sweden
+Submitted: 2026-09-10
+ATS: Teamtailor (career.vitaminwell.com)
+Job URL: https://career.vitaminwell.com/jobs/7819373-fullstack-engineer-vitamin-well-group?utm_source=LinkedIn
+Confirmation URL: https://career.vitaminwell.com/jobs/7819373-fullstack-engineer-vitamin-well-group/applications/50f0aa2a-ada0-407f-844d-42548847eded/thanks/f5180dcc8f0caa3d7c878ca21ebcd9a695370c3c55f2d3330f1656b64db5a4db
+
+Success page title: "Applied to Fullstack Engineer - Vitamin Well Group"
+Success text: "Thanks for applying. We have received your application and we will be reviewing it shortly."
+Progress indicator shown: "Applied" (step 1 of 2, checked) / "Connect" (step 2, optional, skipped).
+
+Note: PNG screenshot not saved -- per APPLY_AGENT_BRIEF.md, PNG saving is not available via Claude in Chrome; this text file is the confirmation record.

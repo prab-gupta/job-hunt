@@ -1,0 +1,12 @@
+Accenture Italia - Forward Deployed Engineer Manager - 2026-09-16
+STATUS: NEEDS YOU (account wall, not submitted)
+
+LinkedIn: https://www.linkedin.com/jobs/view/4444008201/
+Accenture job page (req R00345222, Roma / multiple locations): https://www.accenture.com/it-it/careers/jobdetails?id=R00345222_it&src=LINKEDINJP
+Workday apply page: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/Forward-Deployed-Engineer-Manager_R00345222/apply -> "Apply Manually" -> step 1 of 6 "Create Account/Sign In"
+
+Page text seen: "Sign In / You may choose to sign in using your Google account ... You may alternatively sign in using a Workday username and password. ... Sign in with Google OR Sign in with email"
+
+No guest-apply path (same Accenture Workday tenant, accenture.wd103.myworkdayjobs.com, walled on every other requisition tried this month: Analyst R00344568, Specialist R00344641, DACH, Slovakia R00303209). Per the standing rule, no account was created and no Google sign-in was performed. Nothing submitted.
+
+CV and letter ready (separate from the earlier Accenture Italia files to avoid overwriting them): Prabhavit_CV_AccentureFDE.pdf, CoverLetter_AccentureFDE.pdf/.txt. See answers/accenturefde-2026-09-16.md and NEEDS_YOU.md section C.

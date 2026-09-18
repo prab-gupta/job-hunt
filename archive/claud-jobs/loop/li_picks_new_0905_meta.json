@@ -1,0 +1,119 @@
+[
+{
+"id": "4437166116",
+"company": "ReBloom",
+"title": "Product Engineer - ReBloom - Copenhagen",
+"location": "Copenhagen Metropolitan Area",
+"offsite": false,
+"ab": 2,
+"crit": "Entry level"
+},
+{
+"id": "4454539171",
+"company": "GoldRepublic",
+"title": "AI Engineer Lead",
+"location": "Amsterdam, North Holland, Netherlands",
+"offsite": true,
+"ab": 1,
+"crit": "Mid-Senior level"
+},
+{
+"id": "4446501447",
+"company": "CiviSmart Infrastructure",
+"title": "Software developer (L. 68/99)",
+"location": "Chioggia, Veneto, Italy",
+"offsite": true,
+"ab": 1,
+"crit": "Not Applicable"
+},
+{
+"id": "4467704517",
+"company": "RELEX Solutions",
+"title": "Product Engineer",
+"location": "Greater Venice Metropolitan Area",
+"offsite": true,
+"ab": 1,
+"crit": "Not Applicable"
+},
+{
+"id": "4442542643",
+"company": "Ruby Labs",
+"title": "Senior AI Engineer",
+"location": "Meolo, Veneto, Italy",
+"offsite": true,
+"ab": 1,
+"crit": "Not Applicable"
+},
+{
+"id": "4465010206",
+"company": "Digital Pills",
+"title": "Senior MarTech Engineer",
+"location": "Turin, Piedmont, Italy",
+"offsite": true,
+"ab": 1,
+"crit": "Mid-Senior level"
+},
+{
+"id": "4461065649",
+"company": "Omada by TP-Link Italia",
+"title": "Business Networks Support Engineer",
+"location": "Cernusco sul Naviglio, Lombardy, Italy",
+"offsite": false,
+"ab": 2,
+"crit": "Entry level"
+},
+{
+"id": "4464576330",
+"company": "ADENTIS Italia",
+"title": "AI Automation Engineer (Dify)",
+"location": "Greater Milan Metropolitan Area",
+"offsite": false,
+"ab": 2,
+"crit": "Associate"
+},
+{
+"id": "4465515898",
+"company": "Sesamy",
+"title": "Integration & Technical Delivery Specialist",
+"location": "Stockholm, Stockholm County, Sweden",
+"offsite": false,
+"ab": 2,
+"crit": "Entry level"
+},
+{
+"id": "4465544175",
+"company": "Metheion",
+"title": "Full-Stack Edge AI Engineer",
+"location": "Leuven, Flemish Region, Belgium",
+"offsite": false,
+"ab": 2,
+"crit": "Mid-Senior level"
+},
+{
+"id": "4468248135",
+"company": "Barden | B Corp",
+"title": "AI Deployment Manager",
+"location": "Dublin, County Dublin, Ireland",
+"offsite": false,
+"ab": 2,
+"crit": "Mid-Senior level"
+},
+{
+"id": "4464863110",
+"company": "Hays",
+"title": "RPA Developer & AI Automation",
+"location": "Lisbon, Portugal",
+"offsite": false,
+"ab": 2,
+"crit": "Mid-Senior level"
+},
+{
+"id": "4468205427",
+"company": "PE Global",
+"title": "AI Deployment Manager",
+"location": "Greater Dublin",
+"offsite": false,
+"ab": 2,
+"crit": "Mid-Senior level"
+}
+]

@@ -1,0 +1,20 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4468356968/ (offsite -> https://jobs.teradyne.com/Teradyne/job/Odense-Technical-Lead-Manager%2C-Forward-Deployed-Engineering/1430909400/?utm_source=LINKEDIN&utm_medium=referrer -> Apply now -> https://career41.sapsf.com/careers?company=teradynein, tab 550851471)
+Company: Teradyne - Technical Lead Manager, Forward Deployed Engineering - Odense, Denmark
+
+Uploaded: nothing yet, never reached an upload step.
+
+BLOCKER (user-only): Teradyne's careers site runs on SAP SuccessFactors. The "Apply now" button offers only "Apply Now" or "Start applying with LinkedIn"; both lead to a SuccessFactors account wall (career41.sapsf.com) with exactly two options, "Sign In" (needs existing credentials) or "Create an account". There is no guest-apply path. Account creation and password entry are prohibited actions for this agent per policy, so the row was stopped here without proceeding.
+
+This matches the exact risk the task flagged ("Teradyne likely runs Workday: if it forces account creation with email verification and offers no guest path, stop that row"), except the actual ATS is SAP SuccessFactors rather than Workday; the same account-wall pattern applies.
+
+Materials built and ready for the user:
+- Prabhavit_CV_Teradyne.pdf (tailored from Prabhavit_CV_EN.tex, career summary trimmed to 2 bullets, Bubble/low-code items pruned, 2 pages compiled)
+- CoverLetter_Teradyne.pdf / .txt (~230 words, states the 8-vs-3-years gap and the lack of formal management experience honestly in paragraph 1 and again at the close; draws on FlowSpace (AI listing bot, support agents, Claude Code daily use, legacy migration) and UltraStrategy (CV-parsing pipeline as a reusable-capability pattern); em-dash count checked = 0)
+
+Dedupe: NEW.
+
+Fit note: JD asks 8+ years and team leadership experience (formal management welcome but "a strong tech lead ready to step up will be considered"); Prabhavit has 3 years and no formal management history. Applied honestly per the FDE-ALL standing rule intent, but blocked before any form was reachable.
+
+No new LEARNINGS line: Workday/SuccessFactors account walls with no guest path are already a documented pattern (see 2026-09-17 09:02 entry on Leonardo/AVEVA); this is the same category of blocker on a different ATS vendor, not a new trap.

@@ -1,0 +1,4 @@
+Oplane - Forward Deployed Engineer (Malmo, Sweden) - own-site application form
+URL: https://www.oplane.com/careers/apply?position=Forward%20Deployed%20Engineer
+Success text shown: "Application Submitted! Thank you for your interest in joining Oplane. We'll review your application and get back to you soon."
+Submitted 2026-09-16: Position Forward Deployed Engineer, Full Name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, LinkedIn https://www.linkedin.com/in/prabhavit/, Resume Prabhavit_CV_Oplane.pdf, "Tell us about yourself" answered with a self-intro plus the JD's specific question (a deployment that went badly and what was done about it), drawn from the FlowSpace live migration.

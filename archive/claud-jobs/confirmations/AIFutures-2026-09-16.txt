@@ -1,0 +1,9 @@
+LinkedIn Easy Apply confirmation - AI Futures, Founding Forward Deployed Engineer
+URL: https://www.linkedin.com/jobs/view/4464743277/
+Submitted: 2026-09-16
+
+Success dialog text:
+"Your application was sent to AI Futures!
+You can keep track of your application in the "Applied" tab of My Jobs"
+
+Also shown on job page: Application status - Application submitted - now

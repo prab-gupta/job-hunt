@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Pre Sales Engineer role at Blip. Conversational AI is the product I already build inside a live platform, not a system I would need to learn from scratch.
+
+At FlowSpace I built RAG-backed support agents with confidence-based escalation, so a chatbot answers what it can and hands off to a human when it should not guess. I also mediate directly between our internal team, an external agency and end customers, resolving issues and translating what people need into what gets built, and I own the integrations against operator systems, OfficeRnD and Nexudus APIs and webhooks driving live bookings. The stack behind all of it is Next.js, Laravel and Supabase.
+
+That combination, a working conversational agent, hands-on customer-facing work, and REST API integration, is close to what a Pre Sales Engineer does day to day: understand a client's process, show them what Blip can build, and translate that into a feasible solution.
+
+I am based in Venice and ready to relocate to Madrid. I hold Italian EU long-term resident status, am not currently authorised to work in Spain, and would need the applicable employer-side permit, which I am ready to complete.
+
+Regards,
+Prabhavit Gupta

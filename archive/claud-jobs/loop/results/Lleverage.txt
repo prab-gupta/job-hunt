@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465027334/
+ATS: Recruitee (https://lleverage.recruitee.com/o/forward-deployed-ai-engineer-1/c/new)
+Uploaded: Prabhavit_CV_Lleverage.pdf, CoverLetter_Lleverage.pdf
+Answers given: name/email/phone; years not asked directly (form had no numeric years field); salary not asked (posted band EUR 65-85k, no input field); Italian not asked; top-1% free text (honest, evidence-based, no boastful claim); go-all-in=Yes; work majority of time in Amsterdam office=Yes (consistent with relocation Yes); speak Dutch=No; work permit for Netherlands=No (with TWV/employer-permit transparency line in the cover letter).
+Blockers: none.
+LEARNINGS: Recruitee phone-country selector and form_input on the tel field silently reset the value to just the dial code; had to click into the field and use computer type to append the digits. Recruitee custom radio buttons also did not respond reliably to form_input/computer left_click by ref (refs renumber every scroll on this page); clicking the visible circle by pixel coordinate worked every time. Always re-screenshot and verify radio state visually before submit on Recruitee forms.

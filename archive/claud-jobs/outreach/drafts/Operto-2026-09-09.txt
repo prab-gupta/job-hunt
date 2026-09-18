@@ -1,0 +1,17 @@
+TO: hr@operto.com
+SUBJECT: Full-stack + AI automation engineer for Operto
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Hi Operto team,
+
+Streamlining guest access, housekeeping and messaging for hospitality operators, plus the new Operto ONE AI intelligence layer, maps directly onto what I built at FlowSpace: an LLM pipeline that produced 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD and Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Working example: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, EU long-term resident; for a Vancouver-based role I'd need employer sponsorship, and I'm available immediately, remote-friendly.
+
+Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

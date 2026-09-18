@@ -1,0 +1,13 @@
+Wide Group Srl - AI Engineer - Data Science
+Submitted: 2026-09-11
+ATS: Allibo (joblink.allibo.com / am9.allibo.com)
+Apply URL: https://joblink.allibo.com/ats9/job-offer.aspx?DM=1570&SG=6&FT=100598&ID=179790&LN=IT
+Final confirmation page: https://am9.allibo.com/web/ApplicationV2/ApplicantCompletionResult?dm=bsSzwA0UGWvL2joH2wbc8Q__&ln=it&tid=uhFt@5-l5RRgtHAAyZe6Ew__
+
+Success text (Italian, verbatim from confirmation page):
+"Ti ringraziamo!
+I tuoi dati sono stati acquisiti correttamente e posti al vaglio del nostro team HR."
+
+(English: "Thank you! Your data has been correctly acquired and is under review by our HR team.")
+
+Note: Chrome screenshot save-to-disk did not return a retrievable file path in this session (per APPLY_AGENT_BRIEF, PNG saving is not available in Chrome for this session; this txt is the confirmation record). The confirmation page was visually verified via computer:screenshot before logging.

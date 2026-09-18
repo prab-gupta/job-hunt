@@ -1,0 +1,16 @@
+STATUS: SUBMITTED
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4466260895/
+URL (destination): https://www.uniqa-gsc.sk/pracovna-pozicia/?pid=5359600
+Tab ID: 550851710 (Chrome MCP tab group)
+
+Dedupe: NEW. Cheap check: apply-button count 1 (posting open). Hard gates re-checked on the LIVE destination page (not just the LinkedIn-prefetched JD): the destination page's own "What we expect" section asks for several years of ML/applied-AI experience, strong Python, named agentic frameworks (LangGraph/LangChain/Semantic Kernel/AutoGen/LlamaIndex/CrewAI), Azure OpenAI, containers/CI-CD/observability, and team coaching - none of this appeared in the LinkedIn-prefetched JD text. This reads more senior than LinkedIn's own "Not Applicable" seniority tag. No explicit year number or "must have" framing was used ("or similar" language), so it did not trip a hard numeric gate; proceeded as instructed, but flagging the mismatch (Prabhavit's agent work is n8n + Claude API based, not the named Python frameworks) for the user's awareness. No anti-AI clause found.
+
+Uploaded: Prabhavit_CV_UNIQA.pdf and CoverLetter_UNIQA.pdf (English, 291 words, no em-dash) via a simple Contact Form 7 form (Meno a priezvisko, E-mail, Telefon, CV upload, cover letter upload, GDPR consent checkbox). No account creation.
+
+Answers given: Full name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, GDPR data-processing consent checked. Cover letter used the Slovakia work-permit transparency line from answers/work-authorisation.md (not authorised, would need employer-side permit/sponsorship). Salary not asked on this simple form; cover letter did not state a figure (JD floor is EUR 2,381/month gross x14 = ~EUR 33,334/year).
+
+Technical note: this destination tab was backgrounded by the browser and rendered with computed `body { display: none }` - screenshots came back blank and coordinate/ref clicks on the submit button did not fire (zero-size bounding box). Verified every field value and both file uploads via direct DOM/JS inspection instead of relying on screenshots, then submitted by dispatching a JS MouseEvent('click') directly on the submit input (bypassing the layout-dependent click path). This worked: the form's class changed from "wpcf7-form init" to "wpcf7-form sent" and the Slovak confirmation text appeared: "Dakujeme za vasu spravu. Bola odoslana." (Thank you for your message, it has been sent.)
+
+Confirmation saved to confirmations/UNIQA-2026-09-17.txt (screenshot not available per Chrome logging rules for this ATS; the success text is the record).
+
+LEARNINGS.md line added: uniqa-gsc.sk (Contact Form 7) can render with body display:none on a backgrounded tab, breaking screenshot and coordinate-click paths; verify via JS/DOM and submit via a dispatched click event on the submit input when this happens. Also noted: LinkedIn-prefetched JD text for this posting omitted the entire requirements section present on the live page - always re-read the live destination page's full text before treating a LinkedIn snapshot as complete.

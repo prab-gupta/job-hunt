@@ -1,0 +1,17 @@
+NEEDS YOU - not submitted. No success text seen, no application entered.
+
+Job: Software Engineer, Capgemini Engineering, Marcon, Veneto, Italy (req 436075-en_GB)
+LinkedIn posting: https://www.linkedin.com/jobs/view/4462844208/ (no Easy Apply - "Apply" is external, "Responses managed off LinkedIn")
+
+Path taken:
+1. LinkedIn job page, clicked Apply -> opened https://www.capgemini.com/jobs/436075-en_GB_SAPBTP/Software-Engineer (verified same JD text and req ID as the LinkedIn posting; location list includes "Marcon VE").
+2. Clicked "Apply for this job" -> opened https://career5.successfactors.eu/careers?company=capgemitecP3, a SAP SuccessFactors career portal.
+3. This portal requires creating an account before an application can be started: "Already a registered user? Please sign in", plus a mandatory Resume upload, Email/Retype Email, and a "Choose Password" field with complexity rules (8-18 chars, upper+lower, number/punctuation) directly on the first screen.
+
+Blocker: mandatory account creation (email + password) to apply. Per the apply-agent brief this is a NEEDS YOU hand-back; no account was created, no fields were filled, nothing was submitted.
+
+Chrome tab left open for the user: tabId 550849809 (career5.successfactors.eu, "Career Opportunities: Software Engineer (436075)").
+
+Prepared and ready for the user to use once signed in:
+- CV: Prabhavit_CV_Original_EN.pdf
+- Cover letter: CoverLetter_Capgemini.pdf / CoverLetter_Capgemini.txt (170 words, no em-dashes)

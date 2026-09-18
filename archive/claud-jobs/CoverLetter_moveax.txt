@@ -1,0 +1,12 @@
+Dear moveax Hiring Team,
+
+I am applying for the Software Engineer role in Rome. I have three years of professional experience building and shipping products end to end, and I am comfortable working across both backend and frontend, picking up the parts of a stack I know less well as I go.
+
+At FlowSpace, I lead the engineering side of a live workspace marketplace. I took over the platform and drove its migration off a legacy stack onto Next.js and Laravel: I mapped the old data structure to the new one, moved each entity through API endpoints or CSV exports depending on what fit, and ran the cutover while the product stayed live, growing the user base from 2,000 to 4,500 plus. I also shipped OfficeRnD and Nexudus booking integrations and built support AI agents that answer customer queries from live platform data.
+
+At UltraStrategy, I built a CV parsing and assessment pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores how relevant the candidate is for specific roles, and generates a standardised Ultra CV for the frontend. I also built the platform that serves different user profiles.
+
+I hold Italian EU long term resident status, so I am authorised to work in Italy without sponsorship. I am based in Venice and glad to work hybrid from Rome. I enjoy analysing problems that cross the backend and frontend boundary, and would welcome the chance to keep doing that at moveax.
+
+Regards,
+Prabhavit Gupta

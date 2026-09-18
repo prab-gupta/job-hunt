@@ -1,0 +1,15 @@
+TO: info@lasersoft.it
+SUBJECT: Candidatura spontanea per Lasersoft
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Lasersoft,
+
+Oltre 25 anni di software per hotel, ristorazione e retail e la nuova sede di Pesaro raccontano un'azienda in crescita: le piattaforme di prenotazione e gestione sono il mio campo. In FlowSpace, marketplace di spazi di coworking, ho costruito le integrazioni con le piattaforme di prenotazione OfficeRnD e Nexudus, oltre a una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana e agenti RAG di supporto con escalation a un operatore umano, su uno stack Next.js + Laravel + Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, aperto al trasferimento a Rimini o Pesaro. Vi va una call di 15 minuti, o potreste indirizzarmi a chi si occupa delle assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

@@ -1,0 +1,12 @@
+Dear Dataiku hiring team,
+
+I am applying for the Technical Account Manager position because I enjoy being the person who connects customer goals, product details, and practical technical delivery. At FlowSpace, I took ownership of a live marketplace migration from a legacy stack to Next.js and Laravel. I work directly with the internal team, an external agency, and customers to understand issues, coordinate integrations, troubleshoot problems, and carry work through to a reliable result.
+
+My work includes building and maintaining REST APIs, webhooks, booking integrations, CRM workflows, and AI support agents that use live platform data and escalate to a person when needed. I also document decisions, improve processes, and communicate clearly with technical and non-technical stakeholders. This combination of hands-on implementation and customer-facing ownership is the part of the role that most closely matches my experience.
+
+I am based in Venice, Italy, and hold an Italian European Long Term Residence Permit. I would be glad to discuss the practical arrangements for a Paris-based position, including whether relocation or another working arrangement would be suitable for the team. My CV provides further detail on my platform, integration, and automation work.
+
+Thank you for your consideration. I would welcome the opportunity to discuss how my experience could support Dataiku customers.
+
+Kind regards,
+Prabhavit Gupta

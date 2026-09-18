@@ -1,0 +1,16 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4467577090/ (offsite -> https://jobs.pharma-hera.de/Data-AI-Engineer-all-genders-de-f284.html, Rexx Systems ATS)
+Chrome tab id: 550851706 (left open, form filled, not submitted)
+
+Dedupe: NEW (no prior applications.csv row for PharmaHera or this URL).
+Hard gates: passed. 2+ years required (have 3), title not senior/lead/etc, no MSc/PhD requirement, no anti-AI disclaimer (JD explicitly invites Claude Code/Anthropic API use), Germany is in the EU so the "outside EU" gate does not apply. Real gap: JD's must-have "solid experience with GCP (especially BigQuery), Apache Airflow" is not something Prabhavit has hands-on; proceeded anyway per the task's own fit=95 assessment and letter-writing brief, keeping the letter honest that BigQuery/Airflow would be new tooling and leaning on the AI-assisted-engineering fit (Claude Code, MCP, LLM APIs) that the JD weights as the primary must-have.
+
+Uploaded: Prabhavit_CV_PharmaHera.pdf (Lebenslauf), CoverLetter_PharmaHera.pdf (Anschreiben, optional slot). CV built from Prabhavit_CV_EN.tex, reorder/prune only (drop record in answers/pharmahera-2026-09-17.md).
+
+Answers given: see answers/pharmahera-2026-09-17.md for the full field list (personal data, 3-5 Jahre experience bucket, start date 01.10.2026, salary 45000, found-us LinkedIn, Internet Kenntnisse Hervorragend, privacy consent ticked).
+
+Blocker: the required "Deutsch" (German proficiency) dropdown under "allg. Kompetenzen" has only Muttersprache/Fliessend/Fortgeschritten/Grundkenntnisse as options, no "Keine" (none). Live-tested: submitting with it blank returns "Bitte füllen Sie die markierten Felder aus!" with only that field flagged. Prabhavit has no German; loop/OUTREACH_FACTS.md and answers/work-authorisation.md both say never to claim any language beyond English and conversational Italian. Left the field unset and did not submit, pending your call on whether "Grundkenntnisse" is an acceptable minimal answer given the JD only lists German as a nice-to-have.
+
+LinkedIn's own "Did you finish applying?" prompt was answered "No" to keep its tracker accurate, since the application was not completed.
+
+No new LEARNINGS.md line needed beyond this being a fresh trap; noting it here: jobs.pharma-hera.de (Rexx Systems recruiting software) auto-extracts an embedded CV photo into a separate "Foto" upload slot on CV upload (harmless), and its custom select widgets do not visually sync when the underlying <select> value is set via JS/dispatched events - must click through the actual widget UI (or type-to-filter for long lists like Land/Wie gefunden) for the value to register for submit; also its "Zur Anzeige" button is NOT a form preview, it discards all entered data and returns to the plain job listing - never click it mid-form.

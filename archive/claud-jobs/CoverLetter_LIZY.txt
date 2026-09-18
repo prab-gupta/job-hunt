@@ -1,0 +1,12 @@
+Dear LIZY team,
+
+LIZY is turning car leasing into a fast, transparent product for SMEs and independents, and delivering that speed depends on the manual work behind the scenes actually being automated rather than patched by hand. That is the work I have done for the past three years across several European teams.
+
+At Get2Germany I integrated Google APIs and built AI tools that searched and matched courses, internships and jobs, then optimised the underlying database, using n8n throughout. At FlowSpace I shipped the OfficeRnD and Nexudus integrations that power automated bookings, and built the CRM and GTM automations that handle lead capture, enrichment and routing, again with n8n alongside TypeScript and Node.js. At UltraStrategy I built a CV parsing pipeline: a user uploads a CV, the pipeline extracts the data and scores fit for specific role types, then generates a standardised profile, using n8n, Eden AI, Affinda and the Claude API.
+
+That mix, reading a business process, building the automation, and reaching for Python or JavaScript when the workflow tool alone cannot connect an API, is the profile you describe. I also enjoy the coaching side of the role: reviewing someone else's flow logic and helping it hold up once it hits production data.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Belgium and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Brussels to complete it.
+
+Best regards,
+Prabhavit Gupta

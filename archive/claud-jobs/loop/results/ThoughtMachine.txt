@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468207034/ (routed to jobs.ashbyhq.com/thought-machine/66b92386-5550-4911-8966-0bf39f361b12/application, ATS: Ashby)
+Uploaded: Prabhavit_CV_ThoughtMachine.pdf (CV, tailored from Prabhavit_CV_EN.tex, parity verified).
+Answers given: Name/Email/Mobile, Notice period = "Immediately available", Visa sponsorship required for Thought Machine = Yes (honest: Portugal is a non-Italy EU country, no automatic work rights under Italian EU LTR status), Desired salary = 55000 (bottom of the JD-stated EUR 55k-75k band per standing rule), 4-days-a-week-onsite alignment = Yes, Where did you hear about this opportunity = LinkedIn, privacy-notice consent ticked.
+Blockers: none. No CAPTCHA, no account wall, no anti-AI question.
+LEARNINGS: this Ashby tenant's numeric Desired Salary field (type=number) silently discards its value on the next form re-render if the typed text contained a stray letter a number input parses as scientific-notation exponent — typing "EUR 55,000" left the field showing "E55000", an invalid number, which then vanished after the CV upload and again after clicking the 4-days-onsite Yes button, right before the first submit attempt (form stayed on the page with no visible error). Retyped as digits only ("55000") and it held through submit. Added this trap to ats-guides/ashby.md.
+Confirmation: "Success - Your application was successfully submitted. Our team will review it and follow up via email soon." (confirmations/ThoughtMachine-2026-09-16.txt)

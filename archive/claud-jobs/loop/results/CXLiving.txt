@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465079812/
+Uploaded: Prabhavit_CV_CXLiving.pdf (2pp, tectonic, parity-checked); CoverLetter_CXLiving.pdf/.txt drafted and kept on file (no cover-letter step on this LinkedIn Easy Apply flow).
+Answers given: 3 numeric-years fields (Tecnologie emergenti / Automazione / Intelligenza artificiale) answered 3 each; unfollowed company; no salary/language/work-auth fields present on this 5-page flow.
+Blockers: none. LinkedIn Easy Apply pre-selected the last-used CV (Prabhavit_CV_Esprimo.pdf) as usual - replaced explicitly via Upload resume, verified checked before Review.
+Confirmation: "Your application was sent to CXLiving!" - confirmations/CXLiving-2026-09-11.txt/.png (+before.png). Full detail in answers/cxliving-2026-09-11.md.
+LEARNINGS: none new - standard 5-page Easy Apply flow with the known pre-selected-CV trap, handled per brief.

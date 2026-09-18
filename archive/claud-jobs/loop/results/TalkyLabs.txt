@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468218288/
+Applied via: https://usetalky.com/careers (own site, first-party form, not an iframe)
+
+What was uploaded: Prabhavit_CV_TalkyLabs.pdf (verbatim subset of Prabhavit_CV_EN.tex).
+Answers given: First name Prabhavit, Last name Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Role dropdown = Forward Deployed Engineer, LinkedIn https://www.linkedin.com/in/prabhavit/, GitHub https://github.com/prab-gupta, "Why Talky?" free text covering FlowSpace (live migration, AI listing bot, support agents) and UltraStrategy (CV-parsing pipeline), with an honest disclosure that the production stack has been TypeScript/Laravel/n8n rather than Python/AWS as the JD asks, three years experience framed as the ownership-model fit. Privacy policy checkbox ticked.
+
+No separate cover letter upload field existed on this form (text box only), so CoverLetter_TalkyLabs.pdf/.txt were built per brief but not attached; kept on file in case a follow-up email exchange wants it.
+
+Confirmation: "Application received. Thank you. We will read it carefully and get back to you." Saved to confirmations/TalkyLabs-2026-09-16.txt.
+
+LEARNINGS: Talky Labs' LinkedIn posting title ("Thinker - Forward Deployment/Core Engineer") differs from the role name on their own careers site ("Forward Deployed Engineer") but is the same deployment-track role (mission text matches); their site also lists a separate "AI Core Engineer" role which is not this one. No blockers, no cross-origin iframe issues.

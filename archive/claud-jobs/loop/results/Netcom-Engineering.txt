@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458176381/
+Company: Netcom Engineering S.p.A. SB
+Role: Software Embedded Engineer - Connectivity
+
+Uploaded: Prabhavit_CV_Netcom_Engineering.pdf (tailored, replacing the pre-selected Prabhavit_CV_Amaris_Consulting.pdf in LinkedIn's resume library).
+Cover letter: CoverLetter_Netcom_Engineering.pdf/.txt written in Italian, kept on file only, no letter field on this Easy Apply flow.
+Answers given: "Sei in possesso di un permesso di soggiorno tale da poter lavorare in Italia/UE in corso di validità?" = Yes; "Sei disponibile ad eventuali trasferte di lungo periodo in Francia?" = Yes; "Qual è la tua aspettativa economica, in termini di RAL?" = 24000 (floor of the JD-stated EUR 24,000-28,000 band). Mobile phone filled 351 610 7807 under Italy (+39). "Mark as top choice" left unchecked.
+Blockers: none.
+Confirmation: "Your application was sent to Netcom Engineering S.p.A. SB!" — confirmations/Netcom-Engineering-2026-09-16.png and .txt.
+LEARNINGS: nothing new broke. Note for the planner: dedupe.py flagged "HIT COMPANY~" (fuzzy match on "net" against NetBird/Netwrix rows), a false positive per the brief's rule that fuzzy hits on a different company never block.

@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4459263346/
+Company: OSS Ventures (Paris) - Parsio, Forward Deployed Engineer
+Dedupe: NEW (no prior OSS Ventures row in applications.csv).
+Reason: JD passes the English-only check on its own, but the Must-have list also states: "Operational French and English (international clients)." French is explicitly required alongside English, not marked "a plus". Per task rule this is a kill; quoted clause logged above and in applications.csv.
+No CV, no letter, no form opened.

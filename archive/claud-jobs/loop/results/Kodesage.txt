@@ -1,0 +1,11 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4410871872/
+
+Blocker/reason: language gate. Live JD "Core Skills And Experience" lists "Communication: Clear English and Hungarian communication" as a required core skill (not in the JD's separate "Nice to Have" section). Task rule for this batch: Hungarian required = kill (English C2 and conversational Italian only on file). No years/seniority/agency/stack kills applied per the USER RULE 2026-09-16 sweep (this JD also asks for 8+ years, which would normally kill, but that gate is explicitly waived for this batch; the language gate fired regardless and is the sole reason for the kill).
+
+Dedupe: NEW (dedupe.py --check Kodesage; no prior row in applications.csv).
+
+Cheap check: apply-button=1 (posting open, not pursued further).
+
+No CV or letter built, no form touched, nothing submitted.

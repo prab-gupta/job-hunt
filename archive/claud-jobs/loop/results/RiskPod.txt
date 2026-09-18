@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://es.linkedin.com/jobs/view/forward-deployed-engineer-at-riskpod-4466887456
+Uploaded: Prabhavit_CV_RiskPod.pdf (re-uploaded explicitly and verified checked on the review screen, replacing the picker's stale default of Prabhavit_CV_Provectus.pdf).
+Cover letter CoverLetter_RiskPod.pdf/.txt/.tex prepared (FlowSpace + UltraStrategy + Get2Germany evidence, Spain transparency line) but the Easy Apply flow only had 3 steps (contact info, resume, review) with no cover-letter field, so it was not submitted anywhere.
+Answers given: email prabhavitg@gmail.com, phone country code Italy (+39), mobile number 3516107807, resume as above, "Follow RiskPod" unchecked. No salary/years/work-authorisation/language questions appeared in this flow.
+Applied under the standing USER RULE (every FDE posting in Italy/EU, LI-PICK treatment): no kill for the JD's 5+ years / Python-FastAPI-Postgres-AWS stack / Mid-Senior tag; years answered honestly as 3 where relevant (letter/notes only, no form field). No language gap (English required, Spanish only "preferred").
+Dedupe: NEW, no prior RiskPod rows.
+Blockers: none. No CAPTCHA, no Easy Apply cap dialog seen.
+Logged: applications.csv row (2026-09-17), confirmations/RiskPod-2026-09-17.png + .txt, answers/riskpod-2026-09-17.md.
+No LEARNINGS line added (no new ATS trap; matches the already-documented LinkedIn resume-picker-defaults-to-last-upload trap).

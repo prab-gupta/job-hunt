@@ -1,0 +1,24 @@
+Application submitted 2026-09-18 via LinkedIn Easy Apply
+
+Role: AI Engineer
+Company: Scale Tech (software development agency, Vilnius, Lithuania)
+LinkedIn job id: 4466528529
+Location: Vilnius, Lithuania (Remote, Part-time, Contract term B2B — 1–4 months, full-time or part-time)
+Disclosed rate: 30 EUR/hr – 40 EUR/hr
+Posted 2 days ago, 100+ applicants.
+Posting URL: https://www.linkedin.com/jobs/view/4466528529/
+
+Confirmation: "Your application was sent to Scale Tech! You can keep track of your application in the 'Applied' tab of My Jobs" — Application status shows Application submitted, now.
+
+Fields submitted:
+- Contact info: as usual
+- CV: Prabhavit_CV_Toloka.pdf (same LinkedIn Upload limitation as Limineer; content is FDE/AI-Engineer tailored)
+- Q: How many AI/LLM projects shipped to production? A: 3-4 (honest — FlowSpace AI listing bot, FlowSpace support agents, UltraStrategy CV parsing, Get2Germany AI tools, Tractionboard ChatGPT integration is ~5 but the shipped-to-production, actively-running ones cluster at 3-4)
+- Q: Have you built AI agents for process automation (not just chatbot integrations)? A (verbatim): "Yes. At FlowSpace I built an AI listing pipeline that takes unstructured input (PDF, website, image, spreadsheet), extracts structured records with an LLM, applies confidence scoring, and pushes results to the backend after human-in-the-loop review — an n8n-orchestrated multi-step agent, not a chatbot. At UltraStrategy I built the same shape for CV parsing with n8n and Eden AI. Both run in production."
+- Q: Which LLM providers hands-on? A: Anthropic (single-select radio; primary in his workflow — Claude Code daily)
+- Q: Expected hourly rate (EUR/Hour)? A: 35 (midpoint of his B2B day-rate €250-300 → ~€31-37/hr; also midpoint of Scale Tech's disclosed €30-40/hr range)
+- LinkedIn: https://www.linkedin.com/in/prabhavit/
+- Current location: Venice, Italy
+- Follow Scale Tech: Yes
+
+Watch-out: Scale Tech describes itself as "a software development agency" — this is a body-shop-adjacent posting for a contract AI Engineer on their internal team, not a placement into a named end client. The JD reads like their own AI capability build (similar to Bitrock's structure). Rate ceiling of €40/hr is modest; treat as a floor for negotiation.

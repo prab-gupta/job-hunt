@@ -1,0 +1,16 @@
+Dear Relativity team,
+
+I am writing to apply for the Advanced AI Engineer role on the Agent Harness team. I have three years of professional experience building LLM-powered pipelines and agentic systems that run in production, working directly with data extraction, orchestration and evaluation loops rather than in isolated demos.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data with Affinda and assesses the candidate's fit for specific role types, the result is delivered to the frontend, and a standardised "Ultra CV" is generated using the Claude API. The extraction and generation logic ran as an orchestrated pipeline built with n8n and Eden AI, and I also built the platform that serves the different user profiles behind it.
+
+At FlowSpace, I built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, a production agent that has to handle real users and real failure modes rather than a controlled test set. I also own an AI listing bot that turns a brochure in any format into a drafted listing with a human in the loop before it reaches the backend, using the Claude API and TypeScript, with over 900 listings drafted so far.
+
+My core stack is Python for automation, data pipelines and QA, alongside TypeScript and Node.js, with working knowledge of Docker and PostgreSQL. I use Claude Code and the Claude API daily, and I am comfortable picking up LangGraph and LangChain quickly given my existing background orchestrating LLM pipelines and tool integrations.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process, or to continue this work remotely from Italy if that fits the team's setup.
+
+I would welcome the opportunity to discuss how I could contribute to the Agent Harness team.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,22 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4462520475/ (real ATS: https://globalcareers-keysight.icims.com/jobs/54185/qa-automation-engineer/candidate, req 54185)
+Tab left open: tabId 550849696
+
+What happened:
+- LinkedIn "Apply" is an external redirect (Responses managed off LinkedIn), not Easy Apply.
+- Followed it to jobs.keysight.com/external/jobs/54185 (closed the stray tab the click opened, navigated my own tab to the same URL instead, per instructions).
+- Accepted the GDPR data privacy consent step (email prabhavitg@gmail.com, "I accept" ticked, Next).
+- Landed on iCIMS "Candidate Profile" (step 1 of 2). This step requires "Create a login" with mandatory Login*, Password*, Password (Re-enter)* fields before any resume upload or personal info can be entered. No guest-apply path exists; the account-provider icons shown (Apple/Facebook/Google/LinkedIn/Microsoft) are sign-in/sign-up, not guest continue.
+- Stopped here. No account created, no password entered, no resume uploaded, nothing submitted.
+
+Gate check: all hard gates pass (2 yrs min required, not Senior, Bachelor's only, English JD with no Romanian requirement, Python/Shell scripting is the stated core stack, EU location). No KILL.
+Dedupe: NEW, no prior Keysight rows in applications.csv.
+
+Uploaded: nothing (blocked before the upload step).
+Cover letter: CoverLetter_Keysight.txt in ROOT (194 words, verified clean of em-dashes/Bubble/no-code/Claude mentions; claims trace to Master Experience — Playwright end-to-end tests, OfficeRnD/Nexudus API integrations, Python scripting, Next.js+Laravel+Supabase, Venice-based, Romania employer-permit transparency line). Not yet pasted anywhere since no letter field was ever reached.
+
+Blocker for a human: open tab 550849696 (or the URL above), create the iCIMS login yourself, then continue the Candidate Profile using Prabhavit_CV_Original_EN.pdf and CoverLetter_Keysight.txt, work-authorisation answer Romania = No/employer-permit Yes.
+
+LEARNINGS: Keysight's careers site (jobs.keysight.com) runs on iCIMS, not Workday as expected, but has the same effect: the "Candidate Profile" step forces email/password account creation with no guest-apply option before any other field is shown. Treat globalcareers-keysight.icims.com like a Workday-style hard account wall in future Keysight postings.
+
+Logged: applications.csv row (NEEDS YOU), confirmations/Keysight-2026-09-09.txt, answers/keysight-2026-09-09.md.

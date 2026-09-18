@@ -1,0 +1,25 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4426611281/ -> Apply on company website -> https://career.vitaminwell.com/jobs/7819373-fullstack-engineer-vitamin-well-group?utm_source=LinkedIn (Teamtailor)
+Confirmation URL: https://career.vitaminwell.com/jobs/7819373-fullstack-engineer-vitamin-well-group/applications/50f0aa2a-ada0-407f-844d-42548847eded/thanks/f5180dcc8f0caa3d7c878ca21ebcd9a695370c3c55f2d3330f1656b64db5a4db
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Vitamin Well Group" "..." -> NEW). Cheap check: LinkedIn jobPosting API apply-button count = 1 (accepting applications). Live JD reconfirmed via browser: on-site, Full-time, "Apply on company website" control present and led to a submittable Teamtailor form for this exact requisition (7819373).
+
+Hard gates re-checked on live JD: English JD, "2-5+ years of experience with modern web development, including Python, REST APIs and frontend frameworks" (Prabhavit claims 3 yrs, all three stacks claimable per brief), title "Fullstack Engineer" (not Senior/Staff/Lead/Principal/Manager), no MSc/PhD requirement, core stack is Python/REST/frontend/Shopify (all claimable), Stockholm/Sweden is EU with on-site acceptable per standing rules and user's relocation-anywhere-in-EU preference. No anti-AI disclaimer in the JD -- the opposite: JD explicitly wants "AI-first development practice, with expert level skills using tools like Claude" as a preferred qualification. No CAPTCHA, no login/account wall, no attestation.
+
+What was uploaded:
+- CV: Prabhavit_CV_VitaminWell.pdf (built from Prabhavit_CV_EN.tex; 2 pages with photo; tectonic compile clean; parity check 55/61 exact, remaining 6 explained as pdftotext icon-font garble + one word-wrap hyphenation + 4 permitted skill-list reorders, all detailed in answers/cv-tailoring-vitaminwell-2026-09-10.md). Summary trimmed to 2 bullets; skills reordered Development/Typescript and AI/API-integration first (no literal Python/React/Next.js/PostgreSQL skill-list entries existed in the base CV to reorder -- noted transparently rather than fabricated); FlowSpace kept 6 bullets (Next.js migration, AI support agents, scaling, REST integrations x2, AI listing tool) reordered JD-first; every other role kept 1-2 bullets each, all verbatim from the base file, nothing invented.
+- Cover letter: pasted into the form's "Cover letter" text field (no separate upload field existed) -- CoverLetter_VitaminWell.txt, 243 words, 0 em-dashes, 0 no-code/low-code/Bubble mentions, names Claude Code once as a daily dev tool (exactly what the planner asked for the "expert level Claude skills" preferred qualification, nothing more).
+
+Answers given (full detail in answers/vitaminwell-2026-09-10.md):
+- Name/email/phone: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807.
+- "Tell us about something you have built" (free text): described the FlowSpace AI listing pipeline end to end, 900+ listings drafted, and the UltraStrategy CV-parsing tool -- both traceable to Prabhavit - Master Experience.md.
+- "Are you fluent in both Swedish and English?" -- answered No, honestly (Prabhavit has no Swedish; languages are Hindi native, English C1, Italian beginner). This was a form-only screening question, not a listed JD requirement, so it did not trigger a KILL under the hard-gate rules, but it is a real fit risk worth flagging to the user.
+- On-site culture-fit radio: selected "I thrive in an on-site setting and am fully aligned with working at Vitamin Well HQ," consistent with standing relocation/on-site answers.
+- Work authorisation: no separate form field existed; the transparency line (not authorised in Sweden, would need employer-side permit, ready to relocate) is in the cover letter's closing paragraph per answers/work-authorisation.md.
+- Cookies declined (non-essential). Privacy-policy consent checkbox ticked (required to submit). No EEO/demographics fields were present on this form.
+- Salary: not asked anywhere on this form.
+
+Dropped CV bullets: Collaborated with team on documentation, Facilitated communication with Agency (FlowSpace Product); GTM automations, duplicate AI-tool line, duplicate Next.js migration line, commute-time tool (FlowSpace Technical); client-automations bullet (Urlink); user-profiles bullet (UltraStrategy); Figma-implementation bullet (Qomodo); Bubble/Figma UI-UX bullet (Get2Germany); unit-testing bullet (Clubee); Figma/Bubble design, responsive/de-bugging, Google Ads bullets (Tractionboard). Full reasoning in answers/cv-tailoring-vitaminwell-2026-09-10.md.
+
+New ATS lesson: this Teamtailor instance (career.vitaminwell.com) is not cross-origin-blocked for Claude in Chrome -- find/read_page/form_input worked directly on the embedded form without needing a Playwright fallback, unlike some other Teamtailor tenants noted elsewhere in ats-guides.

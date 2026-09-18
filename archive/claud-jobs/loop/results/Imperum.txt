@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465225218/
+ATS: LinkedIn Easy Apply
+Uploaded: Prabhavit_CV_Imperum.pdf (explicit upload via hidden file input revealed after clicking "Upload resume", verified selected/green radio before submit, not the pre-selected library resume). No cover letter field existed on this Easy Apply form (single step: contact info + resume + follow checkbox + submit), so CoverLetter_Imperum.pdf was not attachable; letter content is banked in answers/imperum-2026-09-16.md for reference if a recruiter asks.
+Answers given: contact info pre-filled by LinkedIn (email prabhavitg@gmail.com, phone +39 351 610 7807); no other questions asked.
+Blockers: none.
+LEARNINGS: Imperum's Easy Apply "Upload resume" button has no visible <input type=file> in the DOM until clicked; clicking it (real click, not JS) creates the input on the fly, and file_upload can then target it by ref immediately after (found 1 input via querySelectorAll right after the click, before the native OS dialog resolves). This is the general pattern for LinkedIn Easy Apply's "Upload resume" control going forward: click first, then find/read_page for the newly created input, then file_upload.

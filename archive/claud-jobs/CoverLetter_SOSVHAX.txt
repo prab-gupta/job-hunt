@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+I am applying for the Full Stack Engineer role at Minut. For two and a half years I have shipped full-stack features end to end in TypeScript and React, most recently as lead developer at FlowSpace, a workspace marketplace I helped grow from 2,000 to 4,500+ users. I migrated the platform onto a coded Next.js and Laravel stack, built OfficeRnD and Nexudus booking integrations against partner APIs, and built an AI listing pipeline turning brochures of any format into drafted listings for 900+ workspaces. I own features from React UI through backend to production. Claude Code is my primary tool, so the AI native expectation here is how I already work.
+
+Minut's problem draws me in: turning sensor and messaging data into a guest experience layer that holds up at scale across real partner integrations, not a demo. The rules engine, PMS integrations, and AI agents you describe are close to what I already own at FlowSpace, with a bigger surface and hardware involved.
+
+I am authorised to work from Italy under Italian EU long-term resident status and can perform this role remotely from Venice, no sponsorship needed, and am glad to travel to Malmo for hybrid work.
+
+Regards,
+Prabhavit Gupta

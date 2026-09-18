@@ -1,0 +1,6 @@
+Thanks for applying
+We have received your application and we will be reviewing it shortly. Have someone who can be a reference? Let us know.
+Applied (step 1 of 2, Connect step optional/skipped)
+
+URL at confirmation: https://careers.futurice.com/jobs/7081879-senior-ai-engineer/applications/63f7f0c8-a118-46a4-821c-00e9c6e0c4f2/thanks/...
+Note: PNG screenshot not saved -- Claude in Chrome's computer tool has no save_to_disk option on this build; this txt is the record (per apply-agent-brief Chrome section).

@@ -1,0 +1,24 @@
+Application submitted 2026-09-18 via LinkedIn Easy Apply
+
+Role: Venture Engineer - Forward Deployed
+Company: Limineer
+LinkedIn job id: 4467976495
+Location: Amsterdam Area (Remote, Full-time)
+Posted 22 hours ago, 43 applicants at submit.
+Posting URL: https://www.linkedin.com/jobs/view/4467976495/
+
+Company profile (from JD): Limineer builds new businesses inside large organisations. 12 ventures in active build across energy, industrials, public sector. Proprietary Liminal Process Model. Hiring a Venture Engineer to sit in the room while a client's belief is still half-formed and ship the system that tests it before the meeting is cold. Moves between two or more Limineer's ventures at a time.
+
+Confirmation: "Your application was sent to Limineer! You can keep track of your application in the 'Applied' tab of My Jobs" — Application status shows Application submitted, now.
+
+Fields submitted:
+- Email: prabhavitg@gmail.com
+- Country code: Italy (+39)
+- Mobile: 3516107807
+- CV: Prabhavit_CV_Toloka.pdf (see watch-out below — Limineer-tailored CV was built but LinkedIn Upload uses a native file picker that this session can't trigger; Toloka CV was already uploaded and is FDE-tailored)
+- Q: Based within reasonable distance of Amsterdam, Milan or Paris? A: Yes (Venice-Milan ~270km)
+- Q: Comfortable in a remote setting? A: Yes
+- Q: Comfortable beginning in a freelance setup? A: Yes
+- Follow Limineer: Yes
+
+Watch-out: Tailored Prabhavit_CV_Limineer.pdf was built and staged but LinkedIn's Upload button opens a native file picker that the file_upload tool can't handle (it's a plain <button>, not a hidden <input type=file>). Toloka.pdf (Forward Deployed AI Engineer headline, deploy-AI-in-customer-environments summary) was uploaded to LinkedIn earlier and used here. Content is a very close fit; filename shows "Toloka" — for future LinkedIn Easy Apply sessions we may need to accept this constraint or drag-and-drop the file manually before starting.

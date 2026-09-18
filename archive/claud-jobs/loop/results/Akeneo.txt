@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4402486914/
+Employer ATS: Teamtailor, careers.akeneo.com, guest apply modal, job_application_id 4f110d5f-cf40-41d6-a71c-67202772fc03
+
+What was uploaded: Prabhavit_CV_Akeneo.pdf (Upload CV field). Cover letter delivered as plain text pasted into the form's own "Cover letter" textarea (CoverLetter_Akeneo.pdf/.txt built and kept on file but no PDF upload slot existed for it separately from CV/Additional files).
+
+Answers given: visa sponsorship required = Yes (France line, Italian EU LTR, not authorised, needs sponsorship); Locations = Nantes only (matches LinkedIn posting); phonetic name and pronouns left blank (optional); ticked required Privacy Policy consent; left "Akeneo can contact me about future opportunities" unticked (marketing-style optional checkbox).
+
+Fit: no explicit language requirement anywhere in the JD (checked full text on both LinkedIn and careers.akeneo.com), so this proceeded under the FDE standing rule without needing a language-based kill decision either way.
+
+Post-submit flow: redirected to an anonymous Diversity & Inclusion Survey ("this survey is fully anonymous: no data will be tied to your application"); declined via "I don't want to participate" per standing EEO rule, landed on the final "Applied to Forward Deployed Engineer" confirmation page.
+
+Blockers: none.

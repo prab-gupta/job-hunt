@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4465420391/ -> https://www.ommax.com/en_en/career/jobs-at-ommax/forward-deployed-ai-engineer-m-f-d (OMMAX's own careers-site form, distinct from the earlier Personio-hosted OMMAX posting)
+Uploaded: nothing (form not submitted)
+Built and saved for later: Prabhavit_CV_OMMAX.pdf (tailored FDE CV, parity-checked, 2 pages), CoverLetter_OMMAX.tex/.pdf/.txt (English, 0 em-dashes)
+Blocker: the form has three required upload fields (Upload Resume*, Upload Transcripts & Certificates*, Upload Other Documents*). No academic transcript or certificate file exists on file for Prabhavit, so this is a "facts not on file" stop, not a technical failure. Same blocker category already logged for OMMAX's earlier Personio posting (2026-08-26, status QUEUED - NOT CV ONLY).
+Logged: NEEDS_YOU.md "Blockers found 2026-09-16 (user-only)" row 14, with the exact URL and blocker; applications.csv row status NEEDS YOU; answers/ommax-2026-09-16.md.
+LEARNINGS: none new (this confirms the same document-requirement trap the earlier OMMAX row already flagged, now also present on OMMAX's own careers site, not just Personio).

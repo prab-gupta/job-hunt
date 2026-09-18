@@ -1,0 +1,10 @@
+STATUS: CLOSED
+URL: https://www.linkedin.com/jobs/view/4454644510/ (Senior Software Quality & Performance Engineer, Hays, Milan Hybrid, from queue.csv)
+
+Task gave https://www.linkedin.com/jobs/view/4462189093/ and flagged it might be wrong. Confirmed wrong: that id resolves to the generic LinkedIn "Jobs" homepage (page title "Jobs | LinkedIn"), not a job posting, no "Hays" text anywhere on it. Fell back to the queue.csv row by company Hays as instructed: https://www.linkedin.com/jobs/view/4454644510/, "Senior Software Quality & Performance Engineer".
+
+That posting shows "No longer accepting applications" on the live page (confirmed via browser_find, red error icon next to the banner). Per the LI-PICK kill conditions (posting closed / same requisition already submitted / language he lacks), this is a clean CLOSED kill. No CV or letter were built since the hard-gate/cheap-check step (open job page, confirm Apply control exists) failed first.
+
+Dedupe note (not the reason for the kill): applications.csv already has a Hays row from 2026-08-24 for "AI Engineer - Generative AI & Autonomous Agents", SUBMITTED. That is a different requisition and a different role/domain (AI vs QA), so per the dedupe rule (same requisition or same-level role within 60 days blocks; different-level role does not) it would not have blocked this row even if it had been open.
+
+For the planner: this job's "More jobs" rail showed an active similar Hays posting, "Hays Milan (Hybrid) ... Actively reviewing applicants ... Posted 1 day ago ... Easy Apply", LinkedIn job id 4464214108, not the same URL as either id given for this task. Not applied to, since it is outside the assigned queue row and queue.csv was not edited; flagging in case the planner wants to add it as a fresh LI-PICK row.

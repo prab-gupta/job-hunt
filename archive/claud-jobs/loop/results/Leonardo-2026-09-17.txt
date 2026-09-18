@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468239113/ (LinkedIn) -> offsite apply -> https://leonardocompany.wd3.myworkdayjobs.com/it-IT/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-1020/Innovation---Capability-Specialist_R0030293
+
+Dedupe: HIT COMPANY~ (fuzzy) but traced to role-sweep lead-source files only; zero rows for Leonardo in applications.csv. Not a block, treated as new.
+Anti-AI disclaimer grep on JD: none found.
+LinkedIn apply-button API check: 1 (open). Page confirms "Responses managed off LinkedIn" (offsite/Workday).
+
+Materials built and ready (uploaded nowhere, blocker hit before upload step):
+- Prabhavit_CV_Leonardo.tex/.pdf: built from Prabhavit_CV_EN.tex verbatim, parity-diffed (no invented claims). 2 pages confirmed. Career Summary trimmed to 2 bullets; FlowSpace kept 5 bullets (cross-team documentation, agency coordination, scale, AI data tool, OfficeRnD/Nexudus); UltraStrategy and Get2Germany kept 2 bullets each (AI/automation minimum rule applied since JD lists AI as one of the emerging tech domains); Qomodo/Clubee/Tractionboard each kept >=1-2. Technical Skills and Additional Information reordered JD-relevant-first, no sentences rewritten.
+- CoverLetter_Leonardo.tex/.pdf/.txt: written in Italian (task specified), ~290 words, no em-dash (grep confirmed 0). Two proof paragraphs per the letter-evidence rule: FlowSpace (legacy-stack migration, cross-team/agency coordination, AI data-processing tool, OfficeRnD/Nexudus API integration) and UltraStrategy (CV-parsing pipeline via n8n/Eden AI, framed as shipping an emerging AI capability). All claims trace to loop/OUTREACH_FACTS.md. Legacy platform brand never named.
+- Full breakdown in answers/leonardo-2026-09-17.md.
+
+Blocker (user-only, per brief's explicit Workday-wall instruction for this row):
+The Leonardo careers portal is Workday (leonardocompany.wd3.myworkdayjobs.com), not SuccessFactors/Taleo. Clicking "Presenta candidatura" -> "Compila manualmente" (Apply Manually) leads straight to step 1 of 5, "Crea account/Accedi", which forces a full account creation: email + password meeting 6 complexity rules (uppercase, letter, lowercase, min 8 chars, special char, number), no guest-apply path found. Screenshot not saved (no success state reached); wall is visible in tab 550851424 at https://leonardocompany.wd3.myworkdayjobs.com/it-IT/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-1020/Innovation---Capability-Specialist_R0030293/apply/applyManually.
+
+Did not create an account. Logged NEEDS YOU. All materials are ready in ROOT for the user (or a session with credentials) to finish the Workday flow: upload Prabhavit_CV_Leonardo.pdf, paste CoverLetter_Leonardo.txt, salary field = EUR 36,500 (JD states RAL band 36,500-54,000, answered at the bottom per task instruction), years = 3, Italy authorised/no sponsorship, English C1, Italian conversational B1-B2.
+
+applications.csv: row appended, status NEEDS YOU.
+No new LEARNINGS line needed (Workday account-creation-wall pattern already documented, e.g. kcura.wd1 entry 2026-09-16 18:10).

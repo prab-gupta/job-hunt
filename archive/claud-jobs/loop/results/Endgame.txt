@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4448988083/ (Forward Deployed Engineer, ENDGAME, Amsterdam, North Holland, Netherlands)
+
+Uploaded: Prabhavit_CV_Endgame.pdf (built fresh from Prabhavit_CV_EN.tex, verified selected over the pre-checked most-recent library file before submit).
+Cover letter: CoverLetter_Endgame.pdf/.txt built and kept on file; this Easy Apply flow (4 pages: contact, resume, screening questions, review) had no cover letter upload/paste field.
+
+Answers given: years of professional software engineering experience = 3; AI/LLM-powered applications/platforms/agents experience = Yes; direct enterprise customer/stakeholder experience = Yes; deployed AI applications/agents to production = Yes. "Follow ENDGAME" checkbox unticked.
+
+Confirmed via "Your application was sent to ENDGAME!" dialog and "Application submitted - now" status panel.
+
+No blockers. Nothing broke; no new LEARNINGS entry needed.

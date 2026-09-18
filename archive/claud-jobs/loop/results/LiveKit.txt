@@ -1,0 +1,12 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4451918613/ (offsite -> https://jobs.ashbyhq.com/livekit/529000fe-c437-41d3-94a3-8548e61c31b8/application)
+ATS: Ashby
+
+Uploaded: nothing - form left completely untouched.
+Answers given: none.
+
+Blocker: the Ashby application form (not the LinkedIn JD text) carries a required Yes/No acknowledgement: "At LiveKit, we embrace the thoughtful use of AI tools to move faster and work smarter. However, for the application form and during interviews, we ask that you don't use AI assistance. This allows us to get a clear sense of your genuine interest in LiveKit and how you communicate in your own voice. Please select \"yes\" below to acknowledge." This is an anti-AI attestation per the brief's hard-gate rule; stopped before filling anything.
+
+Materials built and saved for when the user applies themselves: Prabhavit_CV_LiveKit.pdf/.tex, CoverLetter_LiveKit.pdf/.txt (FlowSpace + UltraStrategy proof, honest about no WebRTC background, Ireland relocation/remote-from-Italy line). See answers/livekit-2026-09-16.md and NEEDS_YOU.md row 29.
+
+LEARNINGS line: an anti-AI attestation can live only on the underlying ATS application form and be completely absent from the LinkedIn job description text - the hard-gate JD grep alone is not sufficient; re-check the actual apply form's own copy (radios, acknowledgement checkboxes, disclaimers near the essay field) before filling it, even after the LinkedIn-text gate has already cleared.

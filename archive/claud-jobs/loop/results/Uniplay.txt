@@ -1,0 +1,17 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4462280333/ (redirects off-platform to https://careers.uniplay.io/jobs/8223234-ai-engineer, Teamtailor-style form)
+
+What happened:
+- LinkedIn's "Apply" button was NOT Easy Apply for this posting - the card says "Responses managed off LinkedIn" and the button opens careers.uniplay.io in a new tab.
+- Re-checked hard gates on the live JD first: Entry level, TypeScript/Python, RAG/agentic workflows/evals/vector DBs, no explicit years requirement, no MSc/PhD, "Swedish a plus" (not required). All passed.
+- Opened the application form on careers.uniplay.io. Declined non-essential cookies. Clicked "Apply for this job."
+- The FIRST and only question is a radio gate: "Are you currently based in Sweden?" Selecting "No" (true - Prabhavit is based in Venice, Italy) immediately shows "You have to meet these requirements to be able to apply" and disables the entire rest of the form: all personal-info fields, the resume upload, cover letter box, and the Submit button (confirmed via DOM: submit button and the required consent checkbox both have disabled=true). Only offered alternatives are "connect with you" for future roles or "view our other open positions."
+- This is a residency screening gate, not a work-authorisation question, so the standard "authorised No / employer-side permit Yes" transparency line has no field to go into - there was never a text box, and lying about currently being in Sweden would be dishonest. No honest path to a submittable form.
+
+Uploaded: nothing (form never reached an active state).
+Cover letter: drafted CoverLetter_Uniplay.txt (190 words, FlowSpace AI listing pipeline + RAG support-agent proof, Venice-based, honest permit line) but deleted after the KILL since no field ever accepted it.
+Answers given: only "Are you currently based in Sweden?" -> No (true).
+Blockers: employer-side residency gate (must currently be in Sweden to apply), not a CAPTCHA/login/account-creation type blocker, so this is KILLED rather than NEEDS YOU - there is nothing left for a human to unblock by hand, the form itself will not accept a non-Sweden-based applicant.
+
+LEARNINGS: New ATS trap - Teamtailor-style careers.uniplay.io form gates the ENTIRE application behind a "currently based in [country]" radio BEFORE any other field, and disables Submit + the consent checkbox (not just hides fields) when answered No. Worth adding to ats-guides/ or PATTERNS.md: always answer this kind of pre-screen radio first and check whether it disables the form before spending time filling anything else.

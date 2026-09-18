@@ -1,0 +1,27 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465024753/
+Company: Amega (posted on LinkedIn via agency/brand "Sundayy"; Amega is named in the JD so the staffing-agency gate does not block on its own)
+Role: Fullstack Developer (LinkedIn title) / "Medior Full Stack Developer" (JD body title)
+
+Killed on the hard gate: core stack Prabhavit cannot claim.
+
+The live JD (fetched via `curl -s -A "Mozilla/5.0" https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465024753`, apply-button check passed with count 1) is an Amega ICT-team role explicitly scoped to the Microsoft ecosystem, not a general fullstack/JS/PHP role:
+- "you will be working within the Microsoft domain to develop and enhance internal applications"
+- Qualifications: "Proficiency in programming languages relevant to the Microsoft ecosystem, such as C#, .NET, JavaScript, and frameworks like Angular or React"
+
+C#, .NET and Angular do not appear anywhere in `Prabhavit - Master Experience.md` (only unrelated Microsoft Power Platform/Copilot Studio certs, which are no-code/low-code Power Automate work, not C#/.NET engineering). This matches the brief's hard-gate exclusion: "core stack Prabhavit cannot claim (Java/.NET/C++/Go/Rust as the main language...)". Laravel/PHP (the claimable backend) is not mentioned anywhere in the JD.
+
+Other gates checked and would have passed (not the blocker):
+- Title/seniority: "Medior Full Stack Developer", LinkedIn seniority tag "Associate" - not Senior/Staff/Lead/Principal/Manager/CTO.
+- Amega is named as the actual employer in "About The Company", so the staffing-agency-without-named-employer gate does not apply; would have proceeded naming Amega.
+- No hard MSc/PhD requirement (HBO work/thinking level only, "preferably" a related field).
+- JD is in English.
+- Netherlands is EU; on-site/remote blend stated, relocation/permit logistics would have been fine.
+- No anti-AI disclaimer found in the JD text.
+- No stated years-of-experience floor above 3.
+
+Dedupe: `python3 loop/dedupe.py --check "Sundayy" "https://www.linkedin.com/jobs/view/4465024753/"` returned NEW. No prior Amega or Sundayy rows in applications.csv.
+
+Not opened past the JD read: no CV or cover letter was drafted, no LinkedIn Easy Apply form was opened or filled, nothing was submitted. No browser tab was used for this job (killed before the live-page apply check step).
+
+LEARNINGS: this is a case where the recruiter/poster brand on LinkedIn ("Sundayy") and the real employer named in the body ("Amega") diverge, and the real employer's stack (Microsoft/.NET/C#/Angular) is a hard-gate kill even though the LinkedIn title ("Fullstack Developer") and the pre-screen fit score (78) looked promising. Always read the "About The Role"/"Qualifications" section in full before trusting the LinkedIn title alone - the required-languages line is what killed this one.

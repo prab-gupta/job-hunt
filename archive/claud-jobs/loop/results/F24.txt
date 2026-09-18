@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467982693/
+Uploaded: Prabhavit_CV_F24.pdf (tailored from Prabhavit_CV_EN.tex: Career Summary trimmed to 2 bullets, Technical Skills reordered Development-first, FlowSpace Technical Responsibilities reordered API-integration bullet to top, Additional Info dropped Low-code item and reordered Tools Typescript-first)
+Cover letter drafted (CoverLetter_F24.tex/.pdf/.txt) but Easy Apply flow had no cover letter upload step; not attached.
+Answers given: phone 3516107807; resume as above; salary screening question "Does an annual salary of up to EUR26,971 (Gross) work for you?" answered Yes.
+Blockers: none.
+LEARNINGS: F24 LinkedIn Easy Apply flow was 4 pages (contact info, resume, additional questions, review) with no cover letter step and no free-text work-authorisation field - the transparency line had nowhere to go on this ATS.

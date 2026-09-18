@@ -1,0 +1,24 @@
+Keyfactor - Senior Forward Deployed Engineer - Prague, Czech Republic
+URL: https://www.linkedin.com/jobs/view/4464514835/
+Submitted: 2026-09-17 (LinkedIn Easy Apply, Claude in Chrome, 6-page Greenhouse-backed flow)
+
+Job page showed: Application status - Application submitted, now.
+
+Resume uploaded: Prabhavit_CV_Keyfactor.pdf (verified selected/top of list before proceeding).
+Mark job as top choice: left unticked (optional).
+Screening answers:
+- LinkedIn Profile: https://www.linkedin.com/in/prabhavit/
+- Website: left blank (no personal website)
+- How did you hear about this job: LinkedIn
+- Address: Venice, Italy, 30175
+- Legally authorized to work in the Czech Republic: No (honest, only Italy per work-authorisation.md)
+- Will require employer sponsorship for employment visa status: Yes
+- Desired salary (OTE) range: EUR 45,000 gross annual, negotiable (standing default, JD had no stated band)
+- Have you ever worked as a Forward Deployed Engineer before: No (honest, no prior role carried that formal title)
+- Solutions Engineer (pre-sales) experience: No
+- Software Engineer experience: Yes
+- Solutions Consultant/Architect (post-sales) experience: No
+- Direct PKI or IAM experience: No
+- Keyfactor data-processing consent (required, 91 days): Yes
+Follow Keyfactor checkbox: unticked (marketing opt-in, standing rule).
+Cover letter: review page showed a "Cover letter" section with the generic Greenhouse note "Be sure to include an updated cover letter" but no actual upload control was found in the flow (checked the Edit link, which only returns to the resume-selection page); CoverLetter_Keyfactor.pdf/.txt kept on file.

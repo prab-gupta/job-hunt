@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4459390346/
+Company: NewRocket
+Role: Forward Deployed AI Engineer - Anthropic - Netherlands/Western Europe, based Brussels, Belgium (remote with ~25% travel)
+ATS: LinkedIn Easy Apply
+
+Uploaded: Prabhavit_CV_NewRocket.pdf (parity-diffed against Prabhavit_CV_EN.tex, deletions/reordering only) and CoverLetter_NewRocket.pdf (this form had a dedicated cover-letter upload field, unusual for Easy Apply). Letter leads with his daily Claude/Claude Code work and the Claude API, per the task's instruction, then UltraStrategy CV-parsing pipeline paragraph and FlowSpace AI listing bot/support agents paragraph, honest 3 years vs the JD's 5-8 year ask, Netherlands/Belgium work-authorisation transparency line, notes willingness for ~25% travel, 0 em-dashes verified.
+
+Own tab created for this row (550851235, closed after submit). Filled 5-page Easy Apply:
+- Contact info: Prabhavit/Gupta, Italy (+39), phone 3516107807, email prabhavitg@gmail.com, Location Venice, Veneto, Italy (typed + selected from combobox)
+- Resume: defaulted to a stale library CV (Prabhavit_CV_F24.pdf); clicked Upload resume, located the hidden file input via JS inspection, uploaded Prabhavit_CV_NewRocket.pdf, verified selected
+- Cover letter: uploaded CoverLetter_NewRocket.pdf to the separate cover-letter field, verified selected
+- Education: pre-populated from the LinkedIn profile with 3 stale entries (School/Degree/Discipline = N/A, one date range roughly matching real university years, two clearly unrelated), capped at 3 responses with no add option; these fields were not required to proceed and were left as-is (LinkedIn profile data, out of scope for this task)
+- Additional Questions: LinkedIn Profile = linkedin.com/in/prabhavit, Website = github.com/prab-gupta, 5+ years Python experience = No (honest), Anthropic experience and certifications = No (honest — has real hands-on Claude API/Claude Code experience but no formal certification, and the question requires both), worked in enterprise consulting/services capacity = No (honest)
+
+Confirmation: "Your application was sent to NewRocket!" / job page Application status panel: "Application submitted". Screenshot/text saved to confirmations/NewRocket-2026-09-16.txt.
+
+No blockers. Dedupe was HIT COMPANY on an unrelated 2026-08-28 SKIPPED row (different requisition, Principal/Architect level, ServiceNow focus) — not blocking. Hard gates all passed.

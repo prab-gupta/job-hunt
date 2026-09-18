@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4412400066/ -> https://job-boards.greenhouse.io/primerai/jobs/7723253003
+Uploaded: nothing (form viewed only, not filled or submitted)
+Built and saved for later: Prabhavit_CV_Primer.pdf (FDE-tailored CV, parity-checked, 2 pages), CoverLetter_Primer.tex/.pdf/.txt (English, 0 em-dashes)
+Blocker: task-level carve-out for this specific company ("Primer is a US defence-adjacent company: if the form requires US citizenship or clearance, log NEEDS YOU with the clause instead of answering falsely"). The live JD's "Relevant Skills & Experiences" (a required list, not "Bonus Points") states "Active TOP SECRET clearance within the Department of Defense", and the Greenhouse application form has a required field "Do you hold an active Top Secret (TS) security clearance?*". Prabhavit does not hold and cannot claim a US DoD clearance.
+Logged: NEEDS_YOU.md "Blockers found 2026-09-16 (user-only)" row 16; applications.csv status NEEDS YOU; answers/primer-2026-09-16.md.
+LEARNINGS: none new (confirms the task's own prediction for this company).

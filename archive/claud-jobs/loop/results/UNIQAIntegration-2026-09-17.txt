@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4466257890/
+URL (destination): https://www.uniqa-gsc.sk/pracovna-pozicia/?pid=5359617
+Tab ID: 550851714 (Chrome MCP tab group)
+
+Dedupe: NEW. Cheap check: apply-button count 1 (posting open). Hard gates re-checked on the live destination page: "Several years of experience in enterprise integration engineering, API development, middleware" plus REST/async/schema-design/testing, Azure API Management (preferred), connectors "in Python, Java, .NET, or comparable" (broad, covers TypeScript/Node/Laravel), MCP server dev and RAG ingestion both phrased as "advantage" not required. No hard numeric year requirement, no absolute must-have framework. This is a materially better honest fit than the sibling AI Engineer row (4466260895) since Prabhavit's FlowSpace (OfficeRnD/Nexudus/CRM integrations), Get2Germany (Google APIs) and Clubee (API integration) work is genuinely integration-shaped. No anti-AI clause found.
+
+Uploaded: Prabhavit_CV_UNIQAIntegration.pdf and CoverLetter_UNIQAIntegration.pdf (English, 280 words, no em-dash) via the same simple Contact Form 7 form as the sibling role (Meno a priezvisko, E-mail, Telefon, CV upload, cover letter upload, GDPR consent). This ATS has no account/login system, so the "reuse account state" contingency from the task brief did not apply - each submission is independent.
+
+Answers given: Full name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, GDPR consent checked. Cover letter used the Slovakia work-permit transparency line. Salary not asked on this simple form; JD states base floor EUR 3,572/month gross x14 = ~EUR 50,008/year.
+
+Technical note: same as the sibling row - this backgrounded tab rendered with computed body { display: none } (blank screenshots, zero-size submit button). Verified every field and both file uploads via direct DOM/JS inspection, then submitted by dispatching a JS MouseEvent('click') on the submit input. Form class changed from "wpcf7-form init" to "wpcf7-form sent" and the Slovak confirmation text appeared: "Dakujeme za vasu spravu. Bola odoslana."
+
+Confirmation saved to confirmations/UNIQAIntegration-2026-09-17.txt.

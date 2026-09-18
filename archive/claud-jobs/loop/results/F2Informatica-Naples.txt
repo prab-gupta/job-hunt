@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465629083/
+Reason: posting closed. Guest API (curl -s -A "Mozilla/5.0" jobs-guest/jobPosting/4465629083 | grep -c apply-button) returned 0; live LinkedIn page (logged in, Playwright) confirmed the banner "No longer accepting applications" under the title/location line, 72 applicants, posted 1 day ago.
+Dedupe: NEW (python3 loop/dedupe.py --check "F2Informatica" <url> -> NEW; grep -i f2informatica applications.csv had no prior rows).
+No CV or letter drafted (killed at brief step 2, before drafting). No files created besides this results file and the applications.csv row.
+Note: the Milan posting of the same title (LinkedIn id 4466081961) is a separate, live requisition -- see loop/results/F2Informatica-Milan.txt.

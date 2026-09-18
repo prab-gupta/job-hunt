@@ -1,0 +1,36 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4464605007/
+Real ATS: Microsoft Careers - https://apply.careers.microsoft.com/careers/job/1970393556984672
+Chrome tab left open: tabId 550849717 (Claude in Chrome, user's real logged-in Chrome), sitting on the Sign in modal.
+
+Company / Role: Microsoft - Digital Solution Engineer - Apps & Innovation (Italian Speaking), Dublin, Ireland (hybrid, 3 days/week in-office). Fit 70.
+
+Gates re-checked on the live JD (LinkedIn guest jobPosting API + the Microsoft Careers posting itself, job number 200053055, level IC4 Individual Contributor):
+- Title is "Digital Solution Engineer" IC4 - not Senior/Staff/Lead/Principal/Manager/CTO.
+- No numeric years-of-experience figure stated; Qualifications say only "Extensive experience in technical pre-sales or technical consulting" - per task instruction this wording alone is not a kill.
+- Degree line is "Bachelor's Degree ... or equivalent practical experience" - not a hard MSc/PhD gate.
+- Italian appears only under Preferred Qualifications ("Preferred additional language: Fluent - English & Italian"), not Required - confirmed against the live JD, matching the scout's read. Proceeded.
+- Core stack (full-stack/cloud-native architecture, AI Foundry, Agentic AI, Semantic Kernel, pre-sales PoCs/hackathons/workshops) is not a Java/.NET/C++/Go/Rust-as-main-language or cloud-admin role Prabhavit can't claim.
+- Location Dublin, Ireland: EU long-term-resident mobility directive does not cover Ireland (per work-authorisation.md) - authorised No, employer-side employment permit/sponsorship Yes, transparency line required. User is relocation-ready, so not a location kill.
+- Posting live (17 hours old, "Promoted by hirer"). No KILL condition met.
+- Salary bands on the Microsoft Careers page: Ireland EUR 60,300-102,600/yr, Spain EUR 53,000-92,000/yr - both above the standing 45-55k band, so the honest answer if asked would be the Ireland band bottom, EUR 60,300. Never reached a salary field.
+
+Dedupe: `python3 loop/dedupe.py --check "Microsoft" <url>` returned HIT COMPANY~ (fuzzy). Checked applications.csv: every fuzzy hit is a DIFFERENT company whose role/title mentions "Microsoft" as a stack keyword (BEUMER Group, Avenga, Arrow Electronics, SoftwareOne, Union Maritime, ATC, TEKenable, Adventus) - no row where company is actually "Microsoft". Per the brief, a fuzzy hit on a different company never blocks. Proceeded.
+
+Uploaded: nothing. No application form was ever reached.
+
+Answers given: none. No form field, not even name/email, was ever shown.
+
+What happened: the LinkedIn posting showed "Apply" (not "Easy Apply") with "Promoted by hirer - Responses managed off LinkedIn" - an external-ATS redirect. Clicking Apply opened a new tab to Microsoft's own careers site (apply.careers.microsoft.com), exactly the "redirects to careers.microsoft.com" scenario named in the task. That tab was mine to use (spawned by my own Apply click), so I closed the now-redundant LinkedIn tab and continued there. Clicking "Apply now" on the Microsoft Careers job page opened a "Sign in" modal offering only: Sign in using Microsoft, Sign in using LinkedIn, Sign in using Google, Sign in using Facebook, or "Create an account" - no guest-apply path exists. Per the task's explicit instruction and the standing rule against creating accounts or authenticating on the user's behalf, stopped here. No account was created, no sign-in was attempted.
+
+Materials prepared and left ready for the user:
+- CV: Prabhavit_CV_Original_EN.pdf (the only CV to use; verify filename if LinkedIn-linked sign-in auto-imports a library resume instead).
+- Cover letter: CoverLetter_Microsoft.txt - re-read against the live JD and Prabhavit - Master Experience.md; needed no changes. RAG support-agent claim, Next.js/Laravel/Supabase stack claim, and the Ireland work-authorisation paragraph all verified against source files. 0 em-dashes confirmed. Not pasted anywhere - no message/cover-letter field was ever reached.
+- Standing answers ready for after sign-in: work authorisation No / employment permit-sponsorship Yes (Ireland doesn't participate in EU LTR mobility); transparency line from answers/work-authorisation.md; years of experience 3; Italian proficiency beginner/basic (answer No if a required "fluent Italian" question exists - none was found as required); salary EUR 60,300 if asked (Ireland band bottom); notice immediate, start two weeks after offer; relocation Yes.
+
+Blockers: Microsoft-account / third-party sign-in wall (Sign in using Microsoft/LinkedIn/Google/Facebook or Create an account) with no guest-apply path. Nothing else attempted past this point.
+
+Logged to: applications.csv (NEEDS YOU row), confirmations/Microsoft-2026-09-09.txt, answers/microsoft-2026-09-09.md.
+
+LEARNINGS: none new - confirms the task's own prediction that this LinkedIn posting's "Apply" redirects to Microsoft's own careers portal (apply.careers.microsoft.com) behind a full sign-in-or-create-account wall with zero guest-apply path, i.e. a pure account-creation gate before any form field renders.

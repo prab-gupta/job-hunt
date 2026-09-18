@@ -1,0 +1,22 @@
+Application submitted 2026-09-18 via https://job-boards.greenhouse.io/arizeai/jobs/5793354004
+
+Confirmation page (URL: https://job-boards.greenhouse.io/arizeai/jobs/5793354004/confirmation):
+
+"Thank you for applying.
+Your application has been received! We are excited to review your submission. Someone will be getting back to you at our earliest convenience."
+
+Fields submitted:
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Country: Italy
+- Phone: +39 351 610 7807
+- Location (City): Venice, Venezia, Italy
+- CV: Prabhavit_CV_ArizeAI.pdf (tailored: AI Solutions Engineer headline, production-AI + customer-facing SUMMARY, Customer-facing AI delivery + Production AI systems SKILLS reorder)
+- Cover Letter: CoverLetter_ArizeAI.pdf (English, 4 paras: FlowSpace AI listing pipeline + support agents = Arize's own use case, integrations depth, EU LTR + no sponsorship, available immediately)
+- LinkedIn: https://www.linkedin.com/in/prabhavit/
+- Website: https://github.com/prab-gupta
+- Sponsorship: No
+- Based in Europe: Yes
+- Customer-facing capacity: Yes
+- Voluntary self-ID (gender/ethnicity/veteran/disability): declined per privacy defaults

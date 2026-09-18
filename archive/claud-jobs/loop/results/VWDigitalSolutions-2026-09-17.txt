@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4459186880/ (offsite via https://jobs.eu.lever.co/vwgds/136fa78c-96b0-4ad2-9e86-eba6259202c0/apply)
+Uploaded: Prabhavit_CV_VWDigitalSolutions.pdf (tailored from Prabhavit_CV_EN.tex, filename verified in the resume field before submit). No separate cover-letter upload field on this Lever form; CoverLetter_VWDigitalSolutions.pdf/.txt were built and kept on file but not attachable.
+Answers given: full name/email/phone/location/current company auto-filled from LinkedIn profile share and verified; pronouns left blank; "ok with office 1x/week" = Yes; "permission to work in Portugal" = Not yet (honest, needs employer-side permit per work-authorisation.md); "based in Portugal" = No; English level = 5 Very Advanced/Fluent; legally-required sex-per-official-documents field (Article 32 disclosure) = Male; optional demographic survey answered honestly: current location Italy, nationality Indian, year of birth 2001; future-opportunities marketing checkbox left unticked.
+Blockers: none.
+Confirmation: on-page "Application submitted!" text, URL moved to /thanks. See confirmations/VWDigitalSolutions-2026-09-17.txt (Claude in Chrome cannot save PNG screenshots to disk).
+LEARNINGS: none new (standard Lever guest-apply flow with a custom demographic/legal-sex question block; no new ATS trap).

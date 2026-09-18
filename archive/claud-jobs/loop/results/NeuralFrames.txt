@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466860344/
+Uploaded: Prabhavit_CV_NeuralFrames.pdf (tailored, parity-checked against Prabhavit_CV_EN.tex, 2pp), explicitly via Upload resume button (replaced pre-selected default Prabhavit_CV_Matica.pdf left over from the prior application).
+Letter: CoverLetter_NeuralFrames.pdf/.txt (English, two-role proof: FlowSpace AI listing bot/live migration lead + Urlink platform build/client automations second), kept on file, no upload/paste field on this Easy Apply flow.
+Answers given: available to start=09/30/2026, expected yearly compensation EUR=50000, 200-char "why the right person" pitch on the FlowSpace migration and listing pipeline, JOIN Terms/Privacy consent=Yes. Unfollowed the company.
+Blockers: none.
+LEARNINGS: none new (standard LinkedIn Easy Apply 4-page flow via the Join.com ATS integration; date field accepted plain MM/DD/YYYY typed text without needing the embedded calendar widget).

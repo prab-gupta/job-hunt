@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4459272071/
+Company: OSS Ventures (Paris) - OSS, Forward Deployed Engineer (FDE) (separate role/talent pool at the same studio, applies via Homerun)
+Dedupe: NEW for this exact URL/requisition. (The Parsio posting above is a different requisition at the same company; per task instructions treated as a separate application, not blocked by it.)
+Reason: JD Must-haves explicitly state: "You're fluent in both French and English -- clients are in France, technical references are in English." French required = kill.
+No CV, no letter, Homerun ATS never opened.

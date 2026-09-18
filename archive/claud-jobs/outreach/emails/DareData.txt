@@ -1,0 +1,17 @@
+TO: contact@daredata.ai
+SUBJECT: Applied AI engineer, agents and integrations, remote-first
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Rui,
+
+DareData building production AI systems and agents end to end, remote-first, is exactly how I like to work, so I am sending this against your spontaneous application track.
+
+At FlowSpace (coworking marketplace, London) I built the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far, plus the Nexudus and OfficeRnD API integrations and RAG support agents with confidence scoring and human escalation. Stack: Python, TypeScript, Laravel, n8n, Claude and OpenAI APIs, PostgreSQL, Docker. I own things from the messy input to the human review step, and I have spent two years on the customer side of the APIs I integrate.
+
+If you are adding delivery engineers this autumn I would be a fast ramp on agent and data pipeline work. Happy to do a 20 minute call or a small paid trial task.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Based in Venice with an EU long-term residence permit; remote from Italy from day one, or EU relocation with the employer-side permit.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

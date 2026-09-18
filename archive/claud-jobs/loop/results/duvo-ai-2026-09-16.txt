@@ -1,0 +1,8 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4417377604/ (Forward Deployed Engineer (EU/UK Based), duvo.ai, European Union / remote)
+
+Uploaded: nothing, no materials built.
+
+Blocker: dedupe. This exact requisition (Duvo Inc / duvo.ai, "Forward Deployed Engineer (EU/UK Based)") was already SUBMITTED on 2026-08-28 via Ashby: https://jobs.ashbyhq.com/duvo/e2156092-50f1-4181-87fb-9e4bc299dde3 (applications.csv row confirms "Success, Your application was successfully submitted"). Company and role title are identical, so per the dedupe rule ("a row for THIS company has status SUBMITTED... for the same requisition... blocks") this row was killed without reopening the form. Note applications.csv also shows an earlier attempt on 2026-08-24 for the same requisition logged SKIPPED - not CV-only, superseded by the 08-28 SUBMITTED row.
+
+LEARNINGS: none new.

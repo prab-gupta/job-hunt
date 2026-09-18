@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4442733590/
+Company: Provectus - Senior Product Owner/ Forward Deployed Executive - AI Delivery - Madrid, Spain
+
+Uploaded: Prabhavit_CV_Provectus.pdf (tailored from Prabhavit_CV_EN.tex, verified selected before proceeding). No cover letter field in this 9-page Lever-backed Easy Apply flow; CoverLetter_Provectus.pdf/.txt kept on file.
+Answers given: honest free-text on RAG/prompt engineering/AI agents (yes on prompt engineering/agents, RAG working knowledge only), AWS (no), presenting to executives (yes, Urlink/FlowSpace examples), certifications (Microsoft/Tray.AI, no AWS/CSPO/SAFe), AI/ML/GenAI experience (yes), years in product/delivery ownership (no formal title, ~1 year de facto), hands-on Claude/Claude Code/Cowork/MCP (yes on Claude/Claude Code, no Cowork/MCP), FSI/HCLS experience (none), enterprise-client AI delivery (yes at smaller/mid scale). B2B monthly USD comp 3800-4500, seniority self-rated Middle, English Advanced, country Italy, city Venice, notice period immediate/2 weeks, marketing consent declined, LinkedIn URL given, location corrected to Madrid (form defaulted to Valencia), current location Venice Italy, follow-company checkbox unticked.
+Confirmation: "Application submitted, now" status on job page.
+Blockers: none.
+Note: dedupe returned HIT COMPANY (one unrelated prior Provectus row, SF/NYC Forward Deployed AI Architect, status SKIP not SUBMITTED) - did not block per dedupe rule since it is a different role/level/ATS and not SUBMITTED.
+LEARNINGS: Provectus/Lever Easy Apply form pre-selects the wrong location in a "Which location are you applying for?" dropdown (defaulted to Valencia on a Madrid posting) - always check and correct location dropdowns against the actual job title/URL rather than trusting the default.

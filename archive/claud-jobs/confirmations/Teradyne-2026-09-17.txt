@@ -1,0 +1,16 @@
+Teradyne - Technical Lead Manager, Forward Deployed Engineering - Odense, Denmark - 2026-09-17
+
+NOT SUBMITTED. Blocked at the account wall before reaching any application form.
+
+Path taken: LinkedIn job page (https://www.linkedin.com/jobs/view/4468356968/) -> Apply -> Teradyne careers job detail page (https://jobs.teradyne.com/Teradyne/job/Odense-Technical-Lead-Manager%2C-Forward-Deployed-Engineering/1430909400/?utm_source=LINKEDIN&utm_medium=referrer) -> "Apply now" dropdown -> "Apply Now" option (also tried, "Start applying with LinkedIn" was the only other option) -> redirected to SAP SuccessFactors sign-in wall:
+
+https://career41.sapsf.com/careers?company=teradynein
+(tab 550851471)
+
+Page text: "Career Opportunities: Sign In - Already have an account? Enter your email address and password... Not a registered user yet? Create an account to apply for our career opportunities."
+
+No guest-apply path exists on this page; the only options are Sign In (needs existing credentials) or Create an account. Per policy, account creation and password entry are prohibited actions for this agent. Stopped here without creating an account or entering any credentials.
+
+Materials built and ready for the user to use once they sign in or create an account themselves:
+- Prabhavit_CV_Teradyne.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages)
+- CoverLetter_Teradyne.pdf / CoverLetter_Teradyne.txt (honest on the 8-years and management-experience gap, FlowSpace + UltraStrategy evidence)

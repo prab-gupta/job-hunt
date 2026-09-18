@@ -1,0 +1,18 @@
+STATUS: KILLED
+
+URL: https://de.linkedin.com/jobs/view/forward-deployed-engineer-m-f-d-at-limetax-4462509050
+Role: Forward Deployed Engineer (m/f/d), Berlin, Germany
+
+Dedupe: python3 loop/dedupe.py --check "Limetax" <url> -> NEW. No prior row for this company.
+
+Cheap check: LinkedIn guest API apply-button count = 1 (posting open).
+
+Hard gate: full JD text extracted. "Your Profile" section states: "You speak professional German
+and fluent English. German is essential for working directly with our tax advisory teams across
+Germany." Explicit, stated as essential, not "a plus". Per the standing rule (Dutch/German
+required = kill), and Prabhavit's languages being English C2 + conversational Italian only, this
+is a kill.
+
+No CV or cover letter built. No answers filled. No account touched.
+
+Nothing broke; no new ATS trap to log.

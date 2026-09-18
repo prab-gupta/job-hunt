@@ -1,0 +1,10 @@
+Finomnia - Software Developer Angular & Analyst - Teamtailor - 2026-09-11
+
+Success page text (after clicking "Invia la candidatura"):
+"Grazie per la tua candidatura
+Abbiamo ricevuto la tua candidatura e a breve la esamineremo."
+Progress indicator showed "Candidato" (checked) / "Connect" (step 2, optional, not completed).
+
+URL at success: https://finomnia.teamtailor.com/jobs/8354507-software-developer-angular-analyst/applications/19b20616-56d2-4709-b266-bec373f1ad99/thanks/...
+
+Note: PNG screenshot saving is not available via Claude in Chrome in this session (save_to_disk did not return a retrievable file path on two attempts); this txt is the confirmation record per the brief's fallback instruction.

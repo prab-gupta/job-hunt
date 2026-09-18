@@ -1,0 +1,12 @@
+Gecal Informatica Srl — Full Stack Developer Node.js/React
+URL: https://www.linkedin.com/jobs/view/4464468514/
+Applied via: LinkedIn Easy Apply
+
+Confirmation text seen on screen after Submit application:
+"Your application was sent to Gecal Informatica Srl!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+
+Background page also showed:
+Application status: Application submitted (now)
+
+Screenshot not saved to disk (Claude in Chrome PNG saving unavailable); this txt is the record per brief.

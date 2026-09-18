@@ -1,0 +1,55 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463475404/
+ATS: LinkedIn Easy Apply
+
+Dedupe: NEW (dedupe.py --check "Röchling Automotive" <url> returned NEW).
+Cheap check: curl apply-button count = 1 (accepting applications).
+
+Live JD re-check (Playwright, own tab): Software Developer, Laives (BZ), Trentino-Alto Adige,
+Italy, Hybrid, Full-time, Easy Apply, 59 applicants, JD in Italian. Hard gates re-checked:
+- Years: no explicit years-of-experience requirement in the JD; it explicitly welcomes "brevi
+  esperienze lavorative o di tirocinio" (even brief work/internship experience). LinkedIn's own
+  applicant stats show 75% entry level, 19% senior. PASS.
+- Title/seniority: "Software Developer (m/f/x)", not Senior/Staff/Lead/Principal/Manager/CTO. PASS.
+- Education: "Laurea (o competenze equivalenti) in ambito informatico" - Bachelor's or equivalent
+  competencies, not a hard MSc/PhD requirement. PASS.
+- Language: JD is Italian (acceptable per task instruction), English required is only "tecnico di
+  base" (basic technical). No German mentioned anywhere. PASS.
+- Core stack: "Sviluppo web preferibilmente con Django (Python) e Vue (JavaScript) o framework
+  analoghi" - stated as a preference ("preferibilmente") with an explicit "or similar frameworks"
+  escape hatch, not an exclusive hard requirement, and not C/C++/embedded. Also asks for
+  PostgreSQL (he has this via Supabase) and Docker (claimable as working knowledge). Queue harvest
+  row had already flagged the stack as in scope (fit score 70). PASS.
+- No anti-AI disclaimer found in the JD text.
+Decision: proceed, matches queue harvest assessment.
+
+Materials built:
+- Prabhavit_CV_Rochling.pdf/.tex: built fresh from Prabhavit_CV_EN.tex (no prior file existed).
+  Parity-checked (all Professional Experience bullets verbatim-diffed against the original, only
+  Additional Information comma-lists reordered per the tailoring rule). Career Summary trimmed to
+  2 bullets (API integrations + production-ready features/QA). FlowSpace kept 6 bullets across
+  Product+Technical, migration and API-integration bullets moved to top. Other roles kept >=1
+  bullet each, reordered toward platform-building/API/DB relevance, dropped Bubble-brand UI/UX and
+  pure-AI bullets not relevant to this JD. 2 pages, photo included.
+- CoverLetter_Rochling.pdf/.txt: written in Italian (JD's language) per task instruction. Lead
+  paragraph FlowSpace (legacy-stack migration to Next.js/Laravel while live, 2,000->4,500+ users;
+  OfficeRnD/Nexudus API integrations). Pair paragraph Urlink (AI-assisted platform build with
+  Next.js/Supabase, noting Supabase runs on PostgreSQL, the same relational DB the JD asks for).
+  Honest disclosure paragraph: no direct Django or Vue experience, but regular work with analogous
+  backend/frontend frameworks (Laravel, Next.js/React) and Docker. Closes with Italy work
+  authorisation (Yes, no sponsorship) and hybrid availability at Laives. 0 em-dashes (grepped).
+  NOT attached: this employer's Easy Apply form only exposed a resume upload field, no cover
+  letter/additional-document field, so the letter could not be submitted through the ATS itself.
+
+Easy Apply flow was a single page (contact info + Premium "top choice" upsell, left unticked +
+resume + Follow-company checkbox, left as LinkedIn's default checked + Submit), no further
+custom questions. Email and phone (+39 3516107807) were already correct/prefilled by LinkedIn,
+no edits needed. Uploaded Prabhavit_CV_Rochling.pdf via the "Upload resume" button (confirmed
+selected via the checked radio before submitting, not picked from the old resume library).
+
+Submitted. Confirmation: "Your application was sent to Röchling Automotive!" / Application status
+panel on the job page now shows "Application submitted". Screenshot and text saved to
+confirmations/Rochling-SoftwareDeveloper-2026-09-16.png/.txt.
+
+No LEARNINGS entry needed (no new ATS trap; standard Easy Apply single-page flow, LinkedIn
+prefilled contact fields correctly this time).

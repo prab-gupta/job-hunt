@@ -1,0 +1,11 @@
+Filed - Fullstack AI Developer (Python/React) - Stockholm, Sweden
+Submitted via Ashby (careers.filed.com), referred from LinkedIn job 4443271872.
+
+Confirmation page: https://careers.filed.com/jobs/7777396-fullstack-ai-developer-python-react/applications/1eea9083-6d0d-4f34-be3d-b2a37cbc3c3b/thanks/55cd6d68f226e609b2f1570f2da1b28fe100738f71e02111edf3c687c375e752?tmp_ctoken=6531111025c34db0ef080f33e9e5aad259db490c321f4fe7e09eb0eb3d4f4ac8
+
+Success text shown on page:
+"Thanks for applying
+We have received your application and we will be reviewing it shortly. We usually respond within a day."
+
+Progress tracker on confirmation page showed step 1 "Applied" complete (checkmark), step 2 "Connect" next.
+Tab title after submit: "Applied to Fullstack AI Developer (Python/React)"

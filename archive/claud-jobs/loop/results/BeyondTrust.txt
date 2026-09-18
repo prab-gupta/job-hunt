@@ -1,0 +1,10 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4371026525/
+LI-PICK row (queue.csv notes: "LI-PICK (reapply); user rule 2026-09-11: apply everything LinkedIn suggests...").
+
+Dedupe stop before any drafting: python3 loop/dedupe.py --check "BeyondTrust" "https://www.linkedin.com/jobs/view/4371026525/" returned HIT COMPANY. grep -i beyondtrust applications.csv found an exact prior row: 2026-08-26, BeyondTrust, Solutions Engineer, ATS Greenhouse (https://job-boards.greenhouse.io/beyondtrust/jobs/7572005), Italy (Remote), status Applied, source LinkedIn Saved, notes "Tailored CV + cover letter, <EUR100k OTE, privacy acknowledged".
+
+Same company, same exact role title (Solutions Engineer / Solutions Engineer- Remote), same location (Italy Remote), same seniority (Not Applicable / individual-contributor presales), 16 days ago (well within the 60-day window). This is the same requisition (BeyondTrust runs one Solutions Engineer-Italy-Remote req on Greenhouse) already SUBMITTED with a tailored CV and cover letter. Per brief: prior SUBMITTED row for the same requisition = KILLED (dup). Per LI-PICK rule: kill only on closed/already-submitted/missing-language grounds — already-submitted applies here.
+
+No CV, letter, or answers drafted this run. Browser never opened (no tab created, no navigation). Nothing new to log to confirmations/ or answers/.
+LEARNINGS: none new — confirms existing dedupe rule works as intended on a reapply-flagged LI-PICK row.

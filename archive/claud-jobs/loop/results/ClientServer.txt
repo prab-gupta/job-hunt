@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+https://www.linkedin.com/jobs/view/4464321812/
+Uploaded: Prabhavit_CV_ClientServer.pdf (explicitly via "Upload resume", verified filename on review; pre-selected-CV trap caught again, LinkedIn had defaulted to Prabhavit_CV_Signify.pdf from the prior lead)
+Cover letter: CoverLetter_ClientServer.pdf/.txt built, not uploaded (Easy Apply flow had no cover letter step). States plainly that his backend stack is TypeScript/Node.js, Laravel (PHP) and Python, not Java or Scala, no production experience in either, willing to learn Scala on the job.
+Answers given: contact info only (email, phone) - this ATS (Broadbean, recruiter) had no additional screening questions.
+Blockers: none, but see LEARNINGS below for a mid-flow incident that cost one extra attempt.
+Result: "Application status: Application submitted" shown on the job page after Submit. Screenshots confirmations/ClientServer-2026-09-11-before.png (review page) and confirmations/ClientServer-2026-09-11.png (submitted state).
+LEARNINGS: mid-flow on the first attempt, the browser_file_upload call for the resume step was followed by an unexpected navigation to an unrelated LinkedIn job (NinjaOne "Solutions Engineer - Italian", 4466068547) - most likely a stray click on a "more jobs" carousel link as the Easy Apply modal's DOM changed around the upload. No data was entered or submitted on that unrelated page. Navigated back to the Client Server posting, confirmed no application had been registered (button still read "Easy Apply to this job"), and restarted the flow cleanly; the second attempt completed without incident. Worth a beat of extra caution after file_upload calls on LinkedIn: re-snapshot immediately to confirm the URL/dialog is still the intended job before continuing.

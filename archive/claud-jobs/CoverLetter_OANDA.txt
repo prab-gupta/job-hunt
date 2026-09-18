@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear OANDA Hiring Team,
+
+I am writing to apply for the Associate Software Engineer role. I have three years of professional experience writing TypeScript and Python, building on React-based frameworks, and working with FastAPI at a working-knowledge level for automation scripts and integrations, which fits the stack your scrum team works in.
+
+At FlowSpace, a workspace marketplace, I worked as lead developer through the migration of a live product onto Next.js and Laravel, mapping the old data structure entity by entity and driving the cutover while the platform kept running, scaling usage from 2,000 to 4,500 plus users. I write reusable, testable code day to day and lean on AI-assisted tools such as the Claude API and Claude Code to move faster, similar to how your team leverages AI to speed development.
+
+At Clubee, I integrated the Clubee API across the frontend and owned unit testing and QA for new features, including domain-integration, shop and federation-dashboard tools. That mix of API integration work paired with structured testing is close to the automated regression and manual testing this role covers.
+
+I am proactive, comfortable debugging from logs, and used to git-based collaborative workflows. I hold Italian EU long-term resident status; for a role based in Poland I would need the applicable employer-side permit or sponsorship process, and I am ready to complete that and to work the hybrid Cracow model.
+
+Regards,
+Prabhavit Gupta

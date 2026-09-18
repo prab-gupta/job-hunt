@@ -1,0 +1,4 @@
+VOIS (Vodafone Intelligent Solutions) - AI Engineer / "Software Engineer" (Software & Product Infrastructure), Bucharest, req 286258, Eightfold pid 563018697527377
+https://jobs.vodafone.com/careers/apply/success?domain=vodafone.com&pid=563018697527377
+Text: "Thank you for your application, Prabhavit!"
+verified by the loop 2026-09-06 16:07 CEST via Playwright; screenshot VOIS-2026-09-06.png

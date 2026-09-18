@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4437151658/ (applied via ATS directly: https://careers.tekst.com/o/solution-engineer-delivery?source=LinkedIn -> https://careers.tekst.com/o/solution-engineer-delivery/applied)
+Uploaded: Prabhavit_CV_Tekst.pdf (tailored, delivery/API-integration/automation bullets led, FlowSpace + Urlink two-role letter pairing) and CoverLetter_Tekst.pdf as the cover letter upload.
+Answers given: Full name Prabhavit Gupta, email prabhavitg@gmail.com, phone +39 351 610 7807 (country selector switched from default Belgium to Italy). No other fields on this minimal guest form (no salary/years/language/consent questions).
+Blockers: none. Confirmed with "All done! Your application has been successfully admitted. A member of our team will contact you as soon as possible!" and an "Applied" badge on the Application tab.
+LEARNINGS: Tekst's own careers.tekst.com site (not LinkedIn Easy Apply) runs a simple Recruitee-style guest form with just Name/Email/Phone/CV/Cover letter, no account wall, no extra screening questions. The phone country-code selector defaults to the job's own country (Belgium); had to click it, type "Italy" to filter, and select it before the +39 prefix and rest of the number could be entered correctly.

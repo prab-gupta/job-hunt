@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+Two rows, both submitted, no DUP/COOLDOWN block between them.
+
+Row 1: Product Engineer, Core
+URL: https://www.linkedin.com/jobs/view/4468223482/ (routed to jobs.ashbyhq.com/Bounce/3dc46c96-d047-48f8-8352-97a9d2a365a6/application, ATS: Ashby)
+Uploaded: Prabhavit_CV_Bounce.pdf.
+Answers: Name/Email, Are you based in Lisbon or would relocate = "based in Venice, Italy, would relocate to Lisbon", EU/EEA citizen = "No, Indian citizen, Italian EU LTR status, would need employer-side permit" (honest), Salary expectations = EUR 45,000-55,000, Notice period = Immediately Available, free-text "AI tools on unfamiliar codebase" question answered honestly (Claude Code + FlowSpace migration example).
+Confirmation: "Success - Your application was successfully submitted. We'll contact you if there are next steps." (confirmations/Bounce-Core-2026-09-16.txt)
+
+Row 2: Product Engineer, New Verticals
+URL: https://www.linkedin.com/jobs/view/4468231411/ (routed to jobs.ashbyhq.com/Bounce/b669c4c4-ff7c-4496-9c9e-0f07f7e0ef67/application, ATS: Ashby, a different job UUID/requisition than Core)
+Uploaded: Prabhavit_CV_Bounce.pdf (same file, reused per task instruction to build the CV once for both rows).
+Answers: same identity/relocation/citizenship/salary/notice-period answers as Core; free-text "project you owned end to end" question answered with the Urlink PM+developer example.
+Confirmation: "Success - Your application was successfully submitted. We'll contact you if there are next steps." (confirmations/Bounce-NewVerticals-2026-09-16.txt)
+
+Blockers: none on either row. LinkedIn showed a one-time "Job search safety reminder" interstitial (Continue applying) before redirecting to Ashby, not an ATS trap, just a click-through.
+Cover letters: CoverLetter_BounceCore.pdf/.txt and CoverLetter_BounceNewVerticals.pdf/.txt built and saved on file; neither Ashby form for this Bounce tenant has a cover-letter upload field, so neither was attached.
+LEARNINGS: none new; Ashby behaved per ats-guides/ashby.md (real-keystroke typing worked fine, no React state-wipe hit this time).

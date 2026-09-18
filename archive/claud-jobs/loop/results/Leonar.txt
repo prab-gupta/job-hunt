@@ -1,0 +1,17 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4464934870/
+Redirect target: https://recruiterflow.com/licornesociety/jobs/17306?source=linkedin_basic&utm_channel=recruiterflow-posting&location=1
+
+Uploaded: nothing. Answers given: none.
+
+Reason: recruiting-agency posting for an unnamed client. The LinkedIn listing is marked "Responses managed off LinkedIn" (external redirect, not Easy Apply). Clicking Apply lands on a Recruiterflow page titled "Apply to LLM Engineer at Licorne Society" - neither that page nor the LinkedIn JD ever names the actual hiring company, only "we are building the AI coworker for legal and professional services" and "founders." This matches the brief's documented Licorne Society agency-kill pattern (an earlier Leonar "Backend Engineer" posting was killed the same way).
+
+Gate checks that passed BEFORE the agency issue surfaced (for the record): fully English JD, no French required, no years-of-experience threshold (JD explicitly states years don't matter), seniority Associate, stack Python/FastAPI/Postgres/LangGraph/LangChain/Azure OpenAI within the claimable ladder.
+
+Dedupe: NEW (no prior Leonar or Licorne Society row in applications.csv).
+
+Blockers: employer unnamed (agency posting), per the brief's explicit kill instruction.
+
+LEARNINGS: Leonar's LinkedIn "LLM Engineer" posting (id 4464934870) is a second confirmed instance of the Licorne Society agency relisting an unnamed client under the Leonar brand name - same trap as the earlier Leonar "Backend Engineer" kill. Treat any Leonar-branded LinkedIn posting as agency-sourced by default; verify the Apply redirect before doing any JD/CV work.
+
+CoverLetter_Leonar.txt/.tex/.pdf were drafted, then deleted after the kill (never used, no field to paste/upload into was reached). Full detail: answers/leonar-2026-09-09.md. Tracker row appended to applications.csv.

@@ -1,0 +1,6 @@
+NOT SUBMITTED — NEEDS YOU.
+
+Form: https://jobs.pharma-hera.de/Data-AI-Engineer-all-genders-de-f284.html (Rexx Systems ATS, reached via LinkedIn "Apply on company website" from https://www.linkedin.com/jobs/view/4467577090/)
+Chrome tab id: 550851706
+
+Every field filled and validated except the required "Deutsch" (German proficiency) dropdown under "allg. Kompetenzen", which has no "none/Keine" option (only Muttersprache/Fließend/Fortgeschritten/Grundkenntnisse). Submitting with it blank returns the on-page error "Bitte füllen Sie die markierten Felder aus!" with only that field highlighted. Prabhavit has no German and the standing rule says never to claim any language beyond English and conversational Italian, so this field was left unset and the form was not submitted, pending your decision. Full detail in answers/pharmahera-2026-09-17.md.

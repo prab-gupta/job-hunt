@@ -1,0 +1,17 @@
+Dear alago team,
+
+I am applying for the Founding Full-Stack Engineer role in Munich.
+
+Your two hard problems are the two I have spent the last two years on, in a smaller market. At FlowSpace (coworking marketplace, London) I built the LLM pipeline that reads operator brochures, websites, photos and spreadsheets and turns them into validated listings after human review, 900+ listings so far, which is the same shape as turning specs, protocols and site communications into project memory: messy documents in, structured and cross-referenced records out, with a review step because a wrong answer has consequences. Under it I designed the data layer and the APIs, ran Postgres via Supabase, and kept the product fast for operators and members while it grew from 2,000 to 4,500+ users. I also built the RAG support agents that answer from live data and escalate to a person when confidence is low, and the OfficeRnD and Nexudus integrations.
+
+Your stack is mine: TypeScript, Next.js, Vercel, Supabase with Postgres, shadcn/ui, and Claude Code as the daily tool (I use it as my primary development environment and I have working knowledge of LangChain and pgvector). I ship at 80 percent and learn from production, and I have sat across from non-technical operators to understand how they actually work before building anything for them.
+
+Level is open, so I will be direct: 2.5 years of production experience, most of it as the engineer who owned features end to end, plus the founder-style ownership of taking a live marketplace off a legacy stack onto Next.js and Laravel without downtime.
+
+Logistics: I am based in Venice, Italy, hold an EU long-term residence permit and can relocate to Munich. Germany would need an employer-side work permit, routine for a full-time hire. English is my working language (C1); I do not speak German yet and would start learning it.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser. CV attached.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit

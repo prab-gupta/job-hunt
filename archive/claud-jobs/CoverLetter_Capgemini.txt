@@ -1,0 +1,16 @@
+Gentili Signori,
+
+mi rivolgo a voi per candidarmi al ruolo di Data Engineer presso Capgemini a Marcon. Vivo a Venezia, a due passi da Marcon, e sono autorizzato a lavorare in Italia senza bisogno di sponsorizzazione.
+
+Ho tre anni di esperienza come sviluppatore full-stack e AI in diverse aziende europee, con un focus su pipeline che elaborano e strutturano dati. Per UltraStrategy (Francia) ho costruito una pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati con Affinda e le API di Claude e valuta la rilevanza del candidato per tipi di ruolo specifici, il risultato viene mostrato nel frontend e infine viene generato un "Ultra CV" standardizzato.
+
+Per FlowSpace, un marketplace di spazi di lavoro con sede a Londra, ho guidato la migrazione dei dati da uno stack legacy a Next.js e Laravel: ho mappato la struttura dati esistente su quella nuova, scelto per ogni entità il percorso di migrazione (endpoint API o esportazioni CSV) e gestito il passaggio mentre il prodotto restava in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti.
+
+Come seconda prova, per Get2Germany (Berlino) ho integrato le Google API e costruito automazioni di ricerca che trovano corsi, stage e offerte di lavoro, oltre a ottimizzare il database della piattaforma.
+
+La mia esperienza con schemi Postgres e Supabase e con pipeline di trasformazione ed estrazione dati mi permette di contribuire rapidamente a un contesto di data engineering. Il mio inglese è di livello C2, il mio italiano è conversazionale e in costante miglioramento.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

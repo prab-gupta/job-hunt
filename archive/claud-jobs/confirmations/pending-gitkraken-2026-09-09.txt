@@ -1,0 +1,37 @@
+GitKraken - Software Engineer (Full Stack Product Engineer, Insights)
+BambooHR: https://gitkraken.bamboohr.com/careers/180
+Status as of 2026-09-09: NEEDS YOU
+
+Form is live and fully pre-filled in the user's own Chrome, in a dedicated tab
+(tabId 550849667, not a Playwright/headless context) so the user can finish it
+in one motion.
+
+Fields filled and verified by screenshot:
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Resume: Prabhavit_CV_Original_EN.pdf (uploaded, shown attached in the form)
+- Desired Pay: EUR 50,000
+- Website, Blog or Portfolio: github.com/prab-gupta
+- LinkedIn URL: linkedin.com/in/prabhavit
+- Where do you currently reside/intend to perform this role?: Venice, Italy.
+  Open to relocating to Alicante, Spain for this role.
+- 4 required essay answers, filled verbatim from answers/gitkraken-2026-09-09.md
+  (Why join GitKraken; what the engineer is still uniquely responsible for in
+  an AI-assisted environment; how to take a feature from vague idea to
+  production using AI; how to decide a large AI-generated PR is safe to ship)
+- Honeypot "Please leave this field blank": left untouched/empty
+- No marketing/talent-pool/newsletter checkboxes exist on this form (confirmed
+  via full page text extraction) - nothing to untick
+- No cover-letter field exists on this BambooHR form (Resume is the only file
+  input)
+
+What is left for Prabhavit:
+1. Open/switch to the Chrome tab (tabId 550849667) already sitting on this
+   filled form.
+2. Tick the "I'm not a robot" reCAPTCHA checkbox.
+3. Click "Submit Application".
+
+The agent did not click the reCAPTCHA and did not submit, per the standing
+no-bypass-bot-detection rule. Tab left open, not closed.

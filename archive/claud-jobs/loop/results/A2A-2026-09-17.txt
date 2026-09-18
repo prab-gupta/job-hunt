@@ -1,0 +1,12 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468395524/
+Company: A2A Life Ventures (A2A Group, AI Factory team) - AI Developer - Milan, Piazza Trento
+Dedupe: NEW (no prior applications.csv row for A2A / A2A Life Ventures)
+
+Reason: JD gate on years of experience. Exact quote from the "Sei la persona giusta se ti riconosci in questo profilo" section:
+"Laurea in Informatica, Ingegneria, Matematica, Fisica, Data Science" and "Esperienza pregressa di 4-5 anni in ruolo analogo"
+
+Coordinator planner update received mid-task: skip A2A, do BIP only, treat this as a KILL under the normal gates (years above 3 plus a STEM degree clause), log the quote and continue with BIP.
+
+No CV or cover letter built. A2A careers site never opened. No form touched.
+applications.csv row appended with status KILLED, notes carrying the quote.

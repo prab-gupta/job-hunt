@@ -1,0 +1,24 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464450776/ (external, responses managed off LinkedIn -> The Hub thehub.io lead form -> career.relesys.ai application form, not LinkedIn Easy Apply)
+Confirmation: "Thanks for applying — We have received your application and we will be reviewing it shortly." (career.relesys.ai/jobs/8295443-mid-level-frontend-engineer/applications/4c090fdf-c4b1-471a-9384-e83ce8c1f477/thanks/...)
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (resume field). Cover letter pasted into the "Cover letter" text field (CoverLetter_Relesys.txt content, 203 words, 0 em-dashes); CoverLetter_Relesys.pdf also built via tectonic (1 page) but not needed since a text field existed.
+
+Answers given:
+- Preferred working model: open to remote, hybrid, or on-site; ready to relocate to Odense.
+- Angular/AngularJS years: 0 (honest — JD lists Angular as "great, but not required"; core stack is React/TypeScript).
+- React experience: Yes.
+- Where are you located: Venice, Italy.
+- Locations (required checkbox, offices Vilnius/Copenhagen/Odense): Odense — matches the LinkedIn listing's primary location.
+- Name/email/phone: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807 (country selector explicitly changed from default Lithuania +370 to Italy +39).
+- "Relesys can contact me about future job opportunities": left unticked.
+
+Hard gates re-checked on live JD: +2-3 years (not >3), Mid-level title, "bachelor's Degree ... or similar" is a soft ask not a hard MSc/PhD requirement, JD in English with no Danish/Lithuanian requirement, React/TypeScript is core claimable stack, Odense/Copenhagen/Vilnius are all EU with relocation acceptable. No kill gate hit.
+
+Work authorisation: Denmark is excluded from the EU long-term-resident mobility directive. Transparency line used ("I do not currently hold Danish work authorisation and would need the employer-side permit process, which I am ready to begin") in both the cover letter and the working-model free-text field, per answers/work-authorisation.md.
+
+Blockers: none. No CAPTCHA, no account creation/login wall (LinkedIn sign-in prompt appeared only for the "Use AI to assess fit" widgets on the LinkedIn job page, not for applying).
+
+Dedupe: NEW — python3 loop/dedupe.py --check "Relesys" "https://www.linkedin.com/jobs/view/4464450776/" returned NEW; grep -i "relesys" applications.csv had no prior rows.
+
+LEARNINGS: This LinkedIn posting shows an "Apply" button (not "Easy Apply") with "Responses managed off LinkedIn" — it routes through an intermediate lead-capture step on thehub.io (Danish job board, name+email only, no account needed) before landing on the real ATS at career.relesys.ai, a custom Teamtailor-style widget. The widget's form fields are reachable via `find` (they resolve refs even though read_page's default tree doesn't show them, consistent with a shadow-root-style widget noted elsewhere in the brief). The phone country-code combobox needs `find` on the rendered "<Country> +<code>" option row (not raw `type` into the search box, which filters correctly via form_input but the option row must be clicked via its own ref) after opening the flag dropdown. The form had a required "Locations" checkbox group (Vilnius/Copenhagen/Odense) that was NOT visible until after a first failed submit attempt threw a "Can't be blank" inline error — worth checking for hidden-required fields below the fold before submitting on Teamtailor-style widgets.

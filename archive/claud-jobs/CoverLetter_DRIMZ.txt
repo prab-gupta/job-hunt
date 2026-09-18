@@ -1,0 +1,14 @@
+Buongiorno team DRIMZ,
+
+mi candido per il ruolo di AI Specialist. Da circa tre anni sviluppo piattaforme, integrazioni e automazioni per aziende europee. Mi interessa il vostro approccio: sperimentare con i modelli e trasformare i risultati in strumenti utilizzabili nei processi quotidiani, verificando la qualità degli output.
+
+Per UltraStrategy ho costruito una pipeline di parsing dei CV integrata nella piattaforma. Il flusso estrae i dati, valuta la rilevanza rispetto a tipi di ruolo e restituisce i risultati al frontend, fino alla generazione di un CV standardizzato. Il progetto ha utilizzato Affinda, le API di Claude, n8n ed Eden AI. Per Urlink ho sviluppato la piattaforma e la logica con sviluppo assistito da AI, realizzando automazioni a partire dalle richieste del cliente.
+
+In FlowSpace ho costruito un bot che prepara annunci di spazi di lavoro a partire da brochure e altre fonti, mantenendo una revisione umana. Quando l'AI ha inventato alcuni dati, ho verificato le informazioni con fonti diverse e aggiunto controlli per limitarne il ripetersi. Ho inoltre lavorato su integrazioni API per prenotazioni e automazioni CRM. Questa esperienza mi ha insegnato a distinguere un prototipo convincente da un processo affidabile.
+
+La mia esperienza più solida riguarda testo, dati strutturati e integrazioni. Vorrei approfondire con voi anche i flussi creativi e multimodali. Vivo a Venezia, posso iniziare subito e sono autorizzato a lavorare in Italia senza sponsorizzazione. Sono disponibile a discutere una collaborazione continuativa e le modalità di presenza a Genova. Il mio italiano è conversazionale.
+
+GitHub: https://github.com/prab-gupta/llm-doc-parser
+
+Grazie,
+Prabhavit Gupta

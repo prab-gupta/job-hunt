@@ -1,0 +1,19 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4439062130/
+Company: Institut DataIA Paris-Saclay (posting is actually for Formel AI, a Paris deep-tech startup)
+Role: Forward Deployed Engineer Lead
+
+Dedupe: NEW, no prior rows for this company.
+Cheap check: apply button present (offsite). Live LinkedIn JD read in full.
+
+Kill reason: task instruction said "France line; if the form or JD requires French, kill with
+the quoted clause." The live JD Essential Qualities section states:
+
+"Excellent communication: You can communicate technical concepts clearly to both technical and
+business stakeholders in French and English."
+
+Prabhavit has English C2 and conversational Italian only, no French. Hard language kill per
+instruction. No CV or letter drafted. Real apply path (per JD) is an external Google Form, not
+LinkedIn Easy Apply; never reached since killed before drafting.
+
+Logged to applications.csv as KILLED.

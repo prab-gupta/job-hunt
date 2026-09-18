@@ -1,0 +1,12 @@
+CRIF - GenAI Platform and Operations Engineer - Bologna, Emilia-Romagna, Italy (Hybrid)
+URL: https://www.linkedin.com/jobs/view/4445516286/
+Method: LinkedIn Easy Apply (Playwright)
+
+Success text on page: "Application submitted" and "You applied on company site 9/11/2026 - Submitted
+resume"
+
+CV uploaded and radio-selected: Prabhavit_CV_CRIF.pdf (avoided the library-default trap; the form
+pre-selected Prabhavit_CV_ClubMagellano.pdf, the last-used CV, explicitly used Upload resume instead and
+verified Prabhavit_CV_CRIF.pdf was checked before submitting).
+
+Date: 2026-09-11

@@ -1,0 +1,15 @@
+TO: info@baconsultingsrl.com
+SUBJECT: Candidatura per Python Developer - B&A Consulting
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di B&A Consulting,
+
+Progetti digitali ad alto contenuto tecnologico, tra AI e analisi dati, sono il tipo di lavoro su cui mi sono concentrato negli ultimi anni. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati con revisione umana, agenti RAG di supporto su dati live con escalation a un operatore umano, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase, con Python tra i linguaggi che uso.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, freelance o full-time, anche da remoto. Vi va una call di 15 minuti per parlare della posizione da Python Developer?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

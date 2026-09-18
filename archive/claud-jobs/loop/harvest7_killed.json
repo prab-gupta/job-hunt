@@ -1,0 +1,830 @@
+[
+{
+"id": "4439718901",
+"company": "Sectra",
+"title": "Project Engineer Medical IT",
+"reason": "JD entirely in Dutch. Hard gate: language requirement other than English/Italian (Dutch not acceptable). Also stack mismatch: infrastructure/healthcare IT, not web/automation/LLM."
+},
+{
+"id": "4465952701",
+"company": "Secture",
+"title": "Forward Deployed Engineer",
+"reason": "JD entirely in Spanish. Hard gate: language requirement other than English/Italian (Spanish not acceptable). Stack overlap with n8n/automation is a pass, but language gate kills."
+},
+{
+"id": "4468243732",
+"company": "BITIL",
+"title": "Google Workspace Deployment Engineer - Hybrid - Lisbon",
+"reason": "Hard gate: \"Minimum 5 years of professional experience\" stated = exceeds 3-year threshold. Also residency requirement: must live in Portugal; no remote-from-elsewhere option."
+},
+{
+"id": "4458766755",
+"company": "Hikvision Iberia",
+"title": "Technical Project Support Engineer",
+"reason": "Hard gate: Spanish required (\"High level of Spanish and English both written and spoken\"). Also complete stack mismatch: video surveillance security systems, not web/backend/automation/LLM. Role is on-site support in Barcelona requiring travel."
+},
+{
+"id": "4468227540",
+"company": "Adecco",
+"title": "SOFTWARE IMPLEMENTATION ENGINEER (WMS) (COMMISSIONING)",
+"reason": "Core stack mismatch: C# is the primary programming language required (core stack Prabhavit cannot claim is .NET/C#). Job is WMS implementation engineer focused on C# and SQL development."
+},
+{
+"id": "4427922078",
+"company": "Hitachi Energy",
+"title": "SOM and Network System Project Engineer",
+"reason": "Role mismatch and location issue: Title 'SOM and Network System Project Engineer' indicates infrastructure/systems engineering focus at Hitachi Energy (industrial power/grid company), not software development. Location is Sweden (V\u00e4ster\u00e5s area); unclear if remote-from-EU is permitted."
+},
+{
+"id": "4467975210",
+"company": "Nsecure",
+"title": "System Engineer (Technical Security)",
+"reason": "Role mismatch: Title 'System Engineer (Technical Security)' is infrastructure/security systems role, not software development. Outside Prabhavit's wheelhouse (full-stack TypeScript/Node/Laravel developer)."
+},
+{
+"id": "4456924484",
+"company": "IDOM Consulting, Engineering, Architecture",
+"title": "Consultor/a Junior MOM (Manufacturing Operations Management)",
+"reason": "Hard gate: JD is entirely in Spanish (posted on es.linkedin.com). Spanish language JDs are excluded hard gates (not carved out like Italian). Prabhavit's profile requires English only."
+},
+{
+"id": "4468286942",
+"company": "Belgie Vacature",
+"title": "Technisch Consultant PLC/SCADA",
+"reason": "Core stack mismatch: PLC/SCADA is industrial embedded systems engineering, not his web/full-stack expertise (TypeScript/Next.js/Node/Laravel/Python for LLM automation)"
+},
+{
+"id": "4468295773",
+"company": "Belgie Vacature",
+"title": "MES Engineer | Smart Manufacturing",
+"reason": "Core stack mismatch: MES Engineer role requires manufacturing execution systems expertise, not his web/full-stack TypeScript/Next.js/Laravel/Python stack"
+},
+{
+"id": "4461737270",
+"company": "Fusion Consulting",
+"title": "SAP EWM Consultant",
+"reason": "SAP is explicitly excluded in hard gates per job requirements"
+},
+{
+"id": "4467983790",
+"company": "Presidio",
+"title": "M365 Consultant",
+"reason": "Core stack mismatch: M365 (Microsoft 365) enterprise consulting is not in his web/full-stack expertise (TypeScript/Next.js/Node/Laravel/Python for LLM automation)"
+},
+{
+"id": "4466210097",
+"company": "JAGGAER",
+"title": "SaaS Implementation Consultant",
+"reason": "Experience requirement 2\u20134 years (max 4 years exceeds 3-year gate). Also mentions ERP systems (core stack exclusion)."
+},
+{
+"id": "4467999371",
+"company": "NETWKItalia",
+"title": "Commissioning specialist",
+"reason": "Staffing agency (ricerca e selezione del personale = personnel recruitment company) posting for unnamed client projects\u2014this is a body-shop model for unknown clients."
+},
+{
+"id": "4466858459",
+"company": "INFOMINDS AG/SpA",
+"title": "Project Specialist ERP (m/w/d)",
+"reason": "German language JD (non-English, non-Italian). Entire job posting is in German with no English translation, violating language gate."
+},
+{
+"id": "4413670772",
+"company": "STIGA",
+"title": "ICT SAP SD Expert",
+"reason": "Experience requirement 5\u20138 years (exceeds 3-year gate). SAP SD core stack requirement (cannot claim). Italian SAP/ERP expert role is not on stack."
+},
+{
+"id": "4468252862",
+"company": "DKV Mobility",
+"title": "Technical Consultant eMobility (gn) - Location: Milan/Italy",
+"reason": "Hard gate: JD explicitly requires 'Native or fluent business-level Italian' \u2014 Prabhavit has conversational Italian only. Also core stack mismatch: this is an electrical/eMobility infrastructure role, not software development."
+},
+{
+"id": "4466212166",
+"company": "Comas S.p.A, a Coesia company",
+"title": "After Sales Engineer - YPP (Graduate Program)",
+"reason": "Hard gate: JD requires 'Master degree in Mechanical/Electrical Engineering' \u2014 Prabhavit has BA, not MS/MSc. Also core stack mismatch: mechanical/electrical engineering role in tobacco machinery manufacturing, not software."
+},
+{
+"id": "4466204441",
+"company": "Michael Page",
+"title": "Line Engineer Packaging",
+"reason": "Hard gate: Posted by Michael Page (staffing agency) for unnamed client \u2014 body-shop posting of unnamed/unverified company. Also core stack mismatch: mechanical/industrial packaging engineering, not software."
+},
+{
+"id": "4468249025",
+"company": "ETA Srl",
+"title": "Service & Automation Engineer",
+"reason": "Core stack mismatch: Industrial PLC/automation role requiring Siemens S7, ABB AC800M systems (not in Prabhavit's claimed stack: TypeScript/Next.js/Node/Laravel/Python). Role is for electrical/automation engineers, not full-stack software developers."
+},
+{
+"id": "4468307230",
+"company": "LHH",
+"title": "Sales Engineer",
+"reason": "refuted: Core stack mismatch: JD requires \"Buona dimestichezza con strumenti CAD\" and industrial process engineering background (P&ID, plant design, Food & Beverage sector). Candidate has web dev stack (TypeScript/React/Node/Laravel/Python LLM pipelines). Also: agency posting for unnamed client."
+},
+{
+"id": "4468238669",
+"company": "LHH",
+"title": "IT Digital Workplace Engineer",
+"reason": "IT system administration (Active Directory, MDM, Microsoft 365, Entra ID) falls under forbidden 'cloud administration' core stack. Role is infrastructure/operations, not software development."
+},
+{
+"id": "4468268977",
+"company": "Canali",
+"title": "Functional Analyst",
+"reason": "Posting inaccessible\u2014LinkedIn authwall redirect instead of job content indicates closed, expired, or restricted access."
+},
+{
+"id": "4437682762",
+"company": "NNIT",
+"title": "Junior Consultant I Digital Manufacturing",
+"reason": "Posting inaccessible\u2014LinkedIn authwall redirect instead of job content indicates closed, expired, or restricted access."
+},
+{
+"id": "4465995093",
+"company": "SkillRecruit",
+"title": "SAP MM/WM & SRM Consultant",
+"reason": "SAP is core stack Prabhavit cannot claim (explicitly listed as hard gate). Role requires deep SAP MM/WM/SRM expertise."
+},
+{
+"id": "4468216286",
+"company": "Whitelab",
+"title": "IT - Programmatore Mantova",
+"reason": "C#/.NET is core stack Prabhavit cannot claim (explicitly listed hard gate: '.NET/C#'). Role requires MS SQL Server, T-SQL, and C# programming as primary skill."
+},
+{
+"id": "4465965736",
+"company": "EOLO",
+"title": "NIM Expert Nord-Est",
+"reason": "refuted: Job is entirely in Italian with on-site requirements in Italy requiring coordination with local stakeholders. Candidate speaks English only. Additionally, this is a telecommunications network infrastructure role (requiring RF measurement tools, drone operations, permitting procedures) fundamentally misaligned with a software development stack (TypeScript/React/Node/Laravel/Python for LLM pipelines)."
+},
+{
+"id": "4437262923",
+"company": "Ingenn",
+"title": "PLC & PROTECTION AUTOMATION ENGINEER",
+"reason": "PLC & Protection Automation is embedded/firmware/industrial automation (explicitly listed hard gate: 'embedded/firmware'). Role requires PLC programming (Siemens preference) and electrical/industrial control systems expertise."
+},
+{
+"id": "4448226418",
+"company": "OKATIM Italia",
+"title": "IT TECHNICAL EXPERT NETWORK",
+"reason": "Body-shop/staffing agency posting for unnamed client (Italian JD describes candidate placement at 'Cliente leader'). Violates hard gate: staffing agency or outsourcing body-shop for unnamed client."
+},
+{
+"id": "4462483837",
+"company": "Optics11",
+"title": "High Voltage Field Application Engineer",
+"reason": "Core stack mismatch: High Voltage Field Application Engineer is a specialized field service role for optical/precision equipment, outside Prabhavit's software engineering domain (TypeScript/Next.js/React/Node/Laravel/Python)."
+},
+{
+"id": "4467988235",
+"company": "Onto Innovation",
+"title": "Applications Engineer 3",
+"reason": "Core stack mismatch: Applications Engineer 3 at semiconductor process equipment manufacturer is specialized hardware/manufacturing domain, not software engineering. The '3' designation likely indicates 5+ years required (senior level), exceeding 3-year profile."
+},
+{
+"id": "4468244676",
+"company": "Cyera",
+"title": "Associate Customer Success Engineer - France",
+"reason": "Role is customer success engineer (support/solutions-focused), not product engineering. Paris location combined with CSE title typically requires French language fluency, violating English-only language gate."
+},
+{
+"id": "4353990314",
+"company": "HID",
+"title": "Field Application Engineer",
+"reason": "Requires 4+ years of field application engineering experience; user has 2.5\u20133 years. Hard gate: experience requirement exceeds 3-year limit."
+},
+{
+"id": "4443299109",
+"company": "Micro Electron Optics",
+"title": "Inginer service",
+"reason": "Job description posted entirely in Romanian; no English-language version provided. Hard gate: non-English JD."
+},
+{
+"id": "4468241161",
+"company": "Ecolab",
+"title": "Equipment & Software Specialist",
+"reason": "Requires 'Fluency in English and Polish'; Polish is a mandatory language requirement. Hard gate: non-English language fluency required. User is English-only."
+},
+{
+"id": "4468220078",
+"company": "ZEISS Group",
+"title": "Application Engineer Mask Repair (f/m/x)",
+"reason": "Core stack mismatch: field service engineer role in manufacturing optics (ZEISS mask repair). Requires embedded/firmware and hardware domain expertise; Prabhavit is full-stack software (TypeScript/Next.js/Node/Laravel/Python). Embedded/firmware is an explicit hard gate."
+},
+{
+"id": "4465950877",
+"company": "Knorr-Bremse AG",
+"title": "Rail Services Engineer",
+"reason": "Core stack mismatch: rail services engineer for Knorr-Bremse (industrial rail systems). Hardware/embedded domain, not software. Embedded/firmware is an explicit hard gate."
+},
+{
+"id": "4465979917",
+"company": "Amoria Bond",
+"title": "Field Service Engineer (m/f/d)",
+"reason": "Core stack mismatch: field service engineer for industrial manufacturing (Amoria Bond). Hardware/OEM technical support domain, not software. Embedded/firmware is an explicit hard gate."
+},
+{
+"id": "4466814996",
+"company": "SIG Group",
+"title": "Global Field Service Engineer",
+"reason": "Core stack mismatch: global field service engineer for SIG Group (industrial equipment manufacturer). Hardware/field service domain, not software. Embedded/firmware is an explicit hard gate."
+},
+{
+"id": "4468271208",
+"company": "Cornerstone OnDemand",
+"title": "Advanced Technical Support Engineer",
+"reason": "refuted: JD explicitly requires \"About 3\u20135 years of prior experience in Enterprise Technical Support, Technical Account Management, SaaS Customer Success, or Systems Consulting\" at Mid-Senior level. Candidate has 2.5\u20133 years, below the stated minimum of 3\u20135 years."
+},
+{
+"id": "4468284965",
+"company": "Belgie Vacature",
+"title": "Project Support Engineer | Elektrotechniek & Verlichtingssysteme",
+"reason": "Hard gate: JD language is Dutch (Flemish); Dutch fluency required ('je communiceert vlot in het Nederlands'). Prabhavit profile: English only, no German/Polish/French."
+},
+{
+"id": "4449021043",
+"company": "ABB",
+"title": "Field Service Engineer - Automation Solutions (f/m/d)",
+"reason": "Hard gate: German language required ('Fluent German and good English skills'). Prabhavit profile: English only, no German/Polish/French."
+},
+{
+"id": "4467991786",
+"company": "Natus Medical Incorporated",
+"title": "Clinical Systems Engineer",
+"reason": "Hard gate: JD language is German; German fluency required ('Sehr gute Deutschkenntnisse sowie gutes Englisch'). Prabhavit profile: English only, no German/Polish/French."
+},
+{
+"id": "4468206606",
+"company": "The Timken Company",
+"title": "Application Engineer",
+"reason": "JD posted entirely in German (Ihre Karriere beginnt bei Timken...). Hard gate: job description language is not English or Italian. Also requires MSc in Engineering/Materials Science."
+},
+{
+"id": "4456307852",
+"company": "SAJ Electric",
+"title": "Technical Support Engineer",
+"reason": "Core stack mismatch. Role requires expertise in solar PV systems, inverters, battery energy storage, and renewable energy systems. Candidate's stack is TypeScript/Next.js/Node/Laravel/PHP/Python, not renewable energy engineering. Hard gate: core stack not claimed."
+},
+{
+"id": "4381029624",
+"company": "Shape Technologies Group",
+"title": "Aftersales & Service Engineer Italy (m/f/d)",
+"reason": "JD in Italian language. While candidate has conversational Italian, the gate permits Italian JDs only if fluent/native Italian NOT required. This role involves waterjet cutting systems, hydraulics, mechanical field service\u2014core mechanical/hydraulic engineering, not candidate's software stack (TypeScript/Next.js/PHP). Hard gate: core stack (mechanical/hydraulic systems engineering) not claimed."
+},
+{
+"id": "4467995123",
+"company": "Seltis Hub",
+"title": "Technical Service Specialist",
+"reason": "Industrial field service engineer for manufacturing machinery. Requires mechanical/hydraulic/electrical/pneumatic systems expertise and PLC programming (Step7, Fanuc, Codesys). Completely outside web/backend software engineering stack."
+},
+{
+"id": "4467965816",
+"company": "WWS CAREERS",
+"title": "Field Service Engineer IVD",
+"reason": "Field service engineer for medical/lab diagnostics instruments. Requires electronics/electromechanics/troubleshooting expertise. Support role misaligned with user's full-stack web/backend engineering background."
+},
+{
+"id": "4446676600",
+"company": "Ingenn",
+"title": "SERVICE SALES ENGINEER",
+"reason": "Staffing agency posting: Ingenn is an independent search house with unnamed/undisclosed actual client (described only as engineering company in cooling systems). Violates agency posting gate. Also: Industrial cooling systems sales engineer, not software development."
+},
+{
+"id": "4446686402",
+"company": "SACMI Packaging & Chocolate S.p.A.",
+"title": "Service Project Leader",
+"reason": "Title 'Service Project Leader' contains 'Leader' = management/leadership level (hard gate). Additionally: Industrial manufacturing after-sales role requiring Mechanics/Mechatronics/Automation degree + PLC automation knowledge. Wrong domain."
+},
+{
+"id": "4456874349",
+"company": "Stryker",
+"title": "Product Support Specialist, Joint Replacement (Molise e Campania)",
+"reason": "Not a software engineering role. Position is Sales (medical device support specialist for Stryker's surgical robotics), outside Prabhavit's technical stack and career path."
+},
+{
+"id": "4466227513",
+"company": "Electronic components by W\u00fcrth Elektronik",
+"title": "Field Sales Engineer",
+"reason": "Not a software engineering role. Position is Sales and Business Development (field sales engineer for electronic components distributor), misaligned with full-stack development background."
+},
+{
+"id": "4466880758",
+"company": "ABB",
+"title": "Robotics Sales Support Specialist",
+"reason": "Not a software engineering role. Position is sales/support specialist for industrial robotics hardware, not software development."
+},
+{
+"id": "4416675420",
+"company": "Syensqo",
+"title": "Seeq Platform Owner",
+"reason": "While labeled IT/Engineering, role is vendor platform support/optimization (Seeq SaaS analytics platform owner), not software development. Emphasis on vendor coordination, troubleshooting, and use-case enablement rather than product engineering\u2014misaligned with full-stack developer profile."
+},
+{
+"id": "4465983734",
+"company": "Technowrapp",
+"title": "After Sales specialist",
+"reason": "Not a software engineering role. Position is customer support/post-sales logistics for industrial machinery, not development or coding work."
+},
+{
+"id": "4467973410",
+"company": "Smart Skills Center - Agenzia Per il Lavoro Srl",
+"title": "TECNICO POST-VENDITA",
+"reason": "Hard gate: staffing agency (Smart Skills Center) posting for unnamed client company. Also not a dev role; it is post-sales technical support."
+},
+{
+"id": "4468235042",
+"company": "Morson Praxis",
+"title": "Field Service Technician",
+"reason": "Not a software engineering role. Field Service Technician is on-site machinery installation and maintenance; requires hands-on mechanical work on physical equipment, not engineering or coding."
+},
+{
+"id": "4467985755",
+"company": "Exclusive Networks",
+"title": "Pre-Sales Cybersecurity Engineer",
+"reason": "Not a product engineering role. Pre-sales engineer for cybersecurity infrastructure (PAM, SIEM, EDR/XDR, OT security) is sales-focused. Technical domain (cybersecurity infrastructure) is outside candidate's web stack (TypeScript/Next.js/Node/Laravel/Python/LLM). Exclusive Networks is a VAR/distributor, not a product company."
+},
+{
+"id": "4468204671",
+"company": "ITRack",
+"title": "Pre Sales Tecnico \u2013 Infrastrutture IT & Data Center",
+"reason": "Infrastructure IT & Data Center pre-sales technical role. Not a software development position; falls outside core stack (full-stack JS/Node/Laravel development)."
+},
+{
+"id": "4414669962",
+"company": "Victaulic",
+"title": "Sales Engineer HVAC North of Italy",
+"reason": "Sales engineer role for HVAC mechanical equipment (Victaulic). Not a software development position; requires domain expertise in HVAC systems and equipment sales."
+},
+{
+"id": "4468218882",
+"company": "Vetromeccanica Srl",
+"title": "Sales Engineer",
+"reason": "Sales engineer role for glass mechanics/equipment at Vetromeccanica. Not a software development position; focused on equipment sales and technical consultation."
+},
+{
+"id": "4468301127",
+"company": "Alfa Laval",
+"title": "Field Sales Engineer Olive Oil",
+"reason": "Field sales engineer role for olive oil processing equipment (Alfa Laval). Not a software development position; requires field sales and equipment expertise unrelated to software development."
+},
+{
+"id": "4467137013",
+"company": "Schneider Electric",
+"title": "Tendering Application Engineer",
+"reason": "Non-software engineering role. Tendering Application Engineer at industrial electrical equipment manufacturer Schneider Electric indicates field/application engineering for hardware equipment, not software development."
+},
+{
+"id": "4468268613",
+"company": "GE HealthCare",
+"title": "Clinical Education Specialist MR- Apprentice",
+"reason": "Medical/healthcare apprenticeship role (Clinical Education Specialist MR). Not a software engineering position; outside Prabhavit's domain."
+},
+{
+"id": "4446640859",
+"company": "Adecco",
+"title": "Tecnico service impianti di automazione",
+"reason": "Field service technician for industrial automation hardware (Tecnico service impianti di automazione). Staffing agency posting via Adecco; not software development."
+},
+{
+"id": "4466849307",
+"company": "Coldline",
+"title": "ADDETTO/A SERVICE TECNICO",
+"reason": "Field/hardware service technician role (ADDETTO/A SERVICE TECNICO). Technical service agent position, not software engineering."
+},
+{
+"id": "4468235764",
+"company": "Tribers",
+"title": "AI Automation Consultant",
+"reason": "JD in Dutch (not English or Italian); language barrier makes it unworkable despite strong AI/automation fit"
+},
+{
+"id": "4458789378",
+"company": "Creatio",
+"title": "AI Consultant",
+"reason": "refuted: Seniority level mismatch. JD explicitly requires \"Mid-Senior level\", but candidate has only 2.5\u20133 years of experience, which is typically Mid or Junior-to-Mid, not Mid-Senior. Quote: \"Seniority level: Mid-Senior level\""
+},
+{
+"id": "4467966579",
+"company": "Armaz\u00e9ns do Calhab\u00e9",
+"title": "Especialista em IA, ERP e Automa\u00e7\u00e3o Empresarial",
+"reason": "JD in Portuguese (not English or Italian); language barrier prevents application despite entry-level match on AI/ERP/automation skills"
+},
+{
+"id": "4466223017",
+"company": "Hammer & Hanborg",
+"title": "AI & Automation Specialist",
+"reason": "JD in Swedish (not English or Italian); language barrier blocks application despite strong AI/automation fit and EU location (Sweden on-site hybrid near Gothenburg)"
+},
+{
+"id": "4467962892",
+"company": "Yellow Tech - The AI Transformation Company",
+"title": "Regional AI Strategist - Emilia",
+"reason": "JD requires native Italian speaker ('Serve l'italiano da madrelingua'), violates language requirement gate"
+},
+{
+"id": "4466219739",
+"company": "The Information Lab Italy",
+"title": "Consulenti e Trainer Cloud & Data Engineering (Partita IVA)",
+"reason": "refuted: JD explicitly requires \"conoscenza di una seconda lingua ( francese e/o spagnolo)\" (knowledge of French and/or Spanish), but candidate profile states English only. Required language barrier blocks pass."
+},
+{
+"id": "4466866200",
+"company": "Var Group",
+"title": "Qlik Consultant",
+"reason": "Core stack mismatch: Qlik Consultant role requires specialized Business Intelligence expertise (Qlik Sense/Cloud, SAS, advanced BI tools). User is a full-stack web developer (TypeScript/Next.js/Laravel) with no BI platform background. Certification and BI-only experience required."
+},
+{
+"id": "4465981007",
+"company": "SOGETEL srl",
+"title": "DATA SCIENTIST",
+"reason": "refuted: Job requires \"excellent knowledge of SQL, Python and R\" plus SAS advanced platform and Adobe Analytics expertise. Candidate's stack (TypeScript/React/Node/Laravel/Python LLM pipelines) lacks SQL, R, SAS, and Adobe Analytics specialization. Missing core technical requirements disqualify the match despite meeting experience and seniority level."
+},
+{
+"id": "4466854982",
+"company": "Universit\u00e0 Bocconi",
+"title": "Graduate Program",
+"reason": "Hard gate: Position requires Master's degree or expected graduation. User has BA (not MS). Bocconi BuildUP Graduate Program explicitly targets Master's-level candidates; user does not meet educational requirement."
+},
+{
+"id": "4466878443",
+"company": "RINA",
+"title": "Technology Innovation, Strategy and Roadmapping Consultant - Categorie Protette 68/99",
+"reason": "Hard gate: Position requires 4-6 years experience in management consulting or corporate strategy (exceeds 3-year ceiling). Also requires Master's in Engineering. Management consulting, not developer/builder role."
+},
+{
+"id": "4461954741",
+"company": "W Executive Italy",
+"title": "Consultant \u2013 Strategy & Digital Transformation - Industrial [Rif. 100069]",
+"reason": "Management consulting role focused on operations & business transformation for manufacturing SMEs. Requires degree in Management Engineering/Economics, not software engineering. No tech stack, completely different career path from Prabhavit's full-stack developer profile. Dedupe flag indicates company already rejected."
+},
+{
+"id": "4460336074",
+"company": "TE Connectivity",
+"title": "Product Engineer - High Voltage Contactors",
+"reason": "Hardware/electrical engineering role for high-voltage contactors (automotive e-mobility). Requires Mechanical/Electrical/Mechatronics Engineering background and CAD expertise. Core stack mismatch: embedded/hardware engineering outside Prabhavit's software/web development profile (TypeScript/Next.js/React/Node/Laravel/Python)."
+},
+{
+"id": "4466865410",
+"company": "Phoenix Contact",
+"title": "Product Development Engineer (f/m)",
+"reason": "Manufacturing/production engineering role requiring process engineering or technologist background. Requires knowledge of injection molding, stamping, assembly processes. Core stack mismatch: this is manufacturing engineering, not software engineering. No web/backend development involved."
+},
+{
+"id": "4465983161",
+"company": "ManpowerGroup Italia",
+"title": "PRODUCT ENGINEER",
+"reason": "Posted by ManpowerGroup (staffing agency/body-shop recruiter); hard gate violation. Additionally, mechanical engineering role for submersed pumps/motors development requiring CAD (PTC Creo) and mechanical design expertise\u2014core stack mismatch outside software development."
+},
+{
+"id": "4456929657",
+"company": "Astek",
+"title": "Product Engineer - Praca zdalna K/M",
+"reason": "JD entirely in Polish. Hard gate: non-English/Italian language JD."
+},
+{
+"id": "4448242835",
+"company": "Verda",
+"title": "Modular Product Line Engineer, EMEA",
+"reason": "Requires 5-8 years experience (exceeds 3-year gate) and explicitly Senior level. Also requires BS in specific engineering discipline; Prabhavit has BA and non-engineering background. Stack mismatch (hardware/infrastructure design, not software)."
+},
+{
+"id": "4468231698",
+"company": "Progressive",
+"title": "Product Industrialization Engineer Plastic Molding (m/w/d)",
+"reason": "JD entirely in German. Hard gates: non-English/Italian language JD + staffing agency (SThree_Germany acting as Employment Business for unnamed client)."
+},
+{
+"id": "4467998105",
+"company": "ANDRITZ",
+"title": "R&D Engineer",
+"reason": "Mechanical product R&D role requiring CAD expertise and product design experience (not software engineering). JD shows duties focused on: feasibility analyses via CAD tools, product design, prototyping, technical drawings, bills of materials. Core stack mismatch\u2014Prabhavit is a full-stack software engineer (TypeScript/Next.js/Laravel/Python), not a mechanical/CAD engineer."
+},
+{
+"id": "4457497951",
+"company": "INNIO Group",
+"title": "Advanced Development Engineer (m/f/d) Fluency in German",
+"reason": "HARD GATE: Language requirement. Title explicitly states 'Fluency in German' as a requirement. User has English only; German language requirement disqualifies the role per gate list."
+},
+{
+"id": "4441200947",
+"company": "Optics11",
+"title": "Mechanical Development Engineer",
+"reason": "HARD GATE: Core stack mismatch. Title is 'Mechanical Development Engineer'\u2014hardware/mechanical engineering role. ANDRITZ, INNIO, and Optics11 are hardware manufacturers (hydro equipment, gas engines, optical systems). Not a software engineering position."
+},
+{
+"id": "4468375488",
+"company": "Uptec",
+"title": "Research And Development Engineer (Automotive)",
+"reason": "HARD GATE: Core stack mismatch. Title 'Research And Development Engineer (Automotive)' indicates automotive/embedded systems R&D, outside Prabhavit's software full-stack domain. Uptec operates in automotive hardware/systems, not web/application development."
+},
+{
+"id": "4466207594",
+"company": "Annapurna",
+"title": "Product Engineer",
+"reason": "Hard gate: Requires 4+ years experience in production mobile applications; Prabhavit has 2.5-3 years total."
+},
+{
+"id": "4449447929",
+"company": "LITY",
+"title": "Founding engineer Typescript H/F - Fintech",
+"reason": "Hard gate: Job description entirely in French. Prabhavit speaks English only (conversational Italian acceptable). Non-English/Italian language is a kill gate."
+},
+{
+"id": "4468205090",
+"company": "InnoIT Consulting",
+"title": "AI Product Engineer",
+"reason": "Hard gate: Job description entirely in Spanish (not English/Italian). Also explicitly seeks Senior-level AI Product Engineer. Prabhavit has 2.5-3 years, JD requires 5+ for Senior."
+},
+{
+"id": "4468225802",
+"company": "Franklin Electric EMENA",
+"title": "Product Engineer",
+"reason": "Hard gate: Core stack mismatch. This is a mechanical engineering/CAD product design role (Creo, Pro/E, SolidWorks, pump/submersible motor design). Requires Bachelor's in mechanical engineering. Prabhavit is a software engineer (TypeScript/Next.js/Node/Laravel/Python). Zero technical overlap."
+},
+{
+"id": "4468256404",
+"company": "Mynameis",
+"title": "Mechanical Engineer (Electronic Sensors)",
+"reason": "Mechanical Engineer role in electronic sensors\u2014Prabhavit is a software engineer (TypeScript/Next.js/Laravel/Python), not a mechanical/electrical engineer. Core discipline mismatch; role requires hardware/mechanical domain expertise completely outside his stack."
+},
+{
+"id": "4440883024",
+"company": "Versuni",
+"title": "Mechanical Engineer",
+"reason": "Mechanical Engineer\u2014mechanical domain role. Prabhavit is a software engineer; no engineering or mechanical skillset overlap. Domain mismatch is a hard gate."
+},
+{
+"id": "4446298940",
+"company": "Thales",
+"title": "EEE Parts Engineer",
+"reason": "EEE Parts Engineer (Electrical/Electronics/Engineering)\u2014Thales role in electronics parts engineering. Prabhavit is a software engineer; no electrical engineering background. Domain mismatch; core stack (hardware/electrical) is not claimable."
+},
+{
+"id": "4448886717",
+"company": "Bridgestone EMEA",
+"title": "Original Equipment Engineer",
+"reason": "Original Equipment Engineer at automotive tier-1 (Bridgestone)\u2014mechanical/automotive engineering role. Prabhavit is a software engineer with no automotive or mechanical background. Domain mismatch is a hard gate."
+},
+{
+"id": "4465973964",
+"company": "SPAL",
+"title": "System Design Engineering",
+"reason": "Core domain mismatch: hardware/automotive systems engineering role. Prabhavit is a full-stack software engineer (Next.js, React, Node, Laravel, Python); this requires mechanical engineering expertise in propulsion systems, aerodynamic testing, and automotive prototyping\u2014outside his skill set."
+},
+{
+"id": "4457630870",
+"company": "Brembo",
+"title": "Manufacturing Engineering Platform Engineer (Cast Iron Foundry)",
+"reason": "Core domain mismatch: manufacturing/industrial engineering for braking systems. Requires expertise in manufacturing processes, industrial systems, and automotive braking technology\u2014not software engineering. Prabhavit cannot claim this domain."
+},
+{
+"id": "4465020126",
+"company": "AYES - Management & Technology Consulting",
+"title": "Propulsion System Trasmission Design Engineer",
+"reason": "Core domain mismatch: automotive transmission/propulsion system design engineering. Requires mechanical, electrical, and hydraulic systems design for powertrains\u2014Prabhavit is a software engineer with no automotive mechanical engineering background."
+},
+{
+"id": "4440530739",
+"company": "BVI Medical",
+"title": "Electronical Process Engineer",
+"reason": "Core domain mismatch: manufacturing process engineer for medical device consoles. Requires expertise in electrical systems, electronics, mechatronics, and manufacturing validation processes\u2014not software engineering. Prabhavit cannot claim electronics/mechanical/process engineering domains."
+},
+{
+"id": "4372000601",
+"company": "OKATIM Italia",
+"title": "TEAM LEADER ELECTRONIC & FPGA ENGINEER",
+"reason": "FPGA/embedded hardware engineering role. Prabhavit is a software engineer (TypeScript/Next.js/Laravel/Python); core stack mismatch."
+},
+{
+"id": "4441950941",
+"company": "AYES - Management & Technology Consulting",
+"title": "Motorsport Mechanical Engineer",
+"reason": "Mechanical/motorsport engineering role. Prabhavit is a software engineer; core stack mismatch (mechanical != TypeScript/PHP/Python)."
+},
+{
+"id": "4465978811",
+"company": "Sicim",
+"title": "Mechanical Engineer",
+"reason": "Mechanical engineering role. Prabhavit is a software engineer; core stack mismatch."
+},
+{
+"id": "4468275894",
+"company": "During S.p.a.",
+"title": "Progettista meccanico",
+"reason": "Mechanical engineering role (Italian: Progettista meccanico). Prabhavit is a software engineer; core stack mismatch."
+},
+{
+"id": "4467961967",
+"company": "Pezzolato S.p.A.",
+"title": "Progettista",
+"reason": "Mechanical design engineer for wood-cutting machinery. Core stack mismatch \u2014 Pezzolato seeks mechanical CAD/engineering expertise, not software development."
+},
+{
+"id": "4417717055",
+"company": "People Design",
+"title": "Mechanical Design Engineer - Composites F1",
+"reason": "Composite engineer F1 automotive. Requires mechanical engineering degree (Laurea Ingegneria Meccanica). Core stack mismatch \u2014 hardware/CAD design, not software."
+},
+{
+"id": "4351659503",
+"company": "Alias-Executive",
+"title": "Project Engineer ROTATING EQUIPMENT",
+"reason": "Project engineer for rotating equipment (pumps, compressors, turbines) in Oil & Gas/Energy sector. Core stack mismatch \u2014 mechanical/petroleum engineering, not software."
+},
+{
+"id": "4465987003",
+"company": "RHR Agency",
+"title": "Ingegnere progettista",
+"reason": "Metalworking sector engineer via RHR Agency (staffing body-shop recruiting for unnamed client). Core stack mismatch \u2014 mechanical engineering, not software."
+},
+{
+"id": "4465996558",
+"company": "Synergie Italia",
+"title": "Progettista meccanico",
+"reason": "Mechanical Designer role requiring CAD expertise (Solid Edge 3D, AutoCAD 2D), not software engineering. Core stack mismatch."
+},
+{
+"id": "4468231953",
+"company": "Adecco",
+"title": "IMPIEGATO/A UFFICIO TECNICO",
+"reason": "Technical office role via Adecco (staffing agency body-shop). Non-software engineering position."
+},
+{
+"id": "4457956557",
+"company": "Cebi Group",
+"title": "Mechanical Designer",
+"reason": "Mechanical Designer role. Core stack mismatch \u2014 CAD/mechanical engineering, not software."
+},
+{
+"id": "4465977223",
+"company": "Rossi SpA",
+"title": "Manufacturing Engineer",
+"reason": "Manufacturing Engineer role. Core stack mismatch \u2014 mechanical/manufacturing engineering, not software."
+},
+{
+"id": "4456937837",
+"company": "Natixis in Portugal",
+"title": "FullStack Developer (French Speaker) | BPCE-SI",
+"reason": "Hard gates triggered: (1) Required experience 5+ years (exceeds 3-year limit), (2) French language mandatory, (3) Core stack Java (not in Prabhavit's toolkit)"
+},
+{
+"id": "4467982393",
+"company": "Krell",
+"title": "FULLSTACK DEVELOPER CON INGL\u00c9S-SEGUROS-BARCELONA",
+"reason": "Hard gate: Job description posted entirely in Spanish (language requirement is English or Italian only)"
+},
+{
+"id": "4465977883",
+"company": "Zalando",
+"title": "Fullstack Software Engineer (Kotlin/Typescript/React) - Transport Planning Optimization (all genders)",
+"reason": "Hard gates triggered: (1) Required experience 4-5 years (exceeds 3-year limit), (2) Core stack Kotlin (not in Prabhavit's toolkit; he has TypeScript/Node, not JVM languages)"
+},
+{
+"id": "4468229213",
+"company": "Proelan - Sophia Antipolis",
+"title": "Ing\u00e9nieur Full Stack Java / Angular H/F",
+"reason": "Hard gates triggered: (1) Required experience 4+ years (exceeds 3-year limit), (2) Job description entirely in French (language requirement is English or Italian only), (3) Core stack Java + on-site France requirement"
+},
+{
+"id": "4466839316",
+"company": "Avance Consulting",
+"title": "Full Stack Engineer",
+"reason": "Core stack kill: requires Go (Golang) backend; Go is not in Prabhavit's skillset"
+},
+{
+"id": "4468253422",
+"company": "Vanguard System - Gruppo Global Sistemi",
+"title": "Software Engineer Java",
+"reason": "Core stack kill: requires Java 21+ backend; Java is not in Prabhavit's skillset"
+},
+{
+"id": "4468287757",
+"company": "Accessiway",
+"title": "Software Developer (Backend / Full Stack) \u2014 Categorie Protette (L. 68/99)",
+"reason": "refuted: Job requires \"Esperienza pratica con i principali servizi cloud (Lambda, SQS/SNS, ECS, API Gateway, RDS/DynamoDB)\" as a core requirement in the \"Chi Stiamo Cercando\" section. Candidate profile lists TypeScript/React/Node/Laravel/Python(LLM pipelines) with no AWS experience mentioned."
+},
+{
+"id": "4466219703",
+"company": "Techyon",
+"title": "FULL-STACK DEVELOPER | SVILUPPATORE .NET/REACT | SOFTWARE DEVELOPER",
+"reason": "Core stack .NET/C# explicitly required; Prabhavit has TypeScript/Next.js/React/Node/Laravel/PHP/Python but not .NET/C#"
+},
+{
+"id": "4459056197",
+"company": "TMC",
+"title": "C# Software engineer",
+"reason": "Core stack C# explicitly required; Prabhavit does not have C#/.NET experience"
+},
+{
+"id": "4467992116",
+"company": "Milkline",
+"title": "Frontend Developer",
+"reason": "Requires 4-8 years production frontend experience; Prabhavit has 2.5-3 years total, below minimum 4-year requirement"
+},
+{
+"id": "4466838361",
+"company": "Easy Net Srl",
+"title": "ANALISTA TECNICO JAVA SETTORE BANCARIO",
+"reason": "JAVA is a core stack Prabhavit cannot claim (hard gate violation)"
+},
+{
+"id": "4465984931",
+"company": "Proconsul Group",
+"title": ".NET Backend Developer",
+"reason": ".NET (C#) is a core stack Prabhavit cannot claim (hard gate violation)"
+},
+{
+"id": "4432218950",
+"company": "Humans.tech",
+"title": "Sviluppatore back-end",
+"reason": "refuted: Job posting states \"Seniority level: Mid-Senior level\" and emphasizes \"Una persona senior\" (senior person) with high-traffic systems experience at scale (\"non giorno uno\"). Candidate has 2.5-3 years of experience (Junior-to-Mid level), not Mid-Senior (typically 5+ years required). Additional mismatch: PostgreSQL deep knowledge required but not in stated stack."
+},
+{
+"id": "4467120253",
+"company": "Tenstorrent",
+"title": "Field Application Engineer - AI Software & Hardware",
+"reason": "Requires 5+ years of relevant technical experience; Prabhavit has 2.5-3 years (hard gate violation)"
+},
+{
+"id": "4467129128",
+"company": "Tenstorrent",
+"title": "Field Application Engineer - AI Software & Hardware",
+"reason": "Requires 5+ years experience (hard gate: >3 years stated)"
+},
+{
+"id": "4467177468",
+"company": "Skaylink",
+"title": "Microsoft Copilot Studio und AI Solutions Consultant (m/w/d)",
+"reason": "Job description entirely in German language (hard gate: non-English/Italian JD)"
+},
+{
+"id": "4467983106",
+"company": "Machine Learning Reply GmbH",
+"title": "Machine Learning Consultant (m/w/d)",
+"reason": "Requires Master's degree (hard gate: MSc strictly required) + German C1 mandatory (hard gate: language requirement German)"
+},
+{
+"id": "4467975179",
+"company": "Machine Learning Reply GmbH",
+"title": "Machine Learning Consultant (m/w/d)",
+"reason": "Requires Master's degree (hard gate: MSc strictly required) + German C1 mandatory (hard gate: language requirement German)"
+},
+{
+"id": "4105574897",
+"company": "BearingPoint",
+"title": "(Junior) Consultant Generative AI (m/w/d)",
+"reason": "German language proficiency required ('Sehr gute deutsche Sprachkenntnisse') \u2014 violates hard gate for non-English/non-Italian language requirement"
+},
+{
+"id": "4465980420",
+"company": "ONE WARE",
+"title": "Physical AI Sales Engineer (m/w/d)",
+"reason": "German language proficiency required ('Deutsch verhandlungssicher' = business-level German) \u2014 violates hard gate for non-English/non-Italian language requirement"
+},
+{
+"id": "4463040127",
+"company": "Riverflex",
+"title": "Applied AI Specialist",
+"reason": "Explicit 5+ year requirement stated ('5+ years of consulting, transformation, change, product or operating-model work... required') \u2014 exceeds 3-year hard gate threshold"
+},
+{
+"id": "4468234888",
+"company": "Ateme",
+"title": "Ing\u00e9nieur(e) Solutions IA & Automatisation",
+"reason": "Job posting is in French (title, location, company). JD language is French, not English or Italian, which violates language requirement for Prabhavit (English only, no French)."
+},
+{
+"id": "4466873003",
+"company": "transformis Consulting SE",
+"title": "KI / AI & Automation Specialist (m/w/d)",
+"reason": "Job posting is in German (title: 'KI' = Kunstliche Intelligenz, location: Germany, company: German consulting firm). JD language is German, not English or Italian, which violates language requirement for Prabhavit (English only, no German)."
+},
+{
+"id": "4468243844",
+"company": "DKV Mobility",
+"title": "AI Consultant (gn) - Location Bucharest",
+"reason": "refuted: JD requires \"3+ years in business consulting, product, or similar roles guiding AI/automation initiatives\" and \"3+ years delivering AI or automation projects.\" Candidate has 2.5-3 years, falling at or below the stated minimum. Additionally, role emphasizes hands-on experience with \"Cognigy, Copilot Studio and Power Automate / Power Apps\" (low-code/no-code platforms), while candidate's stack is coding-focused (TypeScript/React/Node/Laravel/Python), not these required tools. The experience gap and tool mismatch compound the refutation."
+},
+{
+"id": "4466883328",
+"company": "Genesys",
+"title": "Experience Acceleration Specialist",
+"reason": "refuted: JD explicitly requires \"Professional fluency in English and Italian\" but candidate has English only. Italian is a required language, not a nice-to-have."
+},
+{
+"id": "4466878462",
+"company": "Genesys",
+"title": "Experience Acceleration Specialist",
+"reason": "Language requirement gates it: job demands 'Professional fluency in English and Italian is required,' but user has conversational Italian. Gate rule: Italian JDs pass unless demanding fluent or native Italian; professional fluency requirement equals fluent-level, exceeding user's conversational level."
+},
+{
+"id": "4465976295",
+"company": "Randstad Digital Italia",
+"title": "IT & Digital Transformation Specialist",
+"reason": "Multiple hard gates: (1) Staffing agency (Randstad Digital) posting for unnamed end-client violates body-shop gate; (2) Role focuses on cloud/IT infrastructure administration (DataCenter, systems, storage, network/security supervision) which is explicitly non-claimable core stack for user (full-stack TypeScript/Node/Next.js/Laravel/Python developer, not infrastructure/sysadmin)."
+}
+]

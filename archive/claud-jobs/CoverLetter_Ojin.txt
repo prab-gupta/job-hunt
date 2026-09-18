@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Product Engineer role at Ojin.
+
+At FlowSpace, I owned features end to end across a Next.js and Node.js stack, from problem definition through production deploy. I built the company's AI data pipeline: a system that takes documents in any format, extracts structured data using LLM APIs with agentic orchestration, and pushes validated results to the backend after human review. I also built conversational support agents with confidence scoring and escalation, and shipped integrations against booking, CRM, and payment APIs, iterating fast on customer feedback. I migrated the live SaaS marketplace from a legacy stack to a coded product, scaling from 2,000 to 4,500+ users.
+
+This was all in a startup environment where I navigated ambiguity daily and shipped without waiting for a ticket. Claude Code is my primary development tool; I use AI coding agents daily for architecture, prototyping, and review, which maps directly to building agentic systems and conversational AI flows at Ojin.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

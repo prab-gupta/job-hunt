@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4426822677/ -> https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Software-Engineer---Agentic-AI---API-Platform_JR-0108079?source=website_linkedin
+Uploaded: nothing yet (blocked before upload could be reached in a submittable state).
+Answers given: none submitted; standing answers and materials prepared and documented in answers/workday-2026-09-16.md.
+Blockers: Workday Create Account/Sign In step 1 of 7, no guest path. Same requisition as the 2026-09-04 SKIPPED row (nothing was ever submitted then either); re-verified live and the wall still stands.
+LEARNINGS: the pre-existing Prabhavit_CV_Workday.tex/pdf from 2026-09-04 was not built from Prabhavit_CV_EN.tex and contained invented, non-traceable claims (JWT/OAuth/RBAC, named CRM tools not in OUTREACH_FACTS.md, Stripe integration, MCP tool-use patterns, confidence-scoring language). Rebuilt it from the current master template this session - future parity checks on this file should diff against Prabhavit_CV_EN.tex, not assume prior per-company files are compliant just because they exist.

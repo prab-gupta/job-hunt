@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear LiveKit Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer role. I have three years of professional experience working directly with production systems and with customers, turning technical requirements into shipped integrations and automations.
+
+At FlowSpace, a live workspace marketplace, I automated the platform's migration off a legacy stack onto Next.js and Laravel while the product stayed live, and I shipped the OfficeRnD and Nexudus API integrations behind automated bookings. I also built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, the kind of production debugging and reliability work this role calls for.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant that person is for specific roles, the result is shown in the frontend, and a standardised CV is then generated. I also built the platform serving different user profiles.
+
+I do not have prior WebRTC experience, but I am a fast learner who has repeatedly picked up new SDKs, APIs and infrastructure on the job, most recently OfficeRnD and Nexudus at FlowSpace and n8n and Eden AI at UltraStrategy. I hold Italian EU long-term resident status and can work remotely from Italy; I would also be glad to relocate to Ireland and complete the applicable employer-side permit process if the role requires it.
+
+I would welcome the opportunity to discuss how I could contribute to LiveKit's customer implementations.
+
+Regards,
+Prabhavit Gupta

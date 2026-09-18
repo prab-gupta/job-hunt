@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4441634398/ (Forward Deployed Engineer - EMEA, GitLab, France/remote EMEA)
+ATS: https://job-boards.greenhouse.io/gitlab/jobs/8522265002 (Greenhouse)
+
+Uploaded: Prabhavit_CV_GitLab.pdf (2 pages, from Prabhavit_CV_EN.tex, verbatim bullets) and CoverLetter_GitLab.pdf attached to the form (0 em-dashes verified).
+
+Answers given: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Phone Country Italy +39, Phone +39 351 610 7807, Location (City) Venice, Venezia, Italy, LinkedIn Profile URL, Preferred name Prabhavit, Country of residence Italy, employment agreements/restrictions No, GitLab username blank, visa sponsorship needed No, currently based in UK No, Gender/Hispanic-Latino/Veteran/Disability all declined to answer.
+
+Fit note: the internal posting is titled "Staff Forward Deployed Engineer, Agentic SDLC (EMEA Only)" with a Ruby on Rails/Go core stack and staff-level seniority requirement, both outside Prabhavit's claimable profile (3 years, TypeScript/Laravel). A prior session already SKIPPED this same content on 2026-09-02 (Greenhouse job 8522408002) for "Italy excluded + Staff level". This session's posting resolved to a different job id (8522265002, evidently a re-listing of the same role), and neither prior row was SUBMITTED. Per tonight's explicit USER RULE (apply to every FDE posting in Italy/EU on LinkedIn, no kills for fit/years/seniority/agency/stack, kill only for closed/already-submitted/language-gap), proceeded and submitted, with the cover letter stating plainly that Prabhavit has 3 years' experience, not staff-level tenure, and that his production stack is TypeScript/Laravel rather than Ruby/Go.
+
+Blockers: none. No country-eligibility restriction encountered on the form itself (Location City and Country of residence both accepted Italy/Venice freely). No CAPTCHA, no account wall.
+
+Confirmation: "Thank you for applying to GitLab!" heading on https://job-boards.greenhouse.io/gitlab/jobs/8522265002/confirmation. Screenshot saved to confirmations/GitLab-2026-09-16.png.
+
+LEARNINGS: none new (confirms Greenhouse embedded job-boards.greenhouse.io forms are reachable directly by Playwright without iframe issues when navigated to as their own page, as here, versus the cross-origin-iframe case noted for careers.databricks.com's embedded Greenhouse widget).

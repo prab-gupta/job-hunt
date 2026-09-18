@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4373644148/ (routes to https://www.ycombinator.com/companies/stardex/jobs/MHHdoC9-forward-deploy-engineer-fde ; actual employer is Stardex, YC S21, LinkedIn just shows "Dots" as poster)
+Uploaded: Prabhavit_CV_Dots.pdf (attached to the file input, confirmed in the form)
+Answers given: name/email/LinkedIn/phone(+39)/location filled; "What interests you about Stardex?" filled with FlowSpace migration pitch + Get2Germany API-integration mention + an honest eligibility line on Italian EU LTR status and not being a US citizen/visa holder
+Blocker: hCaptcha "I am human" checkbox above the Send Message button, user-only per the brief. Form is fully filled and waiting; tick the captcha and click Send Message to finish.
+Note for planner: the live YC posting states "Visa: US citizen/visa only" in its metadata despite listing Portugal/remote-EU as valid locations. Not treated as a kill per this task's narrower rule (kill only for closed/already-submitted/language-gap), but flagged since it may make this a low-odds application regardless of the captcha.
+LEARNINGS: LinkedIn's displayed "company" for a job posting can be a sourcing/board name (here "Dots") that differs from the real employer named inside the JD text and on the ATS ("Stardex"); check both when deduping and when addressing the cover letter.

@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464514835/
+Company: Keyfactor - Senior Forward Deployed Engineer - Prague, Czech Republic
+
+Uploaded: Prabhavit_CV_Keyfactor.pdf (tailored from Prabhavit_CV_EN.tex, distinct enterprise-integration-led structure since JD has no AI/LLM ask, verified selected before proceeding). No reachable cover letter upload in this 6-page Greenhouse Easy Apply flow; CoverLetter_Keyfactor.pdf/.txt kept on file.
+Answers given: LinkedIn URL, no website, heard via LinkedIn, address Venice Italy 30175, Czech work authorisation No, sponsorship needed Yes, desired salary EUR 45,000 gross annual negotiable, never worked as FDE before No, no pre-sales/post-sales/PKI-IAM experience, yes Software Engineer experience, required data-processing consent ticked Yes, follow-company unticked.
+Confirmation: "Application submitted, now" status on job page.
+Blockers: none.
+LEARNINGS: Keyfactor/Greenhouse review page shows a "Cover letter" section with generic copy ("Be sure to include an updated cover letter") but its Edit link only routes back to the resume-selection page (page 2/6) - no actual cover letter upload control exists in this LinkedIn Easy Apply flow despite the review-page text implying one.

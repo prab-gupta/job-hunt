@@ -1,0 +1,77 @@
+{
+  "_comment": "Prabhavit's answer bank. EVERY value here is a fact he has stated. Never add a value he has not confirmed. If a form asks something not covered here, STOP and hand it back.",
+
+  "firstName": "Prabhavit",
+  "lastName": "Gupta",
+  "fullName": "Prabhavit Gupta",
+  "email": "prabhavitg@gmail.com",
+  "phone": "+39 351 610 7807",
+  "phoneNational": "3516107807",
+  "phoneCountryCode": "+39",
+
+  "city": "Venice",
+  "country": "Italy",
+  "postcode": "30175",
+  "locationFull": "Venice, Italy",
+  "locationCountryOnly": "Italy",
+
+  "linkedin": "https://www.linkedin.com/in/prabhavit/",
+  "github": "https://github.com/prab-gupta",
+  "githubUsername": "prab-gupta",
+  "portfolio": null,
+
+  "cvPath": "/Users/prab/Downloads/claud jobs/Prabhavit_CV.pdf",
+  "cvSha256": "e18579bb9bcffee3db285bc699c354b357dd6efa8485ab0dac1544fcecceeb81",
+
+  "availableFrom": "2026-09-01",
+  "availableFromText": "Available from 1 September 2026",
+  "startImmediately": "Yes",
+
+  "salaryMin": 40000,
+  "salaryMax": 50000,
+  "salaryText": "EUR 40,000 - 50,000",
+  "b2bDayRate": "EUR 250-300/day",
+
+  "workAuth": {
+    "permit": "European Long Term Residence Permit (Italy)",
+    "needsSponsorship": "No",
+    "euWorkPermit": "Yes",
+    "radioWording": "I am authorized to work in the country based on a valid work permit. I do not need a company to sponsor my visa.",
+    "caveat": "Italian LTR permit gives facilitated EU mobility, NOT an automatic right to work in another member state."
+  },
+
+  "languages": { "hindi": "native", "english": "professional / C1 / advanced", "italian": "beginner / basic", "polish": "none", "german": "none" },
+
+  "years": {
+    "total": 3,
+    "qaSdet": 2,
+    "python": 3,
+    "ai": 3,
+    "gtmEngineering": 2,
+    "dataEngineering": 1,
+    "presales": 0,
+    "awsCloud": 1,
+    "hubspot": 0,
+    "clay": 0,
+    "awsLambda": 0
+  },
+
+  "education": {
+    "degree": "Bachelor's",
+    "field": "Philosophy, International and Economic Studies",
+    "school": "Ca' Foscari University of Venice",
+    "dates": "Oct 2020 - Jun 2024",
+    "isCsDegree": false
+  },
+
+  "howHeard": "Job board",
+  "howHeardDetail": "Online job search.",
+
+  "neverAnswer": [
+    "demographic questions (leave blank, they are voluntary)",
+    "relocation commitments",
+    "referral names",
+    "any required cover letter or motivation essay - hand back to him",
+    "any dropdown with no truthful option (US-states-only residence, Poland-only domicile, German-proficiency with no None)"
+  ]
+}

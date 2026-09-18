@@ -1,0 +1,14 @@
+Gentile team di Röchling Automotive,
+
+mi candido per la posizione di Software Developer per la sede di Laives. Ho tre anni di esperienza continuativa come sviluppatore full-stack, con esperienza diretta di migrazione di piattaforme legacy, integrazione API e database relazionali, il lavoro al centro del progetto di digitalizzazione che descrivete.
+
+Per FlowSpace ho gestito la migrazione automatizzata di un marketplace di spazi di lavoro da uno stack legacy a Next.js e Laravel, mappando la struttura dati esistente sulla nuova piattaforma ed eseguendo il cutover mantenendo il prodotto in produzione, portandolo da 2.000 a oltre 4.500 utenti. Ho inoltre sviluppato le integrazioni API con OfficeRnD e Nexudus per le prenotazioni automatizzate.
+
+Per Urlink ho costruito la piattaforma e la sua logica con sviluppo assistito da AI, usando Next.js e Supabase, che si appoggia su PostgreSQL, lo stesso tipo di database relazionale richiesto per questo ruolo.
+
+Non ho esperienza diretta con Django o Vue, ma lavoro regolarmente con framework backend e frontend analoghi (Laravel, Next.js/React) e con ambienti containerizzati Docker, e mi adatto rapidamente a nuovi stack quando il pattern di lavoro è lo stesso.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e disponibile per la modalità ibrida a Laives. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

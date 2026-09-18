@@ -1,0 +1,30 @@
+STATUS: SUBMITTED
+
+Company: Rematiq GmbH
+Role: QA Engineer (Manual), Berlin, hybrid 4 days/week
+Listing: https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/qa-engineer-manual-berlin-365145
+Applied via: https://jobs.ashbyhq.com/rematiq-gmbh/96cf3f43-d6d3-4863-a925-f0c5e1de1bd8/application (Ashby, direct employer)
+
+Dedupe: NEW (no prior Rematiq row in applications.csv).
+
+Gate re-check on live JD: JD in English, German only "nice to have"; no years-of-experience number stated; title is "QA Engineer (Manual)" with no seniority word; no MSc/degree requirement; no anti-AI disclaimer found; Apply Now led to a live, submittable Ashby form (not closed). No hard gate triggered -- proceeded.
+
+Materials:
+- Prabhavit_CV_Rematiq.tex/.pdf built from Prabhavit_CV_EN.tex: Career Summary kept 2/3 bullets (dropped the generic AI-engineer opener, kept the AI-assisted-dev and QA-testing bullets); Technical Skills reordered Automation (Playwright) -> Development (Typescript) -> AI/ML -> Project/Design (closest truthful proxy for "testing/QA, TypeScript first" -- the base CV has no Python skill line so one was not fabricated); FlowSpace kept 7 bullets (4 Product + 3 Technical) with documentation/customer-support/cross-team-comms/scale moved up front and the Bubble-migration and GTM/commute-tool bullets dropped as not QA-relevant; Clubee's "Unit testing and quality assurance of new features" moved to top of that role; every other role kept >=1 bullet, none deleted below the floor, no role/date/location removed. Compiled with tectonic, 2 pages. Parity check (pdftotext vs base .tex, normalized for ligatures/dashes/apostrophes): 0 real unmatched lines (only false-positive was the FontAwesome icon header line, same as every other tailored CV in this project).
+- CoverLetter_Rematiq.txt written, 247 words, 0 em-dashes, no no-code/low-code/Bubble wording, no Claude/Anthropic mention. Claims traced to Prabhavit - Master Experience.md: FlowSpace end-to-end customer issue triage, Clubee unit testing/QA, AI listing pipeline with human review, support AI agent with confidence-based escalation, non-deterministic-output testing framing. No cover-letter upload/text field existed on the Ashby form, so the letter was prepared but not attached (only the CV was uploaded).
+
+Answers given (full detail in answers/rematiq-2026-09-10.md):
+- QA-experience checkboxes: checked Exploratory testing, Test design/regression planning, Bug triage/backlog management, Verifying fixes/regression testing, Browser dev tools/network requests, Reading logs/API issues (6 of 7; left "None of the above" unchecked).
+- Bug backlog ownership: "I have shared responsibility for the bug backlog with Engineering/Product" (accurate given FlowSpace was collaborative with an internal team + external agency, not chosen the stronger "independently owned" option to avoid overclaiming).
+- LinkedIn: https://www.linkedin.com/in/prabhavit/
+- Salary: EUR 50,000 (standing answer, no band shown).
+- Start date: "Immediately available; can start within two weeks of an offer."
+- Comfortable working from Berlin-Mitte 4 days/week: Yes.
+- Privacy Policy consent: Yes.
+- Germany work authorisation: no dedicated form field existed, so the standard transparency (not currently authorised, would need employer-side permit, ready to relocate to Berlin) was placed in the cover letter's closing paragraph instead.
+
+Dropped CV bullets (see answers/rematiq-2026-09-10.md and the tex diff for full list): "AI Solutions & Automation Engineer..." summary opener; FlowSpace "Overseeing the migration of app from Bubble.io to Next.JS and Laravel" (both occurrences), "GTM automations for sales funnel...", duplicate "AI tool for processing of data...", "Developed a tool for companies to calculate commute times"; Urlink's two AI-building bullets; UltraStrategy's "Developed platform for different user profiles"; Qomodo's "Implementation of Figma designs"; Get2Germany's "UI/UX work, design from Figma to Bubble" and "Developed AI based automation tools..."; Tractionboard's Sendgrid, Figma-to-Bubble, and Google Ads bullets.
+
+ATS lesson: this Ashby instance's "Type here..." placeholder is reused across multiple fields (Name and LinkedIn both matched `input[placeholder="Type here..."]`), so a plain `document.querySelector` for that placeholder writes into the wrong (first-matching) field -- use `document.querySelectorAll(...)[index]` (or a more specific selector like `input[type="email"]`) when more than one field shares a placeholder on an Ashby form. Also: a `javascript_tool` InputEvent/execCommand call can report a CDP timeout error while the text has actually landed in the field -- always re-read the field's `.value` (or screenshot) before assuming the write failed and retyping, to avoid double-entry.
+
+Confirmation captured before logging: "Your application was successfully submitted. We'll contact you if there are next steps." (confirmations/Rematiq-2026-09-10.txt; no PNG saved -- per the Claude in Chrome section of the brief, screenshot save-to-disk is not available there and the text is the record).

@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-13",
+  "scope": "LinkedIn discovery tracks B and C; read-only",
+  "dedupe": "Combined MASTER/application CSV/Do not repeat company set plus loop/dedupe.py exact URL; malformed CSV requires all-cell scan. Parla hidden in malformed row3349.",
+  "candidates": [
+    {
+      "company": "Bitrock",
+      "title": "Software Engineer AI - Freelance",
+      "linkedin_id": "4462199283",
+      "url": "https://it.linkedin.com/jobs/view/software-engineer-ai-freelance-at-bitrock-4462199283",
+      "location": "Italy, 100% Full Remote",
+      "posted_age": "1 settimana fa",
+      "pay": "EUR30–42/hour freelance; EUR240–336/day at8hours (calculation)",
+      "fit": 72,
+      "status": "NEW",
+      "form": "CV-ONLY via published CV email; LinkedIn form not inspected",
+      "apply": "hr@fortitudegroup.it",
+      "requirements": "Production LLMs; TypeScript; deep functional programming; event-driven architectures/Kafka; evals/guardrails; IAM/data governance. No required years/degree or additional language stated.",
+      "watchouts": "Deep functional programming, event sourcing/Kafka and enterprise IAM not proven by candidate. Backend architecture stretch.",
+      "verification": "Employer official https://bitrock.it/join-us -> Our Open Positions links LinkedIn board; current board shows exact role. Detail live with Apply, salary and CV email."
+    }
+  ],
+  "rejected_or_unverified": [
+    {
+      "company": "Parla",
+      "title": "Full-Stack AI Product Engineer",
+      "linkedin_id": "4463308862",
+      "url": "https://www.linkedin.com/jobs/view/4463308862/",
+      "status": "DUPLICATE",
+      "reason": "Already SUBMITTED2026-09-04 in applications.csv row3349, malformed row missed by company-column-only set.",
+      "pay": "EUR26–46k annual PartitaIVA",
+      "posted_age": "6giornifa search;3giornifa older open cache"
+    },
+    {
+      "company": "Navisio AI",
+      "title": "Software Engineer",
+      "linkedin_id": "4462157695",
+      "url": "https://it.linkedin.com/jobs/view/software-engineer-at-navisio-ai-4462157695",
+      "status": "BLOCKED",
+      "reason": "EUR30k belowfloor; contradictory hybrid2/3days negotiable Turin and fullremote. Required mail di presentazione. TS/Next/Node/LLMs match, degree/3yrs merely nice-to-have.",
+      "posted_age": "1settimanafa",
+      "fit": 82,
+      "pay": "EUR30k + mealvouchers"
+    },
+    {
+      "company": "Buckhill Software",
+      "title": "Solutions Engineer",
+      "linkedin_id": "4428251821",
+      "url": "https://www.linkedin.com/jobs/view/solutions-engineer-at-buckhill-software-4428251821",
+      "status": "DEAD",
+      "reason": "LinkedIn explicitly No longer accepting applications; employer careers department exists but no live role data rendered.",
+      "posted_age": "2months",
+      "pay": "Europe outsideCroatia EUR27–41k Gross2"
+    },
+    {
+      "company": "Who Knocks",
+      "title": "Sviluppatore Full Stack Junior – Inserimento tramite Stage",
+      "linkedin_id": "4420128703",
+      "url": "https://it.linkedin.com/jobs/view/sviluppatore-full-stack-junior-%E2%80%93-inserimento-tramite-stage-at-who-knocks-4420128703",
+      "status": "DEAD",
+      "reason": "Open redirects expired_jd_redirect. Search lookedlive."
+    },
+    {
+      "company": "Intelligentiae",
+      "title": "Frontend Engineer",
+      "linkedin_id": "4384797557",
+      "url": "https://it.linkedin.com/jobs/view/frontend-engineer-at-intelligentiae-data-enabling-business-4384797557",
+      "status": "DEAD",
+      "reason": "Open redirects generic jobsearch. Search lookedlive."
+    },
+    {
+      "company": "Chaseit",
+      "title": "AI Solutions Engineer",
+      "linkedin_id": "4433061559",
+      "url": "https://uk.linkedin.com/jobs/view/ai-solutions-engineer-at-chaseit-4433061559",
+      "status": "DEAD",
+      "reason": "Open expired_jd_redirect; search shows stale1week. Requires3+years specificallyLLM/AI plus eval/statistics. EUR40–70k."
+    },
+    {
+      "company": "Kaeron",
+      "title": "Solutions Engineer / Business Analyst (Contractor) – GenAI Solutions",
+      "linkedin_id": "4418998193",
+      "url": "https://it.linkedin.com/jobs/view/solutions-engineer-business-analyst-contractor-%E2%80%93-genai-solutions-at-kaeron-4418998193",
+      "status": "UNVERIFIED",
+      "reason": "3montholdJune-Deccontract, noApplybutton onopen. Swisssibling explicitlyclosed. No official employer ATS located; do notcountlive."
+    },
+    {
+      "company": "DGS",
+      "title": "Junior Full-Stack Developer",
+      "linkedin_id": "4422270474",
+      "status": "BLOCKED",
+      "reason": "Required MScComputerScience; Romehybrid."
+    },
+    {
+      "company": "HighRadius",
+      "title": "Forward Deployed Engineer - Amsterdam",
+      "linkedin_id": "4462959131",
+      "status": "BLOCKED",
+      "reason": "5daysAmsterdamoffice and explicitly existing Netherlands righttowork required."
+    },
+    {
+      "company": "Neat",
+      "title": "Solutions Engineer - Northern Italy",
+      "linkedin_id": "4436521706",
+      "status": "BLOCKED",
+      "reason": "NativeItalian required."
+    }
+  ],
+  "channel_notes": "Search-index ages are unreliable and multiple promising pages are expired. Only one fresh new role fully verified as employer's official LinkedIn-board listing. Do not pad."
+}

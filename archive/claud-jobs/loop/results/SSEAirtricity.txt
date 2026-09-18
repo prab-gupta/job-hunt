@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4464644501/ (LinkedIn posting) -> Apply on company website -> https://careers.sse.com/jobs/product-owner-dublin-ireland-ireland (SSE careers page) -> quick-apply widget submits into PageUp People ATS at secure.dc3.pageuppeople.com (applicationID 2370280, jobID 559519).
+
+Uploaded: Prabhavit_CV_SSEAirtricity.pdf (CV attach step) and CoverLetter_SSEAirtricity.pdf (optional cover letter attach step, both confirmed in DOM via q24369FileName/q24370FileName hidden fields before continuing).
+
+Answers given:
+- Personal details: Mr, Prabhavit Gupta, prabhavitg@gmail.com, Via Zanetti 10, Venice, Italy, province Venezia, postcode 30175, phone +39 351 610 7807.
+- Right to work in the UK or Ireland: "No, I will require assistance / sponsorship" (Ireland does not participate in the EU long-term-resident mobility directive per answers/work-authorisation.md).
+- Currently employed by SSE Group: "No, I have never worked for the SSE Group." (this correctly hid the conditional redeployment/department/line-manager sub-questions - verified display:none in DOM).
+- Current salary and benefits package (free text): stated freelance day-rate context (EUR 250-300/day) plus a target of EUR 65,300, the bottom of the JD's EUR 65,300-97,900 band, per task instruction.
+- Driving licence: "No, I do not have a full, current driving licence." (no evidence in master file that Prabhavit holds one; declined rather than fabricate).
+- Equal Opportunities: Disability, Ethnicity, Age, Gender, Sexual orientation, Relationship status, Religion, Socio-economic (occupation + school type) all "Prefer not to say"; "Is the role based in Northern Ireland?" -> "No" (correctly hid the Protestant/Catholic/neither community-background follow-up).
+- How did you hear about this opportunity: LinkedIn.
+- Cookies: declined optional/performance cookies on the careers.sse.com landing page.
+
+Confirmation: page title "Application submitted", text "Thank you for taking the time to apply for a role with SSE. We'll be in touch again to update you on the progress of your application, once the closing date has passed." Saved to confirmations/SSEAirtricity-2026-09-09.txt. No PNG screenshot could be captured - the Chrome tab (reused from the LinkedIn posting per task instructions, shared with ~30 other concurrently-running agent tabs) reported a 0x0 viewport throughout the whole session, so the computer:screenshot tool errored every time it was tried ("Cannot take screenshot with 0 width"). All field values, file uploads, and dropdown selections were instead verified directly via DOM reads (input.value, hidden postback fields, file name fields, computed display style on conditional sections) before and after each step, which is a more reliable verification than a screenshot would have been anyway.
+
+Blockers: none. No CAPTCHA, no account/password creation (PageUp's guest-apply flow only needs an email address), no anti-AI attestation anywhere in the flow or the JD.
+
+LEARNINGS (new ATS pattern): SSE's own "careers.sse.com" marketing page is NOT the real application - the "Apply Now" box on that page is a lightweight lead-capture widget (First/Last/Email only) built on a Rails-style "call-to-action" form component. Submitting it (button name="next_step") silently AJAX-posts and then hard-navigates the tab to the actual ATS, which for SSE is PageUp People (secure.dc3.pageuppeople.com/apply/...initApplication.asp). Agents should not assume a 3-field "Apply Now" box on a corporate careers microsite is the whole form - treat it as a step-1 handoff and keep going. Also: on a background/hidden Chrome tab with 0x0 viewport, ref-based `computer left_click` on a form's real submit button can silently no-op (no navigation, no network activity) even though `find` and `read_page` still return valid refs; the reliable fallback on this ATS was `javascript_tool` calling `element.click()` directly on the DOM node (and, for PageUp's custom "combobox" widgets, clicking the `<li data-value="...">` option element directly rather than trying to type into the visible text input).

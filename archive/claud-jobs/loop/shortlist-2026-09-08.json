@@ -1,0 +1,141 @@
+{
+  "roles": [
+    {
+      "company": "Leyton / Mainloop",
+      "title": "Forward Deployed Engineer - Mainloop",
+      "fit": 87,
+      "location": "Barcelona, Spain; onsite + frequent international travel",
+      "posted": "2026-09-08 (LinkedIn)",
+      "comp": "Not disclosed",
+      "why": "Business-process discovery, AI coding agents, full-stack MVPs and stakeholder handover closely match FlowSpace and automation work. No degree or explicit year minimum. English working language.",
+      "watch_outs": "Frequent trips lasting days or weeks. Employer offers visa/paperwork costs and relocation help; confirm permit route. Relocation bonus repayable if leaving within 18 months.",
+      "url": "https://leyton.teamtailor.com/jobs/8330839-forward-deployed-engineer-mainloop",
+      "verification": "Employer posting and Apply route rendered in browser on 2026-09-08. Three LinkedIn variants consolidated."
+    },
+    {
+      "company": "Zurich / ServiZurich",
+      "title": "AI & Process Automation Engineer",
+      "fit": 77,
+      "location": "Barcelona, Spain; hybrid",
+      "posted": "2026-08-30 employer board; LinkedIn refreshed Sep 4",
+      "comp": "Not disclosed",
+      "why": "Python, workflow orchestration, Claude Code, LLM integrations and human review. Power Platform/Copilot Studio certifications help. No explicit years or degree requirement in inspected posting.",
+      "watch_outs": "Enterprise governance and architecture depth; Power Platform production experience needs evidence. Relocation and Spain work permit needed; sponsorship not stated.",
+      "url": "https://www.careers.zurich.com/job/Barcelona-Process-Automation-%26-Digitization-Engineer/811422502/",
+      "verification": "Employer posting with Apply now verified 2026-09-08; requisition 120265."
+    },
+    {
+      "company": "Keepit",
+      "title": "AI Automation Engineer",
+      "fit": 74,
+      "location": "Krakow, Poland; hybrid",
+      "posted": "2026-09-07 (LinkedIn)",
+      "comp": "Not disclosed",
+      "why": "Mid-level agent builder for GTM/Finance using Claude, Python, MCP, RAG and integrations. English is the primary working language. No explicit years or degree minimum.",
+      "watch_outs": "Must demonstrate production-quality Python, MCP server/gateway work and local LLM agent orchestration. Relocation and Poland permit needed; sponsorship not stated.",
+      "url": "https://careers.keepit.com/jobs/8330242-ai-automation-engineer",
+      "verification": "Employer posting and career-board listing verified 2026-09-08."
+    },
+    {
+      "company": "Brickanta",
+      "title": "Solution Engineer - Integrations Focus",
+      "fit": 72,
+      "location": "Stockholm, Sweden",
+      "posted": "2026-09-06 (LinkedIn)",
+      "comp": "YC displays USD 1K-100K; too broad to use as reliable budget",
+      "why": "Python/TypeScript connectors, API debugging, data mapping and customer onboarding. FlowSpace booking integrations provide a relevant example. YC lists 3+ years; no degree clause.",
+      "watch_outs": "Sweden permit/relocation and customer-facing language expectations need confirmation. This integrations JD does not require Swedish; the separate FDE JD does. YC application requires login.",
+      "url": "https://www.ycombinator.com/companies/brickanta/jobs/9PcN4kH-solution-engineer-integrations-focus",
+      "verification": "Employer-authored YC posting and Apply route verified 2026-09-08."
+    },
+    {
+      "company": "ING Hubs Slovakia",
+      "title": "Copilot Studio Engineer",
+      "fit": 61,
+      "location": "Bratislava, Slovakia; flexible/home-working offered",
+      "posted": "2026-09-03 (employer page)",
+      "comp": "EUR 2,346 gross/month minimum; final pay negotiable",
+      "why": "Python automation, Copilot Studio, API integration and document-processing experience align. English required.",
+      "watch_outs": "Requires 3+ years specifically in Python development, not merely total experience; a substantial stretch. Minimum pay below target. Slovakia permit/relocation needed; sponsorship unstated.",
+      "url": "https://careers.ing.com/en/job/slovakia/copilot-studio-engineer/3121/44008552640",
+      "verification": "Employer posting with Apply now verified 2026-09-08; REQ-10120100."
+    }
+  ],
+  "watch": [
+    {
+      "company": "Stuut",
+      "title": "Forward Deployed Engineer",
+      "status": "LIVE; location clarification",
+      "url": "https://jobs.ashbyhq.com/stuut-ai/7ee715c9-1061-4cb3-b3be-8042499fbdae/",
+      "reason": "Browser verified Sep 8: Europe alongside NYC/SF, explicitly onsite. 3+ years customer-facing technical work; fluent Python, ERP integrations, pre/post-sales and travel. USD 150K-240K estimated displayed, Europe applicability unstated. Exact European city, sponsorship and compensation need clarification."
+    },
+    {
+      "company": "UAI Labs",
+      "title": "Business Analyst",
+      "status": "LIVE; eligibility/degree clarification",
+      "url": "https://uai-labs.com/careers/",
+      "reason": "Employer careers verified Sep 8 by research agent. Remote Europe, Ukraine focus. 1-4 years BA/consulting/operations; related business/engineering/IS degree. Economics degree equivalence, Italy arrangement and pay unclear; adjacent to technical product, not core engineering. Posting date unknown."
+    },
+    {
+      "company": "AGILOX",
+      "title": "AI Product Engineer",
+      "status": "LinkedIn verified; employer-title mismatch",
+      "url": "https://at.linkedin.com/jobs/view/ai-product-engineer-w-m-d-at-agilox-4462214428",
+      "reason": "Sep 7 LinkedIn post: 2+ years production LLM applications, TypeScript, RAG; EUR 4,200 gross/month minimum. German-language JD explicitly says German advantageous, excellent English required. Employer English board instead lists AI Platform Engineer; confirm exact requisition, working language and Austria permit before proceeding."
+    },
+    {
+      "company": "UAI Labs",
+      "title": "AI & Automation Engineer",
+      "status": "LIVE; experience gap",
+      "url": "https://uai-labs.com/careers/",
+      "reason": "Employer careers verified Sep 8; 4+ years development and leading RPA platform experience exceed current confirmed profile. Date/pay unknown."
+    },
+    {
+      "company": "Brickanta",
+      "title": "Forward Deployed Engineer",
+      "status": "LANGUAGE GATE",
+      "url": "https://www.ycombinator.com/companies/brickanta/jobs/2fZBSaD-forward-deployed-engineer",
+      "reason": "Full LinkedIn description requires Swedish and English. Keep separate from the integrations role; do not assume its language gate carries across."
+    },
+    {
+      "company": "GitBook",
+      "title": "Product Engineer",
+      "status": "CLOSED",
+      "url": "https://jobs.ashbyhq.com/GitBook/18363361-516d-4324-b9a1-203aaf8cf3bd",
+      "reason": "Browser rendered Job not found on Sep 8."
+    },
+    {
+      "company": "sandan AI",
+      "title": "AI Automation Specialist / Architect",
+      "status": "CLOSED",
+      "url": "https://join.com/companies/sandanai/14624899-ai-automation-specialist-architect",
+      "reason": "Employer ATS returned HTTP 410; do not reuse stale search listing."
+    },
+    {
+      "company": "Kevin Meyer Consulting",
+      "title": "AI Automation Builder",
+      "status": "CLOSED / LANGUAGE GATE",
+      "url": "https://join.com/companies/kevinmeyerconsulting/16410056-ai-automation-builder-m-w-d-remote",
+      "reason": "Employer ATS HTTP 410 and mandatory fluent German."
+    },
+    {
+      "company": "Kognitos",
+      "title": "Forward Deployed Engineer",
+      "status": "UNVERIFIED",
+      "url": "https://jobs.ashbyhq.com/kognitos/75ef6778-ee45-4eb5-b2fa-02834f78a986",
+      "reason": "Research fetch returned JS shell; location and live state unconfirmed. Not included among verified leads."
+    }
+  ],
+  "notes": [
+    "Sweep searched September 8, delivered September 9. Recheck live status before applying.",
+    "80 raw CLI results: 4 LinkedIn searches (10 each) and 2 freehire searches (20 each), plus parallel ATS searches. Counts are search hits, not 80 distinct employers.",
+    "Queries: AI automation engineer; forward deployed engineer; solutions engineer AI; product engineer AI (EU, past 7 days); n8n and automation (freehire, past 14 days).",
+    "Application history, two Excel trackers, corpus and current queue/candidates checked. Known employers excluded. Mainloop posting variants consolidated.",
+    "Five priority leads are live but none is confirmed remote-from-Italy. ING is a Python-experience/pay stretch. Relocation/permit needs are explicit, not assumed solved.",
+    "Headroom used on raw search JSON and descriptions. Main process saved 943 tokens; research agent reported another 371. Optional localhost proxy unreachable; local compression still worked. Savings measured on compressed inputs, not entire task.",
+    "CLI outputs remain in loop/sweep-2026-09-08-*.json; full shortlisted LinkedIn descriptions in loop/detail-*-2026-09-08.json.",
+    "Known-company examples omitted: RoomPriceGenie, Kijimea, Super, Brevo, ActAI, n8n, Glow25, Progress Partners. Industrial automation and senior/staff jobs did not enter shortlist.",
+    "Search only: no applications or outreach sent. Existing pending application queue retained."
+  ],
+  "raw_count": 80
+}

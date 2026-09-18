@@ -1,0 +1,17 @@
+TO: contact@anchoroffices.com
+SUBJECT: Full-stack + automation engineer for Anchor Offices
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Hi Anchor Offices team,
+
+Finding and booking premium office spaces across London and Sydney is the same market FlowSpace competes in, and I built the platform side of that business: an LLM pipeline that produced 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD and Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Working example: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, EU long-term resident; for a London-based role I'd need employer sponsorship, and I'm available immediately, remote-friendly or open to relocating.
+
+Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

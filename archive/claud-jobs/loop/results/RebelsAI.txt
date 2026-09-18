@@ -1,0 +1,21 @@
+STATUS: KILLED
+
+URL: https://nl.linkedin.com/jobs/view/forward-deployed-engineer-at-rebelsai-4458622558
+Role: Forward Deployed Engineer, The Randstad, Netherlands
+
+Dedupe: python3 loop/dedupe.py --check "RebelsAI" <url> -> NEW. No prior row for this company.
+
+Cheap check: LinkedIn guest API apply-button count = 1 (posting open).
+
+Hard gate: full JD text extracted (JD is written entirely in Dutch). The candidate-profile list
+("Wie we zoeken" / "Je hebt bijvoorbeeld:") ends with "Goede beheersing van Nederlands en Engels"
+(good command of Dutch and English), stated as a core requirement alongside the technical bullets.
+This is separate from the JD's own explicitly-flagged nice-to-have paragraph ("Ervaring met Azure,
+vector databases, RAG, agents, LangChain, MCP... is mooi meegenomen"), which does not mention
+language at all. So Dutch sits in the required list, not the "plus" list. Per the standing rule
+(Dutch/German required = kill), and Prabhavit's languages being English C2 + conversational Italian
+only, this is a kill.
+
+No CV or cover letter built. No answers filled. No account touched.
+
+Nothing broke; no new ATS trap to log.

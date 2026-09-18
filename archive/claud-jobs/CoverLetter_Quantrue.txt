@@ -1,0 +1,16 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+Dear Quantrue team,
+
+I am writing to apply for the Forward Deployed AI Engineer role. I have three years of professional experience across eight European companies, working directly with clients to turn a business problem into a working AI-driven system.
+
+At FlowSpace, a live workspace marketplace, I took over the platform and automated its data migration off a legacy stack onto Next.js and Laravel, driving the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I also built and own an AI listing bot that turns a workspace brochure in any format into a drafted listing with a human in the loop, 900 plus drafted so far, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform, using Affinda and the Claude API for the parsing and generation and n8n and Eden AI for the extraction tool, so a user's CV becomes a scored, structured result and a standardised Ultra CV.
+
+I use Claude Code daily as my agentic developer workbench, and I hold a Bachelor's degree rather than the technical master's your listing asks for, but the work above is the kind of end-to-end delivery, from data pipeline to production integration, that the role describes. I am authorised to work in Italy and can be based there or relocate to Madrid; I am ready to complete the applicable process for Spain.
+
+I would welcome the opportunity to discuss how I could contribute to Quantrue's client engagements.
+
+Regards,
+Prabhavit Gupta

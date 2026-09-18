@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464643394/
+Company: Inku (Louvain-la-Neuve, Belgium)
+Role: Forward Deployed Engineer
+
+Uploaded: resume selected from LinkedIn library "Prabhavit_CV-.pdf" (dated 9/9/2026, verified filename = user's original CV per task instructions).
+
+Cover letter: prepared (CoverLetter_Inku.txt, 202 words, 0 em-dashes; CoverLetter_Inku.pdf built from CoverLetter_Inku.tex via tectonic, 1 page) but this Easy Apply form had no message field or upload slot for it, so nothing was pasted or attached. Files saved to ROOT for any manual follow-up.
+
+Answers given: none required beyond contact info (email prabhavitg@gmail.com, phone +39 351 610 7807 with Italy +39 code) and resume, both prefilled correctly and verified. No custom screening questions on this form (no years, salary, work authorisation, or notice-period fields). Unticked the pre-checked "Follow Inku" box before submitting.
+
+Hard gates re-checked on full JD (curl jobs-guest API): years "2-3" (pass, not >3), title not Senior/Lead/Principal/Manager (pass), no MSc/PhD requirement (pass), English explicitly accepted / Dutch only "an advantage" (pass), stack is Python-primary + TypeScript + LLM APIs + agent frameworks in production (all claimable, pass), on-site Belgium (EU, user open to relocation, not a kill). No gate triggered.
+
+Dedupe: NEW (loop/dedupe.py --check returned NEW; grep -i "inku" applications.csv had no prior rows).
+
+Confirmation: "Your application was sent to Inku!" / "Application status: Application submitted" seen on the job page after submit (Claude in Chrome, tab closed after).
+
+Blockers: none. No LEARNINGS - straightforward single-page LinkedIn Easy Apply, no shadow-root friction encountered beyond the usual (find/refs worked throughout).

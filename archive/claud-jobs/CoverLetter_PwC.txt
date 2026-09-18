@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer role with PwC Slovakia's Advanced Technology Solutions team in Bratislava. At FlowSpace, a workspace marketplace, I have spent close to three years building and operating AI agents and LLM-powered tools in production. I built an AI listing pipeline that takes a workspace provider's brochure, a PDF, a website, or a spreadsheet, and drafts a full structured listing, with a human reviewer checking every output before it goes live. I also built a support AI agent that answers customer queries against live platform data and escalates to a person whenever its confidence is low, and, earlier, a CV parsing tool using n8n and Eden AI that extracted structured data from unstructured documents.
+
+My day to day stack is TypeScript, Node.js and Python, alongside Laravel, Supabase and REST API integrations. I use Claude Code daily as my primary development tool, so working with AI-assisted tools such as the GitHub Copilot and Claude Code your posting names is already how I build and ship. I took over a live marketplace on a legacy stack and led its migration to a coded Next.js and Laravel stack while it stayed live, scaling the platform from 2,000 to 4,500 users.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Slovakia and would need the employer-side permit or sponsorship process, which I am ready to start immediately, and I am ready to relocate to Bratislava.
+
+Regards,
+Prabhavit Gupta

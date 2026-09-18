@@ -1,0 +1,31 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4464518989/
+Company: Stern Stewart & Co. (for its portfolio company SITECO, lighting technology)
+Role: AI Solution Engineer for our Portfolio Companies, Munich, Germany (Hybrid, Full-time)
+ATS: LinkedIn Easy Apply
+Queue: lane C, fit 65, found 2026-09-10
+
+Dedupe: python3 loop/dedupe.py --check -> NEW. grep of applications.csv for "stern"/"siteco" -> no prior rows. Clean, no block.
+
+Hard gates re-checked on the live JD: no explicit years requirement; title "AI Solution Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO); degree line reads "Bachelor's or Master's ... or equivalent practical experience" (not a hard MSc requirement); JD fully in English, no German requirement stated; "Python and TypeScript are part of your toolkit" (both claimable, no Java/.NET/C++/Go/Rust/Django/FastAPI-core/cloud-admin core); Munich, Germany, EU location; no anti-AI disclaimer found; posting live (Easy Apply button present, 50 applicants, no "Application submitted" panel on load, no "not accepting applications" banner). All gates passed.
+
+Uploaded: Prabhavit_CV_SternStewart.pdf via the Easy Apply "Upload resume" control (re-checked URL contained 4464518989 first), selected over the library resumes shown. CoverLetter_SternStewart.txt/.pdf were built per the brief but this particular Easy Apply flow (4 pages: Kontaktinfo -> Lebenslauf -> Weitere Fragen -> Review) had no cover-letter or additional-information free-text field anywhere, so the letter could not be pasted or attached; it is kept on file for the CSV/answers record.
+
+Answers given (LinkedIn UI rendered in German):
+- E-Mail-Adresse: prabhavitg@gmail.com (pre-selected, correct)
+- Phone country code: Italy (+39) (pre-selected, correct)
+- Handynummer: 351 610 7807
+- "Haben Sie folgenden Abschluss bzw. Bildungsgrad: Bachelor?" -> Ja
+- "Wie viele Jahre Erfahrung haben Sie mit: Python (Programmiersprache)?" -> 3
+- "Wie viele Jahre Erfahrung haben Sie mit: Datenbanken?" -> 3
+- Unticked the "Follow Stern Stewart & Co." checkbox (was ticked by default) per the marketing-checkbox standing rule.
+- No work-authorisation/relocation/salary/language questions were asked on this form, so the Germany transparency line, salary figure and relocation answer were not needed here.
+
+Blockers: none. No CAPTCHA, no assessment, no anti-AI attestation.
+
+Confirmation: "Your application was sent to Stern Stewart & Co.!" (heading), "You can keep track of your application in the "Applied" tab of My Jobs" (subtext), seen after Submit application, before logging. Saved to confirmations/SternStewart-2026-09-10.png and .txt.
+
+CV bullets dropped (full list in answers/sternstewart-2026-09-10.md): Career Summary dropped "Skilled in AI-assisted development, prompt engineering, and orchestrating complex API integrations." FlowSpace Product dropped the internal-communication/documentation bullets; FlowSpace Technical dropped two verbatim duplicate bullets already used elsewhere plus the commute-time-tool bullet. Every other role trimmed to its 1-2 most relevant bullets. Additional Information "Low code development/AI based development" item kept only the "AI based development" half (JD has no relation to low-code), following the same split already used in prior tailored CVs (e.g. Prabhavit_CV_Axis.tex).
+
+LEARNINGS: This Stern Stewart / SITECO Easy Apply flow renders entirely in German (Kontaktinfo, Lebenslauf, Weitere Fragen labels) even though the job posting itself is in English and the account's UI language elsewhere is English -- read field labels carefully before answering, they still map 1:1 to the usual Easy Apply fields (email, phone, resume, screening questions). This particular flow also had no cover-letter/additional-info field and no work-authorisation/relocation/salary questions, so those standing answers were prepared but unused; nothing to fix, just note that not every Easy Apply asks everything.

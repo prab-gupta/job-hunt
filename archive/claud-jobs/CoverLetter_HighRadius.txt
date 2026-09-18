@@ -1,0 +1,16 @@
+Dear HighRadius Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer role in Amsterdam. Your posting describes owning the full technical lifecycle of a client deployment, from data intelligence and agent configuration through to go-live and measurable KPI outcomes. That is the shape of the work I have been doing for the last three years.
+
+At FlowSpace, I shipped OfficeRnD and Nexudus API integrations for automated bookings and built CRM automations for lead capture, enrichment and routing, work that meant configuring external systems against a live production dataset the way an ERP integration would. I also built and still own an AI listing bot that processes a workspace provider's brochure in any format and drafts a structured listing with a human in the loop, over 900 drafts produced, and support AI agents that read live platform data and escalate to a person on low confidence.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant the candidate is for specific roles, the result is delivered to the frontend, and a standardised CV is generated. I used Affinda and the Claude API for the parsing and generation, which is the same pattern of turning raw client data into a configured, outcome-driven result that this role asks for.
+
+I have three years of professional experience and I am not currently enrolled in a graduating class, so I do not fit the 2025/2026 graduate profile mentioned in the posting. What I bring instead is production experience already shipped: live client-facing integrations, AI-driven data processing, and comfort working directly with finance and operations stakeholders to get to a working result.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit process. I am ready to work on-site in Amsterdam and to relocate to complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

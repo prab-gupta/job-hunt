@@ -1,0 +1,14 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4441928922/
+Company/Role: Enjins - Forward Deployed AI Engineer, Utrecht (hybrid)
+
+Uploaded: Prabhavit_CV_Enjins.pdf (tailored, 2 pages; FlowSpace AI agents/data-processing bullets + UltraStrategy CV-parsing bullets moved to top, career summary trimmed to 2 bullets).
+Letter: CoverLetter_Enjins.txt pasted into the Easy Apply cover letter field (this flow, unlike Aircall's, has one). FlowSpace + UltraStrategy as the two proof roles.
+
+Answers given: authorised to work in NL without sponsorship = No; living in NL / able to commute to Utrecht 50%+ of week = No; expected gross monthly salary EUR 4,500 (bottom of the JD's own stated 4,500-6,200 band); notice period 2 weeks; GDPR personal-data consent ticked.
+
+Language gate: task note flagged "Dutch required = kill" for this row, but the JD body and all 4 Easy Apply pages were checked and contain no Dutch-language requirement, explicit or implied (the NL-specific questions are about work authorisation and physical commute, not language). Per the standing rule that a language kill needs a quotable clause, did not kill and applied instead.
+
+Blockers: none. Submitted cleanly, "Application submitted - now" seen on the job page.
+
+Note: the file-upload flow for this ATS (Workable via LinkedIn) required clicking the "Upload resume" trigger button immediately before each find() call for the injected hidden file input - the input ref only appears in the accessibility tree right after a fresh click, and calling find() again later without re-clicking kept returning the visible trigger button instead. Useful pattern for future Workable rows: click Upload resume, then find "file input for resume upload" in the same turn, then file_upload immediately.

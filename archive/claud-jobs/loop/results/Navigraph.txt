@@ -1,0 +1,26 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4464996019/ (LinkedIn Apply is external, not Easy Apply — "Responses managed off LinkedIn") -> https://careers.navigraph.com/jobs/8342827-fullstack-developer (Teamtailor)
+
+What was uploaded:
+- CV: Prabhavit_CV_Navigraph.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, verified filename in the dropzone)
+- Cover letter: pasted full text (199 words) into the form's "Cover letter" text field. CoverLetter_Navigraph.txt/.tex/.pdf also built per brief (1 page, no em-dashes, no Bubble/low-code mentions) but not separately uploaded since a text field existed.
+
+Answers given:
+- Pre-screen "able to work in Stockholm a couple of days/week?" -> Yes
+- First name: Prabhavit / Last name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807 (Italy selected from country dropdown, which defaulted to Sweden)
+- Consent (privacy policy, required): ticked
+- "Navigraph can contact me about future job opportunities" (marketing, optional): left unticked
+- No salary, years-of-experience, or notice-period fields present on this form
+- Did not use "Apply with LinkedIn" (filled manually to avoid an account-link/OAuth action)
+
+Blockers: none. No CAPTCHA, no account creation, no anti-AI clause found in the JD.
+
+Confirmation: "Thanks for applying / We have received your application and we will be reviewing it shortly." Progress indicator showed "Applied" step complete. Logged to confirmations/Navigraph-2026-09-09.txt (Chrome screenshot save-to-disk did not resolve to a locally accessible path in this session, so the confirmation text is the record per the brief's Chrome-section note).
+
+Full detail: answers/navigraph-2026-09-09.md
+Tracker row: applications.csv (2026-09-09, Navigraph, Fullstack Developer, Teamtailor, SUBMITTED)
+
+LEARNINGS: none new — Teamtailor form matched ats-guides/teamtailor.md exactly (decline non-essential cookies first, click "Apply for this job", verify CV filename in dropzone, real cover-letter text field was present so no separate PDF upload was needed). One notable tradeoff: the standing "never write Bubble/low-code" material rule forced dropping the single most JD-relevant Professional Experience bullet ("Overseeing the migration of app from Bubble.io to Next.JS and Laravel", which appeared twice in the source CV) because it could not be reworded without inventing new sentence text; flagging in case a future rule update wants a rewritten variant of that migration bullet blessed for reuse (e.g. "migration from a legacy platform to a coded Next.js and Laravel stack") instead of deletion.

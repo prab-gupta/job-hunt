@@ -1,0 +1,18 @@
+Company: alago
+Role: Founding Full-Stack Engineer
+Date: 2026-09-07
+ATS: JOIN
+Posting: https://join.com/companies/alagoai/16619992-founding-full-stack-engineer
+Success URL: https://join.com/companies/alagoai/14929841/apply/success?sso=false
+Success evidence: Application sent. You've applied to alago.
+Screenshot evidence: Captured from the live success page in the Codex in-app browser immediately after submission.
+CV: Prabhavit_CV_Original_EN.pdf
+Cover letter: CoverLetter_Alago.pdf
+Salary: EUR 60,000 annually
+Start date: 2026-09-21
+Current city: Venice, Italy
+German: Keine (Kenntnisse)
+Regular onsite work: Yes
+English: Verhandlungssicher (business fluent)
+Comfortable coding a React component without AI assistance: Yes
+Work authorization: The form did not ask a separate authorization question. The cover letter disclosed that Germany requires an employer-side work permit.

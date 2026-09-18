@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4465992188/
+Uploaded: nothing yet - Easy Apply form never opened.
+Blockers: LinkedIn account-wide daily Easy Apply limit ("You reached today's Easy Apply limit"), hit before the form loaded. Job Saved for retry. Same blocker independently hit on the CloudFactory row logged earlier today in NEEDS_YOU.md.
+Materials ready: Prabhavit_CV_Fidesmo.pdf, CoverLetter_Fidesmo.pdf/.txt (FlowSpace + Clubee proof, Spain transparency line) - see answers/fidesmo-2026-09-16.md.
+LEARNINGS: LinkedIn Easy Apply has a shared per-account daily submission cap; once hit, every subsequent Easy Apply job (regardless of company) shows the same blocking dialog instead of opening the form. Non-Easy-Apply "Apply on company website" postings (like AlphaOmega) are unaffected.

@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Customer Engineer role at Mastra.
+
+At FlowSpace, I built and operated AI agent systems in production. The main one was an agentic data pipeline: documents in any format go in, LLM APIs extract structured data through multi-step orchestration with tool calling and validation, and results land in a human review UI before pushing to the backend. I designed this system alongside internal users, trained them on the tooling, and iterated the architecture based on real deployment patterns. When the same extraction failures kept appearing across different document types, I refactored the shared primitives rather than patching each case individually.
+
+I also built conversational support agents with confidence scoring and escalation, and shipped integrations against booking, CRM, and payment APIs, iterating quickly on customer feedback. The thread connecting all of this: working directly with the people using the system, identifying patterns in what breaks, and feeding those patterns back into the core tooling.
+
+Mastra's open-source TypeScript agent framework is close to how I already work. Claude Code is my primary development tool, and I use agentic coding workflows daily for architecture, prototyping, and review. The Customer Engineer role, bridging deployment and framework engineering, maps directly to what I did at FlowSpace: half the work was building the system, the other half was making it work reliably for real users and turning their problems into better abstractions.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit, and am available immediately.
+
+Regards,
+Prabhavit Gupta

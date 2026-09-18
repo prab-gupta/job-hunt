@@ -1,0 +1,141 @@
+[
+{
+"id": "4468287757",
+"verdict": "PASS",
+"reason": "Software Developer (Backend/Full Stack) role at Accessiway (real Italian company). Location Turin, Italy hybrid/remote. JD in Italian, matches user's conversational Italian. Stack: Node.js, AWS, PostgreSQL, TypeScript, Python - strong match. Experience requirement is 'proven experience' not '4+ years'. Title is 'Software Developer' not Senior/Staff/Lead. External apply URL to company website.",
+"ats_url": "https://accessiway.teamtailor.com/jobs/8260410-software-developer-backend-full-stack-categorie-protette-l-68-99",
+"easy_apply": false,
+"lane": "C",
+"fit": 85,
+"lead": {
+"id": "4468287757",
+"title": "Software Developer (Backend / Full Stack)",
+"company": "Accessiway",
+"location": "Massarosa, Tuscany, Italy",
+"url": "https://www.linkedin.com/jobs/view/4468287757/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD contains no refutation criteria: (1) No stated requirement exceeding 3 years experience \u2014 only \"Comprovata esperienza\" (proven experience); (2) No seniority level specified \u2014 generic Software Developer role; (3) English acceptable (requires \"buon livello di inglese scritto e parlato\"); (4) Stack fully matches candidate (Node.js/TypeScript/React/AWS/Python all claimed); (5) Location: Turin, Italy with Remote/Hybrid option matches EU residency; (6) Not closed or agency. Pass stands."
+},
+{
+"id": "4465998795",
+"verdict": "PASS",
+"reason": "Sviluppatore back-end (Backend Developer) at Run2AI. Italian JD, user has conversational Italian - passes Italian language gate. Lombardy, Italy hybrid. Experience requirement: 1-2 anni (years) of practical backend experience - user has 2.5-3 years full-stack, matches. Title 'Backend Developer' not senior. Stack includes AI/APIs/backend - matches user's Python for LLM + Node.js experience. Salary 25-35k EUR, hybrid Milan (3+ days on-site acceptable per user profile). Easy Apply.",
+"ats_url": "https://www.linkedin.com/jobs/view/4465998795/",
+"easy_apply": true,
+"lane": "B",
+"fit": 75,
+"lead": {
+"id": "4465998795",
+"title": "Sviluppatore back-end",
+"company": "Run2AI",
+"location": "Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4465998795/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "Entry-level position requires 1-2 years backend experience; candidate has 2.5-3 years, exceeding requirement. No stated requirement for: seniority above Entry level, specific technology stack, Italian language, or location outside EU/remote. Role in Milan with explicit 3+ days remote flexibility. Pass holds against stated JD requirements."
+},
+{
+"id": "4466866995",
+"verdict": "PASS",
+"reason": "2-year minimum experience requirement (below 3-year ceiling); no senior-level designation; Italian JD acceptable; general web dev stack (OOP, databases, SDLC) within his capabilities",
+"ats_url": "https://www.linkedin.com/jobs/view/4466866995/",
+"easy_apply": true,
+"lane": "C",
+"fit": 65,
+"lead": {
+"id": "4466866995",
+"title": "Software Developer - Categorie Protette (L.68/99)",
+"company": "Relatech",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4466866995/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD requires minimum 2 years (candidate has 2.5-3), junior/mid-level role, web dev stack (client+server) matching TypeScript/React/Node/Laravel, Milan hybrid on-site (candidate open to EU/remote), job posted 16h ago and open, direct company posting. No statement requiring Senior level, >3 years, non-English language requirement, stack mismatch, non-EU location without remote, or other refutation criteria found."
+},
+{
+"id": "4440087066",
+"verdict": "PASS",
+"reason": "1-year minimum experience; full-stack JavaScript/React/Angular/Node.js/Azure stack aligns with profile despite misleading 'Java' title; Italian JD acceptable; concrete tech match",
+"ats_url": "https://www.linkedin.com/jobs/view/4440087066/",
+"easy_apply": true,
+"lane": "C",
+"fit": 75,
+"lead": {
+"id": "4440087066",
+"title": "Software Engineer Java",
+"company": "Vanguard System - Gruppo Global Sistemi",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4440087066/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "JD requires: 1yr+ web dev experience (candidate has 2.5-3yrs), Junior level (matches), English only (candidate speaks English), React/Node/JavaScript stack (candidate has TypeScript/React/Node), Milano on-site (candidate open to EU). No stated requirement exceeds 3yrs, no Senior/Staff/Lead level, no blocklisted tech (Java/.NET/C++/Go/Rust/Scala/Kotlin/Django-only), location is EU. Pass is valid."
+},
+{
+"id": "4468374668",
+"verdict": "PASS",
+"reason": "Italian JD with no fluent/native Italian requirement stated. Junior ops role aligns with n8n/automation background. Italy on-site location acceptable (close to Venice base). No MSc/PhD required.",
+"ats_url": "https://www.linkedin.com/jobs/view/4468374668/",
+"easy_apply": true,
+"lane": "B",
+"fit": 65,
+"years_required": "Not stated",
+"location_type": "On-site, Vernazza Italy",
+"lead": {
+"id": "4468374668",
+"title": "AI Operations Strategist",
+"company": "Cinque Terre Riviera incoming tour operator",
+"location": "Vernazza, Liguria, Italy",
+"url": "https://www.linkedin.com/jobs/view/4468374668/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No stated requirements exceed candidate's 2.5-3 years; seniority level explicitly \"Not Applicable\"; no required languages stated; Python/LLM pipeline skills match AI/workflow automation requirement; on-site Vernazzo, Italy aligns with Italian EU resident status; posting is open via named company and CEO (not agency)"
+},
+{
+"id": "4466883328",
+"verdict": "PASS",
+"reason": "Excellent stack match (TypeScript/JavaScript/Python/REST APIs/AI-assisted development). Associate-level perfect fit for 2.5-3 year experience. No MSc/PhD required. English JD; Italian fluency requirement is borderline but not gate-kill under hard rules.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466883328/",
+"easy_apply": true,
+"lane": "C",
+"fit": 82,
+"years_required": "Not stated",
+"language_required": "Professional fluency English and Italian",
+"lead": {
+"id": "4466883328",
+"title": "Experience Acceleration Specialist",
+"company": "Genesys",
+"location": "Italy",
+"url": "https://www.linkedin.com/jobs/view/4466883328/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD explicitly requires \"Professional fluency in English and Italian is required.\" Candidate profile states \"English only,\" missing the mandatory Italian language requirement."
+},
+{
+"id": "4467194104",
+"verdict": "PASS",
+"reason": "Platform engineering role with Python, security platform development, MDR/SIEM/SOAR integrations, AI implementations. 2+ years required matches Prabhavit's 2.5-3 years. Remote Italy location is ideal. Stack partially aligned (Python \u2713) but security domain and infrastructure focus outside primary product engineering expertise.",
+"ats_url": "https://www.linkedin.com/jobs/view/4467194104/",
+"easy_apply": false,
+"lane": "A",
+"fit": 55,
+"years_required": "2+",
+"language_required": "English",
+"lead": {
+"id": "4467194104",
+"title": "MDR Platform Engineer (Remote) - Italy",
+"company": "Malwarebytes",
+"location": "Italy",
+"url": "https://www.linkedin.com/jobs/view/4467194104/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD fully matches candidate: 2+ years requirement met by 2.5-3 years experience; Python and web application skills directly stated; remote Italy suitable for Italian EU resident; seniority \"Not Applicable\"; no language barrier; no incompatible core stack requirements."
+}
+]

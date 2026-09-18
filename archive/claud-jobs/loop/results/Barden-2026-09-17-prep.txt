@@ -1,0 +1,32 @@
+STATUS: PREP ONLY (materials built, not submitted — hold for Easy Apply cap per queue.csv)
+Company: Barden | B Corp | Role: AI Deployment Manager (Content Development) | Dublin, Ireland
+URL: https://www.linkedin.com/jobs/view/4468248135/
+JD source: scratchpad/jd/4468248135.txt
+
+Files built (slug Barden, none pre-existing, no clobber):
+- Prabhavit_CV_Barden.tex / .pdf — 2 pages, photo renders (400x400 jpeg confirmed via pdfimages)
+- CoverLetter_Barden.tex / .txt / .pdf — 1 page, 316 words
+
+CV diff vs Prabhavit_CV_EN.tex (parity check: zero invented bullets, python set-diff confirmed):
+- Career Summary trimmed 3 -> 2 bullets (dropped "Transformed business requirements into production-ready features..."; kept the general AI/automation intro + the "AI-assisted development, prompt engineering, API integrations" bullet — prompt engineering maps directly to the JD's genAI content-drafting pilot)
+- FlowSpace Product Responsibilities: "Streamlined customer support with AI agents" moved to top
+- FlowSpace Technical Responsibilities: unchanged order (AI listing/scraping tool already first, fits JD's content-drafting theme)
+- Get2Germany: "Developed AI based automation tools for finding courses, internships and jobs" moved to top
+- UltraStrategy: unchanged (only 2 bullets total, both kept — satisfies the "AI/automation JD keeps >=2 UltraStrategy bullets" rule by default)
+- No bullets deleted; no role/date/location touched
+
+Letter: lead role UltraStrategy (CV-parsing pipeline, Affinda + Claude API, human-reviewed first draft = same evaluate-then-pilot pattern the JD wants), paired with FlowSpace AI listing bot (brochure-to-listing, human-in-the-loop, 900+ drafted = same first-draft-plus-governance pattern for story decks/content reuse). Honest 3-years-vs-mid-senior line included.
+
+Field answers a browser agent will need:
+- Years of experience: 3
+- Salary: EUR 45000 (JD states no salary; posting is a fixed-term contract, no floor given)
+- Work authorisation (Ireland): No, not currently authorised; sponsorship/employer-side permit needed = Yes. Transparency line used: "I hold Italian EU long-term resident status, which does not extend to Ireland. I am not currently authorised to work there and would need an Irish employment permit, generally requiring employer sponsorship, and I am ready to pursue that process." (per answers/work-authorisation.md — Ireland is excluded from the EU LTR mobility directive, ordinary national employment permit needed)
+- Partita IVA: Yes
+- Driver's license: No
+- Notice/start: available immediately, two weeks after offer
+- Languages: English C2, Hindi native, Italian B1-B2 (do not select fluent/native for Italian)
+
+Anything odd in the JD:
+- Fixed Term Contract, pharma/life sciences content ops role — not a software engineering role at all (content modularisation, localisation, GSL materials, generative AI pilot for story decks). LI-PICK row so applying anyway per user's standing rule; expect a low match on the agency's side but materials are honest and evidence-based.
+- Near-identical posting to PE Global's row below — same client, same JD text, different recruiter. Two separate legitimate applications (different agencies), not a duplicate per dedupe rules.
+- Pharma/life sciences experience explicitly "advantageous" — Prabhavit has none; not fabricated, not mentioned in the letter beyond the honest disclaimer.

@@ -1,0 +1,14 @@
+Dear PagerDuty team,
+
+I want to build AI systems that run in production under real load and hold up when things go wrong, close to what your Incident Management AI Agents and event intelligence work need. That is the kind of work I have been doing across a systems and automation background.
+
+At UltraStrategy I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and assesses how relevant that candidate is for specific types of roles, the result is delivered to the frontend, and a standardised "Ultra CV" is then generated. Affinda and the Claude API were used for the parsing and generation, and getting that pipeline reliable meant treating the LLM step as one part of a larger system rather than the whole answer.
+
+At FlowSpace I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, so the agent never guesses on something it cannot verify. That combination of retrieval grounded in real data plus a clear fallback path is close to the reliability problem this role describes.
+
+I also built the AI-assisted platform and client automations at Urlink, working directly with the client on requirements throughout.
+
+I am an Indian citizen holding Italian EU long-term resident status, ready to relocate to Lisbon and complete the employer-side permit process the role would require. I would welcome the chance to talk about it.
+
+Best regards,
+Prabhavit Gupta

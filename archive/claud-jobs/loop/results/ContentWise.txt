@@ -1,0 +1,17 @@
+STATUS: SUBMITTED
+LinkedIn: https://www.linkedin.com/jobs/view/4459204957/
+ATS (Greenhouse): https://job-boards.greenhouse.io/contentwisespa/jobs/7522303003?gh_src=1tjkyfao3us&source=LinkedIn
+
+Role: DevOps Engineer, ContentWise (Moviri group), Milan/Padua, hybrid. LI-PICK queue row (soft gates off per user rule 2026-09-11); JD asks for AWS/GCP/on-prem automation, orchestration, CI/CD, Ansible/Terraform, Docker/Kubernetes, which Prabhavit has not administered, so this application leads honestly with his application-level automation work rather than claiming cloud infra ops.
+
+Dedupe: NEW on the LinkedIn URL and the Greenhouse ATS URL (loop/dedupe.py --check); no prior ContentWise row in applications.csv.
+
+Uploaded: Prabhavit_CV_ContentWise.pdf (2 pages, tailored from Prabhavit_CV_EN.tex by reorder/delete only, verbatim bullets, parity-diffed against the source), CoverLetter_ContentWise.pdf (265 words, English, 0 em-dashes, FlowSpace migration+operations lead paragraph, Get2Germany + UltraStrategy second proof paragraph, explicit cloud-admin honesty paragraph, 3 years stated plainly).
+
+Answers given: identity fields auto-filled correctly by Chrome's MyGreenhouse extension (Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, Venice/Venezia Italy, LinkedIn profile). Replaced the extension's own generic resume attachment with the tailored CV before submit. No salary, years, work-authorisation, EEO or attestation questions were on this short 10-field Greenhouse form; no CAPTCHA.
+
+Blockers: none.
+
+LEARNINGS: Greenhouse forms reached via LinkedIn Apply on a Chrome session with the MyGreenhouse autofill extension pre-attach a generic/stale resume automatically — always check the Resume/CV field after autofill and remove/replace it with the job-specific tailored CV before uploading, even when the rest of the identity fields are correct.
+
+Confirmation: "Thank you for applying. Your application has been received. If there is a fit, someone will be getting back to you." Saved to confirmations/ContentWise-2026-09-11.txt (PNG screenshot save unavailable in this Claude in Chrome session; txt is the record per brief fallback). See answers/contentwise-2026-09-11.md for full field-by-field detail.

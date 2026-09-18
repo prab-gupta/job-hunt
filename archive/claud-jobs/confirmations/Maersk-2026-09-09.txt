@@ -1,0 +1,23 @@
+A.P. Moller - Maersk - Software Engineer, AI & Data - R193814
+https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/DKCPH55---Copenhagen---Esplanaden-50/Software-Engineer_R193814?source=LinkedIn
+(via LinkedIn https://www.linkedin.com/jobs/view/4456701654/)
+
+NOT SUBMITTED. No application form was reached.
+
+LinkedIn shows a plain "Apply" button (not Easy Apply, "Responses managed off
+LinkedIn"), routing to Maersk's own Workday tenant (maersk.wd3.myworkdayjobs.com).
+On the job page, clicked Apply, then tried "Apply Manually" first (per policy,
+since some Workday tenants such as Telia allow a guest flow). This tenant does
+not: the very first step of the "Apply Manually" wizard is "Create Account/Sign
+In", offering only Sign in with Apple, Sign in with Google, or Sign in with
+email, with no guest-continue or apply-without-account option. "Autofill with
+Resume" and "Use My Last Application" (also visible on the initial modal) both
+require the same account. Per policy this agent never creates accounts or signs
+in on the user's behalf; no CV/letter was uploaded and no form field was filled.
+
+Chrome tab left open for the user: tab id 550849906
+(https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/DKCPH55---Copenhagen---Esplanaden-50/Software-Engineer_R193814/apply/applyManually?source=LinkedIn)
+Action needed: sign in (or create a Workday account) and complete the
+6-step application (My Information, My Experience, Application Questions x2,
+Voluntary Disclosures, Review). Tailored materials are ready to upload:
+Prabhavit_CV_Maersk.pdf and CoverLetter_Maersk.pdf (both in ROOT).

@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458007625/
+Careers page: https://careers.alvarezandmarsal.com/jobs/18176752-senior-ai-forward-deployed-engineer-slash-architect
+Apply ATS: Talemetry (apply.talemetry.com), cross-origin iframe, filled and submitted via Playwright directly (no Chrome handoff needed on this row).
+
+What was uploaded: Prabhavit_CV_AlvarezMarsal.pdf (reused after a verbatim-subset parity check against Prabhavit_CV_EN.tex passed cleanly), CoverLetter_AlvarezMarsalSr.pdf (new letter, honest about 3 years vs senior/architect ask, Additional Documents Cover Letter slot).
+
+Dedupe: HIT COMPANY (existing SUBMITTED row for a different requisition, job 18176750, an hour earlier) - confirmed different LinkedIn URL and different careers.alvarezandmarsal.com job slug (18176752), not blocking.
+
+Resume-parser trap (same pattern as the earlier AlvarezMarsal submission and LEARNINGS 2026-09-17 00:10): of 8 parsed Work History rows, 1 was pure junk (2000-Current, deleted) and 4 had blank/mislabelled Company Name (UltraStrategy, Urlink mislabelled as Get2Germany.com, Clubee mislabelled as Qomodo, Get2Germany blank) - all fixed by cross-checking dates against OUTREACH_FACTS.md/Prabhavit_CV_EN.tex; FlowSpace and Qomodo (the real one) parsed correctly and were left untouched. Education: 3 certifications parsed correctly, real degree (Ca' Foscari University of Venice, Bachelor's, Oct 2020-Jun 2024) parsed correctly; set Degree=Certificate on the Copilot Studio Academy entry (was blank, no fabrication).
+
+Job-related questions: Spain work authorisation = No, require sponsorship (per work-authorisation.md); will require sponsorship = Yes; able to work in office = Yes; travel frequency = Weekly; no prior A&M employment, no family at A&M, no non-compete, no outside conflicts, not a government official.
+
+Final page: Submit implies terms consent per the page's own wording (no separate checkbox). Clicked Submit, landed on https://careers.alvarezandmarsal.com/pages/thank-you with "Thank You! Application Confirmation - Thank you for your application. You will soon receive an email confirmation, which will allow you to check the status of your application."
+
+Blockers: none.
+
+LEARNINGS: none new - this session's Talemetry resume-parser trap and the "Submit implies consent" pattern both exactly match existing LEARNINGS.md entries (2026-09-17 00:10 and the prior AlvarezMarsal results file).

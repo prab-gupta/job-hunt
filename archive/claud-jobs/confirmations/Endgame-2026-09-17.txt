@@ -1,0 +1,9 @@
+LinkedIn Easy Apply confirmation, 2026-09-17
+Job: Forward Deployed Engineer at ENDGAME (Amsterdam, North Holland, Netherlands)
+URL: https://www.linkedin.com/jobs/view/4448988083/
+
+Dialog text on submit:
+"Your application was sent to ENDGAME!
+You can keep track of your application in the "Applied" tab of My Jobs"
+
+Application status panel on job page also read: "Application submitted - now"

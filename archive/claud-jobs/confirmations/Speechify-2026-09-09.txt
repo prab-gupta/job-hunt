@@ -1,0 +1,10 @@
+Speechify - Software Engineer, Platform (Berlin, Germany requisition, applies to Berlin/Frankfurt/Toulouse/Paris posting)
+URL: https://job-boards.greenhouse.io/speechify/jobs/5976192004
+Submitted: 2026-09-09
+
+Confirmation page text (job-boards.greenhouse.io/speechify/jobs/5976192004/confirmation):
+"Thanks for applying.
+Great news! Your application has been successfully submitted, thank you for your interest in working at Speechify.
+If you're an engineer, please go ahead and answer some additional questions here to take our first screen coding exam: https://forms.gle/HyczGrp3wRzRfCyL7."
+
+Note: the coding-exam Google Form is an optional next step offered by Speechify itself post-submission, not filled in (out of scope for this application task; Prabhavit can complete it himself if he wants).

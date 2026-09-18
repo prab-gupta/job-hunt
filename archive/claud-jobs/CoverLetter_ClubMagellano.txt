@@ -1,0 +1,14 @@
+Gentili Signore e Signori,
+
+vi scrivo per candidarmi alla posizione di Sviluppatore Web Junior presso Club Magellano, a Tavazzano con Villavesco. Ho tre anni di esperienza come sviluppatore full-stack in diverse aziende europee, con particolare attenzione a Laravel, API RESTful e sviluppo frontend/backend, e sono entusiasta all'idea di crescere in un contesto giovane e concreto come il vostro.
+
+Per FlowSpace, marketplace londinese, ho preso in carico la piattaforma dal vivo e ho automatizzato la migrazione dai sistemi legacy a Next.js e Laravel, mappando la struttura esistente sulla nuova architettura e migrando i dati entità per entità tramite endpoint API e file CSV, con il prodotto sempre attivo durante il passaggio; la piattaforma è cresciuta da 2.000 a oltre 4.500 utenti. Ho inoltre integrato API esterne (OfficeRnD e Nexudus) per automatizzare le prenotazioni.
+
+Per Get2Germany, a Berlino, ho integrato le API di Google e ottimizzato il database della piattaforma, oltre a costruire strumenti automatizzati per la ricerca di corsi, stage e offerte di lavoro. Per Clubee, in Lussemburgo, ho integrato le API della piattaforma su tutto il frontend e mi sono occupato di unit testing e controllo qualità delle nuove funzionalità, un lavoro molto simile alla collaborazione quotidiana con marketing e customer care che descrivete nell'annuncio.
+
+Sono cittadino indiano con residenza di lungo periodo UE in Italia, quindi autorizzato a lavorare in Italia senza necessità di sponsorizzazione. Sono disponibile a trasferirmi a Tavazzano con Villavesco e a iniziare da subito. Il mio livello di italiano è intermedio, sufficiente per lavorare e comunicare in team, mentre l'inglese è il mio livello professionale principale.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

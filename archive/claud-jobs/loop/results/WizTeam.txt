@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+https://www.linkedin.com/jobs/view/4462155359/
+Uploaded: Prabhavit_CV_WizTeam.pdf (explicitly via "Upload resume", verified filename on review; pre-selected-CV trap caught again, LinkedIn had defaulted to Prabhavit_CV_ClientServer.pdf from the prior lead)
+Cover letter: CoverLetter_WizTeam.pdf/.txt built, not uploaded (Easy Apply flow had no cover letter step)
+Answers given: English proficiency Professional, years of Technical Support experience 3, comfortable working 16:00-01:00 CET Yes.
+Blockers: none.
+Result: "Application status: Application submitted" shown on the job page after Submit. Screenshots confirmations/WizTeam-2026-09-11-before.png (review page) and confirmations/WizTeam-2026-09-11.png (submitted state).
+LEARNINGS: none new beyond the already-known pre-selected-CV trap (caught and handled again, 3rd time in this batch). This "Wiz-Team" company is unrelated to "Wiz" (cloud security, prior CLOSED/DROPPED rows) or "Wizeline" (prior SKIP row) already in applications.csv - worth a note for future dedupe passes not to conflate them.
+Playwright tab closed at end of task.

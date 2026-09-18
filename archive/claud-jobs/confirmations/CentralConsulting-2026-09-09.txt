@@ -1,0 +1,18 @@
+Central Consulting Company — AI/ML Engineer
+URL: https://www.linkedin.com/jobs/view/4463007786/
+Method: LinkedIn Easy Apply (Chrome, tabId 550849803)
+Timestamp: 2026-09-09
+
+Confirmation text observed on screen:
+"Your application was sent to Central Consulting Company!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+
+Application status panel on job page:
+"Application submitted — now"
+
+Form contents at submission:
+- Email: prabhavitg@gmail.com
+- Phone: Italy (+39) / +39 351 610 7807
+- Resume: Prabhavit_CV-.pdf (LinkedIn library file matching ROOT/Prabhavit_CV_Original_EN.pdf)
+- Follow Central Consulting Company: unticked
+- No free-text questions, no salary field, no years-of-experience field, no cover letter field were present on this Easy Apply form (single-page: contact info + resume + follow checkbox + submit).

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Job runner controlled test</title>
+<form id="test-form">
+  <label>First Name <input name="first_name" required></label>
+  <label>Last Name <input name="last_name" required></label>
+  <label>Email <input name="email" type="email" required></label>
+  <label>Resume <input name="resume" type="file" required></label>
+  <button type="submit">Submit</button>
+</form>
+<p class="application-confirmation" hidden></p>
+<script>
+  document.querySelector('#test-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const file = document.querySelector('[name=resume]').files[0];
+    const result = document.querySelector('.application-confirmation');
+    result.textContent = `SUCCESS:${file.name}:${file.size}`;
+    result.hidden = false;
+  });
+</script>
+</html>

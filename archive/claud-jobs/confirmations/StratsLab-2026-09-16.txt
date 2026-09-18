@@ -1,0 +1,4 @@
+StratsLab - Forward Deployed Engineer (Implementation Engineer internal title) - Traffit application form
+URL after submit: https://stratslab.traffit.com/public/form/thankyou/25?application_timestamp=1789595930
+Success text shown (Polish, page's default UI language): "Twoj formularz zostal pomyslnie przeslany!" ("Your form has been successfully submitted!")
+Submitted 2026-09-16: First Name Prabhavit, Surname Gupta, CV Prabhavit_CV_StratsLab.pdf, E-mail prabhavitg@gmail.com, Phone +39 351 610 7807, referral field left blank, consent checkbox ticked.

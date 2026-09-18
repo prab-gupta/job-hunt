@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465992188/
+Company/Role: Fidesmo - Junior Backend Developer, Madrid (on-site)
+
+Retry of the 2026-09-16 NEEDS YOU row (blocked only by LinkedIn's daily Easy Apply cap, which cleared overnight). Job was in "Saved" state; clicking Easy Apply today opened the real 4-page form cleanly, no cap dialog.
+
+Uploaded: Prabhavit_CV_Fidesmo.pdf (already built and parity-verified 2026-09-16, reused unchanged).
+No cover-letter field on this ATS (checked the Review page, only Contact info / Resume / Additional Questions sections).
+
+Answers given: Bachelor's Degree = Yes; comfortable onsite = Yes; comfortable hybrid = Yes; English proficiency = Professional; comfortable commuting to Madrid = Yes (relocation-anywhere-in-EU standing rule, matches the Spain work-authorisation transparency line already in the cover letter). "Follow Fidesmo" unticked.
+
+Blockers: none. Submitted cleanly, confirmation "Your application was sent to Fidesmo!" and "Application submitted - now" seen. See answers/fidesmo-2026-09-17.md and confirmations/Fidesmo-2026-09-17.txt.

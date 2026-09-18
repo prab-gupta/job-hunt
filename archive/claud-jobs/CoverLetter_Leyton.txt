@@ -1,0 +1,9 @@
+Dear Leyton / Mainloop team,
+
+Forward Deployed Engineer is close to what I already do at FlowSpace, a workspace marketplace I helped migrate off a legacy stack onto Next.js, Laravel and Supabase. I built an LLM pipeline that turns a provider's brochure or website into a drafted listing with a human in the loop, now used across 900+ listings. I also built support agents that answer customer questions against live platform data with RAG and escalate to a human on low confidence, and shipped OfficeRnD and Nexudus booking integrations. That is the shape of this role: go in, understand the real process, build fast with agents, hand off cleanly.
+
+I use coding agents daily as how I ship, and I read what they produce the way I would review a colleague's code. Python, TypeScript and PHP are my working languages depending on what the process needs.
+
+I am based in Venice and ready to relocate to Barcelona and travel across the countries this role covers. I hold Italian EU long-term residence, which does not itself authorise work in Spain, so I would need the employer-side permit process, and I am ready to start it.
+
+Prabhavit Gupta

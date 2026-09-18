@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+https://www.linkedin.com/jobs/view/4395053066/
+Uploaded: Prabhavit_CV_TOPIC.pdf (explicitly via "Upload resume", verified filename on review page, not the pre-selected library resume)
+Cover letter: CoverLetter_TOPIC.pdf/.txt built, not uploaded (LinkedIn Easy Apply flow had no cover letter step)
+Answers given: Email prabhavitg@gmail.com, phone +39 351 610 7807, Dutch proficiency None, English proficiency Professional, Bachelor's Degree completed Yes, willing to relocate to the Netherlands Yes (standing EU-relocation answer), experience with Python/C++/C# and OO principles Yes (honest - Python automation/QA + OO via TypeScript/Laravel).
+Blockers: none.
+Result: "Application status: Application submitted" shown on the job page after Submit. Screenshots confirmations/TOPIC-2026-09-11-before.png (review page) and confirmations/TOPIC-2026-09-11.png (submitted state).
+LEARNINGS: the JD title says "in the Netherlands" (TOPIC's HQ) but the LinkedIn posting location is Greater Rome (Hybrid) and the form still asks "willing to relocate to the Netherlands" - a mismatch worth flagging if it recurs on other TOPIC postings.

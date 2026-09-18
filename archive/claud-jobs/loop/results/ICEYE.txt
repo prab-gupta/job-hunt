@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4457317258/
+What was uploaded: nothing. No CV or letter drafted.
+Answers given: none.
+Blocker/reason: the live JD's own Role Highlights state "Must be based in-country and native level speaker of the country you're deploying to" plus a required German national security clearance (Sicherheitsueberprufung U1/U2/U3) and NATO clearance eligibility. Prabhavit has English C2 and conversational Italian only, no German. Per the task's explicit instruction ("if the form requires German, kill with the quoted clause"), this is a hard language kill, not overridden by the FDE-ALL rule (which waives fit/years/seniority/agency/stack but not language).
+No LEARNINGS entry needed - this is a normal, expected kill per the task's own carve-out.

@@ -1,0 +1,161 @@
+{
+  "checked_at": "2026-09-08",
+  "combined_dedupe_count": 2579,
+  "headroom_hash": "02921b6ca9d9c05191efcdd1",
+  "headroom_saved_tokens": 371,
+  "results": [
+    {
+      "company": "Stuut",
+      "role": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/stuut-ai/7ee715c9-1061-4cb3-b3be-8042499fbdae/",
+      "fit": 78,
+      "status": "BLOCKED",
+      "reason": "Live verification unavailable: ATS and application are JS shells; posting API fetch blocked. Search indexed Europe plus NYC/SF; 3+ years technical customer-facing role; fluent Python, APIs/ETL, enterprise auth, sales contexts and client travel. Do not call verified live.",
+      "location": "Europe; New York City; San Francisco (indexed, remote eligibility unverified)",
+      "salary": "$150K-240K indexed; applicable Europe band unconfirmed",
+      "form": "Unverified",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "sandan AI",
+      "role": "AI Automation Specialist / Architect",
+      "url": "https://join.com/companies/sandanai/14624899-ai-automation-specialist-architect",
+      "fit": 92,
+      "status": "DEAD",
+      "reason": "Employer ATS returned HTTP 410 for original 14474409 and redirected 14624899. Indexed JD matched n8n, LLM APIs, REST/GraphQL/webhooks, JS/TS; 2+ production projects; English B2; EMEA +-3h freelance.",
+      "location": "Remote EMEA +-3h (stale index)",
+      "salary": null,
+      "form": "DEAD",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "Kevin Meyer Consulting",
+      "role": "AI Automation Builder",
+      "url": "https://join.com/companies/kevinmeyerconsulting/16410056-ai-automation-builder-m-w-d-remote",
+      "fit": 75,
+      "status": "DEAD",
+      "reason": "Employer ATS HTTP 410; also fluent German mandatory.",
+      "location": "Remote DACH timezone",
+      "salary": "EUR 45000-65000 indexed",
+      "form": "DEAD",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "GitBook",
+      "role": "Product Engineer",
+      "url": "https://jobs.ashbyhq.com/GitBook/18363361-516d-4324-b9a1-203aaf8cf3bd",
+      "fit": 70,
+      "status": "BLOCKED",
+      "reason": "ATS JS shell and API inaccessible; not verified live. Europe +-3h indexed. Corpus substring hit IT is noisy but retained as dedupe warning.",
+      "location": "Europe +-3h indexed",
+      "salary": null,
+      "form": "Unverified",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [
+        "it"
+      ],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "Kognitos",
+      "role": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/kognitos/75ef6778-ee45-4eb5-b2fa-02834f78a986",
+      "fit": 78,
+      "status": "BLOCKED",
+      "reason": "ATS JS shell and API inaccessible; not verified live/location/form. 3+ years software/solutions/FDE; Python or general language; enterprise APIs and ERP; occasional travel. Corpus substring IT hit.",
+      "location": "Unverified",
+      "salary": null,
+      "form": "Unverified",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [
+        "it"
+      ],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "UAI Labs",
+      "role": "AI & Automation Engineer",
+      "url": "https://uai-labs.com/careers/",
+      "fit": 72,
+      "status": "BLOCKED",
+      "reason": "Verified employer careers page. Requires 4+ years development, above 3-year hard bar, plus RPA platform experience. English; Remote Europe.",
+      "location": "Remote Europe, Ukraine primary region",
+      "salary": null,
+      "form": "Email application",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    },
+    {
+      "company": "UAI Labs",
+      "role": "Business Analyst",
+      "url": "https://uai-labs.com/careers/",
+      "fit": 64,
+      "status": "BLOCKED",
+      "reason": "Verified live employer careers. 1-4 years business analysis/consulting/operations; process mapping, requirements, UAT, English. Degree in Business, Engineering, IS or related field: Philosophy/Intl Studies/Economics equivalence uncertain. Email contact@uai-labs.com, no essays specified. Salary/Italy country list unknown. Not a required-essay handback; clarification of eligibility is the blocker.",
+      "location": "Remote Europe; Ukraine primary region",
+      "salary": null,
+      "form": "Email application; CV-only on published instructions, pay/degree/Italy eligibility uncertain",
+      "posted_date": null,
+      "dedupe_combined": [],
+      "dedupe_corpus": [],
+      "other_file_hits": {
+        "loop/queue.csv": [],
+        "loop/candidates.csv": []
+      }
+    }
+  ],
+  "channels": [
+    "Ashby domain searches and direct ATS/API",
+    "Greenhouse US and EU searches",
+    "Lever searches",
+    "join.com searches and direct checks",
+    "employer careers discovery"
+  ],
+  "excluded_duplicates": [
+    "Progress Partners",
+    "Glow25",
+    "Qdrant",
+    "Workwize",
+    "SuperPlane",
+    "Maze",
+    "Paires",
+    "Roboflow",
+    "Langdock",
+    "Cracken",
+    "iVerify"
+  ],
+  "channel_warning": "Ashby direct pages all JS shells in this lane, API fetch inaccessible. join.com two promising new employers returned 410; do not classify entire join channel dead.",
+  "headroom_result_hash": "eeef3a59a61d309d67c4f632",
+  "headroom_savings_percent": 23.3
+}

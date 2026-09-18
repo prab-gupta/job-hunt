@@ -1,0 +1,18 @@
+[
+  [
+    "Tell us about something you have built using AI. What was it, what did you use, and which parts did you do rather than the agent?",
+    "At FlowSpace I built an AI listing pipeline that takes workspace brochures, websites and other source material and produces structured listing drafts for human review before sending them to the backend. It uses n8n, TypeScript and LLM APIs, and has produced more than 900 draft listing records. I owned the workflow, the backend integration and the decision to keep review before publication. The model handled extraction and drafting; I defined what the output needed to contain, checked the results and connected the stages to the actual product. I also use Claude Code for implementation, with my attention on requirements, review and testing rather than accepting generated code blindly."
+  ],
+  [
+    "Take one technical decision inside that project — a number you chose, a tool you picked, an approach you settled on — and tell us why you did it that way instead of the obvious alternative.",
+    "I kept a human review step between generating a listing and sending it to the backend. Fully automatic publication would have removed a step, but the input arrives in different formats and an LLM draft can contain incorrect or incomplete information. A reviewable structured draft lets us automate extraction and writing while keeping the final publishing decision with a person. The useful output is a listing the team can trust, not simply the largest number of model responses."
+  ],
+  [
+    "Have you set up your own coding-agent harness? If so, describe your actual setup: which tools, how they are configured, and what you changed from the defaults.",
+    "I have configured my working environment around Claude Code and Codex rather than written an agent runtime from scratch. I use repository instructions and reusable skills to set the workflow: inspect the existing code first, plan multi-step changes, implement, review and verify. My instructions require agents to reuse installed libraries, keep edits scoped and explain generated code so I can understand it before shipping. I also use MCP tools where relevant and recently added Headroom for compressing large tool outputs. The customisation is in those instructions, skills and tool connections; I would not present it as a proprietary harness."
+  ],
+  [
+    "Have you built an agentic pipeline to automate development — for example a planning agent, an architect agent and an implementation agent working in sequence? If you have, describe the whole setup. If you have not, just say so; it is not a requirement.",
+    "I use a staged, agent-assisted development workflow with planning, implementation, review and verification, including delegated agents for bounded tasks. A recent FlowSpace TypeScript feature went from inspecting the existing admin flow to a written plan, implementation of a sent-message flag and route, tests, build checks and a visual check. I provided the product requirement and scope constraints and remained involved in how to test the result. This is a configured workflow inside existing coding-agent tools, not a separate autonomous planning/architect/implementation system that I built from scratch."
+  ]
+]

@@ -1,0 +1,15 @@
+TO: info@equixly.com
+SUBJECT: Full-stack + LLM engineer, Venice based
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Mattia e team,
+
+Congrats on the Series A, scaling an AI-driven continuous API security testing platform needs exactly the kind of automation-heavy engineering I do. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus API integrations, on Next.js + Laravel + Supabase.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy. Open to a 15 minute call if you are building out engineering, or happy to be pointed to whoever owns that.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

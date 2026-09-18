@@ -1,0 +1,21 @@
+MED-EL - AI Quality Automation Engineer (m/f/d) - RDAI_12608
+https://jobs.medel.com/en/application-form/RDAI_12608
+(via LinkedIn https://www.linkedin.com/jobs/view/4460189745/)
+
+NOT SUBMITTED. No success text was reached.
+
+All application steps were completed and verified correct on the final Summary
+page (Position, Personal Data, Additional Information, Application Documents),
+CV Prabhavit_CV_MEDEL.pdf and cover letter CoverLetter_MEDEL.pdf uploaded and
+correctly categorized (CV/résumé, cover letter), and the required Data
+Protection consent checkbox ticked.
+
+The form's final step requires solving a distorted-text image CAPTCHA (image
+renders the code "I QUM5 O", with a required "New Code / Please type the code
+above" text field) before the "Send Application" button can be used. Per
+policy this agent does not solve or bypass CAPTCHAs.
+
+Chrome tab left open for the user: tab id 550849896
+(https://jobs.medel.com/en/application-form/RDAI_12608)
+Action needed: type the CAPTCHA code shown into the field and click
+"Send Application".

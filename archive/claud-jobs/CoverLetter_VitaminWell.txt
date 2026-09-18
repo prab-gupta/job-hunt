@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Fullstack Engineer role at Vitamin Well Group in Stockholm.
+
+At FlowSpace, a workspace marketplace platform, I built and operate an AI listing pipeline end to end: it takes a workspace provider's brochure, website or spreadsheet in any format, extracts and structures the data with an LLM, and drafts a full listing for a human reviewer before it goes live. I built RAG-backed support agents that answer customer queries against live platform data and escalate to a person when confidence is low, and I integrated OfficeRnD and Nexudus APIs for automated bookings and CRM lead capture. I also worked with the team to migrate the platform from a legacy stack to Next.js and Laravel while it stayed live, scaling it from 2,000 to 4,500+ users. Across these projects I have shipped AI features to production, not just demos, and worked daily with REST APIs, SQL and third-party integrations.
+
+I use Claude Code daily as part of how I build.
+
+Owning a problem end to end, from scoping through data modelling to deployment, is how I already work, and building the AI layer on top of a growing e-commerce business is exactly the kind of scope I want next.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am ready to relocate to Stockholm. I do not currently hold Swedish work authorisation and would need the employer-side permit process.
+
+Regards,
+Prabhavit Gupta

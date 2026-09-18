@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4444935791/ (Senior/Staff AI Engineer - Remote Care (x/f/m), Doctolib, Milan Hybrid)
+
+LI-PICK row (senior_title). Per the task's standing instruction to check the live LinkedIn job page for an "Application submitted" state before starting Easy Apply: the page's own "Application status" panel already showed "Application submitted, 3 days ago" with a "Go to company site" link (this posting routes to Doctolib's own external careers site, not LinkedIn's native Easy Apply flow) and no Easy Apply button anywhere on the page.
+
+No prior applications.csv row existed for Doctolib (grep clean before this run, dedupe.py's HIT COMPANY~ was a fuzzy false positive with no literal match). This matches the exact failure mode already documented in loop/LEARNINGS.md for TECHSON (06:00) and Mediatica Digital SpA (08:26): a prior agent submitted the application then exited or crashed before writing the applications.csv row. Backfilled the row now with status SUBMITTED and note "found already applied", per task instruction. No new CV or cover letter was built, since the application had already gone through an external flow this session cannot see or redo.
+
+Screenshot: confirmations/DOCTOLIB-2026-09-16.png (shows the Application status panel). Text: confirmations/DOCTOLIB-2026-09-16.txt.
+
+LEARNINGS: adding a third confirmed instance (after TECHSON and Mediatica Digital) of a prior agent applying successfully but not logging to applications.csv before exiting/crashing. The standing rule (always check the live job page's Application status panel before Easy Apply, not just applications.csv) continues to catch these; no new pattern to add.

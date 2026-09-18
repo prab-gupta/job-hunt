@@ -1,0 +1,5 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4466520994/
+Reason: JD substance is senior-level despite the plain "Software Developer" title. Quoted clause: "As an experienced member of the team, you will mentor and support junior developers, helping to develop their technical skills, confidence and career progression" and "Leading technical and functional discussions within the Scrum team while building deep knowledge of the system and its architecture." Also core stack is cloud-infra heavy and not claimable: "Solid experience with Python, MySQL & Linux...Experience in Kafka, ActiveMQ (or other messaging platforms), Docker, AWS."
+No materials built (killed at gate check, before CV/letter drafting).
+Blockers: none - this is a fit kill, not a platform blocker.

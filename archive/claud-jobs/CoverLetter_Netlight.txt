@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Netlight Hamburg Team,
+
+I am applying for the Software Engineering / Data and AI Engineering / IT-Management Consultant graduate role in Hamburg. I hold a Bachelor's degree from Ca' Foscari University of Venice (2024) and have since built three years of client-facing delivery work across eight European companies, which lines up closely with the mix of software engineering, data engineering and consulting that Netlight builds its career paths around.
+
+At FlowSpace, I took over a live workspace marketplace and led its migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and choosing the migration path per entity, either API endpoints or CSV exports, while keeping the cutover invisible to users as the platform grew from 2,000 to 4,500 plus. I also shipped the OfficeRnD and Nexudus booking integrations and built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low.
+
+At UltraStrategy, I built the CV parsing pipeline behind the platform: a candidate uploads a CV, the pipeline extracts the data and scores how relevant they are for specific roles using Affinda and the Claude API, and the result is delivered to the frontend before a standardised Ultra CV is generated. I also built the platform serving the different user profiles.
+
+Both roles put me in front of a client's own requirements rather than a fixed internal backlog, which is the part of consulting I would look forward to at Netlight: picking up a new client's stack, working out what the team actually needs, and shipping it.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Hamburg and complete that process.
+
+Regards,
+Prabhavit Gupta

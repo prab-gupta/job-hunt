@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4459573014/ (real ATS: https://dataminr.wd12.myworkdayjobs.com/en-US/Dataminr/job/BEL---Remote/Forward-Deployed-Engineer_JR2082-1, req JR2082, Brussels/Belgium remote)
+Uploaded: nothing (blocked before upload step)
+Materials built: Prabhavit_CV_Dataminr.pdf (2 pages), CoverLetter_Dataminr.pdf/.txt (FlowSpace + UltraStrategy proof paragraphs, 0 em-dashes)
+Answers given: none yet (form not reached); standing answers recorded in answers/dataminr-2026-09-17.md (years 3, salary EUR 80,400 bottom of posted 80,400-118,500 band, Belgium work-authorisation No/need sponsorship, no NATO Secret clearance but willing to pursue eligibility, English C2/Italian conversational)
+Blocker: Workday tenant forces "Create Account/Sign In" (step 1 of 7) even via "Apply Manually"; no guest-apply path found. Account creation is a prohibited action for this agent.
+Learnings: dataminr.wd12.myworkdayjobs.com (req JR2082) has no guest-apply path, unlike juliusbaer.wd3.myworkdayjobs.com; the APPLY_AGENT_BRIEF's note that "Dataminr uses Greenhouse" is stale/incorrect - it is Workday.
+Logged: NEEDS_YOU.md row 34, applications.csv NEEDS YOU row (2026-09-17), answers/dataminr-2026-09-17.md.

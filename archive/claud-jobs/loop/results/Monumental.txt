@@ -1,0 +1,17 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464496972/ (LinkedIn Apply redirected off-platform, "Responses managed off LinkedIn", not Easy Apply) -> https://jobs.ashbyhq.com/monumental/22e68743-67a2-4e88-8101-8b2d9b6247ac/application (Ashby)
+Uploaded: Prabhavit_CV_Original_EN.pdf (verified filename shown on the form after upload)
+Answers given:
+- Name: Prabhavit Gupta
+- Email: prabhavitg@gmail.com
+- Phone Number: +39 351 610 7807
+- Current Location: Venice, Venice, Italy (city-level combobox, typed "Venice", clicked the Italy result)
+- Current Company: left blank (not currently employed)
+- LinkedIn: https://www.linkedin.com/in/prabhavit
+- Github/Portfolio/Personal Website: https://github.com/prab-gupta
+- Essay (required, only free-text field): "most complex product or system owned end-to-end" answered with the FlowSpace AI listing pipeline (LLM extraction from arbitrary broker material, human-in-the-loop review, push to backend, 900+ listing records drafted), sourced from Prabhavit - Master Experience.md.
+No work-authorisation, salary, notice, or years-of-experience field existed on this 9-field Ashby form, so no field carried the NL permit transparency line; logged instead in answers/monumental-2026-09-09.md and applications.csv notes (authorised No / employer-side TWV or highly skilled migrant permit needed / ready to relocate to Amsterdam).
+Cover letter: no message/cover-letter field on the form (upload-only Resume slot, no separate letter slot). CoverLetter_Monumental.txt (197 words) and CoverLetter_Monumental.pdf (1 page, tectonic-built) were written per brief and saved in ROOT but not attached, since nothing accepted them.
+Blockers: none. No CAPTCHA, no account creation, no anti-AI clause (JD is explicitly pro-AI-agent-use for coding).
+Confirmation: "Success - We're delighted you've applied to Monumental..." (full text in confirmations/Monumental-2026-09-09.txt). Screenshot taken in-browser; per the CHROME workflow PNG saving is unavailable, so the txt is the record.
+LEARNINGS: Ashby tenant for Monumental has an unusually short form (9 fields total, no work-auth/salary/years questions, single required essay). LinkedIn "Responses managed off LinkedIn" (no Easy Apply button/label) reliably predicts an external ATS redirect on click; the Apply click opened a brand-new tab that became the working tab, consistent with the brief's "tab spawned by your own Apply click is yours" rule.

@@ -1,0 +1,13 @@
+Dear Hiring Team,
+
+I am applying for the Data & AI Solutions Consultant role in Athens. The description reads like the shape of the work I have done for two years at FlowSpace, a coworking marketplace: building production applications and the AI layer on top, not reporting on top of one.
+
+I built an LLM extraction pipeline that turns operator brochures, in any format, into validated marketplace listings with human review before anything reaches production; it has processed over 900 listings. I also built RAG backed support agents that escalate to a person when confidence drops, and worked customer facing throughout, from discovery with operators through rollout. Stack: Python, SQL, Supabase and PostgreSQL on the data side, Next.js and Laravel on the application side.
+
+IQVIA's work, applying AI solutions to regulated healthcare data for real clients, is the higher stakes, higher scale version of that work I want next.
+
+I am based in Venice and ready to relocate to Athens. I hold Italian EU long term resident status. I am not yet authorised to work in Greece and would need the employer side permit process, which I am ready to start.
+
+Thank you for your consideration.
+
+Prabhavit Gupta

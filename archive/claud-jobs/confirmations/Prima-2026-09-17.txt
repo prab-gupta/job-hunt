@@ -1,0 +1,5 @@
+Prima - Data Scientist GenAI - SUBMITTED 2026-09-17
+Success page: https://www.helloprima.com/careers/application-success?LeverAppId=45077d70-8455-448b-977e-a5f2fba62cc3
+Page heading: "Application submitted!"
+Confirmation text: "Thank you for applying. Our recruitment team will review your application and will be in touch." (also shown in Italian and Spanish)
+(Screenshot taken via Claude in Chrome; PNG save not available in Chrome tool, this txt is the record per brief.)

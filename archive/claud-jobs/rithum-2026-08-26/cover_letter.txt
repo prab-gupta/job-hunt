@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Technical Account Manager role at Rithum. I have spent the past two and a half years managing technical implementations and client relationships for a B2B marketplace platform, which maps closely to what this role requires.
+
+At FlowSpace, a coworking marketplace, I owned the integration of external booking platforms (OfficeRnD, Nexudus), CRM systems (Attio, Amplemarket), and payment tools into our platform. This involved data mapping between systems with different schemas, troubleshooting mismatches, and working directly with customers and internal teams to resolve issues end to end. I also built an AI-powered listing tool that takes provider documents in any format, extracts structured data, and pushes clean listings to the backend after human review, cutting onboarding time from 30+ minutes to under 5.
+
+I am proficient with Excel and spreadsheet-based data processing, I use Microsoft Copilot and AI tools daily, and I have experience coordinating across engineering, operations, and sales teams. I hold a Microsoft Copilot Studio Agent Academy certification and a Microsoft Power Automate certification.
+
+I am based in Italy with an EU Long Term Residence Permit and am open to relocating to Spain. I am available from 1 September 2026.
+
+Regards,
+Prabhavit Gupta
+prabhavitg@gmail.com
++39 351 610 7807

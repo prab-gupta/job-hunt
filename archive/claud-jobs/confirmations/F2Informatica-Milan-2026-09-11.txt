@@ -1,0 +1,9 @@
+F2Informatica - Junior Generative AI Specialist (Milan) - 2026-09-11
+
+Success text (LinkedIn Easy Apply "Next best action" dialog after Submit):
+"Your application was sent to F2Informatica | Consulenza, Cloud, NoSQL, IoT!"
+"You can keep track of your application in the "Applied" tab of My Jobs"
+
+URL: https://www.linkedin.com/jobs/view/4466081961/
+Resume uploaded and confirmed on the review page: Prabhavit_CV_F2Informatica.pdf
+Screenshots: F2Informatica-Milan-2026-09-11-before.png (review page, pre-submit), F2Informatica-Milan-2026-09-11.png (post-submit success dialog).

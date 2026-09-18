@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4439861515/ (LinkedIn, "Responses managed off LinkedIn" -> Apply -> https://blp.digital/company/careers?ashby_jid=95e7e3a9-8f14-428b-9d66-afa5d36c8d43 -> "Apply for this role" -> Ashby guest apply form at https://jobs.ashbyhq.com/blp-digital/95e7e3a9-8f14-428b-9d66-afa5d36c8d43/application)
+
+Uploaded: Prabhavit_CV_BLP.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, 2 pages). No cover letter upload field on this Ashby form; CoverLetter_BLP.pdf/.txt were built and saved to disk but not attached anywhere (nowhere to attach them).
+
+Answers given:
+- Full Name: Prabhavit Gupta
+- Email: prabhavitg@gmail.com
+- Resume: Prabhavit_CV_BLP.pdf
+- Are you eligible to work in your current location without any limitations?: No (Denmark is excluded from the EU long-term-resident mobility directive per answers/work-authorisation.md)
+- Salary expectations (CHF p.a.): CHF 43,000 (approx. EUR 45,000) - bottom of the standing EUR 45,000-55,000 band, converted to CHF since the form only accepts CHF
+- LinkedIn Profile URL: https://www.linkedin.com/in/prabhavit/
+- GitHub: https://github.com/prab-gupta
+- "Do you have hands-on experience working with ERP systems? Please describe the systems used and your role.": answered honestly - no hands-on SAP/Dynamics/Oracle/NetSuite experience; pivoted to the adjacent business-process-automation work (FlowSpace OfficeRnD/Nexudus API integrations, CRM/GTM automation, Get2Germany Google API integration) and the founding/building-production-software-end-to-end background (Urlink as PM + AI-assisted developer, FlowSpace's live legacy-to-Next.js/Laravel migration), which is the consulting/solutions-engineering alternative the JD's MUST line explicitly accepts.
+- Portfolio of project ownership (optional PDF upload, no asterisk on the form): left blank.
+
+Blockers: none. Confirmation text: "Your application was successfully submitted. We'll contact you if there are next steps." Saved to confirmations/BLP-2026-09-16.txt.
+
+Gates: JD requires "Fluency in English. German is a plus" only, no Danish requirement despite the Copenhagen listing, so this row cleared the Denmark language gate that killed KPMG Denmark in the same batch. No anti-AI disclaimer found. USER RULE 2026-09-16 (FDE Italy/EU LinkedIn sweep): no kills for fit/years/seniority/agency/stack.
+
+LEARNINGS: BLP Digital's LinkedIn "Apply" button (an offsite/"Responses managed off LinkedIn" listing) routes to the company's own careers page (blp.digital/company/careers) which opens a modal with an "Apply for this role" button that lands on a direct, guest-friendly Ashby application form (jobs.ashbyhq.com/blp-digital/...) - no account wall. The form has a required free-text ERP-experience question that is a genuine screening gate for the JD's MUST line, answered honestly rather than skipped. Full record in answers/blp-2026-09-16.md.

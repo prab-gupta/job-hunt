@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Senior AI Forward-Deployed Engineer / Architect role on the AI Lab team at Alvarez & Marsal in Madrid.
+
+At FlowSpace, I took over a live workspace marketplace and own its AI features end to end: I automated the data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one, choosing the migration path per entity and driving the cutover while the product stayed live, growing the platform from 2,000 to over 4,500 users. I designed, built and operate an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, plus support AI agents that ground answers in live platform data and escalate to a human on low confidence, and the OfficeRnD, Nexudus, CRM and GTM integrations around them. I hold sole technical ownership of that architecture, working directly with the client on requirements rather than through a separate delivery layer.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. Affinda and the Claude API handle the parsing and generation, orchestrated with n8n and Eden AI. That is the same shape of work the AI Lab does: take a use case from proof of concept to something that runs in production and can be handed over.
+
+I have three years of professional experience across eight European companies, all of it hands-on and architecture-to-production, but I have not yet led a team of engineers or carried formal architectural sign-off on enterprise platforms such as SAP BTP, Salesforce Agentforce or Microsoft Copilot Studio, and I say that plainly rather than overstate it against a senior title. What I bring is direct, unsupervised ownership of AI systems from design through to a live client using them, and I am ready to grow into the technical-leadership and client-executive parts of this role. My English is fluent and my Spanish is limited, though I am comfortable working on-site with clients and travelling within Europe.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

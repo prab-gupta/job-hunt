@@ -1,0 +1,14 @@
+NOT SUBMITTED — NEEDS YOU.
+
+Job: Advanced AI Engineer - AI Reinvent & Engineering, Novo Nordisk, Ballerup, Denmark.
+LinkedIn posting: https://www.linkedin.com/jobs/view/4466641223/ (On-site, fresh, 0 clicks at time of check)
+Destination: LinkedIn Apply -> careers.novonordisk.com/job/Ballerup-Advanced-AI-Engineer-AI-Reinvent-&-Engineering-Capi/1438206133/ -> "Apply now" -> career2.successfactors.eu/careers?company=novonordisk
+Chrome tab id: 550851726 (closed at end of task)
+
+The SuccessFactors career portal only offers "Sign In" (email + password) or "Create an account to apply for our career opportunities." No guest-apply link or alternate path was present anywhere on the page (full page text checked). Account creation with the required verification is a user-only blocker per standing rules, so no account was created and the form was not opened.
+
+Materials are built and ready for the user to submit once signed in:
+- Prabhavit_CV_NovoNordisk.pdf (and .tex source)
+- CoverLetter_NovoNordisk.pdf and .txt
+
+Please create/sign in to the Novo Nordisk SuccessFactors account and upload these files.

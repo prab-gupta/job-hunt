@@ -1,0 +1,10 @@
+Siili Solutions - AI Forward Deployed Engineer
+URL: https://www.linkedin.com/jobs/view/4462838314/ (ATS: TeamTailor, https://siili.teamtailor.com/jobs/8260235-ai-forward-deployed-engineer)
+Submitted: 2026-09-16
+
+Success page text:
+"Thanks for applying
+We've received your application for AI Forward Deployed Engineer. You'll hear back from us in a few days."
+Final tab URL confirms /applications/.../thanks/ state.
+
+Fields submitted: EU work permit = Yes (Italian EU long-term resident status); Locations = Helsinki; Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807; CV Prabhavit_CV_Siili.pdf uploaded and verified by filename; cover letter text pasted into TeamTailor's "Cover letter" free-text field (full CoverLetter_Siili.txt content, including the honest 3-years-vs-5+ and Finnish-language disclosure).

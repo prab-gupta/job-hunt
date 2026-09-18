@@ -1,0 +1,12 @@
+WLG - Forward Deployed Engineer (Palantir Foundry) for NATO with security clearance
+Applied via career.wlgroup.eu (Recruitee-hosted ATS), from LinkedIn posting https://www.linkedin.com/jobs/view/4461979163/
+
+Confirmation page text (career.wlgroup.eu, after submit):
+"Thanks for applying
+We have received your application and we will be reviewing it shortly."
+Progress indicator shown: step 1 "Applied" (checked), step 2 "Connect".
+
+Confirmation URL:
+https://career.wlgroup.eu/jobs/8319137-forward-deployed-engineer-palantir-foundry-for-nato-with-security-clearance/applications/a8ffbd2c-5eab-4880-886c-fc819b4a2a22/thanks/1a35097a6e7458f8c315bd79b5393c89b0327e9963caa635d75d3e624f421e5f?tmp_ctoken=2e98ec3b73fecbe7cf3e5b048641b973fa9011c574b5effbc759fc74c946230c
+
+Submitted 2026-09-16 via Claude in Chrome (own tab). PNG screenshot save not available in Chrome tool for this session; this txt is the record per brief.

@@ -1,0 +1,21 @@
+Accenture na Slovensku - Senior Integration Low-Code Developer - Bratislava/remote (req R00303209)
+NOT SUBMITTED - account creation wall.
+
+LinkedIn: https://www.linkedin.com/jobs/view/4328019564/
+Apply -> accenture.com job page https://www.accenture.com/sk-en/careers/jobdetails?id=R00303209_en&src=LINKEDINJP
+-> "Apply for this job" -> Workday chooser (Autofill with Resume / Apply Manually / Use My Last Application)
+-> "Apply Manually" leads straight into the 6-step flow whose step 1 is "Create Account/Sign In"
+(My Information, My Experience, Application Questions, Voluntary Disclosures, Review follow).
+No guest-apply path. Same Accenture Workday tenant (accenture.wd103.myworkdayjobs.com) already
+documented for other Accenture requisitions in NEEDS_YOU.md, but this is a different requisition
+(R00303209, Slovakia) from the Accenture Italia one Prabhavit_CV_Accenture.pdf/CoverLetter_Accenture.pdf
+were built for, so a separate CV and letter were built rather than reusing those files.
+Account creation is user-only, so the flow was stopped there. Nothing was submitted.
+
+Prabhavit_CV_AccentureSK.pdf (2 pages, built fresh from Prabhavit_CV_EN.tex, low-code/API/automation
+angle: FlowSpace API-integration/CRM/GTM-automation bullets led, Clubee Low-Code-Developer role
+kept both bullets, Get2Germany kept 3 bullets, UltraStrategy kept both bullets, "Low code
+development" IT-skill line kept since this JD is directly about low-code platforms) and
+CoverLetter_AccentureSK.pdf/.txt (FlowSpace n8n/API-integration/CRM-automation lead paragraph,
+Clubee Low-Code-Developer + QA second paragraph, Get2Germany/UltraStrategy n8n aside, Slovakia
+work-authorisation transparency line) are ready to upload once an account exists.

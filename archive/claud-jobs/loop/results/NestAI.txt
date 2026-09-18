@@ -1,0 +1,17 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462798452/
+Employer ATS: Teamtailor-style embed on www.nestai.com, guest apply, no account creation
+
+What was uploaded: Prabhavit_CV_NestAI.pdf (Upload resume field). Cover letter delivered as plain text pasted into the form's own "Cover letter" textarea (CoverLetter_NestAI.pdf/.txt built and kept on file).
+
+Fit check: JD requires 5+ years and lists React/TypeScript/Node/Python/Go/Docker/Kubernetes; per the FDE standing rule these do not trigger a kill. Practicalities section says NestAI is "focusing to hire talent already located in Finland" and "remote work from abroad is not... possible" - this is a location/relocation constraint, not a language requirement, so it is not a kill under the rule (kill only for closed/dup/explicit-language-lacking); addressed transparently in the letter as willingness to relocate to Finland plus the standard work-authorisation transparency line.
+
+Answers given: How did you hear about jobs at NestAI = LinkedIn; Locations = Helsinki; phone changed from default Finland (+358) to Italy (+39); ticked required Privacy Policy consent; left "NestAI can contact me about future opportunities" unticked.
+
+Technical snag: a leftover native <dialog> cookie-consent element remained in the DOM (still intercepting pointer events on Submit) even though no banner was visible on screen after the outer page's own cookie prompt was declined. Standard clicks on both the Decline button and later the Submit button timed out with "dialog ... subtree intercepts pointer events". Fixed by calling dialog.close(); dialog.remove() directly via browser_evaluate targeted at the dialog's element ref (Playwright can operate on a specific frame/element handle even when top-level cross-origin JS access is blocked) - Submit worked immediately afterward.
+
+Confirmation: https://www.nestai.com/thank-you, "Thanks! We have received your application and will be reviewing it shortly."
+
+Blockers: none (worked around the stale dialog quirk above, did not need to hand this off).
+
+LEARNINGS: nestai.com's embedded application widget can leave a stale cookie-consent <dialog> intercepting clicks near the bottom of the form (Submit button) even after the visible banner is gone; when a click times out citing a dialog "subtree intercepts pointer events" with no banner visible in a screenshot, evaluate and remove that dialog element directly rather than retrying visible buttons.

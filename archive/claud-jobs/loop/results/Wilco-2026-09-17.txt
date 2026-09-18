@@ -1,0 +1,20 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4465977411/ (offsite -> https://join.com/companies/getwilcoai/16712236-ai-engineer-fde)
+Company: Wilco - AI Engineer / FDE - Lisbon, Portugal (Associate)
+
+Uploaded: Prabhavit_CV_Wilco.pdf (tailored from Prabhavit_CV_EN.tex; career summary trimmed to 2 bullets; Bubble.io / low-code items pruned since JD has no relation to low-code; no new claims added; compiled 2 pages).
+No cover letter required (posting explicitly says "No cover letter"; instead asks for CV/LinkedIn plus a short answer). Answered two free-text questions in the join.com form with facts from OUTREACH_FACTS.md: the FlowSpace AI listing bot (900+ draft listings, human-in-the-loop) and support agents, plus the UltraStrategy CV-parsing pipeline (Affinda, Claude API, n8n, Eden AI) as a second example.
+
+Answers given:
+- Availability: 2026-09-17 (immediate)
+- Expected yearly compensation: EUR 45000 (JD band 40-55k)
+- Two free-text AI/production questions answered as above (under the 1000-character limit each)
+
+Blockers: none. join.com pre-loaded a stale generic CV on the "Confirm your CV" step (known trap per LEARNINGS); removed it and uploaded the tailored Wilco CV, verified it rendered correctly before continuing. Also unchecked "Use this CV as my default for future applications" so this company-tailored CV does not overwrite the account default. Fixed one date-picker registration issue (first click on today's date did not save as an answer; re-clicked explicitly and it registered).
+
+Confirmation: "Application sent - You've applied to Wilco." (confirmations/Wilco-2026-09-17.txt; PNG screenshot save was not available in Claude in Chrome, per brief the txt is the record).
+
+Dedupe: NEW.
+
+No new LEARNINGS line needed (join.com stale-CV trap and 1000-char answer limits are already documented behavior, not new).

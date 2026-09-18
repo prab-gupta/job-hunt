@@ -1,0 +1,6 @@
+LinkedIn Easy Apply confirmation, 2026-09-17
+Job: Agentic Forward Deployed Engineer at HCLTech (Amsterdam, North Holland, Netherlands)
+URL: https://www.linkedin.com/jobs/view/4458173720/
+
+Application status panel on job page after submit:
+"Application submitted - now"

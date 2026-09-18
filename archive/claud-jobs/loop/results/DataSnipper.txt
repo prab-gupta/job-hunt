@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463391194/ (apply routes to https://careers.datasnipper.com/job-listing?ashby_jid=743b4a63-bf1a-44c1-87e6-a9c963a2f74f, Application tab, Ashby-powered, embedded cross-origin iframe)
+Uploaded: Prabhavit_CV_DataSnipper.pdf (Resume* field, via Playwright file chooser - reached the iframe's upload control fine, unlike Claude in Chrome which could not see inside the iframe at all).
+No separate cover letter upload field existed on this short Ashby form; CoverLetter_DataSnipper.pdf/.txt were built earlier and are on file if needed elsewhere.
+Answers given:
+- Name: Prabhavit Gupta / Email: prabhavitg@gmail.com
+- "Are you located in the Netherlands?*": No, based in Venice Italy, EU long-term resident, not currently authorised in the Netherlands, would need employer-side permit/sponsorship, ready to relocate to Amsterdam.
+- "Please insert your Linkedin url:*": https://www.linkedin.com/in/prabhavit/
+- "What are your salary expectations:": EUR 45,000
+- "Are you comfortable commuting to our office in Amsterdam at least 3 days per week?*": Yes
+- Consent checkbox (Recruitment Privacy Policy): ticked
+Submitted successfully: "Your application was successfully submitted. Thank you! We will be in contact as soon as possible."
+Screenshot: confirmations/DataSnipper-2026-09-16.png, text: confirmations/DataSnipper-2026-09-16.txt
+Blockers: none this pass. Prior agent's NEEDS YOU / RETRY PLAYWRIGHT row (same date, in applications.csv) is now superseded by the new SUBMITTED row appended below it, per the task's instruction to append rather than edit the existing row.
+LEARNINGS: confirms the existing DataSnipper/Ashby cross-origin-iframe entry in LEARNINGS.md - Playwright's frame-aware locators (getByRole via contentFrame()) reach fields and file inputs inside careers.datasnipper.com's embedded Ashby iframe that Claude in Chrome's accessibility tree cannot see at all. No new trap to add.

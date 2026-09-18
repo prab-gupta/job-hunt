@@ -1,0 +1,6 @@
+accesa.eu - Senior Forward Deployed AI Engineer (Cluj, Romania)
+Apply form: https://www.accesa.eu/careers/senior-forward-deployed-ai-engineer
+LinkedIn posting (dedupe/reference url): https://www.linkedin.com/jobs/view/4463309425/
+
+Modal on accesa.eu: "APPLICATION SENT! Thank you for applying. We'll be in touch soon." (green checkmark icon).
+Captured 2026-09-16 via Claude in Chrome, tab 550851219. This session attached to the tab after a prior dead agent session had already completed and submitted the form (the success modal was already showing on attach); the field-by-field entries could not be re-verified since the form had cleared to the success state, but the tailored CV (Prabhavit_CV_Accesa.pdf) and letter (CoverLetter_Accesa.pdf/.txt) were parity/fact-checked in this session before trusting the reuse.

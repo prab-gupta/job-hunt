@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+
+LinkedIn job URL: https://www.linkedin.com/jobs/view/4465637874/
+ATS/apply URL: https://fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2387 (BIP Career Site, Oracle Cloud HCM, requisition 2387)
+
+Continued a dead agent's job (died in the 10:45-13:15 network outage at the upload step). Its CV (Prabhavit_CV_Datwave.pdf, verified 2 pages) and Italian cover letter (CoverLetter_Datwave.pdf/.txt, verified 0 em-dashes, natural "voi", no "Lei") already existed and were reused as-is, not rebuilt. answers/datwave-2026-09-11.md did not exist yet and was written this run.
+
+Dedupe: grep -i datwave applications.csv was empty before this run; dedupe.py --check returned NEW.
+
+Uploaded: Prabhavit_CV_Datwave.pdf (resume) and CoverLetter_Datwave.pdf (cover letter) to the Oracle guest-apply form; this is exactly the step the previous agent lost. Also filled Link 1 with linkedin.com/in/prabhavit.
+
+Answers given: guest apply via email OTP (prabhavitg@gmail.com, code retrieved from Gmail, no account/password created); contact/address/DOB/place-of-birth/phone/current-company fields were already pre-populated correctly from the dead agent's earlier session (+39 3516107807, Via Zanetti 10 Venezia 30175, DOB 21/02/2001, India, FlowSpace) and were verified, not retyped; Gender left blank (not required, no "prefer not to say" option); "Belonging to a Protected Category" (L.68/99) left unanswered (not required); Languages English+Italian pre-populated with no proficiency sub-field to set; Where did you hear about us = LinkedIn; Preferred Work Location = Milano; marketing-communications checkbox left unticked. No salary field existed on this form (JD states RAL 28,000-35,000 EUR informationally only).
+
+Submitted: modal "You're all set, Prabhavit!" completed, toast "Thank you for your job application.", My Applications page shows "Junior AI Engineer - Google, Milano, Lombardia, Italy and 2 more, Status: Under consideration, BIP Career Site · 2387 · Applied on 09/11/2026".
+
+Confirmation files: confirmations/Datwave-2026-09-11.txt (PNG could not be saved to disk from Claude in Chrome — save_to_disk returned no retrievable path; this matches the brief's known Chrome limitation, so txt is the record).
+
+Blockers: none. No CAPTCHA, no assessment, no anti-AI attestation found (JD grepped clean for anti-AI disclaimers).
+
+LEARNINGS: Oracle Cloud HCM Recruiting Cloud (fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com) guest-apply flow persists candidate profile fields (name, phone, address, DOB, place of birth, current company) server-side keyed to the verified email across sessions/agents once the identity OTP step is passed once — a second agent picking up the same application later only had to redo the parts that hadn't saved yet (file uploads + a couple of new-section fields), not the whole form. Also: this ATS's page does not respond to mouse-wheel scroll at all (scroll ticks are no-ops); the reliable way to move through its long single-page form is clicking the section links in the right-hand "Application Flow Navigation" sidebar (read_page/find to get refs), which jumps straight to that section.
+
+One item flagged for visibility, not treated as a stop: the live JD lists a STEM Master's-level degree ("Laurea specialistica ... STEM") as a "Requisiti fondamentali" item, which reads as a hard-MSc-style gate under the general apply brief; this specific task's instructions had already re-queued/greenlit this posting past its earlier Italian-JD kill and gave explicit GCP-claim wording, so the degree point was not independently re-gated by this agent — noted here in case it needs review.

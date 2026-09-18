@@ -1,0 +1,11 @@
+Metheion - Full-Stack Edge AI Engineer - Leuven, Belgium
+https://www.linkedin.com/jobs/view/4465544175/
+LinkedIn Easy Apply, submitted via Claude in Chrome, 2026-09-17.
+
+Application status panel on the job page showed:
+"Application submitted
+now"
+
+Resume uploaded and selected: Prabhavit_CV_Metheion.pdf (verified selected with green checkmark on both the Resume step and the final Review step before Submit).
+Contact info: prabhavitg@gmail.com, phone +39 3516107807.
+This flow had only 3 pages (contact info, resume, review) with no additional-questions page and no cover-letter text box; CoverLetter_Metheion.pdf/.txt kept on file.

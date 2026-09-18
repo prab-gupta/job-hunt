@@ -1,0 +1,3 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4466847403/
+Reason: duplicate. Same company (MSC Mediterranean Shipping Company) and same role title (AI Developer) already SUBMITTED on 2026-09-11 to the offsite ATS destination https://msc-technology-italia.intervieweb.it/jobs/artificial-intelligence-engineer-84929/en/ (confirmation email sent, see applications.csv row 2026-09-11 and confirmations/MSC-2026-09-11.txt / loop/results/MSC.txt). Within the 60-day dedupe window (6 days). No new materials built, no browser opened.

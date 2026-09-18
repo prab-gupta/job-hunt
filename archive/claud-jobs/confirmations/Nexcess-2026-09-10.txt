@@ -1,0 +1,10 @@
+Nexcess (Servers.com) — Technical Product Manager — Limassol, Cyprus
+Applied via Rippling ATS: https://ats.rippling.com/nexcess/jobs/68a79af9-cd62-44d4-b0dc-4311559f521b
+Date: 2026-09-10
+
+Success confirmation shown on screen after clicking Apply:
+"You have successfully applied to Technical Product Manager"
+(also shown as a toast: "You have successfully applied to Technical Product Manager")
+
+Note: screenshot was taken (computer action screenshot) but Claude in Chrome has no PNG-save-to-disk
+capability for this tool set, so only this text record is kept, per APPLY_AGENT_BRIEF.md browser section.

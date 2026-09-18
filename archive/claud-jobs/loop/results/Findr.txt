@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466785118/
+Uploaded: Prabhavit_CV_Findr.pdf (re-uploaded explicitly, default was a stale library resume Prabhavit_CV_NewRocket.pdf)
+Cover letter: CoverLetter_Findr.pdf/.tex/.txt built, no separate upload slot on this Easy Apply form (Contact info / Resume / Additional Questions / Review only)
+Answers given: Claude Code hands-on experience = Yes; built an AI tool used in production = Yes; willing to work Munich office 4 days/week = Yes; Bachelor's degree = Yes; at least 4 years post-graduation experience = No (honest, 3 years total, not inflated); phone Italy +39 351 610 7807 mobile 3516107807; salary answered 90000 per task instruction
+Blockers: none
+Cap check (first row of batch P29): real 4-page Easy Apply modal opened normally, no "reached today's Easy Apply limit" dialog appeared. CAP NOT ACTIVE at 2026-09-17 ~06:06 UTC.
+Confirmation: "Your application was sent to Findr!" / "Application submitted" / "You applied on company site 9/17/2026"

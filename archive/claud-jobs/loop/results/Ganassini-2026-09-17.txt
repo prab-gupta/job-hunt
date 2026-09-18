@@ -1,0 +1,25 @@
+STATUS: NEEDS YOU (RETRY PLAYWRIGHT)
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4466277302/
+URL (destination ATS): https://joblink.allibo.com/ats4/job-offer.aspx?DM=2308&SG=6&FT=862&ID=102441&LN=IT
+Tab ID: 550851704 (Chrome MCP tab group 130711601)
+
+Dedupe: NEW. Cheap check: apply-button count 1 (posting open). Hard gates: entry level, no anti-AI clause, Milan on-site + smart working, Italy authorised no sponsorship. Proceeded to build materials.
+
+Uploaded: Prabhavit_CV_Ganassini.pdf (tailored, 2 pages) and CoverLetter_Ganassini.pdf (Italian, 276 words) merged into Prabhavit_CV_Ganassini_WithLetter.pdf, because the Allibo ATS form has exactly one file-upload field ("Carica file CV...") and no separate cover-letter field or text box.
+
+Answers given: none beyond the file upload and the privacy-policy checkbox (ticked) - the form has no other fields.
+
+Blocker: the CV upload field is a Telerik RadAsyncUpload widget (div#inCV). Chrome's file_upload tool sets the underlying <input type=file> FileList directly and the widget's UI optimistically renders the filename as if attached, but its own client-side object ($find('inCV')) reports no file was ever registered with it (no current input) and calling its startUpload() API produces zero network requests to joblink.allibo.com. The visible Conferma submit button (id btnSendApplicationDs) stays permanently disabled with no visible validation error text. Reproduced on two separate upload attempts (with a full page reload in between) plus a direct JS call to the widget's own upload API. Nothing was submitted; no false success was logged.
+
+This needs either the user's own browser session or Playwright's native file-chooser interception (which fires the real OS-level file selection event Telerik's widget listens for) to get past the upload step. Materials are built and ready in ROOT (Prabhavit_CV_Ganassini.tex/.pdf, CoverLetter_Ganassini.txt/.tex/.pdf, Prabhavit_CV_Ganassini_WithLetter.pdf).
+
+LEARNINGS.md line added: Allibo/Telerik RadAsyncUpload is a Chrome-unreachable upload widget, same class as the PwC Phenom and Atlassian iCIMS traps already logged; hand off to Playwright immediately on any future Allibo posting.
+
+--- RETRY UPDATE 2026-09-18 (agent P40, Playwright) ---
+STATUS: SUBMITTED
+Playwright succeeded where Chrome could not. Clicked the hidden real file input (#inCVfile0) directly with browser_click (it intercepts the styled Browse button's pointer events), which triggered a genuine OS-level file chooser event; browser_file_upload then supplied Prabhavit_CV_Ganassini_WithLetter.pdf. Confirmed via performance.getEntriesByType('resource') a real XMLHttpRequest fired to Telerik.Web.UI.WebResource.axd?type=rau (the RadAsyncUpload handler) - Chrome's synthetic FileList had produced zero such requests. Ticked the privacy checkbox; Conferma then became enabled (previously stayed disabled).
+Conferma advanced to a second step (applicant-data.aspx, "Verifica e conferma i Tuoi dati") that AI-parses the uploaded CV/letter PDF into a full applicant form: Nome/Cognome/Email/Telefono (country-code select + number) auto-filled correctly (Prabhavit/Gupta/prabhavitg@gmail.com/+39/3516107807), Localita=Venice, Nazione=Italia, Provincia=Venezia, Livello di istruzione=Laurea, and Lingue parlate auto-parsed exactly right (Italiano Autonomia B1/B2, Inglese Padronanza C1/C2, Tedesco/Spagnolo/Francese Nessuna conoscenza) - all pulled straight from the merged PDF content.
+Filled the fields the parser left blank: Data di nascita (21 FEB 2001), Indirizzo (Via Zanetti, 10), LinkedIn (optional; had to be a full https://www.linkedin.com/in/prabhavit URL, a bare "linkedin.com/in/prabhavit" failed a client-side "Formato non corretto" check on first Conferma attempt).
+Read back Telefono field (#inPhone) via DOM .value before final submit: "3516107807", single value, matches expected exactly (country code +39 held in a separate select, value "#39").
+Clicked Conferma again: navigated to confirm.aspx, "Ti ringraziamo!" - "I Tuoi dati sono stati trasmessi correttamente: Ti ringraziamo per esserti messo in contatto con noi ed auspichiamo che il Tuo profilo possa risultare in linea con i requisiti che stiamo ricercando." Screenshot saved to confirmations/Ganassini-2026-09-18.png. CSV row appended (SUBMITTED). No further blockers.
+LEARNINGS.md line added: Allibo/Telerik RadAsyncUpload widget IS reachable via Playwright by clicking the real (visually hidden, pointer-event-intercepting) <input type=file> directly rather than the styled Browse button, which triggers a true OS file-chooser event Telerik's client object registers; this Allibo tenant also runs a second AI-CV-parse "Verifica e conferma i Tuoi dati" step after upload (applicant-data.aspx) that needs its own re-check (DOB/address/LinkedIn format) before the real Conferma/submit.

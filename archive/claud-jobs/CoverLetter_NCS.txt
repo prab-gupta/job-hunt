@@ -1,0 +1,16 @@
+Dear Hiring Team,
+
+I am applying for the Artificial Intelligence Engineer role at NCS Group, which I found through your Milan LinkedIn posting.
+
+At UltraStrategy, I built a CV parsing and assessment pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and scores how relevant the candidate is for specific role types, the result reaches the frontend, and a standardised Ultra CV is generated with the Claude API. I also built the platform serving different user profiles.
+
+At FlowSpace, I lead a support AI agent system that answers customer queries against live platform data and escalates to a human on low confidence, the human checkpoint pattern regulated environments need. I also built an AI listing bot that turns broker brochures in any format into structured, human reviewed listings, producing over 900 drafts, and I drove the platform's migration off a legacy stack onto Next.js and Laravel while it stayed live, growing it from 2,000 to 4,500+ users.
+
+At Get2Germany, I integrated Google APIs and built AI tools with n8n that find courses, internships and jobs for users.
+
+I have three years of production experience across eight European companies, I code daily in TypeScript, Node.js and Laravel, and I use AI fluently across research, design and delivery, which is the practical multiplier your AI Central team is asking for.
+
+I am based in Venice, Italy, and hold Italian EU long term resident status. I am not currently authorised to work in Singapore and would need the applicable employer side permit process, which I am ready to begin immediately.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,14 @@
+Gentile team di BIP AI LAB,
+
+mi candido per la posizione di Junior AI Engineer presso BIP AI LAB a Bari. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee: uso regolarmente Python e le API di modelli linguistici per pipeline di elaborazione ed estrazione dati, e ho conoscenza pratica di Docker, Git e delle API REST per l'esposizione di servizi.
+
+Per UltraStrategy ho costruito la pipeline che elabora i CV caricati dagli utenti: i dati vengono estratti e valutati per la rilevanza rispetto a tipi di ruolo specifici, il risultato arriva al frontend e infine viene generato un documento standardizzato, usando Affinda, le API di Claude, n8n ed Eden AI. È lo stesso lavoro di estrazione ed elaborazione dati alla base di una pipeline AI in produzione richiesto dal ruolo.
+
+Per FlowSpace ho costruito e gestisco un bot AI che genera annunci a partire da brochure in qualsiasi formato, con una persona nel ciclo di revisione prima della pubblicazione, oltre ad agenti AI di supporto clienti che recuperano dati live dalla piattaforma e passano il caso a una persona quando la sicurezza della risposta è bassa, un approccio a soglia di confidenza vicino al model monitoring descritto per il ruolo. Questo lavoro è stato svolto con Claude Code e n8n su un prodotto in produzione cresciuto da 2.000 a oltre 4.500 utenti.
+
+Sono interessato a consolidare queste basi nel contesto MLOps e cloud del team, e imparo rapidamente framework e servizi nuovi.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e disponibile per la modalità ibrida a Bari. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

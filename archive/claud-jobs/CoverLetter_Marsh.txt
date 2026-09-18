@@ -1,0 +1,12 @@
+Dear MarshTech team,
+
+I am applying for the Software Engineer (Python) role in Cluj-Napoca. Building the services that sit underneath a trading and portfolio platform, and being the person who understands both the code and why the business needs it, is the kind of engineering I already do.
+
+At FlowSpace I use Python to build LLM pipelines, automation, and data tooling, including the AI listing pipeline that turns operator brochures into validated listings, over 900 produced so far. The rest of the platform is Next.js and Laravel with Supabase (Postgres) underneath, so I am used to designing API services, writing performant queries, and troubleshooting production issues end to end, not just in one layer. I have also worked directly with business stakeholders to turn a vague requirement into a shipped solution, which matters as much as the code itself.
+
+Modernising core trading systems onto cloud-based technology, with a real learning curve into financial markets, is exactly the kind of stretch I am looking for next.
+
+Logistics: I hold an Italian EU long-term residence permit. I am not yet authorised to work in Romania and would need an employer-side permit, which I am ready to start. English is fluent, available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

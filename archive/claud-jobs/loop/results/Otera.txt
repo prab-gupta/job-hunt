@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4439408961/ -> https://app.screenloop.com/careers/otera/job_posts/8580
+Uploaded: nothing (killed after confirming the live redirect target, before filling any field)
+Built and saved for later: Prabhavit_CV_Otera.pdf (FDE-tailored CV, parity-checked, 2 pages), CoverLetter_Otera.tex/.pdf/.txt (English, 0 em-dashes)
+Blocker/reason: FDE-ALL row, dedupe NEW, cheap check apply-button=1, live LinkedIn JD text has no language requirement so the gates initially passed. Clicking Apply, however, routed to Otera's real Screenloop application, titled "Forward Deployed Engineer- German Speaker (f/m/d) Remote Europe" - checked Otera's full open-roles list (app.screenloop.com/careers/otera) and confirmed this is the ONLY currently open FDE requisition at Otera, so the LinkedIn listing's "Senior Solutions Engineer" title is cosmetic and the live req explicitly requires German. Per the FDE-ALL rule's own permitted kill condition ("a language he lacks is required"), killed.
+Logged: applications.csv status KILLED; answers/otera-2026-09-16.md.
+LEARNINGS: for offsite FDE rows, the LinkedIn listing's own title/text can undersell (or omit) a language requirement that only shows up on the real destination ATS/requisition - always click through to the actual apply form before relying on the LinkedIn JD text alone for the language gate.

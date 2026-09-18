@@ -1,0 +1,4 @@
+ALREADY APPLIED
+On 2026-09-13 Leyton returned: You already applied for this job.
+Existing application confirmed on 2026-09-09: e8f10e57-3b0f-41b8-8f1f-9a3384f14791. See confirmations/Leyton-2026-09-09.txt.
+New AI-error example was entered in duplicate form but is NOT confirmed as updated on existing application. Saved answers/mainloop-ai-error-2026-09-13.txt.

@@ -1,0 +1,16 @@
+Dear Sonova / Audatic hiring team,
+
+I am applying for the Software Engineer (Audatic) role in Berlin. Over three years I have built Python based data pipelines and owned the infrastructure and tooling around them, from API integration through backend logic to the frontend that surfaces the result.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform in Python. A user uploads a CV, the pipeline extracts the data and scores how relevant the candidate is for specific role types, the result reaches the frontend, and the pipeline then generates a standardised profile. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI to build the extraction tool.
+
+At FlowSpace, I lead development on a React and Next.js platform with a Laravel backend and own the tooling around it: an AI listing bot that turns a brochure in any format into a structured record with a human in the loop, and support agents that answer customer queries from live data and escalate to a human on low confidence. I also integrated the OfficeRnD and Nexudus booking APIs.
+
+At Get2Germany, I integrated Google APIs and built automation tools that search for courses, internships and jobs.
+
+Owning a pipeline end to end, the APIs it depends on, and the tooling a team uses to monitor it, is work I want to keep doing, and Audatic's focus on deep learning experimentation infrastructure fits that well.
+
+I am based in Venice, Italy, hold Italian EU long term resident status, and am ready to relocate to Berlin. I am not currently authorised to work in Germany and would need the employer side permit or sponsorship process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

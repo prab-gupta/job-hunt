@@ -1,0 +1,16 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Ruby Labs Hiring Team,
+
+I am writing to apply for the Senior AI Engineer role. I want to be upfront that I have three years of professional experience, not the six the posting asks for, and I have not personally used Langfuse or OpenRouter. What I do bring is real, hands-on experience shipping LLM systems into production, from structured data extraction to user-facing AI agents.
+
+At UltraStrategy, I built the CV-parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda and assesses how relevant the candidate is for specific role types, the result reaches the frontend, and the pipeline then generates a standardised "Ultra CV" using the Claude API. I built this with n8n and Eden AI, an agentic pipeline from raw input to a structured, delivered result, close to the output-quality and reliability problem this role owns.
+
+At FlowSpace, I built and still run an AI listing bot that takes a provider's brochure, in any format, and drafts a full listing with a human in the loop, producing over 900 drafts, plus support AI agents that answer customer queries from live platform data and escalate to a person on low confidence. Both run in production on a Next.js, Node.js and TypeScript stack against real users. I also keep a small public demo of LLM document parsing at github.com/prab-gupta/llm-doc-parser.
+
+I use Claude Code daily and am comfortable working within CET hours from Venice, Italy, where I am authorised to work with no sponsorship required. I would welcome the chance to discuss whether this experience is a fit.
+
+Regards,
+Prabhavit Gupta

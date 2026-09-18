@@ -1,0 +1,14 @@
+Mirakl (Mirakl Labs) - AI Engineer - Paris/Bordeaux
+Submitted: 2026-09-18
+URL applied: https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004?gh_src=1vo3v42l4us
+Confirmation URL: https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004/confirmation?gh_src=1vo3v42l4us
+
+Confirmation page text:
+"Thank you for applying.
+Your application has been received. If there is a fit, someone will be getting back to you."
+
+CV uploaded: Prabhavit_CV_Mirakl.pdf (verified filename shown in the form before submit)
+Cover letter uploaded: CoverLetter_Mirakl.pdf (verified filename shown in the form before submit)
+Identity fields verified via DOM read-back immediately before submit: first_name=Prabhavit, last_name=Gupta, email=prabhavitg@gmail.com, phone (id="phone")="351 610 7807" (single occurrence, no duplication), country selector=+39 Italy, candidate-location="Venice, Venezia, Italy".
+Custom questions answered: "Are you able to come in Paris or Bordeaux offices 4 days per week?" = Yes; "Do you speak French fluently?" = No; "Are you based in France and willing to relocate in Paris or Bordeaux?" = Yes.
+Privacy consent = Acknowledge.

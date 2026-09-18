@@ -1,0 +1,13 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4468277476/
+Company/Role: Xenon Seven - Forward Deployment Engineer, Monte Libretti, Latium, Italy (hybrid listing; JD body text says Barcelona)
+
+Retry of the Playwright agent P29 attempt logged in NEEDS_YOU.md row 35 (Next button unresponsive at the Resume step, 2/6 pages). Task instruction: retry the whole 6-page Easy Apply flow in Chrome.
+
+The live job page showed a fresh state (0 applicants, no Saved/Applied marker), so this was a clean restart rather than resuming stale dialog state. Uploaded Prabhavit_CV_XenonSeven.pdf, confirmed selected, and this time the Next button advanced normally on the first click - the earlier freeze did not reproduce.
+
+Filled all 6 pages: Contact info, Resume, Summary + Cover letter (full CoverLetter_XenonSeven text, honest about no Snowflake Cortex/Databricks Genie experience), Work experience (LinkedIn auto-import, left as-is), Education (LinkedIn auto-import, left as-is), and JD-specific screening questions (3 years experience, No to Cortex/Genie, No direct Finance domain experience, No to Python+UI end-to-end apps, honest LLM-framework summary naming n8n/Claude API/Eden AI/Affinda and explicitly stating LangChain/LangGraph/LlamaIndex/vector search have not been used, Yes to hands-on builder role and contractor compensation-only terms, hourly rate 40 USD, notice period 14 days).
+
+Trap: the `computer` type action dropped characters on the long Summary/Cover letter/LLM-summary text fields on this ATS (same bug as CloudFactory today); fixed by using form_input (direct DOM value set) instead and verifying no dropped characters before advancing.
+
+Blockers: none. Submitted cleanly, confirmation "Your application was sent to Xenon Seven!" and "Application submitted - now" seen. See answers/xenonseven-2026-09-17-retry.md and confirmations/XenonSeven-2026-09-17.txt.

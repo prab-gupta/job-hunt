@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465569929/ (LinkedIn Easy Apply, not offsite despite queue.csv's form_type field)
+Uploaded: Prabhavit_CV_MPower.pdf (tailored QA/test-automation CV, parity-checked against Prabhavit_CV_EN.tex, 2 pages)
+Confirmation: "Your application was sent to MPower Plus! You can keep track of your application in the 'Applied' tab of My Jobs." -> confirmations/MPower-2026-09-16.txt
+Fit: Test Automation Specialist, Livorno, Italy, hybrid, English JD, no hard gate failures (no years floor, no Senior title, MS/BS degree either accepted, Python core stack claimable). Letter drew on Clubee (QA lead) paired with FlowSpace (Playwright + AI listing-bot data-processing work), per the material rules' two-role requirement. Answered "comfortable working onsite" = Yes; "Follow MPower Plus" left unchecked; no cover-letter upload field existed on this Easy Apply flow.
+Logged: applications.csv row SUBMITTED; answers/mpower-2026-09-16.md; confirmations/MPower-2026-09-16.txt.
+LEARNINGS: on this LinkedIn Easy Apply resume step, the "Upload resume" pill button is NOT itself a file input - clicking it (or passing its ref to file_upload) fails with "Element is not a file input"; it dynamically injects a hidden <input type=file> elsewhere in the DOM only after being clicked. Fix: click the button once, then re-run `find` for "file input element for resume upload" to get the newly created input's ref, then call file_upload against that ref.

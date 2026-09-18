@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4411457839",
+      "title": "Software Engineer (TypeScript/Node.Js) - Italian Speaker",
+      "company": "Amaris Consulting",
+      "companyUrl": "https://ch.linkedin.com/company/amarisconsulting",
+      "location": "Varese, Lombardy, Italy",
+      "date": "2026-08-22",
+      "url": "https://it.linkedin.com/jobs/view/software-engineer-typescript-node-js-italian-speaker-at-amaris-consulting-4411457839"
+    },
+    {
+      "id": "4404944451",
+      "title": "Backend Developer",
+      "company": "Accessiway",
+      "companyUrl": "https://it.linkedin.com/company/accessiway",
+      "location": "Turin, Piedmont, Italy",
+      "date": "2026-08-08",
+      "url": "https://it.linkedin.com/jobs/view/backend-developer-at-accessiway-4404944451"
+    },
+    {
+      "id": "4445160506",
+      "title": "Backend Developer Node.JS & Typescript",
+      "company": "TeamSystem",
+      "companyUrl": "https://it.linkedin.com/company/teamsystem",
+      "location": "Milan, Lombardy, Italy",
+      "date": "2026-08-07",
+      "url": "https://it.linkedin.com/jobs/view/backend-developer-node-js-typescript-at-teamsystem-4445160506"
+    },
+    {
+      "id": "4419441356",
+      "title": "Fullstack Developer",
+      "company": "Accessiway",
+      "companyUrl": "https://it.linkedin.com/company/accessiway",
+      "location": "Turin, Piedmont, Italy",
+      "date": "2026-08-20",
+      "url": "https://it.linkedin.com/jobs/view/fullstack-developer-at-accessiway-4419441356"
+    },
+    {
+      "id": "4448290485",
+      "title": "Backend Developer (Node.js / TypeScript) – Full Remote",
+      "company": "WeHunt",
+      "companyUrl": "https://it.linkedin.com/company/wehunt-eu",
+      "location": "Greater Milan Metropolitan Area",
+      "date": "2026-08-04",
+      "url": "https://it.linkedin.com/jobs/view/backend-developer-node-js-typescript-%E2%80%93-full-remote-at-wehunt-4448290485"
+    },
+    {
+      "id": "4456308134",
+      "title": "Backend / Full-Stack Developer (Node.js + MongoDB)",
+      "company": "Yakkyo",
+      "companyUrl": "https://it.linkedin.com/company/yakkyo",
+      "location": "Milan, Lombardy, Italy",
+      "date": "2026-08-19",
+      "url": "https://it.linkedin.com/jobs/view/backend-full-stack-developer-node-js-%2B-mongodb-at-yakkyo-4456308134"
+    },
+    {
+      "id": "4411889069",
+      "title": "Software Developer - User Interfaces (m/f/d)",
+      "company": "Alpitronic",
+      "companyUrl": "https://it.linkedin.com/company/alpitronic-srl",
+      "location": "Bolzano, Trentino-Alto Adige, Italy",
+      "date": "2026-08-22",
+      "url": "https://it.linkedin.com/jobs/view/software-developer-user-interfaces-m-f-d-at-alpitronic-4411889069"
+    },
+    {
+      "id": "4414300635",
+      "title": "Full Stack Developer - Web Applications (m/f/d)",
+      "company": "Alpitronic",
+      "companyUrl": "https://it.linkedin.com/company/alpitronic-srl",
+      "location": "Bolzano, Trentino-Alto Adige, Italy",
+      "date": "2026-08-15",
+      "url": "https://it.linkedin.com/jobs/view/full-stack-developer-web-applications-m-f-d-at-alpitronic-4414300635"
+    },
+    {
+      "id": "4453400720",
+      "title": "Full Stack Engineer (On-site)",
+      "company": "Translated",
+      "companyUrl": "https://it.linkedin.com/company/translated",
+      "location": "Rome, Latium, Italy",
+      "date": "2026-08-19",
+      "url": "https://it.linkedin.com/jobs/view/full-stack-engineer-on-site-at-translated-4453400720"
+    },
+    {
+      "id": "4456335016",
+      "title": "Software Developer Front-End",
+      "company": "Fujifilm Italia",
+      "companyUrl": "https://it.linkedin.com/company/fujifilm-italia",
+      "location": "Bolzano, Trentino-Alto Adige, Italy",
+      "date": "2026-08-19",
+      "url": "https://it.linkedin.com/jobs/view/software-developer-front-end-at-fujifilm-italia-4456335016"
+    }
+  ]
+}

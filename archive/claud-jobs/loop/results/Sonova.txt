@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+LinkedIn: https://www.linkedin.com/jobs/view/4401339009/
+Job page: https://jobs.sonova.com/job/Berlin-Software-Engineer-%28mfd%29-Audatic/1383272533/
+Real ATS: SuccessFactors, https://career5.successfactors.eu/careers?company=Sonova
+
+Task brief predicted a SuccessFactors account wall with no guest path; confirmed exactly that. Cheap check passed (apply-button count 1). LinkedIn page confirmed open (Apply button live, "Over 100 people clicked apply", "Reposted 1 hour ago"). JD is fully in English (full professional proficiency in English required, no German mentioned), no anti-AI disclaimer, no closed/expired signal. At least 2 years required (Prabhavit has 3), Bachelor's or Master's in a technical field (not a hard MSc/PhD gate), main language Python (claimable), FastAPI/React in the tech stack, DevOps/cloud experience listed as nice-to-have only. Fit 80, gates passed per the task brief.
+
+Dedupe: `dedupe.py --check "Sonova" <url>` returned NEW. `grep -iE "sonova|audatic" applications.csv` returned no prior rows. Proceeded.
+
+Uploaded: nothing - blocked before the upload step.
+
+Prepared and staged for when Prabhavit signs in or creates the SuccessFactors account:
+- CV: Prabhavit_CV_Sonova.pdf (2 pages, tailored per the AI-JD rule: 2 UltraStrategy bullets kept, Get2Germany AI-automation-tools + Google-APIs bullets kept and reordered first (3 bullets total, Figma-to-Bubble UI bullet dropped), FlowSpace Product+Technical reordered AI-agents/migration/scale first with the near-duplicate AI-tool line and the commute-time bullet dropped (8 bullets total, well above the minimum of 3), Urlink reordered automations-bullet first, Low-code prefix dropped from IT Skills, no claims added, all 8 roles/dates/locations intact, parity-checked against Prabhavit_CV_EN.tex)
+- Cover letter: CoverLetter_Sonova.pdf (via CoverLetter_Sonova.tex + tectonic) and CoverLetter_Sonova.txt (290 words, 0 em-dashes, no "no-code"/"low-code"/"Bubble")
+- Answers: years 3; work authorisation Germany = No, employer-side permit = Yes, transparency line included in the letter; salary EUR 45,000-55,000; relocation Yes to Berlin; Italian conversational, English C2, no German claimed; how did you hear = LinkedIn.
+
+Blocker: Sonova's careers site (jobs.sonova.com) routes "Apply now" straight into a SuccessFactors tenant (career5.successfactors.eu) whose landing page is titled "Career Opportunities: Sign In". It offers exactly two paths: sign in with email + password, or "Create an account to apply for our career opportunities." No guest-apply, no resume-autofill-without-account. Per the brief, account creation is user-only, so the flow was stopped there; no credentials were entered and no account was created. Tab left open on the Sign In screen, Claude-in-Chrome tabId 550850559.
+
+Files: Prabhavit_CV_Sonova.tex/.pdf, CoverLetter_Sonova.tex/.txt/.pdf, confirmations/Sonova-2026-09-11.txt (no .png - Claude-in-Chrome screenshot save_to_disk did not return an accessible file path in this environment, consistent with other SuccessFactors/Workday NEEDS YOU rows today), answers/sonova-2026-09-11.md, applications.csv row (NEEDS YOU), NEEDS_YOU.md row 17n (section C).
+
+LEARNINGS: none new - Sonova/Audatic's SuccessFactors tenant behaves like every other SuccessFactors/Workday account-wall case seen today: "Apply"/"Apply now" always dead-ends at a mandatory Create Account/Sign In step with no guest path.

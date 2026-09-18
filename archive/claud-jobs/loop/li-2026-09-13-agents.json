@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4466447217",
+      "title": "Senior AI Engineer - Center of Excellence",
+      "company": "Columbus",
+      "companyUrl": "https://dk.linkedin.com/company/columbusglobal",
+      "location": "Copenhagen, Capital Region of Denmark, Denmark",
+      "date": "2026-09-12",
+      "url": "https://dk.linkedin.com/jobs/view/senior-ai-engineer-center-of-excellence-at-columbus-4466447217"
+    },
+    {
+      "id": "4454742509",
+      "title": "Senior AI Developer",
+      "company": "PwC Romania",
+      "companyUrl": "https://ro.linkedin.com/company/pwc_romania",
+      "location": "Bucharest, Bucharest, Romania",
+      "date": "2026-09-08",
+      "url": "https://ro.linkedin.com/jobs/view/senior-ai-developer-at-pwc-romania-4454742509"
+    },
+    {
+      "id": "4463481668",
+      "title": "Senior AI/LLM Engineer (Python) - Remote",
+      "company": "Kake",
+      "companyUrl": "https://www.linkedin.com/company/kake",
+      "location": "Lisbon, Portugal",
+      "date": "2026-09-10",
+      "url": "https://pt.linkedin.com/jobs/view/senior-ai-llm-engineer-python-remote-at-kake-4463481668"
+    },
+    {
+      "id": "4462220988",
+      "title": "Agentic AI Architect - AI-Native Builder - Berlin OR Remote | €120k",
+      "company": "Next Ventures",
+      "companyUrl": "https://uk.linkedin.com/company/next-ventures",
+      "location": "Berlin, Germany",
+      "date": "2026-09-07",
+      "url": "https://de.linkedin.com/jobs/view/agentic-ai-architect-ai-native-builder-berlin-or-remote-%E2%82%AC120k-at-next-ventures-4462220988"
+    },
+    {
+      "id": "4466446236",
+      "title": "Senior AI Engineer - Center of Excellence",
+      "company": "Columbus",
+      "companyUrl": "https://dk.linkedin.com/company/columbusglobal",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "date": "2026-09-12",
+      "url": "https://se.linkedin.com/jobs/view/senior-ai-engineer-center-of-excellence-at-columbus-4466446236"
+    },
+    {
+      "id": "4464840766",
+      "title": "Ingénieur IA Agentique Confirmé (F/H) - Lille",
+      "company": "Talan",
+      "companyUrl": "https://fr.linkedin.com/company/talan",
+      "location": "Lille, Hauts-de-France, France",
+      "date": "2026-09-11",
+      "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-ia-agentique-confirm%C3%A9-f-h-lille-at-talan-4464840766"
+    },
+    {
+      "id": "4436338828",
+      "title": "Senior AI Engineer",
+      "company": "Jimdo",
+      "companyUrl": "https://de.linkedin.com/company/jimdo",
+      "location": "Portugal",
+      "date": "2026-09-08",
+      "url": "https://pt.linkedin.com/jobs/view/senior-ai-engineer-at-jimdo-4436338828"
+    },
+    {
+      "id": "4418824220",
+      "title": "Forward Deployed Engineer, Agentic Platform (UK/Europe)",
+      "company": "Cohere",
+      "companyUrl": "https://ca.linkedin.com/company/cohere-ai",
+      "location": "Berlin, Berlin, Germany",
+      "date": "2026-09-11",
+      "url": "https://de.linkedin.com/jobs/view/forward-deployed-engineer-agentic-platform-uk-europe-at-cohere-4418824220"
+    },
+    {
+      "id": "4453879462",
+      "title": "Senior AI Agent Engineer",
+      "company": "Procter & Gamble",
+      "companyUrl": "https://www.linkedin.com/company/procter-and-gamble",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "date": "2026-09-10",
+      "url": "https://pl.linkedin.com/jobs/view/senior-ai-agent-engineer-at-procter-gamble-4453879462"
+    },
+    {
+      "id": "4463479690",
+      "title": "Senior AI/LLM Engineer (Python) - Remote",
+      "company": "Kake",
+      "companyUrl": "https://www.linkedin.com/company/kake",
+      "location": "Berlin, Germany",
+      "date": "2026-09-10",
+      "url": "https://de.linkedin.com/jobs/view/senior-ai-llm-engineer-python-remote-at-kake-4463479690"
+    }
+  ]
+}

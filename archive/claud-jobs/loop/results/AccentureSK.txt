@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4328019564/ -> https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bratislava/Senior-Integration-Low-Code-Developer_R00303209/apply
+Uploaded: nothing yet (blocked before upload could be reached in a submittable state).
+Answers given: none submitted; standing answers and materials prepared and documented in answers/accenturesk-2026-09-16.md.
+Blockers: Accenture's Workday tenant Create Account/Sign In step 1 of 6, no guest path.
+LEARNINGS: this is a different Accenture entity/requisition (Accenture na Slovensku, req R00303209) from the existing Prabhavit_CV_Accenture.pdf which was built for Accenture Italia (req R00344641) - built separate Prabhavit_CV_AccentureSK.pdf/CoverLetter_AccentureSK.pdf/.txt rather than reusing or overwriting the Italia files, since they are different company pages/JDs sharing the same Workday tenant domain.

@@ -1,0 +1,124 @@
+#,Priority,Category,Name,Title,Company,LinkedIn,Connected?,Date,Reply?,Notes / hook
+1,A-local/vendor,IT consultancy,Luca Malvestiti,Founder & CEO,Tready,https://www.linkedin.com/in/luca-malvestiti-b1b70b124,,,,Direct n8n overlap; B2B SME integrations
+2,A-local/vendor,IT consultancy,Antonio Ruospo,Co-Founder / Senior Dev,Customcode srl,https://linkedin.com/in/antonio-ruospo-developer,,,,EXACT double-stack overlap (n8n AND Laravel)
+3,A-local/vendor,IT consultancy,Matteo Budriesi,Co-Founder,Webion srl,https://www.linkedin.com/in/matteo-budriesi-b50b51218,,,,Direct RAG/LLM overlap
+4,A-local/vendor,IT consultancy,Gentil Petrillo,Founder & CEO,AINTHEWORK,https://linkedin.com/in/gentil-petrillo,,,,Near-exact stack match
+5,A-local/vendor,IT consultancy,Massimiliano Baldocchi,CEO,HT&T Consulting,https://linkedin.com/in/massimilianobaldocchi,,,,Same core tool (n8n)
+6,A-local/vendor,IT consultancy,Paolino Virciglio,Co-Founder & President,FaccioIO,https://linkedin.com/in/paodoc,,,,Direct overlap w/ AI-support-agent work
+7,A-local/vendor,IT consultancy,Vincenzo Maritati,Co-Founder,DataMasters,https://linkedin.com/in/vincenzo-maritati,,,,Adjacent LLM angle
+8,A-local/vendor,Automation product,Emanuela Locorotondo,Head of Partner Management,Spoki,https://linkedin.com/in/cosimo-franco,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+9,A-local/vendor,Automation product,Bretislav Proft,Engineering Manager (community builder),Make,https://linkedin.com/in/bretislav-proft,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+10,A-local/vendor,Automation product,Chris Riley,Director Customer & Partner Education,Retool,https://linkedin.com/in/chris-riley,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+11,A-local/vendor,Automation product,Dylan Sather,Co-founder & Developer Relations Engineer,Pipedream,https://linkedin.com/in/dylansather,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+12,A-local/vendor,Automation product,Maura St Clair,Enterprise Solutions Engineer,Tray.ai,https://linkedin.com/in/maurapriley,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+13,A-local/vendor,Automation product,Zayne Turner,Director Global Developer Communities,Workato,https://linkedin.com/in/zayne-turner,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+14,A-local/vendor,Automation product,Ashraf Samhouri,Co-founder & CEO,Activepieces,https://www.linkedin.com/in/ashrafsam,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+15,A-local/vendor,Automation product,Max Brodeur-Urbas,Founder,Gumloop,https://linkedin.com/in/max-brodeur-urbas-1a4b25172,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+16,A-local/vendor,Automation product,Prakash Chandran,Co-founder & CEO,Xano,https://www.linkedin.com/in/prakawesome,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+17,A-local/vendor,Automation product,Oleg Zankov,Co-founder & CTO,Latenode,https://www.linkedin.com/in/oleg-zankov,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+18,A-local/vendor,Automation product,C.J. Jameson,Head of Engineering,Parabola,https://www.linkedin.com/in/cjcjameson,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+19,A-local/vendor,Automation product,Gerardo Salandra,Co-founder & CEO,Respond.io,https://www.linkedin.com/in/gerardosalandra,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+20,A-local/vendor,Automation product,Constantine Rozenshtraus-Makarov,CEO/Founder,SendPulse,https://www.linkedin.com/in/makarovkv,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+21,A-local/vendor,Automation product,Andy Claremont,Head of Ecosystem & Community,Glide,https://www.linkedin.com/in/andymci,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+22,A-local/vendor,Automation product,Mikhail Fedorinin,Founder & CEO,Albato,https://www.linkedin.com/in/mikhail-fedorinin,,,,n8n/Make power-user + Bubble no-code background; fits solutions/forward-deployed/devrel/support/QA eng
+23,A-local/vendor,Competitor,Laura Beales,Co-Founder & COO,Tally Workspace,https://www.linkedin.com/in/laura-beales-tally-workspace,,,,She publicly pushes AI/automation/data-driven decisions in office leasing = direct hook
+24,A-local/vendor,Competitor,Jules Robertson,Co-Founder,Tally Workspace,https://www.linkedin.com/in/julestallyworkspace,,,,"Co-founder, still at Tally (Soldo = prior role, not current)"
+25,A-local/vendor,Competitor,Marcel de Groot,Founder / MD,Flexas.com,https://www.linkedin.com/in/marceldgr,,,,"Amsterdam 'Airbnb-for-offices' = same product, EU-based (strong permit fit); TS/Playwright + n8n + OfficeRnD/Nexudus"
+26,A-local/vendor,Competitor,Frank Zorn,Founder,Deskeo,https://www.linkedin.com/in/frankzorn,,,,"French operated-office + flex marketplace, EU fit; Laravel/n8n onboarding automation + integrations, 60+ managed sites"
+27,A-local/vendor,Software vendor,Adrian Palacios,Co-Founder & CTO,Nexudus,https://linkedin.com/in/adrian-palacios-46597916,,,,He shipped an integration vs Nexudus public API at FlowSpace - warm hook straight to co-founder/CTO
+28,A-local/vendor,Competitor,Massimo 'Max' Carraro,Founder,Rete Cowo (Cowo),https://www.linkedin.com/in/massimocarraro,,,,Italy-based; could build booking/marketplace + mgmt-API layer. STRONGEST location fit
+29,A-local/vendor,Competitor,Erica Turchetti,CEO & Founder,Cofoundry,https://linkedin.com/in/erica-turchetti-47b30b107,,,,Italy direct fit; add OfficeRnD/Nexudus + AI member-support agents
+30,B,Competitor,Giuseppe Ciccarello,Director,Anchor Offices,https://www.linkedin.com/in/giuseppe-ciccarello-328584127,,,,Possible contact at Anchor; do NOT call founder without proof
+31,B,Competitor,Sam Simon,Founder,Anchor Offices,https://www.linkedin.com/in/sam-simon-325a81104,,,,Possible contact at Anchor; do NOT call founder without proof
+32,B,Competitor,Tushar Agarwal,Co-Founder & CEO,Hubble,https://www.linkedin.com/in/tusharagarwaluk,,,,UK's largest flex marketplace = direct FlowSpace peer; TS/marketplace-data + AI agents
+33,B,Competitor,Steve Coulson,Founder & CEO,Kitt Offices,https://www.linkedin.com/in/steve-coulson-1521a743,,,,Office-as-a-service w/ own building-mgmt tech; OfficeRnD/Nexudus + Laravel/TS fit
+34,B,Competitor,Cal Lee,Founder & Global Head,Workthere (Savills),https://linkedin.com/in/cal-lee-68901942,,,,Flex brokerage/marketplace; Playwright automation + AI agents fit listings + occupier search
+35,B,Competitor,Steve Homan,CTO/CTPO,Instant Offices / The Instant Group,https://www.linkedin.com/in/sthoman,,,,World's largest flex marketplace w/ ML; AI agents + OfficeRnD/Nexudus = his exact surface
+36,B,Competitor,David Dale,Co-Founder & CTO (UK),Rubberdesk,https://www.linkedin.com/in/daviddale,,,,Publicly building 'office search with AI'; AI agents + n8n map to roadmap; small UK eng team
+37,B,Competitor,Christian Frorup,Co-Founder & CPO/CTO,Officeguru,https://linkedin.com/in/christianfrorup,,,,Workplace-services marketplace; n8n + Laravel workflow automation + AI agents; EU timezone
+38,B,Competitor,Pierre Davidoff,CTO,Upflex,https://linkedin.com/in/pierredavidoff,,,,Business = ingesting supply from partner coworking-mgmt systems; he has literally built OfficeRnD + Nexudus integrations
+39,B,Competitor,Sam Marks,Founder & CEO,Coworker.com,https://linkedin.com/in/sammarks1,,,,"18,500-space directory + Global Pass; Playwright + AI agents scale upkeep + support; remote-first Barcelona"
+40,B,Competitor,Mark Gilbreath,Founder & CEO,LiquidSpace,https://linkedin.com/in/markgilbreath,,,,On-demand office marketplace = identical model to FlowSpace; knows supply onboarding + booking flow
+41,B,Competitor,Richard Smith,Founder & CEO,Office Freedom,https://www.linkedin.com/in/richard-smith-638994183,,,,Global flex brokerage = FlowSpace model; OfficeRnD/Nexudus + Playwright normalise live inventory
+42,B,Competitor,Per Gunnarsson,Founder,Kontoret,https://linkedin.com/in/per-gunnarsson-80176411,,,,4-site Stockholm office-hotel on manual booking; could add FlowSpace listing/booking; EU fit
+43,B,Competitor,Michael Dean,Managing Director,BASE,https://linkedin.com/in/michaelrossdean,,,,"~30 London sites serving YC startups, no visible eng hire; ready first-dev (AI agents/Playwright/Laravel)"
+44,B,Competitor,Chris Meredith,Founder,Adapt Workspace,https://linkedin.com/in/chrismeredith1,,,,Pitches 'data-driven' brokerage rebuild; n8n + TS/Playwright scraping + marketplace-search is that engine
+45,B,Competitor,Pier Paolo Mucelli,Founder & CEO,eOffice,https://www.linkedin.com/in/piermucelli,,,,250-centre/60-country coworking network on marketplace layer; builds exactly that + OfficeRnD/Nexudus plumbing
+46,B,Software vendor,Thilo Utke,CEO & Co-Founder,Cobot,https://linkedin.com/in/thiloutke,,,,Peer coworking platform to ones he integrates; founder-led integration pitch
+47,B,Software vendor,Kia Rahmani,Founder & CEO,Optix,https://www.linkedin.com/in/kia-rahmani-optix,,,,Same category as OfficeRnD/Nexudus he integrates; founder-to-builder
+48,B,Software vendor,Igor Dzhebyan,Co-Founder & CEO,Spacebring,https://linkedin.com/in/dzhebyan,,,,Coworking ops-automation SaaS; overlaps OfficeRnD/Nexudus + n8n work; small founder team
+49,B,Software vendor,Maxime Bouillon,Co-Founder & CEO,Archie,https://www.linkedin.com/in/maxime-bouillon-83045a4a,,,,Coworking/hybrid space-mgmt; integration + AI-agent work maps to booking/CRM
+50,B,Software vendor,Sagar Morabia,Global VP Yardi Kube,Yardi Kube,https://linkedin.com/in/sagar-morabia,,,,Enterprise coworking suite; marketplace integration + automation = product-fit talk
+51,B,Software vendor,James Lowery,CEO UK & Europe,Essensys,https://www.linkedin.com/in/james-lowery-0aab206,,,,Flex-workspace operator tech (space intelligence + elumo booking); marketplace + integration fit
+52,B,Software vendor,Jak Ollett,Co-Founder & CEO,Habu,https://linkedin.com/in/jakollett,,,,"Small workspace-mgmt team (Bristol, 2-10); integration/automation/AI-agent fits lean team"
+53,B,Software vendor,Thomas Celen,Founder & CEO,Zapfloor,https://www.linkedin.com/in/thomascelen,,,,European workspace-mgmt SaaS; overlaps OfficeRnD/Nexudus work
+54,B,Software vendor,Serge De Marre,Founder & MD,Tribeloo,https://linkedin.com/in/serge-de-marre,,,,Desk/room-booking hybrid software; automates booking/ops with n8n
+55,B,Software vendor,Ivan Cossu,Co-Founder & CEO,deskbird,https://linkedin.com/in/ivancossu,,,,AI-driven desk-booking; matches AI-support-agent + n8n work (deskbird AI push)
+56,B,Software vendor,Micah Remley,CEO,Robin,https://linkedin.com/in/micah-remley-b6430740,,,,Desk/room booking + analytics; OfficeRnD/Nexudus + n8n transfers
+57,B,Software vendor,Erin Mulligan Helgren,CEO,OfficeSpace.com,https://linkedin.com/in/erinmulliganhelgren,,,,Markets 'AI OS for the Built World'; AI-agent + booking-integration background
+58,B,Software vendor,Larry Gadea,Founder & CEO,Envoy,https://linkedin.com/in/larrygadea,,,,Workplace platform w/ integrations marketplace (16k+); API-integration + automation fit
+59,B,Competitor,Philipp Hartje,Co-Founder & CEO,shareDnC,https://linkedin.com/in/philipphartje,,,,Marketplace-matching + AI agents + Playwright map 1:1; EU role
+60,B,Competitor,Manuel Zea Barral,Founder & CEO,CoworkingSpain,https://linkedin.com/in/manuelzea,,,,Ripe to become true booking marketplace; EU/Venice permit = ES-market fit
+61,B,Proptech automation,Jaime Rivera,Regional Partnerships Manager,Mews,https://linkedin.com/in/jaime-rivera-jr2785,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+62,B,Proptech automation,Sebastien Leitner,VP Partnerships,Cloudbeds,https://linkedin.com/in/sebastienmleitner,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+63,B,Proptech automation,Christin Schmidt,Head of Global Partnerships,Smoobu,https://www.linkedin.com/in/christin-schmidt-363a9250,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+64,B,Proptech automation,Darcy Kurtz,GTM leader (CRO/CMO-level),Hostaway,https://linkedin.com/in/darcy-kurtz,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+65,B,Proptech automation,Jeremy Atlan,commercial partnerships,Duve,https://linkedin.com/in/jeremy-atlan-a4a96317,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+66,B,Proptech automation,Francois Gouelo,Co-founder & CEO,Enso Connect,https://linkedin.com/in/fgouelo,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+67,B,Proptech automation,Thomas Tewolde,Founder & CEO,Charge Automation,https://linkedin.com/in/thomas-tewolde-22098a30,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+68,B,Proptech automation,Stevie Reffin,Head of Partnerships,RoomRaccoon,https://www.linkedin.com/in/stevie-reffin-6408a3170,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+69,B,Proptech automation,Na'im Anis Payman,Founder & CEO,Zeevou,https://linkedin.com/in/naimanispayman,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+70,B,Proptech automation,Kameron Bain,Director of Strategy (led partnerships/payments integrations),Beyond Pricing,https://linkedin.com/in/kambain,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+71,B,Proptech automation,Richie Khandelwal,Co-founder,PriceLabs,https://linkedin.com/in/richiekhandelwal,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+72,B,Proptech automation,Thorhildur Gunnarsdottir,CEO,Sweeply,https://linkedin.com/in/fransgardarsson,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+73,B,Proptech automation,Kim Cuong Pham,Founder & CEO (ex-Google/Airbnb),Cohost AI,https://linkedin.com/in/kimcuong,,,,FlowSpace proptech + OfficeRnD/Nexudus API integration + n8n automation + AI support agents
+74,B-EU,AI video,Amber Loos,"Talent Acquisition Partner, Tech",Synthesia,https://uk.linkedin.com/in/amber-loos-4513951bb,,,,AI video; hires AI/product/FDE. Lead with your AI-agent + automation build.
+75,B-EU,Voice AI,Tanya Chinoy,Technical Hiring,ElevenLabs,https://uk.linkedin.com/in/tanya-chinoy,,,,Voice AI; FDE + AI eng. Alt: Becky Lee-Roche (Talent) https://ie.linkedin.com/in/beckylr
+76,B-EU,LLM lab,Pablo Sanchez Martin,Staff Talent Partner,Cohere,https://uk.linkedin.com/in/pablo-sanchez-martin-82b479121,,,,"LLM lab, London. Alt: Emma Kelly https://uk.linkedin.com/in/emmakelly"
+77,B-EU,Self-driving AI,Gabrielle Lail,Senior Talent Partner,Wayve,https://www.linkedin.com/in/gabriellelail,,,,London; ML/AI eng.
+78,B-EU,Voice AI,Emily Gerston,Head of Global Talent,PolyAI,https://uk.linkedin.com/in/emilygerston,,,,You already applied - warm follow-up. Alt: James Fortune https://uk.linkedin.com/in/james-fortune
+79,B-EU,AI apprenticeships,Emilio Bertorelli,Internal Recruiter,Multiverse,https://uk.linkedin.com/in/emilio-bertorelli-4b9787155,,,,London HQ; GTM + eng.
+80,B-EU,Defence AI / FDE,Tom Shipperlee,Director of Talent Acquisition,Helsing,https://uk.linkedin.com/in/tomshipperlee,,,,"Open ""Deployed AI Engineer"" = your FDE angle. Munich HQ."
+81,B-EU,LLM lab,Maria Gallifa Samaniego,People / Talent,Mistral AI,https://fr.linkedin.com/in/maria-gallifa-samaniego,,,,Paris LLM lab; TA (Eng/Product/GTM/Science) EMEA open. Alt: Akanksha Duggal https://www.linkedin.com/in/akanksha-duggal-13890976
+82,B-EU,Health-tech,Salome Amsler,Director Talent Acquisition,Doctolib,https://fr.linkedin.com/in/salom%C3%A9-amsler-b3ab8655,,,,"Large eng/product org, Paris."
+83,B-EU,AI image,Cody Dority,Talent Partner,Photoroom,https://fr.linkedin.com/in/cody-dority,,,,"AI image editing; AI/ML + product eng, Paris."
+84,B-EU,Analytics AI,Louis Caputo,Talent Acquisition Manager,Contentsquare,https://www.linkedin.com/in/louis-caputo-948729166,,,,Paris; GTM + solutions eng.
+85,B-EU,Conversational AI,Polina Shapovalova,"Talent Acquisition Partner, Eng & Product",Parloa,https://www.linkedin.com/in/polina-shapovalova,,,,Berlin voice AI; FDE + GTM + AI eng.
+86,B-EU,Automation (your tool),Kay Esin,Talent Acquisition,n8n,https://www.linkedin.com/in/kay-esin,,,,Your core tool. Also hiring Head of People + Sr TA GTM (remote Europe).
+87,B-EU,Process mining / FDE,Jake Piccoli,Talent Acquisition Partner,Celonis,https://www.linkedin.com/in/jakepiccoli,,,,Heavy FDE/solutions hiring. Munich HQ - verify his location before connecting.
+88,B-EU,CMS / solutions,Shauna De La Cruz,Recruiter,Contentful,https://www.linkedin.com/in/shaunadelacruz,,,,Berlin HQ - verify her location before connecting.
+89,B-EU,Comms SaaS,Christina Howard,Talent Acquisition,Aircall,https://www.linkedin.com/in/christinahoward,,,,Paris HQ - verify her location before connecting.
+90,B-EU,Open-source AI,Megan Riley,Recruiter,Hugging Face,https://www.linkedin.com/in/meganriley1,,,,Remote/FR-rooted - verify location. Alt: Emily Witko (People) https://www.linkedin.com/in/emilywitko
+91,B-EU,Vibe coding (FOUNDER),Anton Osika,Co-founder & CEO,Lovable,https://se.linkedin.com/in/antonosika,,,,"The vibe-coding company, Stockholm; People Ops + Recruiting Ops roles just opened."
+92,B-EU,AI agents / FDE (FOUNDER),Gabriel Hubert,Co-founder & CEO,Dust,https://fr.linkedin.com/in/gabhubert,,,,"You applied - founder DM reinforces it. TA-Tech role open, Paris."
+93,B-EU,Health AI (FOUNDER),Andreas Cleve,Co-founder & CEO,Corti,https://www.linkedin.com/in/andreascleve,,,,Copenhagen health AI; hiring a TA specialist now.
+94,A-Italy,App studio,Eva Milenkovska,Talent Acquisition,Bending Spoons,https://mk.linkedin.com/in/eva-petreska,,,,Milan; heavy SWE hiring. Verify her location.
+95,A-Italy,Fintech,Benedetta Giovinazzo,Talent Acquisition Coordinator,Satispay,https://www.linkedin.com/in/benedetta-giovinazzo,,,,Milan fintech unicorn; also TA Sourcer role open.
+96,A-Italy,PropTech (your domain),Lea Rinaldo,Recruitment,Casavo,https://www.linkedin.com/in/l%C3%A9a-rinaldo-3054b41b6,,,,Italian proptech (Opendoor-style) = direct FlowSpace narrative. Founder: Giorgio Tinacci https://www.linkedin.com/in/giorgio-tinacci-a953b458
+97,A-Italy,AI translation (FOUNDER),Marco Trombetti,CEO & Co-founder,Translated,https://it.linkedin.com/in/marco-trombetti-707330,,,,Rome AI/NLP; founder DM.
+98,A-Italy,Conversational AI (FOUNDER),Gianluca Maruzzella,Co-founder & CEO,indigo.ai,https://it.linkedin.com/in/maruzzellagianluca,,,,Milan; you saw their role. Founder DM (add your GitHub).
+99,A-Italy,AI decision intelligence (FOUNDER),Michele Grazioli,Founder & CEO,Vedrai,https://www.linkedin.com/in/michele-grazioli-74789178,,,,Milan AI; founder DM.
+100,A-Italy,Music AI (FOUNDER),Max Ciociola,Founder & CEO,Musixmatch,https://it.linkedin.com/in/massimociociola,,,,Bologna; ML/AI eng. Founder DM.
+101,B-EU,Workflow automation (FOUNDER),Eoin Hinchy,Co-founder & CEO,Tines,https://ie.linkedin.com/in/eoinhinchy,,,,Dublin; security/workflow automation = strong fit for your automation work.
+102,A-Italy,Synthetic data AI (FOUNDER),Daniele Panfilo,Co-founder & CEO,Aindo,https://www.linkedin.com/in/danielepanfilo/,,,,"Trieste; healthcare synthetic data, EUR 6M Series A. Founder DM."
+103,A-Italy,Synthetic data / MLOps (FOUNDER),Shalini Kurapati,Co-founder & CEO,Clearbox AI,https://www.linkedin.com/in/shalini-kurapati-phd-06516324/,,,,Turin. Alt CTO: Luca Gilli https://www.linkedin.com/in/luca-gilli-8674389/
+104,A-Italy,Coliving / PropTech,Ester Previti,People / Talent (title to confirm),Joivy (DoveVivo),https://it.linkedin.com/in/ester-previti,,,,Coliving/flex-living group = direct FlowSpace narrative. Careers: career.joivy.com
+105,A-Italy,NLP / AI (HR contact),Francesca Petronio,Head of People,expert.ai,https://www.linkedin.com/in/francesca-petronio-b82735b/,,,,"Listed NLP/AI company, Modena; genuine HR contact."
+106,A-Italy,Finance AI/ML (FOUNDER),Daniele Grassi,CEO & Co-founder,Axyon AI,https://www.linkedin.com/in/danielegrassi84/,,,,Modena; deep learning for investment management.
+107,A-Italy,PropTech marketplace,Riccardo Matteoni,title to confirm,Spacest (Roomless),https://www.linkedin.com/in/riccardo-matteoni-51607387/,,,,Milan; medium-term rental marketplace = FlowSpace-adjacent.
+108,A-Italy*,Hybrid hospitality + coworking,Aleksandra Gurskaite,People / Talent (title/loc to confirm),The Social Hub,https://www.linkedin.com/in/gurskaitealeks/,,,,NL-HQ but big Italy footprint (Florence/Bologna/Rome/Turin) + coworking. Verify her location.
+109,A-Italy,Conversational AI (FOUNDER),Ernesto Di Iorio,CEO,QuestIT,https://it.linkedin.com/in/ernestodiiorio,,,,"Siena; Uni Siena spin-off, Algho virtual assistant."
+110,A-Italy,Conversational AI / agents (FOUNDER),Alex Shulyak,Founder & CTO,Userbot,https://www.linkedin.com/in/alex-shulyak/,,,,Milan; technical founder - strong eng DM.
+111,A-Italy,HR/people-analytics tech (FOUNDER),Filippo Negri,Co-founder,Glickon,https://it.linkedin.com/in/filipponegri,,,,Milan; talent-intelligence/people-analytics platform.
+112,A-Italy,PropTech portal,Andrea Giannantonio,title to confirm (TA/recruiter),Immobiliare.it,https://www.linkedin.com/in/andreagiannantonio/,,,,"Rome; largest Italian real-estate portal, heavy eng hiring."
+113,A-Italy,Asset-finance AI (FOUNDER),Altin Kadareja,CEO & Co-founder,Cardo AI,https://www.linkedin.com/in/altinkadareja/,,,,"Milan; ""OS for asset-based finance."""
+114,A-Italy,Regtech / legal AI (FOUNDER),Andrea Tesei,Co-founder & CEO,Aptus.AI,https://it.linkedin.com/in/andrea-tesei,,,,"Pisa; EUR 3M regtech, NLP on regulation. Alt CTO: Lorenzo De Mattei https://www.linkedin.com/in/lorenzodemattei/"
+115,B-EU-Italy,Flex-office marketplace,Carlo J. Uggiano / Giuseppe Esposito,Co-founders,Woolkye,not found,,,,"Italian workspace-booking marketplace (Naples), early/bootstrapped, multi-city incl Venice. Founder DM; no careers page. VERIFY personal LinkedIns."
+116,B-EU,Space-as-a-service,Tjeerd Bongers,CEO & Co-founder,Wezoo,not found,,,,NL pre-seed (Arches Capital). On-demand coworking/rooms/offices for hybrid teams. Founder DM.
+117,B-EU,Desk/room booking (Slack/Teams),Max Shepherd-Cross,Co-founder & CEO,Officely,https://uk.linkedin.com/company/getofficely,,,,"UK seed (YC S21), ~3-person team -> founder DM. CTO Rich Turnbull. Personal /in not seen."
+118,B-EU,Hybrid-work + flex-office marketplace,Nathanael Mathieu,CEO,Worklib,https://www.linkedin.com/company/worklib-io,,,,FR Series A (acq. Neo-nomade). Careers live: welcometothejungle.com/fr/companies/worklib/jobs (VERIFY specific role).
+119,B-EU,Meeting/event-space booking marketplace,Arnaud Katz,CEO/Co-founder,Kactus (Bird Office),https://www.linkedin.com/company/kactus.com,,,,"FR. OPEN: Tech Lead Fullstack Rails, Paris (kactus.welcomekit.co) - senior/Rails stretch."
+120,B-remote,Coworking mgmt + on-demand + operator revenue,Eyal Lasker,Co-founder/CEO,Flexspace AI,https://www.linkedin.com/company/flexspace-technologies,,,,US/remote-first (M13). CTO Justin Law. Personal /in not seen.
+121,C-EU,Office/coworking marketplace + brokerage,not found,,MatchOffice,not found,,,,DK/EU established brokerage. No named contact found - low priority.
+122,C-EU,On-demand coworking network + software,VERIFY,,Othership,https://www.linkedin.com/company/othership,,,,UK. VERIFY (not the Toronto sauna brand of same name).
+123,C-EU,Meeting-rooms/coworking operator w/ booking tech,Victor Carreau,Co-founder/CEO,Comet Meetings,not found,,,,"FR - ACQUIRED by Icade Aug 2026, lower priority."

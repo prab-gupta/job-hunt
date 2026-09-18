@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452259313/
+Company: Talonic - Forward Deployed Engineer / Solutions Architect - Berlin, Germany
+
+Uploaded: Prabhavit_CV_Talonic.pdf (tailored from Prabhavit_CV_EN.tex, verified selected before proceeding). No cover letter field in this Easy Apply flow; CoverLetter_Talonic.pdf/.txt kept on file.
+Answers given: Email prabhavitg@gmail.com (prefilled), phone +39 / 3516107807, "Are you located in Berlin, or in close proximity to Berlin?" = No, Follow-company checkbox unticked.
+Confirmation: "Application submitted, now" status on job page.
+Blockers: none.
+Note: JD text explicitly says "Skip the cover letter. Send 3 things you have built ... to careers@talonic.ai" instead of the normal apply flow, and JD says German is "a strong plus" (not required) for DACH accounts - applied via the live LinkedIn Easy Apply control per task instruction rather than emailing separately; no language kill since German is not required.
+LEARNINGS: none new.

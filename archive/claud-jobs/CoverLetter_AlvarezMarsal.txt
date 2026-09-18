@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the AI Forward-Deployed Engineer role on the AI Lab team at Alvarez & Marsal in Madrid.
+
+At FlowSpace, I took over a live workspace marketplace and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one, choosing the migration path per entity and driving the cutover while the product stayed live, growing the platform from 2,000 to over 4,500 users. I built and own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, and support AI agents that ground answers in live platform data and escalate to a human on low confidence, alongside OfficeRnD and Nexudus API integrations and CRM and GTM automations. I worked directly with the client team on requirements throughout, not through a separate delivery layer.
+
+At Get2Germany, I integrated Google APIs and built AI automation tools with n8n that surfaced courses, internships and jobs for users, while also optimising the underlying database. That is the same orchestration-first approach the AI Lab describes: implement on the client's preferred tooling, in my case n8n, move from proof of concept to something that runs cleanly, and hand over something the client team can operate without me.
+
+I have three years of professional experience across eight European companies, most of it as an embedded, client-facing developer working directly with non-technical stakeholders and agency partners rather than inside a large in-house engineering org. My English is fluent and my Italian is conversational, and I am comfortable working on-site with clients and travelling within Europe.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

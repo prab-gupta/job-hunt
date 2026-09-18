@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461159580/
+Company: Cavendish Professionals - Forward Deployed Engineer - Warsaw, Poland
+
+Uploaded: Prabhavit_CV_Cavendish.pdf (tailored from Prabhavit_CV_EN.tex, verified selected before proceeding). No cover letter field in this Easy Apply flow; CoverLetter_Cavendish.pdf/.txt kept on file.
+Answers given: Email prabhavitg@gmail.com (prefilled), phone +39 / 3516107807, Python years 0, LLM years 3, Generative AI years 3, Follow-company checkbox unticked.
+Confirmation: "Your application was sent to Cavendish Professionals!" dialog + "Application submitted, now" status on job page. See confirmations/Cavendish-2026-09-17.txt.
+Blockers: none.
+LEARNINGS: none new - LinkedIn's own Easy Apply resume list still auto-selects the most-recently-uploaded file at the top; re-verified with scroll_to/find before Next, consistent with the 2026-09-16 18:31 trap already documented.

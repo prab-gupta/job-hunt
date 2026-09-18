@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am applying for the AI Engineer role at Adevinta (Kleinanzeigen) in Barcelona.
+
+At FlowSpace, I designed and shipped agentic AI systems end to end for a live marketplace. I built an AI listing bot that takes a workspace brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, and support AI agents that answer customer queries from live platform data and escalate to a human when their confidence is low. The stack is Python and TypeScript for the pipeline, the Claude API for the model layer, and n8n for orchestration, deployed against a live product with real users, not a lab environment.
+
+At UltraStrategy, I built a CV-parsing pipeline where a user uploads a CV, the pipeline extracts the data with Affinda and assesses how relevant the candidate is for specific role types, and the result is delivered to the frontend before a standardised profile is generated. That project sharpened the same skills this role needs: taking a business need, deciding where AI genuinely helps, and shipping something reliable around it.
+
+My cloud experience is at the application and integration level rather than infrastructure administration, so I would come in strongest on the agent design, orchestration and data-quality side of the role and grow the AWS side on the job.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Barcelona and complete that process.
+
+Regards,
+
+
+Prabhavit Gupta

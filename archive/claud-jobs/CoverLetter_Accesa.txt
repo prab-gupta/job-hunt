@@ -1,0 +1,15 @@
+Dear Hiring Manager,
+
+I am applying for the Senior Forward Deployed AI Engineer role at Accesa in Cluj.
+
+At Urlink, I worked as project manager and AI-assisted developer on a client-facing platform build in Barcelona: I built the platform and its logic with AI-assisted development, implemented automations driven directly by client requirements, and sat across the table from the client translating their needs into working software, on Next.js, Supabase, Netlify, GitHub and bolt.new. That consulting mindset, stakeholder interviewing and turning business needs into a pragmatic technical plan, is what your posting describes as the delivery-facing counterpart to an AI R&D function.
+
+At FlowSpace, I took over a live workspace marketplace and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live, growing the platform from 2,000 to over 4,500 users. I built and own an AI listing bot, brochure to structured listing with a human in the loop, over 900 drafts produced, and support AI agents that answer from live platform data and escalate to a person on low confidence, both examples of AI practices integrated into a real SDLC and handed off to run independently. I built these with the Claude API, n8n and TypeScript.
+
+I want to be direct about fit. I have three years of professional experience across eight European companies, not the six or more your posting describes for a Senior or Tech Lead background. What I bring is hands-on delivery of AI-assisted development and agentic workflows into live, customer-facing products end to end, and comfort embedding with a team to assess where AI adds real value rather than applying it everywhere.
+
+I hold Italian EU long-term resident status. I do not have tax residence in Romania and am not currently authorised to work there without the applicable employer-side permit or sponsorship process. Since the role is listed as remote, I would perform it from Italy, where I am authorised to work, and am ready to discuss what arrangement works on your side.
+
+Regards,
+
+Prabhavit Gupta

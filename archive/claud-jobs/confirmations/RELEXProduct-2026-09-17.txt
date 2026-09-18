@@ -1,0 +1,10 @@
+RELEX Solutions - Product Engineer - submitted 2026-09-17
+
+URL: https://www.relexsolutions.com/careers/jobs/product-engineer/?gh_jid=7993916003 (via https://www.linkedin.com/jobs/view/4467704517/)
+Greenhouse job id: 7993916003
+
+Success text shown on the Greenhouse embed after Submit:
+"Thank you for applying.
+Your application has been received. Please check your email for further details."
+
+Screenshot: confirmations/RELEXProduct-2026-09-17.png

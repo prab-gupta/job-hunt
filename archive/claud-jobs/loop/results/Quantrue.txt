@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4435833866/
+Job id: 4435833866, ATS: LinkedIn Easy Apply (Madrid)
+
+Dedupe: NEW. Hard gate re-check: live JD requires a technical master's/PhD degree and lists Spanish only as a plus. Per the task's explicit FDE-ALL override for this batch (treat like LI-PICK: kill only on closed/dup-submitted/explicit-language-requirement), the MSc/PhD requirement was not treated as a kill, matching the LI-PICK precedent which carves out no degree exception either. JD also self-contradicts with "Recent graduates are welcome."
+
+Uploaded: Prabhavit_CV_Quantrue.pdf (resume, verified checked). No cover letter slot on this form.
+Contact info: phone +39 351 610 7807.
+Additional questions: English Professional, Python years 2, master's degree in quantitative field No (honest, holds a Bachelor's), comfortable hybrid Madrid Yes, happy to travel internationally (NA/UK/Middle East ~once/4wk) Yes.
+Result: "Your application was sent to Quantrue!" / "Application submitted". Screenshot confirmations/Quantrue-2026-09-17.png, text confirmations/Quantrue-2026-09-17.txt.

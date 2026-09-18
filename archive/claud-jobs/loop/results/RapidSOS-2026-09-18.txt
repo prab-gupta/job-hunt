@@ -1,0 +1,35 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4466626941/ (LinkedIn posting, offsite apply)
+Resolved apply destination: https://job-boards.greenhouse.io/rapidsos/jobs/5238049007?gh_src=zy0d2kk57us (direct Greenhouse job-boards page, NOT an embedded iframe, so no Playwright handoff was needed)
+
+Dedupe: python3 loop/dedupe.py --check "RapidSOS" "https://www.linkedin.com/jobs/view/4466626941/" -> NEW
+LinkedIn job page checked for a prior "Applied on company site" status panel: none found, only "1 person clicked apply".
+
+Hard gates re-checked on the live JD (Greenhouse page, "#LI-Remote", Czech Republic / Europe (Remote)):
+- Years required: 2-3+ (honest 3 fits).
+- Title: Software Engineer II, AI (not Senior/Staff/Lead/Principal).
+- No MSc/PhD requirement, no anti-AI disclaimer (JD explicitly welcomes AI-forward engineers).
+- Core stack: Python + AI/LLM + TypeScript/React frontend, claimable per brief.
+
+Uploaded:
+- Prabhavit_CV_RapidSOS.pdf (from Prabhavit_CV_EN.tex, 2 pages, parity-checked: every Professional Experience / Career Summary bullet verbatim in the original; only permitted Technical Skills / Additional Information reordering changed. Led with FlowSpace AI-agent + API-integration bullets, kept both UltraStrategy bullets, kept the Get2Germany AI-tools + Google APIs bullets, per the AI/automation minimum-evidence rule.)
+- CoverLetter_RapidSOS.pdf / .txt (273 words, em-dash count 0, "daily"/"quotidian" count 0). Two full proof paragraphs (FlowSpace support AI agents + production issue triage + automated legacy migration; UltraStrategy CV-parsing pipeline with Affinda/Claude API/n8n and its relevance-scoring/evaluation step) plus a one-line Get2Germany aside. Honesty block included verbatim as instructed: no real-time voice/telephony production claims, cloud infrastructure = working knowledge, honest 3 years. Czechia work-permit transparency line included (from answers/work-authorisation.md relocation-role template).
+
+Answers given on the Greenhouse form (autofilled by MyGreenhouse for name/email/phone/location, verified via DOM value read-back after both file uploads: First Name "Prabhavit", Last Name "Gupta", Email "prabhavitg@gmail.com", Phone "351 610 7807" with Country code "+39", Location "Venice, Venezia, Italy" - all correct, appearing once):
+- Where are you based out of: Venice, Italy
+- In the country you reside in, are you currently authorized to work there: Yes (Italy)
+- Do you now or in the future require visa sponsorship in the country you reside in: No (Italy)
+- This role is open to remote and requires a few days in person for internal gatherings, are you open to this: Yes
+- Personal pronoun: N/A
+- LinkedIn Profile: https://www.linkedin.com/in/prabhavit (already correct)
+- Voluntary Self-ID (EEO): Gender = Decline To Self Identify, Hispanic/Latino = Decline To Self Identify, Veteran Status = I don't wish to answer, Disability Status = I do not want to answer
+- Salary: not asked on this form (no salary field present)
+
+Note: the questions on this form ask about authorization "in the country you reside in" (Italy), not Czechia specifically, and the posting itself is tagged #LI-Remote / "Czech Republic / Europe (Remote)". Answered honestly for Italy per the standing rule (authorised there, no sponsorship needed there); the Czechia-specific transparency line was still included in the cover letter per the task instruction, since the requisition location is Czechia.
+
+Confirmation: page navigated to https://job-boards.greenhouse.io/rapidsos/jobs/5238049007/confirmation, text "Thank you for applying. Your application has been received." Saved to confirmations/RapidSOS-2026-09-18.txt (PNG saving not available in Chrome per brief; txt is the record).
+
+Blockers: none. No CAPTCHA, no account creation, no anti-AI attestation.
+
+LEARNINGS: nothing new broke; no LEARNINGS.md line added.

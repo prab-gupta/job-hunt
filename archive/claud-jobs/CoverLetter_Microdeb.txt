@@ -1,0 +1,14 @@
+Dear Microdeb Hiring Team,
+
+I am applying for the Customer Support Engineer role in Gothenburg.
+
+At FlowSpace I own problems on a live marketplace end to end: I automated the migration of the platform off a legacy stack onto Next.js and Laravel while it stayed in production, mapping the old data structure to the new one, choosing an API or CSV export path per entity, and driving the cutover as the platform grew from 2,000 to 4,500+ users. I also built and operate support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, and integrated OfficeRnD and Nexudus so bookings sync automatically, the same kind of production debugging and API level troubleshooting this role calls for.
+
+At Get2Germany I integrated Google APIs and optimised the underlying database while building AI tools that surface courses, internships and jobs. At Clubee I ran unit testing and QA on new features and integrated the Clubee API across the frontend, reproducing issues and writing them up so engineering could fix them at the source rather than patch the symptom.
+
+I write and review SQL against PostgreSQL through Supabase as part of my regular work, I use Claude Code daily for investigation and debugging, and I have three years of hands on delivery across eight European companies. My English is fluent and my Italian is conversational; I do not yet speak Swedish, though I am glad to work in an English speaking team while I build it.
+
+I hold Italian EU long term resident status. I am not currently authorised to work in Sweden and would need the applicable employer side permit or sponsorship process. I am ready to relocate to Gothenburg and complete that process.
+
+Regards,
+Prabhavit Gupta

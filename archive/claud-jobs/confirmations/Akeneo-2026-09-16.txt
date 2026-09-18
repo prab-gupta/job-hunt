@@ -1,0 +1,12 @@
+SUBMITTED via Playwright - Akeneo, Forward Deployed Engineer, Nantes/Paris (Teamtailor ATS)
+Confirmation page: https://careers.akeneo.com/jobs/7370092/applications/4f110d5f-cf40-41d6-a71c-67202772fc03/thanks
+Page title: "Applied to Forward Deployed Engineer"
+job_application_id: 4f110d5f-cf40-41d6-a71c-67202772fc03
+
+Guest apply via a single-page Teamtailor modal, no account creation. Full live JD checked for a language requirement: none found (English throughout).
+
+Fields: Visa sponsorship required = Yes (France, Italian EU LTR status); Locations = Nantes (checked, matching the LinkedIn posting title); First/Last name Prabhavit/Gupta; Email prabhavitg@gmail.com; Phone changed from default France (+33) to Italy (+39) 351 610 7807; Upload CV = Prabhavit_CV_Akeneo.pdf; Cover letter pasted as plain text into the in-form textarea (no separate PDF upload field for it, only "Additional files" which was left empty since the cover letter went into the dedicated Cover letter box); ticked the required Privacy Policy consent; left the optional "Akeneo can contact me about future opportunities" checkbox unticked; phonetic name and pronouns fields left blank (optional).
+
+After Submit application, the flow redirected to an anonymous "Diversity & Inclusion Survey" page which explicitly states responses are not linked to the candidate profile. Declined via "I don't want to participate" per standing EEO/demographic rule, which led straight to the Applied confirmation page.
+
+Blockers: none.

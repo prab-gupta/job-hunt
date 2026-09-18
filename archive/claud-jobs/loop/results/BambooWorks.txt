@@ -1,0 +1,40 @@
+STATUS: NEEDS YOU
+
+URL: https://bambooworks.applytojob.com/apply/qvZETdI2gW/AI-Automation-Specialist-Claude-Accounting-Workflows
+LinkedIn ref: https://www.linkedin.com/jobs/view/4437140753/ (LI-PICK row, queue.csv)
+ATS: JazzHR (company's own applytojob.com career page)
+
+Uploaded: nothing uploaded as a file. Resume pasted as plain text into the form's "Paste your
+resume here" box (Prabhavit_CV_BambooWorks content, tailored: Career Summary trimmed to 2
+bullets, FlowSpace led with the AI-agent support bullet, UltraStrategy and Get2Germany both keep
+their 2 AI-relevant bullets per the AI-JD tailoring rule, "Low code development" dropped from
+Additional Info). Prabhavit_CV_BambooWorks.pdf/.tex also built and saved (photo swapped to a new
+recompressed photo_small_q80.jpg, 300x300 JPEG q80, to keep any future file-upload payload small;
+does not touch the shared photo_orig.png). CoverLetter_BambooWorks.pdf/.txt built and saved (0
+em-dashes), not used since this ATS had no cover-letter field.
+
+Answers given: First/Last/Email/Phone; years experience 3-5 (bucket containing 3); relevant-
+experience essay (3 years, FlowSpace + UltraStrategy, 2,000->4,500+ users, 900+ AI-drafted
+listings); AI tech used = Claude, Claude Code, Anthropic API, OpenAI API, ChatGPT; Claude Code
+usage = AI agent development; production Claude Code projects = 2-5; AI systems built = AI
+Agents, RAG Applications, AI Workflow Automation, Document Processing, AI Customer Support,
+AI Data Extraction; automation platforms = n8n; Python proficiency = Intermediate; accounting/
+finance automations built = No; OK with contractor/AU-hours terms = Yes; current rate = "project-
+based freelance, no fixed monthly retainer"; expected rate = "USD 1,500/month (within the posted
+range)"; availability = flexible Mon-Fri next week, 13:00-20:00 GMT+8.
+
+Blocker: "Human Check" is a live Google reCAPTCHA ("I'm not a robot") directly above SUBMIT
+APPLICATION. User-only blocker per brief; form left fully filled and not submitted. No PNG
+screenshot could be saved to disk from this browser tool (image only returns inline in-
+conversation, no file-save path available); see answers/bambooworks-2026-09-16.md for the full
+field-by-field record instead of a confirmations screenshot.
+
+LEARNINGS: (1) bambooworks.applytojob.com (JazzHR) offers a "Paste resume here" text box as an
+alternative to file upload - use it instead of the base64/DataTransfer file-upload trick whenever
+an ATS offers it, it is far cheaper and just as valid for the Resume* field. (2) The Claude
+Browser pane can be shared with another concurrent agent's tab (mid-task here a `type` call
+without an explicit tabId landed on a second tab, tabId "tab-1", origin job-boards.greenhouse.io,
+"New Relic Software Engineer II - Backend" - not mine). Always pass an explicit tabId on every
+action once more than one tab exists; the tab closed itself before I could inspect or undo
+whatever text landed there, flagging in case that other application needs a check before
+submitting.

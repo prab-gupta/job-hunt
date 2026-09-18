@@ -1,0 +1,26 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4364680526/
+ATS (Teamtailor): https://careers.futurice.com/jobs/7081879-senior-ai-engineer
+
+Dedupe note: this resolved ATS URL is a HIT URL against a prior row (2026-08-26, Futurice, Senior AI Engineer, same requisition 7081879), but that prior row's status was SKIPPED (killed on the 5+ years / hybrid / Python-ML-stack gate), not SUBMITTED/NEEDS YOU/INTERVIEW/REJECTED. This job is an LI-PICK row per the 2026-09-11 LI-PICK rule, which overrides the fit-based gates and only blocks on closed/already-submitted/language-gap. Since prior status was SKIPPED (not SUBMITTED), proceeded and applied, answering years honestly as 3 throughout.
+
+Uploaded: Prabhavit_CV_Futurice.pdf (tailored, 2 pages, tectonic-compiled, parity-checked against Prabhavit_CV_EN.tex -- all roles/dates/locations intact, only bullet selection/order changed). Cover letter pasted as text into the form's dedicated Cover letter textarea (CoverLetter_Futurice.txt/.tex/.pdf also saved on disk, 257 words, two-role proof: UltraStrategy CV-parsing pipeline lead, FlowSpace AI listing bot + support agents + live migration second, FlowSpace not the only paragraph).
+
+Answers given:
+- Finnish proficiency: "I do not speak Finnish"
+- Currently live in Finland: No
+- Locations: Futurice Helsinki (task-specified metro area; Tampere left unchecked)
+- Name/email/phone (+39 351 610 7807)/address (Venice, Italy, chosen from the address autocomplete)
+- Years of experience: 3 (stated plainly in the letter; no numeric years field on this form)
+- Salary: not asked (no salary field on this Teamtailor form)
+- Work authorisation: not a separate form field; covered in the letter via the work-authorisation.md transparency line (not yet authorised in Finland, Futurice would need to sponsor the permit, ready to relocate)
+- Consent: required privacy/data-processing checkbox ticked; no marketing/talent-pool checkbox was present to decline
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation, no assessment.
+
+Confirmation: "Thanks for applying -- We have received your application and we will be reviewing it shortly." Landed on the Applied (step 1 of 2) page; step 2 "Connect" is an optional profile-upsell, left untouched.
+
+LEARNINGS: Teamtailor forms can render as one long scrolling page inside a single dialog (no multi-step "Next" clicks needed here) -- read_page's accessibility tree only surfaces elements currently in/near the viewport on this build, so refs for fields further down only appeared after scrolling. PNG screenshot saving is not available with this Claude-in-Chrome build's computer/screenshot tool (no save_to_disk option surfaced), so only the .txt confirmation was written for this task, consistent with the apply-agent-brief's Chrome section note that "PNG saving is not available in Chrome, the txt is the record."
+
+Files: confirmations/Futurice-2026-09-11.txt, answers/futurice-2026-09-11.md, Prabhavit_CV_Futurice.tex/.pdf, CoverLetter_Futurice.txt/.tex/.pdf. applications.csv row appended (10 fields, status SUBMITTED).

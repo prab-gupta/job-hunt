@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4380928196/
+Role: Senior Forward Deployed Engineer (AI Agent) - Germany
+ATS: LinkedIn Easy Apply
+
+Uploaded: Prabhavit_CV_Cresta.pdf (built from Prabhavit_CV_EN.tex, parity-diffed, FDE tailoring pattern, 2 pages). No cover letter upload field on this flow; CoverLetter_Cresta.pdf/.txt kept on file.
+
+Answers given: years not asked directly; work authorisation in Germany = No, visa sponsorship needed = Yes; location Venice, Italy; previously applied to Cresta in past 12 months = Yes (honest, prior different-requisition rows exist); long-form AI agent/LLM production question answered with FlowSpace support AI agent + AI listing bot detail; Follow-company checkbox unchecked.
+
+Blockers: none. No German-language requirement found in the JD body or anywhere across the 5-page Easy Apply flow, so this did not hit the FDE-ALL rule's language kill.
+
+Learnings: the Chrome `computer type` action silently dropped characters mid-word on a long textarea answer (e.g. "shar" for "share", "platfrm" for "platform") - caught on screenshot review. Fix: for long free-text answers, set the value with `form_input` directly instead of `type`, which simulates keystrokes and can drop characters under load. Also: the location-city typeahead's first suggestion can be a coincidental wrong match (e.g. typing "Venice" alone briefly auto-selected "Venice, Florida, United States" on a stray click) - always type enough of the full name (e.g. "Venice, Veneto") to disambiguate and verify the selected text before Next.

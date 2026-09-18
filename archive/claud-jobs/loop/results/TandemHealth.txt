@@ -1,0 +1,12 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4391715905/ (offsite apply -> https://jobs.ashbyhq.com/tandem-health/e6a2abc1-0a8c-4b4f-97b0-a3774f6c2e58/application)
+ATS: Ashby
+
+Uploaded: Prabhavit_CV_TandemHealth.pdf (resume field). No cover-letter upload field on this Ashby form; CoverLetter_TandemHealth.pdf/.txt built and saved anyway for the record.
+Answers given: full name/email/LinkedIn typed with real keystrokes; location = Venice, Venice, Italy (autocomplete); sponsorship required = Yes (honest); open to relocating = Yes; "why interested" essay answered honestly drawing on FlowSpace (live migration, AI agents) and Urlink (client-driven automation, PM role) - full text in answers/TandemHealth-2026-09-16.md.
+Dedupe: HIT COMPANY - one prior row 2026-09-04 for Tandem Health "AI Engineer" (different requisition/URL), does not block under the FDE blanket-apply rule (same requisition only). Proceeded and logged the distinction.
+Blockers: none. No CAPTCHA, no login wall, no anti-AI attestation (page states "Tandem Health may use Artificial Intelligence with this application" - informational, not a block on AI-assisted applicants).
+LEARNINGS: none new; standard Ashby form, segmented Yes/No buttons worked as expected on first click (no Teero-style rerender trap).
+
+Confirmation: "Success. Your application was successfully submitted. We'll reach out with potential next steps!" -> confirmations/TandemHealth-2026-09-16.txt
+CSV: applications.csv row appended (SUBMITTED).

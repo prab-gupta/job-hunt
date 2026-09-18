@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Consultant role in Paris. The job is the part of my work I like most: sitting with a customer, finding the real problem behind the request, and building the workflow or agent that fixes it on a platform they already use, then making sure they can run it without me.
+
+At FlowSpace (a workspace marketplace) I did exactly that for the operations, sales and support teams. I ran the discovery, mapped how listings, bookings and leads moved through the business, and built the AI-native solutions: an agentic document pipeline with human review that processed 900+ records, support agents that answer from live data and escalate on low confidence, and CRM, booking and outbound automations in n8n and Make. The platform grew from 2,000 to 4,500+ users while the team stayed the same size. I trained the users, wrote the handover docs, and learned where a deterministic automation is the better answer than an agent.
+
+I bring three years of hands-on implementation across eight European companies, fluency in generative and agentic AI tooling (Claude and OpenAI APIs, Claude Code daily, MCP), working knowledge of Make and Zapier, REST and GraphQL integrations, and the habit of presenting technical work to non-technical stakeholders. monday.com is the platform I would most like to build on because it already treats agents and automations as first-class parts of work.
+
+I am based in Venice (CET), hold an EU Long Term Residence Permit, need no visa sponsorship, and can relocate to Paris for the three hybrid days. Available immediately.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Atlassian Hiring Team,
+
+I am writing to apply for the Principal Forward Deployed Engineer, AI role. I want to be upfront that I have three years of professional experience rather than the ten or more years of backend experience you are looking for, and my production stack is TypeScript, Next.js and Laravel. What I bring is genuine, repeated experience as the person who takes an AI system from a customer's real problem into something running in production, across several companies and stacks.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel while the product stayed live, growing usage from 2,000 to 4,500 plus users. I built and still own an AI listing bot that turns a provider's brochure, in any format, into a drafted listing with a human in the loop, producing over 900 drafts, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, plus the OfficeRnD and Nexudus API integrations, CRM and GTM automations that sit alongside them.
+
+At UltraStrategy, I built the CV-parsing pipeline behind the platform: a user uploads a CV, the pipeline extracts the data with Affinda and scores how relevant the candidate is for specific role types, the result reaches the frontend, and the pipeline then generates a standardised Ultra CV using the Claude API, built with n8n and Eden AI end to end.
+
+I use Claude Code daily for AI-assisted development and I communicate comfortably with both engineers and non-technical stakeholders, having done this directly as the person closing the loop between a client request and a shipped feature.
+
+This posting is scoped to remote work from Poland. I am Venice-based, and I hold Italian EU long-term resident status: I am not currently authorised to work in Poland and would need the applicable employer-side permit or sponsorship process, though I would also welcome a conversation about performing the role remotely from Italy if that is workable on your side. I would welcome the opportunity to discuss whether my experience is a fit for the FDE team.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,8 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4441595094/ -> https://jobs.techtree.dev/job/268aea80-a8b1-4b30-b42f-9f560a00ab27/apply?application_source=linkedin
+Uploaded: Prabhavit_CV_TechTree.pdf (resume field, confirmed attached in the form)
+Answers given: Full name Prabhavit Gupta, email prabhavitg@gmail.com, LinkedIn URL https://www.linkedin.com/in/prabhavit/, expected salary 50000 EUR per year, phone +39 351 610 7807, GitHub/Portfolio left blank, notice period Available immediately, "what excites you" essay filled (FlowSpace AI listing bot/support agents, owning discovery to production), Terms of Service/Privacy Policy consent ticked.
+Blocker: reCAPTCHA "I'm not a robot" checkbox directly above Submit application. User-only per brief and standing CAPTCHA rule. Nothing submitted. Tab left open: Claude-in-Chrome tabId 550851171.
+CoverLetter_TechTree.pdf/.txt built (0 em-dashes) but this ATS has no cover-letter field; kept on file.
+LEARNINGS: jobs.techtree.dev gates its guest-apply form behind a reCAPTCHA on the final consent step (not present on the earlier TechTree Product Engineer requisition applied 2026-09-06) - treat any jobs.techtree.dev application as a possible CAPTCHA row, verify before assuming a clean guest path.
+See answers/techtree-2026-09-16.md, NEEDS_YOU.md row 18a.

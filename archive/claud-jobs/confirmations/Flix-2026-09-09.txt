@@ -1,0 +1,8 @@
+Flix - Process Automation Engineer (Celonis) (m/f/d) - Lisbon
+Applied: 2026-09-09
+URL: https://flix.careers/job/?jobid=8647236002
+
+Success page text ("Thanks for applying, we'll keep you on track."):
+"Thanks for applying, we'll keep you on track."
+Page title: JobSuccess - Flix Career
+Page URL after submit: https://flix.careers/job-success

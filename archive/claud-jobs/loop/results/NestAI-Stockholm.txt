@@ -1,0 +1,17 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4457904361/
+Company: NestAI
+Role: Forward Deployment Lead (Stockholm, Sweden)
+
+Dedupe: HIT COMPANY (exact) on "NestAI". Matching row: 2026-09-16, NestAI, Forward Deployed Full Stack Engineer, Teamtailor-style embed, https://www.linkedin.com/jobs/view/4462798452/, SUBMITTED. Different requisition (different job id), different title/level (Full Stack Engineer vs Forward Deployment Lead). Does not block per dedupe rule; task note confirmed this is a separate requisition to be attempted.
+
+Hard gate re-check on live JD (LinkedIn guest API, job id 4457904361): APPLY_BUTTON_COUNT = 1, not closed. No anti-AI disclaimer found (grepped for AI-generated / AI assistance / without any AI / no AI - no match).
+
+Killed for explicit language requirement (Qualifications section, required not a plus):
+"You are also able to communicate fluently in Swedish with our local customers."
+
+Prabhavit's languages are English (C2) and conversational Italian (B1-B2) only, per standing answers. Swedish fluency required = kill per the FDE-ALL row rule ("Polish/Swedish/German required = kill").
+
+Secondary note (not the deciding factor, JD also says): "NestAI is currently focusing on hiring talent already located in Sweden. Remote work from abroad is unfortunately not possible for this position." Relocation within Europe floated as a possible exception in a cover letter, but the language gate already kills the row before this becomes relevant.
+
+No CV or letter drafted. No blockers to report to planner beyond the kill reason above.

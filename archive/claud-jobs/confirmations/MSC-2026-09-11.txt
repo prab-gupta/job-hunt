@@ -1,0 +1,8 @@
+Your application for the position "" has been successfully submitted.
+
+A confirmation email has been sent to prabhavitg@gmail.com.
+
+Source: https://msc-technology-italia.intervieweb.it/jobs/artificial-intelligence-engineer-84929/en/ (guest apply form, inrecruiting ATS behind intervieweb domain), submitted 2026-09-11.
+Post-submit URL: https://msc-technology-italia.intervieweb.it/app.php?opmode=guest&module=annunci&l=artificial-intelligence-engineer-84929&message=confirmMessage&IdForm=5647&IdCandidato=...&IdAnnuncio=84929
+
+Note: no .png saved. Claude-in-Chrome's screenshot tool does not write an accessible file to disk in this environment (per loop/APPLY_AGENT_BRIEF.md Chrome-alternative section: "PNG saving is not available in Chrome, the txt is the record"). Both the pre-submit (all fields filled) and post-submit (success banner) states were visually verified via in-conversation screenshots before this txt was written.

@@ -1,0 +1,17 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4465068619/
+Real ATS: Workday, https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/CZE---Central-Bohemian---Prague-IT-Riverview/Platform-AI-Engineer---Market---Patient-Access_R416895-1/apply (req R416895), reached via MSD's own careers site jobs.msd.com/gb/en/job/MSD1GBR416895ENGB/Platform-AI-Engineer-Market-Patient-Access
+
+Pre-checks: curl jobs-guest jobPosting API grep -c apply-button = 1 (pass). Live page confirmed an "Apply on company website" control, no "not currently accepting applications" banner. Dedupe: HIT COMPANY~, investigated and cleared — the fuzzy match was a false positive (the normalized string "msd czech republic" contains "public" as a substring of "re-public", which matched an unrelated corpus entry literally named "Public"); grep -i "msd\|merck" applications.csv returned zero prior rows, so this is a new company. Hard gates re-checked on the full live JD (3+ years required, not >3; title plain, no Senior/Staff/Lead/Principal/Manager/CTO; no hard MSc/PhD; English only; TypeScript/Python claimable core stack; no anti-AI clause found by grep): no kill gate hit.
+
+Uploaded: nothing — blocked before the upload step.
+
+Prepared and staged for when Prabhavit creates the account:
+- CV: Prabhavit_CV_MSD.pdf (built from new Prabhavit_CV_MSD.tex, tailored from Prabhavit_CV_EN.tex per the brief's rules; 2 pages, tectonic-compiled). Dropped bullets logged in answers/msd-2026-09-09.md.
+- Cover letter: CoverLetter_MSD.txt (209 words, 0 em-dashes) and CoverLetter_MSD.pdf (1 page, via CoverLetter_MSD.tex + tectonic).
+- Answers: years 3 (numeric/bucket) / "about three years shipping in production, across eight European companies" (free text); work authorisation Czechia = No, sponsorship/Employee Card needed = Yes, with the standard transparency line; salary EUR 50,000 (or CZK 100,000/month); relocation Yes to Prague; available immediately, start two weeks after offer; EEO decline to self-identify; how heard = LinkedIn.
+
+Blocker: LinkedIn's "Apply" is not Easy Apply ("Responses managed off LinkedIn") and opens MSD's Phenom careers page directly, which links to MSD's Workday tenant. Workday's "Start Your Application" screen offers "Autofill with Resume," "Apply Manually," and "Use My Last Application." Tried "Apply Manually" first per the brief — it lands straight on a mandatory "Create Account/Sign In" step (Email Address, Password, Verify New Password, all required) before any application field, job question, or resume upload is shown. No genuine apply-without-account path exists on this tenant. No account was created, no password entered. Tab left open, tabId 550849918, on the Create Account screen, nothing typed into it.
+
+LEARNINGS: MSD's Workday tenant (msd.wd5.myworkdayjobs.com) has no guest/apply-without-account path, consistent with Zendesk's and Worldline's tenants seen earlier today — "Apply Manually" still requires an account. Also: a synthetic ref-based click on a LinkedIn `target="_blank"` apply link did not open a new tab (not treated as a trusted gesture); a coordinate-based click on the same element did. Use coordinate clicks, not ref clicks, when a link is expected to open a new tab.

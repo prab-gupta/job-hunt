@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452363857/ (LinkedIn Easy Apply)
+
+LI-PICK row (italian_jd). Senior AI Engineer via recruiting agency Lawrence Harvey, on behalf of an undisclosed client, hybrid role in Milan, JD explicitly non-remote. JD in Italian (Agentic AI, LangGraph/LangChain/Google ADK/LlamaIndex, MCP/A2A, Python/FastAPI, AWS/Azure/GCP MLOps).
+
+Uploaded: Prabhavit_CV_LawrenceHarvey.pdf (tailored from Prabhavit_CV_EN.tex, explicitly replaced the pre-selected library resume in the Easy Apply radio list). No cover-letter upload field existed in this 5-page Easy Apply flow; CoverLetter_LawrenceHarvey.pdf/.txt (Italian) built and kept on file per the task instruction, not attached anywhere by LinkedIn.
+
+5-page flow:
+1/5 Contact info: email prabhavitg@gmail.com (pre-filled), phone country Italy (+39), mobile 351 610 7807.
+2/5 Resume: uploaded and selected Prabhavit_CV_LawrenceHarvey.pdf (confirmed "Resume uploaded successfully" toast).
+3/5 Optional "Mark job as a top choice" page: left unchecked, clicked Next (no crash this time, unlike the TECHSON 06:00 LEARNINGS entry for the same page type).
+4/5 Additional Questions: Italian proficiency = Conversational; visa sponsorship needed = No (Italy-based role); "Hai esperienza diretta nella gestione di workflow MLOps o AIOps su AWS, Azure o GCP?" = No (honest, cloud MLOps not on file); "Hai maturato esperienza in contesti consulenziali e in attività di pre-sales?" = No (honest, not documented in OUTREACH_FACTS.md).
+5/5 Review: unticked the default-checked "Follow Lawrence Harvey to stay up to date with their page" box (marketing-consent standing rule), verified résumé and all 4 answers, clicked Submit application.
+
+Confirmation: "You can keep track of your application in the 'Applied' tab of My Jobs" dialog, dismissed the follow-on "Turn your resume into a profile" upsell with Not now. Screenshot: confirmations/LawrenceHarvey-2026-09-16.png, text: confirmations/LawrenceHarvey-2026-09-16.txt. Logged one row to applications.csv.
+
+Dedupe: `python3 loop/dedupe.py --check "Lawrence Harvey" "https://www.linkedin.com/jobs/view/4452363857/"` returned HIT COMPANY~ but `grep -i "lawrence" applications.csv` found zero rows before this one, so the fuzzy hit was a false positive, not a real block.
+
+Note: queue.csv had a prior note "0916 08:31 agent P10 | 0916 P10 died on the session limit before this row" for this row; checked for any partial CV/letter/answers files left by P10 before starting, found none, so this was a clean first attempt.
+
+LEARNINGS: none new. The optional "Mark job as top choice" page (3/5 here) did not crash this time, unlike the TECHSON 06:00 entry, so that failure mode is intermittent rather than guaranteed on that page type.

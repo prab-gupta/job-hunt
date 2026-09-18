@@ -1,0 +1,12 @@
+Sesamy - Integration & Technical Delivery Specialist - Stockholm
+https://www.linkedin.com/jobs/view/4465515898/
+LinkedIn Easy Apply, submitted via Claude in Chrome, 2026-09-17.
+
+Application status panel on the job page showed:
+"Application submitted
+now"
+
+Resume uploaded and selected: Prabhavit_CV_Sesamy.pdf (verified selected with green checkmark on the Resume review step before Submit).
+Contact info: prabhavitg@gmail.com, phone +39 3516107807.
+Additional Questions: "Are you comfortable commuting to this job's location?" = Yes; "What is your level of proficiency in Svenska?" = None; "What is your level of proficiency in Engelska?" = Professional.
+No cover-letter text box was offered in this Easy Apply flow (contact info -> resume -> additional questions -> review/submit only); CoverLetter_Sesamy.pdf/.txt kept on file.

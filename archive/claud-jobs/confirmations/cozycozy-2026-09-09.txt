@@ -1,0 +1,9 @@
+cozycozy.com — Junior Typescript Engineer - Budapest
+URL: https://www.linkedin.com/jobs/view/4464476329/ (redirected to Recruitee: https://jobs.cozycozy.com/o/junior-typescript-engineer-budapest/c/new?source=LinkedIn+Basic+Jobs)
+Submitted: 2026-09-09
+
+Confirmation page text ("Application" tab, "Applied" badge shown):
+"All done!
+Your application has been successfully submitted!"
+
+(Screenshot captured via Claude in Chrome; PNG save-to-disk not available in this environment per brief — this txt is the record of the confirmation text observed on screen.)

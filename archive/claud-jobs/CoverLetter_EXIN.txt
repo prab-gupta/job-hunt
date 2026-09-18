@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Commercial Product Owner position at EXIN. The opportunity to help shape products that validate digital skills is a strong match for my background at the intersection of product delivery, education-focused technology, commercial workflows, and hands-on implementation.
+
+At FlowSpace, I owned product work from understanding user and business needs through implementation and iteration. I helped scale a live marketplace from 2,000 to more than 4,500 users, contributed to its migration to a coded Next.js and Laravel platform, and worked with internal colleagues, an external agency, customers, and operations to turn requirements into shipped improvements. I also built CRM and go-to-market automations for lead capture, enrichment, routing, and outbound activity, using feedback and operational data to improve the workflow. As a developer and project manager on Urlink, I translated client requirements into a working platform and coordinated delivery across product logic and automation.
+
+EXIN's need for someone who can structure product briefs, define scope and priorities, collaborate with marketing and sales, and guide products through launch and iteration is especially appealing. I bring an entrepreneurial mindset, strong organization, clear communication, and practical experience turning ambiguous needs into usable products. My education includes a bachelor's degree in Philosophy, International Studies and Economics with a minor in Entrepreneurship, and my experience building tools for courses, internships, and jobs has kept me close to the education and skills space. I would be eager to learn the certification domain and contribute to EXIN's international growth.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am available immediately. Thank you for considering my application.
+
+Regards,
+Prabhavit Gupta

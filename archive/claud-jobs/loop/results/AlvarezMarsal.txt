@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4457793675/
+Careers page: https://careers.alvarezandmarsal.com/jobs/18176750-ai-forward-deployed-engineer
+Apply ATS: Talemetry (apply.talemetry.com), cross-origin iframe, resumed and completed via Playwright.
+
+What was uploaded: Prabhavit_CV_AlvarezMarsal.pdf (resume, step 2), CoverLetter_AlvarezMarsal.pdf (Additional Documents, Cover Letter slot, step 5).
+
+Session restarted from step 1 in Playwright (new application id, prior Chrome step-1 progress did not carry over). Re-filled contact info identically to the earlier Chrome pass: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, Italy (+39), base compensation 50000, top location Madrid, country of residence Italy, privacy notice ticked.
+
+Resume-parser trap (matches LEARNINGS 2026-09-16 19:02, Adobe Phenom entry): of 8 parsed work-history rows, one was pure junk (2000-Current, blank fields, mashed description text) and was deleted; 4 more had the real company name blank or mashed into the job title. Fixed by cross-checking dates against Prabhavit_CV_AlvarezMarsal.tex / OUTREACH_FACTS.md: UltraStrategy (Dec 2024-May 2025), Urlink (Apr-Jul 2025, was mislabelled Get2Germany.com), Get2Germany (Jan-May 2024), Clubee (Sep 2023-Aug 2024, was mislabelled Qomodo), Tractionboard (Aug-Oct 2023). FlowSpace and Qomodo were parsed correctly and left untouched. Education section also parsed 3 certification lines as degree-less "education" entries (Microsoft Copilot Studio Agent Academy, Microsoft AI agents intro, Tray.AI Build Practitioner) alongside the real degree (Ca' Foscari University of Venice, Bachelor's); set Degree="Certificate" on the Copilot Studio Academy entry, left the other two as parsed since all three trace verbatim to the Certifications section of the CV, no fabrication.
+
+Job-related questions: Spain work authorisation = No, require sponsorship (per answers/work-authorisation.md); will require sponsorship = Yes; able to work in office = Yes; travel frequency = Weekly; no A&M prior employment, no family at A&M, no non-compete, no outside conflicts, not a government official.
+
+Final page: Submit action implies terms consent per the page's own wording (no separate checkbox). Clicked Submit, landed on https://careers.alvarezandmarsal.com/pages/thank-you with "Thank You! Application Confirmation - Thank you for your application. You will soon receive an email confirmation, which will allow you to check the status of your application."
+
+Blockers: none in this session. Prior Chrome blocker (cross-origin iframe file input unreachable) resolved by Playwright, whose frame-aware locators can reach into the cross-origin apply.talemetry.com iframe.
+
+LEARNINGS: Talemetry ATS resume-parser (apply.talemetry.com, used by Alvarez & Marsal) has the same "Company Name blank, mashed into Job Title" trap as Phenom People - always walk every parsed Work History / Education entry against the source CV by date before clicking Next past the resume-review step, not just the ones flagged "Requires Attention" (4 of 8 entries here had no flag at all despite being wrong).

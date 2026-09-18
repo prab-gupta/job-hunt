@@ -1,0 +1,25 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4374760503/
+Company / Role: Capgemini - Data Engineer, Marcon (Venice), Italy (req 341449-en_GB, LI-PICK row)
+Chrome tabs: 550850578 (career5.successfactors.eu account-creation screen, left open), 550850577 (capgemini.com job page), 550850573 (LinkedIn posting) - all in this agent's own tab, Claude in Chrome (the user's real browser, not Playwright).
+
+LI-PICK: applied regardless of the JD's Big Data stack (Apache Spark, Hadoop, Kafka, Kubernetes - none claimed) per the 2026-09-11 LI-PICK rule. Kill conditions checked and none applied: posting is open (LinkedIn apply-button count 1, Apply control present, no "not accepting applications" banner), no prior SUBMITTED row for this exact requisition, JD language is Italian which is explicitly allowed for LI-PICK rows since Prabhavit is conversational.
+
+Dedupe: `dedupe.py --check "Capgemini" <url>` returned HIT COMPANY (company-name match only). `grep -i capgemini applications.csv` showed two prior rows: 2026-08-06 Capgemini Automation Engineer-NL (LEAD, never applied, non-blocking) and 2026-09-09 Capgemini Engineering Software Engineer req 436075-en_GB (NEEDS YOU, different requisition and title). Neither blocks this different requisition (341449, Data Engineer). Proceeded.
+
+Hard gates: no anti-AI disclaimer found. Posting live and open.
+
+Uploaded: nothing - blocked before the upload step could be completed with a real account.
+
+Answers given: none - blocked before any form field could be submitted.
+
+What happened: LinkedIn Apply -> safety-reminder interstitial -> "Continue applying" -> https://www.capgemini.com/jobs/341449-en_GB_SAPBTP/Data-Engineer (verified same JD text and req ID, "Marcon VE" among locations) -> "Apply for this job" -> https://career5.successfactors.eu/careers?company=capgemitecP3. This single-page SAP SuccessFactors form requires Valid Email, Retype Valid Email and a "Choose Password" field (complexity rules) directly alongside the CV upload and the rest of the application questions, with no guest-apply path and "Already a registered user? Please sign in" confirming an account wall. Same ATS/portal family as the 2026-09-09 Capgemini NEEDS YOU case (different requisition number).
+
+Blocker: mandatory account creation / sign-in wall on Capgemini's SuccessFactors ATS, no guest path. Per the brief, account creation is user-only. No account was created, no email or password entered, nothing submitted.
+
+Prepared for the user: CV `Prabhavit_CV_Capgemini.pdf`, freshly re-tailored for this Data Engineer requisition (overwrote the prior Software Engineer tailoring; summary/FlowSpace/UltraStrategy/Get2Germany bullets reordered to lead with data-pipeline and data-integration work, no Spark/Hadoop/Kafka/Databricks claimed anywhere; 2 pages, tectonic, parity-checked). Cover letter in Italian, `CoverLetter_Capgemini.txt`/`.pdf` (266 words, 0 em-dashes, "voi" plural, no "Lei"): leads with the UltraStrategy CV-parsing pipeline (Affinda + API Claude) and the FlowSpace live data migration, Get2Germany search/API automations as the second proof paragraph, three years stated plainly, residency in Venice near Marcon. Standard field answers pre-filled in answers/capgemini-2026-09-11.md.
+
+Logged: appended one NEEDS YOU row to applications.csv, wrote confirmations/Capgemini-2026-09-11.txt (no PNG - per the brief, PNG saving is not available for Claude in Chrome, the txt is the record), wrote answers/capgemini-2026-09-11.md and answers/cv-tailoring-capgemini-2026-09-11.md, appended row 17p to NEEDS_YOU.md section C.
+
+LEARNINGS: none new - this confirms the 2026-09-09 finding that any capgemini.com/careers.capgemini.com application routes through career5.successfactors.eu with a mandatory account-creation wall baked into the same page as the application questions (no separate "create account" step to skip around); treat every Capgemini requisition as a SuccessFactors account-wall NEEDS YOU by default.

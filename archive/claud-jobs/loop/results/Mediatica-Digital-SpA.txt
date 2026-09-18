@@ -1,0 +1,11 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4461181058/
+Company: Mediatica Digital SpA
+Role: Mobile Test Automation Engineer
+
+Reason: already applied. On opening the job page, LinkedIn's own "Application status" panel showed "Application submitted, 10 hours ago" with a "View resume" link, and no Easy Apply button remained. This is a genuine duplicate, not a dedupe.py false positive: applications.csv/answers/confirmations had no prior record for this company+role, so a previous agent run must have submitted successfully on LinkedIn's side and then crashed or exited before logging. The resume already sitting in LinkedIn's library, Prabhavit_CV_Mediatica_Digital_SpA.pdf, is dated 9/15/2026, consistent with the "10 hours ago" timestamp.
+
+Materials built before the duplicate was discovered, kept on file unused: Prabhavit_CV_Mediatica_Digital_SpA.pdf/.tex (tailored: Automation/QA skills led, Clubee's QA bullet and FlowSpace's Playwright tooling emphasised), CoverLetter_Mediatica_Digital_SpA.pdf/.tex/.txt (Italian, Clubee + FlowSpace two-role proof, honest about no direct Appium experience).
+
+Blockers: none for this row itself; the blocker is the earlier untracked submission.
+LEARNINGS: dedupe.py / applications.csv missed a genuinely-submitted application because the submitting agent crashed before logging (same pattern as the 2026-09-16 06:00 TECHSON entry in LEARNINGS.md). Worth a rule: before Easy Apply on any queue row, check the job page itself for an existing "Application status: Application submitted" panel, not just applications.csv, since a crash-before-log leaves no CSV trace.

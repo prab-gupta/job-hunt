@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4296070842/ (LinkedIn "Apply on company website" -> https://www.alphaomega.lu/jobs/software-engineer-python)
+Uploaded: Prabhavit_CV_AlphaOmega.pdf (tailored from Prabhavit_CV_EN.tex: Career Summary dropped LLM-apps bullet, kept API-integration + QA-testing bullets; FlowSpace Product Responsibilities moved the documentation bullet up; Additional Info dropped Low-code item)
+Cover letter: CoverLetter_AlphaOmega.tex/.pdf drafted (FlowSpace + UltraStrategy proof paragraphs), full text pasted into the site's "Want to write us something?" box.
+Answers given: Name, Email; no phone/screening-question fields on this form; work-authorisation transparency line for Luxembourg included in the letter text.
+Blockers: none.
+LEARNINGS: LinkedIn "Apply" (not Easy Apply, "Responses managed off LinkedIn") opened a new tab to the company's own Webflow-style form (Name/Email/Resume/Message, cookie banner first) - no LinkedIn profile data carried over, had to fill everything fresh.

@@ -1,0 +1,8 @@
+{
+  "role": "AI Engineer (gn)",
+  "location": "Germany, remote",
+  "date": "12 August 2026",
+  "opening": "I am writing to apply for the AI Engineer (gn) role at The Quality Group. The posting names Claude Enterprise, ChatGPT Enterprise and n8n as the tools, and describes the job as taking a business requirement all the way to a governed production workflow. That is a precise description of what I have spent the last three years doing, which is rarer in a job advert than it should be.",
+  "role_specific": "Concretely: I build and maintain n8n workflows in production, including the AI-based data parsing tool I engineered for UltraStrategy using n8n and Eden AI, and the automated workflows I built for Get2Germany. At FlowSpace I engineered the support AI agents and the lead capture, enrichment and outbound automations into the CRM, plus a scraping and parsing tool that increased listings on the platform. I have connected OpenAI and Anthropic APIs into those workflows directly, built RAG retrieval over real document sets, and dealt with the part that only shows up in production: what the workflow does when the model returns something the next step cannot use. On the enabling side, the FlowSpace work meant sitting between the internal team, an external agency and the members, so translating a business requirement into something buildable and then handing it over is familiar rather than theoretical.",
+  "closing": "I should say plainly that my German is beginner level, that I would be relocating to Germany rather than already resident there, and that my governance experience is GDPR-aware practice rather than formal AI governance design. I would be glad to talk through the n8n and agent work in detail."
+}

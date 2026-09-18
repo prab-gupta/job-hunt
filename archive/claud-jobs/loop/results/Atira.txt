@@ -1,0 +1,7 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4447580107/ (Ashby: jobs.ashbyhq.com/atira)
+Uploaded: nothing (killed before drafting)
+Reason: hard language gate. The live JD's "Your profile" section states "Full working proficiency in both German and English" as a plain requirement, not a nice-to-have. Per the task's rule ("German required = kill, 'German is a plus' is fine"), this is an explicit kill: Prabhavit has English C2 and conversational Italian only, no German. Contrast with the sibling Zeit AI Munich FDE posting, which only asks for "German is a big plus" and was NOT killed.
+Dedupe: NEW on this exact URL/requisition. A pre-existing malformed row ("Atira, AI Engineer + FDE + 8 others", status SKIP, reason "Munich on-site only", dated 2026-09-04) does not block since SKIP status never blocks and the on-site reason is superseded by today's task.
+Blockers: none besides the language gate; no CAPTCHA/account wall reached since the row was killed before opening the application form.
+LEARNINGS: none new.

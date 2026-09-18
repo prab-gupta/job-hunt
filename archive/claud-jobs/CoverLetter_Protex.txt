@@ -1,0 +1,15 @@
+Dear Protex AI team,
+
+I am applying for the Technical Product Manager role in Dublin.
+
+Protex turns camera feeds into operational decisions for logistics and manufacturing sites, and this role sits exactly where I have worked for the last two years: between customers and engineers, owning a roadmap and shipping it. At FlowSpace (coworking marketplace, London) I owned three products end to end, from discovery with operators to spec, build, rollout and iteration: the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ listings so far; the RAG support agents that answer availability and pricing questions from live data and escalate to a person when confidence is low; and the OfficeRnD and Nexudus API integrations that connect bookings to the systems operators already run. The platform grew from 2,000 to 4,500+ users over that period.
+
+I am an engineer who writes the code as well as the roadmap. Claude Code is my primary development tool, the Claude and OpenAI APIs and n8n are how I wire agents into workflows, and I have learned in production what makes agentic B2B features trustworthy: evals on real inputs before shipping, a human review step where a wrong answer costs money, and logging every model decision so failures are debuggable. That is the discipline a greenfield Site Intelligence product needs while it is still being defined with customers.
+
+You list 2 to 7 years of product management and note you are open to less with a strong engineering background; I bring 2.5 years of hands-on product engineering with direct customer ownership rather than a PM title. I am based in Venice, Italy, hold an EU long-term residence permit and can relocate to Dublin; Ireland would need an employer-side work permit, which is routine for a full-time hire. English is my working language (C1). Available immediately.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser. CV attached.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit

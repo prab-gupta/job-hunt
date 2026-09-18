@@ -1,0 +1,384 @@
+[
+{
+"id": "4465956974",
+"verdict": "PASS",
+"reason": "RPA engineering role at established consulting firm (Coherent Solutions). 3+ years exp (meets >=3 gate), JavaScript available in stack (no .NET/C# requirement), English JD, EU location (Poland), consulting client (data center provider) named and described. Good fit for automation engineer with n8n/automation background.",
+"ats_url": "https://www.linkedin.com/jobs/view/4465956974/",
+"easy_apply": true,
+"lane": "A",
+"fit": 40,
+"years_required": "3+",
+"language_required": "English",
+"location_type": "Poland (EU)",
+"lead": {
+"id": "4465956974",
+"title": "RPA Engineer (Data Center)",
+"company": "Coherent Solutions",
+"location": "Poland",
+"url": "https://www.linkedin.com/jobs/view/4465956974/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "JD requires \"3+ years\" (not \"more than 3\"), Mid-Senior level (not Senior/Staff/Lead/Principal), JavaScript covered via Node/TypeScript, Poland is EU with remote offered. No refutation criteria met."
+},
+{
+"id": "4421867444",
+"verdict": "PASS",
+"reason": "RPA Automation Developer at Inetum (direct hire, established consulting firm). 2+ years exp required (not >3, passes gate). Programming languages: C#/VB.NET OR JavaScript\u2014candidate has JavaScript (no C#/Java required). Bachelor's degree acceptable. UiPath RPA platform (transferable from n8n/automation). Lisbon location. Strong fit.",
+"ats_url": "https://www.linkedin.com/jobs/view/4421867444/",
+"easy_apply": true,
+"lane": "A",
+"fit": 50,
+"years_required": "2+",
+"language_required": "English",
+"location_type": "Lisbon, Portugal (EU)",
+"lead": {
+"id": "4421867444",
+"title": "RPA Automation Developer",
+"company": "Inetum",
+"location": "Lisboa, Lisbon, Portugal",
+"url": "https://www.linkedin.com/jobs/view/4421867444/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD requires \"Mid-Senior level\" \u2014 candidate has 2.5-3 years experience (junior-to-mid), not mid-senior. Seniority mismatch is material disqualification."
+},
+{
+"id": "4448501123",
+"verdict": "PASS",
+"reason": "No hard gates triggered; 2+ years required (Prabhavit has 2.5-3y); Milan hybrid location (+10); however low fit because role is operations/coordination/analysis, not full-stack engineering",
+"ats_url": "https://www.linkedin.com/jobs/view/4448501123/",
+"easy_apply": false,
+"lane": "D",
+"fit": 38,
+"years_required": "2+",
+"language_required": "English C1",
+"lead": {
+"id": "4448501123",
+"title": "Platform Operations Analyst",
+"company": "TeamSystem",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4448501123/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No explicit refutation criteria found. JD requires 2+ years (candidate 2.5-3 \u2713), seniority Not Applicable (candidate fit \u2713), English C1 (candidate English-only \u2713), no technical stack mandated for Analyst role \u2713, EU location Italy (candidate open to EU \u2713), active posting direct from TeamSystem \u2713. Career transition from dev to operations/analysis is unaddressed by stated criteria but not a disqualifier per spec."
+},
+{
+"id": "4468374757",
+"verdict": "PASS",
+"reason": "Junior Python/Django backend role aligns with skill level. Stack match (Python + Django for backend development). Education requirement (specific Danish programs or comparable) may be a concern since Prabhavit has BA not CS, but job welcomes early-career developers with experience. On-site Denmark is EU-acceptable.",
+"ats_url": "https://www.linkedin.com/jobs/view/4468374757/",
+"easy_apply": true,
+"lane": "A",
+"fit": 60,
+"lead": {
+"id": "4468374757",
+"title": "Junior Python Developer",
+"company": "Minerva Imaging",
+"location": "\u00d8lstykke, Capital Region of Denmark, Denmark",
+"url": "https://www.linkedin.com/jobs/view/4468374757/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "Junior Python Developer posting at Minerva Imaging (Denmark, on-site). Seniority: Entry level. Years required: \"newly graduated or have a few years of experience\" \u2014 accommodates 2.5\u20133 years. Stack: Python required, Django optional; candidate has Python + Node/Laravel backend. Language: English required, Danish preferred only. Location: \u00d8lstykke, Denmark (EU); candidate open to EU. No closed/agency red flags. PASSES."
+},
+{
+"id": "4467991514",
+"verdict": "PASS",
+"reason": "Strong technical fit: React.js + FastAPI/Python match his full-stack TypeScript/React/Python stack. Associate level appropriate for 2.5-3 years experience. Hybrid Cracow location is EU-acceptable. FinTech domain supports career trajectory.",
+"ats_url": "https://www.linkedin.com/jobs/view/4467991514/",
+"easy_apply": true,
+"lane": "C",
+"fit": 75,
+"lead": {
+"id": "4467991514",
+"title": "Associate Software Engineer (React.js, Python)",
+"company": "OANDA",
+"location": "Cracow, Ma\u0142opolskie, Poland",
+"url": "https://www.linkedin.com/jobs/view/4467991514/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD requires minimum 1 year React.js + Python (candidate has 2.5-3 years); Associate level (matches profile); TypeScript/JavaScript/React stack (candidate has all); hybrid work Cracow/Poland (EU, aligns with candidate's EU openness). No requirement for >3 years, Senior level, non-English languages, or core stacks the candidate cannot claim. FastAPI listed as team's tech, not explicit hiring requirement. No closed or agency indicators."
+},
+{
+"id": "4465998795",
+"verdict": "PASS",
+"reason": "Italian JD (acceptable per user rule) + 1-2yr backend exp matches profile + Entry-level seniority OK + PHP/Laravel/Node/Python backend stack directly applicable + hybrid Milan role in user's base city",
+"ats_url": "https://www.linkedin.com/jobs/view/4465998795/",
+"easy_apply": true,
+"lane": "C",
+"fit": 72,
+"location_type": "hybrid",
+"language_required": "none (Italian JD, conversational Italian OK)",
+"years_required": "1-2",
+"lead": {
+"id": "4465998795",
+"title": "Sviluppatore back-end",
+"company": "Run2AI",
+"location": "Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4465998795/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD asks for 1-2 years backend experience (candidate has 2.5-3 years, exceeds requirement). Seniority is Entry level (not Senior/Staff/Lead/Principal). Location is Milan, Italy (EU) with hybrid + remote flexibility; candidate open to any EU. No explicit language requirement stated. Backend role requires no specific stack lock (Java/.NET/C++/Go/Rust/Scala/Kotlin/Django-only/FastAPI-only); candidate's Node/Laravel/Python fit generic backend work. Posting is open (9 hours ago, first 25 applicants). Direct hiring by Run2AI (own product), not agency for unnamed client. Pass stands."
+},
+{
+"id": "4459175293",
+"verdict": "PASS",
+"reason": "Officine IADR posts 4 open roles; 2 are strong matches: (1) DEV_202608_02 Backend Developer needs Python + FastAPI/PHP + cloud (AWS/GCP/Azure) - excellent stack fit; (2) DEV_202608_03 Web & Mobile Developer needs TypeScript + Angular/Ionic + PHP backend - solid match. No prior professional experience required; Italian JD acceptable per policy. Location is Genoa, Italy (perfect). Note: Candidates must specify which role (DEV_YYYYMM_XX) during apply.",
+"ats_url": "https://www.linkedin.com/jobs/view/4459175293/",
+"easy_apply": true,
+"lane": "C",
+"fit": 82,
+"years_required": "none (junior preferred)",
+"location_type": "hybrid/on-site Italy",
+"language_required": "Italian (conversational OK per policy)",
+"lead": {
+"id": "4459175293",
+"title": "Dev",
+"company": "Officine IADR",
+"location": "Greater Genoa Metropolitan Area",
+"url": "https://www.linkedin.com/jobs/view/4459175293/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No explicitly stated requirements found that contradict the candidate's profile. Entry-level position with no prior experience required. Candidate's TypeScript/React/Node/Python/Laravel stack matches DEV_202608_03 (Web & Mobile Developer) which explicitly requires HTML/CSS/JavaScript/TypeScript. Python and PHP (via Laravel) match Backend Developer requirements. Location is EU (Italy), acceptable per candidate's openness to EU on-site roles. Language requirement not explicitly stated in JD."
+},
+{
+"id": "4468300823",
+"verdict": "PASS",
+"reason": "Associate-level Data Scientist, Python/LLM/RAG stack matches, no language barrier, EU location; fit moderate due to specialized Data Science focus vs full-stack preference",
+"ats_url": "https://www.linkedin.com/jobs/view/4468300823/",
+"easy_apply": false,
+"lane": "E",
+"fit": 45,
+"lead": {
+"id": "4468300823",
+"title": "Data Scientist",
+"company": "Roche",
+"location": "Warsaw, Mazowieckie, Poland",
+"url": "https://www.linkedin.com/jobs/view/4468300823/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD lists \"Associate\" level (not Senior/Staff/Lead/Principal), no explicit years-of-experience minimum beyond Associate tier. Required stack (Python, LLMs, RAG pipelines, vector databases, NLP) aligns with candidate's stated Python + LLM pipelines profile; no forbidden stacks listed. Location: Warsaw, Poland (EU); candidate is open to any EU location. No language requirement beyond English. Posting is active (9 hours old, accepting applications), posted directly by Roche. No refutation criteria met."
+},
+{
+"id": "4448285518",
+"verdict": "PASS",
+"reason": "ML engineer role requiring 1\u20132 years (ACCEPTABLE: \u22643 years, below Prabhavit's current level). Requires full-stack ML: PyTorch, Python backend frameworks (FastAPI/Flask/Django), REST/gRPC APIs, PostgreSQL, MongoDB, Docker\u2014matches Prabhavit's TypeScript/Node + Python + Supabase/PostgreSQL + LLM pipeline experience. Aerospace ML project (GenAI-adjacent). Location: Turin.",
+"ats_url": "https://www.linkedin.com/jobs/view/4448285518/",
+"easy_apply": true,
+"lane": "C",
+"fit": 85,
+"years_required": "1\u20132 years",
+"language_required": "English",
+"lead": {
+"id": "4448285518",
+"title": "Machine Learning Engineer",
+"company": "Unknown",
+"location": "Turin, Piedmont, Italy",
+"url": "https://www.linkedin.com/jobs/view/4448285518/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "No disqualifying criteria found. JD requires 1-2 years experience; candidate has 2.5-3 years (exceeds ceiling but not a disqualifier). All core technical skills match: Python + ML frameworks (PyTorch), training/inference pipelines, FastAPI/Flask/Django, REST APIs, databases. Candidate also has nice-to-haves: JavaScript, React. Entry-level position suits candidate profile. Italian company; candidate is Italian EU resident. No language requirement, no closed posting, no unnamed-client agency flag."
+},
+{
+"id": "4466847403",
+"verdict": "PASS",
+"reason": "Generative AI role (RAG, SQL-to-LLM, LLM frameworks, Semantic Kernel, Microsoft Agentic Framework). No years gate stated. Stack mismatch (C#/.NET primary), BUT JD explicitly states: 'we are also considering developers that are currently using other languages (e.g. python), but they are willing to add C# language and MS stack to their toolbox.' GenAI expertise (RAG, LLM integration) aligns with Prabhavit's LLM/automation background. Location: Turin (MSC Technology Italy). Fit reduced due to Azure/C# ecosystem gap, but explicit openness to Python developers and core GenAI alignment mitigate.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466847403/",
+"easy_apply": true,
+"lane": "A",
+"fit": 65,
+"years_required": "Not specified",
+"language_required": "English",
+"lead": {
+"id": "4466847403",
+"title": "AI Developer",
+"company": "Unknown",
+"location": "Turin, Piedmont, Italy",
+"url": "https://www.linkedin.com/jobs/view/4466847403/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "JD explicitly welcomes Python and other-language developers willing to learn C# (\"we are also considering developers that are currently using other languages (e.g. python), but they are willing to add C# language and MS stack to their toolbox\"). Associate level (not Senior+). English-only required. Turin, Italy is candidate's home region. No years floor stated. Posting active (22 hours old)."
+},
+{
+"id": "4440070260",
+"verdict": "PASS",
+"reason": "All experience levels welcome, no strict MSc/PhD requirement; Python + ML/GenAI stack excellent match with Prabhavit's LLM API + RAG experience; Milan location +10 bonus; Prima direct employer.",
+"ats_url": "https://www.linkedin.com/jobs/view/4440070260/",
+"easy_apply": true,
+"lane": "A",
+"fit": 70,
+"lead": {
+"id": "4440070260",
+"title": "Data Scientist GenAI",
+"company": "Unknown",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4440070260/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "No disqualifying factors found. Job explicitly welcomes all experience levels including recent graduates (no min years stated). Only language requirement is English; Italian/Spanish are nice-to-have. Candidate's Python + LLM pipeline experience matches posted preferences. Milan-based hybrid role suits EU LTR resident. No senior-level requirement stated. Direct company posting (Prima), not agency. Posting active."
+},
+{
+"id": "4468374668",
+"verdict": "PASS",
+"reason": "Hard gates clear. Italian JD; No explicit experience requirement stated; 'Not Applicable' seniority level; no degree requirement specified; AI Operations Strategist aligns with automation/process optimization background. Located in Vernazzo near user's Venice base (on-site acceptable).",
+"ats_url": "https://www.linkedin.com/jobs/view/4468374668/",
+"easy_apply": true,
+"lane": "A",
+"fit": 60,
+"lead": {
+"id": "4468374668",
+"title": "AI Operations Strategist",
+"company": "Unknown",
+"location": "Vernazzo, Liguria, Italy",
+"url": "https://www.linkedin.com/jobs/view/4468374668/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "No explicit stated requirements exceed candidate's qualifications. Seniority is \"Not Applicable\" with no experience minimum; tech stack (Python LLM pipelines, Node, React) matches AI/data/automation focus; location (Italy) acceptable for EU resident open to relocation; no required language explicitly stated despite Italian-only posting; not a closed or agency posting."
+},
+{
+"id": "4466851363",
+"verdict": "PASS",
+"reason": "Italian JD passes language gate (conversational Italian acceptable; no fluent/native demand). No hard gates violated. Entry-level creative AI content role at Antonioli Group in Milan. Poor technical fit: this is creative/marketing (Photoshop, Adobe Creative Suite, generative image/video tools for luxury fashion content), not engineering. Stack mismatch: requires Adobe suite expertise, not TypeScript/Next.js/Node/Laravel/Python. Seniority mismatch: Entry level vs 2.5\u20133 years experience.",
+"ats_url": "https://www.linkedin.com/jobs/view/4466851363/",
+"easy_apply": true,
+"lane": "A",
+"fit": 22,
+"language_required": "Italian (conversational OK), English (good)",
+"years_required": "Entry level",
+"location_type": "Italy on-site (Milan)",
+"lead": {
+"id": "4466851363",
+"title": "AI Content Creator & Creative Specialist",
+"company": "Unknown",
+"location": "Milan, Lombardy, Italy",
+"url": "https://www.linkedin.com/jobs/view/4466851363/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "Entry-level AI Content Creator role in Milan, Italy; requires English (not a language beyond English); no years-of-experience threshold stated; tech stack is design/AI generative tools (no conflicting requirements like Java/.NET/C++/Go/Rust/Scala/Kotlin/cloud admin/embedded); direct company posting, not agency; active posting with 160 applicants."
+},
+{
+"id": "4467185665",
+"verdict": "PASS",
+"reason": "Strong stack match on core AI/LLM work (Python, LangChain/LangGraph, RAG, embeddings). Seniority at boundary (3yr req vs 2.5-3yr user). Role type aligns with user's LLM pipeline/automation background. EU location acceptable.",
+"ats_url": "https://www.linkedin.com/jobs/view/4467185665/",
+"easy_apply": true,
+"lane": "A",
+"fit": 65,
+"lead": {
+"id": "4467185665",
+"title": "AI Engineer",
+"company": "M\u00e1tica Partners",
+"location": "Madrid, Community of Madrid, Spain",
+"url": "https://www.linkedin.com/jobs/view/4467185665/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD requirements align with candidate profile: Associate-level (not Senior), exactly 3 years experience (candidate at 2.5-3 years range, not exceeding required), English required (candidate has it), Python + LLM pipeline stack match JD requirements (Python, LLM APIs, LangChain), EU location (Madrid) with explicit remote flexibility (\"facilidades para trabajar desde donde quieras\"), active posting from named company M\u00e1tica Partners."
+},
+{
+"id": "4468250324",
+"verdict": "PASS",
+"reason": "DevRel + hands-on code hybrid. Remote, 3h CET timezone acceptable. No explicit years gate. Stack overlap: React/TypeScript (Prabhavit match), missing C#. Self-starter DevRel building function from scratch.",
+"ats_url": "https://www.linkedin.com/jobs/view/4468250324/",
+"easy_apply": true,
+"lane": "B",
+"fit": 65,
+"lead": {
+"id": "4468250324",
+"title": "Developer Advocate (m/f/d)",
+"company": "Crodox",
+"location": "Germany",
+"url": "https://www.linkedin.com/jobs/view/4468250324/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "4416688190",
+"verdict": "PASS",
+"reason": "Seeq Platform Owner: Italy hybrid location (excellent match), mid-level role, no explicit 4+ years requirement. Stack mismatch (needs Seeq expertise vs his generalist dev/data background) reduces fit, but passes all hard gates.",
+"ats_url": "https://www.syensqo.com/en/career/job-opportunities/33935",
+"easy_apply": false,
+"lane": "B",
+"fit": 45,
+"lead": {
+"id": "4416688190",
+"title": "Seeq Platform Owner",
+"company": "Syensqo",
+"location": "Spinetta Marengo, Piedmont, Italy",
+"url": "https://www.linkedin.com/jobs/view/4416688190/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "4468381335",
+"verdict": "PASS",
+"reason": "Abacus.AI Customer Success Engineer: Remote role deployable from EU. Requires hands-on technical delivery (Solutions Architect/FDE/Implementation/Sales Engineer background). Prabhavit's Python + LLM API + automation experience partial match, but lacks traditional CSE/FDE pattern. No explicit 4+ years, no Senior title, English language, no excluded stack. Passes hard gates.",
+"ats_url": "https://careers.b.abacusai.app/careers/cmse9lath0001n4086gut5qze",
+"easy_apply": false,
+"lane": "B",
+"fit": 50,
+"lead": {
+"id": "4468381335",
+"title": "Customer Success Engineer",
+"company": "Abacus.AI",
+"location": "Poland",
+"url": "https://www.linkedin.com/jobs/view/4468381335/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD contains no explicit disqualification: no stated minimum years requirement (only \"Mid-Senior level\" seniority, which spans 2-5 years), no Senior/Staff/Lead level, no non-English language requirement, no core stack mismatch (Python+LLM relevant), remote location posted, direct employer named, posting active. Pass justified."
+},
+{
+"id": "4467101441",
+"verdict": "PASS",
+"reason": "Customer Success Manager role. While it doesn't violate hard gates, the JD explicitly states 'You don't need to code'\u2014fundamentally misaligned with full-stack engineer profile. Non-technical customer success/support function, not engineering work.",
+"ats_url": "https://www.linkedin.com/jobs/view/4467101441/",
+"easy_apply": true,
+"lane": "F",
+"fit": 10,
+"lead": {
+"id": "4467101441",
+"title": "Customer Success",
+"company": "Exhibitly.ai",
+"location": "Ghent, Flemish Region, Belgium",
+"url": "https://www.linkedin.com/jobs/view/4467101441/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "No stated requirement in the JD contradicts the candidate's 2.5\u20133 years, English-only profile, or EU location openness. Seniority: \"Not Applicable\". Dutch is nice-to-have only. No tech stack specified. Role explicitly AI-native (candidate has Python/LLM pipelines). On-site Ghent, Belgium is in EU; FAQ confirms remote-friendly flexibility."
+},
+{
+"id": "4465984829",
+"verdict": "PASS",
+"reason": "AI Strategist at VC-backed consultancy. Role focused on client solutions deployment and consulting. Posting explicitly welcomes Account Executives and Solutions Managers\u2014indicates consulting/sales background, not product engineering. Mid-Senior level acceptable, but career path misaligned.",
+"ats_url": "https://www.linkedin.com/jobs/view/4465984829/",
+"easy_apply": true,
+"lane": "B",
+"fit": 15,
+"lead": {
+"id": "4465984829",
+"title": "AI Strategist",
+"company": "Mixture of Experts",
+"location": "Germany",
+"url": "https://www.linkedin.com/jobs/view/4465984829/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD makes no explicit requirement of 3+ years, Senior/Lead level, or non-English language. Location is \"Remote first... Munich hub\" with occasional travel \u2014 candidate is EU-based and open to any EU location/remote. Tech stack not specified; candidate's Python/Node/TypeScript applicable to AI consultancy work. Posting active (posted 18h ago, 81 applicants) and direct from company, not agency. Pass holds."
+}
+]

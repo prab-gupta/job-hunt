@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4443236651",
+      "title": "Software Engineer",
+      "company": "AdManage.ai",
+      "companyUrl": "https://www.linkedin.com/company/admanage-ai",
+      "location": "London Area, United Kingdom",
+      "date": "2026-07-28",
+      "url": "https://uk.linkedin.com/jobs/view/software-engineer-at-admanage-ai-4443236651"
+    },
+    {
+      "id": "4444562116",
+      "title": "Javascript Developer",
+      "company": "Stockford Recruitment",
+      "companyUrl": "https://uk.linkedin.com/company/stockford-recruitment",
+      "location": "Bath, England, United Kingdom",
+      "date": "2026-07-30",
+      "url": "https://uk.linkedin.com/jobs/view/javascript-developer-at-stockford-recruitment-4444562116"
+    },
+    {
+      "id": "4456856819",
+      "title": "Software Engineer (£75k-£100k + Equity) at Rentmigo",
+      "company": "Jack & Jill",
+      "companyUrl": "https://www.linkedin.com/company/jackandjillai",
+      "location": "London, England, United Kingdom",
+      "date": "2026-08-24",
+      "url": "https://uk.linkedin.com/jobs/view/software-engineer-%C2%A375k-%C2%A3100k-%2B-equity-at-rentmigo-at-jack-jill-4456856819"
+    },
+    {
+      "id": "4454633516",
+      "title": "Full Stack Engineer",
+      "company": "Nigel Frank International",
+      "companyUrl": "https://uk.linkedin.com/company/nigel-frank-international",
+      "location": "London Area, United Kingdom",
+      "date": "2026-08-21",
+      "url": "https://uk.linkedin.com/jobs/view/full-stack-engineer-at-nigel-frank-international-4454633516"
+    },
+    {
+      "id": "4455427874",
+      "title": "Full Stack Engineer",
+      "company": "XYZ Reality",
+      "companyUrl": "https://uk.linkedin.com/company/xyz-reality",
+      "location": "London, England, United Kingdom",
+      "date": "2026-08-19",
+      "url": "https://uk.linkedin.com/jobs/view/full-stack-engineer-at-xyz-reality-4455427874"
+    },
+    {
+      "id": "4451915641",
+      "title": "Fullstack Engineer",
+      "company": "Zinc",
+      "companyUrl": "https://uk.linkedin.com/company/zincwork",
+      "location": "London, England, United Kingdom",
+      "date": "2026-08-19",
+      "url": "https://uk.linkedin.com/jobs/view/fullstack-engineer-at-zinc-4451915641"
+    },
+    {
+      "id": "4440162017",
+      "title": "Software Engineer",
+      "company": "Big Red Recruitment",
+      "companyUrl": "https://uk.linkedin.com/company/big-red-recruitment",
+      "location": "Grantham, England, United Kingdom",
+      "date": "2026-08-06",
+      "url": "https://uk.linkedin.com/jobs/view/software-engineer-at-big-red-recruitment-4440162017"
+    },
+    {
+      "id": "4439569729",
+      "title": "FRONTEND ENGINEER",
+      "company": "Flaunt Forest Technology",
+      "companyUrl": "https://www.linkedin.com/company/flaunt-forest-technology",
+      "location": "Texas, United States",
+      "date": "2026-07-11",
+      "url": "https://www.linkedin.com/jobs/view/frontend-engineer-at-flaunt-forest-technology-4439569729"
+    },
+    {
+      "id": "4453071088",
+      "title": "Javascript Developer",
+      "company": "Woolworths Group",
+      "companyUrl": "https://au.linkedin.com/company/woolworths-group",
+      "location": "Surry Hills, New South Wales, Australia",
+      "date": "2026-08-12",
+      "url": "https://au.linkedin.com/jobs/view/javascript-developer-at-woolworths-group-4453071088"
+    },
+    {
+      "id": "4447360438",
+      "title": "Full Stack Developer",
+      "company": "BlackSheet.io",
+      "companyUrl": "https://www.linkedin.com/company/blacksheetapp",
+      "location": "Kullu, Himachal Pradesh, India",
+      "date": "2026-08-05",
+      "url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-blacksheet-io-4447360438"
+    }
+  ]
+}

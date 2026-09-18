@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://jobs.ashbyhq.com/cube/1cc840ea-cad7-4025-a4af-562f4eda3e18/application
+Company/Role: CUBE - Frontend Engineer, Agentic AI - Berlin (RegTech, cube.global)
+
+Uploaded:
+- Prabhavit_CV_CUBE.pdf (reused from a prior agent that died mid-upload in a network outage; already correctly tailored and parity-checked, 2 pages)
+- CoverLetter_CUBE.pdf (reused, 272 words, 0 em-dashes, letter draws on FlowSpace + UltraStrategy per the material rules, Urlink as a one-line aside)
+
+Answers given:
+- Sponsorship required for Germany: Yes
+- Located within 1hr commute of Berlin: No
+- Willing to work from Berlin office 10 days/month: Yes
+- Salary expectations: EUR 45,000 to 55,000 gross per year
+- Notice period: Available immediately, start two weeks after offer
+- Years experience bucket: 2-5 years (honest 3 years)
+- LinkedIn URL, location (Venice, Italy) and personal info fields filled
+
+Blockers: none. No CAPTCHA, no assessment, no anti-AI attestation.
+
+Success text (read after Submit): "Success. Your application was successfully submitted. We'll contact you if there are next steps."
+
+LEARNINGS: jobs.ashbyhq.com enforces a strict CSP (connect-src 'self' plus an allowlist, default-src 'none', frame-src restricted to a few domains) that blocks fetch/XHR and iframe tricks to a local CORS file server for resume upload. The file-upload workaround must build the PDF entirely client-side: assemble base64 in the page's own JS context via repeated small string appends (2,000-char chunks worked reliably; 20,000-char chunks caused at least one silent transcription error), decode with atob(), and verify against the source file's SHA-256 (crypto.subtle.digest) before constructing the File/DataTransfer - do not trust length checks alone, they do not catch same-length substitution errors. Also: the in-app Browser pane can have another agent's tab open concurrently (tab-1, a LinkedIn Easy Apply session) that becomes the "fronted" default target for any tool call that omits tabId - always pass tabId explicitly on every call in a shared-pane session or you will silently execute JS/screenshots against someone else's tab.

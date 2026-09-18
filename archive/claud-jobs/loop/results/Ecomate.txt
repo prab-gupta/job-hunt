@@ -1,0 +1,52 @@
+STATUS: KILLED
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4464370588/
+ATS: Google Form "HR - Work with us" (offsite from LinkedIn), 11 pages,
+https://docs.google.com/forms/d/e/1FAIpQLScog-WmGsnXuu2XglsScuQbnG6esFVa6US5eh38OsOOzs3sZA/viewform
+
+Dedupe: NEW (dedupe.py --check "Ecomate" <url>; grep -i ecomate applications.csv found no prior row).
+Posting confirmed open: jobs-guest apply-button count = 1, live LinkedIn page showed Apply control +
+"Responses managed off LinkedIn". JD (English) grepped clean for any anti-AI disclaimer.
+
+WHAT WAS BUILT (kept on disk, not used - see below):
+- Prabhavit_CV_Ecomate.tex/.pdf - 2 pages, tectonic-compiled, parity-checked, no sentences rewritten.
+  FlowSpace 5 bullets (min 3: scale, live migration, AI agents, AI listing bot, OfficeRnD/Nexudus API
+  integrations), UltraStrategy both bullets (AI-JD minimum), Get2Germany 3 bullets reordered AI-first
+  (AI-JD minimum), Urlink/Qomodo/Clubee/Tractionboard trimmed to JD-relevant bullets, low-code prefix
+  dropped from IT Skills.
+- CoverLetter_Ecomate.txt/.tex/.pdf - English (JD is English), 272 words, 0 em-dashes, no
+  no-code/low-code/Bubble wording. FlowSpace (migration + AI agents + API integrations) as lead proof
+  paragraph, UltraStrategy (CV-parsing pipeline, Affinda + Claude API + n8n/Eden AI) as second proof,
+  three years stated plainly, work authorisation and Venice/Milan availability in the close.
+
+WHAT HAPPENED:
+Opened the LinkedIn posting in my own Claude-in-Chrome tab (had to recreate it twice - it was closed
+by browser-group churn from other concurrent agents sharing the same Chrome extension session before
+I'd touched it either time; no other agent's tab was ever navigated). Clicked Apply -> offsite ATS is
+an 11-page Google Form. Page 1 of 11 restates the JD's "super fluent in Italian" as a hard, binary,
+required gate: "Are you a native Italian speaker living in Italy?" (Yes/No) plus a city text field.
+
+Per the task's LI-PICK instruction ("Italian is fine, he is conversational" - i.e. do not pre-kill on
+the JD's language framing alone), answered honestly: No (native speaker) and Venice (city). The form's
+own branching then jumped straight from page 1 to page 11/11: "Sorry, you do not fit into our
+requirements. However we invite you to keep following us..." No CV upload field, cover-letter field,
+or any other question was ever reached - this is the ATS's own explicit, automatic disqualification on
+native Italian, not a soft JD-text gate. Did not click the form's final Submit (nothing substantive was
+collected; consistent with existing KILLED precedent of not force-submitting a dead-end screen).
+Clicked "No" on LinkedIn's own "Did you finish applying?" prompt since nothing was submitted. Closed
+both of my tabs; no other agent's tabs were touched.
+
+This satisfies the brief's kill condition "a language he lacks is explicitly required," now confirmed
+by the ATS itself rather than just descriptive JD text - native Italian speaker is a level Prabhavit
+cannot claim (Hindi native, English C2, Italian conversational B1-B2).
+
+LEARNINGS: Ecomate's actual application gate is stricter than its LinkedIn posting text ("super fluent
+in Italian" on LinkedIn vs. an explicit "native Italian speaker" binary question on the real form,
+which auto-disqualifies non-native speakers on page 1 of 11 before any other field exists). Worth
+checking the real ATS page 1 before drafting materials on future Ecomate-style postings where the
+LinkedIn text is ambiguous about fluency level.
+
+Logged: applications.csv (KILLED row), answers/ecomate-2026-09-11.md. No confirmations/ files (no
+submission occurred, matching existing KILLED precedent - e.g. Ticketoo, HELIONT, Almawave rows). No
+NEEDS_YOU.md entry (this is a clean automatic disqualification, not a user-judgment blocker, CAPTCHA,
+or account wall). queue.csv, STATE.md, RULES.md, LEARNINGS.md not touched.

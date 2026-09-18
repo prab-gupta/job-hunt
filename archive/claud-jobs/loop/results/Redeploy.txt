@@ -1,0 +1,57 @@
+STATUS: KILLED
+
+URL: https://careers.redeploy.com/jobs/7489283-genai-developer (Teamtailor; LinkedIn posting
+https://www.linkedin.com/jobs/view/4428926862/ "Apply on company website" redirects here)
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Redeploy" "<linkedin url>"); grep of
+applications.csv for "redeploy" returned no prior rows.
+
+Cheap check: curl guest jobPosting API apply-button count = 1 (accepting applications).
+
+Hard gates re-checked on the live JD: all clear. No stated years-required number, title is
+"GenAI Developer" (not Senior/Staff/Lead/Principal/Manager/CTO), no MSc/PhD requirement,
+JD in English, Swedish listed only as a "Strong plus" not required, core stack (Python, RAG,
+agentic frameworks, Azure AI Services, lightweight React/Streamlit front end) is claimable,
+no anti-AI disclaimer anywhere in the JD text. Posting open, "Apply for this job" button live.
+
+Uploaded: nothing. CV (Prabhavit_CV_Redeploy.tex/.pdf) and cover letter
+(CoverLetter_Redeploy.txt/.pdf) were built and compiled per the task's override (evidence from
+at least two roles, nearest-to-JD first, not leaning on FlowSpace alone: FlowSpace RAG/agent
+work leads, UltraStrategy's CV-parsing pipeline and Urlink's client-driven delivery both kept
+as first-class evidence). Neither file was attached anywhere because the form never reached
+the upload step.
+
+Answers given: one. Opened the Teamtailor apply dialog and answered the first required
+screening question, "Are you based in Sweden?", with No (Prabhavit is based in Venice, Italy;
+this is the only honest answer). No other field was touched.
+
+Blocker (why KILLED, not NEEDS YOU): answering No to "Are you based in Sweden?" immediately
+displays, inside the form itself: "You have to meet these requirements to be able to apply.
+Even though this role is not a match, we would love to connect with you for future
+opportunities, or you can view our other open positions." Every field after that question
+(commuting-distance question, how-did-you-hear, why-Redeploy, the required RAG/agent
+description, salary, locations, name, email, phone, CV upload, cover letter, submit) becomes
+non-interactive; confirmed via DOM inspection that the underlying inputs get
+`pointer-events: none` (not disabled in HTML, but genuinely inert to any real click, and not
+something to route around with a synthetic script click or a false "Yes"). This is a
+deliberate, employer-enforced pre-screen requiring the candidate to already live in Sweden.
+It is not stated anywhere in the LinkedIn posting or the visible "About the job" JD text, so
+the queue's pre-checks and my own JD read could not have caught it before opening the live
+form. Answering "Yes" would have been a fabricated claim; forcing the pointer-events:none
+controls via script would have been gaming a rule the employer built on purpose. Both are
+excluded by the standing rules against inventing facts and against manufacturing a submission,
+so the correct move is to stop and record the kill rather than submit.
+
+LEARNINGS (new ATS trap, for whoever reads this): Teamtailor forms can carry a hidden,
+form-only hard-location pre-screen ("Are you based in <country>?") that is not visible in the
+LinkedIn mirror or the public JD and that locks (pointer-events:none) the entire rest of the
+application on a "No" answer. For hybrid/on-site Nordic-region roles sourced via LinkedIn,
+open the actual Teamtailor apply dialog and answer the first screening question before
+building CV/cover-letter materials, since a residency pre-screen can kill an otherwise-passing
+application before any upload step is reached.
+
+CV/letter status: built, compiled, parity-checked, unused. Kept on disk
+(Prabhavit_CV_Redeploy.tex/.pdf, CoverLetter_Redeploy.txt/.pdf) in case a different path to
+this employer (direct email, a different req, or a future re-post without the residency
+pre-screen) comes up later. Dropped-bullets record and full reasoning in
+answers/Redeploy-2026-09-10.md.

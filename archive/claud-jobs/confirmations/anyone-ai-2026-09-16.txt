@@ -1,0 +1,14 @@
+Anyone AI - Python Developer - Remote in Spain - Ashby application
+URL: https://jobs.ashbyhq.com/anyone-ai/9d033b49-2e74-4576-a44c-d9bbfaee6f0e/application
+Submitted: 2026-09-16, via Claude in Chrome, own tab (tabId 550850975)
+
+Success message shown on the Ashby application page after Submit Application:
+"Success
+Your application was successfully submitted. Our team will be in touch soon with the next steps."
+
+Fields submitted: Name = Prabhavit Gupta, Email = prabhavitg@gmail.com, Phone Number = +39 351 610 7807,
+Resume = Prabhavit_CV_anyoneai.pdf (uploaded via file_upload), GitHub = https://github.com/prab-gupta,
+LinkedIn = https://www.linkedin.com/in/prabhavit, Location = Italy (honest, he is based in Italy, not
+Spain; the location autocomplete offered no city-level match for Venice, only country-level "Italy"),
+Which programming language for interview = Python, What is your domain expertise = Computer Science.
+No cover letter field on this Ashby form; CoverLetter_anyoneai.pdf/.txt prepared for record.

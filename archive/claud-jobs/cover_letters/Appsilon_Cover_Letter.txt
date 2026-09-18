@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the Applied AI Engineer position at Appsilon.
+
+For the past two and a half years at FlowSpace, I built and shipped agentic AI systems to production where real users depended on them daily. My main project was an AI pipeline that ingests documents in any format (PDFs, web pages, photos, spreadsheets), uses LLM APIs with tool calling, retrieval and multi-step agentic orchestration to extract and validate structured data, and pushes results to a PostgreSQL backend after human-in-the-loop review. The pipeline handles hundreds of sources with different formats and structures. I also built RAG-backed support agents with confidence scoring that search live platform data and escalate to a person when uncertain.
+
+What draws me to Appsilon is the focus on production-grade AI agents for enterprise clients in a domain where accuracy genuinely matters. I have hands-on experience building agentic workflows with tool use and retrieval patterns in production, evaluating and iterating on pipeline quality based on real feedback, and integrating AI systems with backend services and APIs. I code daily in Python and TypeScript, have worked with both Claude and OpenAI APIs extensively, and am comfortable taking loosely defined problems and turning them into something running in production. I also have experience with B2B contract work and working directly with clients on requirements.
+
+I am based in Italy with an EU Long Term Residence Permit, have a valid passport, and am available to start immediately.
+
+Regards,
+Prabhavit Gupta

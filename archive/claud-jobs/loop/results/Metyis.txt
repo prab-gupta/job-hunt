@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463869648/ (external apply -> https://metyisag.recruitee.com/o/ai-solutions-engineer-fashion)
+Uploaded: Prabhavit_CV_Metyis.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, filename verified on form)
+Cover letter: pasted into the Recruitee "Write your cover letter here" text field, 199 words (CoverLetter_Metyis.txt/.tex/.pdf also built per brief)
+Answers given: name/email/phone (+39 351 610 7807, Italy); years of relevant experience = 1-2 years; visa sponsorship needed = Yes; gross annual salary expectation = EUR 45,000; notice period = No notice period required; English level = Advanced; speaks local language (Portuguese) = No; how did you hear = LinkedIn
+Blockers: none. No consent/marketing checkbox, no CAPTCHA.
+Confirmation: "All done! Your application has been successfully submitted!" (Application tab header changed to "Applied [checkmark]")
+LEARNINGS: LinkedIn's Apply button for this posting was an external redirect (icon shown, not "Easy Apply" text) straight to Recruitee, consistent with the JD's own recruiter disclaimer naming Recruitee as their ATS. The Recruitee phone-number field pre-fills the country dropdown from the job's location (Portugal/+351) rather than the candidate's own country, so it must be changed to Italy/+39 explicitly, not just left as prefilled. No new ATS trap beyond what PATTERNS.md already documents for Recruitee.

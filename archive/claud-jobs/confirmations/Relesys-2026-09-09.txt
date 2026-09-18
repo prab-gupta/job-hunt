@@ -1,0 +1,13 @@
+Relesys — Mid-level Frontend Engineer
+Applied via career.relesys.ai (Relesys's own careers site, reached through LinkedIn Apply -> The Hub lead form -> career.relesys.ai application form).
+
+Confirmation page text (seen after Submit Application):
+"Thanks for applying
+We have received your application and we will be reviewing it shortly.
+Have someone who can be a reference? Let us know."
+Progress indicator showed "Applied" (step 1, checked) -> "Connect" (step 2).
+
+Confirmation URL:
+https://career.relesys.ai/jobs/8295443-mid-level-frontend-engineer/applications/4c090fdf-c4b1-471a-9384-e83ce8c1f477/thanks/6f2fd7697187de4f81f993527dd3e84a883e3c7087e9e55f55c75d8bbdd95460
+
+Submitted 2026-09-09 via Claude in Chrome (tabId 550849744). No PNG saved (Chrome PNG saving unavailable per brief); this txt is the record.

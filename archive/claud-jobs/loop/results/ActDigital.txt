@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464542174/
+Uploaded: Prabhavit_CV_ActDigital.pdf (tailored from Prabhavit_CV_EN.tex, uploaded explicitly via Upload resume, not the pre-selected library resume).
+Cover letter: CoverLetter_ActDigital.pdf/.txt drafted (FlowSpace lead + UltraStrategy + Get2Germany evidence) but this Easy Apply flow had no cover letter/free-text field (4 pages: contact info, resume, additional questions, review) - not uploaded, kept on file.
+Answers given: AI years of experience = 3, Node.js years of experience = 2 (honest - Node/TypeScript work started with FlowSpace, Mar 2024), English proficiency = Professional. Phone/email pre-filled correctly (+39, prabhavitg@gmail.com). "Follow act digital" checkbox left at its default (checked) - not a marketing/newsletter checkbox per brief's specific list. Declined the post-submit "Update profile" prompt (Not now).
+Blockers: none.
+Confirmation: "Your application was sent to act digital!" - confirmations/ActDigital-2026-09-16.png and .txt.
+No new LEARNINGS - flow matched the standard Easy Apply pattern already documented.

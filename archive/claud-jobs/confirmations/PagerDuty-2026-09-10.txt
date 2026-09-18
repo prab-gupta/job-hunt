@@ -1,0 +1,15 @@
+PagerDuty — AI/ML Engineer - Lisbon (hybrid)
+URL: https://www.linkedin.com/jobs/view/4456373968/ (offsite apply -> Greenhouse: https://job-boards.greenhouse.io/pagerduty/jobs/6147470004)
+Submitted: 2026-09-10
+
+Confirmation page text (tab title "Thank you for applying", URL /jobs/6147470004/confirmation):
+"Hello and thank you for your interest in working at PagerDuty!
+We received your application and look forward to reviewing it. There are a lot of great companies hiring, and we're honored that you would consider PagerDuty.
+You can learn more about the Dutonian experience on our careers site, blog, @pagerduty, or directly from Dutonians.
+PagerDuty Recruiting"
+
+Uploaded: Prabhavit_CV_PagerDuty.pdf (Resume/CV field, replaced stale MyGreenhouse-autofilled "Prabhavit_CV-.pdf"), CoverLetter_PagerDuty.pdf (Cover Letter field).
+Answered: "Are you based in Lisbon?" -> No (correct, based in Venice, Italy; ready to relocate per standing answers).
+No salary/years-of-experience/EEO fields present on this Greenhouse form -- the entire form was First/Last Name, Preferred First Name, Email, Country+Phone, Resume/CV, Cover Letter, LinkedIn Profile, Website, and the single Lisbon-residency question.
+
+(Screenshot captured via Claude in Chrome; PNG save-to-disk not available in this environment per brief -- this txt is the record of the confirmation text observed on screen.)

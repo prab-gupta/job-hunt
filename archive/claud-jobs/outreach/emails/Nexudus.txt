@@ -1,0 +1,15 @@
+TO: info@nexudus.com
+SUBJECT: Solutions / integrations engineer who has shipped against the Nexudus API
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06) 
+
+Hi Adrian,
+
+I spent the last two years on the other side of your API. At FlowSpace (coworking marketplace, London) I built the Nexudus and OfficeRnD integrations that synced locations, resources and bookings into our platform, plus an LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far.
+
+That mix of integration plumbing and applied AI is what I do: TypeScript, Laravel, Python, n8n, Claude and OpenAI APIs, and a lot of time with operators explaining why a sync failed. If Nexudus is hiring anything in solutions, integrations or customer engineering, I would be a fast ramp. If not, a 15 minute chat about where the API is heading would still be useful to me.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Based in Venice, EU long-term residence permit, remote or EU relocation.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

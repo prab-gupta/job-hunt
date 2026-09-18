@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Hays team,
+
+I am writing to apply for the RPA Developer & AI Automation role with Havi. I want to be upfront on two points: I have three years of professional experience against the five plus asked for, and my automation background is in workflow-automation platforms and API integrations rather than UiPath or the Microsoft Power Automate stack named in the posting; I have not built production RPA bots in either tool.
+
+What transfers directly is the discipline behind them. At Get2Germany, I integrated Google APIs to track platform activity and built automation tools that search for and surface courses, internships and jobs, orchestrating the workflows in n8n and optimising the underlying database. At FlowSpace, I shipped API integrations with OfficeRnD and Nexudus for automated bookings, plus CRM and GTM automations covering lead capture, enrichment and outbound, again built and orchestrated in n8n with error handling and logging in place so a failed run does not silently drop a booking or a lead.
+
+I have also worked close to the software-engineering side of automation: version-controlled code in TypeScript and Laravel, Playwright for testing, and Claude Code as a daily development tool, so I pick up a new platform's SDK and API surface quickly rather than starting from the UI builder alone.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

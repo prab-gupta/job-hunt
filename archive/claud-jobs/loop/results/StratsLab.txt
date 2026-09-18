@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4344677212/ -> https://stratslab.traffit.com/public/form/a/d7a42a516342368a390faf1942f100b84b56413d?source=linkedin.com
+Uploaded: Prabhavit_CV_StratsLab.pdf (confirmed attached in the CV field before submit).
+Answers given: First Name Prabhavit, Surname Gupta, E-mail prabhavitg@gmail.com, Phone +39 351 610 7807, referral field left blank, consent checkbox ticked.
+Blockers: none. No account wall, no CAPTCHA.
+Confirmation: Traffit thank-you page https://stratslab.traffit.com/public/form/thankyou/25?application_timestamp=1789595930, text "Twoj formularz zostal pomyslnie przeslany!" (Polish: your form has been successfully submitted). Re-checked the page after Submit.
+Note: JD wants a finance/trading background not in Prabhavit's history; per the standing FDE-blanket-apply rule this did not kill the row. Letter states the gap honestly, leads with FlowSpace + Clubee.
+LEARNINGS: none new - stratslab.traffit.com is a plain guest form, no ATS trap encountered.

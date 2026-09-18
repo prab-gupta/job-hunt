@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+
+LinkedIn posting: https://www.linkedin.com/jobs/view/4424885800/ (OFFSITE)
+ATS apply URL: https://joblink.allibo.com/ats9/job-offer.aspx?DM=1570&SG=6&FT=100598&ID=179790&LN=IT
+Confirmation page: https://am9.allibo.com/web/ApplicationV2/ApplicantCompletionResult?dm=bsSzwA0UGWvL2joH2wbc8Q__&ln=it&tid=uhFt@5-l5RRgtHAAyZe6Ew__
+
+Dedupe: python3 loop/dedupe.py --check "Wide Group" "https://www.linkedin.com/jobs/view/4424885800/" -> NEW. grep -i "wide group" applications.csv -> no prior rows. Clean, not a dup.
+
+Gates: posting open (curl apply-button count = 1, LinkedIn page showed Apply/OFFSITE, ATS form loaded). Associate level, 1-5 yrs required (fits 3). No anti-AI disclaimer in JD. JD is Italian (per task instructions: Italian JD -> Italian letter, English CV).
+
+Uploaded: Prabhavit_CV_WideGroup.pdf (tailored from Prabhavit_CV_EN.tex, tectonic-compiled, 2 pages, verbatim bullets, FlowSpace reordered AI-agent bullets first, 2 UltraStrategy bullets kept, 2 Get2Germany bullets kept per AI-JD rule, low-code item dropped from Additional Info since JD has zero relation to it) and CoverLetter_WideGroup.pdf (Italian, tectonic-compiled 1 page) to the same multi-file dropzone on the first-stage Allibo form (no separate cover-letter field existed there). Cover letter text also pasted into the "Presentazione" free-text box on the second-stage profile form.
+
+Answers given: Nome/Cognome/Email; phone +39 351 610 7807; DOB 21/02/2001; Laurea triennale / Area Economica; Con esperienza, Anni di esperienza = 3; Iscritto Collocamento Mirato L.68/99 = No (factual, no "prefer not to say" offered); Localita Venezia, Nazione Italia (Indirizzo street field required but no street address on file -- used "Venezia" rather than fabricate one); Italiano = Autonomia CEFR B1/B2, Inglese = Padronanza CEFR C1/C2, Tedesco/Spagnolo/Francese = Nessuna conoscenza; privacy consent checked.
+
+Blockers: none. No CAPTCHA, no account wall, no assessment, no anti-AI attestation. No salary field on this ATS (JD's own RAL band, 30,000-45,000 EUR, is below the standing 45,000-55,000 EUR band; nothing to align since no field asked).
+
+Files: confirmations/WideGroup-2026-09-11.txt (success text, screenshot save-to-disk did not return a retrievable path in this Chrome session per the brief's known limitation), answers/widegroup-2026-09-11.md, applications.csv row appended, Prabhavit_CV_WideGroup.tex/.pdf, CoverLetter_WideGroup.tex/.txt/.pdf.
+
+LEARNINGS: Allibo ATS (joblink.allibo.com / am9.allibo.com) runs a two-stage flow: a minimal "Invia il Tuo CV" form (name/email/CV upload) that on submit redirects into a fuller "Completa i tuoi dati" profile form (phone, DOB, education, address, language CEFR levels, an Italian disability-employment-registration Si/No question under L.68/99, and a free-text "Presentazione" box). Both stages must be completed and confirmed for the application to register; the first stage alone is not a submission. The CV upload dropzone on stage 1 accepted two files at once (CV + cover letter PDF), useful when no separate cover-letter field exists.

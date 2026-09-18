@@ -1,0 +1,6 @@
+Accenture UK & Ireland - Forward Deployed Engineering Manager (Dublin, req R00345674)
+URL chain: https://www.linkedin.com/jobs/view/4453260021/ -> https://www.accenture.com/ie-en/careers/jobdetails?id=R00345674_en -> https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Forward-Deployed-Engineer_R00345674-1/apply
+Blocker: "Apply Manually" leads straight to Workday step 1 of 6 "Sign In" (Sign in with Google or email+password, with a Create Account option), no guest-apply path. Same wall as every other Accenture Workday requisition tried this month (Italia, DACH, España, Baltics, Poland, Slovakia, UK&I Specialist).
+Status: NEEDS YOU. Account creation is user-only per the brief; nothing was submitted.
+Materials ready: Prabhavit_CV_AccentureUKIMgr.pdf, CoverLetter_AccentureUKIMgr.pdf/.txt
+Not submitted: 2026-09-17

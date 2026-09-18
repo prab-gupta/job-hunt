@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4458630689/ -> https://jobs.ashbyhq.com/Solvd/f243e7ac-807a-4442-aca8-356b6f18605a/application
+Uploaded: Prabhavit_CV_Solvd.pdf (resume field). No cover-letter field on this ATS; CoverLetter_Solvd.pdf/.txt built and kept on file.
+Answers given: Full Name Prabhavit Gupta, email prabhavitg@gmail.com, Location Venice Venice Italy (remote-from-Italy pitch), English level C1-C2, legal right to work where role is based = Yes authorised without sponsorship (Remote role, stated location Italy), Compensation Expectations 50000, experience statement = built production GenAI solutions but did not lead discovery/solutioning, past-2-years primary engineer on production GenAI = Yes, data-processing consent ticked.
+Confirmation: "Success - We empower passionate people to thrive in the AI era! Your application was successfully submitted!"
+See answers/solvd-2026-09-16.md, confirmations/Solvd-2026-09-16.txt.

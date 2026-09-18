@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am applying for the AI Engineer role at Axians Portugal. Maintaining and evolving a portfolio of production AI agents for back-office financial operations is the part of AI engineering I have actually lived in: not the demo, but the months after it, when reasoning flows, tool calls, prompts and evaluations have to keep working.
+
+At FlowSpace I built and operated an agentic document pipeline in Python and TypeScript that takes brochures in any format, runs multi-step extraction with tool calling, structured outputs and retrieval, and pushes validated records to the backend after a human review step. It processed 900+ records while the platform grew from 2,000 to 4,500+ users. I also built RAG-backed support agents that answer against live data and escalate on low confidence, and most of the ongoing work was reliability: handling partial API failures, stopping the agent from answering what it could not verify, and evaluating every prompt change against real transcripts before shipping it.
+
+Your stack maps closely to that work: Python agent development, prompt and configuration engineering, evaluation frameworks and regression suites, REST integrations, and close collaboration with business stakeholders. I have working knowledge of Docker and Kubernetes deployments and of LangChain, and I ramp quickly on frameworks such as LangGraph because the underlying patterns (task decomposition, memory, guardrails, human-in-the-loop) are the ones I already build by hand.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit so no sponsorship is needed in Portugal, and I am open to relocating to Porto. Advanced English, available immediately.
+
+Regards,
+Prabhavit Gupta

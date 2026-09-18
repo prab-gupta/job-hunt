@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4458792307/ (LinkedIn) -> https://www.creatio.com/company/careers/job-openings/ai-consultant?source=LinkedIn (Creatio's own careers page, no ATS branding)
+
+What happened:
+- Dedupe check: NEW.
+- LinkedIn posting confirmed live: listed as Portugal/Remote/Full-time on the card, "Over 100 people clicked apply", Apply button present.
+- Clicked Apply -> redirected offsite to a simple inline "Share your CV" form on creatio.com. No account creation, no ATS wall.
+- Discovered the employer's own page text says "The role is based in Poland" (contradicts the LinkedIn location tag of Portugal). Treated the employer page as authoritative: rewrote CoverLetter_Creatio.tex/.txt (and rebuilt the PDF) to reference Poland instead of Portugal, including the work-authorisation transparency line. Re-checked 0 em-dashes after the edit.
+- Filled First Name (Prabhavit), Last Name (Gupta), Email (prabhavitg@gmail.com), Phone (+39 351 610 7807), LinkedIn URL (https://www.linkedin.com/in/prabhavit/) via form_input; uploaded Prabhavit_CV_Creatio.pdf via file_upload to the "Attach your CV*" input.
+- No cover letter field existed on this form at all (only CV + LinkedIn URL) - CoverLetter_Creatio.pdf/.txt were prepared but had no field to go into.
+- Reviewed all fields on screen (values + uploaded filename) before clicking Share.
+- Submit succeeded: page showed "THANK YOU! Your application was successfully sent."
+
+Materials used:
+- Prabhavit_CV_Creatio.tex/.pdf - AI/ML skills category led; per the "JD is AI/automation" tailoring rule, kept both UltraStrategy bullets and all Get2Germany bullets (>=2 each), FlowSpace Product/Technical bullets reordered so AI-agent and CRM/GTM-automation bullets lead; parity-diffed against Prabhavit_CV_EN.tex, no invented content. 2 pages with photo.
+- CoverLetter_Creatio.tex/.pdf/.txt - English, two proof paragraphs (Urlink + FlowSpace, UltraStrategy as a one-line aside), Poland work-authorisation transparency line, 0 em-dashes.
+- answers/creatio-2026-09-17.md - full tailoring log, including the Portugal-vs-Poland correction.
+- confirmations/Creatio-2026-09-17.txt - success text (no PNG: Claude in Chrome cannot save screenshots to disk in this session, per the brief's browser-alternative section).
+
+LEARNINGS line worth adding: a LinkedIn posting's displayed location/country can disagree with the actual employer application page's stated location (Creatio AI Consultant: LinkedIn card said Portugal, creatio.com's own JD text said "The role is based in Poland"). Always re-read the destination page's own location line before writing country-specific work-authorisation text, not just the LinkedIn card or a prefetched JD snapshot.

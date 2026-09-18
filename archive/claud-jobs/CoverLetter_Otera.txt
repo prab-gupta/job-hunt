@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Otera hiring team,
+
+I am applying for the Senior Solutions Engineer, Forward Deployed Agentic Engineer role. I want to be upfront: I have three years of professional experience, and the shape of that work has consistently been sitting inside a client's environment and delivering production AI solutions against their real data, from discovery through deployment.
+
+At FlowSpace I built and still own an AI listing bot that takes a workspace provider's brochure, in any format, and drafts a structured listing with a human in the loop before it reaches the backend, producing more than 900 draft listings, and I built support AI agents that answer customer queries from live platform data in production, escalating to a human when confidence is low. I also automated the migration of the live marketplace itself off a legacy stack onto Next.js and Laravel while the product stayed live, and shipped OfficeRnD and Nexudus API integrations for automated bookings.
+
+At UltraStrategy I built a CV-parsing pipeline integrated into the platform end to end: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific kinds of roles, the result is shown in the frontend, and a standardised Ultra CV is generated, using Affinda and the Claude API for parsing and generation and n8n and Eden AI for the surrounding orchestration. Alongside that, at Get2Germany I integrated Google APIs and built AI tools that find courses, internships and jobs, using n8n to orchestrate the automations.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and comfortable working remotely with clients across Europe in the meantime.
+
+I would welcome the chance to talk through how I would approach embedding with one of Otera's enterprise customers to deliver a first agentic workflow.
+
+Regards,
+Prabhavit Gupta

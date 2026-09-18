@@ -1,0 +1,13 @@
+NEEDS YOU — account creation wall, no submission made.
+
+Job: Platform AI Engineer, Market & Patient Access, MSD Czech Republic, Prague, Czechia
+LinkedIn posting: https://www.linkedin.com/jobs/view/4465068619/ ("Responses managed off LinkedIn" — not Easy Apply)
+Real ATS: Workday — https://msd.wd5.myworkdayjobs.com/en-US/SearchJobs/job/CZE---Central-Bohemian---Prague-IT-Riverview/Platform-AI-Engineer---Market---Patient-Access_R416895-1/apply (req R416895)
+
+Flow taken: LinkedIn "Apply on company website" (external-link icon, not Easy Apply) -> new tab opened to MSD's Phenom careers site (jobs.msd.com/gb/en/job/MSD1GBR416895ENGB/Platform-AI-Engineer-Market-Patient-Access), title/location/full JD confirmed matching -> clicked "Apply Now" -> redirected to MSD's Workday tenant "Start Your Application" screen (Autofill with Resume / Apply Manually / Use My Last Application) -> clicked "Apply Manually" per the brief -> lands directly on a mandatory "Create Account/Sign In" step (Email Address, Password, Verify New Password, all required) before any application field, job question, or resume upload is shown. No guest/apply-without-account path exists on this tenant.
+
+No account created, per brief guardrails. Tab left open for Prabhavit: tabId 550849918 (Chrome, MCP tab group), on the Create Account screen, nothing filled in.
+
+Screenshot: visually confirmed via computer screenshot showing the Workday "Create Account" form (Password Requirements list, Email Address, Password, Verify New Password, Create Account button, Sign In / Forgot password links), none filled. PNG not saved to disk (Claude in Chrome screenshots in this session are not saved as files); this txt is the record.
+
+CV and cover letter prepared regardless (for use once Prabhavit creates the account): Prabhavit_CV_MSD.pdf (2 pages, tailored from Prabhavit_CV_EN.tex) and CoverLetter_MSD.txt / CoverLetter_MSD.pdf (1 page, built from CoverLetter_MSD.tex via tectonic).

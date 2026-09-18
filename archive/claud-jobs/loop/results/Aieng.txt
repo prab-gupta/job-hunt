@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462241064/
+Uploaded: Prabhavit_CV_Aieng.pdf (tailored from Prabhavit_CV_EN.tex, uploaded explicitly via Upload resume - the form had defaulted to the previously-uploaded ActDigital resume, overridden).
+Cover letter: CoverLetter_Aieng.pdf/.txt drafted (UltraStrategy lead + FlowSpace, honest line about no direct vLLM/Ollama experience) but this Easy Apply flow (5 pages: contact, resume, additional questions, work authorization, review) had no cover letter/free-text field - kept on file, not uploaded.
+Answers given: Bachelor's Degree = Yes, English proficiency = Professional, Italian proficiency = Conversational, comfortable commuting to job location = Yes, Engineering experience years = 3, Software Development experience years = 3, valid driver's license = No, willing to undergo background check = Yes, can start immediately = Yes.
+Blockers: none.
+Confirmation: "Your application was sent to Aieng!" - confirmations/Aieng-2026-09-16.png and .txt.
+No new LEARNINGS.

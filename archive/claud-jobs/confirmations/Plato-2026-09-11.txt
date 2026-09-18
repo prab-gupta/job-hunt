@@ -1,0 +1,8 @@
+THANK YOU
+We have received your application and will contact you shortly!
+
+Source: https://platoapp.jobs.personio.de/job/2758311 (Personio application form)
+Confirmed via accessibility-tree read after Submit Application click, 2026-09-11.
+Note: no PNG screenshot available — the Browser pane could not composite frames in this
+non-interactive session (screenshot tool returned "Browser pane is not displayed"). This
+text confirmation was captured via get_page_text and read_page immediately after submit.

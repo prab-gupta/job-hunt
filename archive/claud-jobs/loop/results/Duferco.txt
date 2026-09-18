@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4463234704/
+Real ATS: Talentics - https://duferco.talentics.ai/job/ce2e4e2d-3560-47d1-8655-400dce5e2d9f
+
+Gates re-checked on the live JD (LinkedIn guest API + Talentics posting, both identical text): Seniority "Associate", no numeric years requirement stated, no MSc/PhD requirement, JD entirely in English with no Italian-language requirement, location Milan or Lugano (Hybrid) - Milan works. Stack (Python preferred, LLMs, RAG, agents, vector DBs, Postgres, AWS) is all in the claimable list. No KILL condition met. Fit 85 as assigned.
+
+Uploaded: nothing. No application form was ever reached.
+
+Answers given: none. No form field was ever shown.
+
+What happened: LinkedIn's "Apply" button (marked "Responses managed off LinkedIn", not Easy Apply) opened the company's real ATS, Talentics, in a new tab. Per the task's fallback rule I closed that stray tab and navigated my own tab to the same Talentics URL directly. The Talentics job page offers only "Login to Apply". Clicking it lands on https://duferco.talentics.ai/auth, a "Welcome Back" screen with only EMAIL/PASSWORD fields, "Sign In", and "Don't have an account? Sign Up" - no SSO, no guest-apply path. This is an account-creation-or-login wall, a user-only blocker per the brief; no account was created and no sign-in was attempted.
+
+Materials prepared and left ready for the user:
+- CV: Prabhavit_CV_Original_EN.pdf (the only CV to use).
+- Cover letter: CoverLetter_Duferco.txt (186 words, no em-dashes, no "no-code"/"low-code"/"Bubble"; covers the 900+ listing AI pipeline, RAG support agents with human escalation, OfficeRnD/Nexudus integrations, Next.js + Laravel + Supabase + Python stack; states Venice-based, authorised to work in Italy, can be in Milan). Not pasted anywhere - no message/cover-letter field was ever reached.
+- Standing answers ready: work authorisation Yes / sponsorship No (Milan/Italy role), years 3, salary EUR 50,000, notice immediate/2 weeks.
+
+Blockers: account-creation/login wall on duferco.talentics.ai (Sign In or Sign Up only, no SSO, no guest checkout). Nothing else attempted past this point.
+
+LEARNINGS: New ATS trap - Talentics (duferco.talentics.ai) gates its entire application flow behind account sign-in/sign-up with no guest path and no SSO option, discoverable only after following the LinkedIn "Apply" (not "Easy Apply") redirect. Add "Talentics" to ats-guides as a login-wall ATS if it recurs.

@@ -1,0 +1,16 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4429845467/
+Reason: dup - prior SUBMITTED row for the same requisition already exists in applications.csv.
+
+Dedupe check:
+- python3 loop/dedupe.py --check "Almawave" "https://www.linkedin.com/jobs/view/4429845467/" -> NEW (URL itself not seen before, since today's posting is on a different ATS)
+- grep -i almawave applications.csv -> found:
+  Almawave,AI Product Support Engineer,Rome Hybrid,2026-08-26,intervieweb.it,Submitted
+
+Same company (Almawave), same exact role title (AI Product Support Engineer), same location type (Rome Hybrid), already SUBMITTED 2026-08-26 (16 days ago, well inside the 60-day window) via the intervieweb.it ATS. Today's task pointed at the same title reposted through LinkedIn -> Almaviva careers (offsite, possibly SuccessFactors). Per APPLY_AGENT_BRIEF.md dedupe section: a row for this company with status SUBMITTED for the same requisition is a stop, regardless of which ATS carried it this time.
+
+LI-PICK does not override this: brief's LI-PICK section says "Kill ONLY when the posting is closed, the same requisition is already SUBMITTED, or a language he lacks is required" - this is exactly the already-SUBMITTED case.
+
+No CV, no cover letter, no browser session opened (task said Claude in Chrome, but browser ownership rule says stop before opening if a hard gate kills the task pre-draft). The saved Italian JD at /private/tmp/claude-501/-Users-prab/237a3cff-dd16-4810-8bd3-960e29fe6c44/scratchpad/jd/4429845467.txt was not needed and is left untouched. No answers/ file needed (no new claims made). No confirmations/ files (nothing submitted).
+
+Files touched: applications.csv (appended one row, status KILLED), loop/results/Almawave.txt (this file). No pre-existing files were modified or deleted.

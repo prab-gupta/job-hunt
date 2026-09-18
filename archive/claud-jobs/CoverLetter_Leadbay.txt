@@ -1,0 +1,11 @@
+Dear Leadbay team,
+
+I want to be the person who sits inside an account until their reps open Leadbay before their CRM. At FlowSpace, a workspace marketplace, I already owned that loop: CRM and GTM automations for lead capture, enrichment, routing, and outbound, OfficeRnD and Nexudus integrations for automated bookings, and support AI agents against live platform data, with a human in the loop for anything the agent was not confident about. None of it was a template. Each integration was built around how that specific team actually worked, not a generic workflow handed to everyone.
+
+I also built the AI listing bot that is now FlowSpace's main growth lever. Feed it a brochure in any format, PDF, website, photo, or spreadsheet, and it drafts a full listing with a human checking the output before it goes live. The same pattern, turning a messy document into structured data, is what I shipped as a public side project at github.com/prab-gupta/llm-doc-parser, a tool that parses a document into structured JSON end to end.
+
+Three years in, I have worked across eight companies in seven countries, so picking up a new account and a new team's actual workflow fast is normal for me. I am ready to relocate to Paris. I hold Italian EU long-term resident status, am not currently authorised to work in France, and would need the employer-side permit process, which I am ready to start immediately.
+
+I would like to talk about which account I would land first.
+
+Prabhavit Gupta

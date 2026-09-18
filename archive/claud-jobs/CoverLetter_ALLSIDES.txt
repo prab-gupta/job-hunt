@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am applying for the Software Engineer role at ALLSIDES in Bressanone.
+
+At FlowSpace, a coworking marketplace, I have spent three years building across the full stack: TypeScript and Next.js on the frontend, Node.js and Laravel on the backend. I took over the live product and led the migration of its data off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and moving each entity through API endpoints or CSV exports while the platform kept running, growing from 2,000 to over 4,500 users. I also integrated the OfficeRnD and Nexudus APIs for automated bookings, the kind of third party integration your listing describes.
+
+At Get2Germany I integrated Google APIs to track platform activity and, using n8n, built automation tools that helped users find courses, internships and jobs, alongside work optimising the underlying database. Both roles gave me hands on practice with REST APIs, Git, Docker and the full development lifecycle from planning through deployment and debugging, which is what this role calls for. I have also worked directly with clients and internal teams to turn requirements into working software, and I like working close to the product rather than at a remove from it.
+
+I am based in Venice, Italy, and ready to relocate to Bressanone for this in person role. I hold Italian EU long term resident status, so I am authorised to work in Italy without sponsorship.
+
+Regards,
+Prabhavit Gupta

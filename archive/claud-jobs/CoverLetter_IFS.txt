@@ -1,0 +1,16 @@
+Dear IFS Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer, New Capabilities role. My background is in embedding directly with a live product and shipping working solutions under real constraints, which is the core of what this role needs.
+
+At FlowSpace, a coworking marketplace, I took over a live platform and automated its data migration off a legacy stack onto Next.js and Laravel. I mapped the old data structure to the new one, chose the migration path per entity, and drove the cutover while the product stayed live and grew from 2,000 to 4,500plus users, working through the kind of tight timelines and ambiguous constraints that come with changing a system customers are actively using.
+
+At Urlink I worked as project manager and developer on an AI assisted build, using Next.js, Supabase and bolt.new, translating client requirements directly into the platform's logic and automations, which mirrors the kind of direct customer discovery and scoping this role asks for.
+
+I am used to working close to the metal of a live system, debugging against real data, and reporting back what I learn to improve the product. My core stack has been TypeScript, Next.js, Laravel and Python, rather than C# and .NET, but I have built and shipped production features end to end under deadline pressure, and I use AI assisted and agentic tools, including the Claude API and Claude Code, as part of my daily workflow.
+
+I hold Italian EU long term resident status and would need the applicable employer side permit or sponsorship process to work in the Netherlands. I am ready to relocate to 's-Hertogenbosch and complete that process.
+
+Thank you for considering my application.
+
+Best regards,
+Prabhavit Gupta

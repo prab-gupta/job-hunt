@@ -1,0 +1,23 @@
+STATUS: KILLED
+
+URL (task target): https://www.linkedin.com/jobs/view/4445238578/ (Berlin hybrid, "Product AI Workflow Specialist (n8n)")
+London twin (not applied separately, same JD): https://www.linkedin.com/jobs/view/4445240425/
+Known ATS for this requisition: Ashby, https://jobs.ashbyhq.com/moss/ab9fc0b1-a590-421e-afb3-4b9960929efb
+
+Reason: duplicate / already-handled requisition.
+- dedupe.py --check "Moss" "https://www.linkedin.com/jobs/view/4445238578/" -> HIT COMPANY
+- grep -i ",Moss" applications.csv found a prior row: 2026-08-26, Moss, "Product AI Workflow Specialist (n8n)", Ashby, ab9fc0b1-a590-421e-afb3-4b9960929efb, status REJECTED. Same company, same exact role title, same ATS, same Berlin/London hybrid location -> same requisition, 16 days ago.
+- That prior row's own notes record Ashby's stated policy: "we do not consider repeat applications after an initial rejection within a 2-week timeframe." Reapplying risks another Ashby-side auto-rejection on the same requisition.
+- Per APPLY_AGENT_BRIEF.md dedupe section: a REJECTED row for the same requisition is a stop by itself (the 60-day window only gates the separate "same level, different requisition" case, not this one).
+- Task also explicitly said: "Ashby: check applications.csv for a Moss submission in the last 90 days first" - did that, found the match above.
+
+Verification done anyway for the record (not needed to reach the kill decision):
+- Cheap check: curl -s -A "Mozilla/5.0" https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4445238578 | grep -c apply-button = 1 (posting open, not closed).
+- JD text: fetched and compared to the already-saved London-twin JD at scratchpad/jd/4445240425.txt - identical role (Product AI Engineer / n8n, Make, Zapier automation, LLM API integration into internal workflows). No anti-AI disclaimer present in the JD.
+- LI-PICK queue row, so seniority/fit would not have been a blocker either way; the dup rule is what kills it.
+
+What was NOT done (correctly, since killed before drafting): no CV built, no cover letter drafted, no browser/tab opened (Chrome untouched), no form filled, no screenshots taken, no answers file written.
+
+applications.csv: appended one row, 2026-09-11, Moss, Product AI Workflow Specialist (n8n), Ashby, https://www.linkedin.com/jobs/view/4445238578/, KILLED, "not applied - dup", n/a, no, notes as above.
+
+LEARNINGS: none new - existing dedupe/cooldown logic in applications.csv already covered this case correctly; no ATS trap encountered.

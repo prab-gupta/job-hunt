@@ -1,0 +1,16 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468871957/ (EventsIT / CM.com, Solution Engineer, Breda NL)
+Dedupe: `python3 loop/dedupe.py --check "EventsIT" "https://www.linkedin.com/jobs/view/4468871957/"` -> NEW
+         `python3 loop/dedupe.py --check "CM.com" "https://www.linkedin.com/jobs/view/4468871957/"` -> NEW
+Uploaded: nothing. Answers given: none.
+Blocker/reason: hard gate on the prefetched JD (scratchpad/jd/4468871957.txt), no browser needed.
+  1. "Fluent in English and Dutch, based in Breda." Dutch fluency required; Prabhavit has no Dutch
+     (English C2, Italian conversational only). Non-English language required = KILL per brief.
+  2. "Note: For this position, we can only consider candidates who already hold a permanent work
+     and residence permit for the Netherlands." This rules out sponsorship entirely; Prabhavit
+     holds Italian EU long-term resident status, not a Dutch permit, and there is no path to
+     apply the standard work-authorisation transparency line here since the JD explicitly excludes
+     anyone without the permit already in hand.
+  3. Role is on-site in Breda ("We work on-site"), not remote-from-Italy.
+Killed before opening any application form; no CV or letter built, nothing filled or submitted.
+No new ATS trap; nothing to add to LEARNINGS.md.

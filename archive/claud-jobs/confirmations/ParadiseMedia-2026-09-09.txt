@@ -1,0 +1,6 @@
+You have successfully applied to Full-stack Developer (AI-native)
+
+URL at confirmation: https://ats.rippling.com/paradise-media-recruitment/jobs/1503d0d8-ca42-4d0e-b1f9-da8df7ba8964/apply?jobSite=LinkedIn&jobBoardSlug=paradise-media-recruitment&jobId=1503d0d8-ca42-4d0e-b1f9-da8df7ba8964&step=confirmation
+Confirmed via green checkmark banner and toast: "You have successfully applied to Full-stack Developer (AI-native)"
+ATS: Rippling (ats.rippling.com), tenant paradise-media-recruitment
+Reached via LinkedIn job https://www.linkedin.com/jobs/view/4400778383/ -> Apply button (external redirect, not Easy Apply)

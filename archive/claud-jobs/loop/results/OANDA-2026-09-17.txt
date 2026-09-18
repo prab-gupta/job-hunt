@@ -1,0 +1,10 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4467991514/ -> https://oanda.wd10.myworkdayjobs.com/en-US/External/job/Krakow/Associate-Software-Engineer--Reactjs--Python-_JR000903/apply/applyManually
+ATS: Workday (oanda.wd10.myworkdayjobs.com)
+Uploaded: nothing (blocked before the upload step)
+Blocker: Workday account wall. The Apply modal's "Apply Manually" option (chosen specifically to avoid resume autofill/account issues) still lands on a "Create Account/Sign In" step requiring Email Address, Password and Verify New Password before any other step (My Information, My Experience, Application Questions, Voluntary Disclosures, Review) is reachable. No guest path. Account creation and passwords are user-only actions per policy, so the agent stopped here without creating an account.
+Materials ready: Prabhavit_CV_OANDA.pdf (tailored) and CoverLetter_OANDA.pdf/.txt (tailored, FlowSpace+Clubee proof, Poland transparency line, Python/FastAPI framed as working knowledge only).
+Answers given: none (blocked pre-form).
+Dedupe: NEW (python3 loop/dedupe.py --check "OANDA" "https://www.linkedin.com/jobs/view/4467991514/").
+Confirmation/detail file: confirmations/OANDA-2026-09-17.txt (blocker description + resume steps for the user).
+LEARNINGS: not added as new -- matches the already-documented 09:02 pattern ("Workday walls confirmed... sign-in even after Apply Manually", Leonardo wd3 / AVEVA wd3). This confirms the same behavior on a third Workday tenant (oanda.wd10): "Apply Manually" does not bypass account creation on this instance either.

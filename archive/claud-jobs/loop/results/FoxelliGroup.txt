@@ -1,0 +1,12 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4466727243/
+
+Verifier-flagged account-wall row (rows 2-4 task set). Re-checked hard gates on the live JD before touching a browser at all, per the brief's order of work (gates before materials). apply-button count 1 (open). No anti-AI disclaimer. Title "AI Engineer (Technical Product Owner)" is not Senior/Staff/Lead/Principal - would otherwise have passed the title gate.
+
+KILLED on the JD's own ELIGIBILITY & LOCATION REQUIREMENTS section. The role is stated as 100% remote, but Foxelli lists the specific countries it hires in: "Albania, Bosnia and Herzegovina, Croatia, Czech Republic, Estonia, Greece, Georgia, Kosovo, Latvia, Lithuania, Moldova, Montenegro, North Macedonia, Poland, Portugal, Romania, Slovakia, Malta, Slovenia, Serbia, Cyprus, Bulgaria, Hungary, Netherlands, the United Kingdom, and South Africa" and pays via Revolut in those countries only. Italy is not on that list. This is a harder exclusion than the brief's general "outside the EU, no remote-from-Italy" gate - it is the employer's own explicit statement that they cannot legally/operationally hire someone based in Italy for this remote role, so proceeding would be pointless.
+
+Dedupe: NEW (dedupe.py clean, no Foxelli row in applications.csv before this one).
+
+No CV or cover letter built, no browser tab opened - the JD text alone (fetched via the jobs-guest API, apply-button count already confirmed) was sufficient to make the kill call, consistent with the brief's instruction to apply hard gates before drafting any material.
+
+See applications.csv for the full note.

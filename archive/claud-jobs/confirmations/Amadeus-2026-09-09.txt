@@ -1,0 +1,13 @@
+NEEDS YOU — account creation wall, no submission made.
+
+Job: Product Owner, Amadeus, Lisbon, Portugal
+LinkedIn posting: https://www.linkedin.com/jobs/view/4463505540/ ("Responses managed off LinkedIn" — not Easy Apply)
+Real ATS: Workday — https://amadeus.wd502.myworkdayjobs.com/en-US/jobs/job/Lisbon/Product-Owner_R37221/apply/applyManually?source=LinkedIn (requisition R37221)
+
+Flow taken: LinkedIn Apply button -> new tab opened directly to Amadeus's Workday posting (no LinkedIn Easy Apply offered) -> clicked Workday's "Apply" -> modal offered "Autofill with Resume" / "Apply Manually" / "Use My Last Application" -> clicked "Apply Manually" (the closest thing to a guest path) -> Workday immediately requires "Create Account/Sign In" as application step 1 of 7 (Email Address, Password, Verify New Password, all required) before any application field, job info, or resume upload is shown.
+
+No guest "apply without account" path exists on this ATS instance — "Apply Manually" still lands on the same Create Account gate as "Autofill with Resume". Per brief: no account creation performed. Tab left open for Prabhavit: tabId 550849777 (Chrome, MCP tab group), on the Create Account screen.
+
+Screenshot: not saved as PNG (Claude in Chrome does not support saving screenshots to disk in this session); this txt is the record, screenshot was visually confirmed showing the Create Account form with Email Address / Password / Verify New Password fields, none filled.
+
+Cover letter prepared regardless (for use once Prabhavit creates the account): CoverLetter_Amadeus.txt and CoverLetter_Amadeus.pdf (1 page, built from CoverLetter_Amadeus.tex via tectonic).

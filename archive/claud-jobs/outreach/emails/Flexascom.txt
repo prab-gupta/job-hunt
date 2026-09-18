@@ -1,0 +1,15 @@
+TO: info@flexas.com
+SUBJECT: Marketplace supply automation, proptech
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06) 
+
+Hi Marcel,
+
+Flexas and FlowSpace solve the same problem in different markets: getting office supply listed, accurate and bookable. At FlowSpace (London) I built the AI pipeline that ingests operator brochures in any format and drafts validated listings after human review (900+ records), the support agents that answer availability questions from live data, and the OfficeRnD and Nexudus integrations behind bookings. I also led the move off a legacy stack onto Next.js and Laravel while the product stayed live.
+
+If Flexas is hiring an engineer for supply automation, integrations or applied AI, I can show working code on day one. If not, I would still appreciate 15 minutes on how you handle listing quality at scale.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Venice based, EU long-term residence permit, open to Amsterdam or remote.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

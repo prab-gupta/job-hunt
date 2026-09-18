@@ -1,0 +1,24 @@
+STATUS: SUBMITTED
+URL: https://jobs.ashbyhq.com/alan/6ecdf5b5-7091-4daa-8446-4589bc16cd46/application (LinkedIn source posting: https://www.linkedin.com/jobs/view/4465032581/, offsite apply redirecting to Alan's own Ashby-backed careers site)
+Role: Fullstack Software Engineer - Work Environment (x/f/m), Alan. Ashby location field: "Anywhere in France, Belgium, Spain" — same requisition LinkedIn shows for Spain (Basque Country) and Portugal.
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (Resume field).
+
+Cover letter: no upload field existed on this Ashby form, so the full cover letter text was pasted into the "Additional information" free-text field. CoverLetter_Alan.pdf/.tex/.txt were still built and saved to ROOT per instructions (1 page, 199 words, 0 em-dashes).
+
+Answers given (full detail in answers/alan-2026-09-09.md):
+- Name/email/phone/current company (FlowSpace)/current location (Venice)/LinkedIn/GitHub/Portfolio (llm-doc-parser demo) — standard identity fields.
+- How did you hear about opportunities at Alan? -> LinkedIn jobs.
+- "Tell us about a moment or experience that sparked your interest in healthcare" (required essay) -> honest answer about navigating multiple EU healthcare/insurance systems while relocating for work across eight countries, tied to Alan's prevention mission, no fabricated medical story.
+- "Are you currently able to legally work for any employer in either France, Belgium or Spain?" -> No. Rationale: Italian EU long-term resident status does not auto-grant work rights in another EU country; transparency line (employer-side permit/sponsorship needed, ready to relocate) included in the cover letter text.
+- "Are you currently based in (or willing to relocate to) France, Spain or Belgium?" -> Yes (true, standing relocation answer).
+- "Describe a specific project you're proud of..." (required essay) -> the FlowSpace AI listing pipeline (900+ draft listings, full-stack: extraction/orchestration, Next.js/TypeScript review UI, Laravel API).
+- "Do you have a minimum of 3 years of experience as a Software Engineer?" -> Yes (true per years-of-experience.md, ~3 years continuous professional work).
+
+Blockers: none. No CAPTCHA, no login/account-creation wall, no "no AI-written answers" attestation, no video answer, no salary field.
+
+Confirmation: on-page banner after Submit Application read "Success — Your application was successfully submitted. We'll contact shortly. Thank you!" Saved to confirmations/Alan-2026-09-09.txt (PNG screenshot saving is not available via the Chrome MCP tool per the brief; the txt is the record).
+
+LEARNINGS: Alan reuses one Ashby requisition per team/title across several countries (its own careers-page job feed lists locationName "Anywhere in France, Belgium, Spain" as a single posting id), while LinkedIn surfaces the same requisition separately per country (here: Spain/Basque Country and Portugal). To find the right Ashby posting, match on exact title text against jobs.ashbyhq.com/<org> rather than assuming a 1:1 LinkedIn-job-id to Ashby-job-id mapping. This Ashby form's "Additional information" free-text field worked fine as the cover-letter paste target when no dedicated cover-letter field/upload existed.
+
+Row logged: applications.csv, confirmations/Alan-2026-09-09.txt, answers/alan-2026-09-09.md.

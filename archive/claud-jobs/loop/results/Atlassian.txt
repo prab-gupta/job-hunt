@@ -1,0 +1,35 @@
+STATUS: NEEDS YOU (RETRY PLAYWRIGHT)
+URL: https://www.linkedin.com/jobs/view/4466315412/
+ATS: iCIMS, https://globalcareers-atlassian.icims.com/jobs/27182/principal-forward-deployed-engineer,-ai-(remote-poland)/job
+
+Dedupe: python3 loop/dedupe.py --check "Atlassian" "https://www.linkedin.com/jobs/view/4466315412/" -> NEW.
+
+Hard gates: no anti-AI disclaimer, English JD, no Polish-language requirement on the live posting. Title is "Principal" wanting 10+ years backend and 5+ years production AI/ML (founding/forward-deployed 0-to-1 experience); large seniority/years gap. Per the FDE-ALL override this did not kill the row; the letter states the gap plainly.
+
+Uploaded: nothing (blocked before reaching any form field).
+Answers given: none submitted.
+Blockers: the task's own note guessed Greenhouse, but Atlassian's own careers portal for this req is iCIMS (globalcareers-atlassian.icims.com). The actual job content and apply form render inside a nested content iframe ("iCIMS Content iFrame") that Claude in Chrome's accessibility tree cannot see at all - find() for any apply control returns nothing, and a JS probe of the iframe's src was blocked as cross-origin. Tried both the widget-embed URL (with mobile/width/height tracking params) and the plain job URL with those params stripped; same result both times. This matches the identical cross-origin-iframe pattern already hit this session on Databricks, Auterion and DataSnipper (all of which needed Playwright's frame-aware locators). Per the browser-ownership rule (never open Playwright myself), stopped here and logged RETRY PLAYWRIGHT.
+
+Materials built and saved:
+- Prabhavit_CV_Atlassian.pdf/.tex - built fresh from Prabhavit_CV_EN.tex, 2 pages.
+- CoverLetter_Atlassian.pdf/.tex/.txt - 0 em-dashes (grep confirmed). FlowSpace lead paragraph, UltraStrategy second paragraph, remote-from-Italy pitch plus the Poland work-authorisation transparency line as the fallback (the req is scoped to Poland employment even though the role is framed as remote).
+- Full field list for the Playwright pass in answers/atlassian-2026-09-16.md and NEEDS_YOU.md row 18g.
+
+LEARNINGS: Atlassian's FDE requisitions route through iCIMS, not Greenhouse - do not assume the ATS from the task brief's guess; the iCIMS content-iframe pattern needs the same Playwright hand-off as the known Greenhouse cross-origin-iframe tenants.
+
+--- 2026-09-17 Playwright retry (handoff from Chrome per row 18g) ---
+STATUS: NEEDS YOU (hCaptcha blocker, not further retryable by automation)
+URL: https://www.linkedin.com/jobs/view/4466315412/
+ATS destination: https://globalcareers-atlassian.icims.com/jobs/27182/principal-forward-deployed-engineer,-ai-(remote-poland)/job (REQ-2026-2890, PL-Gdansk)
+
+Dedupe: python3 loop/dedupe.py --check "Atlassian" "https://www.linkedin.com/jobs/view/4466315412/" -> HIT URL (expected: this is the retry of the existing NEEDS YOU row, not a new posting).
+
+What changed vs the Chrome attempt: Playwright's frame-aware locators DID reach the real content, unlike Chrome. Clicked "Apply for this job online" inside the nested icims_content_iframe and landed on the guest "Enter Your Information" email-entry step.
+
+Uploaded: nothing, never reached the resume/CV step.
+Answers given: Email prabhavitg@gmail.com typed into the Email field; "I accept" privacy-notice checkbox checked; "Continue" selected in the adjacent selection combobox. Next button became enabled.
+Blocker: clicking Next revealed a second nested iframe with a VISIBLE hCaptcha image challenge ("Move the correct item to complete the pattern", already showing a "Please try again" alert on first render). This is a CAPTCHA per the brief's user-only blocker list. Stopped immediately, did not attempt to solve it, did not submit, left nothing further filled. Screenshot at confirmations/Atlassian-2026-09-17-hcaptcha-blocker.png.
+
+Materials: unchanged from the 2026-09-16 build, still valid (Prabhavit_CV_Atlassian.pdf/.tex, CoverLetter_Atlassian.pdf/.tex/.txt, 0 em-dashes).
+
+LEARNINGS: Atlassian's iCIMS guest-apply email step (globalcareers-atlassian.icims.com) is gated by a visible hCaptcha image challenge on submitting the email/consent step, before any resume upload or account creation. Playwright's frame-aware locators can reach through the outer content iframe fine (unlike Chrome), but the hCaptcha itself is a hard user-only stop, same category as an account wall. Route this exact requisition to the user; do not retry automatically again.

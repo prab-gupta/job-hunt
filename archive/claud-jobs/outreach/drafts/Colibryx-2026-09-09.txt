@@ -1,0 +1,15 @@
+TO: info@colibryx.com
+SUBJECT: AI + full-stack engineer for Colibryx
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Paolo e team,
+
+Putting AI at the strategic points of a client's operations, not just bolted on top, is exactly the problem I like solving. At FlowSpace I built an LLM pipeline that turned operator documents into 900+ validated listings after human review, RAG support agents with confidence-based escalation, and the OfficeRnD/Nexudus API integrations, on a Next.js + Laravel + Supabase stack.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy. Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

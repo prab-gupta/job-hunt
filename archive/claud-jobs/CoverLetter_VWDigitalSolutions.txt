@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Volkswagen Group Digital Solutions Hiring Team,
+
+I am writing to apply for the Junior Fullstack Developer role in Lisbon. I like that the team works across the whole stack and the whole lifecycle, which is exactly how I have worked for the last three years.
+
+At FlowSpace, I have been part of automating the migration of a live workspace marketplace off a legacy stack onto Next.js and Laravel, mapping the old data structure to the new one and choosing the migration path per entity, API endpoints or CSV exports, while the product stayed live and grew from 2,000 to 4,500 plus users. On the same project I built API integrations with OfficeRnD and Nexudus for automated bookings, so I have implemented new APIs end to end rather than only consumed them.
+
+At Urlink, I worked as project manager and developer on a client platform built with Next.js, Supabase, Netlify and GitHub, taking client requirements and turning them into working front end and back end logic, including client-driven automations, which is the same front end to database round trip your team describes.
+
+I do not have a Computer Science degree, my background is philosophy, international studies and economics, but I have been writing and shipping production code across eight companies in three years and I am a fast learner who is comfortable picking up new languages and frameworks, including TDD and pair programming, on the job.
+
+My expected salary is around EUR 35,000. I hold Italian EU long-term resident status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process, and I am ready to relocate and complete that process.
+
+I would welcome the chance to discuss the role further.
+
+Regards,
+Prabhavit Gupta

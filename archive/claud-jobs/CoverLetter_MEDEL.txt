@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+I am applying for the AI Quality Automation Engineer role at MED-EL. Building reliable AI tooling for a regulated medtech company, where automated checks protect real patient outcomes, is exactly the engineering I want to do next.
+
+At FlowSpace I built the test and validation layer around an AI system in production. I write Playwright end-to-end tests and cover the REST API integrations, OfficeRnD and Nexudus. I built and evaluated an LLM pipeline that drafts workspace listings from unstructured sources, with validation and human-review checks before 900+ records reach production. I also built RAG-backed support agents with confidence-based escalation, testing failure modes and handing off to a human reviewer whenever confidence drops. Alongside this I work daily in Python for automation and data-processing tasks.
+
+MED-EL's brief, generating and executing tests, inspecting behavior, and turning proven manual checks into scalable automation, is close to what I already do end to end. I am based in Venice, Italy, and ready to relocate to Innsbruck. I hold Italian EU long-term resident status; for a role based in Austria I would need the employer-side Rot-Weiss-Rot permit process, which I am ready to start. My German is beginner level.
+
+Regards,
+Prabhavit Gupta

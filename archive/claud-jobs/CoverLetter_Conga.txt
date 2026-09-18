@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Conga Hiring Team,
+
+I am applying for the Associate Software Engineer role on the AI Platform team. I have three years of professional experience building AI and GenAI features end to end, across eight teams in Europe, and I am still early enough in my career to want exactly what this role offers, working alongside experienced engineers while I build out my fundamentals.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant the candidate is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. The parsing tool itself was built with n8n and Eden AI. That work took me through the full loop this role describes: data handling, model-backed processing, and shipping the result into a live product.
+
+At FlowSpace, I built an AI listing bot that takes a brochure in any format and drafts a full workspace listing with a human in the loop, over 900 listings drafted so far, plus support AI agents that answer customer queries from live platform data and escalate to a human on low confidence. Both run in production against real usage, which is the part of GenAI engineering that only shows up once a feature actually ships.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Bulgaria and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Sofia and complete that process.
+
+I would welcome the chance to keep building on Conga's AI Platform.
+
+Regards,
+Prabhavit Gupta

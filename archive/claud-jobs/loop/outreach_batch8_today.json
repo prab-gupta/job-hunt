@@ -1,0 +1,54 @@
+[
+ {
+  "company": "Conceptio",
+  "city": "Lucca",
+  "site": "https://www.conceptio.it",
+  "email": "info@conceptio.it",
+  "email_source_url": "https://www.conceptio.it",
+  "email_quote": "General contact email published on homepage",
+  "what_they_do": "Custom software design and development for businesses across Piemonte and Toscana with over 20 years of experience.",
+  "hook": "Lavora con noi careers page at https://www.conceptio.it/lavora-con-noi/ indicates active hiring",
+  "open_role": null,
+  "addressee": "team",
+  "language": "it"
+ },
+ {
+  "company": "Softfull",
+  "city": "Catania",
+  "site": "https://www.softfull.it",
+  "email": "info@softfull.it",
+  "email_source_url": "https://www.softfull.it",
+  "email_quote": "Email: info@softfull.it published on contact page",
+  "what_they_do": "Web agency creating static and dynamic websites, portals, and e-commerce solutions with a lavora con noi section.",
+  "hook": "Dedicated lavora con noi (Job) link in navigation at /lavora.php",
+  "open_role": null,
+  "addressee": "team",
+  "language": "it"
+ },
+ {
+  "company": "Lasersoft",
+  "city": "Rimini",
+  "site": "https://www.lasersoft.it",
+  "email": "info@lasersoft.it",
+  "email_source_url": "https://www.lasersoft.it",
+  "email_quote": "Email: info@lasersoft.it listed in footer as general contact",
+  "what_they_do": "Leader in management software for hospitality and retail sectors; recently opened Pesaro office expanding regional presence.",
+  "hook": "Lavora con noi careers page for job inquiries; 25+ years in hospitality software (PMS, booking, billing systems)",
+  "open_role": null,
+  "addressee": "team",
+  "language": "it"
+ },
+ {
+  "company": "Atobit",
+  "city": "Rubiera",
+  "site": "https://www.atobit.it",
+  "email": "info@atobit.it",
+  "email_source_url": "https://www.atobit.it/contatti/",
+  "email_quote": "Scrivici! (Write to us!) with info@atobit.it listed as contact",
+  "what_they_do": "Software house in Reggio Emilia supporting SMEs through every phase of technological development; forms internal developer teams and IT departments.",
+  "hook": "Dedicated Lavora con noi page at https://www.atobit.it/lavora-con-noi/; certified quality management system",
+  "open_role": null,
+  "addressee": "team",
+  "language": "it"
+ }
+]

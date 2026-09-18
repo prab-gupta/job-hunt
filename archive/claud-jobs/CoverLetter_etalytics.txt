@@ -1,0 +1,12 @@
+Dear etalytics team,
+
+I am applying for the QA Engineer, Test Automation role in Darmstadt. Owning quality for a platform where a wrong number costs real energy and money, rather than just running a checklist, is the kind of QA work I want to be doing.
+
+At FlowSpace I built and maintained the Playwright end-to-end test suite for a live coworking marketplace running on Next.js and Laravel, and I use coding agents daily to write and maintain tests and small tooling faster, the same instinct behind bringing AI into QA workflows rather than treating it as a gimmick. I also built the RAG support agents on that platform, so I have first-hand experience testing AI output for nondeterminism, not just deterministic UI flows, which matters when your product's core value is a number etaONE computes.
+
+I like that this role owns strategy as much as execution, deciding what gets tested and why, not just automating what is handed to you.
+
+Logistics: I hold an Italian EU long-term residence permit. I am not yet authorised to work in Germany and would need an employer-side permit, which I am ready to start. English is fluent, available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

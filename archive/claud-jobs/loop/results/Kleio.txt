@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.kleio.ai/job/forward-deployed-engineer (from LinkedIn https://www.linkedin.com/jobs/view/4445333545/)
+Uploaded: nothing (this ATS has no resume/CV upload field at all).
+Answers given: Full name Prabhavit, Last name Gupta, Phone +39 351 610 7807, Email prabhavitg@gmail.com, LinkedIn https://www.linkedin.com/in/prabhavit/, How did you hear = Social Media (no LinkedIn option offered), Immigration sponsorship needed = Yes (France, per answers/work-authorisation.md), Privacy consent ticked.
+Confirmation: "Thank you! Your submission has been received!" Saved to confirmations/Kleio-2026-09-16.txt.
+Blockers: none. Note: Prabhavit_CV_Kleio.pdf and CoverLetter_Kleio.pdf/.txt were built but unused since this ATS collects no attachments - kept on file for a possible follow-up email.
+LEARNINGS: not every company careers-page ATS has a resume/cover-letter field - some (like Kleio's own site) only collect contact info + a few screening questions and rely on the LinkedIn profile link instead. Worth checking the live form before assuming a CV upload step will exist.

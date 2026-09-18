@@ -1,0 +1,33 @@
+STATUS: NEEDS YOU
+LinkedIn: https://www.linkedin.com/jobs/view/4466529325/ (OFFSITE)
+ATS URL (login wall): https://cognizant.taleo.net/careersection/iam/accessmanagement/login.jsf?...
+Direct application URL once signed in: https://cognizant.taleo.net/careersection/Lateral/jobapply.ftl?job=00068910034&lang=en&source=JB-11500&src=JB-11500
+
+Uploaded: nothing yet (blocked before the upload step). Prepared and saved: Prabhavit_CV_Cognizant.pdf
+(tailored, 2 pages), CoverLetter_Cognizant.pdf/.txt.
+
+Flow: LinkedIn Apply -> Cognizant careers page -> "Apply now" -> Taleo Privacy Notice -> "I Confirm" ->
+Taleo login page demanding Username/Password or "New User" registration, no guest-apply path.
+
+Hard gates re-checked on the live JD: no anti-AI clause; JD explicitly says "candidates with
+approximately 2 years of highly relevant experience are also encouraged to apply" despite the "3+
+years... required" headline, so three years stated honestly is not a kill; seniority "Not Applicable",
+no Senior/Lead/Principal/Manager title; Bachelor's is a "stand out" nice-to-have, not a hard MSc/PhD
+gate; JD is English; Sweden is in the EU (no remote-from-Italy claimed, standard non-Italy transparency
+line used instead). Core stack (Jenkins/Terraform/Ansible/cloud provisioning) is not claimable per the
+Master Experience claim ladder; applied anyway per this task's explicit instruction, with the cover
+letter directly and honestly naming the gap and leaning on CI/CD fundamentals, GitHub workflow
+discipline, n8n and Python automation scripting instead.
+
+Answers ready for whoever finishes this row: years 3; salary EUR 45,000-55,000 (JD states no band);
+start immediately, two weeks after offer; Sweden work authorisation No / employer-side permit Yes;
+Jenkins/Terraform/Ansible experience honest No/0 for each if asked directly; how did you hear LinkedIn.
+
+Blockers: Taleo account wall (Username/Password or New User registration). Per task instruction, did
+not create an account. Logged NEEDS YOU in applications.csv and NEEDS_YOU.md (section C, row 17r).
+
+LEARNINGS: none new - Taleo behaves the same account-wall way documented for other Workday/SuccessFactors/
+Taleo-family ATSes in this project (Privacy Notice interstitial before the login/registration page).
+
+Files: Prabhavit_CV_Cognizant.tex/.pdf, CoverLetter_Cognizant.tex/.pdf/.txt, answers/cognizant-2026-09-16.md,
+applications.csv row appended, NEEDS_YOU.md row 17r.

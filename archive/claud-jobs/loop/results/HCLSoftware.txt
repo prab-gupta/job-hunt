@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4420926058/
+Note: NOT submitted by this agent run. Dedupe check (dedupe.py + grep applications.csv/NEEDS_YOU.md/loop/results) returned NEW, no local record for HCLSoftware or this job id anywhere. Built tailored CV (Prabhavit_CV_HCLSoftware.pdf/.tex) and cover letter (CoverLetter_HCLSoftware.pdf/.tex/.txt) before opening the live job page.
+On opening the live LinkedIn job page, the top card showed no Apply/Easy Apply button at all, and an "Application status" box reading "Application submitted, 3 weeks ago" with a "View resume" link, meaning this exact requisition (Rome, Forward Deployed Engineer, Incubation & Exploration) was already Easy-Applied to from this account around 2026-08-27, well before this batch (P29), and that submission was never logged to applications.csv (same tracking gap already seen on row 2, Jaipur Robotics, this batch). Did not attempt to reapply since LinkedIn gives no path to do so. Materials built (CV/letter) are unused, left on disk for reference only.
+Blockers: none (informational discovery, not a live blocker)
+Cap check: not applicable to this row (LinkedIn shows no Apply control to test against).
+LEARNINGS line: same gap as Jaipur Robotics this batch - local applications.csv can miss a real prior Easy Apply submission from weeks earlier; always read the live LinkedIn job page's own "Application status" box before assuming NEW from dedupe.py/grep alone, even for a company with zero local history.

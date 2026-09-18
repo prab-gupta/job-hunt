@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465547344/ (leads to https://helsing.ai/jobs/4972043101, BSA2A Expression of Interest form)
+ATS: Custom Greenhouse-backed form on helsing.ai
+
+Verifier-flagged account-wall row. This posting is Helsing's BSA2A (Bring Something Awesome to Apply) early-career track. The page reads as demanding a video submission, but it explicitly states the initial form is only an expression of interest and no video is needed to submit it - a real video request only comes later if selected. Treated this as a normal application form, not a video-answer blocker.
+
+Grepped the JD for the brief's exact anti-AI-disclaimer phrases (ai-generated/ai assistance/without any ai/no ai) - zero matches. The JD's "write code... without relying on LLMs" line is about Helsing's live-coding interview philosophy, not an application-material honesty rule, so not a KILL trigger (flagged in the notes for awareness of a later interview stage).
+
+Hard gates re-checked: early-careers title (not Senior+), no years/degree requirement, Python/Rust only nice-to-have, Munich on-site in the EU (Germany work-authorisation transparency line, not an outside-EU gate) - passed.
+
+Built Prabhavit_CV_Helsing.pdf (general-engineering-first ordering, FlowSpace migration+API bullets led, bullet-diff-clean against Prabhavit_CV_EN.tex) and CoverLetter_Helsing.pdf (FlowSpace + Urlink two-role proof, 0 em-dashes, Germany transparency line). Filled the full Expression of Interest form: identity fields, both file uploads, required consent checkbox (verified checked via DOM read), country=Italy, office=Munich, relocation=Yes, right-to-work-in-Germany=No, notice period standing answer, security clearance=None, Metaview interview-recording opt-in=No (privacy-preserving default).
+
+One self-caught mistake during filling: the relocation/right-to-work radio buttons were briefly set backwards (relocation=No, right-to-work=Yes) due to an ambiguous ref-to-field mapping; caught via screenshot before submitting and corrected.
+
+Blockers: none. No CAPTCHA, no account wall - this Greenhouse-style form needed no login at all.
+
+Submitted; got "Your application has been submitted. We will reach out to you soon." immediately, form fields cleared and Send button disabled, confirming acceptance.
+
+See confirmations/Helsing-2026-09-16.txt and answers/helsing-2026-09-16.md.

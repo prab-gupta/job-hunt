@@ -1,0 +1,10 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4437166116/
+Company: ReBloom, Product Engineer - Copenhagen (LinkedIn Easy Apply, LI-PICK row, order 1/3)
+
+Killed at the dedupe step, before opening the browser or building any materials.
+`python3 loop/dedupe.py --check "ReBloom" "https://www.linkedin.com/jobs/view/4437166116/"` returned HIT COMPANY.
+`grep -i "rebloom" applications.csv` showed: 2026-08-24, ReBloom, Product Engineer, Gmail, mailto:db@rebloom.ai, SUBMITTED, "Message sent" - same company AND same role title (Product Engineer at ReBloom, Copenhagen), submitted 24 days ago (within the 60-day window). This also matches the live JD's own instruction ("Send a brief note and your CV to db@rebloom.ai").
+
+Per the LI-PICK standing rule, kill only for a closed posting, an already-SUBMITTED same requisition, or a language he lacks. This is the same requisition, already SUBMITTED. Killed. No CV, no letter, no CSV row beyond the KILLED log entry.
+No blockers, nothing new to log in LEARNINGS.

@@ -1,0 +1,24 @@
+STATUS: PREP DONE (materials-only, not applied)
+URL: https://www.linkedin.com/jobs/view/4465998795/
+Company: Run2AI | Role: Sviluppatore back-end | Milan, hybrid | Entry level 1-2 yrs
+Dedupe: NEW (python3 loop/dedupe.py --check "Run2AI" checked, no prior row)
+Anti-AI disclaimer grep: none found in scratchpad/jd/4465998795.txt
+
+Files built:
+- Prabhavit_CV_Run2AI.tex / .pdf (tectonic OK, 2 pages, photo embedded 1 image object, parity check passed vs Prabhavit_CV_EN.tex)
+- CoverLetter_Run2AI.tex / .txt / .pdf (Italian, 249 words, 0 em-dashes, no Bubble/no-code wording, no Claude/Anthropic attribution, no FastAPI/Kubernetes/PyTorch claims)
+
+Letter language: Italian (JD is Italian; CV kept in English per instruction)
+
+CV tailoring notes: treated as AI/automation JD (backend + API REST integrations + AI healthcare product) so kept 2 UltraStrategy bullets and 2 Get2Germany bullets per the brief's trigger rule. FlowSpace Technical Responsibilities (API integrations, AI listing tool, commute-time tool) placed ahead of Product Responsibilities since role is core-backend. Dropped the "Low code development/AI based development" Additional Info item (JD has no low-code relation). Letter leads with FlowSpace (API integrations, AI listing bot) paired with UltraStrategy (CV-parsing pipeline) and a Get2Germany aside (Google API integration), satisfying the two-role-minimum rule.
+
+Field answers for tomorrow's browser agent:
+- Years of experience: 3 (numeric); bucket dropdown pick the one containing 3, never "1-2".
+- Salary: JD publishes RAL 25,000-35,000 (explicit floor 25000), well below the standing default 45,000-55,000. Recommend answering near the top of the JD's own band (e.g. 32,000-35,000) since Prabhavit's 3 years exceeds the JD's 1-2 yr ask and the JD says pay is "valutata in base alla tua reale esperienza" (evaluated on real experience). Do NOT answer the standing 45,000 default here; it exceeds the JD's own stated ceiling. Flagging as ODD: JD salary band sits well under standing default.
+- Work authorisation: role is Italy (Milan, hybrid) -> Yes, authorised, No sponsorship needed. No transparency line required (Italy role).
+- Partita IVA: Yes (active, open to freelance/contract).
+- Driver's license: No.
+- Italian: conversational, B1-B2 (pick "intermediate"/"conversational", never "fluent"/native).
+- How did you hear: LinkedIn.
+
+Anything odd in the JD: salary band (25-35k) is entry-level and below Prabhavit's usual ask; company is a healthcare AI product (Virtual Reception Sanitaria) so AI/automation evidence is relevant context even though the role itself is plain backend REST API work. Selection process: screening -> tech interview with Tech Lead -> CEO/meet the team (3 stages, no test mentioned).

@@ -1,0 +1,56 @@
+STATUS: SUBMITTED
+
+LinkedIn / ATS: https://www.linkedin.com/jobs/view/4466305109/ (LinkedIn Easy Apply)
+Role: Junior GTM Engineer, Gainable, Malmo, Sweden (hybrid, remote within Europe fine per JD).
+
+Lane B, fit 70. Gates passed on the live JD: entry level 0-3 years (Junior title, not Senior/Lead),
+no MSc/PhD requirement, JD in English, no disallowed core stack, no anti-AI disclaimer (JD instead
+explicitly wants daily Claude/Claude Code/MCP use), Sweden location covered by the JD's own
+"remote within Europe is fine" line. Dedupe: NEW (dedupe.py) and grep -i gainable applications.csv
+returned no prior rows.
+
+Cheap check: guest jobPosting API and the live page both showed Easy Apply active, 5 applicants,
+"39 minutes ago" - freshly posted, open.
+
+Uploaded: Prabhavit_CV_Gainable.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages via tectonic +
+pdfinfo check, parity-checked via diff - deletions/reorders only, no rewrites or new claims).
+FlowSpace kept 7 bullets (min 3) led by GTM automations/CRM/outbound; UltraStrategy kept both
+bullets and Get2Germany kept exactly the AI-automation-tools + Google-APIs bullets per the brief's
+rule for an automation JD (min 2 each); Urlink, Qomodo, Clubee, Tractionboard trimmed to their
+most relevant 1-2 bullets. Technical Skills and Additional Information reordered automation-first,
+"Low code" dropped from IT Skills (JD unrelated to low-code).
+
+CoverLetter_Gainable.txt built (259 words, Get2Germany + Urlink lead paragraphs, UltraStrategy +
+FlowSpace second per the task's ordering, 3 years stated plainly, Venice-remote-or-relocate line,
+0 em-dashes) but this specific Easy Apply flow had no cover letter field or upload slot (4 pages:
+contact info, resume, 3 additional questions, review), so it was not attached anywhere - kept on
+file only.
+
+Trap caught: Easy Apply pre-selected the last-used library resume (Prabhavit_CV_WizTeam.pdf).
+Clicking the visible "Upload resume" button directly would have opened a native OS file dialog
+that Chrome tooling cannot drive. Worked around it by triggering the button via javascript_tool
+(a synthetic .click() is not a trusted user gesture, so it reveals the hidden <input type=file> in
+the DOM without opening the native picker), then used file_upload on that input's ref with the
+absolute path. Re-read the page after upload and confirmed Prabhavit_CV_Gainable.pdf was listed
+and selected before continuing.
+
+Answers: email and Italy phone code pre-filled, entered mobile number; 3 additional questions
+(comfortable remote - Yes, comfortable commuting to Malmo - Yes given openness to relocate,
+built something with AI tools others used - Yes, true per FlowSpace listing bot / UltraStrategy
+CV parser / Urlink build); unticked the optional "Follow Gainable" checkbox. No Sweden
+work-authorisation question appeared on this form.
+
+Blockers: none. No CAPTCHA, no account wall, no assessment, no anti-AI attestation.
+
+Confirmation: "Your application was sent to Gainable!" / job page Application status panel updated
+to "Application submitted - now". Saved to confirmations/Gainable-2026-09-11.txt. Screenshot PNG
+could not be saved to disk from Claude in Chrome in this environment (known, already-documented
+limitation); txt is the record per the brief.
+
+Logged: applications.csv (1 row appended), answers/gainable-2026-09-11.md.
+
+LEARNINGS: none new beyond the already-documented Chrome PNG-save gap. The hidden-file-input
+javascript_tool workaround for a pre-selected library resume (rather than clicking the visible
+Upload button, which opens an undrivable native dialog) is worth keeping in mind for future
+LinkedIn Easy Apply resume-upload steps, though it is a restatement of the brief's existing
+file_upload guidance rather than a new ATS trap.

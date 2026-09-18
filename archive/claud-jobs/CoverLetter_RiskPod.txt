@@ -1,0 +1,21 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear RiskPod Hiring Team,
+
+I am writing to apply for the Forward Deployed Engineer role in Madrid. Over the past three years I have worked embedded with clients, taking ambiguous requirements and messy real-world data and turning them into production systems, and that is exactly the posture this role asks for.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel while the product stayed live: I mapped the old data structure to the new one, chose the migration path per entity, either API endpoints or CSV exports, and drove the cutover while the platform grew from 2,000 to 4,500 plus users. That work was reconciliation-heavy, matching records across systems and catching mismatches before they reached customers, which is close to the deal-schema and data-ingestion work this role owns. I also shipped OfficeRnD and Nexudus API integrations for automated bookings and built support AI agents that read live platform data and escalate to a person on low confidence.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific roles, and a standardised profile is generated and delivered to the frontend, using Affinda and the Claude API with n8n and Eden AI for the extraction. That project was about turning unstructured client documents into a clean, reliable data pipeline, the same discipline that deal ingestion and eligibility rules need.
+
+At Get2Germany, I integrated Google APIs and built AI tools that surface courses, internships and jobs, while optimising the underlying database, hands-on experience with API integration and file pipelines outside a single platform's walls.
+
+I am comfortable working on-site with customers and would welcome being based in or relocating to Madrid. I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the Forward Deployed Engineering team.
+
+Regards,
+
+Prabhavit Gupta

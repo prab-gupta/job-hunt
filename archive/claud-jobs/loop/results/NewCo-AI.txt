@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463471847/
+Company: NewCo AI - Coming Soon
+Role: Freelance AI Automation Engineer
+
+Uploaded: Prabhavit_CV_NewCo_AI.pdf (tailored, replacing the pre-selected Prabhavit_CV_Protiviti.pdf in LinkedIn's resume library).
+Cover letter: CoverLetter_NewCo_AI.pdf/.txt written in Italian, kept on file only, no letter field on this Easy Apply flow.
+Answers given: freelance contract via Partita IVA = Yes; n8n experience = Yes; Python apps integrating external APIs = Yes; LLM API integration = Yes; containerized Linux deployment = Yes (Docker, claimable per brief gates). Mobile phone filled 351 610 7807 under Italy (+39). "Mark as top choice" left unchecked.
+Blockers: none.
+Confirmation: "Your application was sent to NewCo AI - Coming Soon!" — confirmations/NewCo-AI-2026-09-16.png and .txt.
+LEARNINGS: nothing new broke; standard 5-page Easy Apply flow with the usual resume-library trap (brief's existing warning covered it).

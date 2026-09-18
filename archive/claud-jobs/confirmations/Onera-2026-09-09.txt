@@ -1,0 +1,9 @@
+Onera Health — Test Automation Engineer
+ATS: Deel (jobs.deel.com/onera)
+URL applied: https://jobs.deel.com/onera/job-details/6cdb823c-29d1-4a81-9d73-70da22c5879b/application?source=linkedin&origin=2c3b7a43-1ee5-4dad-abe9-38ff0e4e38bf
+(from LinkedIn posting https://www.linkedin.com/jobs/view/4463240633/)
+
+Success message shown on submission:
+"Thanks for applying! Your application was successfully submitted. Our team will review your submission, and we will reach out to you with any updates or next steps."
+
+Submitted 2026-09-09 via Claude in Chrome (own tab, tabId 550849707, closed after logging).

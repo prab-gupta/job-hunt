@@ -1,0 +1,15 @@
+TO: info@sinerbit.com
+SUBJECT: Candidatura spontanea per Sinerbit
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Sinerbit,
+
+Cercate sviluppatori proattivi e determinati per applicazioni web, app e e-commerce con tecnologie open source: è il profilo che ho costruito in questi anni. In FlowSpace ho realizzato una pipeline LLM che ha prodotto oltre 900 annunci validati con revisione umana, agenti RAG di supporto su dati live con escalation a un operatore umano, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, per un giorno a settimana in sede a Prato o da remoto. Vi va una call di 15 minuti, o potreste indirizzarmi a chi si occupa delle assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

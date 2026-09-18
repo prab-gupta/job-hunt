@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Abacus.AI Hiring Team,
+
+I am writing to apply for the Customer Success Engineer role. I have three years of hands-on experience deploying AI systems directly into customer-facing products, moving between architecture decisions, integration code and production debugging rather than coordinating from the sidelines.
+
+At FlowSpace, a workspace marketplace, I took over a live platform and automated its migration off a legacy stack onto Next.js and Laravel while the product stayed live, growing usage from 2,000 to 4,500 plus users. I also built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, plus an AI listing bot that turns any brochure format into a structured listing with a human in the loop, over 900 produced. This is the same pattern of shipping AI directly into a customer environment and iterating with the team using it.
+
+At UltraStrategy, I built a CV-parsing pipeline using n8n, Affinda and the Claude API: a user uploads a CV, the pipeline extracts and scores the data, the result reaches the frontend, and a standardised profile is generated. I also built the platform serving those user profiles, which required translating business requirements straight into technical scope.
+
+I am comfortable with API integration, RAG-style retrieval patterns and prompt engineering, and I enjoy the technical design conversations this role calls for. I hold Italian EU long-term resident status; for a role based in Poland I would need the applicable employer-side permit or sponsorship process, and I am ready to complete that.
+
+Regards,
+Prabhavit Gupta

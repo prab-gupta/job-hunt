@@ -1,0 +1,20 @@
+# act digital EMEA - Alter Solutions - Forward Deployed Engineer, Applied AI - 2026-09-17
+
+USER RULE 2026-09-17 (agent C54): apply to every FDE posting in Italy/EU, no kills for fit/years/seniority/agency/stack. Kill only if closed, same requisition already SUBMITTED, or JD/form explicitly requires a language he lacks.
+
+- URL: https://fr.linkedin.com/jobs/view/forward-deployed-engineer-%E2%80%93-applied-ai-at-act-digital-emea-alter-solutions-4465576734
+- Job id 4465576734. LinkedIn shows "Responses managed off LinkedIn" -> Apply on company website -> https://www.jobposting.pro/emploi-2700189-123#postuler (jobposting.pro, French job board with a native HTML apply form).
+- Dedupe: HIT COMPANY~ on "act digital" (fuzzy). Matching row: 2026-09-16, act digital, AI Agent Developer, SUBMITTED. Different requisition (AI Agent Developer, Lisbon vs Forward Deployed Engineer Applied AI, Paris), different company entity too (act digital EMEA - Alter Solutions vs plain "act digital"). Task explicitly confirmed this is a different requisition and to apply. Not blocked.
+- JD fetched via LinkedIn guest API: entirely in French, no explicit requirement that the candidate speak French anywhere in the JD text (checked for "français"/"francais", zero matches). No anti-AI disclaimer. Posting is aimed at senior profiles (Tech Lead / Principal Engineer / AI Architect / Senior ML Engineer / CTO-VP Engineering / FDE background) but user rule says no seniority kill. Paris, on-site, full-time.
+- CV: Prabhavit_CV_ActDigitalEMEA.tex/.pdf built from Prabhavit_CV_EN.tex (same tailoring as Prabhavit_CV_Thoughtworks.tex: drops 1 Career Summary bullet, reorders FlowSpace/Get2Germany bullets to lead with AI agents / AI automation). Zero invented lines. 2 pages confirmed via mdls kMDItemNumberOfPages. Used a distinct slug (ActDigitalEMEA, not ActDigital) to avoid touching yesterday's Prabhavit_CV_ActDigital.pdf/.tex which belongs to the different Lisbon requisition (per the 2026-09-16 23:20 LEARNINGS near-miss-clobber lesson: never reuse/overwrite a company slug across different requisitions).
+- Letter: CoverLetter_ActDigitalEMEA.pdf/.tex/.txt, English, 0 em-dashes (grep confirmed). Two proof paragraphs: FlowSpace (live migration, AI listing bot, support AI agents) and UltraStrategy (CV-parsing pipeline, Affinda + Claude API + n8n + Eden AI). Honest that 3 years is short of the tech-lead/principal backgrounds the posting lists.
+- Work authorisation: France = another EU country -> not authorised, needs sponsorship; transparency line used verbatim.
+- Form flow (jobposting.pro): Step 1 - Prenom "Prabhavit", Nom "Gupta", Email prabhavitg@gmail.com, Telephone "+39 351 610 7807", CV upload = genuine <input type=file> (worked cleanly with file_upload, unlike LinkedIn's own widget), replaced the site's stock French boilerplate message in the "Decrivez vos motivations" textarea with the full English cover letter text. Clicked Postuler -> candidature was created (URL became /candidature-2700189-8018069) and a second "Completer votre candidature" screening step appeared:
+  - Civilite: Monsieur
+  - Disponibilite: Immediate (default, matches standing "available immediately")
+  - Experience: "3 a 5 ans" (honest, contains his 3 years; JD infobox states "5 ans minimum" but no kill per user rule)
+  - Diplome: "BAC+2/3" (honest for a Bachelor's degree; JD infobox states BAC+4/5, did not inflate)
+  - Pretentions salariales (brut annuel): "45 a 50 000" (bottom of the standing EUR 45-55k band)
+  - Vos competences cles (keywords only): "LLM, RAG, AI agents, API integration, n8n, Python, TypeScript, Next.js, Laravel, Claude API, automation, Playwright, Supabase"
+  - Clicked Envoyer -> confirmation page (jobposting.pro/confirmation-candidature-2700189) with text "Nous vous confirmons la bonne prise en compte de vos informations. Votre candidature est maintenant complete." Re-read the page after submit to confirm before logging.
+- Confirmation saved: confirmations/ActDigitalEMEA-2026-09-17.txt (PNG not available in Chrome, per the browser alternative section).

@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4426904508/ (Apply routes to https://careers.paebbl.com/jobs/7895942-forward-deployed-engineer)
+Uploaded: Prabhavit_CV_Paebbl.pdf (CV, 2 pages), CoverLetter_Paebbl.pdf (additional file)
+Answers given: on-site 5 days/week Rotterdam = Yes; legal right to work in Netherlands (with or without sponsorship) = Yes (reasoning in answers/paebbl-2026-09-16.md); phone set to +39 351 610 7807 with country changed to Italy; required privacy consent ticked; marketing checkbox left unticked
+Blockers: none. Teamtailor-style form rendered directly in the page, no cross-origin iframe issue.
+LEARNINGS: none new; confirms not every embedded ATS form is a cross-origin trap, careers.paebbl.com's form was reachable normally unlike the Greenhouse/Ashby-embedded-on-company-site cases seen elsewhere today. Confirmation text: "Thanks for applying. We have received your application and we will be reviewing it shortly." Saved to confirmations/Paebbl-2026-09-16.txt.

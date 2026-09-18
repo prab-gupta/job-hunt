@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the AI Developer / Artificial Intelligence Engineer role with MSC Technology Italy in Turin.
+
+At UltraStrategy, I built a CV-parsing and assessment pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores how relevant that person is for specific kinds of roles, delivers the result to the frontend, and generates a standardised Ultra CV. This is the same document-to-database AI pipeline shape your role's RAG and enterprise-integration work calls for.
+
+At FlowSpace, I lead the support AI agents that answer customer questions using retrieval augmented generation over live platform data, call internal functions to pull records, and escalate to a human when confidence is low, a generative AI conversational interface running in production rather than a demo. I also integrated OfficeRnD and Nexudus through API endpoints and built n8n automations for lead capture and outbound, alongside AI automation tools I built at Get2Germany to search Google APIs for courses, internships and jobs.
+
+My day-to-day stack today is Python and TypeScript rather than C#. I understand MSC Technology is open to developers from other language backgrounds who are ready to add C# and the Microsoft stack, and I am one of them, glad to build that fluency alongside Semantic Kernel, Azure DevOps and Copilot Studio.
+
+I am authorised to work in Italy with no sponsorship needed, and open to relocating from Venice to Turin for the hybrid arrangement.
+
+Regards,
+Prabhavit Gupta

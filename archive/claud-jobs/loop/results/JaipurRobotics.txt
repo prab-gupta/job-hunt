@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466779679/
+Note: NOT submitted by this agent run. Dedupe check (dedupe.py + grep applications.csv) returned NEW, no local record for Jaipur Robotics or this job id anywhere in applications.csv, NEEDS_YOU.md or loop/results. Built tailored CV (Prabhavit_CV_JaipurRobotics.pdf/.tex) and cover letter (CoverLetter_JaipurRobotics.pdf/.tex/.txt, honest about no robotics/hardware background) before opening the live job page.
+On opening the live LinkedIn job page, the top card showed no Apply/Easy Apply button at all, and an "Application status" box reading "Application submitted, 19 hours ago" with a "View resume" link, meaning this exact requisition was already Easy-Applied to from this LinkedIn account roughly 2026-09-16 ~13:00, before this batch (P29) started, and that submission was never logged to applications.csv (a gap between LinkedIn's own state and the local log). Did not attempt to reapply since LinkedIn gives no path to do so and a duplicate application is not desirable. Materials built (CV/letter) are unused, left on disk for reference only.
+Blockers: none (informational discovery, not a live blocker)
+Cap check: not applicable to this row (LinkedIn shows no Apply control to test against).
+LEARNINGS line added: local applications.csv can miss a real prior Easy Apply submission; the live LinkedIn job page's own "Application status: Application submitted" box is the authoritative check and should be read before assuming NEW from dedupe.py alone.

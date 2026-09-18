@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Bounce Hiring Team,
+
+I am writing to apply for the Product Engineer, Core role in Lisbon. I have spent the past three years as the generalist engineer who owns a feature from idea to production, across backend and frontend, which is exactly the shape of work this role describes.
+
+At FlowSpace, I took over a live workspace marketplace and drove the data migration off a legacy stack onto Next.js and Laravel: I mapped the old structure to the new one, chose the migration path per entity through API endpoints or CSV exports, and ran the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I shipped OfficeRnD and Nexudus API integrations for automated bookings, and built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence, so I am used to owning marketplace health end to end, from the customer experience down to the integrations that keep operations running.
+
+At Urlink, I worked as project manager and developer on a client platform build: I built the platform and its logic with AI-assisted development and implemented client-driven automations, working directly with the client on requirements while shipping on Next.js, Supabase, Netlify and GitHub. That is the same pace and ownership Bounce describes, short cycles, a small team, and one person carrying a feature from concept to something live.
+
+My day-to-day stack is TypeScript, React and Next.js, with working knowledge of Node APIs and testing. I have not worked in Elixir before, but I pick up new languages fast when they sit in a stack I already understand end to end.
+
+I hold Italian EU Long Term Residence status. I am not currently authorised to work in Portugal and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Lisbon and complete that process.
+
+I would welcome the chance to talk about how I could contribute to marketplace health at Bounce.
+
+Regards,
+Prabhavit Gupta

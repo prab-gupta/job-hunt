@@ -1,0 +1,15 @@
+Axis Communications - Experienced Software Test Engineer - Analytics Test, Lund
+Applied via: LinkedIn "Apply on company website" -> axis.wd3.myworkdayjobs.com (Workday), requisition R-123923
+Chrome tab id: 550850090
+URL at blocker: https://axis.wd3.myworkdayjobs.com/en-US/External_Career_Site/job/Sweden---Lund/Experienced-Software-Test-Engineer---Analytics-Test--Lund_R-123923/apply/applyManually
+
+BLOCKER: mandatory Create Account/Sign In (step 1 of 6) with no guest-application path.
+"Start Your Application" modal offered Autofill with Resume / Apply Manually / Use My Last Application;
+all three routes land on the same Sign In page. Only options offered: Sign in with Apple, Sign in with
+Google, Sign in with LinkedIn (OAuth/SSO), or Sign in with email (creates a Workday account). No
+"continue as guest" or account-free path exists on this tenant.
+
+Per ats-guides/workday.md rule 2 and the brief's guardrails, no account was created, no password was
+entered, and no OAuth/SSO login was performed. Nothing in the application form itself was reached or
+filled (the blocker occurs before My Information / My Experience / Application Questions / Voluntary
+Disclosures / Review). Tab left open and unsubmitted for the user to sign in and continue.

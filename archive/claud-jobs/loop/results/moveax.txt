@@ -1,0 +1,35 @@
+STATUS: SUBMITTED
+LinkedIn: https://www.linkedin.com/jobs/view/4459299332/ (OFFSITE)
+ATS URL: https://careers.moveax.it/o/software-engineer-3
+
+Uploaded: Prabhavit_CV_moveax.pdf (tailored, 2 pages), CoverLetter_moveax.pdf (file upload field)
+
+Answers given:
+- Full name / email / phone: Prabhavit Gupta / prabhavitg@gmail.com / +39 351 610 7807
+- Europe/Rome 9am-6pm schedule: Yes
+- EU citizenship or work visa: Yes
+- Expected yearly gross income: 50000 EUR
+- Start time if hired: Two weeks
+- Confirm available to work in Rome office, hybrid: Yes
+- Available for 1-month on-site onboarding: Yes
+- Backend/frontend focus: I work on both fields
+- Video introduction / "anything else": left blank (both optional, no asterisk)
+
+LI-PICK row: applied despite JD's "at least 4 years" requirement per the 2026-09-11 user rule
+(kill only on closed/dup/language gap, none applied here). Years answered honestly as 3.
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation. Video-intro field was optional
+so no NEEDS YOU needed.
+
+LEARNINGS: On this Recruitee-style ATS (careers.moveax.it), two required radio-button questions
+silently did not register on the first click because earlier `read_page` refs went stale after the
+CV/cover-letter file uploads re-rendered the DOM. Caught it on a full re-scroll review before Submit;
+re-clicked by screenshot coordinate and they registered. Always re-verify radio/checkbox state with a
+fresh scroll-through right before the final submit button on forms with file uploads above them.
+
+Confirmation: "All done! Your application has been successfully submitted!" (Applied badge, URL
+changed to .../applied). PNG not saved (Chrome save_to_disk unavailable this session) —
+confirmations/moveax-2026-09-11.txt holds the success text.
+
+Files: Prabhavit_CV_moveax.tex/.pdf, CoverLetter_moveax.tex/.pdf/.txt, confirmations/moveax-2026-09-11.txt,
+answers/moveax-2026-09-11.md, applications.csv row appended.

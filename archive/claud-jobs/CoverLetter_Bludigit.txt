@@ -1,0 +1,19 @@
+Oggetto: Candidatura per AI Engineer
+
+Buongiorno,
+
+vi scrivo per candidarmi alla posizione di AI Engineer nel team Data & AI di Bludigit. Negli ultimi tre anni ho costruito pipeline basate su LLM e agenti AI integrati in piattaforme di produzione, dall'estrazione dei dati fino alla consegna del risultato all'utente finale.
+
+In FlowSpace ho realizzato un bot AI che, a partire dalla brochure di un fornitore di spazi di lavoro in qualsiasi formato, redige l'intero annuncio con una persona che verifica il risultato, producendo oltre 900 bozze finora; ho inoltre costruito agenti di supporto AI che rispondono alle richieste dei clienti leggendo dati live della piattaforma e passano a una persona le richieste a bassa confidenza, oltre a integrazioni API con OfficeRnD e Nexudus per le prenotazioni automatizzate.
+
+In UltraStrategy ho costruito la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati con Affinda e valuta la rilevanza del candidato per tipi di ruolo specifici, il risultato viene mostrato nel frontend e infine viene generato un "Ultra CV" standardizzato con le API di Claude; la pipeline è stata costruita con n8n ed Eden AI.
+
+Lavoro abitualmente con Python per automazione e script, integrazioni API e orchestrazione di flussi tramite n8n, e sono a mio agio nel collaborare con team Data, IT e Business per portare una soluzione AI dalla fase di prototipazione fino al rilascio in produzione.
+
+Vivo a Venezia, ho un permesso di soggiorno UE di lungo periodo e non necessito di sponsorizzazione per lavorare in Italia. Il mio italiano è conversazionale (B1-B2) e il mio inglese è C2. Sono disponibile immediatamente.
+
+Grazie per l'attenzione. Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta
+prabhavitg@gmail.com | +39 351 610 7807

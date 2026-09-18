@@ -1,0 +1,16 @@
+BIP - Junior AI Engineer, BIP AI LAB - submitted 2026-09-17
+
+Success confirmation (toast on submit): "Thank you for your job application."
+
+My Applications page (fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/my-profile) shows:
+"Junior AI Engineer- BIP AI LAB
+Italy and 1 more
+Status: Under consideration
+BIP Career Site . 2327 . Applied on 09/17/2026"
+
+Candidate: Prabhavit Gupta, prabhavitg@gmail.com, +39 3516107807
+
+URL applied: https://fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2327
+Original LinkedIn posting: https://www.linkedin.com/jobs/view/4467501348/
+
+Note: PNG screenshot could not be saved to disk from Claude in Chrome in this session; this txt is the confirmation record per brief instructions.

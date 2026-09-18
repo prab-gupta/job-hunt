@@ -1,0 +1,12 @@
+Gentile team di Net Reply,
+
+mi candido per la posizione di Software Engineering & Automation Specialist. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, costruendo automazioni, integrazioni API e agenti AI per prodotti in produzione con utenti reali. Il mio backend è Python, non Java: lo dichiaro con trasparenza, dato che l'annuncio accetta entrambi.
+
+Per Get2Germany ho integrato le API di Google e costruito con n8n strumenti AI per trovare corsi, stage e offerte di lavoro, oltre a ottimizzare il database. Per UltraStrategy ho costruito la pipeline che elabora i CV caricati dagli utenti: i dati vengono estratti e valutati per la rilevanza rispetto a tipi di ruolo specifici, il risultato arriva al frontend e infine viene generato un documento standardizzato, usando Affinda e le API di Claude, lo stesso lavoro di automazione e integrazione tra sistemi che descrivete nell'annuncio.
+
+Per FlowSpace ho costruito agenti AI di supporto che rispondono alle richieste dei clienti attingendo ai dati live della piattaforma e passano il caso a una persona quando la sicurezza della risposta è bassa, e ho integrato le API di OfficeRnD e Nexudus per le prenotazioni automatizzate, lo stesso tipo di integrazione tra servizi ed ecosistemi complessi che citate per il settore Telco.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e disponibile per la sede di Milano. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

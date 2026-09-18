@@ -1,0 +1,13 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4458184734/ (LinkedIn, "Responses managed off LinkedIn" -> Apply -> https://careers.allianz.com/global/en/job/104575/Forward-Deployed-Engineer-m-f-d -> Apply Now -> https://career5.successfactors.eu/careers?company=AZGROUPPROD&career_job_req_id=104575&career_ns=job_application)
+
+Uploaded: nothing (blocked before any form field). CV Prabhavit_CV_Allianz.pdf and letter CoverLetter_Allianz.pdf/.txt were built and saved to disk, ready to attach once past the wall.
+
+Answers given: none yet (see answers/allianz-2026-09-16.md for the standing answers prepared: years 3, salary EUR 45,000-55,000, Italian conversational, Hungary work-authorisation = not authorised now / sponsorship needed, transparency line drafted into the letter).
+
+Blocker: the SuccessFactors "Career Opportunities: Sign In" page (career5.successfactors.eu, tenant AZGROUPPROD) offers only Email/Password sign-in for an existing account or "Not a registered user yet? Create an account to apply for our career opportunities." No guest-apply path was found anywhere in the flow (LinkedIn -> Allianz careers page -> Apply Now all land here). Per the task note ("Allianz uses SuccessFactors/Workday: guest path first, else materials + NEEDS YOU, no account creation") and the brief's account-creation rule, stopped here without creating an account. Logged as NEEDS YOU in NEEDS_YOU.md row 21 and applications.csv.
+
+Gates: JD requires "Fluency in English" only (no Hungarian requirement), so this row cleared the Hungary language gate that killed Kodesage in the same batch ("Clear English and Hungarian communication" stated as required for Kodesage). No anti-AI disclaimer. USER RULE 2026-09-16 (FDE Italy/EU LinkedIn sweep): no kills for fit/years/seniority/agency/stack.
+
+LEARNINGS: none new - this is the same SuccessFactors account-wall pattern already documented for Wartsila (NEEDS_YOU.md row 3, career2.successfactors.eu) earlier in this session; career5.successfactors.eu (Allianz's tenant) behaves identically, no guest path.

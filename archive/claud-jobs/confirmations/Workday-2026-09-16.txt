@@ -1,0 +1,25 @@
+Workday - Software Engineer - Agentic AI & API Platform - Dublin, Ireland (hybrid, req JR-0108079)
+NOT SUBMITTED - account creation wall.
+
+LinkedIn: https://www.linkedin.com/jobs/view/4426822677/
+Apply -> Workday's own careers site:
+https://workday.wd5.myworkdayjobs.com/Workday/job/Ireland-Dublin/Software-Engineer---Agentic-AI---API-Platform_JR-0108079?source=website_linkedin
+-> "Apply" -> chooser modal (Autofill with Resume / Apply Manually / Use My Last Application / Apply with SEEK)
+-> "Apply Manually" leads straight into the 7-step flow whose step 1 is "Create Account/Sign In"
+(My Information, My Experience, Application Questions 1 of 2, Application Questions 2 of 2,
+Voluntary Disclosures, Review follow). No guest-apply path. Account creation is user-only, so the
+flow was stopped there. Nothing was submitted.
+
+This is the same requisition as the 2026-09-04 applications.csv row logged SKIPPED (auth gate,
+Google accounts signed out at the time). This session rebuilt the CV and letter from scratch
+because the prior Prabhavit_CV_Workday.tex/pdf was not built from Prabhavit_CV_EN.tex at all - it
+used a different one-page template with paraphrased, non-verbatim bullets and invented specifics
+(JWT/OAuth/RBAC claims, named CRM tools Attio/Amplemarket/Swan, Stripe payment integration, "MCP
+tool-use patterns", "confidence scoring and retrieval quality monitoring") that do not trace to
+OUTREACH_FACTS.md or Prabhavit - Master Experience.md. Replaced with a compliant tailored copy.
+
+Prabhavit_CV_Workday.pdf (2 pages, rebuilt from Prabhavit_CV_EN.tex, verbatim bullets only:
+FlowSpace API-integration/AI-agent bullets led, UltraStrategy kept at 2 bullets, Get2Germany kept
+at 2 bullets) and CoverLetter_Workday.pdf/.txt (honest on the years gap, FlowSpace + UltraStrategy
+lead paragraphs, Ireland work-authorisation transparency line, notes the EU long-term-resident
+mobility directive does not cover Ireland) are ready to upload once an account exists.

@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4465970388/
+Uploaded: Prabhavit_CV_Matica.pdf (tailored, parity-checked against Prabhavit_CV_EN.tex, 2pp), explicitly via Upload resume button (replaced pre-selected library default Prabhavit_CV_LawrenceHarvey.pdf).
+Letter: CoverLetter_Matica.pdf/.txt (English, two-role proof: UltraStrategy CV-parsing pipeline lead + FlowSpace AI listing bot/support agents second), kept on file, no upload/paste field on this Easy Apply flow.
+Answers given: years GenAI dev=3, English level=Profesional, work permit for Spain=No (honest per work-authorisation.md), LLM API integration experience=Yes. Unfollowed the company.
+Blockers: none.
+LEARNINGS: none new (standard LinkedIn Easy Apply 4-page flow, Spanish-language additional questions).

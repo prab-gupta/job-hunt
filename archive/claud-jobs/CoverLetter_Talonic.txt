@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Talonic hiring team,
+
+I am writing to apply for the Forward Deployed Engineer / Solutions Architect role in Berlin. Talonic turns unstructured documents into schema-validated, queryable data, and that is close to the pipeline I have already built and shipped in production.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific roles, the result is delivered to the frontend, and a standardised CV is generated. Affinda and the Claude API handled the parsing and generation, and the underlying extraction tool was built with n8n and Eden AI. That is unstructured input turned into structured, usable output end to end.
+
+At FlowSpace, I built and still own an AI listing bot: given a workspace provider's brochure in any format, PDF, website, photo or spreadsheet, the pipeline drafts a full listing with a human in the loop and sends it to the backend, over 900 drafts produced. I have also shipped API integrations with OfficeRnD and Nexudus and built CRM and GTM automations, so connecting extraction output into downstream systems is familiar ground, and I use the Claude API and Claude Code daily.
+
+I have three years of professional experience. English is my working language, and I do not have fluent German, though I understand it is a plus rather than a requirement for DACH accounts.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

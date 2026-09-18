@@ -1,0 +1,16 @@
+STATUS: SUBMITTED
+URL: https://adevintainfor-bad351.careers.hibob.com/jobs/6f228475-d355-4db1-975a-42c961a41a75/apply
+LinkedIn posting: https://www.linkedin.com/jobs/view/4467714411/ (job id 4467714411)
+ATS: HiBob
+
+Resumed a dead agent that died at 08:45 right after uploading the CV, in its Chrome tab 550851004. Form was still open and half-filled. Re-checked hard gates on the live JD (open, no anti-AI disclaimer, no years/MSc/language gate, title "AI Engineer" not Senior+, Barcelona hybrid EU) - passed, no KILL.
+
+Uploaded: Prabhavit_CV_Adevinta.pdf (already uploaded by the dead agent; verified bullet-for-bullet parity against Prabhavit_CV_EN.tex first, all clean). No cover-letter upload field exists on this ATS, so CoverLetter_Adevinta.pdf/.txt (verified: two proof roles, 0 em-dashes, Spain transparency line) stayed on file but unattached.
+
+Answers given: name/email/phone/LinkedIn (identity), Country=Italy, Notice Period=0, Date Available=30-09-2026, Salary=EUR 50,000, Languages=English C2 + Italian B1 (all standing answers, already filled by the dead agent and verified against the brief before submitting). Marketing-consent checkbox left unticked.
+
+Blockers: none. No CAPTCHA, no account wall.
+
+Clicked Apply, confirmed "Application submitted" success page immediately.
+
+See confirmations/Adevinta-2026-09-16.txt and answers/adevinta-2026-09-16.md.

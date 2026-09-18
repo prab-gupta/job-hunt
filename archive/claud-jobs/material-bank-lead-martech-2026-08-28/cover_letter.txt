@@ -1,0 +1,10 @@
+Dear Material Bank hiring team,
+
+I am interested in the Lead MarTech Engineer role because it combines the work I enjoy most: connecting customer and operational data, automating growth workflows, and building practical AI features that teams can use immediately.
+
+At FlowSpace, I built CRM and GTM automations covering lead capture, enrichment, routing, and outbound, integrating Attio, Amplemarket, and other services through APIs and webhooks. I also integrated OfficeRnD and Nexudus booking APIs, and built AI listing and support agents with a human-in-the-loop review process. I work hands-on with TypeScript, JavaScript, Node.js, Python, REST APIs, n8n, PostgreSQL, and LLM APIs from OpenAI and Claude. I use Claude Code as my primary development workflow and take ownership from requirements through production delivery.
+
+I would bring a pragmatic, end-to-end approach to Material Bank's marketing technology: understand the team's goals, map the data flow, ship a reliable integration or automation, and iterate based on real usage. I would welcome the opportunity to discuss how my experience building connected workflows and AI-powered product features could support your growth organization.
+
+Best regards,
+Prabhavit Gupta

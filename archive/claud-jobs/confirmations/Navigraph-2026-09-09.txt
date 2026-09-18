@@ -1,0 +1,9 @@
+Navigraph — Fullstack Developer — Applied via careers.navigraph.com (Teamtailor)
+Submitted: 2026-09-09
+
+Confirmation page text (careers.navigraph.com/jobs/8342827-fullstack-developer/applications/a9789c1a-27f5-4455-884d-e69d34c80eec/thanks/...):
+
+"Thanks for applying
+We have received your application and we will be reviewing it shortly."
+
+Progress indicator showed "Applied" (checkmark, step 1 of 2) with "Connect" as an optional next step (not completed, left unticked).

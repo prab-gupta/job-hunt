@@ -1,0 +1,15 @@
+Dear Hiring Manager,
+
+I am applying for the AI Forward Deployed Engineer role at Siili Solutions in Helsinki.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, plus support AI agents that ground answers in live platform data and escalate to a person on low confidence, built with the Claude API, n8n and TypeScript, and running in production against a marketplace that grew from 2,000 to over 4,500 users. I also automated the platform's data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product stayed live.
+
+At UltraStrategy, I built a CV-parsing pipeline where a user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant the candidate is for specific role types, the result is delivered to the frontend, and a standardised profile is generated with n8n and Eden AI, a production, multi-tool pipeline rather than a single-prompt demo.
+
+I want to be direct about fit. I have three years of professional experience across eight European companies, not the 5-plus years the posting asks for, and my cloud experience is working knowledge rather than deep Azure or AWS administration. What I can offer is real production experience shipping LLM and agent systems end to end and working directly with the people who use them. My English is professional working proficiency, C2, and I do not speak Finnish, though I am comfortable working in English day to day.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Finland and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Helsinki and complete that process.
+
+Regards,
+
+Prabhavit Gupta

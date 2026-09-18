@@ -1,0 +1,14 @@
+Microsoft - Digital Solution Engineer - Apps & Innovation (Italian Speaking) - Dublin, Ireland
+LinkedIn URL: https://www.linkedin.com/jobs/view/4464605007/
+Real ATS: Microsoft Careers, https://apply.careers.microsoft.com/careers/job/1970393556984672
+Status as of 2026-09-09: NEEDS YOU (Microsoft-account / third-party sign-in wall, no application form ever reached)
+
+What was seen: clicking "Apply now" on the Microsoft Careers posting opened a "Sign in" modal
+with exactly four options - Sign in using Microsoft, Sign in using LinkedIn, Sign in using
+Google, Sign in using Facebook - plus "First time here? Create an account". No guest-apply
+path exists. No account was created and no sign-in was attempted, per the safety rule against
+creating accounts or authenticating on the user's behalf.
+
+Chrome tab left open for the user: tabId 550849717 (Claude in Chrome, user's own logged-in
+Chrome, not Playwright/headless), sitting on the sign-in modal, ready for the user to choose a
+sign-in method and continue.

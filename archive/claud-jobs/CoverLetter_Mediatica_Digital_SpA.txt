@@ -1,0 +1,14 @@
+Gentile team di Mediatica Digital,
+
+vi scrivo per candidarmi al ruolo di Mobile Test Automation Engineer. Negli ultimi tre anni ho lavorato su automazione dei test, scraping di dati e pipeline di qualita' in ambienti Agile, ed e' quel lato del ruolo che posso portare fin da subito, insieme a un interesse concreto ad approfondire l'automazione mobile con Appium.
+
+Per Clubee, in Lussemburgo, ho fatto parte del team che integrava le API Clubee su tutto il frontend e mi sono occupato di unit testing e quality assurance delle nuove funzionalita', lavorando a stretto contatto con Git e GitHub per il versionamento del codice, in un contesto Agile con rilasci frequenti.
+
+Per FlowSpace, un marketplace di spazi di coworking con sede a Londra, uso Playwright per automatizzare test end-to-end e per lo scraping e la verifica dei dati che alimentano la piattaforma, mentre gestisco l'intero flusso di lavoro su GitHub e Jira insieme al team di sviluppo.
+
+Non ho ancora esperienza diretta con Appium, ma la mia base in Playwright e nella progettazione di suite di test automatizzati mi permette di imparare in fretta un nuovo framework di test mobile, ed e' un'area che mi interessa sviluppare con continuita'.
+
+Ho status di soggiornante di lungo periodo UE in Italia e sono autorizzato a lavorare senza necessita' di sponsorizzazione. Sono disponibile per lavoro full remote, con occasionali trasferte a Roma, e posso iniziare da subito.
+
+Cordiali saluti,
+Prabhavit Gupta

@@ -1,0 +1,22 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4431514512/
+Apply route: https://jobs.ashbyhq.com/uipath/1806abfb-08fd-4ddb-9abd-8eb15c8a1b9f/application
+
+Uploaded: Prabhavit_CV_UiPath.pdf (Resume* field). No cover letter field existed on this
+Ashby form; CoverLetter_UiPath.pdf/.txt built and kept on file.
+
+Answers given: Full name/Email/Phone, SMS/WhatsApp consent = No/No, city = Venice Venice
+Italy, LinkedIn + GitHub links, eligible to work in Romania = No (honest, needs employer
+permit), employed by UiPath before = No, Interview Recording Consent = Opt out, Privacy
+Policy acknowledgment = I agree.
+
+Blockers: none. form_input worked directly for Name/Email/Phone on this Ashby tenant; the
+InputEvent workaround in the brief was not needed here.
+
+Confirmation: "Success. Thank you for considering us! Your application has been successfully
+submitted."
+
+Logged to applications.csv as SUBMITTED. Full record in answers/uipath-2026-09-16.md and
+confirmations/UiPath-2026-09-16.txt.
+
+LEARNINGS: none new.

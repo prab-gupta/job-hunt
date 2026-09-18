@@ -1,0 +1,9 @@
+develop (recruiter: Ampersand Consulting) - Forward Deployed Engineer (BBBH7225) - Munich, Germany
+Requisition: Forward Deployed Engineer (BBBH7225), aplitrak relay for Ampersand Consulting
+URL applied via: https://www.aplitrak.com/?adid=RGF2aWQuMDU5OTguMTU1MEBhbXBlcnNhbmRjb25zdWx0aW5nLmFwbGl0cmFrLmNvbQ
+Original LinkedIn posting: https://www.linkedin.com/jobs/view/4463309979/
+Submitted via Claude in Chrome, 2026-09-16.
+Confirmation page text:
+"Forward Deployed Engineer (BBBH7225) Munich, Germany
+Thank you for submitting your application."
+Note: clicking LinkedIn's Apply button also auto-triggered LinkedIn's own "Your profile was shared with the job poster" action before the external aplitrak tab opened; this is LinkedIn's automatic profile-forwarding for agency-relayed postings and happened without a review step, using LinkedIn's on-file profile (not the tailored CV). The substantive application was the aplitrak form below, completed and submitted with the tailored CV.

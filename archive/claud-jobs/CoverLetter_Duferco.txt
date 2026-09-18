@@ -1,0 +1,10 @@
+Dear Duferco Hiring Team,
+
+I'm writing to apply for the Forward Deployed Engineer role on the Corporate Innovation Team. Sitting close to real business problems across energy, trading, logistics and steel, and turning messy operational work into shipped AI tools, is exactly what I've spent the last two years doing.
+
+At FlowSpace, a workspace marketplace, I built and owned an AI listing pipeline end to end. It takes a provider's brochure in any format, a PDF, a website or a spreadsheet, and drafts a full listing with a human in the loop, producing over 900 draft listings for review. I also built support AI agents that answer customer queries against live platform data and escalate to a human whenever confidence is low, plus OfficeRnD and Nexudus integrations that automated bookings. The stack was Next.js, Laravel, Supabase and Python, with an LLM and retrieval layer on top.
+
+I'm based in Venice, authorised to work in Italy, and can be in Milan. I like working directly with the people who have the problem rather than a spec, and would welcome bringing that to Duferco.
+
+Best regards,
+Prabhavit Gupta

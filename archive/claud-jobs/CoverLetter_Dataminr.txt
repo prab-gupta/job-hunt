@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Forward Deployed Engineer role in Brussels. Embedding with a customer, turning an open-ended operational question into a working data pipeline, and owning that solution end to end is the kind of work I already do.
+
+At FlowSpace, a coworking marketplace, I took over a live platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and choosing the migration path per entity while the product stayed live, growing the platform from 2,000 to 4,500 plus users. I also built and own an AI listing pipeline that turns an operator brochure in any format into a validated, structured listing after human review, 900 plus listings drafted, and shipped OfficeRnD and Nexudus API integrations that connect booking systems into the live product.
+
+At UltraStrategy I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and assesses how relevant that person is for specific types of roles, the result is delivered to the frontend, and a standardised profile is then generated, using Affinda and the Claude API for parsing and generation, with n8n and Eden AI powering the extraction tool.
+
+I am based in Venice, Italy, and hold Italian EU long-term resident status. I am not currently authorised to work in Belgium and would need the applicable employer-side permit or sponsorship process, which I am ready to complete, and I am open to relocating. I do not currently hold a NATO Secret clearance but am willing to pursue eligibility for one. My English is professional (C2) and my Italian is conversational.
+
+Regards,
+Prabhavit Gupta

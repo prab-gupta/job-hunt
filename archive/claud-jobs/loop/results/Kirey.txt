@@ -1,0 +1,41 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4446369100/
+Company: Kirey (Kirey Group), role GEN AI ENGINEER, Florence/Rome hybrid, Italy.
+
+Reason: already applied. Before clicking Easy Apply I confirmed the posting (title
+"GEN AI ENGINEER | Kirey", job id 4446369100 matches the URL) and checked login
+(logged in, 0 notifications heading present). The page's own "Application status"
+panel shows:
+  - Application viewed - 1 month ago
+  - Application submitted - 1 month ago (with a "View resume" link)
+No Apply / Easy Apply button is present on the page at all, which LinkedIn only
+does once an application already exists for that exact posting. The listing says
+"Reposted 3 hours ago" but kept the same posting id/URN, so the prior application
+carried over. Screenshot taken and inspected in-session (not saved to
+confirmations/, since nothing was submitted this run and the file would falsely
+imply a fresh submission).
+
+Dedupe: python3 loop/dedupe.py --check "Kirey" <url> returned HIT COMPANY~ (fuzzy,
+not URL). grep on applications.csv found only:
+  2026-08-06,Kirey (Rome),GEN AI ENGINEER,LEAD
+which by itself would not block (LEAD status, per brief). But LinkedIn's live
+Application status panel is stronger evidence than the local log and shows an
+actual submission ~1 month ago (consistent timing with that 08-06 lead turning
+into a real application that never got logged to applications.csv). Trusting the
+live signal over the incomplete local log, killed as a duplicate.
+
+No CV, no cover letter, and no form fields were touched. Hard gates were not
+formally re-checked against the full JD since the dedupe kill came first, but a
+skim while confirming the posting showed nothing that would have killed it anyway:
+requirement is "1 to 5 years", title is not Senior/Staff/Lead/Principal/Manager,
+no hard MSc/PhD line, JD entirely in English, RAL EUR 30,000-40,000, no
+anti-AI disclaimer (the JD explicitly endorses "AI-assisted development tools
+(GitHub Copilot, Claude, and similar solutions)").
+
+LEARNINGS: dedupe.py / applications.csv missed a real LinkedIn submission for this
+exact posting id. When a LinkedIn job page shows an "Application status" panel
+("Application viewed" / "Application submitted"), treat that as an automatic
+HIT URL and stop, even if the local applications.csv has no SUBMITTED row for it,
+since local logging clearly can fall out of sync with what was actually submitted
+on LinkedIn.

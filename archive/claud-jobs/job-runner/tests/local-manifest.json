@@ -1,0 +1,14 @@
+{
+  "opportunity_id": 999999,
+  "batch_id": "controlled-local-test",
+  "company": "Job Runner Controlled Test",
+  "role": "Local Upload Validation",
+  "direct_url": "https://host.containers.internal:9443/local-form.html",
+  "cv_checksum": "e18579bb9bcffee3db285bc699c354b357dd6efa8485ab0dac1544fcecceeb81",
+  "released": true,
+  "state": "CONFIRMED",
+  "confirmed_item": {
+    "company": "Job Runner Controlled Test",
+    "role": "Local Upload Validation"
+  }
+}

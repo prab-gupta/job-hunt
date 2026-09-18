@@ -1,0 +1,23 @@
+STATUS: NEEDS YOU
+LinkedIn: https://www.linkedin.com/jobs/view/4442822811/
+Job page: https://www.bmwgroup.jobs/de/de/jobfinder/job-description.191936.html?tl=coo%3Alinkedin (req 191936, Data Science, Munich, published 27.07.2026)
+Real ATS: SuccessFactors, https://career5.successfactors.eu/careers?company=bmwag&career_job_req_id=191936&career_ns=job_application&jobPipeline=coo%3Alinkedin
+
+LI-PICK row (queue notes: "LI-PICK (reapply); user rule 2026-09-11: apply everything LinkedIn suggests, junior first; soft gates off"). Cheap check passed (apply-button count 1). LinkedIn page confirmed open (Apply button live, "Over 100 people clicked apply"). JD is English with German only "a plus" (no language kill), no anti-AI disclaimer, no closed/expired signal.
+
+Dedupe: `dedupe.py --check "BMW" <url>` returned HIT COMPANY. `grep -i bmw applications.csv` showed three prior rows, all for different requisitions: Qualysoft (client mention only, SKIP), BMW Senior Applied AI/ML Application Engineer (SKIPPED), Hyra/BMW relisting of that same senior req (KILLED). None SUBMITTED/NEEDS YOU/INTERVIEW/REJECTED for this internship requisition (191936) or the same level within 60 days, so not blocked. Proceeded.
+
+Uploaded: nothing - blocked before the upload step.
+
+Prepared and staged for when Prabhavit signs in or creates the SuccessFactors account:
+- CV: Prabhavit_CV_BMW.pdf (2 pages, tailored per the AI-JD rule: 2 UltraStrategy bullets kept, 2+ Get2Germany AI/automation bullets kept and reordered first, FlowSpace AI-agents bullet moved to top, Clubee trimmed to the QA bullet, Tractionboard trimmed to the ChatGPT/OpenAI bullet, Low-code prefix dropped from IT Skills, no claims added, all 8 roles/dates/locations intact)
+- Cover letter: CoverLetter_BMW.pdf (via CoverLetter_BMW.tex + tectonic) and CoverLetter_BMW.txt (268 words, 0 em-dashes, no "no-code"/"low-code"/"Bubble")
+- Answers: years 3; work authorisation Germany = No, employer-side permit = Yes, transparency line included in the letter; salary left for an internship-stipend field, not forced to the standard band; relocation Yes to Munich; Italian conversational, English C2, no German claimed.
+
+Blocker: BMW's careers site routes "JETZT BEWERBEN" straight into a SuccessFactors tenant (career5.successfactors.eu) whose landing page is titled "Career Opportunities: Sign In". It offers exactly two paths: sign in with email + password + a Google reCAPTCHA, or "Create an account to apply for our career opportunities." No guest-apply, no resume-autofill-without-account. Per the brief, account creation and CAPTCHAs are user-only, so the flow was stopped there; no credentials were entered and no account was created. Tab left open on the Sign In screen, Claude-in-Chrome tabId 550850482.
+
+Internship note: the JD does not show a mandatory enrolment-proof or university-agreement field before this sign-in wall is cleared, so that specific hard-gate scenario from the task brief was not encountered yet - it may surface later in the form (unknown until the user signs in). The letter already states plainly that Prabhavit is a graduate with three years of experience applying at internship level into BMW Financial Services AI, in case a free-text field asks for this directly. If a later required field forces a false enrolment claim, that field should be flagged back as NEEDS YOU with its exact wording rather than filled.
+
+Files: Prabhavit_CV_BMW.tex/.pdf, CoverLetter_BMW.tex/.txt/.pdf, confirmations/BMW-2026-09-11.txt (no .png - Claude-in-Chrome screenshot save_to_disk does not produce an accessible file path in this environment, consistent with today's other Chrome-tool applications in this session), answers/bmw-2026-09-11.md, applications.csv row (NEEDS YOU), NEEDS_YOU.md row 17i (section C).
+
+LEARNINGS: none new - BMW's SuccessFactors tenant behaves like every other SuccessFactors/Workday account-wall case seen today (Accenture, SS&C, Quickbase): "Apply"/"Bewerben" always dead-ends at a mandatory Create Account/Sign In step with no guest path. Treat any BMW Group SuccessFactors posting the same way by default.

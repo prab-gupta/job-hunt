@@ -1,0 +1,12 @@
+Club Magellano - Sviluppatore web junior - Tavazzano con Villavesco (Lodi), Italy
+URL: https://www.linkedin.com/jobs/view/4461123786/
+Method: LinkedIn Easy Apply (Playwright)
+
+Success text on page: "Application submitted" and "You applied on company site 9/11/2026 - Submitted
+resume"
+
+CV uploaded and radio-selected: Prabhavit_CV_ClubMagellano.pdf (avoided the library-default trap; the
+form pre-showed Prabhavit_CV_NetBet.pdf as the top library option, explicitly used Upload resume instead
+and verified the new file name was checked before submitting).
+
+Date: 2026-09-11

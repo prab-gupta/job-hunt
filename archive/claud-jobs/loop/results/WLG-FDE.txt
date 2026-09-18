@@ -1,0 +1,21 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461979163/ (LinkedIn Apply routed offsite to career.wlgroup.eu, Recruitee ATS)
+Role: Forward Deployed Engineer (Palantir Foundry) for NATO with security clearance, Brussels/Mons, Belgium (hybrid)
+
+Uploaded: Prabhavit_CV_WLG.pdf (built from Prabhavit_CV_EN.tex, verbatim bullets only, diffed clean, 2 pages). Cover letter text pasted into the form's Cover letter textbox (full text of CoverLetter_WLG.txt); CoverLetter_WLG.pdf also kept on file.
+
+Answers given:
+- NATO/national security clearance: "I do not hold a NATO/national clearance." (honest, did not claim eligibility given uncertain status as an Indian citizen)
+- Availability/Notice period: "Immediately available; can start within two weeks of an offer."
+- Expected rate EUR/hour on a pure B2B contract: 30
+- Name/email/phone: Prabhavit Gupta / prabhavitg@gmail.com / +39 351 610 7807
+- Privacy consent: ticked (only consent checkbox on this form, no marketing/talent-pool checkbox present)
+
+Letter: two proof paragraphs (FlowSpace lead, Get2Germany pair) per the letter-evidence rule, plus an upfront honest disclosure of no direct Palantir Foundry experience and the Belgium work-authorisation transparency line.
+
+Confirmation: "Thanks for applying / We have received your application and we will be reviewing it shortly." on career.wlgroup.eu, step 1 "Applied" checked. Saved to confirmations/WLG-2026-09-16.txt (PNG screenshot save not available in Chrome tool this session, per brief this txt is the record).
+
+Blockers: none.
+LEARNINGS: This poster (WLG, a Recruitee-hosted careers site for staffing agency Work Life Group sp. z o.o.) asks for an hourly B2B contractor rate rather than an annual salary, with no band disclosed. Answered 30 EUR/hour, derived from the standing EUR 45,000-55,000 salary target spread across a full-time contractor year, consistent with the older 200 EUR/day (~25 EUR/hr) precedent in answers/salary-expectation.md scaled up to the current higher band. Worth adding a standing B2B-hourly-rate answer next to the salary rule if more contractor-rate forms turn up.
+
+WLG is an employment agency, not the end client; agency status is explicitly not a kill under the 2026-09-16 FDE campaign rule, so proceeded.

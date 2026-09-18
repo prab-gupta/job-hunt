@@ -1,0 +1,157 @@
+{
+  "session_id": "b76d691f-f5fc-44a3-9486-740f61b39c04",
+  "source_path": "/Users/prab/.claude/projects/-Users-prab/b76d691f-f5fc-44a3-9486-740f61b39c04.jsonl",
+  "scope": "user and assistant text; exact repeated messages collapsed; tool traces omitted; mixed-topic sessions filtered",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T15:38:26.258Z",
+      "text": "@\"/Users/prab/Downloads/Automation CV - Prabhavit-4.pdf\" @\"/Users/prab/Downloads/CV - Prabhavit-2.pdf\" @\"/Users/prab/Downloads/Prabhavit_CV-.pdf\"\ngive me a prompt i can paste in claude co work so it can make good inputs in job applications, these are my cvs and also go through my linkedin and your memories and our convos and add it too. i am looking for ai/automation/developer roles",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:40:42.324Z",
+      "text": "LinkedIn logged out in Chrome — cannot sign in for you (credential rule). Try public profile via search.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:42:38.979Z",
+      "text": "Done. Prompt saved at [cowork-job-application-prompt.md](Downloads/cowork-job-application-prompt.md) — sent above.\n\nWhat's in it:\n- **Positioning story**: no-code veteran (Bubble/N8N) → real engineer shipping production AI. From CVs + memory.\n- **Flagship ammo**: AI listing pipeline — live at listing.flowspace.co, 20+ operators, 1,000+ offices, crawler with 278 tests, correction-feedback flywheel, autonomous GitHub Actions agent. Numbers recruiters can quote.\n- **Full project list + skills matrix**: Bubble→Supabase migration, Laravel backend, OfficeRnD + Landmark/Industrious integrations, SEO crawler, incident work, self-hosted infra.\n- **Rules for Cowork**: never invent facts, tailor per JD, evidence over adjectives, own the non-traditional path, junior–mid honesty.\n- **Per-application workflow**: paste JD → fit assessment → drafts → flags gaps.\n\nHow to use: paste prompt into Cowork, **attach all 3 CV PDFs with it** — prompt tells Cowork to pull exact dates/education/titles from CVs, project depth from brief, and pick Automation CV vs general CV per role.\n\nOne gap: **LinkedIn**. Chrome session logged out, profile not publicly searchable — only [FlowSpace company page](https://uk.linkedin.com/company/flowspace-uk) surfaced. Log into LinkedIn in Chrome and say so — will pull profile + recommendations into prompt. Or paste profile URL. Also fill section 6 answers (salary, visa, notice, GitHub link) once in Cowork — prompt makes it ask.",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T15:45:01.659Z",
+      "text": "# Standing rules for submitting applications on Prabhavit's behalf\n\nThese are his instructions, not suggestions, and several of them exist because they were got\nwrong once already. Read this file before touching a single form. If a rule here conflicts with\nyour own judgement about what would \"look better\" to an employer, the rule wins — it's his\ncareer and his call.\n\n## The non-negotiables\n\n1. **Attach the CV to every application. Never submit one without it.** Use only the CV file he\n   most recently supplied — the exact PDF, unmodified. Do not regenerate it, reformat it, or\n   substitute a version you made. If the file isn't available in this session, stop and ask;\n   don't proceed with a CV-less application.\n\n2. **Salary or rate expectation: €30,000–40,000.** Write it plainly — \"€30,000–40,000\" or\n   \"EUR 30,000–40,000, negotiable\" at most. **Do not** pad it with explanations about market\n   bands, do not substitute a higher figure because the posting advertises more, and do not\n   write a paragraph where a number was asked for. If you think his number is low, say so once\n   in chat and then use his number anyway.\n\n3. **Never leave a cover letter field blank when one is asked for.** Adapt his motivation letter\n   (`assets/motivation-letter.md`) to the specific role. Where the form takes a file, generate a\n   PDF; where it takes text, paste the adapted body.\n\n4. **When a form asks for years of experience and wants 3 or more, write 3.** Don't skip an\n   application because a year count is above his. Answer honestly with 3 and let the employer\n   decide. Same principle for any \"do you have N years of X\" free-text field: give the true\n   number and one clause of context, no more.\n\n5. **Skip join.com** unless he has signed in on that browser. Their apply flow forces account\n   creation or Google sign-in, and account creation is off-limits.\n\n6. **Don't make the writing sound AI-generated.** Details in the writing section below.\n\n## His details\n\n| Field | Value |\n|---|---|\n| Name | Prabhavit Gupta (preferred: Prabhavit) |\n| Email | prabhavitg@gmail.com |\n| Phone | +39 351 610 7807 (country: Italy, +39) |\n| Address | Via Zanetti, 10 · Venice · Veneto · 30175 · Italy |\n| Location for city pickers | Venice, Venezia, Italy |\n| LinkedIn | https://www.linkedin.com/in/prabhavit/ |\n| GitHub / portfolio | none supplied — leave blank rather than inventing one |\n| Work authorisation | Italian EU long-term residence permit. **Needs no sponsorship anywhere in the EU.** Not UK, Swiss or US authorisation. |\n| Availability | Immediately — the FlowSpace contract ended July 2026 |\n| Languages | English professional, Hindi native, Italian beginner |\n\nStandard answers to the questions that recur:\n\n- *Legally eligible to work where you'll work from?* → **Yes**\n- *Which status allows you to work there?* → **citizen / permanent resident** (the EU long-term permit)\n- *Will you require sponsorship now or in future?* → **No** for EU-based and remote-from-Italy roles. For a **UK, Swiss or US** role, the honest answer is **Yes** — answer it truthfully and flag the role to him rather than fudging it.\n- *Able and willing to work remotely?* → **Yes**\n- *Based in Europe?* → **Yes**\n- *Previously worked in a customer-facing capacity?* → **Yes** (FlowSpace: mediated between the internal team, an external agency and members; Urlink: project manager on client requirements)\n- *Production experience at a large enterprise (1,000+)?* → **\"only shipped in smaller companies or startups\"** — true, don't inflate it\n- *AI agents / agentic workflows?* → **\"built and operated agentic systems in production, including testing for non-determinism and failure recovery\"** — true, and his strongest answer on any form\n- *BPMN specifically?* → he has n8n workflow automation in production but no BPMN. Pick the middle option where one exists; never claim BPMN production experience\n- *Native English speaker?* → **No, fluent at C2 level**\n- *Pronouns, gender, ethnicity, disability, veteran status* → leave blank or \"prefer not to say\". Never guess demographic data.\n- *How did you hear about us?* → the honest answer is a job board; pick \"Job Board\" / \"Other\" and say \"job board\" if a follow-up field appears.\n\n## Writing that doesn't read as machine-written\n\nHis own motivation letter is the voice to match: direct, concrete, slightly formal, first person,\nspecific numbers, no salesmanship. Things to avoid because they are the tells:\n\n- Openings like \"I'm excited to apply\" or \"I am thrilled by the opportunity\".\n- Three-item lists everywhere, and sentences of identical length stacked together.\n- \"Leverage\", \"passionate about\", \"cutting-edge\", \"seamlessly\", \"robust solutions\", \"I thrive in\".\n- Restating the job description back at them instead of saying what he did.\n- Perfect symmetry. Real writing has a short sentence after a long one, and occasionally starts with \"But\" or \"So\".\n\nWhat to do instead: name the specific thing he built, the tool he built it in, and the number it\nmoved. Say plainly where he's weaker rather than papering over it — a sentence like \"my agent work\nhas been in n8n rather than a Python harness, so I'd be learning your idioms early on\" reads as\nhuman and costs nothing.\n\n## The facts worth reaching for\n\nUse these rather than adjectives. They're all on his CV.\n\n- FlowSpace: took over an existing system, grew the platform **2,000 → 4,500+ users**, led the migration from **Bubble.io to Next.js + Laravel** on a live product, built the support **AI agents**, lead capture and enrichment into the CRM, GTM and outbound automations, and a scraping/parsing tool that increased listings.\n- Integrations shipped: **Office RnD, Nexudus** (automated bookings), Clubee API, Sendgrid, Google APIs, OpenAI/Anthropic, Eden AI.\n- UltraStrategy: **CV-parsing tool in n8n + Eden AI**. Get2Germany: Google API tracking, AI tools for finding courses and jobs. Clubee: API integration, unit testing and QA.\n- Urlink: built a platform largely with AI, acting as PM and developer.\n- Eight European companies in about three years (UK, Spain, France, Italy, Germany, Luxembourg, Netherlands) — the ramp-fast argument.\n- Certifications: Microsoft Copilot Studio Agent Academy, Microsoft AI agents, Power Automate, Tray.ai Build Practitioner.\n- Degree: BA Philosophy, International Studies & Economics, Ca' Foscari Venice. No CS degree — don't hide it, don't apologise for it.\n\n## Things you must not do\n\n- Create an account, set a password, or sign in as him.\n- Solve a CAPTCHA.\n- Enter payment details, government ID numbers, or a date of birth he hasn't given.\n- Invent a GitHub link, a portfolio URL, a referral name, or demographic data.\n- Claim experience he can't evidence — specifically BPMN, Python backend depth, ML research, or a language beyond English.\n- Submit two applications to the same company for roles he clearly doesn't qualify for. One good application beats two scattershot ones.\n\nWhen you hit one of these, stop that application, leave the form filled if you can, and tell him\nexactly what's needed.\n\n## Log every submission\n\nAfter each one, record: company, role, the ATS, what was entered in each non-obvious field, the\nconfirmation text you actually saw, and the link. If you didn't see a confirmation, it didn't\nhappen — say so. He is tracking this in a spreadsheet and a silent failure is worse than a\nvisible one. give this as an md file to me, refine if needed",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:46:22.491Z",
+      "text": "Rules doc = new source of truth — contradicts earlier prompt (gmail not flowspace email, FlowSpace contract ENDED July 2026, LinkedIn URL now known, salary fixed). Plan: write refined rules md, sync earlier Cowork prompt to match, save facts to memory.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:46:54.126Z",
+      "text": "Now sync earlier Cowork prompt to new facts.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:47:48.761Z",
+      "text": "Letter guide received. Reading Arsenalia PDF for exact opening/closing, updating memory index.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:48:03.151Z",
+      "text": "Full letter captured. Writing motivation-letter asset now.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:49:44.853Z",
+      "text": "Done. Three files delivered, structured to match index layout at `~/Downloads/job-hunt/`:\n\n- [README.md](Downloads/job-hunt/README.md) — materials index\n- [claude/application-rules.md](Downloads/job-hunt/claude/application-rules.md) — standing rules\n- [claude/motivation-letter.md](Downloads/job-hunt/claude/motivation-letter.md) — letter template\n\nRefinements made:\n- **Rules**: single-number salary fields → 30000 (bottom of range) — my addition, flag if want midpoint instead. Log section → checklist. Removed instruction-to-me tail. OfficeRnD/SendGrid spelling.\n- **Letter**: pulled exact Arsenalia opening + closing from PDF (guide only had fragment). Added two paragraphs guide's layout skipped but letter contains: Urlink/\"vibe coding\" paragraph (use when posting stresses AI-first building) + learning paragraph.\n- **Index**: near-verbatim, light cleanup.\n\nTwo flags:\n1. His \"daily workflow\" paragraph contains \"I thrive in\" — same phrase rules ban as AI tell. Kept verbatim (his letter = voice standard), but adapted letters quoting that paragraph carry it.\n2. Earlier `cowork-job-application-prompt.md` gone from Downloads — assume moved to Cowork. Its framing is stale now (FlowSpace as current client, flowspace.co email, \"ask salary\"). Rules + index supersede it; delete it from project or keep only sections 2–5 (project ammo).\n\nEmpty `job-hunt/assets/` folder created — drop `Prabhavit_CV.pdf` + Arsenalia PDF there to complete bundle.\n\nMemory saved: contract ended July 2026, corrected contact/salary/permit facts, 9 submitted applications (5 Aug), file locations. Future sessions won't re-derive.",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T15:49:51.010Z",
+      "text": "move all this work to claud jobs folder",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:50:36.434Z",
+      "text": "Existing README = newer state of play (15 submitted, not 9) — keep it as folder README. Merging my files in, demoting my index to `materials-index.md`, fixing stale bits.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:51:36.839Z",
+      "text": "Organised. Everything now in `~/Downloads/claud jobs/`:\n\n```\nclaud jobs/\n├── README.md                              ← state of play (15 submitted, 5 join.com blocked) — start here\n├── materials-index.md                     ← my index (was job-hunt/README.md); stale 9-app list replaced with pointer to README + xlsx\n├── cowork-job-application-prompt.md       ← was already here (you moved it)\n├── Application answers — ready to paste.md\n├── Applications — 5 Aug 2026.xlsx\n├── Prabhavit — role shortlist, 5 Aug 2026.xlsx\n├── Prabhavit_CV.pdf                       ← only CV to send\n├── job-hunt.skill\n├── claude/\n│   ├── application-rules.md               ← standing rules (refined)\n│   └── motivation-letter.md               ← Arsenalia letter template\n└── letters/                               ← 5 per-role adapted letter PDFs\n```\n\n`job-hunt/` folder deleted — empty after move.\n\nKept existing README.md as folder authority — newer than my index (15 apps vs 9, join.com blocklist, cover-letter gaps, market notes). Memory updated: single location `~/Downloads/claud jobs/`, 15-submitted status, GTM-Engineer-converts-better + verify-in-browser notes.\n\nOne leftover: `cowork-job-application-prompt.md` still carries stale framing (FlowSpace as current client, flowspace.co email, \"ask salary\"). Rules + README supersede it. Say word — delete it or rewrite to match.",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T15:51:38.798Z",
+      "text": "<command-message>ponytail:ponytail</command-message>\n<command-name>/ponytail:ponytail</command-name>\n<command-args>ultra, what can i add in this folder to make my job search more robut and this flow better and fool proof sometime claude project makes a motivation letter and doesnt send it. apply your changes you have freedom</command-args>",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T15:51:38.798Z",
+      "text": "Base directory for this skill: /Users/prab/.claude/plugins/cache/ponytail/ponytail/4.8.4/skills/ponytail\n\n# Ponytail\n\nYou are a lazy senior developer. Lazy means efficient, not careless. You have\nseen every over-engineered codebase and been paged at 3am for one. The best\ncode is the code never written.\n\n## Persistence\n\nACTIVE EVERY RESPONSE. No drift back to over-building. Still active if\nunsure. Off only: \"stop ponytail\" / \"normal mode\". Default: **full**.\nSwitch: `/ponytail lite|full|ultra`.\n\n## The ladder\n\nStop at the first rung that holds:\n\n1. **Does this need to exist at all?** Speculative need = skip it, say so in one line. (YAGNI)\n2. **Already in this codebase?** A helper, util, type, or pattern that already lives here → reuse it. Look before you write; re-implementing what's a few files over is the most common slop.\n3. **Stdlib does it?** Use it.\n4. **Native platform feature covers it?** `<input type=\"date\">` over a picker lib, CSS over JS, DB constraint over app code.\n5. **Already-installed dependency solves it?** Use it. Never add a new one for what a few lines can do.\n6. **Can it be one line?** One line.\n7. **Only then:** the minimum code that works.\n\nThe ladder is a reflex, not a research project — but it runs *after* you\nunderstand the problem, not instead of it. Read the task and the code it\ntouches first, trace the real flow end to end, then climb. Two rungs work →\ntake the higher one and move on. The first lazy solution that works is the\nright one — once you actually know what the change has to touch.\n\n**Bug fix = root cause, not symptom.** A report names a symptom. Before you\nedit, grep every caller of the function you're about to touch. The lazy fix IS\nthe root-cause fix: one guard in the shared function is a smaller diff than a\nguard in every caller — and patching only the path the ticket names leaves\nevery sibling caller still broken. Fix it once, where all callers route through.\n\n## Rules\n\n- No unrequested abstractions: no interface with one implementation, no factory for one product, no config for a value that never changes.\n- No boilerplate, no scaffolding \"for later\", later can scaffold for itself.\n- Deletion over addition. Boring over clever, clever is what someone decodes at 3am.\n- Fewest files possible. Shortest working diff wins — but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Complex request? Ship the lazy version and question it in the same response, \"Did X; Y covers it. Need full X? Say so.\" Never stall on an answer you can default.\n- Two stdlib options, same size? Take the one that's correct on edge cases. Lazy means writing less code, not picking the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n²) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path (`# ponytail: global lock, per-account locks if throughput matters`).\n\n## Output\n\nCode first. Then at most three short lines: what was skipped, when to add it.\nNo essays, no feature tours, no design notes. If the explanation is longer\nthan the code, delete the explanation, every paragraph defending a\nsimplification is complexity smuggled back in as prose. Explanation the user\nexplicitly asked for (a report, a walkthrough, per-phase notes) is not debt,\ngive it in full, the rule is only against unrequested prose.\n\nPattern: `[code] → skipped: [X], add when [Y].`\n\n## Intensity\n\n| Level | What change |\n|-------|------------|\n| **lite** | Build what's asked, but name the lazier alternative in one line. User picks. |\n| **full** | The ladder enforced. Stdlib and native first. Shortest diff, shortest explanation. Default. |\n| **ultra** | YAGNI extremist. Deletion before addition. Ship the one-liner and challenge the rest of the requirement in the same breath. |\n\nExample: \"Add a cache for these API responses.\"\n- lite: \"Done, cache added. FYI: `functools.lru_cache` covers this in one line if you'd rather not own a cache class.\"\n- full: \"`@lru_cache(maxsize=1000)` on the fetch function. Skipped custom cache class, add when lru_cache measurably falls short.\"\n- ultra: \"No cache until a profiler says so. When it does: `@lru_cache`. A hand-rolled TTL cache class is a bug farm with a hit rate.\"\n\n## When NOT to be lazy\n\nNever simplify away: input validation at trust boundaries, error handling\nthat prevents data loss, security measures, accessibility basics, anything\nexplicitly requested. User insists on the full version → build it, no\nre-arguing.\n\nNever lazy about understanding the problem. The ladder shortens the\nsolution, never the reading. Trace the whole thing first — every file the\nchange touches, the actual flow — before picking a rung. Laziness that skips\ncomprehension to ship a small diff is the dangerous kind: it dresses up as\nefficiency and ships a confident wrong fix. Read fully, then be lazy.\n\nHardware is never the ideal on paper: a real clock drifts, a real sensor\nreads off, a PCA9685 runs a few percent fast. Leave the calibration knob, not\njust less code, the physical world needs tuning a minimal model can't see.\n\nLazy code without its check is unfinished. Non-trivial logic (a branch, a\nloop, a parser, a money/security path) leaves ONE runnable check behind, the\nsmallest thing that fails if the logic breaks: an `assert`-based\n`demo()`/`__main__` self-check or one small `test_*.py`. No frameworks, no\nfixtures, no per-function suites unless asked. Trivial one-liners need no\ntest, YAGNI applies to tests too.\n\n## Boundaries\n\nPonytail governs what you build, not how you talk (pair with Caveman for\nterse prose). \"stop ponytail\" / \"normal mode\": revert. Level persists until\nchanged or session end.\n\nThe shortest path to done is the right path.\n\n\nARGUMENTS: ultra, what can i add in this folder to make my job search more robut and this flow better and fool proof sometime claude project makes a motivation letter and doesnt send it. apply your changes you have freedom",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:52:25.450Z",
+      "text": "Root cause of \"letter written, never sent\": drafting ≠ attaching, no gate at submit. Fix at the one chokepoint every session reads — rules file. Plus: kill stale cowork prompt (unique ammo → `claude/project-evidence.md`), next-actions in README.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:53:21.680Z",
+      "text": "Word given: rewrite. Prompt rewritten in place with current facts; `project-evidence.md` deleted — prompt is self-contained by design, two copies = drift.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:55:18.332Z",
+      "text": "Skill has 3 agents: letter-writer, form-scout, applicant. Gaps = post-submit verification (the letter-not-sent bug) + follow-up lifecycle. Reading existing brief format first.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T15:56:40.577Z",
+      "text": "More skills = only ones closing real gaps. Checking what SKILL.md + zip rules already cover first — no duplicates.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:00:47.422Z",
+      "text": "Answer library material banked. Generating applications.csv with real URLs from all four tabs.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:02:08.748Z",
+      "text": "Now the answers library.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:03:50.622Z",
+      "text": "Now the interview — 6 gaps, only you can answer. Two rounds.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:08:03.560Z",
+      "text": "New CV in. Reading it, swapping into folder + skill, updating hash.",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:10:29.854Z",
+      "text": "All done. Validator green (1 expected warning). Full picture:\n\n**Folder now agent-first** (`~/Downloads/claud jobs/`):\n- `applications.csv` — 30 rows (15 submitted, 5 join.com-blocked, 10 closed/gated), real URLs, confirmation text. Dedupe source of truth.\n- `answers/` — 7 files: introduce-yourself, why-this-company, an-agent-i-shipped, years-of-experience, salary-expectation, work-authorisation, biggest-achievement. Each records what was sent to whom, so nothing recycles verbatim.\n- `form-quirks.md` — Ashby keystrokes/retype, Greenhouse pickers that silently blank, file-input rule, board-index-means-closed, plus append section.\n- `follow-ups.md` — all 15 chase on **15 Aug**; immediate items: Sourcegraph orphan letter, join.com sign-in.\n- `profile-gaps.md` — your 6 interview answers recorded.\n- `validate.py` — checks confirmations, letters↔applications, CV hash, duplicates. **Already caught a real bug**: Arize Solutions Manager sat in both Submitted and Abandoned tabs (fixed — submitted with honest \"3 years\" is final state). Run at session start/end.\n- `skill/` — job-hunt.skill unzipped, diffable. Repack: `cd skill && zip -rFS ../job-hunt.skill job-hunt`. Skill now bundles 6 agents (added submission-auditor, follow-up, interview-prep) + session-runbook + synced rules.\n- Renamed CLI-safe: `applications-2026-08-05.xlsx`, `role-shortlist-2026-08-05.xlsx`, `application-answers.md`. Nothing deleted.\n\n**New CV swapped in** — folder + skill bundle, hash pinned in validate.py (old hash kept as record of what the 15 apps carried). Rules, README, prompt, answers all updated to your choices: FlowSpace ongoing + 2 weeks' notice, €200/day contract rate, LinkedIn in portfolio fields, Italian actively studying, EU-wide relocation, no refused sectors.\n\n**One flag, then it's your call and it's recorded**: 15 submitted apps say \"contract ended July, available immediately\" — in writing, in essays (Viktor got it verbatim). New apps will say \"ongoing, 2 weeks' notice\". Both stories now exist; rules file instructs agents to keep the old story with those 15 companies and never mix framings at one employer. Reference checks with FlowSpace would surface real dates — worth a heads-up to them.\n\n**Plugins for the Cowork project** (registry search returned nothing job-specific; these are the real ones):\n1. **Gmail connector** — required, the follow-up agent is dead without it. Already works here; connect in Cowork via claude.ai connector settings.\n2. **Google Calendar connector** — when invites land: availability answers + booking prep. Connect same place.\n3. **No plugin, but bigger than any plugin**: sign in to **join.com** in the browser (5 apps unblocked) and **LinkedIn** (Easy Apply roles + recruiter DMs become reachable).\n4. Skip: LinkedIn-scraper MCPs (ToS risk, browser covers it), CRM/Notion trackers (csv + xlsx already work).",
+      "repeat_count": 1
+    },
+    {
+      "role": "user",
+      "timestamp": "2026-08-05T16:10:57.667Z",
+      "text": "give the prompt for project to start applying now",
+      "repeat_count": 1
+    },
+    {
+      "role": "assistant",
+      "timestamp": "2026-08-05T16:11:52.688Z",
+      "text": "Saved as [start-prompt.md](Downloads/claud jobs/start-prompt.md) in the folder too — future sessions reuse it. Paste this:\n\n```\nStart a job application session. I'm Prabhavit Gupta and I authorise you to fill and submit\napplications on my behalf, within my standing rules.\n\nRead first, in this order:\n1. README.md in the \"claud jobs\" folder — state of play\n2. claude/application-rules.md — follow it exactly; run its pre-submit checklist before every single submit\n3. claude/session-runbook.md — the session order\n4. profile-gaps.md and form-quirks.md\n5. Run python3 validate.py — must pass now and again at session end\n\nThen work the runbook:\n- Follow-up sweep against applications.csv (use Gmail if connected; if not, say so and skip)\n- Draft the Sourcegraph follow-up email attaching letters/Sourcegraph_Motivation_Letter.pdf — show me, do NOT send\n- If I've signed in to join.com: run the 5 blocked roles first. If not, remind me once and move on\n- Next batch: take the top unopened rows from role-shortlist-2026-08-05.xlsx. Verify each posting\n  is live in the browser before spending time (search indexes run ~a month stale). Scout the form,\n  write, apply — one application at a time, target 5–10 this session\n- CV = Prabhavit_CV.pdf, unmodified, attached to every application. Letters adapted from\n  claude/motivation-letter.md — never a blank cover-letter field, even optional ones\n- Facts current as of 5 Aug evening (authoritative in profile-gaps.md): FlowSpace ongoing with\n  ~2 weeks' notice, contract rate €200/day, LinkedIn URL in portfolio/GitHub fields, Italian\n  beginner actively studying\n- Audit every submission per claude/agents/submission-auditor.md before counting it\n- Log each one in applications.csv and follow-ups.md, then update the counts in README.md\n\nStop and ask me only when you hit: an account wall or CAPTCHA, a payment/ID request, a claim\nabout my experience the files don't cover, or a UK/Swiss/US sponsorship question.\n\nEnd-of-session report: submitted (with verbatim confirmation text), blocked, needs-me — in\nthat order. Nothing counts as submitted without a confirmation seen on screen.\n```\n\nTwo things maximize this session before pasting: sign into join.com in the browser (5 apps ready to go) + connect Gmail in Cowork (follow-up sweep works).",
+      "repeat_count": 1
+    }
+  ]
+}

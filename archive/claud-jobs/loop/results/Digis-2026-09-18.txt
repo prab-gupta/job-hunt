@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468876873/ (DOU Polska / Digis, Fiverr group, Quality Assurance Automation Engineer, Warsaw)
+Dedupe: `python3 loop/dedupe.py --check "DOU Polska" "https://www.linkedin.com/jobs/view/4468876873/"` -> NEW
+         `python3 loop/dedupe.py --check "Digis" "https://www.linkedin.com/jobs/view/4468876873/"` -> NEW
+Hard gates: passed (3+ yrs QA automation, Python+Playwright claimable, English B2+, Warsaw hybrid
+  is EU so not a location kill, no anti-AI disclaimer, JD is pro-AI).
+Uploaded: nothing yet, form never reached.
+Materials built and ready: Prabhavit_CV_Digis.tex/.pdf (2 pages, verified via pdfinfo) and
+  CoverLetter_Digis.txt/.pdf (258 words, 0 em-dashes). Details and bullet-drop log in
+  answers/Digis-2026-09-18.md.
+Answers given: none (blocked before any form field).
+Blocker: LinkedIn's "Apply" opens https://dou.eu/jobs/1788526376b63a (Digis listing on the DOU.eu
+  Polish tech job board, JD text matches the LinkedIn prefetch exactly). Its own "Aplikuj" button
+  requires signing in first: "Aby wykonac te czynnosc, musisz sie zalogowac" (To perform this
+  action, you must log in), with only OAuth options (Google, GitHub, Microsoft, LinkedIn,
+  Facebook, Twitter) at https://dou.eu/users/sign_in, tab id 550851736 (closed after capture).
+  No guest/email apply path exists on this board. This is an account-creation/OAuth login wall,
+  a user-only blocker per the brief; not attempted.
+New ATS trap for LEARNINGS.md: DOU.eu (Polish tech job board hosting Digis's listing) has no
+  guest-apply option at all; every "Aplikuj" click forces an OAuth sign-in (Google/GitHub/
+  Microsoft/LinkedIn/Facebook/Twitter) before the actual application form is ever reached.

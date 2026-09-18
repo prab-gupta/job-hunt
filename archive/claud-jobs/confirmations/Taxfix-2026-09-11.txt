@@ -1,0 +1,5 @@
+We couldn't submit your application
+Thank you for your interest in joining Taxfix!
+We've received your application recently and, as part of our process, we ask candidates to wait 90 days before reapplying to the same role. We truly appreciate your enthusiasm and encourage you to explore other opportunities with us in the meantime.
+
+(Ashby ATS company-level reapplication cooldown, triggered by prior Taxfix submission on 2026-08-05 for a different requisition, AI Automation Specialist - Marketing & GTM. Form was filled and Submit Application was clicked twice; the ATS rejected both submit attempts with this banner instead of accepting the application.)

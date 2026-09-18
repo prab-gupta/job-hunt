@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the AI Engineer position at Lexroom.
+
+For the past two and a half years at FlowSpace, I built and shipped AI systems that extract structured information from unstructured documents at scale. My main project was an AI pipeline that takes documents in any format (PDFs, web pages, photos, spreadsheets), uses LLM APIs with agentic orchestration and retrieval patterns to draft structured listings, and pushes results to a PostgreSQL backend after human review. The pipeline handles search, extraction, validation and structuring across thousands of documents. I also built support AI agents with confidence scoring that search live platform data and escalate to a person when uncertain.
+
+What draws me to Lexroom is the domain and the technical challenge. Legal documents are dense, precise and high-stakes, which is exactly the kind of extraction and structuring problem I enjoy. I have hands-on experience building agent-driven and RAG-based systems in production, running end-to-end evaluations to measure quality and find bottlenecks, and working closely with domain experts to improve output. I code daily in Python and TypeScript, and I am comfortable with search pipelines, vector-based retrieval, and integrating ML models into production backends.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit and am available to start immediately. Milan is easily reachable and I am happy to work on a hybrid basis from your office.
+
+Regards,
+Prabhavit Gupta

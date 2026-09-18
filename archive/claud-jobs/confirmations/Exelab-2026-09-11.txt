@@ -1,0 +1,10 @@
+Exelab - Solution Architect (Italy Remote)
+ATS: Recruitee - https://exelab.recruitee.com/o/solution-architect
+Submitted: 2026-09-11 via Claude in Chrome (tab 550850520)
+
+Success page (tab title "Exelab S.r.l. - Solution Architect - Applied", URL https://exelab.recruitee.com/o/solution-architect/applied):
+
+"All done!
+Your application has been successfully submitted!"
+
+Tab header also shows an "Applied" badge with a checkmark next to the Application tab.

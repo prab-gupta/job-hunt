@@ -1,0 +1,12 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4468380509/
+Company: Flip - (Senior) Forward Deployed Engineer (m/f/d) - Stuttgart, Germany
+
+Dedupe: HIT COMPANY on "Flip GmbH" (2026-08-31, Product Engineer Frontend/Web, status DEAD) - a different role/requisition, does not block by itself per the dedupe rule.
+
+Task instructions required re-checking the LIVE JD since an earlier Flip row was killed, and killing only if German is explicitly required. Read scratchpad/jd/4468380509.txt Requirements section (Must-haves):
+
+"German at C1 level or above and fluent English."
+
+Prabhavit's languages are English (professional, C2), Hindi (native), Italian (conversational, B1-B2). No German claimable. This is an explicit, unambiguous language requirement he lacks, which is one of the three permitted kill reasons under the standing FDE-ALL rule (closed / already SUBMITTED / language explicitly required and lacked). Killed. No CV or cover letter built for this row.

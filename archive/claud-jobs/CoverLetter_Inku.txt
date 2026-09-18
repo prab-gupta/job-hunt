@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Forward Deployed Engineer role at Inku.
+
+At FlowSpace, I worked in the mode this role describes, sitting close to real usage and turning what I saw into shipped changes fast, not on a release cycle. I built an AI listing pipeline that ingests brochures, websites, and spreadsheets in any format, extracts structured data with LLM APIs, and has produced 900+ draft listings for human review. I built RAG-backed support agents with confidence-based escalation, and shipped OfficeRnD and Nexudus integrations connecting booking systems into the platform. My stack is Python and TypeScript across automation, data extraction, and QA, with Claude Code as my daily tool for fast prototyping with real users.
+
+Inku's approach, working inside a client's systems, prototyping against their data, then feeding what works back into a reusable platform, matches how I already operate: understand the environment, connect the systems, ship the smallest version that gets a reaction, generalise.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit, and am ready to relocate to Belgium. I do not currently hold Belgian work authorisation and would need the employer-side permit process, which I am ready to complete.
+
+Regards,
+Prabhavit Gupta

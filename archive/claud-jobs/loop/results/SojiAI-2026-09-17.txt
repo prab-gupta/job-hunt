@@ -1,0 +1,11 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4466267647/
+Company: Soji AI | Role: Forward Deployed Engineer (Aviation) | Location: Hamburg, Germany
+
+Reason: dedupe HIT COMPANY. grep of applications.csv found a Soji AI row dated 2026-09-16 (one day earlier): status SUBMITTED, role "Forward Deployed Engineer (Aviation)" (identical title), ats join.com, LinkedIn id 4452595224, CV Prabhavit_CV_SojiAI.pdf and letter CoverLetter_SojiAI.pdf already on file, Germany relocation transparency line already used.
+
+This posting (id 4466267647) is the same company, the identical (unusual, company-specific) title, the same country (Hamburg, Germany), posted only about 9 hours before this check, one day after the prior submission. Soji AI is a small funded startup ("11 people clicked apply" on this fresh listing) unlikely to be running two parallel identical FDE-Aviation openings. Treated as the same requisition resurfacing under a new LinkedIn job id (a known LinkedIn behaviour for reposted/boosted listings) rather than a genuinely separate opening, so killed as "same requisition already SUBMITTED" per the task's kill criteria.
+
+Verification attempted: clicked Apply in Chrome to compare the offsite destination against the prior join.com application; the click opened LinkedIn's signed redirect (linkedin.com/safety/go/..., target=_blank) but no new tab registered in this session's tracked Chrome tab group, so the exact destination URL could not be directly confirmed equal. Killing on the balance of the evidence above (same company + identical title + same country + 1 day apart); flagging this residual uncertainty for the user in case Soji AI genuinely opened a second identical role.
+
+No new CV or letter built (existing Prabhavit_CV_SojiAI.pdf / CoverLetter_SojiAI.pdf files untouched, not overwritten). No form opened. Nothing submitted twice.

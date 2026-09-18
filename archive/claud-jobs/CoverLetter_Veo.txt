@@ -1,0 +1,12 @@
+Dear Veo Technologies hiring team,
+
+I am applying for the Forward Deployed Engineer role on the API team. Over the past three years I have worked as the technical counterpart on integrations that had to hold up in production, moving between partner conversations and code on projects across eight European companies.
+
+At FlowSpace, a live coworking marketplace, I own the OfficeRnD and Nexudus API integrations that automate bookings, alongside CRM and GTM automations for lead capture and routing. I also built an AI listing bot on the Claude API and n8n that turns a brochure in any format into a drafted listing with a human in the loop, over 900 produced so far, and I drove the marketplace's live migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one entity by entity while the product stayed live. The platform grew from 2,000 to over 4,500 users through that period.
+
+At Get2Germany, based in Berlin, I integrated Google APIs to track platform activity and built AI tools that find courses, internships and jobs for users, working with n8n on the automation layer. That project gave me a first look at building for a German market and audience, which is part of what draws me to this role.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Berlin, travel to work with partners as needed, and start soon after an offer.
+
+Regards,
+Prabhavit Gupta

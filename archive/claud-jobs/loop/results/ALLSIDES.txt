@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4446198374/ (OFFSITE)
+ATS: https://allsides.onboard.org/en/jobs/d4lWrDmM/form?campaign=wePMQ8mj (Onboard ATS, Covision Media Srl, Bressanone)
+
+Uploaded: Prabhavit_CV_ALLSIDES.pdf (2 pages, tailored per brief — see answers/allsides-2026-09-11.md for the full bullet-by-bullet record)
+Pasted: full CoverLetter_ALLSIDES.txt text into the "Message" field (no separate cover letter upload slot on this ATS)
+
+Answers given: Title Mr, name/email/city(Venice, Italy)/phone(+39 351 610 7807), Languages=English (single-select field), Available on-site=checked, privacy-policy consent=checked, talent-pool/archivation consent=left unticked.
+
+Blockers: none. LI-PICK row — applied despite the posting's stated "applications open until August 23, 2026" deadline (past) because LinkedIn still showed a live Apply button and the ATS form itself had no closed banner; per the 2026-09-11 LI-PICK rule this is not a kill condition.
+
+LEARNINGS: New ATS seen for the first time — onboard.org (Onboard, an AngularJS Material app used by Covision Media Srl / ALLSIDES). Two traps worth noting for future onboard.org applications: (1) the CV upload control is a visible paperclip button that doesn't itself expose a file input to find/read_page — the actual input is a hidden `<input type="file" id="ngf-upload-cv">` (ngFileUpload) elsewhere in the DOM; search for it by id/type rather than clicking the visible button. (2) The "Title" and "Languages" dropdowns are md-select components that render their option panels in a shared screen position — clicking one immediately after the other (or relying on stale `find`/read_page refs across renders) can silently select the wrong option (selected "Ms" once instead of "Mr" from a misplaced click); always re-screenshot or re-read_page immediately after opening each dropdown and verify the underlying native `<select>`/Angular scope value via javascript_tool before moving on, since the visible chip text does not always update immediately after a UI click. The "Languages" field on this form is a single-select despite looking like a multi-select checkbox list — confirmed via `angular.element(el).scope()` inspection (`languages.selected` is a single object, not an array).
+
+Files: confirmations/ALLSIDES-2026-09-11.txt, answers/allsides-2026-09-11.md, Prabhavit_CV_ALLSIDES.tex/.pdf, CoverLetter_ALLSIDES.tex/.txt/.pdf. applications.csv row appended.

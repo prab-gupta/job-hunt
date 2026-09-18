@@ -1,0 +1,16 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4431603639/ (offsite via apply.workable.com/valsoft-corp/j/CF9E976740, Workable ATS)
+Uploaded: nothing submitted. Materials were built before the discovery below and remain on disk: Prabhavit_CV_Microdeb.pdf/tex, CoverLetter_Microdeb.pdf/.txt.
+
+Dedupe: python3 loop/dedupe.py --check "Microdeb" "https://www.linkedin.com/jobs/view/4431603639/" -> NEW
+
+Reason: the LinkedIn JD read as SQL/DBA/customer-support core with AI tools as workflow leverage (Claude, Copilot, internal LLM workflows), English JD, no anti-AI disclaimer, 2+ years (honest 3), Bachelor's degree "or equivalent practical experience" so not a hard degree gate. It carried one internally contradictory line: the required "What we're looking for" section states "Clear written and verbal communication in Swedish and English", while the separate Nice-to-have section says "Swedish language skills are a must for this role" (self-contradictory placement). Given the ambiguity, materials were built first per the brief's order of work (dedupe -> cheap check -> hard gates -> only then materials).
+
+Opened the real application at apply.workable.com/valsoft-corp/j/CF9E976740/apply/ (guest apply, no account wall, description text identical to the LinkedIn prefetch, re-read in full). Its actual form carries two required Yes/No screening questions:
+- "Are you fluent in both English and Swedish?" YES/NO (required)
+- "Are you legally authorised to work in Sweden?" YES/NO (required)
+
+Swedish fluency is a hard requirement Prabhavit cannot honestly claim (standing rule never claims German/Spanish/Polish beyond English C2/Italian B1-B2; the same principle applies to Swedish, which he does not speak at all). This is the brief's hard-gate class "JD ... a non-English language required." Answering NO would be an honest but almost certainly disqualifying screening answer on a mandatory gate question, and answering YES would be a fabricated claim, so the form was not filled or submitted.
+
+Blockers: none for the user (this is an autonomous KILL, not a NEEDS YOU).
+LEARNINGS: added a line - a Workable (and likely other ATS) required Yes/No screening question can enforce a language requirement that the LinkedIn posting text only states inconsistently (once as "required" prose, once as "nice to have"); always open the real destination form and check its actual required screening questions before treating an ambiguous language mention as safe to skip.

@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4435945935/ (routes offsite to https://www.capably.ai/careers/forward-deployed-engineer-emea)
+Uploaded: nothing (no form to upload to)
+Built and saved: Prabhavit_CV_Capably.pdf/.tex, CoverLetter_Capably.pdf/.tex/.txt
+Answers: answers/capably-2026-09-16.md
+Blocker: the only "Apply now" control on Capably's career page is a mailto:jobs@capably.ai link, no web application form (confirmed via DOM inspection: no ATS form, no other apply link). Sending an email as the user requires the user's own explicit chat confirmation, which this task does not have, so the row was stopped without sending. Logged in NEEDS_YOU.md item 8.
+LEARNINGS: Capably's LinkedIn posting shows "Responses managed off LinkedIn" and routes to their own careers page rather than an ATS; that page's apply mechanism is a plain mailto link, not a form. Worth checking DOM for mailto: hrefs early on any "offsite" apply-type row before assuming a form exists.

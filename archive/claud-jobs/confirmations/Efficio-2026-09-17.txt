@@ -1,0 +1,6 @@
+NOT SUBMITTED — NEEDS YOU.
+
+Form: https://jobs.eu.lever.co/efficioconsulting/4a616168-606f-4156-bf4f-11197a22d9d3/apply?source=LinkedIn (Lever ATS, reached via LinkedIn "Apply on company website" from https://www.linkedin.com/jobs/view/4369948341/)
+Chrome tab id: 550851712
+
+Form fully filled (resume Prabhavit_CV_Efficio.pdf uploaded and parsed, all Portugal application questions answered). Clicking "Submit Application" raised an image CAPTCHA ("Select all toys made for bath time"). CAPTCHAs are a user-only blocker per standing rules, so it was left unsolved and the application was not submitted. Please solve the CAPTCHA and click Submit Application again. Full detail in answers/efficio-2026-09-17.md.

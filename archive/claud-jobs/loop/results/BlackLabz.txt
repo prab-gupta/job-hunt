@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462283164/
+Uploaded: resume selected from LinkedIn library, Prabhavit_CV-.pdf (matches ROOT/Prabhavit_CV_Original_EN.pdf; already current/selected by default). No cover letter field existed in this Easy Apply flow, so none was attached; CoverLetter_BlackLabz.txt and CoverLetter_BlackLabz.pdf (1 page, tectonic-built) were prepared in ROOT and held for reference / any follow-up.
+Answers given: English proficiency = Professional; comfortable working onsite = Yes; will require visa sponsorship = Yes (honest — Estonia work authorisation No, employer-side permit needed); TypeScript years = 2; React.js years = 2; comfortable working in iGaming industry = Yes (JD discloses Whale.io crypto casino/sportsbook client); can start immediately = Yes; "Follow Black Labz" checkbox unticked.
+Blockers: none. No CAPTCHA, no account creation wall — straight 5-page LinkedIn Easy Apply modal.
+Confirmation: "Your application was sent to Black Labz!" (screenshot text saved to confirmations/BlackLabz-2026-09-09.txt; in-browser PNG saving unavailable in this Chrome session per brief, so the txt is the record).
+LEARNINGS: none — no new ATS trap. Note only: this posting's Easy Apply included two screening questions not covered by standing canonical answers (iGaming-industry comfort, urgent-hire immediate-start) — answered per JD context, both favorable to the employer's evident intent.

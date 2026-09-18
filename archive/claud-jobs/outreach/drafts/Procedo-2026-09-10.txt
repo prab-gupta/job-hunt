@@ -1,0 +1,15 @@
+TO: team@procederai.com
+SUBJECT: Candidatura spontanea per Procedo - automazione intelligente
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Procedo,
+
+Costruire automazione intelligente per l'ottimizzazione dei processi industriali è un problema che ho affrontato da una prospettiva vicina: in FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati con revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase. Uso anche n8n e Make per automazioni lato cliente.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, aperto a Milano, Treviso o da remoto. Vi va una call di 15 minuti, o potreste indirizzarmi a chi segue le posizioni software e ML?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

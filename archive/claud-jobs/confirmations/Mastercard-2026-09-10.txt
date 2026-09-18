@@ -1,0 +1,56 @@
+Mastercard - Product Manager (Data & Services), Milan, Italy - 2026-09-10
+
+STATUS: SUBMITTED
+
+The LinkedIn "Apply" button redirects to Mastercard's own Phenom-powered careers site
+(careers.mastercard.com), which then hosts a GUEST apply flow (Workday backend at
+mastercard.wd1.myworkdayjobs.com is only reached via a separate "Log in" link — it was
+never forced). No account creation or sign-in was required to reach, fill, or submit the form.
+
+Apply URL:
+https://careers.mastercard.com/us/en/apply?jobSeqNo=MASRUSR287369EXTERNALENUS&utm_source=linkedin&utm_medium=phenom-feeds&source=LINKEDIN
+
+Success page (confirms submission):
+https://careers.mastercard.com/us/en/applythankyou?status=success&jobSeqNo=MASRUSR287369EXTERNALENUS&jobTitle=Product%20Manager&jobId=R-287369
+
+Page title: "Thank you for applying"
+Success text: "Almost there! Just one more step to complete your application: Track your
+application status by creating an account via the unique link provided in your email
+instructions. Check your junk/spam folder if you haven't received communication from us.
+Review your email settings to ensure you receive future communication." Optional "Create
+your Account" button offered for status tracking only (not required — the application
+itself is already submitted per status=success and jobId=R-287369 in the URL).
+
+Steps completed at submit time:
+- Step 1 My information: Italy, Prabhavit Gupta, Via Zanetti 10, 30175, Venice, Venice
+  province, prabhavitg@gmail.com, Mobile +39 351 610 7807, How Did You Hear = Job Board,
+  Source = LinkedIn, worked for Mastercard before = No.
+- Step 2 My experience: 5 work-history entries (FlowSpace.co, Urlink, UltraStrategy.com,
+  Qomodo, Get2Germany.com) and 2 education entries (Ca' Foscari University of Venice —
+  Bachelors, Philosophy; Microsoft Copilot Studio Agent Academy — Certificate). Fixed
+  before submit: FlowSpace.co end date set to 08/2026 with "currently work here" unchecked
+  (role ended per Prabhavit - Master Experience.md, which is more current than the CV's
+  "Ongoing" wording); UltraStrategy.com and Qomodo job titles completed to match the
+  uploaded CV text exactly (both had been left truncated by the prior agent's parser
+  fix-up: "Automation Developer (Collaborator" missing its closing paren, and Qomodo's
+  title was missing the "AI and" prefix and company name entirely). Attachments:
+  Prabhavit_CV_Mastercard.pdf and CoverLetter_Mastercard.pdf (both uploaded successfully;
+  the form's Resume/Cover Letter section takes two separate file-input uploads under one
+  "Attachments" list).
+- Step 3 Application questions: authorised to work in Italy = Yes, sponsorship = No,
+  restrictive covenant = No, gender = Prefer Not To Self-Identify, worked for Mastercard
+  before = No, desired salary = EUR 51,000 (bottom of the stated Milan band EUR 51,000-84,000).
+- Step 4 Additional application questions (Mastercard conflict-of-interest/compliance):
+  all six answered No (no commercial-contract dealings with Mastercard employees, no
+  relatives who sign Mastercard contracts, not a recent government employee with oversight
+  of Mastercard, no relatives who are such government employees, no close personal
+  relationship with a Mastercard employee, no outside employment/activity to continue).
+- Step 5 Voluntary disclosures: privacy-notice consent checkbox ticked (required consent).
+- Step 6 Review: verified all sections including both attachments, then Submit clicked.
+
+Note: mid-session the browser tab hung for several minutes after the cover-letter upload
+(script injection into the tab timed out repeatedly). Recovered by navigating the same tab
+back to the bare apply URL, which resumed the in-progress application from Phenom's
+server-persisted draft state at the correct step with all prior data intact (confirmed via
+DOM inspection) rather than restarting from scratch. Re-uploaded the cover letter after
+that recovery and continued through to submission without further issue.

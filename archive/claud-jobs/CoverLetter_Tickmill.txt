@@ -1,0 +1,14 @@
+Dear Tickmill Hiring Team,
+
+I am writing to apply for the AI Automation Engineer role in Tallinn. This is the work I have spent the last three years doing: turning a business process into an agentic workflow an LLM can run reliably, then keeping it alive in production.
+
+At UltraStrategy, I built the CV parsing and assessment pipeline behind the platform. A user uploads a CV, the pipeline extracts the data with Affinda and assesses how relevant the candidate is for specific roles, and a standardised Ultra CV is generated with the Claude API. The flow, from ingestion through scoring to output, was orchestrated end to end in n8n, the same shape of problem as an agentic workflow that has to run unattended.
+
+At FlowSpace, I built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, a retrieval based setup close to what your Sales and Finance teams would need. I also automated the migration of a live marketplace off its legacy stack onto Next.js and Laravel while the product stayed live, growing it from 2,000 to 4,500 plus users, and shipped CRM and GTM automations for lead capture, enrichment and outbound.
+
+I hold Italian EU long term resident status. I am not currently authorised to work in Estonia and would need the applicable employer side permit or sponsorship process. I am ready to relocate to Tallinn and complete that process.
+
+I would welcome the chance to discuss how this applies to Tickmill's automation roadmap.
+
+Best regards,
+Prabhavit Gupta

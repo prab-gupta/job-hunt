@@ -1,0 +1,12 @@
+Dear Keysight team,
+
+I am applying for the QA Automation Engineer role in Bucharest. Test automation that has to work against real third-party equipment, not a clean mock, is exactly the kind of testing I have done and enjoy.
+
+At FlowSpace I built and maintained our Playwright end-to-end test suite, and separately built and debugged the OfficeRnD and Nexudus integrations that connect bookings to systems the business does not control, which meant configuring and troubleshooting external, non-standard systems independently and reporting clear root causes when something broke. I also use coding agents daily to write scripts and tooling faster, which lines up with where this role is heading on exposure to AI technologies.
+
+Keysight's scale, testing communications and network products used across 100 countries, is the kind of environment where getting the test framework right actually matters, and that is the work I want to keep doing.
+
+Logistics: I hold an Italian EU long-term residence permit. I am not yet authorised to work in Romania and would need an employer-side permit, which I am ready to start. English is fluent, available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

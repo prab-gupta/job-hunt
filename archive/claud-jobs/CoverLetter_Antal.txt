@@ -1,0 +1,21 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+Gentile team di Antal International,
+mi candido per la posizione di Junior AI & Digital Automation Specialist a Vazzola. Sono uno sviluppatore
+AI e automazione con tre anni di esperienza continuativa in otto aziende europee, maturati costruendo
+script, agenti intelligenti e ﬂussi di automazione in Python a supporto di processi aziendali reali.
+Per FlowSpace ho costruito uno strumento basato su AI per l’elaborazione e l’estrazione di dati da fonti
+eterogenee, oltre ad agenti AI che rispondono alle richieste dei clienti attingendo ai dati live della piattaforma
+ed escalando a un operatore umano in caso di bassa conﬁdenza: lo stesso lavoro di estrazione, organizzazione
+e normalizzazione dei dati aziendali e di sperimentazione con agenti intelligenti che descrivete nell’annuncio.
+Per UltraStrategy ho costruito con n8n ed Eden AI una pipeline che elabora i CV caricati dagli utenti,
+estraendo e normalizzando i dati per valutare la rilevanza del candidato, e per Get2Germany ho sviluppato
+strumenti AI per trovare corsi, stage e oﬀerte di lavoro integrando le API di Google: lo stesso approccio di
+sviluppo di soluzioni AI a supporto di attività operative che cercate nel ruolo.
+Ho inoltre completato i percorsi Microsoft Copilot Studio Agent Academy e Microsoft Power Automate, in
+linea con gli strumenti indicati come un plus nell’annuncio. Sono disponibile per la sede di Vazzola e per
+una RAL in linea con il livello junior della posizione. Resto a vostra disposizione per un colloquio.
+Cordiali saluti,
+Prabhavit Gupta
+
+

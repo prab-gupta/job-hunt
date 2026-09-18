@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464794912/
+Uploaded: Prabhavit_CV_P4B.pdf (explicit upload, overrode LinkedIn's default which had carried over Prabhavit_CV_K2.pdf from the prior application in this session)
+Cover letter: CoverLetter_P4B.pdf/.txt (Italian) prepared but not attached (no cover letter field in this LinkedIn flow)
+Answers given: none required (single-page flow, contact info prefilled correctly, no additional questions)
+Blockers: none
+Notes: Italian JD (Rome), requires Laurea in Ingegneria Informatica + 3yr experience + Executive PhD program attached to the role. Applied anyway per user rule 2026-09-16 (no kill for hard degree requirement); did not claim the degree in the letter. LEARNINGS candidate: LinkedIn's resume-library default reuses the most recently uploaded CV across different job applications in the same session, not just the applicant's usual library resume - always verify/re-upload the tailored PDF even when a radio is already "checked".

@@ -1,0 +1,12 @@
+Dear Miaplaza Team,
+
+I am applying for the QA Engineer role. Your requirements read like my last two years: two-plus years of QA, Playwright and TypeScript, on a live product with real users.
+
+At Clubee (Luxembourg) I ran unit testing and QA across a sports-club platform while integrating its API into the frontend. At FlowSpace (a workspace marketplace, London) I owned quality for the migration from a legacy stack to a coded Next.js and Laravel product while the platform grew from 2,000 to 4,500+ users: Playwright end-to-end suites in TypeScript, CI checks on every pull request, and triage of customer-reported defects through to a fixed and regression-tested release. I also built an AI document pipeline with a human review step, which taught me to test non-deterministic systems: evaluation sets, golden outputs, and clear escalation when confidence is low.
+
+I use Claude Code daily to write and maintain test suites faster, and I like the part of QA most people skip: understanding the product deeply enough to know which failures matter to a learner or a parent, then automating exactly those checks.
+
+I am based in Venice, Italy (CET), hold an EU Long Term Residence Permit, work fully remote, and am available immediately.
+
+Regards,
+Prabhavit Gupta

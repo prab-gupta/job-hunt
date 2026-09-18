@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4446991563/
+ATS: LinkedIn Easy Apply (SmartRecruiters-backed)
+
+Uploaded: Prabhavit_CV_Devoteam.pdf (built fresh from Prabhavit_CV_EN.tex, same FDE/AI tailoring pattern as Albatross, parity-diffed, 2 pages). CoverLetter_Devoteam.pdf (Italian, 0 em-dashes) uploaded via the Resume step's separate "Upload cover letter" control.
+
+Answers given:
+- JD was entirely in Italian, so per task instruction the letter was written in Italian; the CV stayed in English per standing practice.
+- Contact info: name/email auto-filled; added mobile 3516107807 and Location (city) via the Venice, Veneto, Italy typeahead.
+- Resume step defaulted to a stale file from the prior job's session (Prabhavit_CV_Albatross.pdf, most-recently-uploaded quirk) - explicitly re-uploaded and verified Prabhavit_CV_Devoteam.pdf checked. The cover-letter slot on this form was a separate, empty file upload control (no radio pre-selected) - uploaded CoverLetter_Devoteam.pdf there and verified it was checked before Next.
+- Skipped the optional "mark job as top choice" page.
+- Work experience and Education pages were the user's existing LinkedIn profile data, left unedited (already accurate: FlowSpace, Ca' Foscari University of Venice, G.D. Goenka Public School, The Millennium School Lucknow).
+- Additional Questions: one Italian GDPR/privacy consent checkbox ("Presto il mio consenso"), ticked (required).
+
+Dedupe: HIT URL but the only prior row for this exact posting is a 2026-08-06 LEAD (never applied) - does not block per the brief.
+
+Blockers: none. Submitted successfully - job page's Application status panel showed "Application submitted".
+
+LEARNINGS: none new - reconfirmed the known LinkedIn resume-picker most-recently-uploaded quirk on the Resume step; the separate cover-letter upload control on this form started empty (no pre-selection), so no matching issue there.

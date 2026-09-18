@@ -1,0 +1,14 @@
+STATUS: NEEDS YOU
+LinkedIn: https://www.linkedin.com/jobs/view/4441357652/
+Job page: https://www.accenture.com/it-it/careers/jobdetails?id=R00344641_it (job n. R00344641, Rome / Multiple Locations)
+Exact apply URL: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641/apply
+
+Gates passed on the live JD (Mid-Level tag, no numeric years floor, no MSc/PhD, English JD, Rome EU, Python-led claimable stack, no anti-AI clause). Dedupe confirmed this is a different Workday requisition (R00344641, Specialist) from the existing Accenture Italia NEEDS YOU row (R00344568, Analyst, Milan).
+
+Followed Apply on company website -> accenture.com job page -> "Candidati ora" -> Workday "Start Your Application" chooser (Autofill with Resume / Apply Manually / Use My Last Application). No guest-apply path exists: clicking "Apply Manually" advances the 6-step Application Progress bar straight to step 1, "Create Account/Sign In", and the page becomes a Workday Sign In screen (page title "Sign In"). Account creation is user-only, so the flow was stopped there and no account was created.
+
+Built the CV and letter anyway so the user can upload them once signed in: Prabhavit_CV_Accenture.pdf (2 pages, FlowSpace AI listing bot + support agents led, UltraStrategy and Get2Germany AI/automation bullets kept per the AI-JD rule) and CoverLetter_Accenture.pdf/.txt (270 words, FlowSpace + UltraStrategy two-role evidence, Get2Germany one-line aside, Italy standard answers: authorised Yes, no sponsorship).
+
+Logged NEEDS YOU in applications.csv and appended a new row (17f, distinct from the existing #15 Analyst entry) to NEEDS_YOU.md section C with the exact URL, the account-creation step, and the prepared file names. queue.csv was left untouched (see note to the user below).
+
+Files: Prabhavit_CV_Accenture.tex/.pdf, CoverLetter_Accenture.tex/.txt/.pdf, confirmations/Accenture-2026-09-11.png and .txt, answers/accenture-2026-09-11.md, applications.csv row (NEEDS YOU), NEEDS_YOU.md row 17f.

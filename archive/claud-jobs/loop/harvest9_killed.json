@@ -1,0 +1,398 @@
+[
+{
+"id": "4459056197",
+"company": "TMC",
+"title": "C# Software engineer",
+"reason": "Requires C# and .NET/.NET Core as primary stack (Prabhavit's core stack is TypeScript/Next.js/React/Node + Laravel/PHP + Python)"
+},
+{
+"id": "4465980411",
+"company": "Experis Italia",
+"title": "C# SW Egineer",
+"reason": "Requires C# and .NET as primary stack; Experis Italia is a staffing division (potential body-shop concern)"
+},
+{
+"id": "4465984931",
+"company": "Proconsul Group",
+"title": ".NET Backend Developer",
+"reason": "Requires ASP.NET Core and C# as primary backend stack (outside Prabhavit's core technologies)"
+},
+{
+"id": "4468253422",
+"company": "Vanguard System - Gruppo Global Sistemi",
+"title": "Software Engineer Java",
+"reason": "Requires Java 21+ and Spring Boot as primary backend stack (Prabhavit cannot claim Java as main language)"
+},
+{
+"id": "4462285488",
+"company": "Cubiq Recruitment",
+"title": "Software Engineer",
+"reason": "Staffing agency body-shop posting. Cubiq Recruitment is a recruitment agency posting for an unnamed Series A client (Italian healthcare/robotics/AI company). This violates the hard gate: 'staffing agency or outsourcing body-shop posting for an unnamed client'."
+},
+{
+"id": "4466202186",
+"company": "Ave Spa",
+"title": "Software Engineer",
+"reason": "refuted: Core stack mismatch. Job requires C/C++ and C# for embedded hotel automation control systems: 'conoscenza della programmazione C/C++ per processi client-server su Windows e Linux...conoscenza del linguaggio di programmazione C# ed il protocollo di comunicazione Modbus'. Candidate stack is TypeScript/React/Node/Laravel/Python with no C++ or C# experience."
+},
+{
+"id": "4468274000",
+"company": "Labinf Sistemi S.r.l.",
+"title": "Java Software Developer - Backend / Frontend",
+"reason": "Java is a restricted core technology - Prabhavit cannot claim Java as a main language skill"
+},
+{
+"id": "4468386721",
+"company": "Investech-blue",
+"title": "Java Developer",
+"reason": "Java is a restricted core technology - Prabhavit cannot claim Java as a main language skill"
+},
+{
+"id": "4468386425",
+"company": "3F & EDIN",
+"title": "Software Engineer AI",
+"reason": "refuted: Candidate lacks Java (must-have). JD explicitly requires \"Solida base Java/backend\" and \"Spring / Spring Boot o framework equivalenti\". Candidate's backend stack is Node/TypeScript/Laravel/Python\u2014no Java. Stack mismatch is disqualifying."
+},
+{
+"id": "4465997047",
+"company": "MOVYON",
+"title": "Software Engineer",
+"reason": "refuted: JD unavailable"
+},
+{
+"id": "4464786200",
+"company": "Alium",
+"title": "Java Software Engineer",
+"reason": "Hard gate: requires 5+ years experience stated explicitly. Also Java is a prohibited core stack (not in Prabhavit's full-stack mix)."
+},
+{
+"id": "4445931948",
+"company": "Alavie Srl",
+"title": "Sviluppatore back-end",
+"reason": "Hard gate: Italian JD requires 5 years experience ('5 anni di esperienza consolidata'). Senior profile explicitly stated."
+},
+{
+"id": "4468228692",
+"company": "Brain Technologies",
+"title": "Software Engineer - Embedded & Real-Time - Defense Industry",
+"reason": "Hard gate: core stack prohibited. Embedded & real-time development requiring C++, C#, VxWorks, RTOS, assembly\u2014all main-language prohibitions for Prabhavit."
+},
+{
+"id": "4429972706",
+"company": "Thales",
+"title": "Embedded Software Engineer",
+"reason": "Hard gate: core stack prohibited. Embedded firmware development (C++, VxWorks, FastOS, assembly, real-time OS). Space/defense embedded systems outside Prabhavit's stack."
+},
+{
+"id": "4468390533",
+"company": "LEXIS FINANCIAL INTELLIGENCE",
+"title": "Programmatore",
+"reason": "Hard gate: C and C++ programming required. Prabhavit's stack is TypeScript/Next.js/React/Node + Laravel/PHP + Python; C/C++ not in core competencies."
+},
+{
+"id": "4459175293",
+"company": "Officine IADR",
+"title": "Dev",
+"reason": "refuted: Job posting entirely in Italian at Italian company (Genova); candidate English-only cannot meet language requirements for effective collaboration in Italian workplace."
+},
+{
+"id": "4466219703",
+"company": "Techyon",
+"title": "FULL-STACK DEVELOPER | SVILUPPATORE .NET/REACT | SOFTWARE DEVELOPER",
+"reason": "Hard gate: .NET/C# explicitly required (title: 'SVILUPPATORE .NET/REACT'). C# is listed core stack Prabhavit cannot claim."
+},
+{
+"id": "4467506086",
+"company": "IDM Consulting S.r.l.",
+"title": "Java Backend Developer",
+"reason": "Hard gate: Java Backend Developer role explicitly requires Java, Spring, Spring Boot, Kubernetes, Kafka. Java is listed core stack Prabhavit cannot claim."
+},
+{
+"id": "4468200240",
+"company": "NETWKItalia",
+"title": "Java Developer",
+"reason": "Java as primary language; not in Prabhavit's core stack"
+},
+{
+"id": "4456942980",
+"company": "NTT DATA Europe & Latam",
+"title": "SSAP BTP CAP Java Developer",
+"reason": "Required 4-7 years SAP BTP experience (exceeds 3-year gate); Java as primary language"
+},
+{
+"id": "4468398636",
+"company": "STEF",
+"title": "SOFTWARE ENGINEER",
+"reason": ".NET/C# as primary stack; not in Prabhavit's capabilities (only JavaScript/TypeScript for frontend)"
+},
+{
+"id": "4444584599",
+"company": "Hitachi Rail",
+"title": "Software Engineer",
+"reason": "Seniority level Executive (equivalent to Senior, hardgate); C++ expert-level primary language (not in stack)"
+},
+{
+"id": "4468260132",
+"company": "Accessiway",
+"title": "Software Developer (Backend / Full Stack) \u2014 Categorie Protette (L. 68/99)",
+"reason": "Hard gates triggered: (1) explicitly requires 5 years PHP/Laravel minimum, exceeding 3-year ceiling; (2) explicitly states SENIOR level requirement; role is senior-level web developer for tour operator"
+},
+{
+"id": "4468373845",
+"company": "Techyon",
+"title": "FULL-STACK DEVELOPER | SVILUPPATORE .NET/REACT | SOFTWARE DEVELOPER",
+"reason": "Hard gate triggered: core stack requirement is Java 8+ (primary backend language), which is explicitly on the non-negotiable kill list. Role is full Java-based backend with Angular frontend despite misleading .NET/React title."
+},
+{
+"id": "4431737471",
+"company": "STEF",
+"title": "SOFTWARE ENGINEER",
+"reason": "Senior title + explicit requirement for 7+ years experience (exceeds 3-year gate)"
+},
+{
+"id": "4468397387",
+"company": "MatchGuru",
+"title": "Agentic Software Engineer \u2013 Java & Insurance",
+"reason": "Italian JD requires 'almeno 4 anni di esperienza' (at least 4 years, exceeds 3-year gate); Angular stack not in primary wheelhouse (React/Next.js user)"
+},
+{
+"id": "4467193078",
+"company": "Itconsulting",
+"title": "Angular Developer",
+"reason": "refuted: Candidate is English-only; job posting requires Italian at professional level as an essential requirement (Requisiti essenziali: \"Conoscenza dell'inglese e dell'italiano a livello professionale\")."
+},
+{
+"id": "4448569140",
+"company": "Adecco",
+"title": "SOFTWARE IMPLEMENTATION ENGINEER (WMS) (COMMISSIONING)",
+"reason": "refuted: Core stack mismatch. Job marks as \"Fondamentali\" (Fundamental): \"Comprovata esperienza nello sviluppo sulla piattaforma Microsoft Power Apps\", \"Profonda conoscenza di Microsoft Dataverse\", and \"Competenza solida nell'utilizzo di Power Automate\". Candidate's stack is TypeScript/React/Node/Laravel/Python (LLM pipelines) \u2014 none are Microsoft Power Platform tools. Python/Django/FastAPI listed only as optional plus skills, not fundamentals."
+},
+{
+"id": "4467962892",
+"company": "Yellow Tech - The AI Transformation Company",
+"title": "Regional AI Strategist - Emilia",
+"reason": "Native Italian speaker required (gate: Italian JDs pass unless demanding fluent or native Italian). Also poor fit as sales/strategy role, not technical engineer."
+},
+{
+"id": "4467501361",
+"company": "The Net Value",
+"title": "Data Science & AI Specialist",
+"reason": "Hard gate: MSc/PhD in STEM strictly required. Also fluent Italian required (gate: Italian JDs pass unless demanding fluent or native Italian)."
+},
+{
+"id": "4466854982",
+"company": "Universit\u00e0 Bocconi",
+"title": "Graduate Program",
+"reason": "MSc/MBA strictly required: job specifies 'A Master's degree - or expected graduation - in Business, Economics, Management, Digital Transformation, Innovation, Data & AI or related fields' as required for graduate program profile"
+},
+{
+"id": "4468386375",
+"company": "European Tech Recruit",
+"title": "Agentic AI Expert",
+"reason": "Hard gates: (1) Mid-Senior level position; (2) Master's degree in CS/Engineering strictly required in Essential section ('Master's degree in Computer Science, Engineering or a related technical discipline; PhD advantageous')"
+},
+{
+"id": "4437682762",
+"company": "NNIT",
+"title": "Junior Consultant I Digital Manufacturing",
+"reason": "Application deadline expired: posting shows 'Application Deadline: 31/08/2026', today is 2026-09-17, deadline has passed by 17 days"
+},
+{
+"id": "4467966757",
+"company": "Siav S.p.A. Societ\u00e0 Benefit",
+"title": "PRE SALES CONSULTANT",
+"reason": "Hard gate: Mid-Senior level position ('Seniority level: Mid-Senior level'), disqualified by level gate for Senior/Staff/Lead/Principal"
+},
+{
+"id": "4468382906",
+"company": "Greentalent",
+"title": "AI Engineer",
+"reason": "MSc/PhD strictly required: JD lists 'Laurea magistrale' (Master's degree) as a required competency. User profile indicates BA only, not CS background."
+},
+{
+"id": "4460340212",
+"company": "Avolta",
+"title": "Global Data Scientist",
+"reason": "Required experience exceeds 3 years: Job requires 6+ years total experience AND 3+ years in pricing/revenue management. User has 2.5-3 years total experience."
+},
+{
+"id": "4465994889",
+"company": "FD Group",
+"title": "AI/Machine Learning Engineer",
+"reason": "refuted: JD requires \"Padronanza dei linguaggi di programmazione Python e C++\" (mastery of Python and C++) as a core requirement. Candidate's stack is TypeScript/React/Node/Laravel/Python(LLM pipelines)\u2014C++ is not present and is listed as a disqualifying core skill in the refutation criteria."
+},
+{
+"id": "4466878443",
+"company": "RINA",
+"title": "Technology Innovation, Strategy and Roadmapping Consultant - Categorie Protette 68/99",
+"reason": "Mandatory requirement: Job explicitly requires registration as protected category candidate under Italian Law 68/99. This is restricted to people with disabilities registered in the protected category. Not open to general applicants."
+},
+{
+"id": "4468222432",
+"company": "Cosmico",
+"title": "AI Data Engineer Freelance",
+"reason": "Hard gate: requires 4-5 years experience (exceeds 3-year threshold). Core stack is Microsoft Azure/AI ecosystem, outside full-stack web/backend domain."
+},
+{
+"id": "4466556978",
+"company": "Belimed Life Science",
+"title": "Software Engineer",
+"reason": "Hard gate: core stack is PLC/industrial automation (Structured Text, Ladder, Siemens TIA Portal, Rockwell Studio 5000). This is embedded/firmware engineering, not full-stack web/backend development."
+},
+{
+"id": "4468379849",
+"company": "Akronos Technologies",
+"title": "Automation Software Engineer \u2013 PLC",
+"reason": "Hard gate: core stack is PLC/industrial automation (Siemens, Rockwell Automation). Embedded systems engineering, not full-stack TypeScript/Laravel/Python development."
+},
+{
+"id": "4468275446",
+"company": "NonStop Consulting",
+"title": "Automation Engineer Jr. PLC \u2013 AUTOMATION & PHARMA \u2013 Bologna",
+"reason": "Hard gate: core stack is PLC/HMI/SCADA industrial automation (Siemens, Rockwell, Omron). Embedded/industrial focus requiring 2-3 years PLC experience, not his web/backend development domain."
+},
+{
+"id": "4466216285",
+"company": "ADHR GROUP",
+"title": "PLC SOFTWARE DEVELOPER",
+"reason": "PLC/HMI/robotics industrial automation engineer. Core competency is PLC software development and industrial embedded systems, falls under hard gate 'embedded/firmware'. Not in Prabhavit's web/backend stack (TypeScript/Next.js/Laravel/Python for LLM/automation)."
+},
+{
+"id": "4462834891",
+"company": "Jefferson Wells Italia",
+"title": "SW Automation Engineer",
+"reason": "Industrial automation software engineer (SQL Server + PLC/SCADA for manufacturing production systems). Specialized industrial domain focused on production traceability and industrial control systems, not web/backend development."
+},
+{
+"id": "4467508186",
+"company": "MCS Management Consulting & Selection",
+"title": "Ingegnere Informatico esperto AI - coperture e fotovoltaico (Pavia)",
+"reason": "Hard gate violation: 4-6 years experience required (exceeds 3-year threshold). Also: Industrial AI/GenAI for construction/roofing/solar systems \u2014 specialized domain. While Python/AI skills overlap, seniority requirement disqualifies."
+},
+{
+"id": "4468249025",
+"company": "ETA Srl",
+"title": "Service & Automation Engineer",
+"reason": "PLC Siemens/ABB systems engineer for industrial automation. Core competency in industrial control systems (PLC, SCADA-adjacent), falls under 'embedded/firmware' hard gate. Not web/backend development."
+},
+{
+"id": "4464205087",
+"company": "Adecco",
+"title": "System Electrical Engineer",
+"reason": "Staffing agency body-shop posting: Adecco posting for unnamed client (only sector disclosed). Hard gate: staffing agency or outsourcing for unnamed client. Additional issues: System Electrical Engineer requiring degree + 3-5 years in electrical engineering/automation; core stack (AutoCAD, PLC, HMI, motion control, embedded systems) is hardware/electrical domain, not software."
+},
+{
+"id": "4465982660",
+"company": "ACMA, a Coesia company",
+"title": "Vision Software Engineer",
+"reason": "Hard gate triggered: 4\u20136 years of experience required exceeds 3-year threshold. Additional issues: Vision/machine vision engineering requiring degree in Computer/Electronic/Automation Engineering; core stack is embedded systems (C/C++, Structured Text, Embedded Linux, image processing, machine learning); industrial vision domain outside web/backend focus."
+},
+{
+"id": "4466878462",
+"company": "Genesys",
+"title": "Experience Acceleration Specialist",
+"reason": "refuted: REFUTED: JD explicitly requires \"Professional fluency in English and Italian is required.\" Candidate speaks English only. Refuting sentence: \"Professional fluency in English and Italian is required.\" (under \"What You Need To Be Successful\")"
+},
+{
+"id": "4467981916",
+"company": "Arethusa",
+"title": "Rif. 3784: PROGETTISTA ELETTRICO - SETTORE AUTOMAZIONE INDUSTRIALE",
+"reason": "Staffing agency (Adecco) body-shop posting for unnamed client. Electrical engineering role (PROGETTISTA ELETTRICO - automazione industriale); core stack mismatch\u2014requires electrical/electronics background, not software development."
+},
+{
+"id": "4467183814",
+"company": "Stema",
+"title": "Model-Based Design Engineer",
+"reason": "Master's degree (Laurea magistrale) strictly required. Core stack is embedded automotive systems (MATLAB, Simulink, Stateflow, Embedded Coder, C/C++) with zero overlap to Prabhavit's web/TypeScript/Next.js/Laravel/Python stack."
+},
+{
+"id": "4467980759",
+"company": "Wabtec Corporation",
+"title": "System Integrator & Test Engineer",
+"reason": "Wabtec is transportation/rail engineering company. System Integrator & Test Engineer role focuses on systems integration and testing, not software development. Core stack mismatch."
+},
+{
+"id": "4468379839",
+"company": "Fincons Group",
+"title": "Java Software Engineer (Camunda Expert)",
+"reason": "Java Software Engineer (Camunda Expert). Java is on hard gates list as core stack Prabhavit cannot claim. Title and role focus on Java backend development."
+},
+{
+"id": "4468382742",
+"company": "Fincons Group",
+"title": "Java Software Engineer (Camunda Expert)",
+"reason": "Hard gate: Experience requirement '5 anni in ruolo analogo' exceeds 3-year limit. Also core stack Java as primary language."
+},
+{
+"id": "4459971250",
+"company": "Caracol AM",
+"title": "Robotics Software Engineer",
+"reason": "Hard gate: Robotics Software Engineer role focused on industrial robotics and additive manufacturing systems - embedded/firmware core domain that is not in claimed tech stack."
+},
+{
+"id": "4466200374",
+"company": "Enginium",
+"title": "Labview Developer",
+"reason": "Hard gate: Core requirement is LabVIEW developer (instrumentation/hardware control domain) - specialized embedded technology not in claimed stack."
+},
+{
+"id": "4468226252",
+"company": "Randstad Digital Italia",
+"title": "Agentic AI Expert for Model-Based Engineering (M/F/NB)",
+"reason": "Hard gate: Job strictly requires 'M.Sc. in Engineering, Computer Science, or a related field' (MSc mandatory). Prabhavit has BA, not MSc."
+},
+{
+"id": "4467507297",
+"company": "Randstad Operational Italia",
+"title": "Un Ingegnere e un data analyst (M\\F\\B)",
+"reason": "refuted: The Data Analyst (Fig 2) role explicitly states: \"L'esperienza richiesta \u00e8 compresa tra 3 e 5 anni in Data Engineering, database\\Business Intelligence\\ambienti Lakehouse e/o Data Warehouse\\ Modeling\\Quality, SQL ( Python gradito).\" The candidate has 2.5\u20133 years of experience (below the stated 3\u20135 year range if at the lower end) and no SQL skill; their stack is TypeScript/React/Node/Laravel/Python(LLM pipelines) \u2014 a web/fullstack/ML background, not data engineering. Additionally, the role requires on-site presence in Imperia, Italy with Italian-language communication; the candidate speaks English only."
+},
+{
+"id": "4467963919",
+"company": "MatchGuru",
+"title": "Junior Systems & Data Engineer",
+"reason": "refuted: JD explicitly requires C/C++ and Java competencies (\"Hai competenze in linguaggi come Python, C/C++, Java, JavaScript e Bash/Shell scripting\") under matching criteria. Candidate's stack (TypeScript, React, Node, Laravel, Python) lacks both C/C++ and Java, which are core to the systems/infrastructure role's scope."
+},
+{
+"id": "4468383144",
+"company": "Cosmico",
+"title": "Data Scientist (freelance)",
+"reason": "HARD GATE: Requires 'Almeno 4 anni di esperienza' (at least 4 years) in Data Scientist roles\u2014exceeds 3-year maximum gate. Freelance contract; excellent rates (270-330\u20ac/day); hybrid Turin/Biella. Stack (SQL, Python, R, Power BI/Tableau) does not offset experience gate violation."
+},
+{
+"id": "4432268000",
+"company": "Techyon",
+"title": "SVILUPPATORE SOFTWARE | CATEGORIA PROTETTA | L. 68/99",
+"reason": "refuted: Agency posting for unnamed client. Posted by Techyon (recruiter); actual hiring company not named: 'Hiring Company: per solida realt\u00e0 specializzata nello sviluppo di software gestionali e soluzioni digitali all'avanguardia per Professionisti e Aziende'"
+},
+{
+"id": "4446728673",
+"company": "AYES - Management & Technology Consulting",
+"title": "PLC Programmer Junior",
+"reason": "Core stack mismatch: PLC/embedded firmware/industrial automation explicitly excluded in hard gates. Role requires PLC development, HMI systems, industrial automation\u2014not in candidate's stack."
+},
+{
+"id": "4466210359",
+"company": "ADHR GROUP",
+"title": "Firmware developer",
+"reason": "Core stack mismatch: Firmware/embedded development explicitly excluded in hard gates. Role requires C/C++ embedded systems, microcontroller programming, firmware validation\u2014not in candidate's stack."
+},
+{
+"id": "4468358216",
+"company": "Morellato Group",
+"title": "SAP Developer",
+"reason": "Core stack mismatch: SAP development explicitly excluded in hard gates. Role requires ABAP, SAP ERP, S/4HANA, SAP modules (FI/CO/MM/SD)\u2014not in candidate's experience."
+},
+{
+"id": "4382931874",
+"company": "Fincons Group",
+"title": "Java Developer",
+"reason": "Core stack mismatch: Java as primary language explicitly excluded in hard gates. Role requires Java + Spring + Kubernetes + Oracle DB. Candidate's main stack is TypeScript/Next.js/React/Node/Laravel/Python."
+},
+{
+"id": "4446980970",
+"company": "IMA Group",
+"title": "Progettista Software_ Robotica & Visione",
+"reason": "Master's degree (Laurea Magistrale) in Automation/Mechatronics/Computer Science strictly required; user holds BA only"
+}
+]

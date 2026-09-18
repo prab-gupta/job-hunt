@@ -1,0 +1,19 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Auterion Hiring Team,
+
+I am applying for the Forward Deployed Engineer role in Munich.
+
+At FlowSpace, I took over a live workspace marketplace and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one, choosing the migration path per entity and driving the cutover while the product stayed live, growing the platform from 2,000 to over 4,500 users. I built and own an AI listing bot that takes a provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, and support AI agents that ground answers in live platform data and escalate to a human on low confidence, alongside OfficeRnD and Nexudus API integrations. I have been the sole technical point of contact for a live client throughout.
+
+At Urlink, I worked as project manager and AI-assisted developer on a freelance engagement in Barcelona, building the platform and its logic with AI-assisted development and implementing automations driven directly by client requirements, on Next.js, Supabase and Netlify. That is the same pattern this role asks for: sitting close to the people who use the system, translating their requirements into a working solution, and iterating fast in the field.
+
+I want to flag a gap directly. My background is in software and AI automation, not drones, avionics or embedded systems. I have not worked with PX4, MAVLink or embedded communication protocols, and my production stack has been TypeScript, Laravel and n8n. What I can bring is three years of hands-on, customer-facing technical ownership, fast troubleshooting under evolving requirements, and comfort being the technical interface for a client, which maps to the customer-facing core of this role even without the drone-specific domain knowledge.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Munich and complete that process.
+
+Regards,
+
+Prabhavit Gupta

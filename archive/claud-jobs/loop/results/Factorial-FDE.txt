@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4467222132/
+Role: Technical Solutions Engineer (FDE), Barcelona, Spain
+Reason: Live JD requires "fluent English and Spanish" as a plain qualification (not in the Bonus Points section). User's 2026-09-16 FDE rule kills on any required language he lacks (Spanish is on the kill list). Nothing built or submitted.
+Dedupe: HIT COMPANY on existing Factorial row (2026-08-14, AI Engineer - API & Integrations Team, status NEEDS YOU, different requisition, not SUBMITTED). Not the reason for the kill (would not have blocked alone) - killed on language.
+LEARNINGS: none new.

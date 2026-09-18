@@ -1,0 +1,10 @@
+Dear Microsoft team,
+
+I am applying for the Digital Solution Engineer, Apps & Innovation role in Dublin. Sitting between engineering and a customer who needs to see agentic AI work, not just hear about it, is where I already spend most of my time, so a role built around PoCs, hackathons and architecture workshops fits how I like to work.
+
+At FlowSpace I built RAG support agents that answer live availability and pricing questions and escalate to a person when confidence drops, a small but real example of agentic AI running in production, including the failure cases. The wider platform is Next.js and Laravel with Supabase behind it, so I am comfortable walking a customer's engineers through full-stack, cloud-native architecture, not just presenting slides. I also worked daily between an internal team, an external agency and end users, which is most of what technical pre-sales actually is.
+
+Logistics: I hold an Italian EU long-term residence permit, which does not extend to Ireland, so I would need an employment permit and am ready to start that process. Hindi is my native language, English is professional working level, and my Italian is beginner and improving. Available immediately.
+
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta

@@ -1,0 +1,25 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4467706531/
+Company: Lely (Maassluis, NL) - Integration Specialist
+
+Dedupe: NEW, no prior Lely row in applications.csv.
+Cheap check: apply-button count 1 (open). Not opened past the JD read.
+
+Hard gate: unclaimable core stack. The entire role is built on MuleSoft, an enterprise
+integration platform (iPaaS/ESB) Prabhavit has never used:
+- "Using modern integration technologies relying on our Integration Platform (Mulesoft)"
+- "Developing and implementing MuleSoft integrations, including reusable and deployable assets"
+- "Experience working with integration platforms such as MuleSoft"
+
+Task briefed this as an "APIs, OfficeRnD-style integrations, n8n" angle, but the live JD's core
+tool is a named commercial ESB platform, not general API/webhook integration work. That is a
+different category from n8n or OfficeRnD/Nexudus REST integrations and cannot be claimed even
+at working-knowledge level without inventing experience.
+
+Compounding factor: required experience is "3 to 5 years of experience in designing and
+developing integrations" specifically (a dedicated-integration-role floor), not general
+software experience.
+
+No CV or letter built, nothing filled or submitted. Logged KILLED in applications.csv.
+
+LEARNINGS: none new.

@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4459983157/
+Uploaded: Prabhavit_CV_StottAndMay.pdf (built from the parity-verified Triple.tex content, re-diffed against EN.tex, tectonic-compiled 2pp), CoverLetter_StottAndMay.pdf/.txt built fresh (kept on file, no letter field on this form).
+Answers: 4-page Easy Apply. Contact info: email prabhavitg@gmail.com, phone Italy +39 3516107807. Resume: uploaded explicitly (library default was a stale different-company file). Additional Questions: years with AI Solutions = 3, sponsorship required = Yes (Finland), Finnish proficiency = None. Unchecked default Follow-company checkbox.
+Blockers: none.
+Confirmation: job page Application status panel = "Application submitted". confirmations/StottAndMay-2026-09-16.png + .txt.
+LEARNINGS: none new (reconfirms the documented shared-resume-library / concurrent-session default-selection trap; no new pattern).
+Note: task mentioned "a second copy exists, apply once" - only this one posting (4459983157) was actioned this pass; no duplicate Stott and May Helsinki FDE posting was encountered or applied to.

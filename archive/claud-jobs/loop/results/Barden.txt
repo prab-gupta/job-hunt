@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468248135/
+Uploaded: none
+Answers given: none
+Blockers: Playwright tools not configured, unable to perform browser automation for LinkedIn Easy Apply. Dedupe check output: NEW
+LEARNINGS: None

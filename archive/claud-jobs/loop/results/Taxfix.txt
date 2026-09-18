@@ -1,0 +1,13 @@
+STATUS: KILLED
+LinkedIn: https://www.linkedin.com/jobs/view/4429095753/
+ATS (Ashby): https://jobs.ashbyhq.com/taxfix.com/7034b31a-c774-4bdb-b773-230af0030949/application
+
+Gates passed on the live JD (no years floor, no Senior/Lead/Manager title, English only, Berlin EU, no anti-AI clause; JD explicitly asked candidates to omit photo/age/marital status from the CV, so this one CV was built without the photo). Dedupe check found one prior SUBMITTED Taxfix row (2026-08-05, different Ashby requisition, "AI Automation Specialist - Marketing & GTM"); this lead is a different req/job family and is queued in loop/queue.csv as its own lead, so it did not block on paper.
+
+Built and uploaded Prabhavit_CV_Taxfix.pdf (2 pages, no photo), prepared CoverLetter_Taxfix.pdf/.txt (255 words, Urlink + FlowSpace evidence, Germany work-authorisation transparency line; the Ashby form had no cover letter field so it was not attached). Filled every field: name/email/phone, pronoun He/Him, accommodations No, salary EUR 50000, onsite Berlin Yes, start date 09/25/2026, and four free-text "builder" answers citing the FlowSpace AI listing bot (900+ listings) and support AI agents, the UltraStrategy CV-parsing pipeline, the FlowSpace OfficeRnD/Nexudus integrations, and the public llm-doc-parser GitHub demo.
+
+Clicked Submit Application twice (first attempt hit a stale-validation false error, fixed by re-touching the field, see LEARNINGS below). Both times Ashby returned: "We couldn't submit your application ... we ask candidates to wait 90 days before reapplying to the same role" - a company-level (not requisition-level) reapplication cooldown triggered by the 2026-08-05 Taxfix submission. No application record was created. This is not a NEEDS YOU case (no CAPTCHA, account wall or attestation) - it is an ATS-side hard block, logged KILLED. Materials are kept in ROOT for a re-attempt on or after 2026-11-03 if the requisition is still open then.
+
+LEARNINGS: (1) Ashby's reapplication cooldown is keyed to the candidate at the company, not the specific requisition - a same-company prior SUBMITTED row within ~90 days is worth flagging as a likely auto-block before building materials, even when dedupe.py and applications.csv show a different req. (2) `browser_fill_form`'s fill() can leave an Ashby required-textarea failing client-side validation ("Missing entry for required field") even though the value is visibly populated; clicking into the field and typing+backspacing one character fires a real change event and clears the false error.
+
+Files: Prabhavit_CV_Taxfix.tex/.pdf, CoverLetter_Taxfix.tex/.txt/.pdf, confirmations/Taxfix-2026-09-11.png (+ -before.png) and .txt, answers/taxfix-2026-09-11.md, applications.csv row (KILLED).

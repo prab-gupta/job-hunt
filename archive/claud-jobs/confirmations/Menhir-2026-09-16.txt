@@ -1,0 +1,20 @@
+Menhir AI - Full Stack AI Engineer (Lisbon)
+LinkedIn: https://www.linkedin.com/jobs/view/4465539678/
+Discovered via Chrome apply session 2026-09-16: LinkedIn Apply button routes to
+https://join.com/companies/menhir/16661361-full-stack-ai-engineer-lisbon (join.com), a real ATS
+form (not "email us only"), so the task's outreach-email fallback does not apply here.
+
+join.com banner (top right of the job page), signed in as prabhavitg@gmail.com:
+"You've applied on Aug 20, 2026 - Prabhavit Gupta, prabhavitg@gmail.com"
+
+Application Details page (https://join.com/talent/applications/52288079):
+Status: Submitted
+Job: Full Stack AI Engineer (Lisbon), Menhir AI, Lisbon, Portugal
+When are you available to start working with us? 2026-09-01
+What is your expected yearly compensation in EUR? 40000
+Documents: Prabhavit_CV_Menhir.pdf (CV), Cover_Menhir.pdf (cover letter)
+Consent given.
+
+This is a pre-existing submitted application, not something submitted in this session. No new
+application was sent today. Per task instruction, no outreach email was sent to Menhir either
+(that channel is owned by a separate outreach batch send today).

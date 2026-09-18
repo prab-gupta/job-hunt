@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the Backend & Cloud Platform Engineer role at Newtwen, which I found on the Hacker News "Who is Hiring?" thread.
+
+At FlowSpace, I built and owned a multi-stage computational pipeline from the ground up: it ingests documents in any format (PDFs, web pages, photos, spreadsheets), runs extraction and validation through orchestrated Python services, and pushes clean, structured results to a PostgreSQL backend after human-in-the-loop review. This pipeline handles hundreds of sources with different formats and structures, and I made the architecture decisions that shaped it, from schema design and data flow through Docker-based deployment on AWS and CI/CD with GitHub Actions.
+
+What draws me to Newtwen is the chance to apply that same pipeline-building and infrastructure thinking to a deeper technical domain. I have built production systems that process heterogeneous data at scale, managed relational database schemas through migrations on a live platform, and owned the full lifecycle from design through production monitoring. The pattern of taking complex, unstructured inputs and turning them into validated, structured outputs through multi-stage pipelines is exactly what I have been doing, and I am keen to bring that to 3D geometry processing, mesh generation, and model training workflows.
+
+I am based in Venice, Italy, hold an EU Long Term Residence Permit (no sponsorship needed), and am available immediately. I would welcome the chance to discuss how my backend and pipeline experience maps to what Newtwen is building.
+
+Regards,
+Prabhavit Gupta

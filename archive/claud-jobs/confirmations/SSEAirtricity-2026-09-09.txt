@@ -1,0 +1,10 @@
+Job: Product Owner, SSE Airtricity, Dublin, Ireland
+ATS: PageUp People (secure.dc3.pageuppeople.com), applicationID 2370280, jobID 559519
+URL at confirmation: https://secure.dc3.pageuppeople.com/apply/536/aw/applicationForm/submitConfirm.asp?sData=&lApplicationID=2370280&lJobID=559519
+Submitted: 2026-09-09
+
+Success text (page title "Application submitted"):
+"Application submitted
+Thank you for taking the time to apply for a role with SSE. We'll be in touch again to update you on the progress of your application, once the closing date has passed."
+
+Note: PNG screenshot not captured - the Chrome tab used for this application rendered at 0x0 viewport (background tab in a shared multi-agent Chrome session) so the screenshot tool errored ("Cannot take screenshot with 0 width"). All form interactions were verified via DOM read (field values, file names, selected option values) instead of visual screenshots. This text file is the confirmation record per APPLY_AGENT_BRIEF.md fallback rule.

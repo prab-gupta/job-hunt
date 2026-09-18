@@ -1,0 +1,7 @@
+CUBE - Frontend Engineer - Agentic AI
+Applied: 2026-09-11
+Apply URL: https://jobs.ashbyhq.com/cube/1cc840ea-cad7-4025-a4af-562f4eda3e18/application
+
+Success text shown on page after Submit Application:
+"Success
+Your application was successfully submitted. We'll contact you if there are next steps."

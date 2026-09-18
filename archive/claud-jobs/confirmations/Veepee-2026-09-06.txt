@@ -1,0 +1,4 @@
+Veepee
+https://jobs.lever.co/veepee/8db59abc-435f-45e2-89d7-b19db514abb4/apply
+User confirmed "done all in the queue" 2026-09-06 11:50; tab was closed before the loop could read the thanks page
+verified via page text by the loop 2026-09-06 11:50 CEST

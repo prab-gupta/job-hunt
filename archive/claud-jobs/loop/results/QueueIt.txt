@@ -1,0 +1,28 @@
+STATUS: SUBMITTED
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4465009887/
+Applied via (offsite ATS): https://careers.queue-it.com/jobs/8342051-product-manager (Teamtailor)
+
+Uploaded: Prabhavit_CV_QueueIt.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, parity check passed).
+Cover letter: pasted into the required Teamtailor "Cover letter" text field (no upload field on this form); also saved as CoverLetter_QueueIt.txt/.pdf in ROOT.
+
+Dedupe: NEW (dedupe.py --check "Queue-it" <url> returned NEW; grep -i queue applications.csv hit only "Queueco", a different company at LEAD status — no block).
+
+Hard gates re-checked on the live JD (careers.queue-it.com, matches the LinkedIn guest-API text verbatim): no anti-AI disclaimer, no stated years-of-experience floor, title is plain "Product Manager" (not Senior/Staff/Lead/Principal/Manager), no MSc/PhD requirement, no Danish-language requirement, JD in English, location Copenhagen DK is EU on-site (acceptable), no disqualifying core-stack requirement (PM role). Guest API check: apply-button=1 (not closed).
+
+Answers given (see answers/queueit-2026-09-09.md for full detail):
+- Position based in Copenhagen, Denmark -> Yes
+- Country of residence -> Italy
+- Willing to relocate -> Yes, ready to relocate to Copenhagen
+- Danish work visa required -> Yes, plus the standing work-authorisation transparency line (Italian EU long-term resident, not authorised in Denmark, needs employer-side permit/sponsorship, ready to relocate)
+- Name/email/phone (+39 351 610 7807, country selector switched from default Denmark +45 to Italy +39)
+- GDPR consent checkbox verified checked by id (candidate_consent_given) per the Teamtailor hidden-duplicate-checkbox trap
+- No salary, EEO, or "how did you hear" fields existed on this form
+
+CV bullets dropped: generic "AI Solutions & Automation Engineer" summary bullet; one exact-duplicate FlowSpace AI-tool bullet; the GTM-automations bullet (least relevant to a traffic-orchestration B2B platform); several Figma/Bubble-design bullets across Get2Germany/Tractionboard/Qomodo/Urlink; the "Low code development" IT-skills clause. No role, date, or location removed anywhere; FlowSpace kept 9 bullets (floor is 3), every other role kept >=1.
+
+Confirmation: "Thanks for applying / We have received your application and we will be reviewing it shortly." (page text + tab title "Applied to Product Manager", verified on-screen before writing this file). Saved to confirmations/QueueIt-2026-09-09.txt.
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation.
+
+LEARNINGS: Queue-it's own careers.queue-it.com job page (a Teamtailor instance) is a cleaner apply path than trying to resolve the LinkedIn offsite redirect through the sign-in-gated LinkedIn Easy Apply modal — searching "<company> careers <role> <city>" and going straight to the company's Teamtailor board found the exact posting with an "Apply in 30 seconds" flow, no LinkedIn account interaction needed. Also confirms the ats-guides/teamtailor.md note that the phone-number country selector defaults to the job's own country (Denmark, +45 here) rather than the applicant's — must be switched explicitly before typing the number, otherwise it silently submits a wrong country code.

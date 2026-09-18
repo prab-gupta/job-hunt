@@ -1,0 +1,64 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4464104760/
+ATS: Teamtailor - https://teamtailor.kilo.co/jobs/8353852-full-stack-engineer-bioma
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Kilo Health" "<url>").
+Cheap check: curl LinkedIn guest API jobPosting/4464104760, apply-button count=1.
+Live JD re-verified on LinkedIn and on teamtailor.kilo.co: identical text. No anti-AI
+disclaimer (grep for AI-generated/AI assistance/without any AI/no AI found nothing;
+JD is explicitly pro-AI, asks for comfort with "AI-assisted development tools such as
+Claude"). Seniority "Not Applicable", no years-of-experience number stated, title
+"Full-Stack Engineer @Bioma" (not Senior/Staff/Lead/Principal/Manager/CTO), no MSc/PhD
+requirement, JD fully in English, location Riga/Vilnius/Klaipeda Latvia (EU, hybrid,
+plus 2 months/year work-from-anywhere), core stack Next.js + PHP/Laravel squarely
+within Prabhavit's claimable set. No kill gate hit.
+
+Uploaded: Prabhavit_CV_Kilo.pdf (built from Prabhavit_CV_EN.tex, 2 pages, tectonic,
+parity-checked). Cover letter pasted into the Teamtailor cover-letter text box
+(CoverLetter_Kilo.txt/.pdf also built, 247 words, 0 em-dashes).
+
+Answers given:
+- Name/email/phone: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807 (country
+  selector switched from default Latvia +371 to Italy +39).
+- No separate salary/years-of-experience/work-authorisation form fields existed on
+  this short Teamtailor form (only name, email, phone, CV, optional additional files,
+  cover letter, and 2 consent checkboxes) - the work-authorisation transparency line
+  for Latvia was included inside the cover letter text instead.
+- Required privacy-policy consent (candidate_consent_given) checked by element id.
+  Optional "store my data 3 years for future opportunities" consent
+  (candidate_consent_given_future_jobs) left unchecked, per standing rule (marketing/
+  talent-pool checkboxes stay unticked).
+- Cookie banner: clicked "Decline all non-necessary cookies" before opening the form.
+
+Dropped CV bullets (Kilo tailoring):
+- Career Summary: dropped "AI Solutions & Automation Engineer... LLM-driven
+  applications and intelligent workflows..." (kept the 2 bullets about AI-assisted
+  development/API integrations and production-ready features - closer to a full-stack
+  Next.js+Laravel role than the pure-AI framing).
+- FlowSpace: dropped "Facilitated communication between internal team and Agency",
+  "GTM automations for sales funnel, lead enrichment and outbound", and the two
+  duplicate bullets that existed in the base CV (a second copy of the migration
+  bullet and a second copy of the "AI tool for processing... listings" bullet).
+  8 FlowSpace bullets remain (well above the 3 minimum); migration-to-Next.js/Laravel
+  and OfficeRnD/Nexudus API-integration bullets moved to the top of their subsections.
+- Tractionboard.co: trimmed from 5 bullets to 2 ("Responsive designs, de-bugging";
+  "ChatGPT/OpenAI integration") - dropped the Figma-to-Bubble, Sendgrid and Google Ads
+  bullets as this is the most Bubble/low-code-heavy role and least aligned to a
+  Next.js/Laravel JD.
+- Other roles (Urlink, UltraStrategy, Qomodo, Get2Germany, Clubee): bullet counts
+  unchanged, only reordered to put platform/full-stack-build bullets first.
+- Technical Skills and Additional Information: reordered (not deleted) so Laravel,
+  Typescript and Supabase lead; kept the "Low code development/AI based development"
+  item in Additional Information since it's merged with AI-development content the
+  JD is receptive to, just moved it after the API-integration item.
+
+No new ATS trap encountered - this Teamtailor tenant matched the existing runbook
+(ats-guides/teamtailor.md) exactly: cookie banner blocks the Apply click until
+declined, "Apply for this job" reveals an inline form, and the uploaded CV shows up
+both as a visible filename in the dropzone and as an S3 URL in the hidden
+candidate[resume_remote_url] text input (verified both before submitting). No
+CAPTCHA, no account wall, no anti-AI attestation. Confirmation page ("Thanks for
+applying...") screenshotted and reviewed before writing this SUBMITTED status.
+Own Chrome tab (550850087) used throughout, closed after logging; no other agents'
+tabs touched.

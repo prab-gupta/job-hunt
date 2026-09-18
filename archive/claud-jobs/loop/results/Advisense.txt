@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4467062498/ -> https://career.advisense.com/jobs/8352801-forward-deployed-ai-engineer (Teamtailor)
+Uploaded: Prabhavit_CV_Advisense.pdf (CV), CoverLetter_Advisense.pdf (additional files slot), cover letter text pasted into the Cover letter text box.
+Answers given: Name/email/phone (+39 351 610 7807, Italy code); "Are you currently authorized to work in Sweden without requiring employer sponsorship?" -> No; privacy consent ticked; SMS marketing checkbox left unticked; post-submit "Connect" candidate-profile opt-in skipped.
+Blockers: none.
+LEARNINGS: career.advisense.com/jobs/8352801-forward-deployed-ai-engineer is the SAME underlying req as the Transcendent Group LinkedIn listing (4467077291) - confirmed by opening Transcendent Group's "Apply" link, which lands on the identical job id 8352801 page (Advisense acquired Transcendent Group in 2022, JD text is verbatim identical). Did NOT submit a second application there; logged it KILLED as a duplicate requisition instead. Worth an ALIASES-style entry in dedupe.py ("transcendent group" -> "advisense") so future sweeps catch this without re-opening the ATS page.

@@ -1,0 +1,24 @@
+GRiT Solutions - QA Engineer - Automation Tester
+Applied via company ATS (Keywork, grit-solutions.key.work), reached from LinkedIn's
+"Apply on company website" link (LinkedIn job/view/4233592715 shows "Responses managed
+off LinkedIn", not Easy Apply).
+
+Form at https://grit-solutions.key.work/jobs/profile/register/1/297 was filled completely:
+- Cover letter pasted into "Please tell us the reason to apply" textarea (full text of
+  CoverLetter_GRiT.txt)
+- CV uploaded: Prabhavit_CV_GRiT.pdf (confirmed filename shown in the widget)
+- First Name: Prabhavit / Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 3516107807 (country selector set to Italy +39, cleared the initial
+  "Phone format error")
+- LinkedIn: https://www.linkedin.com/in/prabhavit
+- City: Venice / Country: Italy
+- Privacy Policy consent checkbox: ticked
+
+BLOCKED at submit: a Google reCAPTCHA "I'm not a robot" checkbox sits directly above the
+Apply/Save button, and the button stays disabled until it is solved. Per the standing
+no-bypass-bot-detection rule, the reCAPTCHA was not touched and the form was not submitted.
+
+Screenshot of the fully filled, unsubmitted form: confirmations/GRiT-2026-09-09.png
+Tab left open (Playwright MCP browser) at the URL above for the user to solve the
+reCAPTCHA and click Apply.

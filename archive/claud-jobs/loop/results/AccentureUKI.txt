@@ -1,0 +1,17 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4453234984/ (Forward Deployed Engineering Specialist, Accenture UK & Ireland, Dublin)
+Job page: https://www.accenture.com/ie-en/careers/jobdetails?id=R00345688_en&src=LINKEDINJP (req R00345688)
+Workday apply page: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Forward-Deployed-Engineer_R00345688/apply
+
+Uploaded: nothing (blocked before upload step).
+Prepared: Prabhavit_CV_AccentureUKI.pdf (2 pages, from Prabhavit_CV_EN.tex, verbatim bullets), CoverLetter_AccentureUKI.pdf/.txt (0 em-dashes, English, FlowSpace + Urlink two-role evidence, Ireland transparency line).
+
+Answers given: none (form never reached).
+
+Blockers: LinkedIn "Apply on company website" -> accenture.com job page (req R00345688, Dublin, distinct from every other Accenture requisition on file) -> Workday "Start Your Application" chooser (Autofill with Resume / Apply Manually / Use My Last Application) -> "Apply Manually" -> Workday "Sign In" page offering only "Sign in with Google" / "Sign in with email", step labelled "Create Account/Sign In". Same accenture.wd103.myworkdayjobs.com tenant that has account-walled every Accenture requisition tried in this project. No guest-apply path. Per the standing no-account-creation rule, stopped here.
+
+Dedupe: fuzzy company hit only (many other Accenture entities/requisitions on file: Greece LEAD rows, Italia Analyst/Specialist/Slovakia/DACH NEEDS YOU rows, UK&I Engineering Lead SKIPPED, Italia FDE Manager NEEDS YOU). None SUBMITTED for this requisition (R00345688); all are different requisitions per the task's own instruction. Proceeded.
+
+Incident: building this CV/letter initially reused the bare "Accenture" filename slug and overwrote the pre-existing 2026-09-11 Accenture Italia Specialist materials (req R00344641, NEEDS_YOU.md row 17f) before the mistake was caught. That row's materials were reconstructed from answers/accenture-2026-09-11.md's documented tailoring spec and re-verified; this row's own materials now live under the AccentureUKI slug. Logged in loop/LEARNINGS.md.
+
+LEARNINGS: added (file-clobber near-miss + fix, see loop/LEARNINGS.md 2026-09-16 23:20 entry). Confirms again that accenture.wd103.myworkdayjobs.com hard-walls every requisition at Create Account/Sign In with no guest path.

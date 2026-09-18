@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464778729/
+Uploaded: Prabhavit_CV_HelloAgain.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, AI/automation-themed keeps 2 UltraStrategy + 2 Get2Germany bullets, 2 pages), explicitly uploaded over the pre-selected Prabhavit_CV_Antal.pdf.
+Cover letter: CoverLetter_HelloAgain.pdf/.tex/.txt written in English (JD is English, not German-only, so no kill), two-role evidence UltraStrategy (CV-parsing pipeline) + FlowSpace (AI agents, CRM/GTM automation) per the task-specified solutions-engineering angle, includes the Austria work-authorisation transparency line, 0 em-dashes. No cover letter field on this Easy Apply form; kept on file only.
+Answers given: email prabhavitg@gmail.com, phone country code Italy +39 (prefilled), phone number 351 610 7807 (typed, field was blank), "Can you imagine working on-site?" = Ja (Yes, standing on-site answer), "Are you legally authorised to work in Austria?" = Nein (No, standing work-authorisation answer since Austria is outside Italy), unchecked "Follow hello again".
+Blockers: none.
+Confirmation: "Application submitted" in the job page's own Application status panel. confirmations/HelloAgain-2026-09-16.png + .txt.
+LEARNINGS: nothing new broke; LinkedIn rendered this Easy Apply form's labels in German ("Kontaktinfo", "Handynummer", "Weitere Fragen", "Ja"/"Nein") even though the JD itself was English, so read the actual question text carefully rather than assuming English on every LinkedIn form.

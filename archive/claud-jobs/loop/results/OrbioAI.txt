@@ -1,0 +1,26 @@
+STATUS: SUBMITTED (1 of 3), KILLED (2 of 3)
+
+Row 1: AI Agent Engineer / Full Stack Experience (Python)
+URL: https://www.linkedin.com/jobs/view/4468203993/ (ATS: https://jobs.orbio.work/sites/orbio-ai/ai-agent-engineer-python-full-stack-experience/6592e5d3-b03c-4d63-9452-bde33a6d256f)
+STATUS: SUBMITTED
+Uploaded: Prabhavit_CV_OrbioAI.pdf (tailored from Prabhavit_CV_EN.tex, parity-checked, 2 pages). Cover letter drafted (CoverLetter_OrbioAI-AgentEngineer.pdf/.txt) but this ATS form had no cover letter field, so it was not attached, kept on file.
+Answers given: First name Prabhavit, Last name Gupta, phone +39 351 6107807, email prabhavitg@gmail.com. Required privacy/terms consent ticked, phone-communications consent ticked, optional SMS/RCS marketing consent left unticked. No years/salary/work-authorisation questions on this form.
+Confirmation: "Application sent! Thank you for applying. We'll review your application and get in touch soon." Saved to confirmations/OrbioAI-AgentEngineer-2026-09-16.txt.
+Blockers: none.
+LEARNINGS: Orbio AI's custom ATS (jobs.orbio.work) phone-number widget misparses digits typed while the country flag is mid-transition; the local number 3516107807 starts with "351" which the widget matches against Portugal's +351 calling code and silently swaps the flag/prefix even after Italy was explicitly selected. Fix: select the country first, click into the field, then type the raw digits with no leading "+" and no spaces; verify by zooming on the field before submit.
+
+Row 2: Forward Deployed Engineer
+URL: https://www.linkedin.com/jobs/view/4468209434/ (ATS: https://jobs.orbio.work/sites/orbio-ai/forward-deployed-engineer-fde/d3f9f616-9db2-4345-ae0d-355c1a553c8e)
+STATUS: KILLED
+Reason: hard gate, language required that Prabhavit lacks. The live ATS page (not the truncated LinkedIn summary) states "Fluent in English and Spanish. Additional languages welcome." and has a REQUIRED screening question: "Do you have professional proficiency in both English and Spanish languages?" Yes/No. Prabhavit has English (C2) and conversational Italian only, no Spanish.
+Form was not filled or submitted. CoverLetter_OrbioAI-FDE.pdf/.txt was drafted (before this live-JD recheck) and kept on file, not used.
+
+Row 3: AI Sales Engineer
+URL: https://www.linkedin.com/jobs/view/4467990785/ (ATS: https://jobs.orbio.work/sites/orbio-ai/ai-sales-engineer/59822691-4f43-4e7e-968d-05ccb1318725)
+STATUS: KILLED
+Reason: same hard gate. The live ATS page states "Professional fluency in English and Spanish required; French, Portuguese, or Italian a strong plus" (the LinkedIn summary only said Spanish was "highly beneficial", which understated the real requirement) and has a REQUIRED screening question: "Do you have professional fluency in both English and Spanish?" Yes/No, plus a free-text "describe your experience with the enterprise technical sales cycle" question that would have needed an honest "engineering with client-facing delivery, not quota sales" answer anyway.
+Form was not filled or submitted. CoverLetter_OrbioAI-SalesEngineer.pdf/.txt was drafted (before this live-JD recheck) and kept on file, not used.
+
+Dedupe: all three URLs were NEW (python3 loop/dedupe.py --check "Orbio AI" "<url>") and grep of applications.csv for "orbio" returned nothing before this run, so no DUP/COOLDOWN situation applied; this was a same-company multi-role case handled by applying to the single best-fit role and killing the rest, per the task's own fallback instruction, though the actual reason for not applying to rows 2 and 3 was the language hard gate rather than an ATS one-per-candidate restriction.
+
+For the planner: Orbio AI's LinkedIn job postings show materially thinner qualification lists than their own careers-site ATS pages (jobs.orbio.work) for the same role. Any future Orbio AI row should be hard-gate-checked on the jobs.orbio.work page itself, not the LinkedIn snippet, since the Spanish-fluency requirement on 2 of these 3 roles was invisible from LinkedIn.

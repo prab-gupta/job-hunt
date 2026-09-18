@@ -1,0 +1,72 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4464152918/
+Apply form reached: https://www.ycombinator.com/companies/leadbay/jobs/5DnVXA8-forward-deployed-engineer-fra (workatastartup.com / Y Combinator quick-apply modal, via LinkedIn's "Apply on company website" safety redirect)
+
+Dedupe: NEW (dedupe.py --check "Leadbay" <url> returned NEW; no Leadbay rows in applications.csv).
+Cheap check: curl LinkedIn guest API jobPosting/4464152918, apply-button count = 1 (accepting applications).
+
+Location caution (planner flagged JD body says "San Francisco"): confirmed live on the
+LinkedIn posting itself, location = "Paris, Ile-de-France, France", Hybrid, EUR 50K-70K/yr,
+"Responses managed off LinkedIn". Proceeded per instruction (Paris/France confirmed).
+
+Secondary finding on the actual application page (ycombinator.com): it lists "Paris, IDF, FR /
+Paris, Ile-de-France, FR / Remote (US)" as locations but also carries a "Visa: US citizen/visa
+only" tag, which contradicts the Paris listing and looks like a founder data-entry leftover
+from the original SF posting. The quick-apply form itself does not ask about visa/citizenship
+status, only current location, so this was not treated as an auto-kill — flagged for the user
+to weigh, not a hard gate in the brief's list.
+
+Hard gates re-checked on the full JD (both the LinkedIn cached copy and the YC job page, same
+text): no anti-AI clause found; no required-years-over-3 (explicit "Junior / early career",
+"Experience: Any (new grads ok)"); title is "Forward Deployed Engineer", not
+Senior/Staff/Lead/Principal/Manager/CTO; no MSc/PhD requirement (JD explicitly says "maybe not
+the right degree"); JD fully in English, no French-language requirement; no disqualifying core
+stack (AI/MCP sales-agent product, Python-adjacent work, all within the claimable set); posting
+not closed (0 people clicked apply, live "Apply" control present). No kill gate hit.
+
+Uploaded: Prabhavit_CV_Leadbay.pdf (built from Prabhavit_CV_EN.tex; 2 pages, tectonic clean
+compile; Career Summary kept 2 of 3 bullets; Technical Skills / Additional Information
+reordered GitHub-and-AI-first per the JD's explicit "values GitHub projects"; FlowSpace kept 7
+bullets reordered customer-support-AI-agents / OfficeRnD-Nexudus / CRM / GTM-automations first,
+min-3 rule satisfied; every other role kept 1-2 bullets, no role/date/location removed; parity
+check 49 of 51 long pdftotext lines verbatim-traceable to the base .tex, the 2 remaining
+mismatches are the Technical Skills and Additional Information lines where the same
+comma-separated items were only reordered, not rewritten). Details in
+answers/cv-tailoring-leadbay-2026-09-10.md.
+
+Cover letter: CoverLetter_Leadbay.txt written (250 words, 0 em-dashes, no
+no-code/low-code/Bubble/Claude wording, claims traced to Prabhavit - Master Experience.md,
+mentions github.com/prab-gupta/llm-doc-parser per the JD's ask for a shipped GitHub project).
+Not attached as a PDF: the apply form has no cover-letter upload field, only a resume upload
+and a "What interests you about Leadbay?" free-text box, which was filled with an adapted
+excerpt instead (see answers/leadbay-2026-09-10.md).
+
+Answers given: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, LinkedIn URL
+linkedin.com/in/prabhavit, phone country switched from default US/Canada +1 to Italy +39, phone
+351 610 7807, Current location "Venice, Metropolitan City of Venice, Italy" (autocomplete),
+Resume uploaded and verified (Prabhavit_CV_Leadbay.pdf shown next to the file input), interest
+textarea filled per answers/leadbay-2026-09-10.md. No dedicated work-authorisation field
+existed on this form; the relocation/sponsorship transparency line was folded into the
+free-text box instead.
+
+BLOCKER: the apply modal carries a live hCaptcha widget ("I am human" checkbox, ax label
+"Widget containing checkbox for hCaptcha security challenge") directly above the Send Message
+submit button. Per the brief, CAPTCHA is a user-only blocker. The form was filled and
+screenshotted (verified on screen) but never submitted; the hCaptcha checkbox and the Send
+Message button were not touched. Browser: Claude in Chrome, own tab id 550850079 (no other tabs
+touched), closed after logging since the tab group is shared across sessions — the filled
+values do not persist across a tab close, so the user (or the next run) will need to reopen
+https://www.ycombinator.com/companies/leadbay/jobs/5DnVXA8-forward-deployed-engineer-fra,
+click "Apply to role", and retype the fields listed above (all copied verbatim in
+answers/leadbay-2026-09-10.md) before solving the hCaptcha and clicking Send Message.
+
+LEARNINGS: YC / workatastartup.com "quick apply" modals (embedded directly on a
+ycombinator.com/companies/<slug>/jobs/<id> page, distinct from the full workatastartup.com
+account-based flow) are a new ATS pattern for this loop — no login/account wall on the fast
+path, but they gate the final submit behind an hCaptcha widget every time, so plan for a NEEDS
+YOU stop by default on this ATS. Also: a LinkedIn posting's own location field can differ from
+the JD body text (this JD said "San Francisco" verbatim while the LinkedIn posting and the
+apply-page location field both said Paris) — always trust the live location field over
+boilerplate JD prose, and separately check any "Visa" tag on YC-style postings since it is
+entered independently of the location field and can silently contradict it.

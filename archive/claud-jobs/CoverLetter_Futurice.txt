@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am applying for the Senior AI Engineer role at Futurice, based in Helsinki.
+
+I have three years shipping production AI systems across eight European companies, taking work from idea through to production. At UltraStrategy I built the CV parsing pipeline behind the platform: a candidate uploads a CV, the pipeline extracts the data and scores how relevant they are for specific kinds of roles, the result reaches the frontend, and a standardised Ultra CV is generated. Affinda and the Claude API handled the parsing and generation, with n8n and Eden AI wiring the pipeline together. I also built the platform serving different user profiles.
+
+At FlowSpace, a coworking marketplace, I own the AI listing bot in production: give it a provider name and a brochure in any format and it drafts the full listing with a human in the loop, over 900 listings produced so far. I also built support AI agents that answer from live platform data and escalate to a person when confidence is low, and led the live migration of the platform off its legacy stack onto Next.js and Laravel, mapping the data structure and cutting over while the product stayed live, growing the platform from 2,000 to over 4,500 users.
+
+I am not yet authorised to work in Finland and would need Futurice to sponsor the applicable work permit; I am ready to relocate to Helsinki and start that process as soon as needed. My English is fluent and professional; I do not yet speak Finnish.
+
+Regards,
+Prabhavit Gupta

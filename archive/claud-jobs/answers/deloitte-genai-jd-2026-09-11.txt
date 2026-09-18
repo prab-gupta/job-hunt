@@ -1,0 +1,71 @@
+Stiamo cercando una figura junior da inserire nel team Smart Solutions Lab di Deloitte Business Solution nelle sedi di Milano e Roma che lavorerà in modalità Hybrid.
+
+Smart Solutions Lab si occupa di supportare i nostri clienti nella individuazione di soluzioni e modelli finalizzati al miglioramento della produttività, efficienza, qualità dei servizi offerti, anche con il supporto delle nuove tecnologie di AI, Robotics Process Automation e Data Visualization. All’interno del team ci si impegna a definire l'avanguardia delle soluzioni aziendali attraverso l'uso innovativo di concetti di intelligenza artificiale, Robotics Process Automation (RPA) e Optical Character Recognition (OCR). Oltre all'automazione dei processi, una parte delle attività produttive si concentra sulla creazione di dashboard avanzate in ambito analytics tramite l’utilizzo di strumenti come PowerBI o Qlik Sense. La Data Visualization è cruciale per rendere i dati comprensibili, utili e facilmente fruibili da parte dei clienti.
+
+Your Role
+
+La risorsa Junior sarà inserita in un team di lavoro, affiancando colleghe/i senior e occupandosi di:
+
+Comprendere le esigenze dei clienti e sviluppare semplici soluzioni Agentic GenAI per raggiungere gli obiettivi identificati;
+
+Collaborare con il team di sviluppo contribuendo con soluzioni originali sviluppate prevalentemente in linguaggio Python, con un focus su progetti di Generative AI;
+
+Implementare soluzioni sfruttando le ultime tecnologie, mantenendo un focus sulla qualità dei dati in ingresso e in uscita.
+
+What We Offer
+
+La retribuzione prevista per questa posizione è compresa tra EUR 25.000,00 e EUR 28.000,00 per il grade Analyst in applicazione del CCNL Terziario Distribuzione e Servizi. In caso di stage, è prevista un’indennità di tirocinio.
+
+La definizione del compenso specifico, inclusi eventuali elementi variabili (come MBO) o benefit accessori, dipenderà dalla valutazione del profilo rispetto ai requisiti della posizione.
+
+Winning Requirements
+
+Laurea in materie tecnico/scientifiche: Informatica, Ingegneria, Matematica, Fisica, Statistica
+
+Disponibilità a viaggiare in Italia e all'estero
+
+Conoscenza base framework GenAI quali, Langchain, Llamaindex
+
+Conoscenza base di Agent Development Kit quali, Google ADK, Langraph, Autogen, CrewAI
+
+Conoscenza di base di SQL e noSQL
+
+To Make An Impact That Matters
+
+Il network Deloitte, leader nei servizi professionali alle imprese, opera a livello globale in più di 150 Paesi con oltre 460 mila persone.
+
+In Italia, Deloitte è presente in 24 città con circa 13.400 persone che assistono i clienti offrendo servizi di Audit & Assurance, Technology & Transformantion, Strategy, Risk & Transactions Advisory e Tax & Legal.
+
+In qualità di network globale ci impegniamo per affrontare le principali sfide sociali, economiche e ambientali della società di oggi. 
+WorldImpact
+ è il nostro programma globale che riunisce tutte le iniziative attraverso cui vogliamo avere un impatto positivo sulle persone, i clienti, l’ambiente e le comunità in cui operiamo.
+
+Con Impact for Italy, la declinazione italiana di 
+WorldImpact
+, Deloitte ha realizzato progetti che – in collaborazione con istituzioni, realtà del terzo settore, università e altri soggetti – hanno lasciato un impatto concreto e una legacy per il futuro su tutto il territorio nazionale.
+
+La ricerca rispetta il d.lgs. 198/2006, il D.lgs. 215/03 e il D.lgs. 216/03 ed è aperta a candidat* di qualsiasi orientamento o espressione di genere, orientamento sessuale, età, etnia e credo religioso. Il presente annuncio è stato ideato nel rispetto della diversity e dell’inclusività.
+
+            Show more
+
+            Show less
+
+            Seniority level
+
+            Entry level
+
+            Employment type
+
+            Full-time
+
+              Job function
+
+              Other
+
+              Industries
+
+            Business Consulting and Services
+
+Referrals increase your chances of interviewing at Deloitte by 2x
+
+                See who you know

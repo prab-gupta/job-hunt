@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4464625651/
+Company: accilium (Vienna, Austria) - Forward Deployed Engineer (f/m/x)
+Dedupe: NEW (no prior accilium row).
+Reason: JD "What you bring" lists as a required qualification: "German and English at C1+ level*". German is required, not "a plus". Per task rule, French or German required = kill. Prabhavit has English C2 and conversational Italian only, no German.
+No CV, no letter, no form opened. Nothing to log to confirmations/.

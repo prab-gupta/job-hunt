@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4452599257/
+Employer ATS: Phenom People, careers.nttdata.com, guest apply, jobId R-148694
+
+What was uploaded: Prabhavit_CV_NTTDATA.pdf (main resume, step 1), CoverLetter_NTTDATA.pdf (Additional attachments, step 2).
+
+Hard-gate check: task line said "French required = kill" but the live JD (both the LinkedIn text and the employer's own AI Summary/full description on careers.nttdata.com) contains no French-language requirement anywhere. Per brief, a kill needs an explicit requirement in the JD or form, not an assumption, so this was not killed. No language question appeared anywhere in the 4-step form either.
+
+Resume-parser trap identical to the Alvarez & Marsal Talemetry row and the Adobe Phenom row in LEARNINGS: all 5 auto-parsed work-history rows had Company Name blank with the company mashed into Job Title (e.g. "Qomodo AI" / "Low-Code Developer (Collaborator"). Fixed by splitting Company/Title for FlowSpace.co, UltraStrategy.com, Get2Germany.com, Urlink, Qomodo, matching dates against Prabhavit_CV_NTTDATA.tex. Also stripped a stray "Clubee.com Low Code Developer and Quality Assurance (Full time," fragment that had bled into Qomodo's role-description field. This ATS only supports 5 structured work-history rows with no add-row control, so Clubee and Tractionboard (both real roles, both on the uploaded CV) could not be added as separate rows - noted as a form limitation, not a fabrication or omission on my part.
+
+Education: Ca' Foscari = Degree Bachelors; Microsoft Copilot Studio Agent Academy = Degree Certification (a real dropdown option here, cleaner than the Talemetry form).
+
+Answers: standing identity fields (Venice/30175/Italy), no sponsorship-related questions appeared in this particular form (guest-apply Phenom flow skipped straight to work/education/voluntary-disclosures/review, no separate work-authorisation question page for this tenant).
+
+Confirmation: https://careers.nttdata.com/global/en/applythankyou?status=thankyou&jobId=R-148694, candidateId CAND-3637889.
+
+Blockers: none.
+
+LEARNINGS: NTT DATA's Phenom People site (careers.nttdata.com) caps structured Work Experience at 5 entries with no "Add experience" button, and repeats the Company-Name-blank/mashed-into-title resume parser bug seen on Adobe's Phenom instance - always check dates against the source CV entry by entry, not just rows flagged for attention (none of the 5 here were flagged, all 5 were wrong).

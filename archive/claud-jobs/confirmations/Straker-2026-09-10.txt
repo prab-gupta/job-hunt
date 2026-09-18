@@ -1,0 +1,30 @@
+Straker - AI Ops Agent Engineer - BambooHR (strakergroup.bamboohr.com/careers/358)
+2026-09-10
+
+STATUS: NEEDS YOU - not submitted. Application form fully filled, blocked by a live Google reCAPTCHA v2 checkbox ("I'm not a robot") directly above the "Submit Application" button. This is a user-only blocker per the apply-agent brief (never solve CAPTCHAs). Chrome tab left open and filled for the user to review and submit.
+
+Tab: Chrome MCP tabId 550850185 (my own tab, created for this task; other agents' tabs untouched).
+URL: https://strakergroup.bamboohr.com/careers/358
+
+Fields filled on the form (all verified via screenshot):
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Address: Via Zanetti, 10
+- City: Venice
+- Province: Venezia
+- Postal Code: 30175
+- Country: Italy
+- Cover Letter upload: CoverLetter_Straker.pdf
+- Resume upload: Prabhavit_CV_Straker.pdf
+- Date Available: 24/09/2026 (two weeks from today)
+- Desired Pay: 50000 EUR
+- Website, Blog or Portfolio: left blank (none)
+- LinkedIn URL: https://www.linkedin.com/in/prabhavit/
+- "How many years of hands-on experience do you have building production-grade AI agents or LLM-powered automations using Python?": "Under 1 year hands-on with Python specifically; about 2 years building production AI agents and LLM automations overall (TypeScript, n8n, LLM APIs), with Python as an active, growing skill."
+- "Briefly describe one AI agent or automation you have built and shipped to production...": FlowSpace support AI agents answer, using the Claude API against live platform data with confidence-based escalation to a person; reliability measured via the escalation rate and review of escalated conversations. Full text in answers/straker-2026-09-10.md.
+
+Not filled / not actioned: the reCAPTCHA checkbox and the Submit Application button (blocker, user must complete).
+
+No success text was captured because the application has not been submitted.

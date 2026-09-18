@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4464632325/
+Company: NEO2 Digital - AI Driven FullStack Engineer - Toulouse, France (LinkedIn card, never opened Easy Apply)
+
+Reason: hard-gate KILL on JD language. Fetched the live posting via curl https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4464632325 - the entire JD (posted by Stephanie Robillard, Directrice) is written in French end to end: "Vos missions," "Au sein d'une equipe Data & Digital sur Toulouse, vous contribuerez a la conception, au developpement et a l'industrialisation de solutions innovantes basees sur l'IA et les technologies Microsoft," "Profil recherche" (Solide experience en developpement Full Stack Python/React, maitrise Microsoft 365/Azure/Power Platform/Azure AI/GitHub Copilot, connaissance Windows/Intune/infrastructures serveurs), "Les plus de la mission." Grepped the full fetched text for "english" - zero matches, no statement anywhere that English is acceptable for the role. Per task instructions: re-check the hard gates on the FULL JD text first, and a French JD with no English-acceptable statement is a KILL even though the English-looking LinkedIn job card (title "AI Driven FullStack Engineer", hybrid) is what the verifier saw. So KILL on the language gate.
+
+Other gates checked and would have passed: title itself is not Senior/Staff/Lead/Principal/Manager/CTO (LinkedIn tags overall seniority "Mid-Senior level" but that is not a title gate); no explicit years-of-experience number stated in the JD; no hard MSc/PhD requirement; core stack is Python + React full-stack plus Microsoft/Azure/Power Platform/Copilot tooling - claimable, not a Java/.NET/C++/Go/Rust/Symfony-only core; Toulouse France is EU, hybrid, would need employer-side permit/sponsorship per work-authorisation.md but that was not the blocking gate.
+
+Dedupe: python3 loop/dedupe.py --check "NEO2 Digital" "https://www.linkedin.com/jobs/view/4464632325/" returned NEW; grep -i "neo2" applications.csv also returned nothing. Not a dedupe block.
+
+Uploaded: nothing (no CV, no cover letter - killed before the Easy Apply modal or resume step).
+Answers given: none.
+Blockers: JD-language hard gate (French, no English-acceptable statement) - not a form blocker; no Chrome tab was opened, no NEEDS YOU.
+LEARNINGS: none - no new ATS trap encountered, killed before touching the browser. Confirms the brief's warning that the English-looking LinkedIn card can mask a fully non-English underlying JD; always fetch and read the full jobPosting text before assuming the card's language.

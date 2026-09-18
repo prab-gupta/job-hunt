@@ -1,0 +1,13 @@
+<!doctype html><html><body>
+<script>
+async function main() {
+  const params = new URLSearchParams(location.search);
+  const file = params.get('file');
+  const resp = await fetch('/' + file);
+  const buf = await resp.arrayBuffer();
+  // send as transferable ArrayBuffer to parent
+  parent.postMessage({type: 'file-bytes', file, buf}, '*', [buf]);
+}
+main().catch(e => parent.postMessage({type:'file-bytes-error', error: String(e)}, '*'));
+</script>
+</body></html>

@@ -1,0 +1,3 @@
+Snappi - Software Engineer in Test (Athens, hybrid) - LinkedIn Easy Apply 4464046187 (6 pages: contact, resume + headline/summary, work experience review, education review, questions, review)
+Submitted 2026-09-07 07:47 from tab 550849328. On-screen: "Your application was sent to Snappi!" + Application status "Application submitted - now".
+Resume: library Prabhavit_CV-.pdf (user's original CV). Follow unticked. Headline: AI & Automation Engineer, Production LLM Systems and Integrations. Summary = the CV's Career Summary bullets. Years as SET: 1. Project link: github.com/prab-gupta/llm-doc-parser.

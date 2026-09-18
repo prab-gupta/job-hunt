@@ -1,0 +1,4 @@
+LinkedIn "Application status" panel on the job page (https://www.linkedin.com/jobs/view/4461181058/) reads:
+"Application submitted" - "10 hours ago" - with a "View resume" link to an already-attached resume (ambry URL, LinkedIn-hosted).
+No Easy Apply button is present on the page any more (it has been replaced by this status panel), confirming LinkedIn itself considers this job already applied-to by this account.
+This predates the current session; applications.csv, answers/ and confirmations/ had no record for Mediatica before now, so a prior agent run submitted this one and crashed or was interrupted before logging (same failure pattern as the 2026-09-16 06:00 TECHSON crash in LEARNINGS.md). The resume in LinkedIn's library, Prabhavit_CV_Mediatica_Digital_SpA.pdf, is dated 9/15/2026, consistent with the "10 hours ago" timestamp.

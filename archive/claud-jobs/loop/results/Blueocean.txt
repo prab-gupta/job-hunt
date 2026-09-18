@@ -1,0 +1,10 @@
+STATUS: SUBMITTED
+URL: https://blueocean-technologies-gmbh.jobs.personio.com/job/2754354 (Forward Deployed Engineer (m/f/d), Blueocean Technologies GmbH / Smalt, Berlin)
+
+Uploaded: Prabhavit_CV_Blueocean.pdf (CV field), CoverLetter_Blueocean.pdf (Other/Documents field, no dedicated cover-letter field on this Personio form).
+
+Answers given: Name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807, Location Venice Italy, Available from 2026-10-01, LinkedIn linkedin.com/in/prabhavit, Expected salary EUR 50,000. No consent checkbox present on this form (Personio, short 8-field application).
+
+Blockers: none. Original discovery note: not found in loop/queue.csv and no longer indexed in arbeitnow's own search (arbeitnow shows "No jobs found" for blueocean/blueocean forward deployed engineer); recovered the live posting via a freehire.me mirror that pointed to the real Personio ATS URL above. Dedupe NEW (checked both by company and by URL). Hard gates re-checked on the live JD by raw curl (not just a summary): no anti-AI clause, no explicit years requirement, title not Senior/Staff/Lead/Principal, no degree requirement, German explicitly "isn't a requirement but definitely a nice to have, the team works in English" (not a kill).
+
+LEARNINGS: Blueocean/Smalt was not resolvable via arbeitnow's own site search or its job-board API search param (which appears to ignore the query and always return the same generic 250-row page) even though the company/role were given by name; job-aggregator mirror sites (freehire.me, hiringfleet.com) had cached the listing and linked to the real Personio ATS URL (blueocean-technologies-gmbh.jobs.personio.com/job/2754354). When a queue-supplied arbeitnow listing is not found by direct search, check aggregator mirrors for the original ATS link before declaring it closed/gone.

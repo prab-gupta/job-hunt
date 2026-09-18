@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4447961787/
+Uploaded: Prabhavit_CV_Triple.pdf (pre-existing tex parity-diffed verbatim against EN.tex, tectonic-compiled 2pp), CoverLetter_Triple.pdf/.txt built fresh (kept on file, no letter field on this form).
+Answers: single-page Easy Apply modal only (email, phone, resume, Follow-company checkbox); no salary/custom questions. Email prabhavitg@gmail.com, phone +39 351 6107807, unchecked default Follow Triple checkbox.
+Blockers: none.
+Confirmation: "Your application was sent to Triple!" dialog + Application status: Application submitted. confirmations/Triple-2026-09-16.png + .txt.
+LEARNINGS: none new (matches existing pattern - default resume-library selection was stale, explicit re-upload required, as already documented).

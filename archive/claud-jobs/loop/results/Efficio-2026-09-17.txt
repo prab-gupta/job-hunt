@@ -1,0 +1,16 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4369948341/ (offsite -> https://jobs.eu.lever.co/efficioconsulting/4a616168-606f-4156-bf4f-11197a22d9d3/apply?source=LinkedIn, Lever ATS)
+Chrome tab id: 550851712 (left open, form filled, blocked behind a CAPTCHA, not submitted)
+
+Dedupe: NEW (no prior applications.csv row for Efficio or this URL).
+Hard gates: passed. 2-5 years required (have 3), title not senior/lead/etc, no MSc/PhD requirement, no anti-AI disclaimer (the JD's "we may use AI tools to review applications" line is about Efficio's own hiring process, not a candidate restriction), Portugal is in the EU. Core stack is Python/SQL/APIs which is directly claimable; AWS/Terraform are listed as nice-to-have only, so no cloud-admin hard-gate issue.
+
+Uploaded: Prabhavit_CV_Efficio.pdf as the resume (auto-parsed correctly: name, email, phone, location all came through right). No cover-letter field exists on this Lever form (checked the DOM: only a "resume" file input), so CoverLetter_Efficio.pdf/.txt were built but not attached anywhere; kept on file.
+
+Answers given: see answers/efficio-2026-09-17.md for the full field list (Portugal application questions: relocate Yes, right-to-work "I require a visa", travel preferences, notice period 1 Week, language questions, gender prefer not to say, salary EUR 45000, degree Yes, how did you hear Other/LinkedIn).
+
+Blocker: clicking "Submit Application" triggered an image CAPTCHA ("Select all toys made for bath time"). Per the standing rule, CAPTCHAs are a user-only blocker; left unsolved, application not submitted. Everything else is ready; solving the CAPTCHA and clicking Submit Application again should complete it.
+
+LinkedIn's own "Did you finish applying?" prompt was answered "No" to keep its tracker accurate, since the application was not completed.
+
+No LEARNINGS.md line needed for this row (CAPTCHA-on-submit is already a documented pattern in the brief).

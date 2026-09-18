@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear DataSnipper team,
+
+I am writing to apply for the Forward Deployed Engineer role on your agent platform team. I do not have a background in audit or finance, but I have three years of experience building document and data extraction pipelines that had to be accurate in front of a real user, and I use Claude directly in my own build and test loop, which is close to what this role asks for.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result is delivered to the frontend, and a standardised Ultra CV is then generated, using Affinda and the Claude API for the parsing and generation, plus n8n and Eden AI for the extraction tool itself. That work was about making an LLM pipeline hold up against real, messy documents, not a demo.
+
+At FlowSpace, I built and own an AI listing bot that takes a brochure from a workspace provider in any format, PDF, website, photo or spreadsheet, and drafts a full listing with a human in the loop, using the Claude API and TypeScript, with over 900 listings drafted this way. I also built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, which is the same instinct DataSnipper's agents need around accuracy and when to hand off.
+
+I am comfortable learning a new domain quickly, and I would treat the audit and finance context the same way I treated CV data or workspace listings: by getting close to the real documents and the person using the output. I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit or sponsorship process; I am ready to relocate to Amsterdam and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to DataSnipper's Forward Deployed Engineer team.
+
+Regards,
+Prabhavit Gupta

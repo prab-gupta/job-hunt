@@ -1,0 +1,20 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4465536733/
+Employer ATS page: https://carriere.italgas.it/job/Milano-AI-Engineer/1420925133/?utm_campaign=LinkedinJobPostings&utm_source=LinkedinJobPostings&applySourceOverride=LinkedIn (SuccessFactors career site, Italgas Group / Bludigit S.p.A.)
+
+Playwright attempt (this agent, follow-up to the Chrome handoff): tried both apply paths for real, both dead-end without the user.
+
+(1) "Inizia a candidarti con LinkedIn" (anchor id="applyOption-top-linkedin"): clicked it multiple times with genuine trusted Playwright clicks (both via role locator and via CSS id selector, after re-opening the "Candidati ora" dropdown each time). Confirmed via browser_network_requests that a real POST fires to https://www.linkedin.com/talentwidgets/apply-with-linkedin and returns 200 OK (type: document, i.e. a real navigation happened somewhere). Despite that, browser_tabs never shows a new tab/popup, before or after the click, across three separate attempts and a fresh page reload. Installed a window.open() interceptor via browser_evaluate before a repeat attempt - it captured zero calls, meaning the widget is not using window.open() directly (likely a hidden form with target set to a popup window name, driven by LinkedIn's @linkedin/xdoor-sdk iframe visible in the DOM at src=about:blank, 0x0 or near-zero size). Whatever popup mechanism it uses either opens and closes faster than observable, or silently fails (plausibly because this browser profile has no LinkedIn session/third-party-cookie access for the xdoor postMessage bridge). This reproduces the exact blocker the Chrome agent hit, now confirmed in Playwright as well - not a Chrome-specific extension issue.
+
+(2) "Candidati ora" (plain apply menuitem, id="applyOption-top-manual"): clicking it navigates straight to https://career2.successfactors.eu/careers?company=italgasret, page title "Opportunità professionali: Accedi". The page offers only two options: "Si dispone già di un account?" (email + password login) or "Utente non registrato? Crea un account" (create an account). No guest-apply path exists. Per the task and the standing rule, account creation is user-only and was NOT created; nothing was submitted.
+
+Materials ready (unchanged from the Chrome handoff, not rebuilt):
+- CV: Prabhavit_CV_Bludigit.pdf (English, tailored from Prabhavit_CV_EN.tex, 2 pages, tectonic-compiled).
+- Cover letter: CoverLetter_Bludigit.pdf/.txt (Italian, "voi" register). Two-role proof: FlowSpace (AI listing bot + support AI agents, lead paragraph) paired with UltraStrategy (CV-parsing LLM pipeline, second paragraph). States EU long-term residence, no sponsorship needed for Italy, conversational Italian (B1-B2), C2 English. 0 em-dashes.
+- Full rationale and standing answers: answers/bludigit-2026-09-16.md.
+
+Logged NEEDS YOU in NEEDS_YOU.md section C (new row 17v) with the exact URLs and blocker description, and one row in applications.csv (status NEEDS YOU).
+
+Task note: outreach email to info@bludigit.com goes out today from a different lane per the task instructions - this row used the LinkedIn/company form ONLY, no email sent from this session.
+
+LEARNINGS: Confirms the Italgas/SuccessFactors "Inizia a candidarti con LinkedIn" OAuth-popup apply mechanism is broken (or at least unreachable) in automation generally, not just Claude in Chrome - Playwright's real, trusted clicks reach the same dead end (a real network POST fires but no popup/tab ever appears, and no window.open() call is even made). Worth flagging in apply-bot/PATTERNS.md as a general trap for any site using this LinkedIn xdoor-sdk "Apply with LinkedIn" widget when the automation browser has no logged-in LinkedIn session.

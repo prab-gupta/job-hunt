@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468273159/
+ATS: SAP SuccessFactors, https://career50.sapsf.com/careers?company=fujitsulimP2
+
+Dedupe: python3 loop/dedupe.py --check "Fujitsu" "https://www.linkedin.com/jobs/view/4468273159/" -> NEW. grep for "Fujitsu" in applications.csv found no prior rows - did not block.
+
+Hard gates: no anti-AI disclaimer, English JD, no Dutch-language requirement anywhere on the live posting (re-read in full on jobs.global.fujitsu.com, not just the LinkedIn excerpt). Title is "Manager" but per the FDE-ALL override Manager-titled FDE rows are not killed for seniority. JD footer states "Relocation Supported: No / Visa Sponsorship Approved: No" - logged for the record, does not kill the row under this session's rule.
+
+Uploaded: nothing (blocked at the sign-in page, before any form field).
+Answers given: none submitted.
+Blockers: Apply now on Fujitsu's own careers page routes to SAP SuccessFactors (career50.sapsf.com), a plain Sign In screen (Email + Password, "Forgot Password?", "Don't have an account yet?"). No guest-apply path found. Per the standing rule, stopped there.
+
+Materials built and saved:
+- Prabhavit_CV_Fujitsu.pdf/.tex - built fresh from Prabhavit_CV_EN.tex, 2 pages.
+- CoverLetter_Fujitsu.pdf/.tex/.txt - 0 em-dashes (grep confirmed). FlowSpace lead paragraph (AI listing bot, support AI agents as the human-in-the-loop/guardrails example the JD asks for), Urlink second paragraph (AI-assisted platform build, client automations, project-manager angle), Netherlands work-authorisation transparency line.
+- Full detail in answers/fujitsu-2026-09-16.md and NEEDS_YOU.md row 18f.
+
+LEARNINGS: none new (SAP SuccessFactors account walls with no guest path are already a documented pattern this session, e.g. Danfoss, Cassa Centrale/Allitude).

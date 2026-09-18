@@ -1,0 +1,11 @@
+juna.ai - Forward Deployed Engineer, Berlin (on-site)
+URL: https://juna-ai.jobs.personio.de/job/1823357?language=en
+Applied via: https://juna-ai.jobs.personio.de/job/1823357/apply?language=en (Personio)
+Submitted: 2026-09-17
+
+Success page text (verified via get_page_text after clicking Submit Application):
+
+"THANK YOU
+We have received your application and will contact you shortly!"
+
+Note: per brief, PNG screenshot saving is not available in Claude in Chrome for this session; this txt is the confirmation record. A screenshot was taken and visually confirmed the same THANK YOU text before this file was written.

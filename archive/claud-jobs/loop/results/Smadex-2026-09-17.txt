@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4468316440/
+Uploaded: nothing, no materials built.
+Reason: the JD itself states "Please note: We do NOT provide VISA sponsorship. Candidates without a legal permit to work in Spain will not be considered." Role is hybrid (3 days onsite Barcelona, 2 days WFH), not remote, so remote-from-Italy is not an alternative. Prabhavit holds Italian EU long-term resident status, not a Spain work permit, so he fails this explicit, blanket disqualifier stated by the employer itself. Killed before building any CV or cover letter to avoid wasted work and a dishonest application.
+Blockers: none (this is a KILL, not a blocker for the user).
+LEARNINGS: none new.

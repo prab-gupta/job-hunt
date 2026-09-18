@@ -1,0 +1,16 @@
+Company: Bjak / ActAI Ireland
+Role: Applied AI Engineer
+Date: 2026-09-07
+ATS: Ashby
+Form: https://jobs.ashbyhq.com/bjakcareer/d799f9b3-3dd8-4b2a-8ad9-4b2235e9d640/application
+Success evidence: Success. Thank you so much for your interest in joining Bjak and considering us as part of your career journey! Wishing you the best of luck in the process!
+Screenshot evidence: Captured from the live Ashby success screen immediately after submission.
+CV: Prabhavit_CV_Original_EN.pdf
+Cover letter: No form field; CoverLetter_ActAI_IE.pdf remains saved locally.
+Current base: Venice, Italy
+Work VISA needed for Ireland: Yes
+ML systems experience: B, contributed to systems deployed in production.
+Enjoys most: shipping ML systems, observing real-world behavior, and iterating under constraints.
+Production AI deployment: directly deployed and managed AI systems in production execution.
+English: Professional/Fluent.
+Consent: required Bjak recruitment-marketing/business-updates checkbox accepted with explicit user authorization.

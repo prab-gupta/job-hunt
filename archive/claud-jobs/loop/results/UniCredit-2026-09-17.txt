@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4467537786/
+URL (destination ATS): https://careers.unicredit.eu/en_GB/jobsuche/Register?jobId=63635
+Tab ID: 550851708 (Chrome MCP tab group)
+
+Dedupe: NEW. Cheap check: apply-button count 1 (posting open, 38 people clicked apply). Hard gates checked: JD says "3+ years" (3 clears it), title is plain "AI Engineer" (no Senior/Lead/Principal in the title itself), "University degree in computer science, physics, mathematics or engineering" is an expectation not a hard MSc/PhD gate (Prabhavit's BA is a genuine field mismatch but not fabricated or hidden), no anti-AI clause. Proceeded to build materials and open the application.
+
+Uploaded/pasted: reached the real UniCredit guest-apply flow (Apply -> ApplicationMethods -> Register). Cookie banner: declined Performance/Social Apply and Functional cookies via Advanced settings, kept only essential. "Upload CV from File" silently failed to register in Chrome (file input's FileList was set but the app's JS never picked it up, confirmed via direct DOM inspection and by manually dispatching input/change events - zero effect). Used "Copy & Paste Your CV" instead: pasted a plain-text version of Prabhavit_CV_UniCredit.pdf's content, which correctly auto-parsed First name (Prabhavit), Surname (Gupta) and Phone (+39-351-610-7807) and advanced to the Personal Data step (2/7).
+
+Answers given on the Personal Data step: Salutation none, Gender No indication, Birth date 21-02-2001, Country Italy, City VENEZIA, Street Address Via Zanetti, 10, Postal Code 30175, Nationality Indian (auto-matched), Disability No indication, Preferred language of communication-emails English.
+
+Blocker: the next required field is a free-text "ID Number *" with no clarifying placeholder or tooltip. Given this is a bank's candidate-registration form, this field is almost certainly a passport or national identity document number collected for KYC/compliance screening. Per the standing guardrail against entering government ID or passport numbers on the user's behalf (and this number is not on file in any case), stopped here without entering anything and without clicking Continue. This surfaced before any password/login screen, so it is a distinct blocker from the account-creation-with-email-verification wall the task brief anticipated for UniCredit - the actual stop is the ID Number field.
+
+Materials built and ready in ROOT: Prabhavit_CV_UniCredit.tex/.pdf (2 pages), CoverLetter_UniCredit.txt/.tex/.pdf (English, 280 words, no em-dash).
+
+Please either provide a passport/national ID number to use for this field, or complete this application yourself from where it was left (Personal Data step, Chrome tab 550851708, fields above already filled).
+
+LEARNINGS.md line added: UniCredit's file-upload option is Chrome-unreachable but "Copy & Paste Your CV" works and parses correctly; also documented the Select2-style country/city search-box click quirk and the mandatory ID Number field.

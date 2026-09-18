@@ -1,0 +1,9 @@
+Your application was sent to Sutherland!
+You can keep track of your application in the "Applied" tab of My Jobs
+
+Application status: Application submitted (now)
+Job: Forward Deployed Engineer | Bucharest | Romania | Hybrid, Sutherland
+URL: https://www.linkedin.com/jobs/view/4467096352/
+CV uploaded: Prabhavit_CV_Sutherland.pdf (verified selected before submit, not a pre-selected library CV)
+Cover letter: CoverLetter_Sutherland.pdf uploaded via the dedicated "Upload cover letter" button on this SmartRecruiters flow (verified selected, green check) and reviewed present in the final review step
+Screen shown via Claude in Chrome computer screenshot (PNG save not available in this browser tool; this txt is the confirmation record per LEARNINGS.md)

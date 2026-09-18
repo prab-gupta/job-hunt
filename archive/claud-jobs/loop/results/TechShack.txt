@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465813293/
+Uploaded: nothing - killed before drafting.
+Answers given: none.
+Blockers: agency rule. TechShack's own LinkedIn About page (https://www.linkedin.com/company/https-www.tech-shack.co-about/about/) shows tagline "The House of Tech Recruitment", Industry "Staffing and Recruiting", and an overview describing TechShack as a recruitment partner building teams for clients. The JD text never names the hiring company ("a growing technology company building intelligent, AI-powered products"). Per the task instructions, unnamed employer + confirmed recruiter = KILL with the quote.
+LEARNINGS: none new - this is the agency rule already documented in the task brief, applied and confirmed via the poster's own LinkedIn company page.

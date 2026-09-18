@@ -1,0 +1,68 @@
+STATUS: NEEDS YOU
+
+URL (LinkedIn): https://www.linkedin.com/jobs/view/4446993455/
+URL (real ATS, via the logged-in Apply button): https://jobs.smartrecruiters.com/oneclick-ui/company/NCS3/publication/6849722c-d2c2-4bd6-aaf9-c7e626ff2e11?dcr_ci=NCS3
+Underlying requisition: https://jobs.smartrecruiters.com/NCS3/6000000001312916--eg-senior-ai-native-builder ("#EG Senior / AI Native Builder")
+
+KEY FINDING: the LinkedIn posting is tagged "Milan, Lombardy, Italy, On-site" but the real,
+logged-in Apply button routes to the exact same Singapore requisition the au.smrtr.io short link
+opened yesterday (the one flagged as "wrong"). It was not wrong - NCS's Milan LinkedIn listing and
+their Singapore AI Central req are the same SmartRecruiters posting. The JD text says "Opportunity
+is based in Singapore. Willingness to relocate," the ATS page header shows "Singapore" as the
+location, and the screening questionnaire asks outright: "This opportunity is based in Singapore.
+Are you willing to relocate if needed?" There is no separate Milan-specific ATS page to land on.
+
+Dedupe: NEW (python3 loop/dedupe.py --check "NCS Group" ...), no prior NCS row in applications.csv.
+This is an LI-PICK row (queue.csv). Per the LI-PICK rule, kill only on closed/already-submitted/
+language-gap - none apply (open, 31 clicked apply, English JD) - so I proceeded to build and fill
+the application rather than killing on the location mismatch.
+
+UPLOADED: nothing yet. Prabhavit_CV_NCS.pdf (2 pages, tailored) is built and ready.
+COVER LETTER: CoverLetter_NCS.txt (268 words, 0 em-dashes) pasted in full into the "Message to the
+Hiring Team" box on the SmartRecruiters form. CoverLetter_NCS.pdf also built.
+
+ANSWERS GIVEN (all reachable fields filled on the Claude-in-Chrome tab, tabId 550850486):
+- Name/email/phone/city: Prabhavit Gupta, prabhavitg@gmail.com, +39 351 610 7807, Venice, Veneto,
+  Italy (selected from the autocomplete).
+- LinkedIn: linkedin.com/in/prabhavit. Website: github.com/prab-gupta.
+- Expected monthly salary: EUR 4,000-4,500/month (EUR 45,000-55,000/year), negotiable.
+- Notice period: Immediate.
+- Require visa sponsorship: Yes (honest, since the role is Singapore-based; work-authorisation.md
+  general rule for any non-Italy/non-EU country).
+- Python/JavaScript hands-on experience: "Strong experience with production applications and
+  system integration."
+- Demonstrated AI/ML/genAI production experience: Yes.
+- Modern AI tooling areas: "LLM application patterns and prompt engineering" + "Automation
+  platforms for AI workflows."
+- English proficiency: "Fluent / Native" (closest to standing C2 professional answer).
+- Privacy notice consent: ticked.
+
+BLOCKERS (both left the form open, nothing submitted):
+1. RESUME UPLOAD - the file dropzone's <input type=file id="file-input"> sits inside one of
+   roughly 1,870 shadow roots on this SmartRecruiters "oneclick-ui" page. Confirmed via
+   javascript_tool DOM inspection: 2 matching, visible file inputs exist, but none of
+   find/read_page/file_upload can reach them (they all need an accessibility-tree ref, and the
+   shadow boundary hides the whole form's structure from the tree - only "Apply With Indeed"
+   surfaced as a ref). Every plain text field on the same page worked fine via coordinate-based
+   click+type, so this is specifically a file_upload limitation, not a general page problem.
+   RETRY PLAYWRIGHT at
+   https://jobs.smartrecruiters.com/oneclick-ui/company/NCS3/publication/6849722c-d2c2-4bd6-aaf9-c7e626ff2e11?dcr_ci=NCS3
+   - upload Prabhavit_CV_NCS.pdf to the Resume dropzone (all other fields on that first page are
+   already filled and should still be there; if the session reset, the full field list is in
+   answers/ncs-2026-09-11.md).
+2. "This opportunity is based in Singapore. Are you willing to relocate if needed?" (required
+   Yes/No radio, screening page 2) - genuinely outside every standing rule (relocation policy is
+   "anywhere in the EU"; no Singapore precedent exists). This is a real personal decision, not a
+   tool limitation - needs Prabhavit's answer before anyone can submit.
+
+LEARNINGS: SmartRecruiters has at least two ATS front ends - the older jQuery-style form (seen on
+other applications) and this newer "oneclick-ui" React app, which is built almost entirely out of
+shadow-DOM web components (~1,870 shadow roots on one page). Ref-based tools (find/read_page/
+file_upload) cannot see inside it at all, but raw coordinate click+type still works for ordinary
+text inputs, comboboxes and radios - only the file input needs Playwright. Worth adding to
+ats-guides/smartrecruiters.md: check the URL for "/oneclick-ui/" and treat the resume dropzone as
+shadow-blocked by default.
+
+Files: Prabhavit_CV_NCS.tex/.pdf, CoverLetter_NCS.tex/.txt/.pdf, confirmations/NCS-2026-09-11.txt,
+answers/ncs-2026-09-11.md, NEEDS_YOU.md section C (row 17j). Tab left open: Claude-in-Chrome
+tabId 550850486, on the screening-questions page.

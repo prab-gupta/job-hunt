@@ -1,0 +1,15 @@
+TO: info@brainylabs.it
+SUBJECT: Full-stack + AI automation engineer, Bologna
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Ciao Michael e team,
+
+Connecting AI to business systems securely through MCP servers is close to what I've shipped: the OfficeRnD and Nexudus API integrations at FlowSpace, an LLM pipeline that turned operator documents into 900+ validated listings after human review, and RAG support agents with confidence-based escalation, on a Next.js + Laravel + Supabase stack.
+
+Runnable sample: github.com/prab-gupta/llm-doc-parser. Profile: linkedin.com/in/prabhavit.
+
+Based in Venice, authorised to work in Italy. Worth a 15 minute call, or could you point me to whoever handles engineering hiring?
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

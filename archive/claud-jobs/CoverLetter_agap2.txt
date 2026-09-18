@@ -1,0 +1,12 @@
+Gentile team di agap2 Italia,
+
+mi candido per la posizione di Digital Factory Engineer a Milano. Sono uno sviluppatore full-stack e AI con tre anni di esperienza continuativa in otto aziende europee, dichiarati con trasparenza, maturati su architetture, integrazioni tra sistemi e piattaforme connesse in produzione con utenti reali.
+
+Per FlowSpace ho preso in carico un marketplace già attivo e ne ho automatizzato la migrazione dei dati da uno stack legacy a Next.js e Laravel: ho mappato la struttura esistente su quella nuova, scelto per ogni entità il percorso di migrazione più adatto tra endpoint API o esportazioni CSV, e guidato il passaggio mantenendo il prodotto sempre in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti. Nello stesso ruolo ho integrato le API di OfficeRnD e Nexudus per le prenotazioni automatizzate e collegato il CRM aziendale per la cattura automatica dei lead, lo stesso lavoro di integrazione tra piattaforme enterprise e sistemi CRM che descrivete nell'annuncio.
+
+Per UltraStrategy ho costruito la pipeline che elabora i CV caricati dagli utenti, dall'estrazione dei dati con Affinda e le API di Claude fino alla generazione di un documento standardizzato, oltre alla piattaforma che serve i diversi profili utente: lo stesso lavoro di progettazione end to end di un ecosistema digitale che cercate nel ruolo.
+
+Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessità di sponsorship e sono disponibile per la sede di Milano. Resto a vostra disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

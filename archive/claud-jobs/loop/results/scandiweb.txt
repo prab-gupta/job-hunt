@@ -1,0 +1,6 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4411355407/ (Pinpoint: https://scandiweb.pinpointhq.com/postings/4247da33-ef13-4a7c-9301-b0650c187039/applications/new?utm_medium=job_board&utm_source=linkedIn)
+Uploaded: Prabhavit_CV_scandiweb.pdf (tailored, GTM/automation bullets led)
+Answers given: Name/email/phone/country Italy, address Venice 30175, expected gross salary 45000 (numeric field, band bottom), tax residency "Different country" -> Italy, contractor/sole-proprietor engagement Yes (scandiweb only has Latvia/Georgia entities; matches Partita IVA = Yes standing answer), required personal-data consent ticked, optional 2nd/3rd preference left blank.
+Blockers: required field "Please record a simple 1-2 minute video sharing some of the experiences that can position you for success in this role" (URL input) - video-answer blocker, user-only per brief. Form left fully filled and NOT submitted.
+LEARNINGS: Pinpoint (scandiweb's ATS) numeric salary field has the same digit-only mangling as Ashby - clear fully (cmd+a, Delete) before retyping. Pinpoint "Find Address" combobox did not reliably accept typed text; fell back to the manual Address Line 1/Town/Postcode fields underneath it, which worked fine.

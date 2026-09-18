@@ -1,0 +1,4 @@
+Thank You! Application Confirmation - Thank you for your application. You will soon receive an email confirmation, which will allow you to check the status of your application.
+Landed on: https://careers.alvarezandmarsal.com/pages/thank-you
+Requisition: Senior AI Forward-Deployed Engineer / Architect, Madrid, Spain (job 18176752)
+Submitted via Playwright (Talemetry cross-origin iframe).

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Wayfinders Hiring Team,
+
+I am writing to apply for the Forward Deployed Manager role with Fujitsu's Wayfinders practice. I want to be upfront that I have three years of professional experience rather than a management-level tenure, and my production stack is TypeScript, Next.js and Laravel rather than a Python-first environment. What I bring is direct, repeated experience taking an AI or automation idea from a real client need through to something running in production, embedded with the people who use it.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel while the product stayed live, growing usage from 2,000 to 4,500 plus users. I built and still own an AI listing bot that turns a provider's brochure, in any format, into a drafted listing with a human in the loop, producing over 900 drafts, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence, a concrete example of the guardrails and human-in-the-loop controls this role asks for.
+
+At Urlink, I worked as project manager and AI-assisted developer on client-driven automations: I built the platform and its logic with AI-assisted development, translated client requirements directly into working features, and owned delivery end to end using Next.js, Supabase, Netlify and bolt.new.
+
+I use Claude Code daily and I am comfortable being the technical counterpart in a client conversation, scoping an MVP and then owning it through to something that is actually supportable.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit or sponsorship process, which I am ready to complete. I would welcome the opportunity to discuss whether my experience is a fit for the Wayfinders team.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,27 @@
+STATUS: NEEDS YOU
+
+URL: https://join.com/companies/kausableai (job: "Software Engineer Enablement and Product",
+Job ID 16705963)
+LinkedIn ref: https://www.linkedin.com/jobs/view/4453440697/ (LI-PICK row, queue.csv)
+ATS: join.com (kausable's own careers page; no separate company-hosted ATS found)
+
+Uploaded: nothing, blocked before the resume step. Prabhavit_CV_kausable.pdf/.tex built and saved
+(Career Summary trimmed to 2 bullets, FlowSpace led by the migration and API-integration bullets,
+photo swapped to the recompressed photo_small_q80.jpg, no new claims, 2 pages).
+CoverLetter_kausable.pdf/.txt built and saved (0 em-dashes, 285 words, FlowSpace + Urlink proof
+paragraphs).
+
+Answers given: none - the apply flow only got as far as an email field before the blocker.
+
+Blocker: join.com's apply modal asks for an email first ("Continue"), then detects that
+prabhavitg@gmail.com already has an existing join.com account and switches to a login screen
+requiring either a password or a "Send me a login link" magic-link email. This is an account/
+login wall per the brief (user-only blocker); entering a password is separately prohibited.
+Stopped there - no password entered, no login link requested, no application fields reached.
+
+LEARNINGS: join.com (used by kausable and evidently other companies this Gmail address has
+applied through before) gates its whole apply flow behind an account system keyed by email - any
+email that has been used on join.com before hits a login wall instead of a fresh application
+form, even for a brand-new company/posting. Worth checking before spending time on the JD/CV: if
+the target ATS is join.com and prabhavitg@gmail.com already has an account there, this will always
+be a NEEDS YOU account wall unless the user logs in first.

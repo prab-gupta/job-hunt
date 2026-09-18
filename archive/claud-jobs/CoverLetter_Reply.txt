@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Reply team,
+
+I am writing to apply for the Autonomous Operations Engineer (DevOps & AIOps) role. Over the past three years I have automated infrastructure-adjacent workflows and built AI-driven tooling in live production environments, work that maps closely onto the platform engineering and AIOps focus of this role.
+
+At FlowSpace, I am the lead developer on a live coworking marketplace. I automated the migration of the whole data layer off a legacy stack onto Next.js and Laravel, mapping every entity and choosing the migration path per case (API endpoint or CSV export), and drove the cutover while the product stayed live and grew from 2,000 to over 4,500 users. I also built support AI agents that read live platform data and escalate to a human only on low confidence, an approach close to the predictive-operations and intelligent-remediation practices AIOps needs, and shipped OfficeRnD and Nexudus API integrations for automated bookings alongside CRM and GTM automations.
+
+At Get2Germany, I integrated Google APIs and built automation tooling with n8n to surface courses, internships and jobs, and optimised the underlying database, work that sits in the same automation and integration space as the CI/CD and GitOps practices this role asks for.
+
+My daily toolkit includes TypeScript, Node.js, Laravel, Docker, GitHub, n8n and Playwright, and I use the Claude API and Claude Code to build and ship this kind of tooling quickly. I do not yet have hands on production experience with Kubernetes or Terraform, but I pick up new infrastructure tooling fast and would welcome the chance to grow into the cloud native side of the role.
+
+I hold Italian EU long term resident status, am authorised to work in Italy without sponsorship, and can be based in or travel to Turin for the hybrid arrangement. I am available immediately.
+
+Regards,
+Prabhavit Gupta

@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463359911/
+Uploaded: Prabhavit_CV_AGM.pdf (2pp, tectonic, parity-checked); CoverLetter_AGM.pdf/.txt drafted and kept on file (no cover-letter step on this LinkedIn Easy Apply flow).
+Answers given: Python years=3, AI years=3 (honest, Python is claimable per OUTREACH_FACTS but not itemised on the base CV so it was NOT added to the CV text - reorder/delete-only tailoring rule - disclosed instead in the letter and these form fields); hybrid availability=Sì; unfollowed company.
+Blockers: none. LinkedIn Easy Apply pre-selected the last-used CV (Prabhavit_CV_agap2.pdf) - replaced explicitly via Upload resume, verified checked before Review. JD's Laurea-in-Informatica preference waived per LI-PICK rule.
+Confirmation: "Your application was sent to AGM SOLUTIONS!" - confirmations/AGM-2026-09-11.txt/.png (+before.png). Full detail in answers/agm-2026-09-11.md.
+LEARNINGS: none new - standard 5-page Easy Apply flow. Reinforces the Esprimo precedent: a true, claimable skill (Python) not yet itemised on the base CV stays out of the CV text and goes into the letter/form answers only, per the strict reorder/delete-only tailoring rule.

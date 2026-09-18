@@ -1,0 +1,16 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4457679285/ (offsite apply -> https://cofactorplatform.com/careers/forward-deployed-engineer/)
+
+Blocker: Cofactor's own careers page has no web application form. The "Apply" button is a plain
+mailto:careers@cofactorplatform.com?subject=Forward%20Deployed%20Engineer link (verified via DOM
+inspection, no ATS involved). Sending an email on the user's behalf requires explicit chat
+permission this browser-only apply task does not carry, so nothing was sent. Same pattern already
+logged today for row 8 (Capably) in NEEDS_YOU.md.
+
+Uploaded: nothing (no form to fill). Prabhavit_CV_Cofactor.pdf and CoverLetter_Cofactor.pdf/.txt
+were built and saved for the user to send themselves.
+Answers given: none (no form fields exist).
+LEARNINGS: none new; confirms the existing NEEDS_YOU.md pattern (Capably row 8) for mailto-only
+career pages with no ATS.
+
+Logged: NEEDS_YOU.md row 28; applications.csv row appended (NEEDS YOU); answers/Cofactor-2026-09-16.md.

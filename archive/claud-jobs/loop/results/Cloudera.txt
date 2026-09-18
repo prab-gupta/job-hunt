@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4445714650/ (Apply on company website -> https://cloudera.wd5.myworkdayjobs.com/External_Career/job/Austria-Remote/Forward-Deployed-AI-Engineer_261083-1?source=APPLICANT_SOURCE-3-187)
+Uploaded: nothing yet (blocked before the upload step)
+Answers: none entered yet
+Blockers: Cloudera's Workday tenant (cloudera.wd5.myworkdayjobs.com) forces "Create Account/Sign In" with only "Sign in with Google" (OAuth) or "Sign in with email" - no guest-apply path at all, matching the task's named Workday-wall case. Account creation/OAuth sign-in is user-only per the standing rule; stopped without signing in.
+Prepared and ready: Prabhavit_CV_Cloudera.pdf (built fresh from Prabhavit_CV_EN.tex, parity-checked, 2pp), CoverLetter_Cloudera.pdf/.txt. Logged NEEDS_YOU.md section C row 18c and applications.csv (NEEDS YOU row).
+LEARNINGS: Cloudera's Workday tenant offers no email/password Create Account form at all on this posting, only Google OAuth or "sign in with email" (which likely also routes to a password/verification step) - even more locked down than a typical Workday email+password wall.

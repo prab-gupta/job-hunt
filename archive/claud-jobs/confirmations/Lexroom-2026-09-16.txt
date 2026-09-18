@@ -1,0 +1,14 @@
+Lexroom - Backend Engineer (Milan, hybrid) - Ashby application
+URL: https://jobs.ashbyhq.com/lexroom/3ac55de3-1a39-4129-99f1-f702e78eecbc/application
+Submitted: 2026-09-16, via Claude in Chrome, own tab (tabId 550850975)
+
+Success message shown on the Ashby application page after Submit Application:
+"Success
+Thank you for your interest in Lexroom.ai! Your application was successfully submitted. We'll contact you if there are next steps."
+
+Fields submitted: Name = Prabhavit Gupta, Phone = +39 351 610 7807, Email = prabhavitg@gmail.com,
+Resume = Prabhavit_CV_Lexroom.pdf (uploaded via file_upload), LinkedIn = https://www.linkedin.com/in/prabhavit,
+How did you hear about this opportunity = "Job board (Indeed, Glassdoor, LinkedIn Jobs, etc.)".
+
+Note: PNG screenshot saving is not available from this Claude in Chrome tool in this session
+(save_to_disk returned no retrievable file); this success-text record substitutes for the PNG per brief.

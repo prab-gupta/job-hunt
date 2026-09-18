@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Giant Swarm hiring team,
+
+I am applying for the Forward Deployed Engineer (100% Remote) role. I want to be upfront: I have three years of professional experience, not the senior Solutions Architect background this posting might expect, but the shape of my work has consistently been exactly what you are describing, sitting inside a customer's environment and shipping working AI systems against their real data.
+
+At FlowSpace I built support AI agents that answer customer queries against live platform data in production, with confidence-based escalation to a human when the agent should not guess. I also built and still own an AI listing bot that takes a workspace provider's brochure, in any format, and drafts a structured listing with a human in the loop before it reaches the backend; it has produced more than 900 draft listings. Both were built and shipped by me, in TypeScript, using n8n and the Claude API in production, not as a demo.
+
+At UltraStrategy I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific kinds of roles, the result is shown in the frontend, and a standardised "Ultra CV" is generated from it, using Affinda and the Claude API for the parsing and generation and n8n and Eden AI for the orchestration around it. That is the closest experience I have to building agentic, tool-using workflows against a real domain, and I would come into this role telling you plainly where my Kubernetes knowledge is still working knowledge rather than deep operational experience, and getting productive on it fast.
+
+I am based in Venice, Italy and would work this role remotely from there, comfortably inside the UTC+/-2 window you describe; I hold Italian EU long-term resident status, so no sponsorship is needed for a remote-from-Italy arrangement.
+
+I would welcome the chance to talk through how I would approach being embedded with your first agentic customer deployment.
+
+Regards,
+Prabhavit Gupta

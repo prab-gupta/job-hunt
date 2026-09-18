@@ -1,0 +1,14 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465014238/
+Company: Valerdat - Forward Deployed Engineer, Barcelona, Spain (LinkedIn Easy Apply candidate, never reached)
+
+Reason: hard-gate KILL on JD language. Fetched the live posting via curl https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465014238 - the entire JD (title line, intro paragraph, "Tus funciones", "Que buscamos", "Por que Valerdat?") is written in Spanish, opening with "En Valerdat estamos construyendo una nueva forma de gestionar la supply chain: una plataforma de IA que ayuda a empresas de gran consumo y distribucion industrial a comprar mejor, planificar con criterio y automatizar la ejecucion de sus pedidos." No English text appears anywhere in the fetched HTML, and there is no statement that English is acceptable for the role. Per the task instructions: a Spanish-only JD without an English-acceptable statement = KILL with the quote. That condition is met, so KILL.
+
+Other gates checked and would have passed: LinkedIn tags seniority "Entry level" and the title itself is "Forward Deployed Engineer" (not Senior/Staff/Lead/Principal/Manager/CTO); no explicit years-of-experience number is stated anywhere in "Que buscamos"; no hard MSc/PhD requirement (only "experiencia desarrollando software real"); the core stack described (Python, ERP/SFTP/API integrations, messy/unstructured data pipelines) is squarely within Prabhavit's claimable range; Barcelona, Spain is inside the EU, which would have required the standard employer-side permit/sponsorship transparency line per work-authorisation.md, but that was not the gate that killed the role - language was.
+
+Dedupe: python3 loop/dedupe.py --check "Valerdat" "https://www.linkedin.com/jobs/view/4465014238/" returned NEW; grep -i "valerdat" applications.csv also returned nothing. Not a dedupe block.
+
+Uploaded: nothing (no CV, no cover letter - never reached the resume step, no CoverLetter_Valerdat.txt/.pdf built since the role was killed before the letter step).
+Answers given: none.
+Blockers: JD-language hard gate (Spanish-only, no English-acceptable statement) - not a form blocker, no browser tab was opened, no NEEDS YOU.
+LEARNINGS: none - no new ATS trap encountered, killed before touching the browser.

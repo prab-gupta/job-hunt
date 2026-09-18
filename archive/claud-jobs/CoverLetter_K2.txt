@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear K2 Partnering Solutions team,
+
+I am applying for the Forward Deployed Engineer role in Milan, working with your AI company client. I have three years of experience as a full-stack and AI developer across eight European companies, always on live systems with real users, and I am comfortable owning technical delivery directly with customers.
+
+At FlowSpace, I automated the live migration of a coworking marketplace's data off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and running the cutover while the product stayed live, growing the platform from 2,000 to 4,500+ users. I also built and own an AI listing bot that reads a workspace provider's brochure in any format and drafts a structured listing with a human in the loop, plus OfficeRnD and Nexudus API integrations for automated bookings.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised profile is generated. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI for the extraction tool itself.
+
+Both roles meant translating ambiguous, customer-specific requirements into working integrations and shipping them into production, which is close to what this role asks for.
+
+I am based in Venice, authorised to work in Italy without sponsorship, and available for the hybrid schedule in Milan or Rome.
+
+Regards,
+Prabhavit Gupta

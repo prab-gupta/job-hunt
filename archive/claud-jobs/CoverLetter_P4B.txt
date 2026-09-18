@@ -1,0 +1,15 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Gentile team di P4B.Ai (Primordy),
+
+mi candido per la posizione di AI Forward Deploy Engineer a Roma. Ho tre anni di esperienza come sviluppatore full-stack e AI in otto aziende europee, sempre su sistemi in produzione con utenti reali, e lavoro spesso a stretto contatto con i clienti per trasformare esigenze ambigue in soluzioni tecniche funzionanti.
+
+Per FlowSpace ho automatizzato la migrazione dei dati da uno stack legacy verso Next.js e Laravel, mappando la struttura vecchia sulla nuova ed eseguendo il cutover con il prodotto sempre in produzione, portando la piattaforma da 2.000 a oltre 4.500 utenti. Ho anche costruito un bot AI che redige annunci di spazi di lavoro a partire da brochure in qualsiasi formato, con un controllo umano nel ciclo, e agenti di supporto AI che rispondono usando dati live della piattaforma ed escalano a un operatore quando la confidenza e' bassa.
+
+Per UltraStrategy ho costruito la pipeline di parsing dei CV integrata nella piattaforma: l'utente carica il CV, la pipeline estrae i dati e ne valuta la rilevanza per ruoli specifici, il risultato arriva al frontend e infine genera un "Ultra CV" standardizzato, usando Affinda e le API di Claude, con lo strumento di estrazione costruito su n8n ed Eden AI.
+
+Questo equilibrio tra integrazione tecnica e lavoro diretto con i requisiti del cliente e' vicino a quello che cercate per il ruolo di Forward Deployment Engineer. Vivo a Venezia, sono autorizzato a lavorare in Italia senza necessita' di sponsorship, e sono disponibile per la sede di Roma.
+
+Cordiali saluti,
+Prabhavit Gupta

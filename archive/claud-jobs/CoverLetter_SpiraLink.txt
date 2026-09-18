@@ -1,0 +1,13 @@
+Hi Omer,
+
+Something I have built: github.com/prab-gupta/llm-doc-parser, an LLM pipeline that turns unstructured documents into structured JSON. The hard part was reliability, sources arrive in inconsistent formats, so the pipeline needed confidence checks and a human handoff rather than trusting every extraction blindly. The same discipline runs through the AI listing bot I built at FlowSpace: Python and n8n pipelines that have drafted over 900 workspace listings from broker brochures with validation, plus RAG support agents that answer on live platform data and escalate to a human on low confidence. I also shipped async integrations with OfficeRnD and Nexudus on top of Supabase and PostgreSQL, and use Claude Code daily to ship faster.
+
+Voice AI raises the stakes, latency and correctness are heard live, not read in a log, and that is the kind of pressure I want to build under.
+
+I am based in Venice and ready to relocate to Ghent for an on-site role. I hold Italian EU long-term resident status. I am not currently authorised to work in Belgium and would need the employer-side permit process, which I am ready to start.
+
+CV attached.
+
+Prabhavit Gupta
++39 351 610 7807
+linkedin.com/in/prabhavit

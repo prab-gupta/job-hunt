@@ -1,0 +1,16 @@
+Gentili Signore e Signori,
+
+vi scrivo per candidarmi alla posizione di Software Developer Angular & Analyst presso Finomnia, per la sede di Brescia. Ho tre anni di esperienza come sviluppatore full-stack in diverse aziende europee, con particolare attenzione allo sviluppo frontend, alle integrazioni API e all'analisi dei requisiti funzionali, e sono motivato a portare questa esperienza nel team Digital Solutions & Front-End Applications.
+
+Per FlowSpace, marketplace londinese, ho sviluppato il frontend in TypeScript e React/Next.js e ho automatizzato la migrazione dai sistemi legacy alla nuova piattaforma, mappando la struttura esistente sulla nuova architettura e migrando i dati entità per entità tramite integrazioni REST e file CSV, con il prodotto sempre attivo durante il passaggio; la piattaforma è cresciuta da 2.000 a oltre 4.500 utenti.
+
+Per Clubee, in Lussemburgo, ho integrato le API della piattaforma su tutto il frontend e mi sono occupato di unit testing e controllo qualità delle nuove funzionalità, un percorso vicino alle attività di collaudo e avviamento delle soluzioni che descrivete nell'annuncio.
+
+La mia esperienza frontend più recente è in TypeScript con React e Next.js, non ancora in Angular; conosco bene i concetti di componenti, servizi e binding tipizzato e mi aspetto un transfer rapido verso Angular 2+, che sono pronto ad affrontare fin da subito con impegno nello studio.
+
+Sono cittadino indiano con residenza di lungo periodo UE in Italia, quindi autorizzato a lavorare in Italia senza necessità di sponsorizzazione. Sono disponibile a trasferirmi a Brescia e a iniziare da subito. Il mio livello di italiano è intermedio, sufficiente per lavorare e comunicare in team, mentre l'inglese è il mio livello professionale principale.
+
+Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta

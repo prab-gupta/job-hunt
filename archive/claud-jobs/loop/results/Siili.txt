@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462838314/
+ATS: TeamTailor (https://siili.teamtailor.com/jobs/8260235-ai-forward-deployed-engineer)
+Uploaded: Prabhavit_CV_Siili.pdf (real file input, verified filename shown before submit)
+Cover letter: pasted full text into TeamTailor's "Cover letter" free-text field (no separate PDF cover-letter upload offered)
+Answers given: "Do you have a EU work permit? Please note that currently we are not able to hire outside of EU." = Yes (Italian EU long-term resident status counts as EU work permit for this broad gate; Finland-specific authorisation nuance handled honestly in the cover letter's transparency line instead); Locations = Helsinki (declined Tampere); name/email/phone/CV/cover letter as above.
+Blockers: none. No CAPTCHA. Declined non-essential cookies first per the Teamtailor ATS guide.
+LEARNINGS: none new beyond the existing Teamtailor runbook (ats-guides/teamtailor.md), which was accurate for this posting.

@@ -1,0 +1,15 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466209537/
+Company/Role: DOJO AI - Product Engineer, Lisbon, Portugal (hybrid), LinkedIn Easy Apply
+
+Dedupe: NEW (python3 loop/dedupe.py --check). Cheap check apply-button count = 1, live job page had no "Application submitted" state before starting.
+
+Materials built from Prabhavit_CV_EN.tex with a diff-verified parity check (only duplicate-bullet removals and the permitted Technical Skills/Additional Info reordering, no invented claims): Prabhavit_CV_DOJOAI.tex/.pdf (2 pages, tectonic) leading with AI-assisted development, FlowSpace, Urlink, UltraStrategy and Get2Germany bullets reordered/pruned for this full-stack AI product-engineering JD. CoverLetter_DOJOAI.txt/.pdf (290 words, 0 em-dashes) leads with Urlink (AI-assisted platform build + PM) then FlowSpace (AI listing bot, support AI agents, 2,000 to 4,500+ user scale) with a short UltraStrategy aside, so FlowSpace is not the only proof paragraph. No cover-letter textbox existed in the Easy Apply flow, so the letter was kept on file only.
+
+Hard gates re-checked on the live JD: no anti-AI disclaimer (JD wants AI-assisted/agentic development), "a few years in (mid-level)" explicitly welcomed, title is Product Engineer (not Senior/Staff/Lead/Principal/Manager/CTO), no MSc/PhD requirement, JD in English, React/TypeScript + Python/FastAPI stack is within the brief's claimable/working-knowledge list.
+
+Filled the 4-page Easy Apply flow: contact info (email and Italy +39 code pre-filled, mobile phone 3516107807 typed into the empty field), resume (uploaded Prabhavit_CV_DOJOAI.pdf explicitly via the file chooser, replacing the picker's stale default of Prabhavit_CV_XenonSeven.pdf from a prior application in this session - verified filename before Next), additional questions (hybrid comfortable Yes, English proficiency Professional, legally authorised to work in Portugal No, per answers/work-authorisation.md since Portugal is "another EU country"), then reviewed all fields on the review page (correct email/phone/resume filename/answers) before clicking Submit.
+
+Post-submit page showed "Application submitted / now" under Application status. Screenshot saved to confirmations/DOJOAI-2026-09-17.png. Full detail in answers/dojoai-2026-09-17.md, one row appended to applications.csv.
+
+Blockers: none. LinkedIn Easy Apply cap not hit. No new LEARNINGS entry needed; the resume-picker-defaults-to-last-upload trap was already documented.

@@ -1,0 +1,1154 @@
+{
+"date": "2026-09-09",
+"leads_count": 155,
+"passed": [
+{
+"id": "2",
+"verdict": "PASS",
+"reason": "Technical support engineer at Meta. EU location (Dublin). 3+ years experience (within limit). Tech stack includes React, JavaScript, AWS. Role combines customer support with technical problem-solving and development work.",
+"ats_url": "https://www.linkedin.com/jobs/view/4453411598/",
+"easy_apply": true,
+"lane": "F",
+"fit": 65,
+"years_required": "3",
+"location_type": "EU",
+"lead": {
+"id": "2",
+"title": "Business Support Engineer",
+"company": "Meta",
+"location": "Dublin, County Dublin, Ireland",
+"url": "https://www.linkedin.com/jobs/view/4453411598/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "6",
+"verdict": "PASS",
+"reason": "No hard gates. English JD, Dublin-based hybrid role (EU acceptable per user profile with openness to relocation). Stack includes Python/Node.js. Title is Technical Services Engineer, not senior. No specific year requirement stated (just 'solid experience'). Strong networking/database systems focus complements Prabhavit's full-stack background.",
+"ats_url": "https://www.linkedin.com/jobs/view/4445998652/",
+"easy_apply": false,
+"lane": "B",
+"fit": 65,
+"lead": {
+"id": "6",
+"title": "Technical Services Engineer - Partners",
+"company": "MongoDB",
+"location": "Dublin, County Dublin, Ireland",
+"url": "https://www.linkedin.com/jobs/view/4445998652/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "7",
+"verdict": "PASS",
+"reason": "No hard gates. English JD, Stockholm on-site (EU relocation acceptable per user profile). Forward Deployed Engineer role aligns well with his FDE project experience. Stack includes cloud/CI/CD/AI/platform engineering\u2014excellent overlap. 'Several years' experience requirement (ambiguous, not 4+ explicitly stated) matches his 2.5-3 year profile.",
+"ats_url": "https://www.linkedin.com/jobs/view/4465051342/",
+"easy_apply": false,
+"lane": "C",
+"fit": 78,
+"lead": {
+"id": "7",
+"title": "Forward Deployed Engineer",
+"company": "Saab",
+"location": "Solna, Stockholm County, Sweden",
+"url": "https://www.linkedin.com/jobs/view/4465051342/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "15",
+"verdict": "PASS",
+"reason": "All HARD GATES pass: 3+ years required (not > 3, so acceptable); L4 / Platform Engineer title (mid-level, not Senior/Staff/Lead); Bachelor's in CS or equivalent (no strict MSc/PhD); English required (Prabhavit fluent); no core stack kills (TypeScript yes, Python yes, Java/Kotlin not core for Prabhavit but listed as 'such as'); Dublin EU location on-site acceptable; hybrid 2 days/week office + remote; LinkedIn Easy Apply. Stack overlap: TypeScript/Python foundation present but AWS/K8s expertise gaps. Seniority: 3+ required, Prabhavit has 2.5-3, borderline. Role is Platform/Infrastructure (AWS account mgmt, Kubernetes, CI/CD pipelines) not full-stack product engineering.",
+"ats_url": "https://www.linkedin.com/jobs/view/4443642416/",
+"easy_apply": true,
+"lane": "B",
+"fit": 60,
+"lead": {
+"id": "15",
+"title": "Platform Engineer - Infra & Cloud Delivery (f/m/d) , L4",
+"company": "Personio",
+"location": "Dublin, County Dublin, Ireland",
+"url": "https://www.linkedin.com/jobs/view/4443642416/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": ""
+},
+{
+"id": "4460047347",
+"verdict": "PASS",
+"reason": "Pre-Sales Engineer at Blip (conversational AI platform). Seniority 'Not Applicable', full-time. Requires basic JavaScript/C#/.NET knowledge, REST APIs, customer-facing experience, and English proficiency. User's no-code background (Bubble/N8N) + transition to technical roles + communication skills align well with this solution consulting position. Requirements do not exceed user experience (no explicit 4+ years, no strict Master's degree, no German/French/Polish language required). Role fits the B lane (solutions/implementation engineer).",
+"ats_url": "https://www.linkedin.com/jobs/view/4460047347/",
+"easy_apply": true,
+"lane": "B",
+"fit": 65,
+"lead": {
+"id": "4460047347",
+"title": "Pre Sales Engineer",
+"company": "Blip",
+"location": "Madrid, Community of Madrid, Spain",
+"url": "https://www.linkedin.com/jobs/view/4460047347/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD does not specify years of experience (seniority = Not Applicable), location is Madrid/EU matching candidate's profile, English required (candidate has it), programming requirements are basic knowledge with flexibility (C#/.NET not exclusive given \"etc.\" clause), and no Senior/Lead level stated. Pass holds."
+},
+{
+"id": "4455906396",
+"verdict": "PASS",
+"reason": "Software Development Engineer role on compliance/safety microservices platform at AWS scale in Romania (EU). Supports 3-year experience threshold, full-stack web development with ML/CV systems, Agile environment.",
+"ats_url": "https://www.linkedin.com/jobs/view/4455906396/",
+"easy_apply": true,
+"lane": "C",
+"fit": 70,
+"lead": {
+"id": "4455906396",
+"title": "Software Development Engineer, Amazon Stores",
+"company": "Amazon",
+"location": "Ia\u0219i, Ia\u0219i, Romania",
+"url": "https://www.linkedin.com/jobs/view/4455906396/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD contains no refutation criteria: allows 3 years experience (candidate has 2.5\u20133 years per \"experience in development in the last 3 years\"), standard SDE title (not Senior/Staff/Lead), no language requirement beyond English, only requires \"at least one programming language\" (candidate has TypeScript, React, Node, Python, Laravel), Romania location is EU (candidate is EU-based open to any EU location), posting is active, not agency. Pass is valid."
+},
+{
+"id": "4455346562",
+"verdict": "PASS",
+"reason": "Junior QA automation role with Python/JavaScript/PowerShell stack overlap. Test automation frameworks (Selenium, TestComplete) align with candidate's testing background. English-language JD, Poland location in EU.",
+"ats_url": "https://www.linkedin.com/jobs/view/4455346562/",
+"easy_apply": false,
+"lane": "E",
+"fit": 72,
+"location_type": "on-site",
+"years_required": "junior",
+"language_required": "English",
+"lead": {
+"id": "4455346562",
+"title": "Automatic Tests Developer Junior",
+"company": "ETAP Software",
+"location": "Cracow, Ma\u0142opolskie, Poland",
+"url": "https://www.linkedin.com/jobs/view/4455346562/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No refutations found. JD explicitly states junior level matching 2.5-3 years experience. Required stack (Python/JavaScript) covered by candidate's Python+TypeScript+Node. Location Krak\u00f3w, Poland (EU). English-only communication sufficient. Open posting from named employer ETAP Software."
+},
+{
+"id": "4426408639",
+"verdict": "PASS",
+"reason": "English mandatory (candidate has this). French highly recommended but not required. Test automation role with strong stack match (Selenium, Playwright, Java, JavaScript, APIs). Experience requirement is 'proven relevant experience' (3+ years not stated). Cross-border Belgium/France collaboration. Salary \u20ac60k/year.",
+"ats_url": "https://www.linkedin.com/jobs/view/4426408639/",
+"easy_apply": false,
+"lane": "E",
+"fit": 72,
+"years_required": "Proven relevant experience (3+ years not strictly required)",
+"language_required": "English (required); French (recommended, not required)",
+"lead": {
+"id": "4426408639",
+"title": "Software Test Engineer",
+"company": "Platform Science",
+"location": "Leuven, Flemish Region, Belgium",
+"url": "https://www.linkedin.com/jobs/view/4426408639/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "Pass valid. JD states seniority \"Not Applicable,\" no explicit year minimum (only \"relevant proven experience\"), English mandatory but French only \"highly recommended\" (not required), EU location (Leuven, Belgium) matching candidate's open EU profile, tech preferences include JavaScript (candidate has React/Node/TypeScript). No stated requirement for Senior level, 3+ years, required non-English language, excluded core tech stack, non-EU location, closed posting, or unnamed client."
+},
+{
+"id": "4465068619",
+"verdict": "PASS",
+"reason": "Prague (EU), 3 years experience match, AI platform engineering role with strong TypeScript/Python/LLM stack overlap",
+"ats_url": "https://www.linkedin.com/jobs/view/4465068619/",
+"easy_apply": true,
+"lane": "A",
+"fit": 94,
+"lead": {
+"id": "4465068619",
+"title": "Platform AI Engineer \u2013 Market & Patient Access",
+"company": "MSD Czech Republic",
+"location": "Prague, Prague, Czechia",
+"url": "https://www.linkedin.com/jobs/view/4465068619/",
+"dedupe": "HIT COMPANY~"
+},
+"refuted": false,
+"refute_reason": "JD requires 3+ years experience (candidate at upper bound of 2.5-3 years meets threshold); no Senior/Staff level mandate; no language requirement beyond English; stack covers Python/TypeScript/Node (all explicitly acceptable); location Prague is EU; posting open until 09/13/2026; direct MSD hire, not agency for unnamed client."
+},
+{
+"id": "4464644501",
+"verdict": "PASS",
+"reason": "Product Owner for data/ML products; no explicit years stated; energy utilities sector is domain experience, not core stack gate; 50% on-site Dublin acceptable",
+"ats_url": "https://www.linkedin.com/jobs/view/4464644501/",
+"easy_apply": false,
+"lane": "D",
+"fit": 55,
+"lead": {
+"id": "4464644501",
+"title": "Product Owner",
+"company": "SSE Airtricity",
+"location": "Dublin, County Dublin, Ireland",
+"url": "https://www.linkedin.com/jobs/view/4464644501/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD meets all candidate requirements. Product Owner role in Dublin (EU, hybrid). No years specified, no senior-level requirement, English only, no incompatible tech stack required. Posting open through Dec 8, 2026. Candidate's Python/LLM experience aligns with Data & Analytics focus."
+},
+{
+"id": "4463872592",
+"verdict": "PASS",
+"reason": "No hard gates. Traditional PM role for platform infrastructure seeking PM track record. User is full-stack engineer (2.5\u20133yr) with no PM background. Technical understanding valued but seniority & domain focus misaligned.",
+"ats_url": "https://www.linkedin.com/jobs/view/4463872592/",
+"easy_apply": true,
+"lane": "D",
+"fit": 28,
+"lead": {
+"id": "4463872592",
+"title": "Product Manager \u2013 Product Platform",
+"company": "Autorola Group \u00b7 Global",
+"location": "Odense, Region of Southern Denmark, Denmark",
+"url": "https://www.linkedin.com/jobs/view/4463872592/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD fetched successfully. Seniority level \"Not Applicable\" (no Senior+ requirement). No specific years minimum stated, only \"track record\" required. No language requirement beyond English. Tech stack requirement is general (APIs, integrations, data models, identity/access) \u2014 not specific languages. Location in Denmark (EU) matches candidate's openness to any EU location. Posting is active and direct employer. Pass is valid."
+},
+{
+"id": "4465009887",
+"verdict": "PASS",
+"reason": "No hard gates. Technical PM role at scale (billions of visitors, distributed systems). Strong technical understanding required & valued. But conventional PM track record expected; user's engineering background relevant but not PM-track-focused.",
+"ats_url": "https://www.linkedin.com/jobs/view/4465009887/",
+"easy_apply": true,
+"lane": "D",
+"fit": 38,
+"lead": {
+"id": "4465009887",
+"title": "Product Manager",
+"company": "Queue-it",
+"location": "Copenhagen Municipality, Capital Region of Denmark, Denmark",
+"url": "https://www.linkedin.com/jobs/view/4465009887/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No stated requirements refute the pass. Seniority level is \"Not Applicable,\" no explicit experience threshold stated, location is Denmark (EU, matching candidate's openness to any EU location), no non-English language required, no conflicting technical stack required, and JD explicitly welcomes candidates who don't check all boxes."
+},
+{
+"id": "4446576410",
+"verdict": "PASS",
+"reason": "No hard gates. Technical PM for internal engineering platforms; explicitly welcomes engineers transitioning to PM. User's full-stack (TypeScript/Node/Laravel) + cloud/distributed systems background directly applicable. Hybrid role (4d/mo on-site, remote in EU) enables location flexibility.",
+"ats_url": "https://www.linkedin.com/jobs/view/4446576410/",
+"easy_apply": true,
+"lane": "D",
+"fit": 56,
+"location_type": "hybrid",
+"lead": {
+"id": "4446576410",
+"title": "Technical Product Manager F/M",
+"company": "Betclic Group",
+"location": "Bordeaux, Nouvelle-Aquitaine, France",
+"url": "https://www.linkedin.com/jobs/view/4446576410/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "JD does not state experience years threshold (only \"significant\"), explicitly welcomes engineers transitioning to PM, location is EU (Bordeaux/France) with remote option, requires English only, no prohibited tech stack. Pass is valid."
+},
+{
+"id": "4465025192",
+"verdict": "PASS",
+"reason": "No hard gate violations; Product Manager explicitly excepted from manager-level gate. However, very poor fit\u2014this is a PM role at a MarTech company, not an engineering position. User is a full-stack engineer seeking C roles, not D technical PM roles.",
+"ats_url": "https://jobs.lever.co/justwatch/837946a1-4806-4fa7-9e77-11cb4f3d880f",
+"easy_apply": false,
+"lane": "D",
+"fit": 20,
+"lead": {
+"id": "4465025192",
+"title": "Product Manager \u2013 MarTech",
+"company": "JustWatch",
+"location": "Berlin, Germany",
+"url": "https://www.linkedin.com/jobs/view/4465025192/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No disqualifying criteria found. JD specifies Mid-Senior level (distinct from Senior/Staff/Lead/Principal), Berlin, Germany location (EU, matching candidate's EU availability), no language requirement beyond English, no excluded tech stack (candidate has TypeScript/React/Node/Laravel/Python), and does not close posting (9 hours old, 49 applicants). JD explicitly states \"Research shows women apply when meeting 100% qualifications, men at 60%. JustWatch welcomes all candidates, especially women and marginalised groups\" \u2014 indicating flexibility on exact seniority match for candidates with relevant shipped work."
+},
+{
+"id": "4464998240",
+"verdict": "PASS",
+"reason": "SEB Eesti Junior Software Developer is entry-level in EU (Tallinn, Estonia) with hybrid remote-from-Europe flexibility. Requires ~1 year experience (Prabhavit exceeds with 2.5-3 years). Stack includes Java, Angular (JavaScript-based), Progress OpenEdge. English-only requirement met. Suitable for implementation/solutions lane despite Java not being core skill.",
+"ats_url": "https://www.linkedin.com/jobs/view/4464998240/",
+"easy_apply": true,
+"lane": "B",
+"fit": 65,
+"lead": {
+"id": "4464998240",
+"title": "Junior Software Developer at Cards & Payments Solutions Tribe",
+"company": "SEB Eesti",
+"location": "Tallinn, Harjumaa, Estonia",
+"url": "https://www.linkedin.com/jobs/view/4464998240/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No disqualifying requirements found. JD explicitly junior-level, requires ~1 year experience (candidate has 2.5\u20133), English only, EU location with remote work, no hard-requirement stack blocker (Java mentioned as learnable, not prerequisite). Legitimate SEB Eesti posting, open, direct employer. PASS is sound."
+},
+{
+"id": "4452503285",
+"verdict": "PASS",
+"reason": "Software Engineer I at YC-backed Kapacity.io/EnergyHub. 2+ years exp (acceptable), entry-level role, excellent stack match (Go/React/TypeScript/Python/Docker/AWS/PostgreSQL), English-primary environment, EU on-site role (Helsinki) acceptable to user. Full-stack product engineering aligns with multi-tech background.",
+"ats_url": "https://www.linkedin.com/jobs/view/4452503285/",
+"easy_apply": true,
+"lane": "C",
+"fit": 75,
+"lead": {
+"id": "4452503285",
+"title": "Software Engineer I",
+"company": "EnergyHub",
+"location": "Helsinki, Uusimaa, Finland",
+"url": "https://www.linkedin.com/jobs/view/4452503285/",
+"dedupe": "NEW"
+},
+"refuted": false,
+"refute_reason": "No disqualifying factors. Candidate meets 2+ years requirement (has 2.5\u20133 years), role is Software Engineer I (junior), English-only required, stack overlaps on core (TypeScript/React/Python/relational DB via Laravel), Helsinki is EU location (candidate open to any EU), posting is open (rolling basis), employer named. Minor gaps: Go and explicit Docker/AWS not claimed, but these appear optional for junior hire, not hard requirements. JD states \"We use Go, React, Typescript, Python...\" as tech stack, not all mandatory experience. Pass holds."
+}
+],
+"killed": [
+{
+"id": "1",
+"company": "RebelsAI",
+"title": "Forward Deployed Engineer",
+"reason": "Job description is in Dutch, not English. Hard gate: JD not in English."
+},
+{
+"id": "3",
+"company": "Limetax",
+"title": "Forward Deployed Engineer (m/f/d)",
+"reason": "refuted: JD unavailable"
+},
+{
+"id": "4",
+"company": "K2 Partnering Solutions",
+"title": "Forward Deployed Engineer",
+"reason": "Multiple hard gates: (1) Staffing agency posting for unnamed client ('On behalf of our client'). (2) 5+ years experience required (exceeds 3-year limit). (3) Greek language required (user English-only)."
+},
+{
+"id": "5",
+"company": "Eraneos",
+"title": "Forward Deployed Engineer (m/w/d)",
+"reason": "Job description is in German, not English. Hard gate: JD language violation. Also requires German C1 level fluency and position is based in Munich."
+},
+{
+"id": "8",
+"company": "PwC Nederland",
+"title": "Forward Deployed AI Engineer",
+"reason": "Job description is in Dutch, not English. Hard gate: JD language violation. Opening states 'Als Forward Deployed AI Engineer bij PwC werk je...' (Dutch). JD explicitly states 'Voor veel van onze opdrachten is Nederlands belangrijk' (Dutch important for many assignments). English-only applicant cannot proceed."
+},
+{
+"id": "9",
+"company": "61N",
+"title": "DevOps / Site Reliability Engineer",
+"reason": "JD not in English. Job description is in Finnish; Prabhavit requires English-only positions."
+},
+{
+"id": "10",
+"company": "RecX B.V.",
+"title": "Ops engineer",
+"reason": "JD not in English. Job description is in Dutch; Prabhavit requires English-only positions."
+},
+{
+"id": "11",
+"company": "Copenhagen Airports A/S",
+"title": "Platform Engineer",
+"reason": "JD not in English. Job description is in Danish; Prabhavit requires English-only positions."
+},
+{
+"id": "12",
+"company": "DeepRec.ai",
+"title": "Solutions Engineer",
+"reason": "German C1 fluency required for client communication. Prabhavit speaks English only and cannot meet the language requirement."
+},
+{
+"id": "13",
+"company": "Fifty5Blue",
+"title": "DevOps Engineer",
+"reason": "Location Oslo, Norway (outside EU, no remote-from-EU indicated); posting specifically requires 'legal right to live and work permanently in Ireland' which Prabhavit cannot claim; pure DevOps/Infrastructure role (Azure, Linux, CI/CD operations) misaligned with Prabhavit's full-stack product engineering profile (TypeScript/Next.js/React/Node + Laravel/PHP + Python)"
+},
+{
+"id": "14",
+"company": "SI ICT",
+"title": "Cloud Engineer",
+"reason": "Location Time, Rogaland, Norway (outside EU); job posting behind login wall preventing full JD access, but title 'Cloud Engineer' and location outside EU trigger HARD GATE 'location outside EU with no remote-from-EU'; unable to verify if remote-from-EU is available"
+},
+{
+"id": "16",
+"company": "Aurora Innovation",
+"title": "Platform Engineer",
+"reason": "refuted: JD unavailable - LinkedIn job posting 16 cannot be accessed. The system shows \"Job id provided may not be valid or the job posting has been removed.\" Cannot verify candidate fit without job description text."
+},
+{
+"id": "17",
+"company": "Sonata Software North America Inc.",
+"title": "Security and Purview Customer Engineer",
+"reason": "Core stack mismatch: Microsoft Purview (MS 365 Compliance) is not in candidate's stack. 'Customer Engineer' title signals support/implementation role requiring Purview/PowerShell expertise, outside product engineering focus."
+},
+{
+"id": "18",
+"company": "Dawn Meats",
+"title": "Infrastructure Engineer",
+"reason": "Infrastructure Engineer role = DevOps/cloud-admin focus (hard gate). Typical stack (Kubernetes, Terraform, cloud platforms) outside candidate's TypeScript/Node/Laravel domain. On-site meat production facility in Ireland problematic for remote Venice worker."
+},
+{
+"id": "19",
+"company": "AlgoSec",
+"title": "Deployment Engineer",
+"reason": "Deployment Engineer title indicates DevOps/infrastructure focus (hard gate). While Poland location acceptable and AlgoSec (security platform) is interesting, role is operations-oriented not product engineering. Title pattern suggests infrastructure-first orientation."
+},
+{
+"id": "20",
+"company": "Grid Games",
+"title": "IT / DevOps Engineer",
+"reason": "Explicit 'IT / DevOps Engineer' title = cloud administration + infrastructure (hard gate). Infrastructure/operations role outside candidate's TypeScript/Node/Laravel/Python product engineering stack. Not a fit."
+},
+{
+"id": "21",
+"company": "Optum",
+"title": "Integration Engineer",
+"reason": "Posting closed/expired (HTTP 404)"
+},
+{
+"id": "22",
+"company": "Emerald Zebra Recruitment & Executive Search",
+"title": "Operations Engineer, Fintech, Cyprus",
+"reason": "Posting closed/expired (HTTP 404)"
+},
+{
+"id": "4463008708",
+"company": "Mindbe - Software & Digital Solutions",
+"title": "AI Engineer (Full-Stack AI)",
+"reason": "JD in Italian, not English (hard gate: language requirement)"
+},
+{
+"id": "4463030039",
+"company": "IOON",
+"title": "Ingeniero de IA",
+"reason": "JD in Spanish (Ingeniero de IA), not English (hard gate: language requirement)"
+},
+{
+"id": "4463818891",
+"company": "Talan",
+"title": "AI Engineer - GenAI, Agentic AI (F/H) - Lille",
+"reason": "Hard gate: Job description entirely in French, not English. Violates language requirement gate."
+},
+{
+"id": "4464661211",
+"company": "Dustin",
+"title": "AI Engineer - Marketing solution",
+"reason": "refuted: Job requires 3+ years experience; candidate has 2.5-3 years (below threshold at low end). JD: \"You have 3+ years of experience in software engineering, AI engineering, machine learning engineering, or a related field.\""
+},
+{
+"id": "4465048484",
+"company": "BIT Capital",
+"title": "AI Engineer (m/f/d)",
+"reason": "refuted: Job explicitly lists seniority level as \"Mid-Senior level\". Candidate has 2.5-3 years of experience, which is typically \"Mid\" level, not \"Mid-Senior\". Mid-Senior roles typically require 5-7+ years of experience. This is an objective mismatch against a clearly stated job criterion."
+},
+{
+"id": "4436821062",
+"company": "adesso SE",
+"title": "Azure AI Engineer - Agentic Systems (all genders)",
+"reason": "Hard gate: Job description entirely in German, not English. Language skills requirement explicitly states 'sehr guten Deutsch' (very good German) required. Violates language gate."
+},
+{
+"id": "4463543662",
+"company": "Deploja",
+"title": "Hands-on AI Engineer",
+"reason": "Job description is in Swedish, not English, violating the English-only gate."
+},
+{
+"id": "4465040456",
+"company": "Nordea",
+"title": "AI Platform Engineer",
+"reason": "Requires 5+ years of cloud engineering experience, exceeding the 3-year hard gate."
+},
+{
+"id": "4463032837",
+"company": "Sia",
+"title": "Machine Learning Engineer",
+"reason": "MSc strictly required and Dutch language proficiency mandated, both hard gates."
+},
+{
+"id": "4465029056",
+"company": "Neev",
+"title": "AI and LLM Expert",
+"reason": "Medior role requires >3 years experience; requires French or Dutch fluency beyond English."
+},
+{
+"id": "4456458864",
+"company": "Prewave",
+"title": "Data Science Engineer (f/m/d) - ID:2699811",
+"reason": "refuted: Experience threshold: JD requires \"3+ years of experience in developing, deploying and scaling machine learning models to production\"; candidate has 2.5\u20133 years (below minimum). Seniority: JD specifies \"Mid-Senior level\"; candidate's 2.5\u20133 years experience is Mid-level. Stack mismatch: JD requires \"good experience in working with Python and Scala\"; candidate has no Scala (TypeScript/React/Node/Laravel/Python stack instead)."
+},
+{
+"id": "4455864253",
+"company": "Projective Group",
+"title": "GenAI Engineer",
+"reason": "Master's degree in Computer Science/Data Science/Math/AI strictly required (hard gate). Job requires fluency in English AND French or Dutch (French is hard gate exclusion). User profile: English-only, no French/Polish/German."
+},
+{
+"id": "4463007524",
+"company": "19grams",
+"title": "Software & AI Solutions Engineer (m/w/d)",
+"reason": "Job posting entirely in German language, not English (hard gate). User profile: English-only, cannot read or engage with German JD. Role would also require regular on-site presence in Berlin."
+},
+{
+"id": "4465027493",
+"company": "DTS Systeme GmbH",
+"title": "Technical PreSales Engineer - Cyber Security (m/f/d)",
+"reason": "refuted: Candidate's technical stack (TypeScript/React/Node/Laravel/Python web development) does not match core JD requirement: \"deep technical expertise in firewalls, micro segmentation, endpoint protection, and/or email security protocols.\" Cyber security infrastructure protocols and web app frameworks are incompatible specializations. No evidence candidate has any cyber security infrastructure background."
+},
+{
+"id": "4464930364",
+"company": "Sovos Latinoam\u00e9rica",
+"title": "Pre-Sales Engineer (French speaker)",
+"reason": "Hard gate: JD explicitly requires 'strong written and verbal communication skills in English and French.' User profile specifies English-only, no French. Language requirement is a dealbreaker for this Pre-Sales Engineer role at Sovos."
+},
+{
+"id": "4463021598",
+"company": "Michael Page",
+"title": "Solution Engineer / Technical Solution Specialist",
+"reason": "Hard gate: JD strictly requires 'Laurea Magistrale' (Master's degree) in Environmental Engineering or related technical fields (Informatica, Elettronica, Telecomunicazioni, Gestionale, etc.). User has BA, not MSc. This is a non-negotiable requirement for Michael Page's Milan-based Solution Engineer role. Mid-Senior label alone is not a kill, but the strict Master's degree requirement is."
+},
+{
+"id": "4344526463",
+"company": "Logicalis Germany",
+"title": "Solution Engineer - Data & AI",
+"reason": "Hard gate: JD explicitly states 'Mindestens f\u00fcnf Jahre Erfahrung im IT-Consulting' (at least 5 years experience in IT consulting). User has 2.5-3 years. The 5-year minimum exceeds the 3-year threshold specified in gating criteria. Despite the role being remote-EU friendly and AI/integration focus aligning with user's LLM/automation background, the experience requirement is a blocker."
+},
+{
+"id": "4465026501",
+"company": "DeepRec.ai",
+"title": "Solutions Engineer",
+"reason": "refuted: JD requires \"German from C1 for confident client communication\"; candidate is English only. Also lists Mid-Senior seniority level vs 2.5-3 years (mid-level), and 3+ years requirement vs candidate's 2.5-3 year range (below threshold). Base location Berlin is not remote with 50% client-site travel expected."
+},
+{
+"id": "4454778601",
+"company": "Siemens",
+"title": "Application Specialist - Digital Threads",
+"reason": "refuted: JD explicitly requires \"Mid-Senior level\" (seniority), but candidate has 2.5\u20133 years web-dev experience (early-to-mid tier). Further, candidate lacks required \"experience in engineering software, simulation, systems engineering, engineering data management, PLM, or related digital engineering subject areas\"\u2014their background is full-stack web dev + Python LLM pipelines, not PLM/Digital Threads domain expertise. Domain gap + seniority level mismatch disqualifies the pass."
+},
+{
+"id": "4465012642",
+"company": "KAYTUS",
+"title": "Pre-Sales Engineer \u2013 Fresh Graduates Welcome",
+"reason": "Pre-Sales Engineer role: title explicitly includes 'Pre-Sales', which is sales/vendor focused, not technical product development. KAYTUS is infrastructure/hardware vendor. Pre-sales roles prioritize vendor relationships and sales skills over web/backend development (Prabhavit's core expertise). Misaligned with TypeScript/Next.js/Node/Laravel development focus."
+},
+{
+"id": "4443276431",
+"company": "Ingram Micro",
+"title": "Presales DELL",
+"reason": "Presales DELL at Ingram Micro (distributor/reseller): this is a vendor sales role, not technical engineering. Ingram Micro sells Dell/third-party products to customers. Presales requires vendor product expertise and sales skills, not web/backend development. Does not align with Prabhavit's technical stack (Next.js/Node/React/Laravel/Python). Role is distribution/sales-focused regardless of Milan location match."
+},
+{
+"id": "4464999122",
+"company": "ErasmusTalent",
+"title": "Sales Engineer",
+"reason": "Dutch language required in JD (must master 'Nederlands \u00e9n Engels'). Candidate profile is English-only."
+},
+{
+"id": "4437155554",
+"company": "Saipem",
+"title": "Proposal Engineer",
+"reason": "Required experience 'at least 5 years' as cost estimator/planner exceeds candidate profile ceiling (2.5-3 years)."
+},
+{
+"id": "4463871812",
+"company": "CompuGroup Medical SE & Co. KGaA",
+"title": "Filed Sales Professional",
+"reason": "Entire job description posted in Italian, not English. Candidate profile requires English-only."
+},
+{
+"id": "4462534994",
+"company": "KLA",
+"title": "NPI Product Engineer",
+"reason": "Core stack mismatch: role requires hardware/semiconductor NPI engineering (optical profilers, metrology, instrumentation). Candidate's stack is web full-stack (TypeScript/Next.js/Node/Laravel) + automation/LLM pipelines, not embedded/hardware engineering."
+},
+{
+"id": "4462951300",
+"company": "Continental Industry",
+"title": "Product Development Engineer Power Transmission Solutions CTTR",
+"reason": "Hard gate failure: (1) Experience requirement explicitly states 'Minimum 5 years professional experience in product development, materials engineering' \u2014 exceeds 3-year cap. (2) Core stack mismatch: manufacturing/materials/rubber engineering role; Prabhavit claims TypeScript/Next.js/Node/Laravel/Python for software development, not materials science or rubber belt manufacturing."
+},
+{
+"id": "4463866713",
+"company": "DAF Trucks NV",
+"title": "Engineer New Product Introduction (NPI) \u2013 Truck Assemblage",
+"reason": "Hard gate failure: JD not in English. DAF career website shows Dutch language job descriptions (e.g., 'Wil jij meewerken aan hightech (elektrische) voertuigen...') despite /en/ URL path, indicating Dutch is the operational language. User speaks English only, no German/Polish/French/Dutch."
+},
+{
+"id": "4464101437",
+"company": "Husky Technologies",
+"title": "Product Engineer Advantage+Elite\u2122(m/f/d)",
+"reason": "Hard gate failure: Unable to access full JD from Husky career portal (authentication wall), but company specializes in injection molding & plastics manufacturing equipment. Title 'Product Engineer Advantage+Elite' suggests manufacturing/industrial engineering discipline, not software. Core stack mismatch with Prabhavit's TypeScript/Node/Laravel profile."
+},
+{
+"id": "4465063252",
+"company": "Opto Recruitment",
+"title": "New Product Introduction Engineer",
+"reason": "Hard gate failure: Staffing agency / outsourcing body-shop posting. Employer is 'Opto Recruitment' (a recruitment/staffing firm), not the actual hiring company. Rule: 'staffing agency or outsourcing body-shop posting for an unnamed client' is an automatic kill."
+},
+{
+"id": "4464995436",
+"company": "Dana Incorporated",
+"title": "Application and CAD Engineer",
+"reason": "Core stack is CAD/mechanical engineering (Creo/CATIA/Inventor), not software development. Prabhavit's stack is TypeScript/Next.js/React/Node.js/Laravel. Incompatible skill set."
+},
+{
+"id": "4462566164",
+"company": "FLSmidth",
+"title": "Mechanical Product Engineer",
+"reason": "Hard gates: (1) Core stack is mechanical engineering (SolidWorks/AutoCAD/CAE). (2) Posting requires current valid US visa as non-negotiable; Prabhavit is Venice-based EU resident without US authorization."
+},
+{
+"id": "4463032468",
+"company": "Ole",
+"title": "AI Product Engineer (w/m/d)",
+"reason": "Hard gate: Language requirement. Entire JD is in German. Role requires 'Verhandlungssichere Deutschkenntnisse in Wort und Schrift' (fluent German in speech and writing). Prabhavit speaks English only."
+},
+{
+"id": "4436540136",
+"company": "Cebi Group",
+"title": "Innovation Engineer",
+"reason": "Hard gates: (1) MSc strictly required ('Master's degree in mechanical Electronics/Electrotechnics, Mechatronics or equivalent'). (2) Core stack is mechanical/electronics engineering, not software development."
+},
+{
+"id": "4465086417",
+"company": "Clutch",
+"title": "Product & Process Development - Divisione Protezione",
+"reason": "JD in Italian (non-English). Hard gate: posting must be in English."
+},
+{
+"id": "4463868747",
+"company": "RENSON Ventilation - Sunprotection - Outdoor",
+"title": "Junior product developer",
+"reason": "JD in Dutch (non-English). Hard gate: posting must be in English."
+},
+{
+"id": "4456174934",
+"company": "VDL Konings",
+"title": "Production Engineer",
+"reason": "JD in Dutch (non-English). Hard gate: posting must be in English."
+},
+{
+"id": "4454799986",
+"company": "Lam Research",
+"title": "Test Engineer (all genders)",
+"reason": "Domain mismatch: hardware/manufacturing test engineer role requiring Bachelor's in electrical engineering or mechatronics, CAD/NX expertise, and semiconductor manufacturing knowledge. Prabhavit is a full-stack software engineer (TypeScript/Next.js/Laravel) with no EE background or manufacturing domain experience. While Python is mentioned, the role's core requirements (EE degree, test fixtures, manufacturing, CAD) fall outside his stated software engineering stack. Role is for Villach, Austria on-site flex."
+},
+{
+"id": "4463026558",
+"company": "Lucy Group Ltd",
+"title": "Industrial Engineer",
+"reason": "Hardware manufacturing engineer role (DFM/DFA, MES, test fixtures, SMT assembly for LTE/5G devices). Core domain mismatch: Prabhavit's stack is full-stack software (TypeScript/Next.js/React/Node + Laravel/PHP + Python automation), not mechanical/manufacturing engineering."
+},
+{
+"id": "4463884337",
+"company": "John Crane",
+"title": "Filtration System and Application Engineer",
+"reason": "Hard gate: Required experience 'at least 6 years' in engineering (exceeds 3-year max). Additionally, mechanical/filtration engineering role (FEA, pressure vessels, ASME codes, CAD) is outside software stack."
+},
+{
+"id": "4465011562",
+"company": "PILANA Retek",
+"title": "Technolog",
+"reason": "Hard gate: JD entirely in Czech language, not English. User requires English-only roles."
+},
+{
+"id": "4465022636",
+"company": "Sinterleghe S.r.l.",
+"title": "MECHANICAL DESIGN ENGINEER \u2013 PRODUCT & PROCESS SPECIALIST",
+"reason": "Hard gate: JD in Italian language, not English. Additionally, mechanical design engineer role (SolidWorks CAD, CNC, DFMA for automotive tooling) is hardware manufacturing, not software engineering."
+},
+{
+"id": "4464998374",
+"company": "Estra S.p.A.",
+"title": "EXPERIENCED FULL STACK WEB DEVELOPER",
+"reason": "JD not in English (posted in Italian). Italian is implicitly required for Prato-based role at Italian company."
+},
+{
+"id": "4464670008",
+"company": "Experts Inside AG",
+"title": "Software Engineer \u2014 Build, Own & Shape Our SaaS",
+"reason": "Core stack .NET/C# (hard gate). Prabhavit's stack is TypeScript/Node/React/Next.js + Laravel/PHP + Python, not .NET."
+},
+{
+"id": "4464907870",
+"company": "Uniksystem",
+"title": "Full-Stack Engineer",
+"reason": "Core stack Java/Spring (hard gate). Requires 2+ years Java + ReactJS experience. Prabhavit's stack excludes Java."
+},
+{
+"id": "4439797778",
+"company": "Sync Lab S.r.l.",
+"title": "FULL STACK DEVELOPER",
+"reason": "JD not in English (posted in Italian) AND core stack Java (hard gates). Role explicitly requires Java/Angular developer."
+},
+{
+"id": "4463031920",
+"company": "Aurion First",
+"title": "Fullstack Developer .net C#",
+"reason": "Core stack requirement: .NET/C# is not in Prabhavit's skillset (JavaScript/TypeScript/Python/Laravel PHP). Hard gate violation."
+},
+{
+"id": "4463013641",
+"company": "PrimeIT",
+"title": "Fullstack Developer",
+"reason": "Core stack requirement: .NET backend + Angular frontend. .NET is not in Prabhavit's skillset. Hard gate violation. Also requires 3+ years (boundary condition, not a kill on its own, but combined with stack mismatch is decisive)."
+},
+{
+"id": "4463062364",
+"company": "CompuSafe Data Systems AG",
+"title": "Full Stack Developer \u2013 Firewall Automation",
+"reason": "Strict German language requirement (C1 fluency). JD is entirely in German with explicit requirement 'Sehr gute Deutschkenntnisse (min. C1)'. Hard gate violation: non-English JD with language fluency strictly required. Secondary gate: FastAPI-only backend (Python + FastAPI stack is excluded per hard gates)."
+},
+{
+"id": "4453453560",
+"company": "SEEBURGER",
+"title": "Fullstack Developer (Java, Angular & AI)",
+"reason": "Core stack requirement: Java 8+ is the primary language. Title explicitly states 'Java, Angular & AI'. Java is not in Prabhavit's skillset (TypeScript/JavaScript/Python/Laravel PHP). Hard gate violation."
+},
+{
+"id": "4463040266",
+"company": "INFORM GmbH - Optimization Software",
+"title": "Java Fullstack Developer(all genders)",
+"reason": "Java as primary stack (core stack Prabhavit cannot claim); job description in German language, not English"
+},
+{
+"id": "4465022974",
+"company": "Precio Fishbone",
+"title": "Full Stack Engineer",
+"reason": ".NET/C# as primary stack (core stack Prabhavit cannot claim); job description in Swedish language, not English"
+},
+{
+"id": "4463016119",
+"company": "Agrarmarkt Austria",
+"title": "TypeScript Software Developer*in",
+"reason": "Job description in German language, not English (hard gate language requirement)"
+},
+{
+"id": "4463865250",
+"company": "Betty",
+"title": "Back-end Software Engineer | Betty CA",
+"reason": ".NET/C# as primary stack (core stack Prabhavit cannot claim)"
+},
+{
+"id": "4455798557",
+"company": "Amazon",
+"title": "Software Development Engineer, Amazon Privacy",
+"reason": "refuted: Job explicitly requires \"Mid-Senior level\" seniority. Candidate has 2.5\u20133 years experience (Mid level, not Mid-Senior). This stated requirement exceeds candidate's experience profile."
+},
+{
+"id": "4453430530",
+"company": "Meta",
+"title": "Software Engineer, Infrastructure",
+"reason": "Role responsibilities explicitly require setting team direction, leading major initiatives, mentoring peers, and establishing component ownership\u2014these are Senior/Lead-level expectations. Violates hard gate: Senior/Lead/Manager level role disguised under Software Engineer title."
+},
+{
+"id": "4455930664",
+"company": "GE HealthCare",
+"title": "Software Engineer",
+"reason": "Required hard skill mismatch: role explicitly requires 'strong proficiency in Java, Golang or C++ (deep expertise in one, comfort with the others)' as core mandatory qualification. Prabhavit's stack is TypeScript/Node.js, Laravel/PHP, Python\u2014no overlap with required languages. Violates hard gate: core stack mismatch."
+},
+{
+"id": "4454768702",
+"company": "Siemens",
+"title": "Java & Database Developer \u2013 DS Tooling",
+"reason": "Multiple HARD GATES: (1) Job description is entirely in Hungarian, not English. (2) Core stack requirement is Java/Spring Boot, which is not in Prabhavit's skill set (he works with TypeScript/Node/Laravel/Python)."
+},
+{
+"id": "4437454035",
+"company": "Schaeffler",
+"title": "Polarion Software Developer",
+"reason": "HARD GATE: Core stack requirement is Java (primary language for Polarion customization). Java is not in Prabhavit's stack. While the role includes JavaScript, Python, and SQL, Java expertise is foundational to the Polarion developer role."
+},
+{
+"id": "4463032685",
+"company": "Jungheinrich Croatia",
+"title": "Software Engineer",
+"reason": "HARD GATE: This is an embedded/firmware development role requiring MATLAB/Simulink, C/C++, AUTOSAR, and microcontroller expertise. Embedded/firmware development is explicitly outside Prabhavit's core stack and listed as a HARD GATE exclusion."
+},
+{
+"id": "4455931117",
+"company": "Amazon",
+"title": "Software Development Engineer \u2013 2026",
+"reason": "Does not meet stated graduation requirement. Role explicitly requires graduation between Oct 2025\u2013Sept 2026 OR within last 24 months. With 2.5\u20133 years experience as of Sept 2026, Prabhavit likely graduated in 2023\u2013early 2024, before the 24-month window. This is an entry-level SDE-I role for 2026 graduates; his seniority exceeds the role's scope."
+},
+{
+"id": "4463054179",
+"company": "Second Window",
+"title": "Java Developer/Kafka",
+"reason": "Core stack is Java (with J2EE, Spring Framework, Apache Kafka), which is explicitly in the cannot-claim list. Requires 2+ years Java experience."
+},
+{
+"id": "4461700377",
+"company": "iliad",
+"title": "Software Engineer",
+"reason": "refuted: JD requires \"Conoscenza della lingua francese\" (Knowledge of French language) as Must Have; candidate is English only. Also requires Django explicitly; candidate stack is TypeScript/React/Node/Laravel/Python but no Django listed."
+},
+{
+"id": "4427496996",
+"company": "Enghouse Transportation & Public Safety",
+"title": "Software Engineer (C#, Payments)",
+"reason": "Core stack is C# (.NET), which is explicitly in the cannot-claim list. Role is C# Backend for Payments domain. Requires 3+ years experience."
+},
+{
+"id": "4429106106",
+"company": "leboncoin",
+"title": "D\u00e9veloppeur Backend Golang - Feature Team Mon\u00e9tisation sp\u00e9cialis\u00e9e (F/N/H)",
+"reason": "Core stack is Golang Backend, which is explicitly in the cannot-claim list. Additionally, job posting is in French and French fluency is required (triggering language hard gate)."
+},
+{
+"id": "4452842378",
+"company": "Sii Poland",
+"title": "Test Automation Engineer with Java (f/m/x)",
+"reason": "Required experience 5+ years exceeds 3-year hard gate. Also requires Polish fluency."
+},
+{
+"id": "4465057659",
+"company": "STREAMWIDE Romania",
+"title": "Telecom Software Quality Assurance Automation",
+"reason": "Required experience 5+ years in similar position exceeds 3-year hard gate."
+},
+{
+"id": "4445930228",
+"company": "Honeywell Aerospace",
+"title": "Test Software Automation Engineer (M/F/D)",
+"reason": "refuted: Candidate with 2.5-3 years of experience does not conclusively meet stated requirement: \"Minimum 3 years' experience since graduating from university.\" At the lower end of the range (2.5 years), this falls short. Per instructions to default to refuted=true if uncertain, this borderline experience level refutes the pass decision."
+},
+{
+"id": "4465045961",
+"company": "Makeitright",
+"title": "QA Automation | Playwright + TypeScript",
+"reason": "JD not in English (posted entirely in Polish). User profile specifies English only, no Polish."
+},
+{
+"id": "4309038919",
+"company": "CGI Nederland",
+"title": "Agile Test Engineer - Digitale Overheid",
+"reason": "Job description is in Dutch (non-English). Candidate profile specifies English-only positions."
+},
+{
+"id": "4461571904",
+"company": "Sysmatch",
+"title": "QA Automation Engineer M/F",
+"reason": "Job description is in Portuguese (non-English). Candidate profile specifies English-only positions."
+},
+{
+"id": "4463568951",
+"company": "SOSV HAX",
+"title": "Software Engineer, Test Infrastructure & Reliability",
+"reason": "C++ proficiency required as primary language for integration/system testing. C++ is in hard-gate list as core stack candidate cannot claim."
+},
+{
+"id": "4463874468",
+"company": "DAS",
+"title": "Test Engineer",
+"reason": "Dutch language required. JD states 'Goede beheersing van de Nederlandse taal, mondeling en schriftelijk' (fluent Dutch required, written and spoken). Candidate is English-only. HARD GATE: Language requirement outside candidate's declared languages."
+},
+{
+"id": "4463037463",
+"company": "Extia",
+"title": "Quality Assurance Automation Engineer",
+"reason": "Spanish language required. JD states 'Espa\u00f1ol + Ingl\u00e9s B1/B2' (Spanish fluency required). Posting is in Spanish for fintech payments domain. Candidate is English-only. HARD GATE: Required language outside candidate's declared languages."
+},
+{
+"id": "4463884251",
+"company": "Politi",
+"title": "Automation Test Engineer til Rigspolitiets it-infrastruktur",
+"reason": "JD not in English. Entire job posting is in Danish with no English translation offered. Role is at Danish government police IT infrastructure. HARD GATE: JD not in English, candidate is English-only speaker."
+},
+{
+"id": "4442574909",
+"company": "DWPT Deutsche Wertpapiertreuhand GmbH",
+"title": "Frontend Software Quality Assurance (QA) Engineer (m/w/d)",
+"reason": "JD entirely in German language (hard gate: JD not in English)"
+},
+{
+"id": "4464985623",
+"company": "agap2 Spain",
+"title": "QA Engineer",
+"reason": "JD entirely in Spanish (hard gate: JD not in English); also requires 4 years experience (exceeds 3-year threshold)"
+},
+{
+"id": "4465075799",
+"company": "BETWEEN Group",
+"title": "QA Automation",
+"reason": "JD entirely in Spanish language (hard gate: JD not in English)"
+},
+{
+"id": "4465073320",
+"company": "NoeXa - IT Solutions",
+"title": "QA & Test Automation Specialist",
+"reason": "JD entirely in Portuguese language (hard gate: JD not in English); Portuguese fluency required; also requires 5 years experience (exceeds 3-year threshold)"
+},
+{
+"id": "4465065070",
+"company": "Brightwater Recruitment",
+"title": "Artificial Intelligence Engineer",
+"reason": "Hard gates: (1) 5+ years required (exceeds 3 years), (2) Senior Software Engineer title, (3) Brightwater Recruitment is staffing/body-shop recruiting for unnamed clients"
+},
+{
+"id": "4465070975",
+"company": "We Are META",
+"title": "AI / RPA Developer",
+"reason": "Hard gates: (1) We Are META is a staffing/recruitment firm (\"connect Rhinos to projects\"), (2) Requires candidates based in Portugal; Prabhavit in Venice\u2014practical blocker for hybrid 2x/3x Lisbon role"
+},
+{
+"id": "4455724695",
+"company": "fonio.ai",
+"title": "Automation Engineer",
+"reason": "Hard gate: German native speaker required (\"Deutsch als Muttersprache\"); user English-only, no German"
+},
+{
+"id": "4463042458",
+"company": "Lectra",
+"title": "AI Agent Engineer H/F",
+"reason": "Hard gate: French fluency required (\"Fran\u00e7ais et anglais courants\"); user English-only, no French"
+},
+{
+"id": "4456197649",
+"company": "Flynth",
+"title": "AI Engineer",
+"reason": "JD published in Dutch. Hard gate: non-English language requirement (Dutch is a disqualifying language per user profile English-only constraint)."
+},
+{
+"id": "4434333930",
+"company": "WERTGARANTIE Group",
+"title": "Application Developer AI (m/w/d)",
+"reason": "Posting inaccessible via public API\u2014auth wall blocks JD content. Likely closed, paywalled, or 404. Cannot verify language, experience level, or stack requirements."
+},
+{
+"id": "4335253347",
+"company": "Deloitte",
+"title": "Consultant Intelligent Automation - Dein Einstieg in AI & Data (m/w/d) in Stuttgart",
+"reason": "Posting inaccessible via public API\u2014auth wall blocks JD content. Likely closed, paywalled, or 404. Cannot verify language, experience level, or stack requirements."
+},
+{
+"id": "4453111352",
+"company": "Operations1",
+"title": "AI Application Engineer (m/w/d)",
+"reason": "JD published in German. Hard gate: non-English language requirement (German is a disqualifying language per user profile English-only constraint). Also titles/levels include 'Mid-Level bis Senior'\u2014mixed seniority signal."
+},
+{
+"id": "4445196031",
+"company": "Squarespace",
+"title": "Systems Engineer, Support Platform",
+"reason": "refuted: JD explicitly states \"Seniority level: Mid-Senior level\" (line 709). Candidate has 2.5\u20133 years of experience, which falls short of the typical 4\u20135+ years required for Mid-Senior roles."
+},
+{
+"id": "4455928821",
+"company": "Santander",
+"title": "AI Software Engineering Analyst",
+"reason": "Requires 5+ years experience (exceeds 3-year threshold)"
+},
+{
+"id": "4463015424",
+"company": "Akkodis",
+"title": "AI Integration Engineer",
+"reason": "Akkodis is a staffing agency / outsourcing body shop (not a direct employer)"
+},
+{
+"id": "4463024876",
+"company": "RENOMIA",
+"title": "JUNIOR FULL-STACK & AI ENGINEER",
+"reason": "refuted: Job requires Czech B2 level as hard requirement in core section. JD states: \"\u010cestin alespo\u0148 na \u00farovni B2\". Candidate profile specifies English only, disqualifying them from this Prague-based position."
+},
+{
+"id": "4463016260",
+"company": "Adecco",
+"title": "Junior Data Analyst & AI Specialist",
+"reason": "Hard gate violation: JD entirely in Italian with no English language requirement stated. Italian is on the restricted language list. Secondary: role is Data Analyst (Excel/BI/databases), not full-stack engineer; stack mismatch with candidate's TypeScript/React/Node/Laravel profile."
+},
+{
+"id": "4463815639",
+"company": "Mphasis",
+"title": "Technical Product Manager",
+"reason": "refuted: JD requires \"10+ years of experience\" (stated explicitly in opening line); candidate has 2.5\u20133 years. JD seniority: Director (verified in job criteria section). Candidate experience gap = 6.5\u20137.5 years below minimum. Secondary: seniority level mismatch (Director vs junior/mid-level)."
+},
+{
+"id": "4463894224",
+"company": "SAP",
+"title": "Expert Technical Product Manager (m/f/d/) for Multiple Products in Sovereign Cloud",
+"reason": "Hard gate violation: Master's degree in computer science, engineering or related field explicitly required. Additional disqualifiers: Expert-level (Senior) PM role requiring 5+ years SAP S/4HANA enterprise transformation experience; stack (SAP Sovereign Cloud) and seniority misaligned with mid-level full-stack engineer profile."
+},
+{
+"id": "4465053142",
+"company": "Metrea",
+"title": "Technical Product Manager - SDK",
+"reason": "Hard gate: 4+ years product experience explicitly required; Prabhavit has 2.5-3 years"
+},
+{
+"id": "4465068537",
+"company": "workfully",
+"title": "Product Manager (all genders) - IoT Platform",
+"reason": "refuted: The JD explicitly requires \"3\u20135 years owning complex software or platform products end to end (Must-have)\". The candidate has 2.5 to 3 years of experience; the lower bound of this range (2.5 years) falls below the 3-year minimum stated in the requirement."
+},
+{
+"id": "4465084530",
+"company": "Workhuman",
+"title": "Product Manager (AI)",
+"reason": "refuted: JD explicitly requires \"Ideally 5+ years of experience working as a Product Manager/Owner in an Agile/Scrum product development environment.\" Candidate has 2.5-3 years. 5+ years exceeds the stated candidate experience ceiling."
+},
+{
+"id": "4464976728",
+"company": "Roger",
+"title": "Product Owner - Healthtech (m/w/d)",
+"reason": "German language fluency required. Job explicitly requires 'Sehr gute Deutschkenntnisse' (very good German). User is English-only. Hard gate: language requirement."
+},
+{
+"id": "4463009691",
+"company": "Flexi",
+"title": "Technical Product Manager (B2B Platform)",
+"reason": "Greek fluency explicitly required ('Fluency in Greek and English'). Gate violation: non-English language required (Greece not in user's acceptable language list, but language requirement itself is the disqualifier)"
+},
+{
+"id": "4446316924",
+"company": "Hawk",
+"title": "Product Owner - Agentic",
+"reason": "refuted: JD explicitly requires \"3\u20135 years as a Product Owner or Product Manager, and 3\u20135 years in the financial industry\" with \"direct exposure to Anti-Financial Crime.\" Candidate has 2.5-3 years total experience with no stated financial industry background. JD confirms both sides are mandatory: \"We're open on the exact mix; what matters is that both sides are real, not adjacent.\""
+},
+{
+"id": "4465028552",
+"company": "New Amsterdam Technology & Business Ventures",
+"title": "Technical Product Manager",
+"reason": "refuted: JD clearly requires \"5+ years in Product Management, Product Ownership, or Solutions Engineering within B2B software.\" Candidate has 2.5\u20133 years experience. This is 2\u20132.5 years short of the stated minimum. The requirement is explicit and non-negotiable on experience level, making the candidate ineligible under this posted criterion."
+},
+{
+"id": "4432939965",
+"company": "Techem Energy Services GmbH",
+"title": "Technical Product Owner (m/w/d) \u2013 Core Systems, in Voll- oder Teilzeit",
+"reason": "Multiple hard gate violations: (1) JD is entirely in German; (2) German fluency explicitly required ('Du kommunizierst sicher auf Englisch und Deutsch'). Language gate: German is in the forbidden list. (3) Core stack is .NET-Framework and C# (forbidden core stack). Role requires Oracle/Delphi/legacy transformation to Azure/C#/microservices\u2014zero overlap with Prabhavit's TypeScript/PHP/Python stack."
+},
+{
+"id": "4463033509",
+"company": "F24",
+"title": "Junior Software Engineer (Java)",
+"reason": "Java as primary language\u2014core stack that user cannot claim. Title explicitly states 'Junior Software Engineer (Java)'."
+},
+{
+"id": "4463577032",
+"company": "Accenture Baltics",
+"title": "Junior Java Developer",
+"reason": "Java as primary language\u2014core stack that user cannot claim. Title explicitly states 'Junior Java Developer'."
+},
+{
+"id": "4465063896",
+"company": "Archer - The IT Recruitment Consultancy (Malta)",
+"title": "Junior Software Developer \u2013 Build the Future",
+"reason": "Staffing agency body-shop posting. Company is 'Archer - The IT Recruitment Consultancy (Malta)'\u2014a recruitment firm, not the actual employer. End client is unnamed. Matches hard gate: 'staffing agency or outsourcing body-shop posting for an unnamed client.'"
+},
+{
+"id": "4455912064",
+"company": "Amazon",
+"title": "Software Development Engineer \u2013 2026",
+"reason": "Amazon 2026 Software Development Engineer is a graduate/early-career program targeting recent graduates (graduated within last 24 months or expected graduation Oct 2025-Sep 2026). Prabhavit has 2.5-3 years of professional experience and is outside the target cohort for this program."
+},
+{
+"id": "4445748678",
+"company": "Accenture na Slovensku",
+"title": "Junior Software Engineer \u2013 Pega Career Path",
+"reason": "Accenture Pega career path requires Slovak language at C2 (native) proficiency. Prabhavit is English-only with no German, Polish, French, Dutch, Spanish, or Italian capability. Language requirement is a hard gate per profile constraints."
+},
+{
+"id": "4465059138",
+"company": "Mendify",
+"title": "Junior Low-Code Developer (Mendix)",
+"reason": "Mendify Junior Low-Code Developer (Mendix) explicitly requires maximum 2 years of work experience. Prabhavit has 2.5-3 years, exceeding the stated experience cap. Secondary issue: role requires Dutch at native level; Prabhavit is English-only."
+},
+{
+"id": "4463873270",
+"company": "IDEMIA Public Security",
+"title": "Junior Full-Stack Developer",
+"reason": "German language hard gate: JD in German + German location (Bochum) with (m/w/d) designation indicates German fluency required for this junior developer role."
+},
+{
+"id": "4465020018",
+"company": "Ascory Bank",
+"title": "(Junior) Software Developer (m/w/d) Java",
+"reason": "Multiple hard gates: (1) German language required - JD explicitly states 'Englisch- und Deutschkenntnisse mindestens B2-Niveau' (German B2 fluency required); (2) Core stack is Java, which Prabhavit cannot claim."
+},
+{
+"id": "4463888415",
+"company": "Confidential",
+"title": "Junior AI-Native Developer",
+"reason": "Hard gate: JD entirely in Dutch language. Per criteria, JD must be in English or no non-English language required."
+},
+{
+"id": "4455937253",
+"company": "Amazon Web Services (AWS)",
+"title": "Software Development Engineer - 2026",
+"reason": "AWS SDE-I program requires graduation within last 24 months (Sep 2024-Sep 2026). Prabhavit has 2.5-3 years experience, meaning graduation ~2023-2024, which exceeds 24-month window. This is a graduate/entry-level recruitment program designed for new grads."
+},
+{
+"id": "4462547266",
+"company": "VAARHAFT",
+"title": "Full-time Backend Developer (f/m/d)",
+"reason": "refuted: Role requires AWS infrastructure administration and maintenance tasks (EC2, VPC, S3, DynamoDB) \u2014 cloud administration work excluded for this candidate. JD states: \"Administration and maintenance of AWS infrastructures, including EC2 instances, API gateways, VPC, S3, and DynamoDB.\""
+},
+{
+"id": "4464988247",
+"company": "slashwhy",
+"title": "Junior Embedded C++ Developer (all genders) in Osnabr\u00fcck",
+"reason": "Hard gates: (1) German language fluency required (flie\u00dfende Deutsch), Prabhavit English-only. (2) C++ core stack (hard gate - Prabhavit cannot claim C++). (3) Embedded software development focus (hard gate). Junior Embedded C++ with agricultural technology stack incompatible."
+},
+{
+"id": "4452829317",
+"company": "FRITZ!",
+"title": "Junior Software Developer Embedded Linux Systems (w/m/d)",
+"reason": "Hard gates: (1) German B2+ language requirement (gute Deutsch- und Englischkenntnisse auf mindestens B2-Niveau), Prabhavit English-only. (2) Embedded Linux systems and driver development (hard gate - embedded/firmware). (3) Kernel-level and SoC driver work (systems programming domain). Role incompatible with profile."
+},
+{
+"id": "4463551310",
+"company": "KPMG Italy",
+"title": "Java Developer",
+"reason": "Java explicitly required as primary tech stack (Java/Spring Boot microservices). Java is core-stack mismatch; user's stack is TypeScript/Node/PHP."
+},
+{
+"id": "4464641666",
+"company": "Fujitsu",
+"title": "Software Developer (m/f/d)",
+"reason": "Hard gates: (1) Core stack mismatch - mainframe BS2000 OS dev requires Assembler/C/C++ (not user's TS/Node/PHP); (2) Language gate - German fluency required, user English-only."
+},
+{
+"id": "4465017152",
+"company": "Deloitte",
+"title": "Junior - Mobile Developer",
+"reason": "refuted: Job explicitly requires \"Conoscenza dei linguaggi Kotlin, Swift o Java\" (Knowledge of Kotlin, Swift or Java). Candidate stack is TypeScript/React/Node/Laravel/Python. Kotlin and Java are blocked core languages (candidate cannot claim). React Native is mentioned but requires Kotlin or Swift at the language layer \u2014 candidate has neither."
+},
+{
+"id": "4464653567",
+"company": "Fujitsu",
+"title": "Software Developer (m/f/d)",
+"reason": "Identical to 4464641666 (Req Id 11386): mainframe Assembler/C/C++ required + German fluency required. Different location, same role and hard gates."
+},
+{
+"id": "4463856073",
+"company": "CHEFS CULINAR",
+"title": "Software Engineer (m/w/d)",
+"reason": "JD in German with German language fluency required. Core stack (.NET/C#) not claimable by Prabhavit."
+},
+{
+"id": "4463538957",
+"company": "KPMG Italy",
+"title": ".NET Developer",
+"reason": "Core stack .NET/C# not claimable. Primary requirement: solid .NET/C#/.NET Core experience."
+},
+{
+"id": "4465013145",
+"company": "Deloitte",
+"title": "Junior - Mobile Developer",
+"reason": "Core stack Java/Swift/Kotlin (Java not claimable) and mobile development (iOS/Android/React Native) outside Prabhavit's expertise. Junior mobile role requires platform-specific skills Prabhavit lacks."
+}
+]
+}

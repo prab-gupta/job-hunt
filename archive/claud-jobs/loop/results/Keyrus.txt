@@ -1,0 +1,10 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4464504676/ (Apply link resolves to https://jobs.keyrus.pt/jobs/8095445-forward-deployed-ai-engineer, not opened)
+ATS: Custom (Keyrus own careers site)
+
+Uploaded: nothing - no material drafted, apply form not opened.
+Answers given: none.
+
+Blocker: the LinkedIn JD text itself, under "Responsible AI & Recruitment", states: "the use of AI tools by candidates during the recruitment process is strictly prohibited... Any use of AI assistance during the interview process may result in immediate disqualification from the recruitment process." Per the brief's hard-gate rule (grep the JD for an anti-AI disclaimer; if present, do NOT draft any material), stopped before building a CV or letter and before opening the apply form.
+
+Note for the user: otherwise a strong fit (Python, LLM/GenAI/RAG/agentic workflows, EUR 65,000-78,000/yr, Lisbon hybrid); the earlier language-requirement check (Portuguese/French kill) was moot since the anti-AI gate triggered first. See NEEDS_YOU.md row 30 and answers/keyrus-2026-09-16.md.

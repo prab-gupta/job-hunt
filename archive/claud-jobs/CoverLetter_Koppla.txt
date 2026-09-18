@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Koppla Hiring Team,
+
+I am writing to apply for the Product Engineer, Frontend role in Berlin. I have spent the past three years as a product-minded engineer who takes ownership of a feature across the stack rather than staying on one side of it, which is the shape of growth this role describes.
+
+At FlowSpace, I took over a live workspace marketplace and drove the data migration off a legacy stack onto Next.js and Laravel: I mapped the old structure to the new one, chose the migration path per entity through API endpoints or CSV exports, and ran the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I have worked across a TypeScript codebase end to end, from the user-facing product down to the API integrations and database work that support it, and I care about the trade-offs between shipping fast and building something maintainable.
+
+At Urlink, I built a client platform and its logic with AI-assisted development, working on both the Next.js frontend and the Supabase backend, and implemented automations driven directly by client requirements. That full-stack ownership, front to back on one small team, is close to what koppla describes for this role.
+
+I have not worked with Vue or NestJS specifically, and I want to be upfront about that. My day-to-day frameworks are React, Next.js and Node, but TypeScript is the common thread across all of it, and I have picked up new frameworks quickly whenever a project needed it.
+
+I hold Italian EU Long Term Residence status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Berlin and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the product team at koppla.
+
+Regards,
+Prabhavit Gupta

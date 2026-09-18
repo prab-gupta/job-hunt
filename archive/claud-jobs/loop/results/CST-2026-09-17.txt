@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4455263756/
+Uploaded: Prabhavit_CV_CST.pdf (tailored from Prabhavit_CV_EN.tex - Technical Skills reordered to lead with Development/Laravel/Typescript ahead of Automation/AI-ML, career summary trimmed to the API-integration and QA/production-features bullets, FlowSpace Technical Responsibilities reordered to lead with the OfficeRnD/Nexudus API integration and the Bubble-to-Next.js/Laravel migration bullet). CoverLetter_CST.pdf/.txt written (Italian, leads FlowSpace legacy-stack migration mapped entity by entity via API endpoints/CSV exports with a live cutover plus OfficeRnD/Nexudus integrations, pairs Get2Germany Google API integration and database optimisation); no cover-letter textbox was offered, kept on file.
+Answers: phone 3516107807, email prabhavitg@gmail.com, three numeric year-count fields: "years developing/managing integrations between company systems and third-party applications" = 3, "years using relational databases and SQL" = 2, "years using REST/SOAP APIs, Web Services and XML" = 3. Salary not asked in-form; logged 42000 in applications.csv (JD states RAL 32.000-42.000 EUR, used top of stated band per task instruction to follow a JD-stated band).
+Dedupe: NEW, no prior CST row.
+Blockers: none. "Mark as top choice" left unticked. "Follow CST LOGISTICA TRASPORTI" company-follow checkbox left at its default (checked).
+Confirmation: confirmations/CST-2026-09-17.png, confirmations/CST-2026-09-17.txt ("Application submitted").
+No new LEARNINGS entry needed beyond the Omada Chinese-modal note already logged this session.

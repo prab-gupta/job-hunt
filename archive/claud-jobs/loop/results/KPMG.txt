@@ -1,0 +1,22 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4437056376/ (Apply on company website -> https://careers.kpmg.it/job/Milano-Junior-ServiceNow-Developer-Implementation/1365974157/)
+
+Uploaded: nothing (blocked before any form).
+
+Materials built (ready to use):
+- Prabhavit_CV_KPMG.tex/.pdf (2 pages, tailored from Prabhavit_CV_EN.tex, parity-checked)
+- CoverLetter_KPMG.tex/.pdf/.txt (Italian, 0 em-dashes)
+- answers/kpmg-2026-09-16.md (full tailoring log and gate check)
+
+Answers given: none (form never reached).
+
+Blocker: "Candidati ora" on careers.kpmg.it opens only two options, both of which join KPMG's
+Comunita di talenti (talent community): a direct sign-up, or "Inizia a candidarti con LinkedIn"
+(tooltip explicitly says this also joins the talent community via the social profile, does not
+skip account creation). No guest-apply path found. Per the brief, account creation is a
+user-only blocker (KPMG's own known trap: "account wall -> materials + NEEDS YOU, do not create
+an account"). Stopped without creating an account. Logged NEEDS_YOU.md item 6 and CSV.
+
+Nothing new broke beyond the brief's own known KPMG pattern; no new LEARNINGS line needed for
+this row.

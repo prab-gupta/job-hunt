@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4465201869/ (decodes to https://job-boards.eu.greenhouse.io/agilerobotsse/jobs/4964789101)
+Uploaded: nothing
+Answers given: none (killed before any form was reached)
+Blockers: not a blocker, a genuine closed posting. The Greenhouse job id the LinkedIn link decodes to returns Greenhouse's own error=true state (invalid job id) and redirects to the company's general job board. Searched the live 63-role board for "Forward Deployed", "Robotics" and "Deploy": no matching listing exists. LinkedIn's own jobs-guest API still shows apply-button=1 (stale cache), but the real ATS requisition is gone. Killed per the brief's "posting closed/404" hard gate.
+LEARNINGS: the cheap LinkedIn jobs-guest API check (apply-button count) is not sufficient on its own for offsite Greenhouse postings; also resolve the actual Greenhouse job-boards.eu.greenhouse.io/<slug>/jobs/<id> URL and confirm it does not redirect to ?error=true before trusting LinkedIn's cached Apply state.

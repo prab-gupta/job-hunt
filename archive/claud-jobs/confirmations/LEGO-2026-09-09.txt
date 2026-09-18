@@ -1,0 +1,15 @@
+NEEDS YOU - the LEGO Group, Front-End Software Engineer (BrickLink Catalog), Billund, Denmark
+
+LinkedIn "Apply" button did not open an Easy Apply modal. It redirected off LinkedIn to LEGO's
+Workday careers site (lego.wd103.myworkdayjobs.com), job requisition 0000035564. Clicking
+"Apply Manually" landed on a "Create Account/Sign In" step requiring a new email + password
+(Candidate Home account) before My Information / My Experience / Application Questions /
+Voluntary Disclosures / Review steps become reachable. No submission was made. No account was
+created (account creation and entering authentication passwords are both out of scope for
+autonomous action).
+
+Left open at: tab 550849739
+https://lego.wd103.myworkdayjobs.com/en-US/LEGO_External/job/Billund/Front-End-Software-Engineer_0000035564/apply/applyManually?cmp=SOC-INUS13OctOtherGlobalrecruitment&source=LinkedIn
+
+Cover letter prepared and ready to paste/upload once the account exists:
+CoverLetter_LEGO.txt (187 words) and CoverLetter_LEGO.pdf (1 page, built from CoverLetter_LEGO.tex).

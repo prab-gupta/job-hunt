@@ -1,0 +1,8 @@
+Company site form (alphaomega.lu/jobs/software-engineer-python) success message shown after Submit:
+"Dear Madam, dear Sir,
+Thank you for taking the time to apply for a position at AlphaOmega.
+We appreciate your interest in our company and the time you have taken to share your credentials with us.
+Our team will carefully review your application. If your profile matches the requirements of the position, we will contact you within the next three weeks.
+If you do not hear from us during this time, please note that your application has not been selected for this opportunity.
+We thank you once again for your interest in AlphaOmega.
+Best regards, The HR Team"

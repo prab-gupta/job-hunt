@@ -1,0 +1,6 @@
+STATUS: KILLED
+URL: https://it.linkedin.com/jobs/view/ai-python-developer-at-altherias-4467976801
+Reason: hard gate, core stack Prabhavit cannot claim. JD Requisiti bullet 2: "Almeno 3 anni di esperienza nello sviluppo back-end con Python e FastAPI" - FastAPI backend as the core requirement, matching the brief's explicit kill clause (Django/FastAPI backend as the core). The rest of the Requisiti list (LlamaIndex, Gemini, PostgreSQL pgvector/FTS, Redis, agentic multi-turn RAG architecture) is also outside what OUTREACH_FACTS supports.
+No CV or letter drafted (killed before that step). No anti-AI disclaimer present in the JD.
+The task note flagged this row as "planner-approved" only on the years-required ("Almeno 3 anni" = his 3) and Italian-language grounds; that override did not address the FastAPI-core-stack gate, which this task's re-check step caught independently.
+LEARNINGS: none new.

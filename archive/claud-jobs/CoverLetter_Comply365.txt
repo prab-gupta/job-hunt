@@ -1,0 +1,7 @@
+I want the role that owns a customer's onboarding end to end, not the version split between an engineer and a PM. At FlowSpace I was that hybrid: I built the integrations myself, ran the rollout, and stayed the point of contact when something broke.
+
+Concretely: I shipped OfficeRnD and Nexudus API integrations that live workspace operators use for bookings today, built an LLM pipeline that has drafted 900+ workspace listings for human review, and built support AI agents that answer against live platform data and escalate to a person on low confidence. I worked discovery through rollout with the internal team, an external agency, and members, on Next.js, Laravel, Supabase, and Python.
+
+CoAnalyst's problem, regulated aviation data, enterprise customers, SSO and SAML federation into their identity providers, is the same shape of hard: real integration work with a real customer on the other end, not a demo. That is the work I want more of.
+
+I am based in Venice, Italy, and ready to relocate to Barcelona for this role. I hold Italian EU long-term resident status; I am not yet authorised to work in Spain and would need the employer-side permit process, which I am ready to start.

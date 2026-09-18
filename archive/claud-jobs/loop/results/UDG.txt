@@ -1,0 +1,19 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4400433713/ (Forward Deployed AI Engineer (all genders), United Digital Group / MSQ DX, Barcelona)
+Apply target: https://udgjobs.softgarden.io/applications/106b7352-365b-4aed-b20b-9588eb1f37af (softgarden ATS)
+
+Dedupe: python3 loop/dedupe.py --check "United Digital Group" returned HIT COMPANY~ (fuzzy match). grep -i "united digital\|digital group" applications.csv showed the matches were unrelated rows (JobLeads/Personio, Tacto, GitLab, Crossover, Cloudgeni, GitKraken, Leadtech/MAU) - none for this company or requisition. Proceeded.
+
+Hard gates: no anti-AI disclaimer in the JD. Language check: JD lists "additional languages (German, Spanish) are valuable for DACH and Spain regions" - explicitly a plus, not required, so this passed the language gate (task flagged "German or Spanish required = kill" but the live JD only asks for English fluency as a requirement).
+
+Uploaded Prabhavit_CV_UDG.pdf (parsed correctly), pasted the full cover letter (CoverLetter_UDG.txt, FlowSpace + UltraStrategy evidence, Spain work-authorisation transparency line, 0 em-dashes), and filled every question: salary range EUR 45,000-55,000, notice period available immediately/2wk after offer, how did you hear about us = LinkedIn, free-text relocation note, group talent-pool consent = No, EU citizen = No (honest).
+
+Blocked at the last step by a FriendlyCaptcha "I am human" checkbox above Submit application. Not clicked, per the standing CAPTCHA/bot-detection policy. Confirmed the form state is saved server-side by softgarden (survived a tab close and reopen with every field, the CV and the cover letter intact), so the user only needs to tick the captcha and click Submit.
+
+Uploaded: Prabhavit_CV_UDG.pdf, cover letter text pasted (CoverLetter_UDG.pdf/.txt also built).
+
+Answers given: see answers/udg-2026-09-16.md.
+
+Blockers: FriendlyCaptcha (user-only). Logged in NEEDS_YOU.md section "Blockers found 2026-09-16 (user-only)" row 27 and in applications.csv as NEEDS YOU.
+
+LEARNINGS: a click on the "x" remove control next to a softgarden-auto-generated CV preview thumbnail ("2.jpg" under Other attachments) froze the Chrome tab for several minutes (script-injection/document_idle timeouts on every call). Recovered by closing the tab and reopening the same application URL fresh - softgarden had already persisted all typed fields, the uploaded CV and the cover letter server-side, so nothing was lost. Do not click remove/x controls on ATS-generated preview thumbnails unless necessary; if a tab freezes like this, close and reopen the same URL rather than waiting indefinitely.

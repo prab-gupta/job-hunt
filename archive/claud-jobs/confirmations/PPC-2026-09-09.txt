@@ -1,0 +1,9 @@
+PPC Romania -- Middle Machine Learning Engineer
+LinkedIn Easy Apply -- https://www.linkedin.com/jobs/view/4463829324/
+Submitted 2026-09-09
+
+Success text shown after Submit application:
+"Your application was sent to PPC Romania!"
+"Application status: Application submitted -- now"
+
+Screenshot: confirmations/PPC-2026-09-09.png

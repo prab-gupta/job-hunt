@@ -1,0 +1,26 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464476329/ (Apply redirected off-LinkedIn to Recruitee: https://jobs.cozycozy.com/o/junior-typescript-engineer-budapest/c/new?source=LinkedIn+Basic+Jobs)
+Company/Role: cozycozy.com — Junior Typescript Engineer - Budapest (entry level, on-site Budapest)
+
+Uploaded: Prabhavit_CV_Original_EN.pdf (filename verified on screen after upload)
+
+Cover letter: pasted as text into the form's own cover letter field (used "Write it here instead" instead of the file-upload option, per brief preference for a message field). CoverLetter_cozycozy.txt/.tex/.pdf also built and kept on file in ROOT.
+
+Answers given:
+- Full name / email: Prabhavit Gupta / prabhavitg@gmail.com
+- Phone: form defaulted country to Hungary (+36) — changed to Italy, +39 351 610 7807
+- Onsite-at-Budapest-office OK: Yes
+- Annual gross salary expectation: 45000 EUR (no band disclosed in JD, used brief default)
+- Available to start: 23/09/2026 (two weeks from application date)
+- Free-text "describe your experience with TypeScript": FlowSpace Node.js/TypeScript + Next.js product work, OfficeRnD + Nexudus API integrations, the scraping/structured-extraction AI listing pipeline, Supabase/PostgreSQL, Playwright; disclosed no direct RxJS experience.
+- Hungary work authorisation: no dedicated form question existed on this Recruitee form; answered honestly inside the cover letter (Italian EU long-term resident, not yet authorised in Hungary, needs employer-side permit, ready to relocate).
+
+Blockers: none. No CAPTCHA, no account/login wall, no consent/marketing checkboxes, no LinkedIn "follow company" toggle present on this external form.
+
+Confirmation seen: "All done! Your application has been successfully submitted!" (Application tab showed "Applied" badge).
+
+Dedupe: NEW (dedupe.py --check returned NEW; grep -i cozy applications.csv had no prior rows before this one).
+
+Logged: applications.csv row appended (10 fields), confirmations/cozycozy-2026-09-09.txt, answers/cozycozy-2026-09-09.md.
+
+LEARNINGS: cozycozy's LinkedIn posting shows "Responses managed off LinkedIn" and has no Easy Apply — clicking Apply opens the company's Recruitee tenant (jobs.cozycozy.com) in a new tab, matching the known Recruitee "Apply is a separate page" pattern. The Recruitee phone-number widget silently ignores a full number set via form_input's synthetic setter (only the country-code prefix "sticks"); must click into the field with `computer` and type real keystrokes for the local number to register. The country dropdown defaults to the job's own country (Hungary) rather than a neutral default, so it must be reset explicitly for a candidate based elsewhere.

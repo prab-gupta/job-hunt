@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4464300548/ (apply routes via LinkedIn safety-redirect to https://jobs.ashbyhq.com/beparallel/137e6dca-6539-465a-b242-0c3bcd74333a/application)
+Uploaded: Prabhavit_CV_Parallel.pdf (Resume*), CoverLetter_Parallel.pdf (Cover letter*)
+Answers given:
+- Name: Prabhavit Gupta / Email: prabhavitg@gmail.com / Phone: +39 351 610 7807
+- "Le poste est en francais, cela te pose-t-il un probleme ?": honest - does not speak French yet, professional English (C2) and conversational Italian, comfortable working in English with the team, willing to learn French, open to discussing how the team handles this.
+- "Le poste est en presentiel, cela te pose-t-il un probleme ?": No, ready to relocate to Paris and work on-site full time.
+Submitted successfully: "Your application was successfully submitted. We'll contact you if there are next steps."
+Screenshot: confirmations/Parallel-2026-09-16.png, text: confirmations/Parallel-2026-09-16.txt
+Blockers: none. Note for the planner: the two French/on-site screening questions on the Ashby form are not stated anywhere in the LinkedIn JD text; treated as honest-disclosure fields per the standing rule (kill only on an EXPLICIT language requirement), not as a French-fluency hard gate.
+LEARNINGS: none new - standard Ashby form via LinkedIn's "Apply on company website" safety redirect.

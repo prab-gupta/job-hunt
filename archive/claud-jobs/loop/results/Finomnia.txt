@@ -1,0 +1,19 @@
+STATUS: SUBMITTED
+
+LinkedIn: https://www.linkedin.com/jobs/view/4463088017/
+ATS (Teamtailor) job URL: https://finomnia.teamtailor.com/jobs/8354507-software-developer-angular-analyst
+Apply URL used: https://finomnia.teamtailor.com/jobs/8354507-software-developer-angular-analyst?utm_source=LinkedIn
+
+Uploaded: Prabhavit_CV_Finomnia.pdf (built fresh, 2 pages - no prior tailored CV existed despite the task note about a stalled agent; verified via tectonic compile + page count) as "Carica il CV"; CoverLetter_Finomnia.pdf as an additional file ("File aggiuntivi"); cover letter text also pasted into the "Lettera di presentazione" textarea.
+
+Answers given: Nome Prabhavit, Cognome Gupta, E-mail prabhavitg@gmail.com, Telefono +39 351 610 7807, Indirizzo Venice, Italy (selected from autocomplete). No years/salary/language screening fields existed on this Teamtailor form - all of that is covered in the letter (3 years stated explicitly, Italian B1-B2, English professional, EU long-term residence / no sponsorship needed). Checked the single required privacy-policy consent checkbox (blocked submit with "Deve essere accettata" until checked). Declined non-essential cookies on page load. Left the post-submit optional "Connect" marketing opt-in unchecked/unused - the application was already confirmed submitted before that optional step.
+
+Blockers: none. No CAPTCHA, no account wall, no assessment, no anti-AI attestation.
+
+Hard-gate note: the JD's core technology is Angular, which is not on Prabhavit's claimable stack. Per this task's explicit instruction, applied anyway with an honest letter stating his current frontend stack is TypeScript/React/Next.js and that an Angular transfer is expected - Angular itself was never claimed anywhere in the CV or letter. All other gates (years, title, degree, language, anti-AI disclaimer, posting live) passed clean; JD is junior/entry-friendly (accepts university/internship-level experience), so the years gate was not a concern.
+
+Success confirmation text: "Grazie per la tua candidatura / Abbiamo ricevuto la tua candidatura e a breve la esamineremo."
+
+LEARNINGS: This Teamtailor form has a required consent checkbox that is visually adjacent to (and easy to confuse with) a second, disabled/pre-checked `id="strictly_necessary"` checkbox left over from the cookie-preferences banner widget still present at the page bottom - only the first one gates the Submit button ("Deve essere accettata" error until checked). Also: `computer` screenshot with `save_to_disk: true` did not return a retrievable saved file path in this session (two attempts), so no PNG was saved to confirmations/ - only the .txt confirmation record was written, per the brief's own fallback note that PNG saving is not available in Chrome.
+
+Files: confirmations/Finomnia-2026-09-11.txt; answers/finomnia-2026-09-11.md; applications.csv row appended; Prabhavit_CV_Finomnia.tex/.pdf; CoverLetter_Finomnia.tex/.pdf/.txt.

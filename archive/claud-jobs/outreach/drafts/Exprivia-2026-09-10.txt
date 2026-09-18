@@ -1,0 +1,15 @@
+TO: recruitingexprivia@exprivia.com
+SUBJECT: Sviluppatore full-stack - candidatura spontanea
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team recruiting di Exprivia,
+
+Le vostre posizioni aperte per sviluppatori a Molfetta, Milano e Roma (Developer, Full stack developer, Cloud architect) coprono esattamente l'area in cui lavoro. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, anche da remoto o con trasferimento. Vi va una call di 15 minuti, o potreste indirizzarmi alla persona giusta per le assunzioni tecniche?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

@@ -1,0 +1,16 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4437288235/
+Company: EY
+Role: FS Technology Consulting - AI and Data - Forward Deployed AI Engineer - Manager - Dublin
+
+Dedupe: HIT COMPANY (exact "EY"), but the only prior row is 2026-09-09 Junior React Front-end Developer (Nicosia), a different requisition and a different level. Does not block.
+
+Hard gate re-check on live JD (LinkedIn guest API job id 4437288235, mirrored on careers.ey.com requisition 1726066): APPLY_BUTTON_COUNT = 1, not closed. Posting explicitly states "Available for VISA Sponsorship: Yes". No anti-AI disclaimer. Role lists 5+ years and Manager/architect scope - no kill per the FDE-ALL rule (no fit/years/seniority kills), letter is honest about the gap.
+
+Apply flow: clicked Apply on LinkedIn -> careers.ey.com job detail page. The visible "Apply now" / "Start applying with LinkedIn" / "Apply Now" (manual) controls did not respond to plain coordinate clicks (page just re-rendered at the top); had to trigger the underlying .dialogApplyBtn element directly via JS click to get it to navigate. That redirected to career5.successfactors.eu/careers?company=EYHRISPRD1, a bare Sign In page that carries career_job_req_id=1726066 in its URL params. The page offers only "Sign In" (email+password) or "Create an account" (login_ns=register) - no guest-apply path, no "apply without registering" option anywhere in the interactive DOM (read_page confirmed only those two auth links plus nav chrome).
+
+Per the task instruction (guest path first, else NEEDS YOU, do not create an account), stopped here. Logged NEEDS YOU in applications.csv and added row 18k to NEEDS_YOU.md section C (Account creation) with the exact URL chain and the prepared standing answers (years 3, salary band, Ireland work-authorisation Not-authorised/sponsorship-needed).
+
+Materials: Prabhavit_CV_EYFDE.pdf/.tex built fresh from Prabhavit_CV_EN.tex (same FDE tailoring pattern as ALTEN: Career Summary trimmed to 2 bullets, AI-agent bullet moved to top of FlowSpace, AI-automation bullet moved to top of Get2Germany; diffed, zero invented lines, 2 pages). CoverLetter_EYFDE.pdf/.tex/.txt built (English, 0 em-dashes, two proof paragraphs FlowSpace + UltraStrategy, honest on the 3-years-vs-5+-years-Manager gap, Ireland work-authorisation transparency line). Both held on file, not uploaded anywhere (account wall reached before any upload step).
+
+LEARNINGS candidate: EY's careers.ey.com "Apply now" dialog button does not respond to a plain simulated click at its on-screen coordinates (page just scrolls/re-renders); triggering document.querySelector('.dialogApplyBtn').click() via JS gets the real navigation to the SuccessFactors sign-in page. Not written to LEARNINGS.md directly per the brief (never edit that file); flagging here for the planner to fold in if useful.

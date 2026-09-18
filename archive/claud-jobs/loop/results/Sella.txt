@@ -1,0 +1,18 @@
+STATUS: NEEDS YOU
+LinkedIn: https://www.linkedin.com/jobs/view/4428043232/
+Job page (Workday, req JR-002299): https://sellagroup.wd3.myworkdayjobs.com/it-IT/ID01/job/Biella-Italy/Software-Developer-Jr---Trading-Support_JR-002299?source=linkedin
+Apply Manually URL (account wall appears here): https://sellagroup.wd3.myworkdayjobs.com/it-IT/ID01/job/Biella%2C-Italy/Software-Developer-Jr---Trading-Support_JR-002299/apply/applyManually?source=linkedin
+
+Dedupe: NEW (python3 loop/dedupe.py --check "Sella" <ats url>; grep -i sella applications.csv had no real prior Sella rows, only an unrelated "Pertusella" fuzzy match). NEEDS_YOU.md 0a shows this exact posting was KILLED earlier 2026-09-11 on the Italian-JD gate; that gate was explicitly lifted for this task, so proceeded.
+
+Gates: no anti-AI clause; title is Jr/new-grad (no numeric years floor); no hard MSc/PhD; JD wants "Java e/o Python" so Python alone satisfies the stack ask; Biella/Torino hybrid in scope with willingness to relocate; not closed (apply control present, requisition reachable). Java honestly disclosed as not held. "Neolaureati" honestly reframed: graduated Ca' Foscari 2024, three years of professional experience since.
+
+Followed LinkedIn "Apply on company website" -> Sella Workday job page -> "Presenta candidatura" -> chooser modal ("Compila automaticamente dal CV" / "Compila manualmente" / "Utilizza i dati della mia ultima candidatura") -> clicked "Compila manualmente" -> landed directly on step 1 of 6, "Crea account" (Indirizzo e-mail / Password / Verifica nuova password, 8-char complexity rules). All three chooser options lead into the same account-gated flow; no guest-apply path exists. Per the apply-agent brief, account creation is a user-only blocker: stopped there, created no account, filled no application fields.
+
+Built anyway: Prabhavit_CV_Sella.tex/.pdf (2 pages, tectonic-compiled, pdfinfo-verified, parity-checked against Prabhavit_CV_EN.tex - every kept bullet is verbatim, only reordering/pruning) and CoverLetter_Sella.tex/.txt/.pdf (Italian, 284 words, plural "voi", no "Lei", 0 em-dashes grepped on both .txt and .tex; UltraStrategy CV-parsing pipeline with Affinda + Claude API + Python as the lead proof paragraph, Get2Germany API-integration/automation work as the second proof paragraph, FlowSpace full-stack platform + automated migration mentioned as a third role - satisfies the two-role-minimum rule three times over).
+
+Logged NEEDS YOU in applications.csv, appended row 17k to NEEDS_YOU.md section C with the exact URLs and prepared file names. queue.csv was not touched.
+
+LEARNINGS: the Sella Workday tenant's "Compila automaticamente dal CV" / "Compila manualmente" / "Utilizza i dati della mia ultima candidatura" chooser looked like it might offer a guest path (no login shown before the chooser), but every option dead-ends at the same Create Account/Sign In step - worth remembering for other Workday tenants that show a pre-chooser screen before the account wall.
+
+Files: Prabhavit_CV_Sella.tex, Prabhavit_CV_Sella.pdf, CoverLetter_Sella.tex, CoverLetter_Sella.txt, CoverLetter_Sella.pdf, confirmations/Sella-2026-09-11.txt (PNG capture unavailable via Claude in Chrome per the brief), answers/sella-2026-09-11.md, applications.csv row (NEEDS YOU), NEEDS_YOU.md row 17k.

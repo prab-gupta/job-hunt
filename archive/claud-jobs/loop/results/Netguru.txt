@@ -1,0 +1,9 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4426812753/
+Company/Role: Netguru - Forward Deployment Engineer, Poland (remote from Italy pitched)
+
+Blocker: explicit language requirement. The JD's Requirements section (Consulting & communication subsection) states verbatim: "Communicative (B2+) Polish and English". This is a quotable, explicit requirement for Polish at B2+ that Prabhavit does not have (English C2 professional and conversational Italian only, per work-authorisation.md and the standing answers). Per the hard-gate rule ("kill ONLY if... the JD/form EXPLICITLY requires a language he lacks, quote the exact clause"), this is a valid kill - no CV or letter drafted, no form opened.
+
+Dedupe: `python3 loop/dedupe.py --check "Netguru" "https://www.linkedin.com/jobs/view/4426812753/"` returned HIT COMPANY, but `grep -i netguru applications.csv` showed only 8 unrelated LEAD rows from 2026-08-26 (Senior Python/Node/Fullstack/Frontend/iOS/DevOps/Data Engineer, Node Architect) - none SUBMITTED/NEEDS YOU/INTERVIEW/REJECTED, so dedupe alone did not block; killed on the language gate instead.
+
+Note: task brief for this row said "remote from Italy is the pitch" with no language flag mentioned, but the JD text itself (not just the summary) carries this requirement. Worth flagging that the Polish-B2+ line sits deep in a bulleted "Consulting & communication" subsection, easy to miss on a skim.

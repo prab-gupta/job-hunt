@@ -1,0 +1,17 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4457159572/ -> https://intapp.wd1.myworkdayjobs.com/Intapp/job/London-UK/Client-Support-Engineer_R2025240-1?source=LinkedIn (req R2025240-1, one requisition for London/Belfast/Lisbon)
+
+Hard gates re-checked on the live JD: 2+ years required (3 fits), title Client Support Engineer (not Senior/Lead/Principal), no MSc/PhD requirement, English JD, no anti-AI disclaimer (JD explicitly welcomes AI-tool interest). Microsoft SQL Server and .NET are listed only under "Desirable", not required. All gates pass.
+
+Dedupe: NEW (dedupe.py + grep applications.csv both clean).
+
+What was prepared:
+- Prabhavit_CV_Intapp.pdf: tailored from Prabhavit_CV_EN.tex, verbatim bullets, 2 pages (tectonic clean). Career Summary trimmed to 2 bullets, Technical Skills reordered (Development/Project-Design first), FlowSpace Product+Technical bullets reordered to lead with client support/API-integration, two literal duplicate bullets and the irrelevant commute-tool bullet dropped, "Low code" prefix dropped from Additional Info.
+- CoverLetter_Intapp.pdf/.txt: English. Lead paragraph FlowSpace (OfficeRnD/Nexudus API integrations, support AI agents, debugging via logs/API responses/config). Second paragraph Clubee (API integration across frontend, QA/testing discipline). Honest line: "I have not used Microsoft SQL Server or .NET in production." Portugal work-authorisation transparency line included. 0 em-dashes confirmed.
+- answers/intapp-2026-09-16.md: full gate re-check, dedupe record, tailoring log, standing form answers.
+
+Blocker: Intapp's Workday tenant requires Create Account/Sign In (Google, LinkedIn, or email) before any of the three apply paths (Autofill with Resume / Apply Manually / Use My Last Application) proceed. No guest-apply path exists. Account creation and OAuth sign-in are user-only per the brief; nothing was submitted.
+
+Logged: NEEDS_YOU.md row 17s (full detail), applications.csv row (status NEEDS YOU). Chrome tab left open: tabId 550850992, sitting on the Create Account/Sign In step, ready for the user to sign in and hand back.
+
+LEARNINGS: Intapp's Workday tenant (wd1.myworkdayjobs.com/Intapp) has no guest-apply path on either the Autofill-with-Resume or Apply-Manually routes; both funnel into Create Account/Sign In as step 1 of 7. Same pattern as several other Workday tenants already logged in NEEDS_YOU.md section C.

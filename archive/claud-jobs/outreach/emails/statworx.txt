@@ -1,0 +1,17 @@
+TO: info@statworx.com
+SUBJECT: Re: AI Engineer, applied AI engineer who ships LLM systems
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Sebastian,
+
+statworx is hiring an AI Engineer in Frankfurt, and building and deploying LLM and GenAI solutions for enterprise clients is what I do every day, and I wanted to reach you directly. The posting asks for German at C1, which I do not have (English C1, beginner Italian), so this note is about English-speaking client work or remote delivery rather than that exact opening.
+
+At FlowSpace (coworking marketplace, London) I built the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ records so far, plus the Nexudus and OfficeRnD API integrations and RAG support agents with confidence scoring and human escalation. Stack: Python, TypeScript, Laravel, n8n, Claude and OpenAI APIs, PostgreSQL, Docker. The pipeline runs unattended in production and hands only the low-confidence cases to a human, which is the part enterprise clients tend to care about most.
+
+Would a 15 minute call with whoever owns that hire make sense? I can also send a short write-up of the LLM pipeline architecture if that is more useful than a call.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Based in Venice with an EU long-term residence permit; remote from Italy from day one, or EU relocation with the employer-side permit.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

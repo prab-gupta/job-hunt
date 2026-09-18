@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+I am applying for the AI Software Engineer role at OMICRON electronics. Bringing modern AI methods, LLMs, agents, RAG, workflow orchestration, into an established engineering company building critical test equipment is the problem I want to work on next.
+
+At FlowSpace, a coworking marketplace, I built and owned an AI pipeline that ingests provider brochures in any format, PDF, website, spreadsheet, photo, and drafts structured listings with an LLM, producing over 900 draft records for human review before reaching the live platform. I also built RAG backed support agents that answer customer questions against live data and escalate on low confidence, delivered in Python and TypeScript against a Supabase and PostgreSQL backend. That taught me to fit AI into a product with real users and real failure costs, not a demo.
+
+OMICRON's systems protect energy infrastructure people depend on, so reliability comes first, matching how I build. I am based in Venice, Italy, hold Italian EU long term resident status, and am ready to relocate to Klaus and later Madrid. I am not yet authorised to work in Austria and would need the employer side Rot Weiss Rot permit process, which I am ready to begin.
+
+Regards,
+Prabhavit Gupta

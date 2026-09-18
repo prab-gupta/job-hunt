@@ -1,0 +1,21 @@
+STATUS: NEEDS YOU
+
+LinkedIn: https://www.linkedin.com/jobs/view/4443974591/
+ATS: https://mcengineering.intervieweb.it/jobs/claude-code-specialist-243423/it/?src=LinkedIn (Inrecruiting, guest apply form)
+
+Direct hit: JD is for a "Claude Code Specialist" supporting adoption of Claude Code / AI-assisted coding on an internal project for a Banking client, full remote. Prabhavit uses Claude Code daily on FlowSpace and built the UltraStrategy Claude-API CV-parsing pipeline - named these as tools with concrete facts from loop/OUTREACH_FACTS.md and Prabhavit - Master Experience.md.
+
+Dedupe: dedupe.py --check returned HIT COMPANY (fuzzy match on "MC Engineering" only, not on this URL). grep -i "MC Engineering" applications.csv found 5 prior rows, all for different requisitions (AI Automation Engineer, Power Platform Agentic Developer, AI Integration Engineer x2, AI Platform Engineer, Software Engineer Test Automation) - none for this Claude Code Specialist req (243423), so not a dup. Proceeded.
+
+Cheap check: curl apply-button count = 1 (posting open). Confirmed via LinkedIn page and the ATS page (no "not accepting applications" banner).
+
+Uploaded: Prabhavit_CV_MCEngineering.pdf (tailored from Prabhavit_CV_EN.tex, 2 pages, verbatim bullets, parity-checked - Career Summary 2 bullets, FlowSpace 4 bullets/min 3, UltraStrategy 2/2, Get2Germany 2/2, Urlink/Qomodo/Clubee/Tractionboard min 1 each, Technical Skills and Additional Info reordered Claude-Code/AI-first).
+Letter built: CoverLetter_MCEngineering.txt/.pdf (Italian, "voi", no "Lei", 0 em-dashes, 273 words - FlowSpace daily Claude Code use + automated migration and UltraStrategy Affinda/Claude API pipeline as lead paragraph, Urlink AI-assisted build + Get2Germany automations as second-proof paragraph, three years stated plainly). No cover-letter field existed on this ATS form, so it is kept on file only.
+
+Answers given on the form (all visually verified before submit): Nome Prabhavit, Cognome Gupta, Email/Conferma Email prabhavitg@gmail.com, Data di nascita 21-02-2001, Indirizzo di domicilio Via Zanetti 10, 30175 Venezia VE Italia (via the ATS geolocation widget), Numero di cellulare +39 351 610 7807, Cittadinanza Indian, Livello di istruzione Laurea 3 anni, Inglese C2, File CV Prabhavit_CV_MCEngineering.pdf, privacy policy checkbox ticked. Foto and Video presentazione left blank (optional).
+
+Blocker: clicking Invia returned "Errore! Utente gia registrato!" (errno=2001) - prabhavitg@gmail.com already has an Inrecruiting candidate profile at this MC Engineering tenant from two earlier stuck applications (applications.csv rows 2026-08-26 and 2026-09-04, same intervieweb.it gate). The error page offers only "log in to candidate area" or "reset password", both of which require entering/setting a password - account creation/credential entry is user-only per the brief and the safety rules, so nothing was submitted. Did not use the "Apply with LinkedIn" button either (OAuth/SSO grant, also user-only).
+
+LEARNINGS: MC Engineering's Inrecruiting/intervieweb.it tenant remembers prabhavitg@gmail.com across job postings - once an account exists there (from any prior MC Engineering application, gated or not), every subsequent guest-apply attempt on any MC Engineering posting will fail with "Utente gia registrato" instead of silently reusing/updating the profile. Future agents applying to any MC Engineering role should check applications.csv for prior MC Engineering rows first and expect this same wall; a single password reset unblocks all pending MC Engineering applications at once.
+
+Logged: applications.csv (NEEDS YOU row appended), answers/mcengineering-2026-09-11.md, NEEDS_YOU.md section C row 17o.

@@ -1,0 +1,59 @@
+STATUS: SUBMITTED
+
+URL: https://www.linkedin.com/jobs/view/4465828871/ (LinkedIn) -> Apply on company website ->
+https://jobs.lizy.be/jobs/6992051-business-automation-engineer (Teamtailor, jobs.lizy.be)
+
+Gates re-checked on the live JD: 1-3 years Ops+Tech role (matches our 3), title is
+"Business Automation Engineer" (not Senior/Staff/Lead/Principal/Manager), no MSc/PhD
+requirement, JD fully in English with only "Fluent in English" required (no French or Dutch
+requirement anywhere on the LinkedIn posting or the live jobs.lizy.be page), core stack is
+Make/n8n/Zapier plus Python or JavaScript (fully claimable), no anti-AI disclaimer (JD
+explicitly wants "obsessed with the latest AI trends"). Cheap LinkedIn guest-API check
+returned apply-button count 1; live page showed "3 people clicked apply", posted "2 hours
+ago". Dedupe: NEW (loop/dedupe.py --check, no prior LIZY rows in applications.csv).
+
+Uploaded: Prabhavit_CV_LIZY.pdf (built from Prabhavit_CV_EN.tex; task-directed lead order for
+this automation role: Get2Germany n8n/API-integration bullets led, FlowSpace CRM/GTM +
+OfficeRnD/Nexudus automation bullets led, UltraStrategy CV-parsing pipeline kept as the third
+proof; FlowSpace 7 bullets kept [min 3], Get2Germany 3 kept [min 2], UltraStrategy 2 kept
+[min 2]; Urlink/Clubee/Tractionboard/Qomodo trimmed to their 1-2 most relevant bullets;
+skills reordered Automation/n8n first; Qomodo's all-Bubble Tools line dropped as JD-unrelated,
+all other Bubble-adjacent Tools lines kept because each also names a JD-relevant tool [n8n,
+Postman, GitHub, ChatGPT, Sendgrid, Eden AI]; no new claims, no rewritten sentences, 2 pages,
+tectonic; parity check passed after normalising bullets/dashes/ligatures, the only 4 "misses"
+were intentional item-reordering within Skills lines, verified as identical sets).
+
+Cover letter: CoverLetter_LIZY.txt pasted into the ATS's plain cover-letter textbox (no
+upload field exists on this Teamtailor form for the cover letter, so no PDF was built). 245
+words, 0 em-dashes, no no-code/low-code/Bubble wording. Three-role proof per the parent task's
+explicit brief for this role: Get2Germany (Google APIs, AI course/internship/job-finder tools,
+n8n) led, FlowSpace (OfficeRnD/Nexudus integrations, CRM/GTM automations, n8n/TypeScript/
+Node.js) second, UltraStrategy (CV-parsing pipeline: n8n, Eden AI, Affinda, Claude API) as the
+third proof paragraph; FlowSpace was never the sole or lead proof. Closed with the Belgium
+work-authorisation transparency line (EU long-term resident, not currently authorised in
+Belgium, needs employer-side permit/sponsorship, ready to relocate to Brussels).
+
+Answers given: living location = Venice, Italy; salary expectations = EUR 50,000; Locations
+checkbox group = Brussels checked, Cluj-Napoca left unchecked; name/email = Prabhavit Gupta /
+prabhavitg@gmail.com; phone country changed from the form's Belgium default to Italy (+39),
+351 610 7807; required privacy-policy consent ticked; the "contact me about future
+opportunities" marketing checkbox left unticked. No separate visa/sponsorship question existed
+on this form, so the transparency line went into the cover letter instead.
+
+Blockers: none. No CAPTCHA, no account wall, no anti-AI attestation. Chrome extension was not
+connected this session, so Playwright was used per the brief's explicit Chrome-down fallback;
+no shadow-root/cross-origin upload issue was hit (the file input took the CV directly, no
+Playwright-vs-Chrome handoff needed).
+
+Success text seen before logging: "Thanks for applying / We have received your application
+and we will be reviewing it shortly." Confirmed via the post-submit URL
+(.../applications/f5f118d8-32b9-4195-abf3-7a81067fe699/thanks/...) and page title "Applied to
+Business Automation Engineer". Screenshot: confirmations/LIZY-2026-09-10.png. Text:
+confirmations/LIZY-2026-09-10.txt.
+
+New ATS lesson (Teamtailor, jobs.lizy.be tenant): the "Apply for this job" modal's phone field
+defaults the country selector to the company's own country (Belgium +32 here) rather than a
+neutral default; must explicitly search-and-select the applicant's real country (Italy) before
+typing the number, or the submitted number carries the wrong country code silently. Also this
+tenant's cover-letter field is a plain required-optional textbox (not a file dropzone), so no
+cover-letter PDF is needed for this ATS.

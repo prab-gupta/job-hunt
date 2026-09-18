@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4451396478/ -> https://cyclomediatechnology.recruitee.com/o/forward-deployed-engineer/c/new?source=LinkedIn+Basic+Jobs
+Uploaded: Prabhavit_CV_Cyclomedia.pdf (CV field) and CoverLetter_Cyclomedia.pdf (Cover letter field), both confirmed attached before submit.
+Answers given: Full name Prabhavit Gupta, Email prabhavitg@gmail.com, Phone +39 351 610 7807; Q1 location/on-site honest with NL work-authorisation transparency line; Q2 salary EUR 45,000-55,000; Q3 cloud infrastructure - honest No production Azure/AWS/GCP experience (Supabase/Vercel/Netlify instead); Q4 agentic AI/LLM experience - Yes, FlowSpace AI listing bot/support agents + UltraStrategy CV-parsing pipeline.
+Blockers: none. No account wall, no CAPTCHA.
+Confirmation: page navigated to https://cyclomediatechnology.recruitee.com/o/forward-deployed-engineer/applied, text "Applied - All done! Your application has been successfully submitted!". Re-checked the page after Submit.
+LEARNINGS: none new - straightforward Recruitee guest form with a phone-country selector (type country name to filter, then click) and separate CV/cover-letter file uploads.

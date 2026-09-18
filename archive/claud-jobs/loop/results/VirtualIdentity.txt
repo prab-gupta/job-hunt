@@ -1,0 +1,19 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4459503760/ (Forward Deployed Engineer (m/f/x), Virtual Identity, Austria/Remote)
+Apply target: https://join.com/companies/virtual-identity/16651995 (join.com ATS)
+
+Dedupe: python3 loop/dedupe.py --check "Virtual Identity" = NEW. grep -i "virtual identity" applications.csv = no prior row. Proceeded.
+
+Hard gates on JD text: no anti-AI disclaimer, no explicit language requirement visible in the LinkedIn JD text itself (task note pre-flagged "Austria line; German required = kill" as the thing to watch for).
+
+Clicked Apply -> join.com application flow. Uploaded Prabhavit_CV_VirtualIdentity.pdf as the CV (removed a stale auto-parsed CV that join.com had preloaded from a prior session; confirmed the correct tailored CV parsed and rendered, career summary bullets 2 and 3, FlowSpace/Get2Germany/Urlink/UltraStrategy roles all present). Clicked Continue.
+
+The very next step is a single mandatory screening question: "Are you fluent in German?" (Yes / No, no nice-to-have framing). Prabhavit has English (C2) and conversational Italian only, no German.
+
+Per the standing kill gate and the task's own pre-flag for this row, stopped here. Did not answer the question, did not reach the cover letter or submit step.
+
+Prepared but unused: Prabhavit_CV_VirtualIdentity.tex/.pdf (2 pages, verbatim bullets), CoverLetter_VirtualIdentity.tex/.pdf/.txt (0 em-dashes). Kept on disk, not submitted.
+
+Blockers: language gate (German), not technical/account.
+
+LEARNINGS: none new; confirms the pattern that a JD text prefetch can omit a language requirement that the live ATS form enforces as a hard screening question. Worth flagging to the planner that Quento and Virtual Identity both hid their language gate behind the live form rather than the JD body today.

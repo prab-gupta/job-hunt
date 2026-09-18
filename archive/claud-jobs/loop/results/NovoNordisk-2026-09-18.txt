@@ -1,0 +1,16 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4466641223/ (offsite via careers.novonordisk.com, SuccessFactors)
+Uploaded: nothing (blocked before reaching any form field).
+
+Dedupe: python3 loop/dedupe.py --check "Novo Nordisk" "https://www.linkedin.com/jobs/view/4466641223/" -> NEW
+
+Hard gates re-checked on the live LinkedIn JD: 2+ years required (honest 3), "An MSc, PhD or similar degree... A BSc with relevant industry experience will also be considered" so not a hard degree gate, no anti-AI disclaimer (JD explicitly wants "Experience using AI-assisted development tools and coding agents"), core ask is AI/GenAI/agentic engineering (claimable), title "Advanced AI Engineer" is not Senior/Staff/Lead/Principal. Denmark is excluded from the EU long-term-residence mobility directive per answers/work-authorisation.md: authorised No, sponsorship Yes, relocation transparency line used in the letter. None of these are a kill.
+
+LinkedIn "Apply" (target=_blank removed via JS so it stayed in my own tab, tab id 550851726) led to careers.novonordisk.com, then "Apply now" led to career2.successfactors.eu/careers?company=novonordisk, which is a bare Sign In / Create an account page with no guest-apply option anywhere (verified via full page text). Per the task brief this was anticipated ("Novo Nordisk careers likely runs on SuccessFactors/Workday with mandatory account creation... build the materials anyway and log NEEDS YOU with the exact wall and tab id"). Account creation is a user-only blocker; did not create an account or attempt sign-in.
+
+Materials built and ready (CV tailoring parity-checked bullet-for-bullet against Prabhavit_CV_EN.tex, no invented claims):
+- Prabhavit_CV_NovoNordisk.pdf/tex: Career Summary trimmed to the 2 bullets nearest the JD (LLM-driven applications/intelligent workflows, and production-ready AI agents/QA testing), GitHub link added to header, MCP (working knowledge) and Python added to Technical Skills, FlowSpace/Get2Germany bullets reordered AI-first, UltraStrategy's CV-parsing + user-profiles bullets kept per the AI/automation minimum rule.
+- CoverLetter_NovoNordisk.pdf/.txt (276 words, no em-dashes, no "daily" claims outside Claude Code): leads with the UltraStrategy CV-parsing pipeline (Affinda extraction, n8n/Eden AI orchestration, Claude API generation), pairs with FlowSpace AI support agents (confidence-based escalation) and the AI listing bot (900+ listings), honest 3 years across 8 companies, working-knowledge ML/statistics framing, Denmark work-permit transparency line.
+
+Blockers: mandatory account creation on SuccessFactors, no guest path (tab id 550851726, now closed). See confirmations/NovoNordisk-2026-09-18.txt.
+LEARNINGS: none added (this SuccessFactors account-wall pattern is already a known/expected trap, not new).

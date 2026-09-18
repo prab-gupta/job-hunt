@@ -1,0 +1,10 @@
+Dear ClickHouse team,
+
+I have spent the last three years working across customer-facing product development, technical integrations and AI automation. At FlowSpace I supported a live marketplace, built AI support agents that answered against production data and escalated low-confidence cases, and resolved integration issues across booking, CRM and outbound systems.
+
+My production work includes TypeScript, Python, REST APIs, PostgreSQL, Supabase, OpenAI and Claude APIs, n8n workflows and human-in-the-loop evaluation. I am used to investigating a problem across the application and its integrations, explaining the cause clearly, and carrying it through to a practical resolution.
+
+I am based in Venice and hold an EU long-term residence permit in Italy, so I do not require sponsorship to work from Italy. I am available immediately.
+
+Kind regards,
+Prabhavit Gupta

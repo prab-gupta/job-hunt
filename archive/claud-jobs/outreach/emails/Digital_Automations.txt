@@ -1,0 +1,17 @@
+TO: info@digitalautomations.it
+SUBJECT: Applied AI and n8n engineer in Mestre, same city as you
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Edoardo,
+
+We are in the same city: I am in Venice Mestre, and Digital Automations does for clients what I have been doing on the product side, so this is a direct note.
+
+At FlowSpace (coworking marketplace, London) I built with n8n, Claude and TypeScript/Python the LLM pipeline that turns brochures of any format into validated listings (900+ records), support agents that answer from live data and escalate to a person when confidence is low, and CRM and sales automations for the team.
+
+If you need an engineer for client AI and automation projects, I can start now and come to the office whenever useful. If not, a coffee between people who do the same work a few streets apart would still be welcome.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. I work in English; my Italian is basic and improving. EU long-term residence permit, so hiring in Italy is straightforward.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

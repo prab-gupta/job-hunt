@@ -1,0 +1,9 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4463468468/
+Uploaded: Prabhavit_CV_Coltech.pdf (tailored from Prabhavit_CV_EN.tex, uploaded explicitly via Upload resume).
+Cover letter: CoverLetter_Coltech.pdf/.txt drafted (FlowSpace + UltraStrategy evidence) but this Easy Apply flow (5 pages: contact, resume, optional "mark as top choice", additional questions, review) had no cover letter/free-text field - kept on file, not uploaded. Left "Mark job as a top choice" unchecked (optional, not required).
+Answers given: Python years of experience = 3, Microsoft Azure years of experience = 0 (honest, no direct Azure use), Databases years of experience = 3.
+PLANNER NOTE: Coltech's own posting text reads "We are working closely on a major project with an exciting AI Enterprise Technology Consultancy based in the UK looking for an AI Product Engineer to join its growing engineering team" - Coltech is a staffing/recruiting intermediary for an unnamed UK client, not the direct employer. Applied per task instruction (EU remote, verified posting) and flagged here. 6-month initial contract, Outside IR35, GBP 550-700/day, fully remote.
+Blockers: none. No Playwright crash this time on the optional "top choice" page (LEARNINGS 2026-09-16 06:00 TECHSON crash did not recur here).
+Confirmation: "Your application was sent to Coltech!" - confirmations/Coltech-2026-09-16.png and .txt.
+No new LEARNINGS.

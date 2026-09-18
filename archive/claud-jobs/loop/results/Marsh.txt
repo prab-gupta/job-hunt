@@ -1,0 +1,33 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4464694682/
+Real ATS reached: careers.marsh.com apply flow (Phenom/mmc careers), via LinkedIn "Apply" (not Easy Apply — "Responses managed off LinkedIn")
+Apply page: https://careers.marsh.com/global/en/apply?jobSeqNo=MAMCGLOBALR351574EXTERNALENGLOBAL&utm_source=linkedin&utm_medium=phenom-feeds&source=LinkedIn_Slots&step=1&stepname=personalInformation
+Tab left open: tabId 550849710 (own tab, not shared)
+
+Uploaded: nothing — CV (Prabhavit_CV_Original_EN.pdf) attach was attempted but the upload itself is the blocker (see below).
+
+What was filled on step 1 "My information" (currently sitting filled in the open tab):
+- Country: Italy
+- Given Name(s): Prabhavit / Family Name: Gupta
+- Street or Place Name: Via Zanetti, 10 / Postal Code: 30175 / City: Venice / Province: Venice
+- Email address: prabhavitg@gmail.com
+- Device Type: Mobile / Country Phone Code: Italy (+39) / Phone number: 351 610 7807
+- How did you hear about us?: LinkedIn
+
+Blocker: Not a sign-in/account wall (none was ever shown — guest apply is available). Instead, two separate actions on this exact page reproducibly hang the browser tab indefinitely — the page never reaches an idle/ready state (confirmed via repeated screenshot and get_page_text timeouts, "Page still loading, waited 45000ms for document_idle"):
+1. Assigning the tailored CV PDF to the "Upload resume" file input.
+2. Clicking the "Next" button to advance to "My experience", even attempted without a resume attached.
+Each hang required a full page reload to recover, which wipes all entered fields (refilled 3 times, same result both times for both actions). This is a client-side script hang on Marsh's Phenom-based apply widget, not a login gate — a human clicking through in a normal browser (real file picker, real click) will very likely not hit this, since it looks like an artifact of automated file-input assignment / programmatic clicks rather than a genuine site outage.
+
+Answers prepared for the steps not yet reached (Application questions / Voluntary disclosures), so the user can move fast once past step 1:
+- Years of experience if asked numeric: 2 (or 3 if only "3+" thresholds accepted)
+- Work authorisation: Romania — authorised No, employer-side permit/sponsorship Yes. Transparency line: "I hold Italian EU long-term resident status. I am not currently authorised to work in Romania and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process."
+- Salary: EUR 50,000
+- Notice: available immediately, start two weeks after offer
+- Cover letter: CoverLetter_Marsh.txt re-checked against the live JD today — 0 em-dashes, all claims trace to Master Experience.md, no changes needed. No message/additional-information text field was reached before the blocker; paste this letter body if one appears later.
+
+Fit re-check against live JD (2026-09-09): Software Engineer (Python) @MarshTech, Cluj-Napoca, hybrid, seniority "Not Applicable". Min 2 years relevant experience (passes), strong Python with production API/microservices experience (passes via FlowSpace LLM pipelines/automation/data tooling + Laravel/Node APIs — not claiming FastAPI/Django production), SQL+NoSQL performant queries (passes), event-driven architecture familiarity or willingness to learn (acceptable), C#/.NET only as legacy-support willingness with new dev in Python (not a Java/.NET-core KILL gate). No hard MSc/PhD, no Romanian-language requirement, JD fully in English, hybrid on-site 3 days/week consistent with ready-to-relocate. No kill gates triggered. Fit ~70 confirmed reasonable.
+
+Dedupe: python3 loop/dedupe.py --check "Marsh" "<url>" -> NEW; grep -i "marsh" applications.csv -> no prior rows. Not blocked.
+
+LEARNINGS: careers.marsh.com (Phenom-based mmc careers apply flow) hangs the browser tab's script execution indefinitely (document_idle never fires) when the resume file input is assigned via automated file_upload, and separately when the "Next" submit button is clicked programmatically — both require a full page reload to recover, wiping entered data. Worth flagging as a known trap for this ATS/tenant: if seen again, try attaching the resume via Dropbox/Microsoft-online cloud buttons instead of local file upload, or hand back to NEEDS YOU immediately rather than retrying the local upload multiple times.

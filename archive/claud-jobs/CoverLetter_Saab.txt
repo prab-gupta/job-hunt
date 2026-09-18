@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Forward Deployed Engineer role at Saab.
+
+At FlowSpace, I worked directly with product teams to turn customer needs into shipped systems: I integrated OfficeRnD and Nexudus into live booking flows for real customers, built an LLM pipeline that has drafted over 900 workspace listings with a validation step before anything reaches production, and built RAG-backed support agents that answer against live platform data and escalate to a human on low confidence. My stack is Next.js, Laravel, Supabase and Python, with unit testing, QA and Playwright checks kept in the loop before anything ships. The role you describe, sitting with product teams and turning ambiguous problems into working platforms, matches how I already work.
+
+Saab's shift toward shared platforms and faster software delivery across product teams is the kind of transformation work I want to be part of, at a bigger scale than I have touched so far.
+
+I am based in Venice, Italy, and ready to relocate to Stockholm. I hold Italian EU long-term resident status. I am not yet authorised to work in Sweden and would need the employer-side permit process, which I am ready to start. I do not hold Swedish citizenship.
+
+Regards,
+Prabhavit Gupta

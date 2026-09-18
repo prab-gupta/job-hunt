@@ -1,0 +1,21 @@
+Teero - Software Engineer
+Applied via: LinkedIn "Apply" button (Promoted, Responses managed off LinkedIn) -> external redirect to Ashby
+URL: https://jobs.ashbyhq.com/teero/21f13bd1-77d0-4d82-aa94-536a51b7f411/application
+Submitted: 2026-09-09
+
+Confirmation text (on-page, green success banner):
+"Success. Your application was successfully submitted. We'll contact you if there are next steps."
+
+Fields submitted:
+- Name: Prabhavit Gupta
+- Email: prabhavitg@gmail.com
+- CV: Prabhavit_CV_Original_EN.pdf (uploaded, filename verified on screen)
+- LinkedIn: https://www.linkedin.com/in/prabhavit
+- Living in or willing to relocate to Amsterdam: Yes
+- Currently eligible to work in the Netherlands: No
+- "Why are you a great fit for this role and what makes you excited to join Teero?": 150-word answer (FlowSpace marketplace stack, OfficeRnD/Nexudus integrations, LLM listing pipeline 900+ records, Claude Code daily use) - see answers/teero-2026-09-09.md
+
+Trap hit: Ashby state wipe on the "living in/willing to relocate" Yes/No toggle. First submit failed with
+"Missing entry for required field: Are you currently living in, or willing to relocate to, Amsterdam?"
+even though Yes was visibly selected. Fix: clicked No then Yes again to force the toggle's onChange to
+fire, re-verified all other fields survived the failed submit (they did), resubmitted, got Success.

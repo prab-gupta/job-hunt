@@ -1,0 +1,19 @@
+STATUS: KILLED
+
+URL: https://www.linkedin.com/jobs/view/4442542643/ (LinkedIn, offsite apply to Ruby Labs careers)
+
+What happened:
+- Dedupe: `dedupe.py --check "Ruby Labs" <url>` = HIT COMPANY only. grep of applications.csv found three prior Ruby Labs rows, none matching this requisition: a LEAD "Data Analytics Engineer" (Jobicy), a DEAD-410 "AI Engineer (Global)" (landing.jobs, explicitly noted as a different posting), and an earlier DEAD "MCP Engineer / AI Backend Engineer" 404. No SUBMITTED row anywhere for this job id.
+- Built the tailored CV and cover letter (LI-PICK rule: apply despite the Senior title and the 6+ year requirement) before opening the LinkedIn page.
+- Navigated to the posting to confirm it was live. Found something the dedupe check could not see: LinkedIn's own "Application status" panel on this exact job (id 4442542643) reads "Applied on company site, 1 week ago" with a "Go to company site" link, meaning LinkedIn's own tracking has this account already completing this exact application around 2026-09-10.
+- Searched applications.csv, loop/results, answers/, loop/queue.csv and SESSION-LEDGER.md for any record of a prior Ruby Labs Senior AI Engineer submission: none exists. This is a real gap between what LinkedIn's tracker shows and what our own log shows, not a dedupe.py bug (dedupe.py only checks applications.csv, which genuinely has no matching row).
+- Given LinkedIn's own record is the strongest available signal that the identical requisition was already applied to, and the dedupe rule's purpose is to never double-submit to the same requisition, treated this as already-handled and did not fill or submit the form. Did not click "Go to company site" (would only re-open the destination, but avoided it once the decision was made).
+
+Materials built (not sent, kept in ROOT in case the user wants to compare against whatever was submitted a week ago):
+- Prabhavit_CV_RubyLabs.tex/.pdf - Career Summary bullets 1+2 (LLM-driven apps + prompt engineering/API orchestration), FlowSpace Product Responsibilities led with the Next.js/Laravel migration bullet (stack match) then the AI-agents bullet, Technical Responsibilities led with the AI data/listing bullet, deduped the repeated AI-listing line, dropped the commute-time bullet, kept both UltraStrategy and all 4 Get2Germany bullets (core AI/LLM production JD). Parity-diffed against Prabhavit_CV_EN.tex. 2 pages with photo.
+- CoverLetter_RubyLabs.tex/.pdf/.txt - English, opens honestly with "three years, not the six the posting asks for" plus the specific tools not used (Langfuse, OpenRouter), per the task's explicit instruction to write an honest letter against a senior title. Two proof paragraphs (UltraStrategy lead + FlowSpace pair, per the OUTREACH_FACTS CV-parsing/LLM-data-extraction role map), references the public github.com/prab-gupta/llm-doc-parser demo. 0 em-dashes.
+- answers/rubylabs-2026-09-17.md - full gate-check, tailoring log, and the LinkedIn-status discrepancy note.
+
+No confirmations file (nothing submitted this session).
+
+LEARNINGS-worthy: LinkedIn's per-posting "Application status: Applied on company site" panel can show a real prior submission (with an approximate date) for a job id that has zero trace in applications.csv, loop/results, or answers/ - i.e. our own logging missed a real application. Check this panel before dedupe.py alone on any LI-PICK row; if it says "Applied", treat the requisition as already handled and do not resubmit, even when the local log shows nothing.

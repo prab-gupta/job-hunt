@@ -1,0 +1,25 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4418158996/ (redirected off-LinkedIn to https://jobs.ashbyhq.com/teero/21f13bd1-77d0-4d82-aa94-536a51b7f411/application)
+Uploaded: Prabhavit_CV_Original_EN.pdf (filename verified on the form after upload).
+Answers given:
+- Name: Prabhavit Gupta / Email: prabhavitg@gmail.com
+- LinkedIn: https://www.linkedin.com/in/prabhavit
+- Living in or willing to relocate to Amsterdam: Yes
+- Currently eligible to work in the Netherlands: No (Italian EU long-term resident status does not
+  auto-grant NL work rights; would need employer-filed highly skilled migrant permit)
+- Required essay "Why are you a great fit for this role and what makes you excited to join Teero?":
+  150 words citing FlowSpace's Next.js/TypeScript/Node/Laravel/Supabase coworking marketplace stack,
+  OfficeRnD/Nexudus booking integrations, the LLM listing pipeline (900+ drafted listings), and daily
+  Claude Code use. Full text in answers/teero-2026-09-09.md.
+No cover letter field existed on this Ashby form (only Name/Email/CV/LinkedIn/2 Yes-No questions/1
+essay); CoverLetter_Teero.txt (203 words, no em-dashes) and CoverLetter_Teero.pdf (1 page, built from
+the eduBITES.tex template via tectonic) were written and filed for the record but not attached.
+Blockers: none - no CAPTCHA, no account creation, no anti-AI clause (JD is pro-AI, names Claude Code
+and Cursor as core tools).
+LEARNINGS: New Ashby trap variant - the "living in / willing to relocate" custom Yes/No toggle button
+(not a native radio) passed the click and rendered visually selected (black "Yes" pill), but the first
+Submit failed with "Missing entry for required field: Are you currently living in, or willing to
+relocate to, Amsterdam?" - a state-wipe on a segmented-toggle control, not just text inputs as
+documented in PATTERNS.md. Fix: click the other option (No) then click back to the intended one (Yes)
+to force the underlying onChange/state update, re-verify, then resubmit. All other fields (name, email,
+CV, LinkedIn URL, essay, work-eligibility radio) survived the failed submit untouched.

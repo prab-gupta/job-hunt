@@ -1,0 +1,14 @@
+Hello MyGamePlan team,
+
+I am applying for the GTM Engineer role. I have around three years of experience building platforms, API integrations and automation for European companies. The opportunity to take ownership of an existing AI outbound pipeline and connect it with CRM and marketing systems fits work I have already delivered.
+
+At FlowSpace, I built CRM and GTM automations covering lead capture, enrichment, routing and outbound. I also integrated OfficeRnD and Nexudus for automated bookings and built an AI tool that drafts workspace listings from brochures and other sources. When AI invented listing data, I checked the information against different sources and added guardrails. That experience is relevant to maintaining useful CRM data and reviewing automated output before it reaches customers.
+
+At Get2Germany, I integrated Google APIs, optimised the database and built AI tools to find courses, internships and jobs. At Urlink, I developed the platform and its logic with AI-assisted development and implemented automations from client requirements. Across these projects, I worked on both the integration itself and the surrounding product workflow.
+
+I would be interested in understanding how MyGamePlan identifies target clubs, maintains account data and measures the results of its existing outbound system. My contribution would centre on connecting those steps, making failures visible and improving the workflow through feedback from the team.
+
+I am based in Venice and available immediately. I hold Italian EU long-term resident status. I am not currently authorised to work in Belgium and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process, or discuss remote work performed from Italy if feasible.
+
+Best regards,
+Prabhavit Gupta

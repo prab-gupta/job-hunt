@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Promptly Health hiring team,
+
+I am applying for the Forward Deployed Engineer role in Portugal. I want to be upfront before anything else: I do not have a healthcare background. I have not sat in a clinical governance meeting or earned a clinical team's trust, and I know that is the first requirement the role is built on. What I can offer is three years of shipping production software embedded directly with a client, building the technical layer fast once the problem is understood.
+
+At FlowSpace I own an AI listing bot that takes a workspace provider's brochure in any format and drafts a full listing with a human in the loop before it reaches the backend, over 900 drafts produced, and I built support AI agents that answer customer queries from live platform data and escalate to a human on low confidence. Both were built by sitting close to how the product was actually used and iterating until the output was trustworthy enough to ship, the same instinct the role asks for when it talks about building the version that actually gets used.
+
+At UltraStrategy I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific kinds of roles, and a standardised Ultra CV is generated, using Affinda and the Claude API for the parsing and generation and n8n and Eden AI for the surrounding orchestration. That is production experience turning messy real-world documents into structured, trustworthy output, which is adjacent to the data work the role describes even though the domain is different.
+
+If the healthcare-trust requirement is not negotiable I understand this will not be the right fit, but I wanted to apply honestly on the technical and delivery side rather than not apply at all.
+
+I am authorised to work in Italy and would need the applicable employer-side permit or sponsorship process to work from Portugal. I am ready to relocate and complete that process.
+
+Regards,
+Prabhavit Gupta

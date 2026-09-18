@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Supply Chain AI Solutions Engineer role at Teva Pharmaceuticals in Madrid.
+
+At FlowSpace, I built and owned AI systems end to end for a live marketplace. I built an LLM extraction pipeline that reads brochures in any format, PDF, website, spreadsheet or photo, and drafts structured records validated by a human reviewer, producing over 900 listing records in production. I built support AI agents backed by retrieval over live platform data, with confidence scoring that escalates to a human when unsure, working directly with the operations team that relied on it. My day to day stack is Python, SQL and Supabase/PostgreSQL, plus OfficeRnD and Nexudus API integrations to keep operational data flowing between systems.
+
+My ML depth is working knowledge, embeddings, evaluation and fine tuning, rather than research. What I am strongest at is shipping production LLM systems that operations people rely on, close to what this role asks for, monitoring, anomaly detection and decision support built on real data.
+
+I am based in Venice, Italy, hold Italian EU long term resident status, and would need the employer side Spanish work permit. I am ready to relocate to Madrid.
+
+Regards,
+Prabhavit Gupta

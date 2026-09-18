@@ -1,0 +1,12 @@
+Dear Prima Hiring Team,
+
+I am writing to apply for the Data Scientist GenAI role. I have three years of professional experience building the LLM powered pipelines that this role asks for: taking a real operational process and making generative AI part of how it runs, not just a demo on top of it.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API and scores how relevant that person is for specific types of roles, the result reaches the frontend, and a standardised Ultra CV is generated. The extraction tool itself runs on n8n and Eden AI. That combination of extraction, scoring against defined criteria and a generated output is close to what claims or underwriting scoring needs from a GenAI pipeline.
+
+At FlowSpace, a live workspace marketplace, I built support AI agents that answer customer queries from live platform data and escalate to a person when confidence is low, plus an AI tool that turns a brochure in any format into a structured listing with a human in the loop, over 900 produced so far. Both run in production against a platform that grew from 2,000 to 4,500 plus users, so I am used to keeping an AI process reliable once real customers depend on it, which maps directly onto your claims, underwriting and customer support use cases.
+
+I write Python for automation and LLM pipelines and work comfortably with OpenAI and Claude APIs. I am authorised to work in Italy and available immediately for the Milan hybrid role.
+
+Regards,
+Prabhavit Gupta

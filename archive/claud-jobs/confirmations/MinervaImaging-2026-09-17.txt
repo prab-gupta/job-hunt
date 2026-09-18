@@ -1,0 +1,10 @@
+NEEDS YOU: Minerva Imaging Junior Python Developer, Ølstykke, Denmark.
+LinkedIn Apply redirected to https://minervaimaging.career.emply.com/ad/junior-python-developer-for-minerva-imaging/caws2b
+Applied via the guest-safe "Apply with E-mail" path (no account/login required). Filled and verified all three tabs:
+- Personal information: email, name, phone +39 351 610 7807, address Via Zanetti 10, 30175 Venice, Italy, terms-of-use checkbox ticked, 180-day re-contact consent = No, termination notice = 2 weeks.
+- Screening: Nationality Indian, Citizenship Indian, EU/Non EU = Non EU, valid work permit = No (Denmark is outside the EU long-term-resident mobility directive per answers/work-authorisation.md), expat tax scheme = "I am not on the expat tax scheme".
+- Cover Letter & CV tab: "Where have you seen this job posting?" = Linkedin, Cover letter = CoverLetter_MinervaImaging.pdf (uploaded, filename verified), CV = Prabhavit_CV_MinervaImaging.pdf (uploaded, filename verified).
+
+BLOCKER: the same tab also requires an "Exam diploma" file upload (marked required with a red asterisk) before the Apply button can be used. This is a scan of an actual academic diploma/exam certificate. No such file exists anywhere in ROOT and creating or uploading a fabricated diploma document is not something this agent will do. This is a facts/documents-not-on-file blocker, so the form was left filled but NOT submitted.
+
+To finish: go to https://minervaimaging.career.emply.com/ad/junior-python-developer-for-minerva-imaging/caws2b -> Apply -> Apply with E-mail (re-enter prabhavitg@gmail.com; the previous in-progress session may not persist), refill the three tabs as above (or re-upload the two ready PDFs), upload a scan of the Ca' Foscari University of Venice degree diploma to the "Exam diploma" field, then click Apply.

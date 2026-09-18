@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am writing to apply for the Junior Frontend Developer role on the Operations & Technology team at Lottomatica. I am early in my career and looking for a frontend role where I can grow inside a large, high-traffic consumer product.
+
+At FlowSpace, a workspace marketplace, I built the React and Next.js frontend with TypeScript for the listing and booking flows, and wrote Playwright end-to-end tests to keep those flows reliable as the platform scaled from 2,000 to 4,500 plus users. I integrated OfficeRnD and Nexudus for automated bookings against real RESTful APIs, and built the interface for an internal LLM listing pipeline, turning backend and AI output into clean, usable UI, the same frontend to backend communication this role asks for.
+
+Lottomatica's scale, a consumer product used by a large audience across sports betting and online gaming, is the kind of environment where frontend decisions have real, immediate impact.
+
+I am based in Venice, authorised to work in Italy with no sponsorship needed, and ready to relocate to Rome. My Italian is beginner level and improving, and English has been my working language across several European teams.
+
+Best regards,
+Prabhavit Gupta

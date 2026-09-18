@@ -1,0 +1,22 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4443978264/
+ATS: https://mcengineering.intervieweb.it/jobs/gen-ai-engineer-243429/it/?src=LinkedIn (Inrecruiting/intervieweb.it guest form, req slug gen-ai-engineer-243429)
+
+Uploaded: Prabhavit_CV_MCEngineering_GenAI.pdf (built fresh from Prabhavit_CV_EN.tex, 2 pages, tectonic-compiled, parity-checked; did not reuse the pre-existing Prabhavit_CV_MCEngineering.pdf because it had just been touched by the concurrent agent working MC Engineering's other requisition and its Technical Skills reorder favoured "Claude Code" development over AI/ML, wrong for this LLM/RAG-focused JD).
+
+Letter: CoverLetter_MCEngineering_GenAI.txt/.tex/.pdf ready (Italian, voi, no Lei, 0 em-dashes, 264 words; UltraStrategy CV-parsing pipeline + FlowSpace AI support agents/listing bot as lead paragraph, Urlink + Get2Germany as second-proof paragraph, three years stated plainly). This ATS form has no cover-letter field and no second file-upload slot, so the letter could not be attached or pasted anywhere - kept on file only.
+
+Answers given (guest form, no login required to reach it):
+- Name/email/DOB (21-02-2001)/phone (+39 351 610 7807)/citizenship (Indiana)
+- Address: typed postcode 30175, selected "30175 (Venezia)" -> auto-resolved to "30175 Venezia VE, Italia"
+- Livello di istruzione: Laurea 3 anni
+- Inglese: C2
+- CV uploaded and confirmed attached
+- Privacy policy checkbox ticked
+
+Blocker: clicking "Invia" returned "Errore! Utente già registrato!" - prabhavitg@gmail.com already has an Inrecruiting candidate profile on this MC Engineering tenant from two earlier stuck applications (applications.csv rows dated 2026-08-26 AI Integration Engineer and 2026-09-04 AI Platform Engineer, both already NEEDS_YOU/GATED on this identical gate). The only paths offered are "accedi" (log in) or reset the password ("aggiornarla") - both require entering/setting a password, which is account/credential handling and is user-only. Nothing was submitted.
+
+LEARNINGS: MC Engineering's Inrecruiting candidate database is shared across ALL of their job postings by email address - once one guest-form submission (or even a stuck attempt) registers an email, every later guest-form attempt on any other MC Engineering requisition bounces with "Utente già registrato" instead of accepting a fresh guest submission. Future MC Engineering applications for this account should go straight to the login/password-reset route rather than re-attempting the guest form.
+
+Logged: applications.csv (NEEDS YOU row), answers/mcengineering-genai-2026-09-11.md, confirmations/MCEngineering-GenAI-2026-09-11.txt (no .png - PNG saving unavailable via Claude in Chrome per the master brief), NEEDS_YOU.md section C (new row 17p).

@@ -1,0 +1,63 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4463477861/
+Apply form: https://jobs.smartrecruiters.com/oneclick-ui/company/DreesSommerSE/publication/2519b635-39c4-4533-a06c-20aaff635d17?dcr_ci=DreesSommerSE&sid=2d92f286-613b-4daf-9dfa-6340ffbecf73 (SmartRecruiters OneClick, guest apply, no account required)
+Tab id: 550850182 (Claude in Chrome, my own tab, closed at end)
+
+Gates: dedupe NEW; LinkedIn guest API apply-button=1; JD in English, no anti-AI disclaimer, no Senior/Staff/Lead/Principal/Manager/CTO title (LinkedIn seniority tag shows "Entry level"), degree "comparable field" accepted (not strict MSc), no Spanish/German requirement, core stack (Python/TypeScript/React/FastAPI/Docker/CI-CD) all claimable. All gates passed.
+
+Uploaded: nothing (blocked, see below).
+Built: Prabhavit_CV_DreesSommer.tex/.pdf (2 pages, tectonic, clean compile); CoverLetter_DreesSommer.txt (250 words, no em-dashes, no no-code/low-code/Bubble wording, no Claude/Anthropic mention). No cover-letter PDF built -- the form has no separate upload field for it, only a text box, which the letter was pasted into.
+
+Form fields filled (all except Resume): First/Last name, Email x2, City (Venice, Veneto, Italy via autocomplete), phone country switched Spain->Italy +39, phone number 351 610 7807, LinkedIn URL, GitHub URL (Website field), Message to the Hiring Team (full cover letter pasted in, including the work-authorisation transparency line).
+
+Dropped CV bullets: Career Summary dropped the AI-assisted-development/prompt-engineering bullet (kept the LLM-apps and AI-agents/production bullets). FlowSpace kept 8 of 11 bullets (dropped 1 generic Product bullet + 2 duplicate/least-relevant Technical bullets). Every other role trimmed to its single most relevant bullet per this job's explicit instruction (Urlink, UltraStrategy, Qomodo, Get2Germany, Clubee, Tractionboard). Skills: added Python, React, FastAPI/Flask (working knowledge), Docker (working knowledge) to the skills list per the brief's Claimable list and the Master Experience claim ladder (skills-list additions only, no new production claims in prose); dropped "Low code development" from Additional Information (no JD relation). Full detail in answers/dreessommer-2026-09-10.md.
+
+Blocker (NEEDS YOU): the required "Resume *" field is a SmartRecruiters spl-dropzone web component whose actual <input type=file> lives inside a shadow root that Claude in Chrome's read_page/find tools cannot reach. Verified by walking the DOM in JS (found the real file input at data-test="resume-upload" inside SPL-DROPZONE's shadowRoot), then confirming find() reports no upload control as a child of the Resume section, and file_upload() on the container ref errors "Element is not a file input." Clicking the visible "Choose a file" text would only open a native OS file picker outside tool control (against browser rules), so it was not attempted. Left the form filled, did not submit.
+
+LEARNINGS: SmartRecruiters OneClick apply forms (jobs.smartrecruiters.com/oneclick-ui) render file-upload dropzones as custom elements (spl-dropzone) with the real <input type=file> inside a shadow root that Claude in Chrome's accessibility-tree-based tools (read_page/find/file_upload) cannot reach, even though plain JS (element.shadowRoot) can see and read the field. Text inputs on the same page (spl-input, spl-textarea, spl-phone-field, spl-autocomplete) ARE fillable via JS using native property setters (Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set) plus dispatched input/change events, which the underlying Angular app picks up correctly -- only the file-upload dropzone is blocked. Treat any SmartRecruiters OneClick resume dropzone as a hard NEEDS YOU blocker for Chrome-only sessions; Playwright (CDP-level Input.setFileInputFiles) may not have this limitation and is worth trying first on future SmartRecruiters OneClick jobs when available.
+
+---
+STATUS: SUBMITTED (2026-09-10, follow-up session, Playwright MCP)
+
+URL: https://jobs.smartrecruiters.com/oneclick-ui/company/DreesSommerSE/publication/2519b635-39c4-4533-a06c-20aaff635d17
+Job title on page confirmed: "Experienced Artificial Intelligence Engineer (AI Engineer)", Malaga, Spain.
+
+Resume blocker from the prior Claude-in-Chrome session was resolved: switched to Playwright MCP, clicked the
+"Choose a file" button under Resume * (ref pointed at [data-test="resume-upload"]), Playwright's native file-chooser
+interception fired ("Modal state: [File chooser]: can be handled by browser_file_upload"), and browser_file_upload
+with the absolute path to Prabhavit_CV_DreesSommer.pdf worked on the first try. Verified "Prabhavit_CV_DreesSommer.pdf"
+rendered in the dropzone before proceeding.
+
+Filled on page 1 (all fields from the prior session, re-entered fresh since the form does not persist across
+sessions): First/Last name, Email x2, City (typed "Venice", selected "Venice, Veneto, Italy" from the autocomplete
+listbox), phone country code switched Spain +34 -> Italy +39 (fixed a "Please provide a valid phone number" error),
+phone number 351 610 7807, LinkedIn, GitHub (Website field), Message to the Hiring Team (full cover letter, including
+the work-authorisation transparency line), Resume upload.
+
+Page 2 ("Preliminary questions", appeared after clicking Next, not seen in the prior session):
+- Salary expectation (required): "EUR 45,000 gross annual" (task-specified figure for this job).
+- Notice period / availability (required): "Available immediately, can start within two weeks of an offer."
+- Additional attachments (optional, work references/portfolio/certificates): left empty, no such files exist.
+- "I agree that my application may also be considered for other positions in the Drees & Sommer group." (required
+  radio): answered No (treated as the privacy-conservative / non-essential-consideration option, no standing brief
+  rule directly covers this radio but it mirrors the talent-pool-decline pattern).
+- Required privacy-notice checkbox: ticked. Non-required "join communities for future career opportunities" checkbox:
+  left unticked (talent-pool/marketing rule).
+
+Submitted, URL redirected to .../success, page showed: "Application submitted! Your application for Experienced
+Artificial Intelligence Engineer (AI Engineer) at Drees & Sommer Digital Services has been submitted successfully.
+You'll receive a confirmation email shortly." Screenshot saved to confirmations/DreesSommer-2026-09-10.png, text
+saved to confirmations/DreesSommer-2026-09-10.txt. applications.csv row updated SUBMITTED with confirmation text.
+
+LEARNINGS (ATS lesson -- SmartRecruiters OneClick shadow-root resume dropzone): the prior session's blocker was a
+tooling limitation, not a form limitation. The spl-dropzone's real <input type=file> sits inside a closed(ish) shadow
+root that Claude in Chrome's accessibility-tree tools (read_page/find/file_upload) cannot resolve into a clickable
+ref, even though plain JS can walk into element.shadowRoot and see the field. Playwright MCP does not have this
+problem: browser_click on the "Choose a file" button (Playwright resolves the click target via its own DOM/shadow
+piercing locator engine, e.g. page.locator('[data-test="resume-upload"]').getByRole('button', ...)) triggers the
+real native file-chooser event, which Playwright intercepts at the CDP level regardless of shadow DOM boundaries;
+browser_file_upload then attaches the file directly, no manual JS/shadowRoot walking needed. Rule for future agents:
+treat any SmartRecruiters OneClick (jobs.smartrecruiters.com/oneclick-ui) resume dropzone as fillable in Playwright
+by a plain click + file_upload -- do NOT pre-emptively downgrade to NEEDS YOU or attempt JS shadow-root surgery;
+only escalate if Playwright's click truly produces no file-chooser modal.

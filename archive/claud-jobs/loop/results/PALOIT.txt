@@ -1,0 +1,5 @@
+STATUS: KILLED
+URL: https://www.linkedin.com/jobs/view/4439714106/ (Beganne, Brittany, France)
+Reason: posting closed/404. LinkedIn Apply routes to https://www.palo-it.com/palo-it/ef50d64f-5525-4386-a48f-3361a04cbb3e which shows "OOPSIE DAISY! This is awkward, the page you are looking for is not here." Checked palo-it.com's own careers page (palo-it.com/en/career): it lists "Forward Deployed Engineer" as a role-category link, but that link resolves to https://www.palo-it.com/en/services/software-architecture, a marketing/services page, not an application form or job listing. No live application path exists anywhere on the PALO IT site for this role.
+Materials built: none (hard gate failed before drafting per the brief's order of work).
+Logged: applications.csv KILLED row (2026-09-17).

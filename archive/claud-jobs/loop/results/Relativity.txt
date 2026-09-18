@@ -1,0 +1,25 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4467082052/ (Apply on company website -> https://kcura.wd1.myworkdayjobs.com/External_Career_Site/job/Krakw/Advanced--AI-Engineer_26-0420)
+(Cracow LinkedIn copy 4467077098 is the same requisition per the task; not applied to separately.)
+
+Uploaded: nothing (blocked before any form).
+
+Materials built (ready to use):
+- Prabhavit_CV_Relativity.tex/.pdf (2 pages, tailored from Prabhavit_CV_EN.tex, parity-checked)
+- CoverLetter_Relativity.tex/.pdf/.txt (English, 0 em-dashes, Poland work-authorisation
+  transparency line included)
+- answers/relativity-2026-09-16.md (full tailoring log and gate check)
+
+Answers given: none (form never reached).
+
+Blocker: clicked Apply then "Apply Manually" (to skip the resume-autofill parsing step), but
+step 1 of 6 is still "Create Account/Sign In" (Sign in with Apple/Google/LinkedIn, or email +
+password with an explicit "Create Account" button). No guest-apply path exists on this Workday
+tenant. Per the brief, account creation is a user-only blocker. Stopped without creating an
+account or entering any credentials. Logged NEEDS_YOU.md item 7 and CSV.
+
+LEARNINGS: kcura.wd1.myworkdayjobs.com (Relativity) is confirmed an account wall even through
+"Apply Manually" - that button only skips resume-autofill parsing, not the mandatory sign-in
+step, unlike juliusbaer.wd3.myworkdayjobs.com which has a genuine guest-apply path. Added one
+line to loop/LEARNINGS.md.

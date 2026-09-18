@@ -1,0 +1,21 @@
+NEEDS YOU - IQVIA, Data & AI Solutions Consultant, Athens, Greece
+
+LinkedIn "Apply" button did not open an Easy Apply modal ("Responses managed off LinkedIn"
+shown under the title). It redirected off LinkedIn to IQVIA's own careers site
+(jobs.iqvia.com/en/jobs/R1552230-1), requisition R1552230. Clicking "Apply Now" there
+redirected again to IQVIA's Workday careers site (iqvia.wd1.myworkdayjobs.com), canonical
+URL slug shows "Warsaw-Poland" even though the LinkedIn posting and job description are for
+Athens, Greece (the requisition is also open in Warsaw, Athens, Barcelona and Oeiras).
+
+The Workday "Start Your Application" screen offers Autofill with Resume / Apply Manually /
+Use My Last Application. Clicking "Apply Manually" landed on step 1 of 6, "Create
+Account/Sign In", requiring a new email + password before My Information / My Experience /
+Application Questions / Voluntary Disclosures / Review become reachable. No submission was
+made. No account was created (account creation and entering authentication passwords are
+both out of scope for autonomous action).
+
+Left open at: tab 550849754
+https://iqvia.wd1.myworkdayjobs.com/en-US/IQVIA/job/Warsaw-Poland/Data---AI-Solutions-Consultant_R1552230/apply/applyManually?source=LinkedIn_Slots
+
+Cover letter prepared and ready to paste/upload once the account exists:
+CoverLetter_IQVIA.txt (198 words, 0 em-dashes).

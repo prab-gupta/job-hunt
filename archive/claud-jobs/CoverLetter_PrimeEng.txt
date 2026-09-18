@@ -1,0 +1,19 @@
+Oggetto: Candidatura per Software Engineer - eCommerce Platform
+
+Buongiorno,
+
+vi scrivo per candidarmi alla posizione di Software Engineer - eCommerce Platform a Perugia. Negli ultimi tre anni ho lavorato tra sviluppo software e definizione dei requisiti di prodotto per piattaforme europee, un percorso vicino a quello richiesto per questo ruolo.
+
+In FlowSpace sono lo sviluppatore che guida un marketplace di spazi di lavoro in produzione: ho automatizzato la migrazione dei dati da uno stack legacy a Next.js e Laravel, mappando ogni entità e scegliendo il percorso di migrazione più adatto (endpoint API o export CSV), mantenendo il prodotto sempre operativo mentre cresceva da 2.000 a oltre 4.500 utenti. Ho collaborato con il team di sviluppo sulla logica di prodotto e sulla documentazione dei requisiti di business, e ho realizzato integrazioni API con OfficeRnD e Nexudus per le prenotazioni automatizzate.
+
+In Clubee ho integrato le API della piattaforma in tutto il frontend e mi sono occupato di unit testing e quality assurance sulle nuove funzionalità, un lavoro che unisce integrazioni API e cura della qualità, vicino a quanto richiesto per l'evoluzione della vostra piattaforma eCommerce.
+
+Uso quotidianamente Jira per la gestione del backlog e adotto metodologie Agile nel mio lavoro con i team di sviluppo. Sono disponibile a trasferirmi a Perugia per la modalità in presenza.
+
+Vivo a Venezia, ho un permesso di soggiorno UE di lungo periodo e non necessito di sponsorizzazione per lavorare in Italia. Sono disponibile immediatamente. Il mio italiano è conversazionale (B1-B2) e il mio inglese è C2.
+
+Grazie per l'attenzione. Resto a disposizione per un colloquio.
+
+Cordiali saluti,
+Prabhavit Gupta
+prabhavitg@gmail.com | +39 351 610 7807

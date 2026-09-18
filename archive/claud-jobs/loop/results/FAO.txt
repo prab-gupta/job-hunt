@@ -1,0 +1,22 @@
+STATUS: NEEDS YOU
+
+URL: https://www.linkedin.com/jobs/view/4466240262/ (LinkedIn) -> https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2601947 (Taleo, requisition 2601947)
+
+What happened:
+- Dedupe check: NEW (no prior FAO row).
+- LinkedIn posting confirmed live: Rome, On-site, Full-time, Apply button present (17 people clicked apply), not a "no longer accepting applications" state.
+- Clicked Apply -> LinkedIn recorded the click and redirected offsite to jobs.fao.org (Taleo career portal).
+- Job description page has an "Apply Online" button which leads straight to a Login screen requiring "User Name (Private Email Address)" + "Password", with the page's own instructions: "If you have not yet registered: Click on New User and enter requested information to create your online account. Complete your online profile information. Search for jobs and apply." No guest/one-off application path exists; account creation is mandatory before any application data (personal info, CV upload, cover letter) can be entered.
+- This is a hard account-creation wall. Per the standing rule, account creation and entering a password to authenticate are actions this agent must never perform; stopping here for the user.
+- Tab: my own Chrome tab (Taleo login page), title "Login", left open is not required, url captured above.
+
+Materials prepared (ready for the user to submit manually):
+- Prabhavit_CV_FAO.tex/.pdf - tailored to the Web/Software Developer profile named in the JD (TypeScript/React/Node/JS emphasis moved to top; FlowSpace migration + AI listing bot + API integrations led, paired with Clubee QA/testing bullet moved up); parity-diffed against Prabhavit_CV_EN.tex, no invented claims. 2 pages with photo.
+- CoverLetter_FAO.tex/.pdf/.txt - English, two proof paragraphs (FlowSpace + Clubee), 0 em-dashes, names the Web/Software Developer profile and Italy work authorisation (no sponsorship needed, Rome is Italy).
+- answers/fao-2026-09-17.md - full tailoring log and hard-gate notes.
+
+Note on eligibility (for the user, not a hard gate we enforce): the posting's minimum requirement is an advanced degree (or bachelor's + 2 extra years) in computer science, data science, software engineering or a related field. Prabhavit's degree is BA Philosophy/International Studies/Economics from Ca' Foscari, not in that list. Years (3) meet the bachelor's-plus-2 threshold; the field-of-study match is the user's own call when creating the Taleo profile.
+
+Blockers: account creation (Taleo "New User" registration, email/password) required before any application step. User-only per the standing rule against creating accounts or entering authentication passwords.
+
+No new ATS trap worth a LEARNINGS line beyond what's already documented (Workday-style Taleo login wall, no guest path) - consistent with existing "account creation = NEEDS YOU" pattern, not new.

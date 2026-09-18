@@ -1,0 +1,15 @@
+TO: info@enfasiweb.com
+SUBJECT: Candidatura per Full-Stack Developer - Enfasi Design
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di Enfasi Design,
+
+La posizione aperta di Full-Stack Developer descrive bene il lavoro che faccio ogni giorno tra frontend e backend. In FlowSpace ho costruito una pipeline LLM che ha prodotto oltre 900 annunci validati con revisione umana, agenti RAG di supporto su dati live con escalation a un operatore umano, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js + Laravel + Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, anche da remoto o a Torino. Vi va una call di 15 minuti per parlare della posizione di Full-Stack Developer?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

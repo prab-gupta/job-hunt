@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+https://www.linkedin.com/jobs/view/4458411745/
+Uploaded: Prabhavit_CV_Signify.pdf (explicitly via "Upload resume" after catching the pre-selected-last-used-CV trap: LinkedIn had defaulted to Prabhavit_CV_TOPIC.pdf from the prior application; re-uploaded and verified the filename on the review page)
+Cover letter: CoverLetter_Signify.pdf/.txt built, not uploaded (Easy Apply flow had no cover letter step)
+Answers given: Python years 2, Kubernetes years 0, Agentic AI Development years 1 (all honest, below the JD's stated 6+ years, not inflated), able to travel onsite UK/Europe Yes, worked as forward deployed engineer / client-facing Yes (Urlink + FlowSpace), sponsorship required No.
+Blockers: none.
+Result: "Application status: Application submitted" shown on the job page after Submit. Screenshots confirmations/Signify-2026-09-11-before.png (review page) and confirmations/Signify-2026-09-11.png (submitted state).
+LEARNINGS: confirmed the CV-pre-fill trap from the brief is real and happens on the very next Easy Apply after a different upload in the same session — always click "Upload resume" and verify the filename on the review page, never trust the pre-selected radio.

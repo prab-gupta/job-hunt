@@ -1,0 +1,7 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4453260021/ (Accenture job page https://www.accenture.com/ie-en/careers/jobdetails?id=R00345674_en, Workday apply URL https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dublin/Forward-Deployed-Engineer_R00345674-1/apply)
+Uploaded: nothing (blocked before any upload step)
+Materials ready: Prabhavit_CV_AccentureUKIMgr.pdf, CoverLetter_AccentureUKIMgr.pdf/.txt
+Blocker: Workday "Apply Manually" leads straight to step 1 of 6 Sign In (Google or email, Create Account option), no guest-apply path - confirmed by trying it once per instructions. Account creation is user-only; did not create one.
+Logged: NEEDS_YOU.md section C row 32, confirmations/AccentureUKIMgr-2026-09-17.txt, answers/accentureukimgr-2026-09-17.md, applications.csv NEEDS YOU row.
+LEARNINGS: none new - this is the same accenture.wd103.myworkdayjobs.com account wall confirmed on every other Accenture requisition tried this month (Italia, DACH, España, Baltics, Poland, Slovakia, UK&I Specialist).

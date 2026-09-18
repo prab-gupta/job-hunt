@@ -1,0 +1,15 @@
+TO: hr@3di.it
+SUBJECT: Candidatura Full Stack Developer, 3D Informatica
+ATTACH: Prabhavit_CV_Original_EN.pdf
+
+Gentile team di 3D Informatica,
+
+Ho letto della posizione aperta per un Full Stack Developer e ho notato la suite DOCWAY.AI, con classificazione, sintesi, estrazione entità e chatbot sui documenti: è esattamente il tipo di pipeline documentale che costruisco. In FlowSpace ho realizzato una pipeline LLM che ha prodotto oltre 900 annunci validati da revisione umana, agenti RAG di supporto con escalation a un operatore umano sotto soglia di confidenza, e le integrazioni OfficeRnD e Nexudus, su uno stack Next.js, Laravel e Supabase.
+
+Esempio funzionante: github.com/prab-gupta/llm-doc-parser. Profilo: linkedin.com/in/prabhavit.
+
+Vivo a Venezia, autorizzato a lavorare in Italia (permesso di soggiorno UE per soggiornanti di lungo periodo), disponibile subito, anche in trasferta a Bologna o da remoto. Vi va una call di 15 minuti per parlare della posizione?
+
+Cordiali saluti,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

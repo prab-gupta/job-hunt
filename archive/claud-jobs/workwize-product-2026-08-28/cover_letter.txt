@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am applying for the Product Engineer role at Workwize. Your description of someone who "uses AI and agents as their default way of working" and "treats a model like a fast but unreliable teammate whose work you always check" describes exactly how I work every day.
+
+At FlowSpace, I owned a live coworking marketplace serving 4,500+ users. I made product calls on what to build, not just took tickets. My biggest project was an AI listing bot that takes a brochure in any format, drafts a full structured listing with an LLM, and pushes it to the backend after human review. I built this with Claude Code as my primary development tool, writing the spec, reviewing every diff, and shipping iteratively. I also built support agents that answer customer queries against live platform data and escalate on low confidence.
+
+Before the AI layer, I helped migrate the platform off a legacy stack onto Next.js and Laravel, mapping the data model and driving the cutover. I worked directly with the internal team, an external agency, and customers, resolving issues end to end.
+
+I ship small and learn. I would rather get something in front of users and iterate than plan for months. I am based in Italy with an EU Long Term Residence Permit and am available to start immediately.
+
+Regards,
+Prabhavit Gupta

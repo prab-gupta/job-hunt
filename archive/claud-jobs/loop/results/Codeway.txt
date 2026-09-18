@@ -1,0 +1,36 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4445968510/ (real ATS: https://jobs.ashbyhq.com/codeway/97286447-8222-40ff-ae48-e7a176bf43ef/application?utm_source=linkedinrecruiter)
+
+Company: Codeway. Role: Product Manager, New Ventures. Barcelona, Spain (hybrid). Fit 72.
+
+LinkedIn Easy Apply was NOT offered — posting said "Responses managed off LinkedIn"; clicking Apply opened Codeway's Ashby ATS in a new tab, which I used per instructions.
+
+Uploaded: Prabhavit_CV_Original_EN.pdf.
+
+Cover letter: ROOT/CoverLetter_Codeway.txt was re-read against the live JD and Prabhavit - Master Experience.md before use — 0 em-dashes, no "Bubble"/"no-code" mentions, all claims (three products owned end-to-end, AI listing pipeline, 900+ listings drafted, Codeway's bootstrapped/profitable model, Spain work-authorisation transparency line) verified against source files. No fixes were needed. However this Ashby form had no message/cover-letter/additional-information field and no separate upload slot for one — only a single Resume upload — so the letter could not be attached anywhere on this application.
+
+Answers given (all traceable to canonical answer files):
+- Name/Email/Phone/LinkedIn: Prabhavit Gupta / prabhavitg@gmail.com / +39 351 610 7807 / linkedin.com/in/prabhavit
+- Salary expectations: EUR 50000
+- Available to start: 15 days or less
+- Require VISA support/transfer to work in Spain: Yes (honest — not authorised in Spain, employer-side permit needed per work-authorisation.md)
+- Comfortable in Barcelona office 4 days/week: Yes (ready to relocate per task)
+- Currently located: Venice, Italy
+- English proficiency: Advanced (no exact "fluent/professional C1" tier offered; Advanced is the honest closest match, Native was not selected)
+- Interview Recording Consent: Opt out (privacy-preserving default; explicitly no impact on candidacy)
+- Built a new product concept-to-production (zero-to-one): Yes
+- Level of zero-to-one ownership: Product Manager in a small zero-to-one team
+- Product types worked on: B2B, B2B2C (B2C/Consumer left unchecked — no pure consumer-app experience to claim)
+- Experience building AI products: Yes
+- Open to multiple PM opportunities: Yes
+- Talent-pool "contact for 2 years" consent: left unticked (not required; standing rule is marketing/talent-pool boxes stay unticked)
+
+Blockers: none. No CAPTCHA, no login/signup wall, no anti-AI screening question.
+
+Confirmation seen: "Success. Thanks for applying. Your application is in, and our team will take a look. If there's a fit, we'll reach out about next steps."
+
+Logged to: applications.csv (SUBMITTED row), confirmations/Codeway-2026-09-09.txt, answers/codeway-2026-09-09.md.
+
+LEARNINGS: Confirmed a second instance of the "Ashby field silently resets on re-render" trap from apply-bot/PATTERNS.md — after ticking the B2B/B2B2C product-type checkboxes, the previously-selected "Do you have experience building AI products? Yes" toggle silently reverted to unselected. Always re-verify every already-answered field after any checkbox/radio interaction on Ashby forms, not just after a failed submit.
+
+Tabs: both my tabs (LinkedIn job page and the Ashby application tab it spawned) were closed after logging.

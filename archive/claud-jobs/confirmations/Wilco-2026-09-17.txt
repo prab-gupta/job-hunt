@@ -1,0 +1,12 @@
+Wilco - AI Engineer / FDE - Lisbon - 2026-09-17
+
+Application submitted via join.com (getwilcoai), tab https://join.com/companies/getwilcoai/16712236/apply/success?sso=false
+
+Success page text: "Application sent - You've applied to Wilco."
+
+Uploaded CV: Prabhavit_CV_Wilco.pdf (verified rendered correctly on the Confirm your CV step after removing the stale pre-loaded generic CV).
+Availability: 2026-09-17 (immediate).
+Expected yearly compensation: EUR 45000.
+Answered two free-text questions (production system owned end to end; what you do differently with AI) with material drawn from OUTREACH_FACTS.md (FlowSpace AI listing bot, support agents, UltraStrategy CV-parsing pipeline).
+No cover letter required by this posting (explicitly stated "No cover letter" - CoverLetter files not built for this row).
+Unchecked "Use this CV as my default for future applications" so the company-tailored CV does not become the join.com account default.

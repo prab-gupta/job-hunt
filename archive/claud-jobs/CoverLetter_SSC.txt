@@ -1,0 +1,14 @@
+Dear SS&C hiring team,
+
+I am applying for the Generative AI Developer role in Bucharest. I build end to end applications around LLMs, from prompt design and data extraction through to the production API and frontend that surface the result.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data and assesses how relevant the candidate is for specific types of roles, the result is delivered to the frontend, and the pipeline then generates a standardised profile. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI to build the extraction tool itself.
+
+At FlowSpace, I own an AI listing bot that takes a brochure in any format and drafts a structured record with a human in the loop, producing over 900 drafts. I also built support agents that answer customer queries from live platform data with retrieval augmented generation and escalate to a human on low confidence. Stack: TypeScript, Next.js, Node.js, Laravel, n8n and the Claude API, with REST integrations against OfficeRnD, Nexudus and CRM systems.
+
+Both projects required treating prompt design as an engineering discipline: testing outputs against real data, accounting for hallucination and drift, and building the surrounding application rather than a one off script. That is the practical, end to end approach this role calls for.
+
+I am based in Venice, Italy, hold Italian EU long term resident status, and am ready to relocate to Bucharest. I am not currently authorised to work in Romania and would need the employer side permit or sponsorship process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

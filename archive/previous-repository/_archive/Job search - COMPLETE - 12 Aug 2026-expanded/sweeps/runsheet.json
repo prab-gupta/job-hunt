@@ -1,0 +1,532 @@
+[
+ {
+  "tab": "New leads",
+  "fit": 100,
+  "role": "Automation Engineer",
+  "co": "Timeleft",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/timeleft/jobs/4917404101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 99,
+  "role": "AI Automation Specialist",
+  "co": "JustMarkets",
+  "tier": "1",
+  "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4929557101",
+  "verif": "high -",
+  "ats": "greenhouse-eu"
+ },
+ {
+  "tab": "New leads",
+  "fit": 92,
+  "role": "Analytics Implementation Consultant",
+  "co": "Sporty Group",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/sportygroup/jobs/4933981101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 92,
+  "role": "AI Platform Engineer",
+  "co": "Undisclosed employer via Jobgether (AI platform req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/f481d0d9-88e3-46e6-b263-0690a73d0786",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 91,
+  "role": "AI Product Engineer, Remote",
+  "co": "Distru",
+  "tier": "1",
+  "url": "https://jobs.lever.co/distru/b7bb8662-3ede-4b41-bc98-b8ca5678f8d3",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 90,
+  "role": "Software Engineer - AI-Assisted Full-Stack Development",
+  "co": "Undisclosed employer via Jobgether (AI-assisted req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/ba7cdbb8-ff78-4514-9974-ab8db0a51f22",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 90,
+  "role": "Junior AI Engineer",
+  "co": "capital.com",
+  "tier": "2",
+  "url": "https://jobs.lever.co/capital/371d503f-1eaf-4c83-a2d8-d312e44bca4d",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 87,
+  "role": "Solutions Engineer (Core AI)",
+  "co": "Mendix (Siemens)",
+  "tier": "2",
+  "url": "https://jobs.lever.co/mendix/c0c545fe-53ae-4eda-869f-da2871dac697",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 86,
+  "role": "Product Engineer",
+  "co": "Undisclosed employer via Jobgether",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/7bb350c7-d399-431a-a69f-4cd38232d71e",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 85,
+  "role": "AI Demo Operations Specialist",
+  "co": "Bloomreach",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/bloomreach/jobs/8064322",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 85,
+  "role": "IT Integration Engineer (f/m/d)",
+  "co": "IDnow",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/idnow/jobs/4905098101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 83,
+  "role": "Technical Account Manager (second Spain req)",
+  "co": "Rithum",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/rithumliboard/jobs/8092924",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 83,
+  "role": "Solutions Engineer, Service Provider - EMEA",
+  "co": "Kentik",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/kentik/jobs/4716196005",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 83,
+  "role": "Technical Account Manager BAL",
+  "co": "RTB House",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/rtbhouse/jobs/4913268101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 83,
+  "role": "Product Manager, Billing Platform",
+  "co": "Undisclosed employer via Jobgether (billing PM req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/e2a5be55-76e4-44f7-b7b6-2d6e54b14bed",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 82,
+  "role": "AI Automation Engineer",
+  "co": "Quadrivia (reposted)",
+  "tier": "2",
+  "url": "https://jobs.ashbyhq.com/quadrivia/ef77b530-b481-4a32-a6d6-b0469a5419f2",
+  "verif": "high -",
+  "ats": "ashby"
+ },
+ {
+  "tab": "New leads",
+  "fit": 82,
+  "role": "Senior AI Solutions Engineer",
+  "co": "OLX",
+  "tier": "2",
+  "url": "https://jobs.eu.lever.co/olx/e0e18bb2-2cd8-473c-b804-b4849bda1f88",
+  "verif": "high -",
+  "ats": "lever-eu"
+ },
+ {
+  "tab": "New leads",
+  "fit": 81,
+  "role": "Technical Support Analyst",
+  "co": "Undisclosed employer via Jobgether (support req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/89509e99-290d-446f-87a7-39c3a67a4a58",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 81,
+  "role": "Customer Success Manager (Individual Contributor)",
+  "co": "Undisclosed employer via Jobgether (CSM req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/604e42de-5233-4d20-b7a6-6823f0d6b56d",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 80,
+  "role": "AI Engineer (gn)",
+  "co": "The Quality Group",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/thequalitygroupgmbh2/jobs/4931097101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 79,
+  "role": "Technical Account Manager",
+  "co": "Rithum",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/rithumliboard/jobs/8016946",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 79,
+  "role": "Enterprise Solutions Engineer, Italy",
+  "co": "Postman",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/postman/jobs/7528350003",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 77,
+  "role": "AI Engineer",
+  "co": "commercetools",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/commercetools/jobs/7774983003",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 77,
+  "role": "Senior Software Engineer - PHP, TypeScript, Node.js",
+  "co": "Undisclosed employer via Jobgether (PHP req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/17f76227-a965-40ec-8d5b-5f98bef62e3e",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 77,
+  "role": "Notion Expert (Project-Based)",
+  "co": "Undisclosed employer via Jobgether (Notion req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/ebed3f39-8988-4cda-bc1b-fc212cc8dd98",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 77,
+  "role": "Corporate Solutions Engineer, Nordics",
+  "co": "Postman (Nordics req)",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/postman/jobs/7529471003",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 76,
+  "role": "Senior AI Engineer (f/m/d)",
+  "co": "Awin",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/awin/jobs/7720634003",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 76,
+  "role": "Technical Success Manager - Strategic Accounts",
+  "co": "Deliverect",
+  "tier": "2",
+  "url": "https://jobs.lever.co/deliverect/ec294766-fb58-4dd9-8c2f-c18019f599ca",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 76,
+  "role": "Technical Support Engineer (L1 Frontline)",
+  "co": "Databento",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/databento/jobs/7943501",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 76,
+  "role": "Senior AI Automation Engineer",
+  "co": "Appfire",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/appfire/jobs/4711980005",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 74,
+  "role": "Technical Support Specialist - EMEA and US hours",
+  "co": "Bloomreach (support req)",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/bloomreach/jobs/5779409",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 73,
+  "role": "Software Engineer (AI Products)",
+  "co": "Oxylabs",
+  "tier": "2",
+  "url": "https://jobs.lever.co/oxylabs/8682b06a-c455-406f-ab50-65ce4c3ce318",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 73,
+  "role": "Frontend Engineer",
+  "co": "Undisclosed employer via Jobgether (frontend req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/2875aa8f-2aaa-495a-a70b-d2dcc0355218",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 72,
+  "role": "Business Analyst (middle/senior)",
+  "co": "Undisclosed employer via Jobgether (BA req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/b8e4e97f-2d78-41a8-a179-110fc4ed6119",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 72,
+  "role": "Technical Support Engineer",
+  "co": "Amplitude",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/amplitude/jobs/8548089002",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 71,
+  "role": "Senior IT and Automation Engineer (f/m/d)",
+  "co": "Upvest",
+  "tier": "2",
+  "url": "https://jobs.ashbyhq.com/upvest/15f04024-1155-4c45-8bc8-40f5ba4cb4e0",
+  "verif": "high -",
+  "ats": "ashby"
+ },
+ {
+  "tab": "New leads",
+  "fit": 70,
+  "role": "Senior Business Systems Analyst",
+  "co": "JetBrains",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/jetbrains/jobs/4873487101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 69,
+  "role": "Product Support Engineer: EMEA - Weekend Warrior",
+  "co": "Telnyx",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/telnyx54/jobs/4651630003",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 68,
+  "role": "Forward Deployment Engineer - Azure AI",
+  "co": "Undisclosed employer via Jobgether (Azure FDE req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/f5760e2d-3cd2-4df5-8650-a04a78960d32",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 68,
+  "role": "Network Applications Developer Advocate",
+  "co": "Vonage",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/vonage/jobs/8477113002",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 68,
+  "role": "FullStack Software Developer (React and Node.js)",
+  "co": "XM",
+  "tier": "2",
+  "url": "https://jobs.eu.lever.co/xm/5b5734a5-0ea7-4360-b4d1-6939aff2a621",
+  "verif": "high -",
+  "ats": "lever-eu"
+ },
+ {
+  "tab": "New leads",
+  "fit": 67,
+  "role": "Technical Support Engineer (L1 Frontline), EU",
+  "co": "Databento (EU req)",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/databento/jobs/7976255",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 67,
+  "role": "AI Transformation Architect EMEA",
+  "co": "Unframe",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/unframe/jobs/4944222101",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "FlowSpace-like platforms",
+  "fit": 67,
+  "role": "Connectivity Partner Program Manager",
+  "co": "GetYourGuide",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7976582",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "FlowSpace-like platforms",
+  "fit": 67,
+  "role": "Senior Product Manager, Connectivity",
+  "co": "GetYourGuide (PM connectivity req)",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7552392",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 66,
+  "role": "Software Engineer, Agent Development",
+  "co": "ActiveCampaign",
+  "tier": "2",
+  "url": "https://jobs.lever.co/activecampaign/3e093aec-8540-49c7-93f1-719727c1191d",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 65,
+  "role": "Senior Solution Engineer, Global",
+  "co": "Datacor",
+  "tier": "1",
+  "url": "https://job-boards.greenhouse.io/datacor/jobs/5200122007",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 65,
+  "role": "Technical Solution Consultant",
+  "co": "WorkBoard",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/workboard/jobs/8634352002",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "New leads",
+  "fit": 64,
+  "role": "Software Development Engineer III",
+  "co": "Undisclosed employer via Jobgether (SDE III req)",
+  "tier": "1",
+  "url": "https://jobs.lever.co/jobgether/e0c2953f-0797-40d5-b9fb-ef8697bbc421",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "New leads",
+  "fit": 63,
+  "role": "Front-End Engineer (Design System)",
+  "co": "SiteGround",
+  "tier": "2",
+  "url": "https://jobs.lever.co/siteground/f3e78210-c419-449a-92fe-264344b90377",
+  "verif": "high -",
+  "ats": "lever"
+ },
+ {
+  "tab": "FlowSpace-like platforms",
+  "fit": 63,
+  "role": "Client Operations Associate (Test Booking)",
+  "co": "Lighthouse (formerly OTA Insight)",
+  "tier": "2",
+  "url": "https://job-boards.eu.greenhouse.io/lighthouse/jobs/4849717101",
+  "verif": "high -",
+  "ats": "greenhouse-eu"
+ },
+ {
+  "tab": "FlowSpace-like platforms",
+  "fit": 63,
+  "role": "Connectivity Partner Business Manager",
+  "co": "GetYourGuide (business req)",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7979056",
+  "verif": "high -",
+  "ats": "greenhouse"
+ },
+ {
+  "tab": "FlowSpace-like platforms",
+  "fit": 63,
+  "role": "Senior Product Manager, Supplier Portal",
+  "co": "GetYourGuide (supplier portal req)",
+  "tier": "2",
+  "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7887400",
+  "verif": "high -",
+  "ats": "greenhouse"
+ }
+]

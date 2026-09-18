@@ -1,0 +1,11 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4462959131/ (Forward Deployed Engineer - Amsterdam, HighRadius, Amsterdam, North Holland, Netherlands)
+
+Uploaded: Prabhavit_CV_HighRadius.pdf (built fresh from Prabhavit_CV_EN.tex, verified selected over the pre-checked most-recent library file before submit).
+Cover letter: CoverLetter_HighRadius.pdf/.txt built and kept on file; this Greenhouse-on-LinkedIn Easy Apply flow (6 pages) showed a generic "Cover letter - Be sure to include an updated cover letter" review-page line but had no actual upload/paste field for it.
+
+Answers given: LinkedIn Profile URL; comfortable working 5 days in the Amsterdam office = Yes; right to live and work in the Netherlands = No (accurate); require sponsorship = Yes; comfortable with 30-40% travel = Yes; B1+ European language besides English = Italian only; data-processing consent (365 days) = Yes (required, not a marketing opt-in). "Follow HighRadius" checkbox unticked. "Mark as top choice" left unticked (optional).
+
+Confirmed via "Application submitted - now" status panel with a "Go to company site" link.
+
+No blockers. Nothing broke; no new LEARNINGS entry needed.

@@ -1,0 +1,18 @@
+STATUS: SUBMITTED
+URL: https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Machine-Learning-Engineer-100---f-m-d-_r-18155/apply/applyManually?source=LinkedIn
+Correct LinkedIn posting: https://www.linkedin.com/jobs/view/4431210733/ (job 4466556120 from the task was wrong, pointed to an unrelated Eurofins posting)
+ATS: Workday (juliusbaer.wd3.myworkdayjobs.com, requisition r-18155)
+
+Verifier-flagged account-wall row. Re-searched LinkedIn for the correct posting, re-checked hard gates (Bachelor's accepted not MSc-only, no years number, title not Senior+, Spanish only a plus not mandatory, RAG/agent/LLM-orchestration JD matches claimable skills) - passed, no KILL.
+
+Uploaded: Prabhavit_CV_JuliusBaer.pdf (built fresh from Prabhavit_CV_EN.tex, verbatim-bullet parity checked) and CoverLetter_JuliusBaer.pdf (two proof roles FlowSpace+UltraStrategy, 0 em-dashes, honest TensorFlow/PyTorch gap caveat, Spain work-authorisation transparency line).
+
+Unlike other Workday tenants logged this session (Workday itself, Accenture), Apply Manually on this tenant opened a genuine no-login 5-step guest form. Filled all 5 steps (My Information, My Experience with both file uploads, Application Questions with 12 answers, Voluntary Disclosures with nationality + required GDPR consent, Review), reviewed everything, then submitted.
+
+Blockers: none during the flow. A post-submission optional "Create Account" upsell appeared after the confirmation page; not created, no password entered, per standing rule.
+
+Submit returned "Congratulations! We appreciate your interest in Julius Baer and acknowledge receipt of your application." URL carried Job_Application_ID=298379a1aa26900155a9498db3230000.
+
+LEARNINGS: do not assume every Workday tenant is account-walled - juliusbaer.wd3.myworkdayjobs.com offers a genuine guest apply path via Apply Manually, worth re-checking other Workday rows individually rather than blanket-KILLing them.
+
+See confirmations/JuliusBaer-2026-09-16.txt and answers/juliusbaer-2026-09-16.md.

@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Nostrion team,
+
+I am applying for the Forward Deployed Engineer role. I work directly with customer environments and messy real world data, and I like owning a problem from the first conversation through to something running in production.
+
+At FlowSpace, I built and own an AI listing bot that reads a workspace provider's brochure in any format (PDF, website, photo or spreadsheet) and drafts a structured listing with a human in the loop, producing over 900 drafts, plus support agents that answer customer queries from live platform data and escalate to a human on low confidence. I also automated the live migration of the marketplace's data off a legacy stack onto Next.js and Laravel while the product stayed live, growing the platform from 2,000 to 4,500+ users.
+
+At UltraStrategy, I built a CV-parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised profile is generated. I used Affinda and the Claude API for the parsing and generation, and n8n and Eden AI for the extraction tool itself.
+
+One thing I have shipped: github.com/prab-gupta/llm-doc-parser, a tool that turns an unstructured document into structured JSON with an LLM pipeline. I built it to generalise the CV-parsing pattern from UltraStrategy into a reusable demo. Next time I would add a per-field confidence score so a caller knows which parts of the output to trust without re-checking everything by hand.
+
+I am based in Venice, Italy, hold Italian EU long term resident status, and am ready to relocate to Leusden. I am not currently authorised to work in the Netherlands and would need the employer side TWV permit process, which I am ready to start immediately.
+
+Regards,
+Prabhavit Gupta

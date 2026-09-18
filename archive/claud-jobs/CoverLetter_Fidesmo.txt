@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Fidesmo Hiring Team,
+
+I am writing to apply for the Junior Backend Developer role in Madrid. I have three years of professional experience shipping server-side code and API integrations, and I am looking for a role like this one, where I can grow alongside more experienced developers and gradually own a subsystem.
+
+At FlowSpace, a workspace marketplace, I worked as lead developer on Laravel and Node.js services: I mapped the marketplace's data model onto Laravel and Next.js during a live migration, and shipped the OfficeRnD and Nexudus API integrations that power automated bookings, keeping the product live throughout.
+
+At Clubee, I integrated the Clubee API across the frontend and ran unit testing and QA on new features, working closely with the rest of the team through code review, which is close to the collaborative, mutual review process this role describes.
+
+I am comfortable working in English day to day, I have a working knowledge of TypeScript, PHP and Python, and I am keen to learn the languages and cryptography domain knowledge this role calls for. I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process, and I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to the backend team.
+
+Regards,
+Prabhavit Gupta

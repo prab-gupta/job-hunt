@@ -1,0 +1,8 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4461184460/ (Greenhouse: https://job-boards.eu.greenhouse.io/caronsale/jobs/4968904101?gh_src=LinkedIn)
+Uploaded: Prabhavit_CV_CarOnSale.pdf, CoverLetter_CarOnSale.pdf
+Answers given: First Name Prabhavit, Last Name Gupta, Email prabhavitg@gmail.com, Country Italy (+39), Phone +39 351 610 7807, LinkedIn https://www.linkedin.com/in/prabhavit. No essay/EEO questions on this form.
+Blockers: none. Hard gates all passed on live JD (2+ yrs not >3, no Senior title, no degree requirement, English C1 only, no anti-AI clause).
+Fit note: JD's core ML platform stack (SageMaker/Vertex AI/Databricks/Azure ML, Terraform-managed AWS, feature stores) is outside Prabhavit's claimable stack; letter stayed honest about this and leaned on LLM-pipeline/evaluation work from UltraStrategy and FlowSpace only, no invented model-training claims.
+Role is Berlin hybrid (3 office/2 home) - relocation transparency line used (Germany), not remote-from-Italy.
+LEARNINGS: Confirmed again the Greenhouse "stale CV auto-reattach" trap (job-boards.eu.greenhouse.io/caronsale auto-attached an old "Prabhavit_CV-.pdf" via a MyGreenhouse browser-extension autofill on page load) - removed it and uploaded the canonical tailored PDF before submit, per apply-bot/PATTERNS.md.

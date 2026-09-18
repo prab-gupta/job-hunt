@@ -1,0 +1,43 @@
+Comply365 (Vistair) — Onboarding Engineer, Barcelona (Hybrid) — BambooHR
+URL: https://vistairhr.bamboohr.com/careers/221
+2026-09-09 — form fully filled, NOT submitted.
+
+Blocker: Google reCAPTCHA v2 checkbox ("I'm not a robot") sits directly above the
+"Submit Application" button. Per brief, this is a user-only blocker — did not click
+the checkbox, did not click Submit.
+
+Form state at time of stop (tab left open, tabId 550849737, Claude in Chrome):
+- First Name: Prabhavit
+- Last Name: Gupta
+- Email: prabhavitg@gmail.com
+- Phone: +39 351 610 7807
+- Address: Via Zanetti, 10
+- City: Venice
+- Province: Veneto
+- Postal Code: 30175
+- Country: Italy
+- Cover Letter: CoverLetter_Comply365.pdf (uploaded — this tenant HAS a cover letter
+  file upload, unlike the general BambooHR guide note of "no cover-letter field")
+- Resume: Prabhavit_CV_Original_EN.pdf (uploaded)
+- Date Available: 23 Sep 2026
+- Desired Pay: EUR 90,000 (bottom of the disclosed EUR 90K-EUR 110K band)
+- Website: github.com/prab-gupta
+- LinkedIn URL: linkedin.com/in/prabhavit
+- Who referred you: left blank (no referral)
+- "Applicants MUST be authorised to work within the EU/UK... Do you meet this
+  requirement?": No (honest — Italian EU long-term resident status does not
+  automatically grant Spanish work authorisation; employer-side permit needed)
+- "Willing to undergo background screening checks?": Yes
+- "Able to meet up to 40% international travel, incl. obtaining visas?": Yes
+- "Do you require a dedicated engineering team to build integrations on your
+  behalf?": No (i.e. can own technical delivery independently)
+- "Hands-on experience owning enterprise customer implementations / end-to-end
+  onboardings, kick-off through go-live?": Yes
+- "What is your level of proficiency in English?": Fluent, professional working
+  proficiency (C1)
+- Honeypot: not present on this tenant's form (none observed)
+
+Next step for the user: open tab 550849737 (or reload
+https://vistairhr.bamboohr.com/careers/221 and re-enter the form using
+answers/comply365-2026-09-09.md if the tab was closed/reset), solve the reCAPTCHA,
+and click Submit Application.

@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Findr team,
+
+I am writing to apply for the Forward-Deployed AI Engineer role built around Claude Code. I have three years of professional experience across eight European companies, and Claude Code and the Claude API are tools I use daily, not occasionally, in production work.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform: a user uploads a CV, the pipeline extracts the data and scores how relevant that person is for specific roles, the result reaches the frontend, and a standardised Ultra CV is generated. Affinda and the Claude API handled the parsing and generation, and the extraction tool itself was built with n8n and Eden AI.
+
+At FlowSpace, a live workspace marketplace, I use Claude Code as part of how I build: I built and own an AI listing bot that takes a workspace brochure in any format, PDF, website, photo or spreadsheet, and drafts a full listing with a human in the loop, 900 plus listings drafted so far, alongside support AI agents that answer customer queries from live platform data and escalate to a person on low confidence. I also automated the platform's data migration off a legacy stack onto Next.js and Laravel while it grew from 2,000 to 4,500 plus users.
+
+At Get2Germany, I integrated Google APIs and built AI tools that find courses, internships and jobs, working directly with a small team to turn a business need into a working automation quickly, which is the same bias toward action this role asks for.
+
+I am authorised to work in Italy under Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process, and I am ready to relocate to Munich and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to this team.
+
+Regards,
+Prabhavit Gupta

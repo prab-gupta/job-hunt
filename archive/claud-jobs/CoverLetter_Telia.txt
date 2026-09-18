@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am applying for the Full-Stack Engineer role on the Telia ACE Product Engineering Clients team.
+
+At FlowSpace, I build full-stack features end to end: Next.js and TypeScript on the frontend, Node.js and Laravel on the backend, with Supabase and PostgreSQL as the data layer. I shipped OfficeRnD and Nexudus API integrations for automated bookings, use Playwright for testing, and built an LLM-driven listing pipeline that has drafted over 900 workspace listings with a human in the loop. I also helped migrate the platform from a legacy stack to Next.js and Laravel while it stayed live, scaling it from 2,000 to 4,500+ users.
+
+My component-based frontend work is in React and Next.js rather than Vue.js, but the underlying patterns transfer directly, and I can ramp up on Vue quickly.
+
+Telia's focus on secure, real-time web clients for public and private customers is work I want to keep doing.
+
+I am based in Venice, Italy, hold an Italian EU long-term residence permit, and am open to relocating to Vilnius or working remotely. I am not currently authorised to work in Lithuania and would need the employer-side permit process, which I am ready to start.
+
+Regards,
+Prabhavit Gupta

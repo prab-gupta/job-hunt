@@ -1,0 +1,15 @@
+TO: info@tribeloo.com
+SUBJECT: Applied-AI and integrations engineer for workplace booking
+ATTACH: Prabhavit_CV_Base.pdf (concise generic CV, 2026-09-06)
+
+Hi Serge,
+
+Tribeloo's desk and room booking sits exactly where I have spent the last two years: making workspace supply bookable through integrations and taking manual work off operations teams with AI. At FlowSpace (London) I built the OfficeRnD and Nexudus booking integrations, an LLM pipeline that turns any operator document into a validated listing after human review (900+ records), and support agents that answer availability questions from live data. The platform grew from 2,000 to 4,500+ users.
+
+If Tribeloo is adding an engineer for integrations, customer onboarding or applied AI, I would like to talk. Otherwise a 15 minute exchange on how hybrid-work tools are automating would still be useful.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser (any document in, structured JSON out). CV attached. Venice based, EU long-term residence permit, remote or Belgium, available immediately.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | linkedin.com/in/prabhavit | github.com/prab-gupta

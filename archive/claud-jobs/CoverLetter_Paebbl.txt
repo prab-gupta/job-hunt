@@ -1,0 +1,19 @@
+Prabhavit Gupta
+
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Paebbl Hiring Team,
+
+I am applying for the Forward Deployed Engineer role, based on-site at RDM in Rotterdam.
+
+At FlowSpace, I built and own an AI listing bot that takes a provider's brochure in any format and drafts a full structured listing with a human in the loop, over 900 drafts produced, and support AI agents that ground answers in live platform data and escalate to a human on low confidence rather than guessing. Both systems only work because people trust and keep using them day to day, which is the same adoption problem this role is built around: a tool is only useful once someone on the ground sets it up, supports it, and keeps it running.
+
+At Urlink, I worked as project manager and AI-assisted developer on a freelance engagement in Barcelona, building the platform and its logic with AI-assisted development and implementing automations driven directly by client requirements, on Next.js, Supabase and Netlify. Acting as the bridge between what the client needed and what got built is the same translation this role asks for between the Digital and Systems team and the people on the floor at RDM.
+
+I have three years of professional experience across eight European companies, mostly in AI-assisted development and automation rather than a formal software degree, and I am comfortable being the one on-site, close to the people using the tools, diagnosing problems directly rather than escalating everything upward.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in the Netherlands and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Rotterdam and complete that process.
+
+Regards,
+
+Prabhavit Gupta

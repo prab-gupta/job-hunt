@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am writing to apply for the Senior ML Engineer position at Sword Health.
+
+For the past two and a half years at FlowSpace, I built and shipped agentic LLM systems to production where real users depended on them daily. My main project was an AI pipeline that ingests documents in any format (PDFs, web pages, photos, spreadsheets), uses LLM APIs with tool use, retrieval and multi-step agentic orchestration to extract and validate structured data, and pushes results to a PostgreSQL backend after human-in-the-loop review. I built evaluation harnesses to catch quality regressions before they reached users, and iterated on every pipeline after deployment based on real production feedback. I also built support AI agents with confidence scoring that route queries against live platform data and escalate to a person when uncertain.
+
+What draws me to Sword Health is the opportunity to apply agentic AI systems in a domain where reliability genuinely matters. I have hands-on experience building multi-step LLM workflows with tool calling, retrieval and orchestration in production, running end-to-end evaluations to measure quality and find regressions, and working closely with non-technical stakeholders to translate requirements into technical decisions. I am comfortable taking loosely defined problems and turning them into something running in production. I code daily in Python and TypeScript and am used to owning projects end to end from exploration through deployment.
+
+I am based in Venice, Italy with an EU Long Term Residence Permit and am available to start immediately.
+
+Regards,
+Prabhavit Gupta

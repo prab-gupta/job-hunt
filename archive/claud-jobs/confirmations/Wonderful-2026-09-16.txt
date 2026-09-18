@@ -1,0 +1,15 @@
+Wonderful — Forward Deployed Engineer — Rome, Italy (Ashby)
+URL: https://jobs.ashbyhq.com/wonderful/3080203f-602a-409d-a151-98fa3c798dc7/application?utm_source=4g9p6Pl5DN
+(from LinkedIn https://www.linkedin.com/jobs/view/4456366999/)
+2026-09-16
+
+Full form was filled (Name, Email, Phone, tailored resume Prabhavit_CV_Wonderful.pdf uploaded, LinkedIn Profile, local-language and English fluency, on-site/sponsorship/client-facing questions) and Submit Application was clicked. Ashby rejected the submission with:
+
+"We couldn't submit your application
+Thanks for your continued interest in this role at Wonderful.
+We've previously reviewed your application for this position, and for the same role we believe it's best to allow a one-year gap before reconsidering. For that reason, we won't be moving forward with a new application at this time.
+In the meantime, feel free to check out our other open roles — we'd be happy to reconnect if something feels like a good fit.
+All the best,
+The People Team"
+
+This means prabhavitg@gmail.com already has a submitted application on file for this exact Wonderful FDE requisition (not present in applications.csv under this exact wording, likely a prior session or a different city's copy of the same Ashby posting), and Ashby enforces a one-year reapplication cooldown. Not a fresh SUBMITTED — logged as KILLED (blocked by prior application / cooldown).

@@ -1,0 +1,21 @@
+# Cached agent skills (1GB+)
+.agents/skills/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backups (keep originals only)
+*.bak-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Proficiently plugin cache (lives at ~/.proficiently/)
+.proficiently/

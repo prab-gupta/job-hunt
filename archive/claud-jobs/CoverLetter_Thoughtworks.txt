@@ -1,0 +1,17 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Thoughtworks team,
+
+I am writing to apply for the Principal Forward-Deployed Engineer role. I want to be upfront: I have three years of professional experience, not the longer track record a principal title usually implies. What I can offer instead is dense, shipped work across eight European companies in that time, each one close to what this role asks for: taking a vague brief and landing something real, fast.
+
+At FlowSpace, a live workspace marketplace, I took over the platform and automated its data migration off a legacy stack onto Next.js and Laravel, mapping the data model entity by entity and driving the cutover while the product stayed live and grew from 2,000 to 4,500 plus users. I also built and own an AI listing bot that takes a workspace brochure in any format, PDF, website, photo or spreadsheet, and drafts a full listing with a human in the loop, 900 plus listings drafted so far, and I built support AI agents that answer customer queries from live platform data and escalate to a person on low confidence.
+
+At UltraStrategy, I built a CV parsing pipeline integrated into the platform, using Affinda and the Claude API for the parsing and generation and n8n and Eden AI for the extraction tool, so a user's CV becomes a scored, structured result and a standardised Ultra CV.
+
+I use Claude and Claude Code daily as part of how I build, and I am used to being the person who turns a client's idea into a working prototype within weeks rather than months, then keeps iterating with them live. I hold Italian EU long-term resident status. I am not currently authorised to work in Spain and would need the applicable employer-side permit or sponsorship process. I am ready to relocate and complete that process.
+
+I would welcome the opportunity to discuss how I could contribute to a lighthouse pod.
+
+Regards,
+Prabhavit Gupta

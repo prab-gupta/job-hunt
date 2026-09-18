@@ -1,0 +1,19 @@
+Prabhavit Gupta
+Venice, Italy | +39 351 610 7807 | prabhavitg@gmail.com
+
+Dear Tanso Hiring Team,
+
+I am writing to apply for the Software Engineer role in Munich. The role asks for someone who takes end-to-end ownership of customer-facing features in TypeScript with a growing backend, which is the shape of work I have been doing for the past three years.
+
+At FlowSpace, I took over a live workspace marketplace and automated its migration off a legacy stack onto Next.js and Laravel: I mapped the old data structure to the new one and drove the cutover while the product stayed live, and the platform grew from 2,000 to 4,500+ users. I also shipped OfficeRnD and Nexudus API integrations for automated bookings, so I am used to owning a feature from data model through to production and iterating on it once it ships.
+
+At Urlink, I worked as a freelance developer and project manager, building the platform and its logic end to end with Next.js and Supabase and turning client requirements directly into automations and shipped features. That combination of full-stack ownership and direct product decisions is close to what this role asks for.
+
+I have not worked with Azure specifically. My backend experience is with Laravel and Supabase/PostgreSQL, and I am comfortable picking up a new cloud environment on the job.
+
+For transparency: I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Munich and complete that process, and the hybrid model would work well for me.
+
+I would welcome the opportunity to discuss how I could contribute to the team.
+
+Regards,
+Prabhavit Gupta

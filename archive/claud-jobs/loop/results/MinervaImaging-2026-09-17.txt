@@ -1,0 +1,10 @@
+STATUS: NEEDS YOU
+URL: https://www.linkedin.com/jobs/view/4468374757/ -> https://minervaimaging.career.emply.com/ad/junior-python-developer-for-minerva-imaging/caws2b (Apply with E-mail, guest path)
+ATS: Emply (minervaimaging.career.emply.com)
+Uploaded: CoverLetter_MinervaImaging.pdf and Prabhavit_CV_MinervaImaging.pdf, both uploaded and filename-verified on the Cover Letter & CV tab.
+Filled: Personal information tab (email, name, phone, address Via Zanetti 10 / 30175 Venice Italy, terms-of-use ticked, 180-day re-contact consent No, termination notice 2 weeks) and Screening tab (Nationality Indian, Citizenship Indian, EU/Non EU = Non EU, valid work permit = No, expat tax scheme = "I am not on the expat tax scheme"). "Where have you seen this job posting?" = Linkedin.
+Blocker: a required "Exam diploma" file upload (red asterisk, no text-field alternative) blocks the Apply button. This calls for a scan of an actual academic diploma/certificate; no such file exists in ROOT and this agent will not fabricate an academic document. Left the form filled, did not click Apply, nothing submitted.
+Answers given: see answers/MinervaImaging-2026-09-17.md for the full field-by-field list, including the "valid work permit = No" reasoning (Denmark is excluded from the EU long-term-resident mobility directive per answers/work-authorisation.md, so Italian EU LTR status does not cover it).
+Dedupe: NEW (python3 loop/dedupe.py --check "Minerva Imaging" "https://www.linkedin.com/jobs/view/4468374757/").
+Confirmation/detail file: confirmations/MinervaImaging-2026-09-17.txt.
+LEARNINGS: added -- new ATS trap, Emply guest-apply forms can carry a required academic-document upload with no field for facts-not-on-file to reroute around.

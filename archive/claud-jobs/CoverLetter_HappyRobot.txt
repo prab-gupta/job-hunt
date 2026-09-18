@@ -1,0 +1,15 @@
+Dear HappyRobot team,
+
+I am applying for the Forward Deployed Engineer role in Barcelona.
+
+The job description reads like my last two years. At FlowSpace (coworking marketplace, London) I was the engineer who sat between customers and the product: I onboarded operators, found out what actually slowed them down, built the fix, shipped it, and iterated on their feedback. The biggest piece was the LLM pipeline that turns any operator brochure (PDF, website, photo, spreadsheet) into a validated listing after human review, 900+ listings so far. I also built the RAG support agents that answer availability and pricing questions from live data and escalate to a person when confidence is low, and the OfficeRnD and Nexudus API integrations that connect bookings to the systems operators already run. All of it in React, TypeScript, Node.js and Python, with Claude and OpenAI APIs and n8n for orchestration, and most of it started as an MVP shown to a real customer the same week.
+
+HappyRobot's AI workers make phone calls and take actions in logistics operations where a wrong answer has a cost, which is exactly the kind of setting where prompt tuning, evaluation and graceful fallback matter more than demos. I have run that loop in production at small scale: tuning prompts against real inputs, adding confidence scoring, deciding when the agent hands off, and explaining the trade-offs to non-technical stakeholders. I manage several customer projects in parallel today and I am used to tight deadlines with a live product.
+
+Logistics: I am based in Venice, Italy, hold an EU long-term residence permit and can relocate to Barcelona; Spain would need an employer-side work permit, which is routine for a full-time hire. English is my working language (C1), my Spanish is basic. Available immediately.
+
+A runnable sample of how I build: github.com/prab-gupta/llm-doc-parser. CV attached.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit

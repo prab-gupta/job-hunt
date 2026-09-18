@@ -1,0 +1,12 @@
+Dear REPA Hiring Team,
+
+I am applying for the AI Engineer / Specialist role in Bergkirchen. I have three years of professional experience building generative AI applications and AI agents end to end, from a first prototype through to a feature a business team actually relies on, and I work daily in Python across data extraction, API integration and evaluation.
+
+At UltraStrategy, I built a CV parsing and assessment pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, scores how relevant that candidate is for specific types of roles using n8n and Eden AI, and the result is delivered to the frontend before a standardised Ultra CV is generated. That is the same shape of work your role describes: take a proof of concept for a generative AI feature and turn it into something production-ready with data quality and evaluation built in.
+
+At FlowSpace, I built and own an AI listing bot that takes a workspace provider's brochure in any format, PDF, website or spreadsheet, and drafts a full structured listing with a human in the loop, past 900 listings produced. I also built support AI agents that answer customer queries from live platform data and escalate to a human when their confidence is low, and shipped OfficeRnD and Nexudus API integrations for automated bookings alongside CRM and GTM automations. Across all of it, the constant is integrating an AI solution into a real business process rather than leaving it as a demo.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process, and I am ready to relocate to Bergkirchen and complete that process. I would welcome the chance to bring that build-to-production discipline to REPA's AI and Innovation team.
+
+Regards,
+Prabhavit Gupta

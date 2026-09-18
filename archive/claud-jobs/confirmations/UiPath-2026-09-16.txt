@@ -1,0 +1,8 @@
+UiPath - Senior Forward Deployed Engineer - Bucharest, Romania
+URL: https://www.linkedin.com/jobs/view/4431514512/
+Apply route: https://jobs.ashbyhq.com/uipath/1806abfb-08fd-4ddb-9abd-8eb15c8a1b9f/application
+Submitted: 2026-09-16
+
+Confirmation banner on the Application tab:
+"Success
+Thank you for considering us! Your application has been successfully submitted."

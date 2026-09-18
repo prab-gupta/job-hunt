@@ -1,0 +1,12 @@
+Dear Gecal Informatica team,
+
+I am writing to apply for the Full Stack Developer Node.js/React role in Turin. The role matches the stack I use daily: Node.js and React for backend and frontend work, SQL-backed relational databases, and REST API design and integration.
+
+At FlowSpace, a workspace marketplace, I worked as lead developer, shipping full-stack features end to end, TypeScript and Next.js on the frontend, Node.js and Laravel on the backend, with Supabase and PostgreSQL as the data layer. I integrated OfficeRnD and Nexudus for automated bookings, and built an AI listing pipeline that turns a provider's brochure, in any format, into a structured listing, with a human in the loop before anything goes live. I also write Playwright tests to keep the product stable as it changes.
+
+I am based in Venice and hold Italian EU long-term resident status, so I am authorised to work in Italy without sponsorship, and I can be in Turin for the hybrid office days. My Italian is still at a beginner level and improving, but my English is professional working proficiency, which matches the B2 requirement in your posting.
+
+I would welcome the chance to discuss the role further.
+
+Kind regards,
+Prabhavit Gupta

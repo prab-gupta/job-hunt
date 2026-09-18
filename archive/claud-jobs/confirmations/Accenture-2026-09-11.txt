@@ -1,0 +1,6 @@
+Not submitted - account creation required, user-only.
+
+LinkedIn "Apply on company website" -> https://www.accenture.com/it-it/careers/jobdetails?id=R00344641_it (job n. R00344641, Multiple Locations, apply link routes to Roma) -> "Candidati ora" -> Workday "Start Your Application" chooser (Autofill with Resume / Apply Manually / Use My Last Application) -> clicked "Apply Manually" -> Application Progress shows step 1 of 6 "Create Account/Sign In" and the page immediately becomes a Workday "Sign In" page (title: "Sign In"). No guest-apply option exists on any of the three chooser buttons; all three require signing in or creating a Workday candidate account first. Screenshot captured at this Sign In screen.
+
+Exact apply URL: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641/apply
+Apply Manually URL (where the account wall appears): https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641/apply/applyManually

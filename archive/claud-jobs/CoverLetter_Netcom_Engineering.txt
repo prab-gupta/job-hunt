@@ -1,0 +1,14 @@
+Gentile team di NetCom Engineering,
+
+vi scrivo per candidarmi al ruolo di Software Engineer - Connectivity nel vostro team Automotive a Torino. Sono uno sviluppatore software con tre anni di esperienza in integrazione di API, automazione e sistemi distribuiti, e sono interessato a portare queste competenze verso lo sviluppo software embedded per la connettivita' di bordo.
+
+Per FlowSpace, un marketplace di spazi di coworking con sede a Londra, sono lo sviluppatore principale: ho integrato piu' API esterne (OfficeRnD e Nexudus) per automatizzare le prenotazioni, gestendo protocolli e formati diversi tra i sistemi, e ho costruito agenti di supporto AI che leggono i dati live della piattaforma ed escalano a una persona quando la confidenza e' bassa.
+
+Per Get2Germany, a Berlino, ho integrato le Google API per il tracciamento efficace della piattaforma e ho costruito strumenti di automazione basati su AI per la ricerca di corsi, stage e offerte di lavoro, un lavoro incentrato sulla comunicazione affidabile tra sistemi diversi, lo stesso principio alla base della connettivita' di bordo che cercate.
+
+Non ho esperienza diretta in C++ su centraline o in ambienti Linux embedded (Yocto), ne' con protocolli CAN o LIN, ma ho una solida base in Git, sviluppo Agile e debugging di sistemi complessi, e sono pronto a investire nella formazione interna che offrite per costruire competenze specifiche nel dominio automotive.
+
+Ho status di soggiornante di lungo periodo UE in Italia, autorizzato a lavorare senza necessita' di sponsorizzazione. Sono disponibile a lavorare on-site a Torino, incluse le trasferte previste in Francia, e posso iniziare da subito.
+
+Cordiali saluti,
+Prabhavit Gupta

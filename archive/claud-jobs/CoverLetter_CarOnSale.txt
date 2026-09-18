@@ -1,0 +1,12 @@
+Dear CarOnSale Hiring Team,
+
+I am applying for the Machine Learning Engineer role in Berlin. My three years of professional experience sit on the applied side of AI: building the pipelines, integrations and evaluation steps that decide whether an AI feature actually holds up once real users touch it, rather than training models from scratch. I have not worked with SageMaker or Terraform, but I am comfortable in Python, I already work daily with an AI-native toolchain, and I pick up new infrastructure fast when the underlying problem, moving data through a pipeline reliably and catching weak points before they ship, is one I already know well.
+
+At UltraStrategy, I built a CV parsing and scoring pipeline integrated into the platform. A user uploads a CV, the pipeline extracts the data with Affinda and the Claude API, assesses how relevant that candidate is for specific types of roles, and the result is delivered to the frontend before a standardised Ultra CV is generated. Getting that scoring step trustworthy meant iterating on the evaluation logic itself, not just the extraction, which is the part of your role description that spoke to me most directly.
+
+At FlowSpace, I own an AI listing bot that takes a workspace provider's brochure in any format, PDF, website or spreadsheet, and drafts a full structured listing with a human in the loop before it reaches the backend, now past 900 listings produced. I also built support AI agents that answer customer queries from live platform data and escalate to a human when their confidence is low, which is the same instinct your role asks for: know when a model's output is not good enough to serve on its own.
+
+I hold Italian EU long-term resident status. I am not currently authorised to work in Germany and would need the applicable employer-side permit or sponsorship process, and I am ready to relocate to Berlin and complete that process. I would welcome the chance to bring that pipeline discipline to a platform running four models today and twenty by next year.
+
+Regards,
+Prabhavit Gupta

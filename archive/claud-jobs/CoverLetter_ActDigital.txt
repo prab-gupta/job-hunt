@@ -1,0 +1,14 @@
+Dear act digital hiring team,
+
+I am writing to apply for the AI Agent Developer role in Lisbon. I build AI agents and automation workflows on n8n, wire them into LLM APIs and enterprise systems through REST integrations, and have shipped that work in production, not just in a demo.
+
+At FlowSpace, a workspace marketplace, I built an AI listing bot on n8n and the Claude API that takes a provider brochure in any format and drafts a full listing with a human in the loop, producing over 900 draft listings so far. I also built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, and integrated OfficeRnD and Nexudus through their APIs for automated bookings.
+
+At UltraStrategy, I built a CV parsing pipeline with n8n and Eden AI: a user uploads a CV, the pipeline extracts the data and scores role fit, the result reaches the frontend, and a standardised Ultra CV is generated using Affinda and the Claude API. Separately, at Get2Germany, I integrated Google APIs and built n8n automation tools that find courses, internships and jobs for users.
+
+I am comfortable working across the orchestration layer, prompt design and API integration, and I hold an Italian EU Long Term Residence Permit, so no sponsorship is needed for this role. I am based in Venice and available to relocate for the hybrid Lisbon schedule.
+
+I would welcome the opportunity to discuss how I could contribute to the act digital team.
+
+Regards,
+Prabhavit Gupta

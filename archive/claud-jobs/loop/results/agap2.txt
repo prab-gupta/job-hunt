@@ -1,0 +1,7 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4460484370/
+Uploaded: Prabhavit_CV_agap2.pdf (2pp, tectonic, parity-checked); CoverLetter_agap2.pdf/.txt drafted and kept on file (no cover-letter step on this LinkedIn Easy Apply flow).
+Answers given: work-permit/urgency radio answered "Sì" (available immediately); unfollowed company; no salary/language fields present on this 5-page flow.
+Blockers: none. LinkedIn Easy Apply pre-selected the last-used CV (Prabhavit_CV_CXLiving.pdf) - replaced explicitly via Upload resume, verified checked before Review. Applied despite the JD's senior/architect-leadership framing per the LI-PICK rule; letter is honest about 3 years, no seniority inflation.
+Confirmation: "Your application was sent to agap2 Italia!" - confirmations/agap2-2026-09-11.txt/.png (+before.png). Full detail in answers/agap2-2026-09-11.md.
+LEARNINGS: none new - standard 5-page Easy Apply flow, one extra "urgent hire / can you start immediately" radio question not seen on the other 3 leads today.
