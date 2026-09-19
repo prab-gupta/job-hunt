@@ -1,5 +1,15 @@
 # Current checkpoint
 
+## Queue resume — 2026-09-20
+
+- Crodox4468250324 now shows LinkedIn “Application submitted” (23 hours ago), reverified today. This supersedes the earlier server-error blocker; do not resubmit. Saved confirmation is in archive/claud-jobs/confirmations/Crodox-2026-09-20-reverified.yml.
+- No new applications submitted in this Sep20 check.
+- Euronext R28532 and Medtronic R73677 both require Workday account creation/sign-in. User asked to sign into Euronext while independent checks continued; no reply yet. Medtronic Slovakia-Remote does not establish Italy eligibility. Resolve permit/location questions honestly after login.
+- Accenture R00309569 saved base/apply URLs return page does not exist. Marked UNAVAILABLE, not company-wide closed.
+- Talent Search Technology4468222917 explicitly no longer accepts applications; marked CLOSED.
+- Strict TO APPLY queue exhausted. Next work: user login for account blockers, or fresh role discovery with exact dedupe. Cheap agent audited all four remaining rows; no duplicate applications made.
+
+
 ## Verified update — 2026-09-19
 
 This update supersedes stale pending lists below. Current user authorised continued applications.

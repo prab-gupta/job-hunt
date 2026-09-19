@@ -1,0 +1,409 @@
+- generic [ref=e159]:
+  - generic [ref=e164]:
+    - img "Premium" [ref=e166]
+    - heading "Take the next step in your job search" [level=2] [ref=e172]
+    - list [ref=e179]:
+      - listitem [ref=e180]:
+        - link [ref=e182] [cursor=pointer]:
+          - /url: https://www.linkedin.com/learning/role-play/interview-prep/4468250324/?u=0&trk=job_interview_prep
+          - paragraph [ref=e186]: Practice an interview
+  - generic [ref=e193]:
+    - heading "Application status" [level=2] [ref=e195]
+    - generic [ref=e198]:
+      - paragraph [ref=e199]: Application submitted
+      - paragraph [ref=e200]: 23 hours ago
+      - paragraph [ref=e201]:
+        - link "View resume" [ref=e202] [cursor=pointer]:
+          - /url: [signed resume download URL omitted]
+  - generic [ref=e208]:
+    - heading "About the job" [level=2] [ref=e210]
+    - paragraph [ref=e211]:
+      - generic [ref=e212]:
+        - paragraph [ref=e213]:
+          - strong [ref=e214]: "Location:"
+          - text: Remote (Europe preferred, any timezone within ~3h of CET considered)
+        - paragraph [ref=e215]:
+          - strong [ref=e216]: "Employment type:"
+          - text: Full-time
+        - paragraph [ref=e217]:
+          - strong [ref=e218]: "Company:"
+          - text: Crodox Software GmbH
+        - paragraph [ref=e219]
+        - paragraph [ref=e220]:
+          - strong [ref=e221]: About Crodox
+        - paragraph [ref=e222]: "Crodox is a compiler-based code isolation platform. Our tagline says it best: “Isolate components into independent repositories, merge changes back seamlessly."
+        - paragraph [ref=e223]: Crodox transforms software development by enabling effortless scaling, faster onboarding, secure outsourcing, conflict prevention, and stronger IP protection; making AI workflows more efficient and secure through reduced context windows; and reducing the cybersecurity attack surface.
+        - paragraph [ref=e224]: We're a startup, small and fast-moving.
+        - paragraph [ref=e225]
+        - paragraph [ref=e226]:
+          - strong [ref=e227]: The Role
+        - paragraph [ref=e228]: We're looking for a Developer Advocate to become the human bridge between Crodox and the engineers we build for. You'll help developers understand what Crodox exactly does, why it matters, and how to get value from it fast - through content, community, conversation, and code.
+        - paragraph [ref=e229]: "This is a rare hybrid role: equal parts hands-on technical credibility and comfort with public-facing communication."
+        - paragraph [ref=e230]
+        - paragraph [ref=e231]:
+          - strong [ref=e232]: What you will do
+        - list [ref=e233]:
+          - listitem [ref=e234]:
+            - strong [ref=e235]: "Create technical content:"
+            - text: blog posts, tutorials, walkthroughs, and demos showing how Crodox works
+          - listitem [ref=e236]:
+            - strong [ref=e237]: "Build developer-facing presence:"
+            - text: represent Crodox on X, LinkedIn, Youtube, Reddit, Stack Overflow, dev forums, and relevant communities - sharing genuinely useful technical insight, not just product pushes
+          - listitem [ref=e238]:
+            - strong [ref=e239]: "Talk to users:"
+            - text: run calls, gather feedback, and translate what enterprise engineering teams actually struggle with back into product and marketing input
+          - listitem [ref=e240]:
+            - strong [ref=e241]: "Represent Crodox at events:"
+            - text: conferences, meetups, and webinars targeting enterprise engineering audiences (we're active at events like GITEX)
+          - listitem [ref=e242]:
+            - strong [ref=e243]: "Partner with product & engineering:"
+            - text: stay close enough to the codebase and roadmap that your content is technically accurate and your instincts about what developers want are grounded in reality
+          - listitem [ref=e244]:
+            - strong [ref=e245]: "Help shape our narrative:"
+            - text: help translate our narrative into content developers and their leadership actually trust
+        - paragraph [ref=e246]
+        - paragraph [ref=e247]:
+          - strong [ref=e248]: What we are looking for
+        - list [ref=e249]:
+          - listitem [ref=e250]: Real software development experience - you've written production code, ideally touching C#, JavaScript & React, or large/legacy codebases specifically. You don't need to be a 10-year veteran, but you need to have been in the trenches enough to speak credibly to engineers
+          - listitem [ref=e251]: A track record of explaining technical things well - through a blog, YouTube channel, conference talks, open-source contributions, internal documentation, or prior DevRel/developer-marketing work
+          - listitem [ref=e252]: Comfort being the public-facing voice of a technical product - on camera, on stage, or just consistently on LinkedIn/X
+          - listitem [ref=e253]: Self-starter energy - this is a start-up, so you'll be building the developer advocacy function largely from scratch
+          - listitem [ref=e254]: Working proficiency in English required
+        - paragraph [ref=e255]
+        - paragraph [ref=e256]:
+          - strong [ref=e257]: What we offer
+        - list [ref=e258]:
+          - listitem [ref=e259]: Remote-first, with flexibility on full-time vs. part-time (min. 20 hrs/week) depending on what fits your life right now
+          - listitem [ref=e260]: Attractive remuneration package
+          - listitem [ref=e261]: The chance to define what developer advocacy looks like at Crodox from day one, rather than fitting into someone else's playbook
+        - button [aria-hidden] [ref=e262] [cursor=pointer]:
+          - generic [ref=e263]: … more
+  - generic [ref=e269]:
+    - heading "Set alert for similar jobs" [level=2] [ref=e270]
+    - generic [ref=e271]:
+      - paragraph [ref=e272]: Technology Evangelist, Germany
+      - switch "Set alert for similar jobs as Technology Evangelist" [ref=e273] [cursor=pointer]:
+        - generic [ref=e274]:
+          - generic:
+            - paragraph
+          - generic [ref=e275]:
+            - generic [ref=e276]: "Off"
+            - generic [ref=e277]:
+              - switch
+  - generic [ref=e285]:
+    - generic [ref=e286]:
+      - img "Premium" [ref=e287]
+      - button [ref=e294] [cursor=pointer]:
+        - img "Learn more" [ref=e295]
+    - heading "See how you compare to other applicants" [level=2] [ref=e298]
+    - heading "Based on LinkedIn data. Excludes subsidiaries." [level=3] [ref=e299]
+    - generic [ref=e300]:
+      - generic [ref=e301]:
+        - heading "Applicants for this job" [level=3] [ref=e302]
+        - generic [ref=e303]:
+          - paragraph [ref=e305]: "65"
+          - paragraph [ref=e306]: Applicants
+        - generic [ref=e307]:
+          - paragraph [ref=e309]: "20"
+          - paragraph [ref=e310]: Applicants in the past day
+      - generic [ref=e311]:
+        - heading "Applicant seniority level" [level=3] [ref=e312]
+        - paragraph [ref=e313]: 45% Senior level people applied for this job
+        - paragraph [ref=e316]: 42% Entry level people applied for this job
+        - paragraph [ref=e320]: 2% VP level people applied for this job
+      - generic [ref=e324]:
+        - heading "Applicant education level" [level=3] [ref=e325]
+        - paragraph [ref=e326]: 45% have a Bachelor's Degree (Similar to you)
+        - paragraph [ref=e327]: 25% have a Master's Degree
+        - paragraph [ref=e328]: 10% have a Master of Business Administration
+        - paragraph [ref=e329]: 20% have other degrees
+  - generic [ref=e336]:
+    - generic [ref=e337]:
+      - img "Premium" [ref=e338]
+      - button [ref=e345] [cursor=pointer]:
+        - img "Learn more" [ref=e346]
+    - generic [ref=e348]:
+      - paragraph [ref=e349]: There’s not enough quality data on this company just yet
+      - paragraph [ref=e350]: Once there are 30 complete member profiles from this company, we’ll be able to show you the company’s growth and hiring trends
+  - generic [ref=e354]:
+    - generic [ref=e355]:
+      - heading "About the company" [level=2] [ref=e357]
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - link [ref=e360] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/crodox-software-gmbh/life/
+            - generic [ref=e361]:
+              - figure [aria-hidden] [ref=e362]
+              - generic [ref=e363]:
+                - paragraph [ref=e366]: Crodox
+                - paragraph [ref=e368]: 532 followers
+          - button "Following, click to unfollow Crodox" [ref=e370] [cursor=pointer]:
+            - generic [ref=e371]: Following
+        - generic [ref=e376]:
+          - paragraph [ref=e378]: Software Development
+          - paragraph [ref=e380]: •
+          - paragraph [ref=e382]: 2-10 employees
+          - paragraph [ref=e384]: •
+          - paragraph [ref=e386]: 6 on LinkedIn
+        - paragraph [ref=e387]:
+          - generic [ref=e388]:
+            - text: What if your software engineering workflow could do three things at once?Codebases grow!! Tools multiply!! Security risks rise!! AI struggles without context. You or your team spend more time managing complexity than shipping value. We can help!Build with AI, scale delivery, and reduce cyber risk – all in one platform.
+            - button [aria-hidden] [ref=e389] [cursor=pointer]:
+              - generic [ref=e390]: … more
+    - link "Show more about the company" [ref=e392] [cursor=pointer]:
+      - /url: https://www.linkedin.com/company/crodox-software-gmbh/life/
+      - generic [ref=e393]: Show more
+  - generic [ref=e481]:
+    - heading "More jobs" [level=2] [ref=e482]
+    - generic [ref=e483]:
+      - link "More options NVIDIA Germany (Remote) 3 school alumni work here Promoted · Posted 1 week ago" [ref=e485] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4446884588&originToLandingJobPostings=4446884588&trackingId=5Wr2leQhLGDcXPvZCBfHbQ%3D%3D&eBP=CwEAAAGgu7YRVxeN07ZgciM3CfnggbPtJHPN3MNWl_L13MntXVY-TU3DMlcMu0rvsEbQnVbJjxzkkz9a_TJf5Md7GiS2keDU4nY39n-fOVZZwm4OswvaSE_NwcfLiMpC5b83RA2j_RPKBsYjnMYnyLI1LF58PyeJ8DNijOIZpM9_0auyPeCQXEpINLWn-ErqqYnFz_8hzxhkzN-rg_rlmJiPlMmXsS9TCL00HFDQHUQB3XRlWFDbNctDpQtdIVFUpeN4IbYRqAGgVdy4ho8dw6lFHMvTmENmYZ0IROziTP6t2d4B4QDEu8bRzp25GhZjwZroe5nE-8L96-seC95ENgOzgLNVFpFPIoberM-JqtEKlrhVmx5vJzNEgb_ZPqLKcCjgNnRPhjOgUd9Kdnf3nzj3Z6XYcEJiEXRkUBAzFK1PSRpbhq359cha7lZnGH1iPFnXpe9SBJXMzYMxrv6Jiwz97gmkLOIcd12s2k4WUrrsG6a8ZVS7&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e486]:
+          - generic [ref=e487]:
+            - generic [ref=e488]:
+              - figure [aria-hidden] [ref=e489]
+              - button "More options" [ref=e491]
+            - generic [ref=e495]:
+              - generic [ref=e498]:
+                - paragraph [ref=e501]:
+                  - generic [aria-hidden] [ref=e504]: Developer Relations Manager, Computer Aided Engineering
+                - paragraph [ref=e509]: NVIDIA
+                - paragraph [ref=e511]: Germany (Remote)
+              - generic [ref=e513]:
+                - figure [aria-hidden] [ref=e514]
+                - paragraph [ref=e516]: 3 school alumni work here
+          - generic [ref=e517]:
+            - paragraph [ref=e518]: Promoted
+            - paragraph [ref=e519]: ·
+            - paragraph [ref=e520]:
+              - generic [ref=e521]: Posted 1 week ago
+              - text: 1 week ago
+      - link "More options NVIDIA Germany (Remote) 3 school alumni work here Promoted · Posted 2 weeks ago" [ref=e523] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4462325487&originToLandingJobPostings=4462325487&trackingId=1fIV%2FDCtH3syb7wgQKOsFg%3D%3D&eBP=CwEAAAGgu7YRWHiTLQx5fRPI3-JgXAXa4XPTTQkKelxVdAikNDrsrTuWz-_Uq7vrpTITAsPNPYF-dbzPKFkamAh1bcG9Gkhbk6na1_FIEDcoe5dBA_bEG_pJtBnZQbCrzmQE_asxgSZIzqw9Eq-1IGMzZFzhAmxL6QJrB0kqPMzzfoe27-9cFKXgNUdpheP9Df8rxxIvAJbyU46WBE7cJfQ1BvjGAbRj8U6g2_bCZGEkRTSd-uU8LeWCnji4h__TNFVjXr7AbhhZKKaCZhRkil4Ee6XBuNIFUq7ft3ieNaKoXRKs1D0tD3NxwLhDgzm1vXiS_rSNt9fB516IR-K88Jv4aDLzQDa3KNPJpSf3t4Ueaj0bOP7259V1IEild1VoQrI35o_ZKwUpbHeSren0EC29DtL1L_7rNV4s7gL9opXWFcmqaqL8NscsPZF9QnZD-UqSN0pwTL0lCcOLfUwelZk555KyqSEbaG6cG4vF-dkD1jc&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e524]:
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - figure [aria-hidden] [ref=e527]
+              - button "More options" [ref=e529]
+            - generic [ref=e533]:
+              - generic [ref=e536]:
+                - paragraph [ref=e539]:
+                  - generic [aria-hidden] [ref=e542]: Senior Developer Relations Manager - Manufacturing
+                - paragraph [ref=e547]: NVIDIA
+                - paragraph [ref=e549]: Germany (Remote)
+              - generic [ref=e551]:
+                - figure [aria-hidden] [ref=e552]
+                - paragraph [ref=e554]: 3 school alumni work here
+          - generic [ref=e555]:
+            - paragraph [ref=e556]: Promoted
+            - paragraph [ref=e557]: ·
+            - paragraph [ref=e558]:
+              - generic [ref=e559]: Posted 2 weeks ago
+              - text: 2 weeks ago
+      - link "More options Grafana Labs Germany (Remote) You’d be a top applicant Promoted · Posted 1 day ago · Easy Apply" [ref=e561] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4469231470&originToLandingJobPostings=4469231470&trackingId=J3aHnp3zLY6BF8CDnkMu6A%3D%3D&eBP=CwEAAAGgu7YRWExKAy7dnQ1Yhk2w22LzuXKR6BZOuKBGiLXakqKmmKiww4dPVX1Ej0pk11kew7S31g1JiWp_MWdXIP3AdF2XwXs6hNY72dLbCqLWIYuSp8dlCxVypyjBf3c17ACTA_Yeh2IdrwlLn6fmy6VXbzJijIV-zN-A9LGq6-2b39_TWX8b-eRyAFalMop854XOJfMWhMF743z1FPl0VpTS8TUkBvPMV623tYrJ5txDYdb4_OJrrRt1AKVnHTmM3Mng1ChmOqrz74_sCxADtDwATo4w1N4D19L8vs4hflYMYoPeCa2XT0aawqm9HH8rm7lnp1DzqU0ZsXidx75qYf7lhjRNh3LHi-IQoK5MRbZiqV0Z-tP9BBqCnO3FgmW4q8HfFvK1cHz3Fq99lsM1gTpyhpUChb9YQk9CEK_eOgBErKEfyo8a0aGhFj1ZRQja6U6JbO4dQYzvBTe-jaM&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e562]:
+          - generic [ref=e563]:
+            - generic [ref=e564]:
+              - figure [aria-hidden] [ref=e565]
+              - button "More options" [ref=e567]
+            - generic [ref=e571]:
+              - generic [ref=e574]:
+                - paragraph [ref=e577]:
+                  - generic [aria-hidden] [ref=e580]: Staff Field Engineer | Germany | Remote
+                - paragraph [ref=e585]: Grafana Labs
+                - paragraph [ref=e587]: Germany (Remote)
+              - paragraph [ref=e594]: You’d be a top applicant
+          - generic [ref=e595]:
+            - paragraph [ref=e596]: Promoted
+            - paragraph [ref=e597]: ·
+            - paragraph [ref=e598]:
+              - generic [ref=e599]: Posted 1 day ago
+              - text: 1 day ago
+            - paragraph [ref=e600]: ·
+            - paragraph [ref=e604]: Easy Apply
+      - link "More options NVIDIA Germany (Remote) 3 school alumni work here Promoted · Posted 2 weeks ago" [ref=e606] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4395485227&originToLandingJobPostings=4395485227&trackingId=oGih8ZTYGa2EHwIfvyf4Dw%3D%3D&eBP=CwEAAAGgu7YRWAerTDXBlB_1tCoXVOvCn6MjiYNyXaxWSXWvy3QaAmpYbXXAj6-MtB_L5kzj0JJyDNeQ2w5MuH8Em28euZ4YOXWdre1CVYUQ70wzmZYoiPytOCz2tZZSq7i-a0AD8ONJDzHGQWdkFFNeUE5YS_0vmlEtprYIoz7MoF-HYYYU1doraqHCy6v5JkVeV0X9NAcK8kjay7CcInIXslC7zO4eVYVe_Mch0NTlbATDxIcif2VQ9wro6o7lUFW2QCL3EDCktGuAPrl4VBnvkLbGBbQFpaIzbVWESGXrkrNR8iSIQEZffNlmEmp2pS9qntGzxugWHuHyRWny2hjoBN97iNfVrlrU9Nk8SDwkS1x3B_n8TStPmmhg-Sv9nbBq8UIUyam8Y5D_0qTQG8hXar-0E_TWIL2C9GcnxRGHJhAeG_1QHNKFbI25OMIwLyiabZO5dq5io-fkEXVe&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e607]:
+          - generic [ref=e608]:
+            - generic [ref=e609]:
+              - figure [aria-hidden] [ref=e610]
+              - button "More options" [ref=e612]
+            - generic [ref=e616]:
+              - generic [ref=e619]:
+                - paragraph [ref=e622]:
+                  - generic [aria-hidden] [ref=e625]: Developer Relations Manager, Retail & Media Entertainment
+                - paragraph [ref=e630]: NVIDIA
+                - paragraph [ref=e632]: Germany (Remote)
+              - generic [ref=e634]:
+                - figure [aria-hidden] [ref=e635]
+                - paragraph [ref=e637]: 3 school alumni work here
+          - generic [ref=e638]:
+            - paragraph [ref=e639]: Promoted
+            - paragraph [ref=e640]: ·
+            - paragraph [ref=e641]:
+              - generic [ref=e642]: Posted 2 weeks ago
+              - text: 2 weeks ago
+      - link "More options NVIDIA Hamburg (Remote) 3 school alumni work here Promoted · Posted 1 week ago" [ref=e644] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4463554997&originToLandingJobPostings=4463554997&trackingId=IubDjMnLb5gtE2coybSWNw%3D%3D&eBP=CwEAAAGgu7YRWI24rMGqkjLwxWPaifguG6wv284z6nclYPFu3axI0Wk7AY9JWtDPOohMkSFHvGyt7g7DW9C8OYAhTp-yiqty_f1p1P9dVOJynPBEkqR6Wo6xeDRNKA-CkUupRKh9s8e7ex-WX1ECRtE1Olf9tbIftI43rzfhMgbZzT6ssBFibuq1WOTMuqBRfTbtVlTVZvIPo-TvzW9nfWBY7wPeAEqbsoFM569oJarslGVrlxjC6ZP3k9AlA9sKoPy1Xsiod3EskB0JNUl_qDCa9rXh8c-yrvMbcjCul7gn5kyqSAU1xdQGCM3x9woiad8DjoFoYuQxqOLxfP1Wn5zkIMeSakl7v-c9JCv7oIDesrwHj_6xNPanmdwPuYuTj-mr94U_ooIiAdhjqLV1SZjQgPlLFVD1EBJQyos2sIGXKGs55-1zB8SoThDY2fbmLu_WcWdtrwkNACiOhxJdZed3Yaf8JVtfccEcJQKMOOKKkA56Tw&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - generic [ref=e647]:
+              - figure [aria-hidden] [ref=e648]
+              - button "More options" [ref=e650]
+            - generic [ref=e654]:
+              - generic [ref=e657]:
+                - paragraph [ref=e660]:
+                  - generic [aria-hidden] [ref=e663]: Senior Developer Relations Manager – Smart Spaces and Local Government
+                - paragraph [ref=e668]: NVIDIA
+                - paragraph [ref=e670]: Hamburg (Remote)
+              - generic [ref=e672]:
+                - figure [aria-hidden] [ref=e673]
+                - paragraph [ref=e675]: 3 school alumni work here
+          - generic [ref=e676]:
+            - paragraph [ref=e677]: Promoted
+            - paragraph [ref=e678]: ·
+            - paragraph [ref=e679]:
+              - generic [ref=e680]: Posted 1 week ago
+              - text: 1 week ago
+      - link "More options GitLab Germany (Remote) 1 school alumni works here Promoted · Posted 3 weeks ago" [ref=e682] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4441638247&originToLandingJobPostings=4441638247&trackingId=q9fo1n4Lp23hz%2FZetcBaeQ%3D%3D&eBP=CwEAAAGgu7YRWI3Kc1h0VjH0Hm_f9BaE7MFcLIS_iW1xJm5JyZwQPkPZ2RvKO0rrTMXLqamnXw5f0aW26Ix5OjGM6qslQut4pvnyd1Lhs-Md2JziYsIkBlJnWAjQfxYI4QsOAdZ1nhJ56CH_CXb44L6wlEJaFPfmeYRIIo3PHCAv0vBqZSvcNsHyUfE3LfTvZJhTatWkBOS3i8xB8gXMdd0_x4nLaMz5m7mugM1Hm2tAI1J6-zvZ0dJpA-BRrmvZYP7M4MrzRE_9R-0neKWBNbDWyj2vVYHRYUHTpXkbhMEGuMmtI6q4TdyEClKIRZC1ZWkSvQKqLWWFadL5FYa_P4zvoHkQoXD_G6cxnu2T-uFv1vSX13a3xLOsCfxpzLAt2FxmrxO1CGY3k7NDd2978snwR7VxODhHLG2KPAntveZcCK7A25aKzscVaBmsMSv1EOaoilLm4ZWi2GcUvg&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e683]:
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - figure [aria-hidden] [ref=e686]
+              - button "More options" [ref=e688]
+            - generic [ref=e692]:
+              - generic [ref=e695]:
+                - paragraph [ref=e698]:
+                  - generic [aria-hidden] [ref=e701]: Forward Deployed Engineer - EMEA
+                - paragraph [ref=e706]: GitLab
+                - paragraph [ref=e708]: Germany (Remote)
+              - generic [ref=e710]:
+                - figure [aria-hidden] [ref=e711]
+                - paragraph [ref=e713]: 1 school alumni works here
+          - generic [ref=e714]:
+            - paragraph [ref=e715]: Promoted
+            - paragraph [ref=e716]: ·
+            - paragraph [ref=e717]:
+              - generic [ref=e718]: Posted 3 weeks ago
+              - text: 3 weeks ago
+      - link "More options Mendix Berlin, Germany (Remote) Promoted · Posted 1 day ago" [ref=e720] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4448075211&originToLandingJobPostings=4448075211&trackingId=axey3RQNhZvdA7%2F0PWM3QA%3D%3D&eBP=CwEAAAGgu7YRWNI7S7PplwF4syEcTBxd-kGk9SzWREGoImjBXjRlyUMrRh9cE-Imc7nuBorSMnH3s539nqMj3iWOBuBXEL7KuCaC2-h-w4uVyFseoPgQQzO5APMXwuHXJwDP4tIrUz5BPyxn2ZjdLL73nAKNO8yDNBXQaxzIhSbY0r9rk667Zur_k5tSLZsFp5xctA4akek1jlQ6X6tYF6ztDWvawRK5N_-a_l1xAWk5Gb708JopC7qmldA2zmrRxU9_pdD2QrAuPhy3IV3h2YImFB6fHLOgF81eu8sJcMjXnN8PoB7R6BWA5igAG1kLPDQrst31O-R8TjaZpMU8GzD1TG7sZuE23lX9V32pKgDThDE1S17RMzhbj2xn7lEJgGtzd2avu0DpSI0TutUFJr0WRVaL9-mmtWjssvS7kSobqTTV1yikpiIOGuDcuNuHum9Y4_ue5ed_8apHxdUr&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e721]:
+          - generic [ref=e722]:
+            - generic [ref=e723]:
+              - figure [aria-hidden] [ref=e724]
+              - button "More options" [ref=e726]
+            - generic [ref=e733]:
+              - paragraph [ref=e736]:
+                - generic [aria-hidden] [ref=e739]: Solutions Engineer (Core AI)
+              - paragraph [ref=e744]: Mendix
+              - paragraph [ref=e746]: Berlin, Germany (Remote)
+          - generic [ref=e748]:
+            - paragraph [ref=e749]: Promoted
+            - paragraph [ref=e750]: ·
+            - paragraph [ref=e751]:
+              - generic [ref=e752]: Posted 1 day ago
+              - text: 1 day ago
+      - link "More options HappyRobot Munich (Remote) You’d be a top applicant Promoted · Posted 2 weeks ago" [ref=e754] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4372462916&originToLandingJobPostings=4372462916&trackingId=SWyAHavHKFdoMmQgW0HOzw%3D%3D&eBP=CwEAAAGgu7YRWPrV5JGy2LI8h6GOXZ_tDMqHVViYm8i6BiVAYay_ldPGFmD2_usftg-h5miNo93ViQ2tOh2AJo1azxgaT-2L8naflNnxr40QeATqh_JRBI68m4tHBev8eSRM1FIG9wPE_kSD9szY55Azx3TLYzeurahcK4jtK_uWnWvQLkDPH8TXOV1HTJJ1LOvW5PEHS9CQva4xICkgNPU4L01cK7Lw4QSJ6178COeEdyrVHZqPfhjjypIVdh2l0bmD3rVOgjMFWQQP_93AvdaN8bnDSOrj-InTlBd0v-VUpzW87fxCGB3Yqce36Nq4jJGw0LW7_su5BrKIzZALswvTwIHsUzo5fzRkkH8QIHM-JoEh_RoMqw4GnDvo5-pSlFJSL06Q33LVa9q8OoGgasZyV_NQgFY3cgDhDdYvviVnyiJ0HDp6N9zLsd3vZy1fs7uVP0nwUEGvogghaUW5sgc&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e755]:
+          - generic [ref=e756]:
+            - generic [ref=e757]:
+              - figure [aria-hidden] [ref=e758]
+              - button "More options" [ref=e760]
+            - generic [ref=e764]:
+              - generic [ref=e767]:
+                - paragraph [ref=e770]:
+                  - generic [ref=e771]: Forward Deployed Engineer - German Speaking
+                - paragraph [ref=e774]: HappyRobot
+                - paragraph [ref=e776]: Munich (Remote)
+              - paragraph [ref=e783]: You’d be a top applicant
+          - generic [ref=e784]:
+            - paragraph [ref=e785]: Promoted
+            - paragraph [ref=e786]: ·
+            - paragraph [ref=e787]:
+              - generic [ref=e788]: Posted 2 weeks ago
+              - text: 2 weeks ago
+      - link "More options Camunda Germany (Remote) 2 school alumni work here Promoted · Posted 2 weeks ago" [ref=e790] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4449861637&originToLandingJobPostings=4449861637&trackingId=%2B7CXD2jPfUlGMAU%2B4CIAbg%3D%3D&eBP=CwEAAAGgu7YRWJIkyWmHA9tmY7v4RMbRwFhpkrFFuf4O2R5ySEpDsvSCr8U7ea2TTBeu_4Bm91-SINdXjgPVv5k3GdA9S0ylROsjpNGsUDgfpY7mvHKBeYFOX7nozZg1A4sKJ_PfkdwAXa5WmwvR-BnRSbgOPTsP1JC5AZQHtN4Ymk843dKw6B8QoU4oGswrg5arsRW6DA3kWZjGrPXXmWEyS42edv4JzMOshi2tWGrOmra6sjpWLRE4ytlw_onp0dInbWl0UKd9_fSOaEzS8U-ZbAG-DeIs5GxC0gdUj22bf50XFImnU73GwxywjCRBqxtLMKF7lk2VxQPq98FJoAcsAH9NBDzMD2fl0HFRHisgDcjnSPwBvjKyYNUfeZu56Er7TGseskKvsOMuqk6bpMqVjVVvhUzh0cSrXTROn8mvzcL8u8fcs6nwu8D-zSAqe0ZIqA6WQlHA80Va3vjjvvs&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e791]:
+          - generic [ref=e792]:
+            - generic [ref=e793]:
+              - figure [aria-hidden] [ref=e794]
+              - button "More options" [ref=e796]
+            - generic [ref=e800]:
+              - generic [ref=e803]:
+                - paragraph [ref=e806]:
+                  - generic [aria-hidden] [ref=e809]: Technical Account Manager - DACH
+                - paragraph [ref=e814]: Camunda
+                - paragraph [ref=e816]: Germany (Remote)
+              - generic [ref=e818]:
+                - figure [aria-hidden] [ref=e819]
+                - paragraph [ref=e821]: 2 school alumni work here
+          - generic [ref=e822]:
+            - paragraph [ref=e823]: Promoted
+            - paragraph [ref=e824]: ·
+            - paragraph [ref=e825]:
+              - generic [ref=e826]: Posted 2 weeks ago
+              - text: 2 weeks ago
+      - link "More options JetBrains Germany (Remote) Promoted · Posted 3 days ago" [ref=e828] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4456970191&originToLandingJobPostings=4456970191&trackingId=qynvJq5Bdq8C1JQWK0pL8A%3D%3D&eBP=CwEAAAGgu7YRWNTXHLrDK5Plqfi-VsBU8hw7EQ0G02e-jNAt545DDoQNA0HgxtjW-Rv74-Wl87rrSlpIeDWdSvwqLWev6qEmMAu7uw_2aR5agUJxagui-TvKbsmleiL0C0h7ob9kPTxCx-_PjqMnsubFY5HytuqkeW3ZKpjdtRU86ALtJl1uWw_fPQppkUQLxp6i_Ptgb6qZUOU8jOGN36aX3WPE9TwdhBTR58GYXYKLu7ycK-2s8RM8-L6DlGA5YASBkKP7dNhcC0pA2mQXLxdUT-Txd-kpwW2469gv4xj6X6Xhc2v7JECztWxFtns-r2GaJ_DLBvT-dmmjMXW-5aqAqwAs277jhlaq9DbJCR45oR7zDUVI9QNkb4_M0p5XEE6HS56G5dcpSzGuH5v1egcJMxEgRX1eExnZUsEUEgQWXKkYOS-m-uHVNJXWUcm3xxeqk5ImOjSN-AdyM5fSGTFs4os8aqpvigu4x_e-qATUhDoN7IQn&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e829]:
+          - generic [ref=e830]:
+            - generic [ref=e831]:
+              - figure [aria-hidden] [ref=e832]
+              - button "More options" [ref=e834]
+            - generic [ref=e841]:
+              - paragraph [ref=e844]:
+                - generic [aria-hidden] [ref=e847]: Customer Success Engineer - YouTrack
+              - paragraph [ref=e852]: JetBrains
+              - paragraph [ref=e854]: Germany (Remote)
+          - generic [ref=e856]:
+            - paragraph [ref=e857]: Promoted
+            - paragraph [ref=e858]: ·
+            - paragraph [ref=e859]:
+              - generic [ref=e860]: Posted 3 days ago
+              - text: 3 days ago
+      - link "More options Datadog Germany (Remote) You’d be a top applicant Promoted · Posted 1 week ago" [ref=e862] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4446729913&originToLandingJobPostings=4446729913&trackingId=9fzer3VWckLCtJfdzCU9Yw%3D%3D&eBP=CwEAAAGgu7YRWPRRu9VJWDb6FhhQzT5DCdbWdsxWRy7CFyMwxorWl9RVZZ_mJjICSnr1LhISuvshspzdmI8b6kJw7VfiNXuV1f-7UKekN0QW7IaKneypwZpU4uKJmGeouMLhiAK-SXOfETRf28FQOjbMP6wfgufxX8QrjZcX1R7ef0vDfN7iQKuwQJSpQsalko9bnUJxnng93KXigh0ltgcWFDQuSAdBqPD6SUdL9A5HS5fKLPMZ7jNyre6JUrpdj8LW0Nn7Lk5_HfSFXlHvO8rF5GLkznIABZJm0Pb56FPsKJVqHXdXRL84FuOEcGZdAnuUPZBKEEyF_770B0Erd4BS9VL8cMDDZJZyP_3s2sAE_Ld0YGE3wIFsHtzTBjrigSBtv7jvUpqqyKrvYevjRGhgQCwqgS49BQtuAn2tZCP_elxWc27C70zfTzfK18VGT_Obouzn3NHnQzeiCjhykYU&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e863]:
+          - generic [ref=e864]:
+            - generic [ref=e865]:
+              - figure [aria-hidden] [ref=e866]
+              - button "More options" [ref=e868]
+            - generic [ref=e872]:
+              - generic [ref=e875]:
+                - paragraph [ref=e878]:
+                  - generic [aria-hidden] [ref=e881]: Partner Solutions Architect (EMEA)
+                - paragraph [ref=e886]: Datadog
+                - paragraph [ref=e888]: Germany (Remote)
+              - paragraph [ref=e895]: You’d be a top applicant
+          - generic [ref=e896]:
+            - paragraph [ref=e897]: Promoted
+            - paragraph [ref=e898]: ·
+            - paragraph [ref=e899]:
+              - generic [ref=e900]: Posted 1 week ago
+              - text: 1 week ago
+      - link "More options Natuvion Berlin (Remote) Promoted · Posted 2 days ago" [ref=e902] [cursor=pointer]:
+        - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_CARD&currentJobId=4457274384&originToLandingJobPostings=4457274384&trackingId=NJkScBNpbrUZdHQMJV5CaA%3D%3D&eBP=CwEAAAGgu7YRWDyU3uGdTdvrVi-AVYXFG-42B42ejuEv2b58bOd8MrJ8Ph41ZFSG19-ftDQUGvonv8w0_5G1MjKdNsqTLKvMtmsQY5TJmVnsw6ikA41hiLNV20Fx8Xg931sJilOMcDp0ATnkjzPmf2K6AbHnWffsk6eXKnqqCCsDNiPUy5N3vQph3oYztoVO11vn4URi5HiAYighZt_rKDlmDaz1t4bcqTdULmCgqeGEMSTZNfdvVDvhoEPwymX47CQz0_1LtcMjOFoyJG_Se3D65lF9kBVE0WwvvnMznUR7_2MibxH5khCbnvcjdMFyG57v2DNfRVAb1fYwIyQWJX2uFW2Frf-E_lErbmFFSOzlpQQWEKW9f6XFJx-MT7gAzC527vmw4t5v8YsOYj-jN2SeTxhHs71XaGh3r68id5fOnkR1jkc-wNbhpp48ZU9Ovq8ir91brCORfESLSHK04Bk&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
+        - generic [ref=e903]:
+          - generic [ref=e904]:
+            - generic [ref=e905]:
+              - figure [aria-hidden] [ref=e906]
+              - button "More options" [ref=e908]
+            - generic [ref=e915]:
+              - paragraph [ref=e918]:
+                - generic [aria-hidden] [ref=e921]: Technical Consultant Migration & Partner Enablement (m/f/d)
+              - paragraph [ref=e926]: Natuvion
+              - paragraph [ref=e928]: Berlin (Remote)
+          - generic [ref=e930]:
+            - paragraph [ref=e931]: Promoted
+            - paragraph [ref=e932]: ·
+            - paragraph [ref=e933]:
+              - generic [ref=e934]: Posted 2 days ago
+              - text: 2 days ago
+    - link "See more jobs like this" [ref=e935] [cursor=pointer]:
+      - /url: https://www.linkedin.com/jobs/search-results/?keywords=Developer+Advocate+%28m%2Ff%2Fd%29&origin=JobSearchOrigin_JOB_DETAILS_SIMILAR_JOBS_SEE_MORE&geoId=101282230&f_SAL=f_SA_id_225001%3A272001
