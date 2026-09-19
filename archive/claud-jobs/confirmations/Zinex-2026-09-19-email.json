@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-19",
+  "company": "Zinex Solutions",
+  "status": "SENT",
+  "message_id": "1a0b800d272b58b0",
+  "thread_id": "1a0b800d272b58b0",
+  "to": "hello@zinexsolutions.com",
+  "subject": "Application: AI Automation Engineer — Prabhavit Gupta",
+  "roles": [
+    "AI Automation Engineer",
+    "Integrations Engineer",
+    "QA Automation Engineer"
+  ],
+  "application_count": 1,
+  "cv": "Prabhavit_Gupta_CV_20260919.pdf",
+  "attachment_filename": "Prabhavit_Gupta_CV.pdf",
+  "attachment_bytes": 69255,
+  "evidence": "Gmail SENT verified with recipient, body and PDF attachment. Form returned HTTP503 and Applications are temporarily unavailable. Please email us directly.",
+  "body": "Hello Zinex team,\n\nI tried applying through your careers page for AI Automation Engineer, but it said applications are temporarily unavailable and asked me to email you directly. This is my first-choice role; I would also welcome consideration for Integrations Engineer or QA Automation Engineer.\n\nAt FlowSpace, I built AI-assisted listing and support workflows and booking API integrations, and worked on the migration from Bubble to Next.js and Laravel. When AI generated incorrect listing data, I cross-checked it against different sources and added guardrails. That experience made verification central to how I approach automation.\n\nAt UltraStrategy, I built a CV-parsing workflow integrated into the product using n8n and LLM tools. My other relevant experience includes Google API integrations at Get2Germany and API integration and QA at Clubee. My background is strongest in workflow automation and integrations; Python is currently a learning area for me.\n\nI am based in Venice, Italy (Europe/Rome), available immediately, and open to remote contracts through my active Partita IVA. My CV is attached.\n\nLinkedIn: https://www.linkedin.com/in/prabhavit/\nProject: https://github.com/prab-gupta/llm-doc-parser\n\nBest regards,\nPrabhavit Gupta\n+39 351 610 7807"
+}

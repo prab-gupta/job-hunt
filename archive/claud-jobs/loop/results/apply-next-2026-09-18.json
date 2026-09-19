@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-18",
+  "timezone": "Europe/Rome",
+  "status": "BLOCKED_BROWSER",
+  "browser_evidence": "cua.getState reported the Mac is locked and automatic unlock could not unlock it; existing browser 1 was unavailable.",
+  "applications": [
+    {"company": "Crodox Software GmbH", "role": "Developer Advocate (m/f/d)", "url": "https://www.linkedin.com/jobs/view/4468250324/", "dedupe": "NEW", "status": "BLOCKED_BROWSER", "evidence_file": "confirmations/Crodox-2026-09-18.txt"},
+    {"company": "Hays (client: Havi)", "role": "RPA Developer & AI Automation", "url": "https://www.linkedin.com/jobs/view/4464863110/", "dedupe": "HIT COMPANY", "status": "BLOCKED_BROWSER", "exact_role_submitted": false, "evidence_file": "confirmations/Hays-2026-09-18.txt"},
+    {"company": "Talent Search Technology", "role": "Generative AI Engineer", "url": "https://www.linkedin.com/jobs/view/4468222917/", "dedupe": "HIT COMPANY~", "status": "BLOCKED_BROWSER", "exact_role_submitted": false, "evidence_file": "confirmations/TalentSearchTechnology-2026-09-18.txt"},
+    {"company": "Inetum", "role": "RPA Automation Developer", "url": "https://www.linkedin.com/jobs/view/4421867444/", "dedupe": "NEW", "status": "BLOCKED_BROWSER", "evidence_file": "confirmations/Inetum-2026-09-18.txt"}
+  ]
+}

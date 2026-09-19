@@ -1,0 +1,7 @@
+Company: Officine IADR
+Role: Dev (target code DEV_202608_03 Web & Mobile Developer)
+URL: https://www.linkedin.com/jobs/view/4459175293/
+Attempted: 2026-09-18 (Europe/Rome)
+Dedupe: NEW from loop/dedupe.py --check
+Status: BLOCKED — live LinkedIn posting visibly says “No longer accepting applications”; no Easy Apply button was present.
+No submission attempted.

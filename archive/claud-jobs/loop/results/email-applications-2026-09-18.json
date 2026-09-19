@@ -1,0 +1,33 @@
+[
+  {
+    "company": "Capably",
+    "role": "Forward Deployed Engineer, EMEA",
+    "url": "https://www.linkedin.com/jobs/view/4435945935/",
+    "recipient": "jobs@capably.ai",
+    "source_url": "https://www.capably.ai/careers/forward-deployed-engineer-emea",
+    "message_id": "1a0b55bdb6606ec6",
+    "updated_cv_message_id": "1a0b55cddcbaf4a5",
+    "thread_id": "1a0b55bdb6606ec6",
+    "cv": "Prabhavit_CV_Capably-20260918-v2.pdf",
+    "date": "2026-09-18",
+    "status": "SUBMITTED",
+    "channel": "email application",
+    "evidence": "Gmail SENT label verified; recipient verified; final PDF MIME attachment 69255 bytes",
+    "attachment_bytes": 69255
+  },
+  {
+    "company": "Cofactor",
+    "role": "Forward deployed engineer",
+    "url": "https://www.linkedin.com/jobs/view/4457679285/",
+    "recipient": "careers@cofactorplatform.com",
+    "source_url": "https://cofactorplatform.com/careers/forward-deployed-engineer/",
+    "message_id": "1a0b55d163284d76",
+    "thread_id": "1a0b55d163284d76",
+    "cv": "Prabhavit_CV_Cofactor-20260918-v2.pdf",
+    "date": "2026-09-18",
+    "status": "SUBMITTED",
+    "channel": "email application",
+    "evidence": "Gmail SENT label verified; recipient verified; final PDF MIME attachment 69255 bytes",
+    "attachment_bytes": 69255
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-09-18",
+  "scope": "Bounded audit of the four supplied 2026-09-17 prepared roles. No browser use, submissions, queue changes, tracker mutations, or discovery.",
+  "profile_constraints_applied": [
+    "Python is learning; no production-Python claim used.",
+    "Italian is conversational B1-B2; English professional/fluent.",
+    "Italian Partita IVA is active; current work authorisation is Italy only.",
+    "No invented UiPath, Power Automate production, deep-learning, Azure, C#, React, DevRel, or specialist claims.",
+    "A dedupe company hit is not treated as same-role submitted evidence without an exact requisition submission record."
+  ],
+  "headroom": {
+    "status": "unavailable",
+    "note": "No Headroom tool was available in this bounded audit; no claim that it ran."
+  },
+  "candidates": [
+    {
+      "priority": 1,
+      "company": "Crodox Software GmbH",
+      "role": "Developer Advocate (m/f/d)",
+      "location": "Remote Europe preferred; Germany listing",
+      "url": "https://www.linkedin.com/jobs/view/4468250324/",
+      "readiness": "READY_WITH_MAJOR_GAPS",
+      "why_next": "Best of the four fit: remote-Europe wording, English role, JavaScript/TypeScript and shipped product work are relevant. The role explicitly allows part-time and says the function is being built from scratch, reducing the weight of the mid-senior label.",
+      "fit_evidence": [
+        "FlowSpace live marketplace migration and customer-facing production delivery.",
+        "Urlink and UltraStrategy provide client-facing requirements, AI/product explanation, and cross-team translation evidence.",
+        "English is the required working language; Italian is not required."
+      ],
+      "gaps": [
+        "No confirmed published technical writing, conference speaking, open-source advocacy, or established DevRel portfolio.",
+        "No C#; React is not separately evidenced (Next.js/TypeScript is evidenced).",
+        "German work authorisation is not currently held; remote-from-Italy arrangement or employer-side permit must be confirmed."
+      ],
+      "form_answers": {
+        "experience_years": "3",
+        "work_authorised_in_germany": "No",
+        "permit_or_sponsorship_needed": "Yes; use the saved Germany work-authorisation wording.",
+        "partita_iva": "Yes",
+        "drivers_license": "No",
+        "languages": "English professional/fluent; Hindi native; Italian conversational B1-B2",
+        "salary": "No figure in JD; existing material records EUR 45,000 as a standing default, subject to user judgment."
+      },
+      "dedupe": {
+        "helper_result": "NEW",
+        "same_role_submitted_evidence": "None found in applications.csv or exact URL/ID sources inspected.",
+        "status": "No dedupe blocker."
+      },
+      "materials": {
+        "cv_tex": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Crodox.tex",
+        "cv_pdf": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Crodox.pdf",
+        "letter_tex": "/Users/prab/Downloads/claud jobs/CoverLetter_Crodox.tex",
+        "letter_txt": "/Users/prab/Downloads/claud jobs/CoverLetter_Crodox.txt",
+        "letter_pdf": "/Users/prab/Downloads/claud jobs/CoverLetter_Crodox.pdf",
+        "prep_notes": "/Users/prab/Downloads/claud jobs/loop/results/Crodox-2026-09-17-prep.txt"
+      },
+      "verification": "CV is 2 pages and letter is 1 page. Letter explicitly discloses the missing technical-writing/conference background and does not claim Python, C#, Kubernetes, PyTorch, or Anthropic attribution."
+    },
+    {
+      "priority": 2,
+      "company": "Inetum",
+      "role": "RPA Automation Developer",
+      "location": "Lisbon, Portugal",
+      "url": "https://www.linkedin.com/jobs/view/4421867444/",
+      "readiness": "LOW_FIT_BUT_PREPARED",
+      "why_next": "The closest RPA option because the posting lists JavaScript, REST/API integration, workflow design, Git, testing, and debugging alongside UiPath. It remains a stretch application, not a strong qualification match.",
+      "fit_evidence": [
+        "Three years of workflow automation and API/JavaScript work using n8n, FlowSpace booking/CRM integrations, and Get2Germany Google API automation.",
+        "Git/GitHub, QA/testing, API integration, and debugging are evidenced in the CV source materials."
+      ],
+      "gaps": [
+        "Extensive UiPath Studio, Orchestrator, Robot, and RPA framework experience is required and absent.",
+        "No demonstrated Jenkins CI/CD, Dev/Test/Prod RPA deployment, bot monitoring, or credential-security implementation.",
+        "Portugal work authorisation is not currently held; permit/employer support is required.",
+        "The degree is Philosophy, International Studies & Economics, not the listed technical degree."
+      ],
+      "form_answers": {
+        "experience_years": "3 total professional/automation years; 0 UiPath years",
+        "work_authorised_in_portugal": "No",
+        "permit_or_sponsorship_needed": "Yes; use the saved Portugal work-authorisation wording.",
+        "partita_iva": "Yes",
+        "drivers_license": "No",
+        "languages": "English professional/fluent; Hindi native; Italian conversational B1-B2",
+        "salary": "No figure in JD; existing material records EUR 45,000 as a standing default, subject to user judgment."
+      },
+      "dedupe": {
+        "helper_result": "NEW",
+        "same_role_submitted_evidence": "None found in applications.csv or exact URL/ID sources inspected.",
+        "status": "No dedupe blocker."
+      },
+      "materials": {
+        "cv_tex": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Inetum.tex",
+        "cv_pdf": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Inetum.pdf",
+        "letter_tex": "/Users/prab/Downloads/claud jobs/CoverLetter_Inetum.tex",
+        "letter_txt": "/Users/prab/Downloads/claud jobs/CoverLetter_Inetum.txt",
+        "letter_pdf": "/Users/prab/Downloads/claud jobs/CoverLetter_Inetum.pdf",
+        "prep_notes": "/Users/prab/Downloads/claud jobs/loop/results/Inetum-2026-09-17-prep.txt"
+      },
+      "verification": "CV is 2 pages and letter is 1 page. Letter states n8n/API/JavaScript rather than UiPath and does not claim production RPA bots."
+    },
+    {
+      "priority": 3,
+      "company": "Hays (client: Havi)",
+      "role": "RPA Developer & AI Automation",
+      "location": "Lisbon, Portugal",
+      "url": "https://www.linkedin.com/jobs/view/4464863110/",
+      "readiness": "LOW_FIT_BUT_PREPARED",
+      "why_next": "Apply only if the LinkedIn-pick override is still intended. The posting asks for 5+ years and 3 years of hands-on UiPath, Power Automate, Azure/DevOps, SAP/enterprise integrations, and a technical degree; the candidate misses the central hard requirements.",
+      "fit_evidence": [
+        "API integration and workflow automation transfer: FlowSpace OfficeRnD/Nexudus and CRM/GTM integrations, Get2Germany Google APIs, and n8n orchestration.",
+        "English is the stated required language."
+      ],
+      "gaps": [
+        "5+ years total and 3 years UiPath are requested; profile supports about 3 years total and 0 UiPath.",
+        "No production UiPath, Power Automate, SAP, Azure DevOps/GitHub Actions CI/CD, or RPA governance evidence.",
+        "Portugal work authorisation is not currently held; permit/employer support is required.",
+        "The degree is not Computer Science, Software Engineering, or Information Systems."
+      ],
+      "form_answers": {
+        "experience_years": "3 total; 0 UiPath",
+        "work_authorised_in_portugal": "No",
+        "permit_or_sponsorship_needed": "Yes; use the saved Portugal work-authorisation wording.",
+        "partita_iva": "Yes",
+        "drivers_license": "No",
+        "languages": "English professional/fluent; Hindi native; Italian conversational B1-B2",
+        "salary": "No figure in JD; existing material records EUR 45,000 as a standing default, subject to user judgment."
+      },
+      "dedupe": {
+        "helper_result": "COMPANY",
+        "same_role_submitted_evidence": "No. The company hit is Hays's different 2026-08-24 AI Engineer requisition, which is recorded SUBMITTED; it is not this RPA requisition.",
+        "status": "Do not treat the company hit as same-role submission; exact URL/ID is new."
+      },
+      "materials": {
+        "cv_tex": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Hays.tex",
+        "cv_pdf": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Hays.pdf",
+        "letter_tex": "/Users/prab/Downloads/claud jobs/CoverLetter_Hays.tex",
+        "letter_txt": "/Users/prab/Downloads/claud jobs/CoverLetter_Hays.txt",
+        "letter_pdf": "/Users/prab/Downloads/claud jobs/CoverLetter_Hays.pdf",
+        "prep_notes": "/Users/prab/Downloads/claud jobs/loop/results/Hays-2026-09-17-prep.txt"
+      },
+      "verification": "CV is 2 pages and letter is 1 page. Letter explicitly says no UiPath/Power Automate production RPA bots and gives 3 years honestly."
+    },
+    {
+      "priority": 4,
+      "company": "Talent Search Technology",
+      "role": "Generative AI Engineer",
+      "location": "Warsaw, Poland",
+      "url": "https://www.linkedin.com/jobs/view/4468222917/",
+      "readiness": "LOWEST_FIT_PREPARED",
+      "why_next": "The role is centered on deep-learning model development, GANs/VAEs, NLP model training, computer vision, speech-to-text, Azure, and model monitoring. The candidate's evidence is applied LLM API integration and workflow automation, so this should be last or skipped.",
+      "fit_evidence": [
+        "UltraStrategy CV-parsing workflow using Affinda/Claude API and FlowSpace support/listing AI agents support applied LLM/NLP integration claims.",
+        "Cross-functional product integration and human-review/quality feedback are relevant at a high level."
+      ],
+      "gaps": [
+        "No GAN/VAE, neural-network training, deep-learning research, computer vision, speech-to-text, or feature-engineering evidence.",
+        "No Azure Cloud, Dynamics 365, Power Platform, or AI/ML Awareness Testing evidence.",
+        "Poland work authorisation is not currently held; permit/employer support is required.",
+        "The posting is mid-senior labelled and contract; Python remains a learning area."
+      ],
+      "form_answers": {
+        "experience_years": "3",
+        "work_authorised_in_poland": "No",
+        "permit_or_sponsorship_needed": "Yes; use the saved Poland work-authorisation wording.",
+        "partita_iva": "Yes",
+        "drivers_license": "No",
+        "languages": "English professional/fluent; Hindi native; Italian conversational B1-B2",
+        "salary": "No figure in JD; existing material records EUR 45,000 as a standing default, subject to user judgment."
+      },
+      "dedupe": {
+        "helper_result": "COMPANY~",
+        "same_role_submitted_evidence": "None found. This is a fuzzy company-name hit caused by the helper's broad substring match, not exact same-role submission evidence.",
+        "status": "Exact URL/ID is new; manually recheck before submitting because the company is an agency and the helper hit is noisy."
+      },
+      "materials": {
+        "cv_tex": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_TalentSearchTech.tex",
+        "cv_pdf": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_TalentSearchTech.pdf",
+        "letter_tex": "/Users/prab/Downloads/claud jobs/CoverLetter_TalentSearchTech.tex",
+        "letter_txt": "/Users/prab/Downloads/claud jobs/CoverLetter_TalentSearchTech.txt",
+        "letter_pdf": "/Users/prab/Downloads/claud jobs/CoverLetter_TalentSearchTech.pdf",
+        "prep_notes": "/Users/prab/Downloads/claud jobs/loop/results/TalentSearchTech-2026-09-17-prep.txt"
+      },
+      "verification": "CV is 2 pages and letter is 1 page. Letter explicitly distinguishes applied LLM/API work from GAN/VAE/deep-learning research and discloses no Azure/Dynamics/Power Platform experience."
+    }
+  ],
+  "overall_blockers": [
+    "All four are outside Italy and require a truthful no-current-authorisation answer for the listed country, with employer-side permit/support or a remote-from-Italy arrangement.",
+    "No browser review or submission was performed in this bounded job.",
+    "Existing PDFs are prepared and verified for page count; no corrected copies were necessary because these four materials contain no production-Python claim."
+  ],
+  "recommended_next_action": "If the submission owner must choose one, start with Crodox; use Inetum only as an explicit UiPath-gap stretch; leave Hays and Talent Search Technology for last because their central requirements are materially unsupported."
+}

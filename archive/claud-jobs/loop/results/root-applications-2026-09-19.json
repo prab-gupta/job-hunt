@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Acentecom",
+    "role": "AI Developer",
+    "url": "https://acentecom.com/careers/ai-developer",
+    "ats": "Company careers",
+    "status": "SUBMITTED",
+    "confirmation": "Received. Your application is in.",
+    "notes": "Checked CV Prabhavit_Gupta_CV_20260919.pdf uploaded; confirmations/Acentecom-2026-09-19.yml"
+  },
+  {
+    "company": "Inetum",
+    "role": "RPA Automation Developer",
+    "url": "https://www.linkedin.com/jobs/view/4421867444/",
+    "ats": "LinkedIn Easy Apply",
+    "status": "SUBMITTED",
+    "confirmation": "Your application was sent to Inetum!",
+    "notes": "Root observed confirmation; Prabhavit_CV_Inetum-20260918-checked.pdf; no permit or salary screening; supersedes earlier browser-blocked attempt"
+  },
+  {
+    "company": "Crodox",
+    "role": "Developer Advocate",
+    "url": "https://www.linkedin.com/jobs/view/4468250324/",
+    "ats": "LinkedIn Easy Apply",
+    "status": "BLOCKED",
+    "confirmation": "We couldn\u2019t submit your application. Please try again.",
+    "notes": "Root attempted twice; server error both times. NOT submitted. Checked CV uploaded; public developer-advocacy portfolio answered No. Do not retry blindly."
+  },
+  {
+    "company": "Zinex Solutions",
+    "role": "AI Automation Engineer (also considered: Integrations Engineer / QA Automation Engineer)",
+    "url": "https://zinexsolutions.com/careers",
+    "ats": "Email",
+    "status": "SUBMITTED",
+    "confirmation": "Gmail SENT 1a0b800d272b58b0",
+    "notes": "ONE combined application, not three submissions. Web form HTTP503 explicitly directed email. Sent published hello@zinexsolutions.com with verified 69255-byte checked CV. confirmations/Zinex-2026-09-19-email.json"
+  }
+]

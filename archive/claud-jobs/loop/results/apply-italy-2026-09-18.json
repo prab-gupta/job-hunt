@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-18",
+  "timezone": "Europe/Rome",
+  "applications": [
+    {
+      "company": "Run2AI",
+      "role": "Sviluppatore back-end",
+      "url": "https://www.linkedin.com/jobs/view/4465998795/",
+      "dedupe": "NEW",
+      "status": "SUBMITTED",
+      "evidence_file": "confirmations/Run2AI-2026-09-18.txt",
+      "evidence_text": "Application submitted now",
+      "resume": "Prabhavit_CV_Run2AI.pdf"
+    },
+    {
+      "company": "Officine IADR",
+      "role": "Dev (DEV_202608_03 Web & Mobile Developer)",
+      "url": "https://www.linkedin.com/jobs/view/4459175293/",
+      "dedupe": "NEW",
+      "status": "BLOCKED_CLOSED",
+      "evidence_file": "confirmations/OfficineIADR-2026-09-18.txt",
+      "evidence_text": "No longer accepting applications"
+    },
+    {
+      "company": "Cinque Terre Riviera incoming tour operator",
+      "role": "AI Operations Strategist",
+      "url": "https://www.linkedin.com/jobs/view/4468374668/",
+      "dedupe": "NEW",
+      "status": "BLOCKED_CLOSED",
+      "evidence_file": "confirmations/CinqueTerreRiviera-2026-09-18.txt",
+      "evidence_text": "Not currently accepting applications"
+    }
+  ]
+}

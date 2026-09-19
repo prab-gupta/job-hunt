@@ -1,7 +1,7 @@
 # Operating workflow
 
 ## Scope first
-Latest phase: repository consolidation; preceding task was a read-only sweep of 12–20 verified live openings. That sweep did not authorise new submissions. Earlier user authorisation to apply and send cold outreach is recorded, but an explicit finding-only task stays finding-only. Determine the current requested phase before acting.
+Latest phase: applications, explicitly authorised by the user on 2026-09-18 after repository consolidation: “then continue applying use cheap agents”. Apply from the saved queue with honest answers and verified evidence. Earlier outreach authorisation remains recorded. A later explicit finding-only request would limit that task to research.
 
 Standing application preference: prioritise Italy, junior roles and LinkedIn suggestions; all Italy/EU FDE postings were explicitly requested. Soft seniority filters were relaxed for LI-PICK/FDE-ALL. Still answer every qualification truthfully. Closed requisitions, confirmed duplicates and required languages the user lacks are exclusions. Account/CAPTCHA/assessment walls are blockers, not successes.
 

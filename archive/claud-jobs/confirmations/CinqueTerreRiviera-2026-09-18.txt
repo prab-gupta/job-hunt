@@ -1,0 +1,7 @@
+Company: Cinque Terre Riviera incoming tour operator
+Role: AI Operations Strategist
+URL: https://www.linkedin.com/jobs/view/4468374668/
+Attempted: 2026-09-18 (Europe/Rome)
+Dedupe: NEW from loop/dedupe.py --check
+Status: BLOCKED — live LinkedIn posting visibly says “Not currently accepting applications”; no Easy Apply button was present.
+No submission attempted.

@@ -1,0 +1,8 @@
+company: Inetum
+role: RPA Automation Developer
+url: https://www.linkedin.com/jobs/view/4421867444/
+ats: LinkedIn Easy Apply
+status: SUBMITTED
+confirmation: Your application was sent to Inetum!
+notes: Root observed confirmation; Prabhavit_CV_Inetum-20260918-checked.pdf; no permit or salary screening; supersedes earlier browser-blocked attempt
+Date: 2026-09-19

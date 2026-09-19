@@ -1,0 +1,7 @@
+Company: Inetum
+Role: RPA Automation Developer
+URL: https://www.linkedin.com/jobs/view/4421867444/
+Date: 2026-09-18 Europe/Rome
+Dedupe: NEW from loop/dedupe.py --check
+Status: BLOCKED_BROWSER — the browser host became unavailable because the Mac is locked and automatic unlock failed. No posting review, form entry, upload, or submission was attempted.
+Prepared CV: Prabhavit_CV_Inetum.pdf

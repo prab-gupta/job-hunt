@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-19",
+  "timezone": "Europe/Rome",
+  "status": "BLOCKED_BROWSER",
+  "browser_evidence": "Initial cua.getState check returned browsers: []; subsequent getTab browser 1/tab 2 and one documented getBrowser recovery attempt returned browser unavailable/no browser available. No form action attempted.",
+  "applications": [
+    {"company": "Crodox Software GmbH", "role": "Developer Advocate (m/f/d)", "url": "https://www.linkedin.com/jobs/view/4468250324/", "dedupe": "NEW", "status": "BLOCKED_BROWSER", "cv": "Prabhavit_CV_Crodox-20260918-checked.pdf", "evidence_file": "confirmations/Crodox-2026-09-19.txt"},
+    {"company": "Inetum", "role": "RPA Automation Developer", "url": "https://www.linkedin.com/jobs/view/4421867444/", "dedupe": "NEW", "status": "BLOCKED_BROWSER", "cv": "Prabhavit_CV_Inetum-20260918-checked.pdf", "evidence_file": "confirmations/Inetum-2026-09-19.txt"},
+    {"company": "Hays (client: Havi)", "role": "RPA Developer & AI Automation", "url": "https://www.linkedin.com/jobs/view/4464863110/", "dedupe": "HIT URL", "status": "DEDUPE_SKIP", "cv": "Prabhavit_CV_Hays-20260918-checked.pdf", "evidence_file": "confirmations/Hays-2026-09-19.txt"},
+    {"company": "Talent Search Technology", "role": "Generative AI Engineer", "url": "https://www.linkedin.com/jobs/view/4468222917/", "dedupe": "HIT COMPANY~", "status": "BLOCKED_BROWSER", "cv": "Prabhavit_CV_TalentSearchTech-20260918-checked.pdf", "evidence_file": "confirmations/TalentSearchTechnology-2026-09-19.txt"}
+  ]
+}

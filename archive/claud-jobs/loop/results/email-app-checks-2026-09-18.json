@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-18",
+  "scope": "Email-only preparation check; no emails sent and no browser operations",
+  "roles": [
+    {
+      "company": "Capably",
+      "title": "Forward Deployed Engineer, EMEA",
+      "location": "Madrid, Spain",
+      "url": "https://www.capably.ai/careers/forward-deployed-engineer-emea",
+      "live_verification": {
+        "status": "published",
+        "source": "https://www.capably.ai/careers/forward-deployed-engineer-emea",
+        "evidence": "Page title is Forward Deployed Engineer, EMEA | Capably; page shows Madrid, Spain and an Apply now mailto link.",
+        "recipient": "jobs@capably.ai",
+        "recipient_source": "Live page href=mailto:jobs@capably.ai"
+      },
+      "duplicate_check": {
+        "exact_role_or_url_local_match": true,
+        "prior_status": "NEEDS YOU / not submitted",
+        "evidence": "archive/claud-jobs/applications.csv row dated 2026-09-16 and answers/capably-2026-09-16.md; no submission confirmation"
+      },
+      "status": "READY_FOR_PARENT_TO_SEND",
+      "blocker": "Email send remains for parent Gmail owner; no application was sent here.",
+      "subject": "Application: Forward Deployed Engineer, EMEA",
+      "body_file": "/Users/prab/Downloads/claud jobs/CoverLetter_Capably-20260918.txt",
+      "attachments": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf",
+        "/Users/prab/Downloads/claud jobs/CoverLetter_Capably-20260918.pdf"
+      ],
+      "body": "Dear Capably hiring team,\n\nI am applying for the Forward Deployed Engineer, EMEA role in Madrid. I have spent the last three years as the person who sits between a customer's real workflow and a working system, and that is the job this role describes.\n\nAt FlowSpace, I took over a live workspace marketplace and drove its migration off a legacy stack onto Next.js and Laravel while the product stayed live, mapping the old structure entity by entity and choosing the migration path (API or CSV) for each one. The platform grew from 2,000 to 4,500+ users through that period. I also built and own an AI listing bot that turns a provider's brochure, in any format, into a drafted listing with a human in the loop, and support AI agents that answer customer queries from live platform data and escalate to a person when confidence is low.\n\nAt Urlink, I worked as project manager and AI-assisted developer for a client in Barcelona: gathering the client's actual requirements, building the platform and its logic, and implementing the automations the client needed on top of it. That combination, translating a client's operational reality into a working system and owning the build end to end, is the same shape of work Capably is describing for deployment.\n\nMy stack includes TypeScript, Next.js, Laravel, Supabase, n8n and LLM API integrations. I hold Italian EU long-term resident status, which gives me current work authorisation in Italy; a role in Spain would need the applicable employer-side permit or sponsorship process, which I am ready to start, and I am open to being based in Madrid.\n\nI am available immediately and would welcome the chance to talk through how I could help Capably increase deployment capacity.\n\nRegards,\nPrabhavit Gupta"
+    },
+    {
+      "company": "Cofactor",
+      "title": "Forward Deployed Engineer",
+      "location": "Stockholm, Sweden",
+      "url": "https://cofactorplatform.com/careers/forward-deployed-engineer/",
+      "live_verification": {
+        "status": "published",
+        "source": "https://cofactorplatform.com/careers/forward-deployed-engineer/",
+        "evidence": "Page title is Forward Deployed Engineer — Careers at Cofactor; page shows Engineering · Full-time · On-site · Stockholm and an Apply mailto link.",
+        "recipient": "careers@cofactorplatform.com",
+        "recipient_source": "Live page href=mailto:careers@cofactorplatform.com?subject=Forward%20Deployed%20Engineer"
+      },
+      "duplicate_check": {
+        "exact_role_or_url_local_match": true,
+        "prior_status": "NEEDS YOU / not submitted",
+        "evidence": "archive/claud-jobs/applications.csv row dated 2026-09-16 and answers/Cofactor-2026-09-16.md; no submission confirmation"
+      },
+      "status": "READY_FOR_PARENT_TO_SEND",
+      "blocker": "Email send remains for parent Gmail owner; no application was sent here.",
+      "subject": "Forward Deployed Engineer",
+      "body_file": "/Users/prab/Downloads/claud jobs/CoverLetter_Cofactor-20260918.txt",
+      "attachments": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Cofactor-20260918.pdf",
+        "/Users/prab/Downloads/claud jobs/CoverLetter_Cofactor-20260918.pdf"
+      ],
+      "body": "Dear Cofactor hiring team,\n\nI am applying for the Forward Deployed Engineer role in Stockholm. I have three years of professional experience in work that means sitting close to the people who do the job, understanding how the work actually happens, and then building the software that runs it end to end.\n\nAt FlowSpace I took over a live workspace marketplace and automated the migration of its data off a legacy stack onto Next.js and Laravel, mapping the old structure to the new one and driving the cutover while the product grew from 2,000 to 4,500+ users. I also built support AI agents that answer customer queries from live platform data and escalate to a human when confidence is low, and shipped CRM and GTM automations for lead capture and routing.\n\nAt Urlink I worked as project manager and AI-assisted developer, building the platform and its logic and implementing automations directly from client requirements, on Next.js, Supabase, Netlify and GitHub. Acting as the bridge between what a client actually needed and what got shipped is the part of that role closest to what Cofactor describes.\n\nI hold Italian EU long-term resident status. I am not currently authorised to work in Sweden and would need the applicable employer-side permit or sponsorship process. I am ready to relocate to Stockholm and complete that process.\n\nI would welcome the chance to talk through how I would approach encoding a first use case end to end.\n\nRegards,\nPrabhavit Gupta"
+    }
+  ],
+  "audit": {
+    "python_claims": "No Python claims added; current CVs contain no Python proficiency claim.",
+    "permit_claims": "Corrected both dated CVs to Italy-only work authorisation with permit or sponsorship disclosure for other countries; letters disclose Spain and Sweden status respectively.",
+    "unsupported_skills": "Removed RAG from both dated CVs and removed the unqualified production Claude API claim from the Capably letter.",
+    "pdf_validation": "Both dated CV PDFs compile successfully at 2 pages; both dated cover-letter PDFs compile successfully at 1 page; extracted text confirms corrected authorisation wording."
+  }
+}

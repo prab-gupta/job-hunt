@@ -1,0 +1,108 @@
+{
+  "prepared_at": "2026-09-19",
+  "scope": "Bounded read-only preparation for Acentecom and three Zinex contract leads; no browser operations, sends, queue edits, or tracker edits.",
+  "source_note": "/Users/prab/job-hunt/handoff/RESUME-NOTE-2026-09-18.md",
+  "whyfit_source": "/Users/prab/job-hunt/loop/results/contract-roles-2026-09-18-whyfit.md",
+  "dedupe_basis": "Checked relevant local applications.csv and confirmation paths for exact company/requisition/URL matches. No Acentecom or Zinex SUBMITTED row and no confirmation was found. The only local matches are the 2026-09-18 sweep lead records and drafted why-fit notes.",
+  "recommended_materials": {
+    "cv_capably_corrected": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf",
+    "cv_cofactor_corrected": "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Cofactor-20260918.pdf",
+    "material_note": "The corrected 2026-09-18 CVs are the safer available attachments: they remove the stale RAG/Python and blanket no-sponsorship claims. The older /Users/prab/Downloads/claud jobs/Prabhavit_CV_AI_Automation.pdf was not recommended because its text claims Python in the full-stack production stack and no sponsorship needed in the EU."
+  },
+  "roles": [
+    {
+      "company": "Acentecom",
+      "title": "AI Developer",
+      "url": "https://acentecom.com/careers/ai-developer",
+      "fit": 91,
+      "lead_status": "PRIOR_LEAD_ONLY_NOT_SUBMITTED",
+      "dedupe": {
+        "same_requisition_submitted": false,
+        "prior_lead": true,
+        "evidence": "/Users/prab/Downloads/claud jobs/loop/results/sweep-2026-09-18-contract-validated.json and contract-roles-2026-09-18-whyfit.md; no applications.csv row or confirmation found"
+      },
+      "eligibility_and_terms": "Remote explicitly lists LATAM, Europe, and EMEA; full-time or contract; posted 2026-09-17; compensation undisclosed; DTC e-commerce preferred.",
+      "form_requirements": "CV upload plus factual fields; written answer optional. No why-fit essay is required.",
+      "material_paths": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf"
+      ],
+      "why_fit": null,
+      "mandatory_unknowns": [
+        "Exact factual form fields and any rate/salary field should be read at application time.",
+        "Work-authorisation response is pending the user's permit clarification; do not assume blanket EU permission.",
+        "Compensation is undisclosed; no supported amount is recorded.",
+        "DTC e-commerce experience is preferred but not established in the evidence reviewed."
+      ]
+    },
+    {
+      "company": "Zinex Solutions",
+      "title": "AI Automation Engineer",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 88,
+      "lead_status": "PRIOR_LEAD_ONLY_NOT_SUBMITTED",
+      "dedupe": {
+        "same_requisition_submitted": false,
+        "prior_lead": true,
+        "evidence": "Same employer career URL/title lead in 2026-09-18 sweep JSON and why-fit note; no applications.csv row or confirmation found"
+      },
+      "eligibility_and_terms": "Remote worldwide; full-time or contract; at least four hours overlap with 09:00-18:00 PKT; compensation undisclosed; expected monthly rate or salary requested.",
+      "form_requirements": "Required Why Are You a Fit? response.",
+      "material_paths": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf"
+      ],
+      "why_fit": "I am a full-stack and AI automation engineer with about three years across eight European companies. At FlowSpace I built and operate production AI agents: support agents that answer customer queries from live platform data and escalate to a person when confidence is low, and an AI listing bot that turns a brochure in any format into a drafted listing with a human in the loop. At UltraStrategy I built a CV-parsing pipeline (n8n, Eden AI, the Claude API, Affinda) that extracts data, scores relevance for a role type and generates a standardised CV. My daily tools are TypeScript, Next.js, Node.js, Laravel, n8n and Claude Code. My Python is currently at a learning level, not yet a production strength, so I would contribute on the TypeScript and workflow side first while I close that gap. I would engage from Italy under Partita IVA and can cover the required time overlap.",
+      "mandatory_unknowns": [
+        "Work-authorisation response is pending the user's permit clarification; do not assume blanket EU permission.",
+        "Expected monthly rate or salary is mandatory but no supported figure is recorded.",
+        "Confirm the exact PKT overlap the user can cover before submitting."
+      ]
+    },
+    {
+      "company": "Zinex Solutions",
+      "title": "Integrations Engineer",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 86,
+      "lead_status": "PRIOR_LEAD_ONLY_NOT_SUBMITTED",
+      "dedupe": {
+        "same_requisition_submitted": false,
+        "prior_lead": true,
+        "evidence": "Same employer career URL/title lead in 2026-09-18 sweep JSON and why-fit note; no applications.csv row or confirmation found"
+      },
+      "eligibility_and_terms": "Remote worldwide; full-time or contract; at least four hours overlap with 09:00-18:00 PKT; compensation undisclosed; expected monthly rate or salary requested.",
+      "form_requirements": "Required Why Are You a Fit? response.",
+      "material_paths": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf"
+      ],
+      "why_fit": "Integrations are the core of my last three years. At FlowSpace I shipped OfficeRnD and Nexudus API integrations for automated bookings and built the CRM integration for lead capture, enrichment and routing. At Get2Germany I integrated Google APIs to build discovery tools for courses, internships and jobs, and at Clubee I integrated the Clubee API across the entire frontend with unit testing and QA. I work daily in TypeScript, Node.js, Next.js, Laravel and n8n, and I have built webhook and OAuth flows end to end. My Python is at a learning level today; my strongest integration work is in TypeScript and n8n. I would engage from Italy under Partita IVA and can cover the required time overlap.",
+      "mandatory_unknowns": [
+        "Work-authorisation response is pending the user's permit clarification; do not assume blanket EU permission.",
+        "Expected monthly rate or salary is mandatory but no supported figure is recorded.",
+        "Confirm the exact PKT overlap the user can cover before submitting."
+      ]
+    },
+    {
+      "company": "Zinex Solutions",
+      "title": "QA Automation Engineer",
+      "url": "https://zinexsolutions.com/careers",
+      "fit": 82,
+      "lead_status": "PRIOR_LEAD_ONLY_NOT_SUBMITTED",
+      "dedupe": {
+        "same_requisition_submitted": false,
+        "prior_lead": true,
+        "evidence": "Same employer career URL/title lead in 2026-09-18 sweep JSON and why-fit note; no applications.csv row or confirmation found"
+      },
+      "eligibility_and_terms": "Remote worldwide; full-time or contract; async-friendly; at least three hours overlap; compensation undisclosed; expected monthly rate or salary requested.",
+      "form_requirements": "Required Why Are You a Fit? response.",
+      "material_paths": [
+        "/Users/prab/Downloads/claud jobs/Prabhavit_CV_Capably-20260918.pdf"
+      ],
+      "why_fit": "I have done QA and testing inside real product teams. At Clubee I ran unit testing and quality assurance of new features while integrating the Clubee API across the frontend. At FlowSpace I use Playwright for browser automation and testing and have shipped API integrations that had to be verified end to end. My daily stack is TypeScript, Node.js, Playwright and n8n. My Python is currently at a learning level, so I would lead with Playwright and TypeScript for API and UI testing and grow the Python side. I would engage from Italy under Partita IVA and can cover the required time overlap.",
+      "mandatory_unknowns": [
+        "Work-authorisation response is pending the user's permit clarification; do not assume blanket EU permission.",
+        "Expected monthly rate or salary is mandatory but no supported figure is recorded.",
+        "Confirm the exact overlap requirement and availability before submitting."
+      ]
+    }
+  ],
+  "python_quick_bite": "In Python, a list of dictionaries is a practical way to represent repeated job records: each dictionary stores one role's fields, while the list lets you loop over all roles."
+}

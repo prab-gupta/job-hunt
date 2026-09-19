@@ -1,0 +1,20 @@
+- status [ref=f3e176]:
+  - paragraph [ref=f3e177]: Received
+  - heading "Your application is in." [level=3] [ref=f3e178]
+  - paragraph [ref=f3e179]: Thanks for applying for AI Developer. A recruiter reads every application; if there's a fit, here's what happens next.
+  - list [ref=f3e180]:
+    - listitem [ref=f3e181]:
+      - generic [ref=f3e182]: "01"
+      - generic [ref=f3e183]: Recruiter screen
+    - listitem [ref=f3e184]:
+      - generic [ref=f3e185]: "02"
+      - generic [ref=f3e186]: Personality test
+    - listitem [ref=f3e187]:
+      - generic [ref=f3e188]: "03"
+      - generic [ref=f3e189]: Manager interview
+    - listitem [ref=f3e190]:
+      - generic [ref=f3e191]: "04"
+      - generic [ref=f3e192]: Test task
+    - listitem [ref=f3e193]:
+      - generic [ref=f3e194]: "05"
+      - generic [ref=f3e195]: Final interview

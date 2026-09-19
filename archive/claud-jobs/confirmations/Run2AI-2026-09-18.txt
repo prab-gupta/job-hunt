@@ -1,0 +1,8 @@
+Company: Run2AI
+Role: Sviluppatore back-end
+URL: https://www.linkedin.com/jobs/view/4465998795/
+Attempted: 2026-09-18 (Europe/Rome)
+Dedupe: NEW from loop/dedupe.py --check
+Evidence: LinkedIn job page visibly showed “Application submitted now” under “Application status” after Easy Apply submission.
+Resume: Prabhavit_CV_Run2AI.pdf (uploaded successfully; selected in form)
+Questions/claims used: Italy work authorization yes; sponsorship not needed; Italian conversational; Partita IVA yes; driver’s licence no; Python not claimed.

@@ -1,0 +1,100 @@
+- generic [ref=f4e805]:
+  - generic [aria-hidden] [ref=f4e806]:
+    - text: Company website
+    - textbox [ref=f4e807]
+  - generic [ref=f4e808]:
+    - generic [ref=f4e809]: Role You Are Applying For *
+    - combobox "Role You Are Applying For *" [ref=f4e810]:
+      - option "AI Automation Engineer" [selected]
+      - option "Senior AI Engineer (LLM Systems)"
+      - option "Full-Stack Engineer (Next.js)"
+      - option "Backend Engineer (Node.js & Python)"
+      - option "Frontend Engineer (React)"
+      - option "Integrations Engineer"
+      - option "Shopify Developer"
+      - option "DevOps & Infrastructure Engineer"
+      - option "Data Engineer"
+      - option "QA Automation Engineer"
+      - option "AI Solutions Consultant"
+      - option "Technical Project Manager"
+      - option "Business Process Analyst"
+      - option "Customer Success Manager"
+      - option "Product Designer (UI/UX)"
+      - option "Technical Writer"
+      - option "SEO Content Strategist"
+      - option "Sales Development Representative"
+      - option "Growth Marketing Specialist"
+      - option "Partnerships Manager"
+      - option "Open Application - none of the above"
+  - generic [ref=f4e811]:
+    - generic [ref=f4e812]:
+      - generic [ref=f4e813]: Full Name *
+      - textbox "Full Name *" [ref=f4e814]:
+        - /placeholder: Jane Smith
+        - text: Prabhavit Gupta
+    - generic [ref=f4e815]:
+      - generic [ref=f4e816]: Email *
+      - textbox "Email *" [ref=f4e817]:
+        - /placeholder: jane@example.com
+        - text: prabhavitg@gmail.com
+  - generic [ref=f4e818]:
+    - generic [ref=f4e819]:
+      - generic [ref=f4e820]: Country of Residence *
+      - textbox "Country of Residence *" [ref=f4e821]:
+        - /placeholder: Portugal
+        - text: Italy
+    - generic [ref=f4e822]:
+      - generic [ref=f4e823]: Timezone
+      - textbox "Timezone" [ref=f4e824]:
+        - /placeholder: UTC+1 / CET
+        - text: Europe/Rome (CET/CEST)
+  - generic [ref=f4e825]:
+    - generic [ref=f4e826]:
+      - generic [ref=f4e827]: Years of Experience
+      - combobox "Years of Experience" [ref=f4e828]:
+        - option "Select range" [disabled]
+        - option "1-2 years"
+        - option "3-5 years" [selected]
+        - option "6-9 years"
+        - option "10+ years"
+    - generic [ref=f4e829]:
+      - generic [ref=f4e830]: Availability to Start
+      - combobox "Availability to Start" [ref=f4e831]:
+        - option "Select availability" [disabled]
+        - option "Immediately" [selected]
+        - option "Within 2 weeks"
+        - option "Within 1 month"
+        - option "More than 1 month"
+  - generic [ref=f4e832]:
+    - generic [ref=f4e833]:
+      - generic [ref=f4e834]: Portfolio / GitHub
+      - textbox "Portfolio / GitHub" [ref=f4e835]:
+        - /placeholder: https://github.com/username
+        - text: https://github.com/prab-gupta/llm-doc-parser
+    - generic [ref=f4e836]:
+      - generic [ref=f4e837]: LinkedIn
+      - textbox "LinkedIn" [ref=f4e838]:
+        - /placeholder: https://linkedin.com/in/username
+        - text: https://www.linkedin.com/in/prabhavit/
+  - generic [ref=f4e839]:
+    - generic [ref=f4e840]: Expected Monthly Rate or Salary
+    - textbox "Expected Monthly Rate or Salary" [ref=f4e841]:
+      - /placeholder: e.g. $3,500/month or $35/hour
+  - generic [ref=f4e842]:
+    - generic [ref=f4e843]: Why Are You a Fit? *
+    - textbox "Why Are You a Fit? *" [ref=f4e844]:
+      - /placeholder: Tell us about a system you built end to end - what it did, the tradeoffs you made, and what you would change now.
+      - text: "At FlowSpace I built AI-assisted listing and support workflows, booking API integrations, and worked on the migration from Bubble to Next.js and Laravel. One lesson came from AI inventing listing data: I cross-checked it against different sources and added guardrails. That experience made verification central to how I approach automation. At UltraStrategy I built a CV-parsing workflow integrated into the platform using n8n and LLM tools. I would contribute first through workflow automation and API integrations; Python is currently a learning area for me. I am based in Venice, Italy, available immediately, and open to a remote contract through my active Partita IVA."
+  - generic [ref=f4e845]:
+    - generic [ref=f4e846]: Resume (PDF, DOC, DOCX - max 5MB)
+    - button "Choose File" [ref=f4e999]
+    - generic [ref=f4e1000]:
+      - generic [ref=f4e1004]: Prabhavit_Gupta_CV_20260919.pdf
+      - generic [ref=f4e1005]: 0.1MB
+      - button "Remove resume" [ref=f4e1006] [cursor=pointer]
+    - paragraph [ref=f4e852]: No resume handy? A portfolio or LinkedIn link works instead.
+  - generic [ref=f4e853] [cursor=pointer]:
+    - checkbox "I agree that Zinex Solutions may store and process the details in this application for recruitment purposes. You can ask us to delete your data at any time by emailing us." [checked] [ref=f4e854]
+    - generic [ref=f4e855]: I agree that Zinex Solutions may store and process the details in this application for recruitment purposes. You can ask us to delete your data at any time by emailing us.
+  - paragraph [ref=f4e1013]: Applications are temporarily unavailable. Please email us directly.
+  - button "Submit Application" [ref=f4e856] [cursor=pointer]

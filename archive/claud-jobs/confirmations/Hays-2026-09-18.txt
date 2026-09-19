@@ -1,0 +1,7 @@
+Company: Hays (client: Havi)
+Role: RPA Developer & AI Automation
+URL: https://www.linkedin.com/jobs/view/4464863110/
+Date: 2026-09-18 Europe/Rome
+Dedupe: HIT COMPANY from helper; prep audit says this is a different Hays requisition, so exact URL remains unsubmitted/new pending live review.
+Status: BLOCKED_BROWSER — the browser host became unavailable because the Mac is locked and automatic unlock failed. No posting review, form entry, upload, or submission was attempted.
+Prepared CV: Prabhavit_CV_Hays.pdf

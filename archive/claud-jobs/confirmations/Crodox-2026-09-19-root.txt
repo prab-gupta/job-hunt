@@ -1,0 +1,8 @@
+company: Crodox
+role: Developer Advocate
+url: https://www.linkedin.com/jobs/view/4468250324/
+ats: LinkedIn Easy Apply
+status: BLOCKED
+confirmation: We couldn’t submit your application. Please try again.
+notes: Root attempted twice; server error both times. NOT submitted. Checked CV uploaded; public developer-advocacy portfolio answered No. Do not retry blindly.
+Date: 2026-09-19
