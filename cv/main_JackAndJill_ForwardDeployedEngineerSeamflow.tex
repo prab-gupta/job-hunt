@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti 10, 30175, Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Forward Deployed Engineer combining full-stack development with hands-on AI integration to ship custom solutions and bridge the gap between product engineering and customer success. Proven track record of translating complex business requirements into measurable automated workflows, integrating LLM APIs, and building multi-format data pipelines. Experienced in managing stakeholder communication, operating in client environments, and owning the entire product lifecycle from prototype to production.
+
+\vspace{3pt}
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Software Engineering}: TypeScript, Python, Node.js, Next.js, SQL, REST/GraphQL APIs
+\item \textbf{AI \& Orchestration}: LLM APIs, Agentic Workflows, RAG, Claude/OpenAI APIs, AI Orchestration Frameworks, n8n
+\item \textbf{Cloud \& Data}: AWS/GCP (familiarity), Postgres, Supabase, Multi-format Parsers (PDF, Web, Image)
+\item \textbf{Customer Success}: End-to-end product ownership, requirements gathering, cross-functional delivery, client training
+\end{itemize}
+
+\section{Professional Experience}
+\cventry{Mar 2024 - Aug 2026}{Lead Developer}{FlowSpace.co}{London, UK (Remote)}{}{\vspace{1pt}
+\begin{itemize}
+\item Led the live-product migration from a legacy stack to a modern Next.js architecture, successfully scaling the platform from 2,000 to over 4,500 active users.
+\item Embedded with operations teams to translate business requirements into working software, deploying a production AI listing bot utilizing Python, n8n, Claude, and TypeScript.
+\item Architected integrations and built support AI agents directly against live production data, implementing confidence-based human escalation to resolve customer queries.
+\item Shipped full-stack CRM automations and API integrations, actively collaborating with internal teams and external stakeholders to ensure robust delivery.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer}{Urlink}{Barcelona, Spain}{}{\vspace{1pt}
+\begin{itemize}
+\item Delivered a full-stack platform utilizing AI-assisted development tools, directly translating client requirements into scalable workflows and business logic.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Dec 2024 - May 2025}{AI Automation Developer}{UltraStrategy}{France}{}{\vspace{1pt}
+\begin{itemize}
+\item Developed an automated CV-parsing LLM pipeline utilizing n8n and Eden AI for precise data extraction and structured JSON output.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{\vspace{1pt}
+\begin{itemize}
+\item Built AI tools and automated pipelines integrating REST APIs to aggregate and rank professional opportunities, optimizing database performance with SQL.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\begin{itemize}
+\item \textbf{LLM Document Parser}: Open-source production pipeline converting unstructured documents into typed JSON schemas (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}).
+\end{itemize}
+
+\section{Education \& Certifications}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{\vspace{1pt}
+\begin{itemize}
+\item \textbf{Certifications}: Microsoft Copilot Studio Agent Academy, Introduction to building AI agents
+\end{itemize}
+}
+
+\end{document}

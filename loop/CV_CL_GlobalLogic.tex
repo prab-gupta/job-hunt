@@ -1,0 +1,141 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.0cm,bottom=1.0cm,left=1.2cm,right=1.2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.5em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% =====================================================================
+%  CURRICULUM VITAE
+% =====================================================================
+
+% ================= HEADER =================
+\begin{minipage}[c]{\textwidth}
+{\Huge\bfseries Prabhavit Gupta}\\[4pt]
+{\color{accent}\large Forward-Deployed AI Product Architect -- Intent-Driven Agents \& Enterprise Systems}\\[5pt]
+{\footnotesize +39 351 610 7807 ~$\vert$~
+\href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+\href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+\href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+Venice, Italy}
+\end{minipage}
+\vspace{4pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward-deployed AI product architect who builds and deploys autonomous AI workflows, context-aware RAG pipelines, and enterprise systems integrations that deliver measurable product value. At FlowSpace, served as lead developer bridging core AI capabilities with operational requirements. Built an AI-powered document extraction and listing pipeline that ingests complex unstructured enterprise data (PDFs, spreadsheets, emails, web schemas) via LLM APIs with structured outputs, deterministic validation guards, and human-in-the-loop review interfaces (1,000+ records in production). Established a PostgreSQL-based feedback loop capturing diffs between AI drafts and user edits to optimize prompt architectures and extraction fidelity. Designed secure integration layers connecting third-party platforms (OfficeRnD, Nexudus via OAuth2/webhooks) and built Model Context Protocol (MCP) style tools for live data retrieval. Experienced in embedding directly with client stakeholders and cross-functional teams to translate domain logic into reliable agentic workflows. Based in Italy, EU long-term residence permit, available immediately.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+  \item \textbf{AI Architecture \& Orchestration:} Multi-agent orchestration, agentic workflows, Tool Calling, Function Calling, Model Context Protocol (MCP), Claude API, OpenAI API, structured outputs, prompt engineering, evaluation frameworks, AI observability
+  \item \textbf{Data \& RAG Pipelines:} Context-aware RAG, vector retrieval, embeddings, document extraction (PDF, Excel, semi-structured schemas), PostgreSQL (Supabase, Neon), MySQL, data modeling, schema migration
+  \item \textbf{Systems Integration \& Governance:} REST/GraphQL APIs, OAuth2, webhooks, legacy system abstraction, deterministic guardrails, human-in-the-loop review UX, automated validation, GDPR/compliance alignment
+  \item \textbf{SDLC \& Engineering Velocity:} Claude Code, Next.js, React, TypeScript, Node.js, PHP, Laravel, Python, automated edge-case test generation, Playwright, CI/CD with GitHub Actions
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Lead Developer \& AI Solutions Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed an end-to-end AI document and listing ingestion pipeline: processed unstructured multi-format sources (PDF brochures, spreadsheets, emails, websites) using LLM APIs with structured outputs and function calling.
+  \item Implemented deterministic guardrails, human-in-the-loop verification UX, and an automated correction-tracking flywheel in PostgreSQL, diffing human edits against AI drafts to continuously improve extraction accuracy.
+  \item Integrated third-party APIs (OfficeRnD, Nexudus) end to end via OAuth2 and webhooks for real-time inventory sync and automated booking flows; designed abstraction layers connecting disparate platform schemas.
+  \item Migrated platform architecture off a legacy stack to Next.js and Laravel, preserving data integrity and zero-downtime cutover while scaling user base from 2,000 to 4,500+ active users.
+  \item Built n8n event-driven workflow automations for CRM sync and lead enrichment, alongside conversational AI agents retrieving context from live operational databases.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+Integrated Google APIs, built AI tools to find courses, internships and jobs, and optimized database schemas. Stack: n8n, Google APIs, relational data modeling.\\[1pt]
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+Integrated Clubee core API across frontend interfaces, executed comprehensive unit testing and QA cycles, and developed modular tools for domain integration and administration dashboards.\\[1pt]
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Developer (Internship)}{Utrecht, Netherlands}
+Integrated OpenAI/ChatGPT and Sendgrid APIs, implemented responsive UI architectures, and performed systematic debugging and feature testing.
+
+% ================= FREELANCE PROJECTS =================
+\section{Freelance Projects}
+\begin{itemize}
+  \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025), Project Manager \& AI-Assisted Developer. Partnered directly with client stakeholders to translate operational requirements into technical specifications; implemented UI and automation logic with Next.js, Supabase, and Netlify.
+  \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (2024 to 2025), AI Automation Developer. Engineered an intelligent CV parsing and data extraction pipeline using n8n and Eden AI, structuring unstructured text into defined schema outputs.
+  \item \textbf{\href{https://www.qomodo.me/}{Qomodo}} (2024 to 2025), AI Developer. Developed a multi-tenant branch management dashboard for operational tracking.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+\vspace{2pt}
+{\small \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship required in the EU; available immediately. \quad \textbf{Languages:} English (professional/C1), Hindi (native), Italian (beginner).}
+
+% =====================================================================
+%  COVER LETTER
+% =====================================================================
+\clearpage
+
+\begin{minipage}[c]{\textwidth}
+{\large\bfseries Prabhavit Gupta}\\[2pt]
+{\footnotesize Venice, Italy ~$\vert$~ +39 351 610 7807 ~$\vert$~
+\href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+\href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit}}\\[-2pt]
+\rule{\textwidth}{0.8pt}
+\end{minipage}
+\vspace{10pt}
+
+28 September 2026\\[10pt]
+
+\textbf{Motivation letter for Application for Forward-Deployed AI Product Architect (IRC302350) -- GlobalLogic}\\[8pt]
+
+Dear Hiring Manager,\\[6pt]
+
+I am writing to express my strong interest in the Forward-Deployed AI Product Architect position (IRC302350) at GlobalLogic. As an AI product engineer and solutions architect based in Europe, I have closely followed GlobalLogic's track record in digital product engineering and enterprise AI transformation within the Hitachi Group. GlobalLogic's focus on bridging core AI platform capabilities with mission-critical, regulated enterprise workflows lines up directly with my hands-on background in agentic orchestration, context-aware RAG pipelines, legacy systems abstraction, and forward-deployed client implementations.\\[6pt]
+
+Over the past three years, I have successfully transformed abstract business requirements into production-ready features across multiple European technology projects spanning different countries and sectors; from a sports management platform in Luxembourg to strategic consultant platforms in France and Spain.\\[6pt]
+
+Operating extensively as a freelance AI Solutions Developer, I engineered AI-based data parsing tools using n8n for UltraStrategy, automated complex workflows for Get2Germany, and executed rigorous quality assurance and API integrations for Clubee.\\[6pt]
+
+During my tenure at FlowSpace (based in London), I took over an already built system and managed it until its eventual migration to Next.js and Laravel. Alongside debugging the system, I also partook in GTM automations using their CRM. I engineered AI agents and automated data parsing tools that directly contributed to scaling the platform from 2,000 to over 4,500 active users.\\[6pt]
+
+My daily engineering workflow reflects the exact technical and forward-deployed responsibilities outlined in your role. At FlowSpace, I architected and deployed an end-to-end AI document extraction pipeline handling heterogeneous multi-format enterprise data (PDFs, spreadsheets, emails) using LLM APIs, function calling, and structured outputs. To ensure high reliability, I implemented deterministic guardrails, human-in-the-loop review interfaces, and an automated correction-tracking flywheel in PostgreSQL. Furthermore, I built integration layers connecting disparate APIs via webhooks and Model Context Protocol (MCP) concepts, and embedded directly with client stakeholders and engineering teams to translate complex operational logic into hardened, autonomous AI workflows.\\[6pt]
+
+I extensively leverage modern AI engineering harnesses such as Claude Code alongside modern frameworks (TypeScript, Next.js, Laravel, Supabase) to rapidly test hypotheses, evaluate models, and deploy resilient MVP and production architectures. I am also committed to continuous learning in enterprise AI; I have completed certifications in Microsoft Copilot Studio, Microsoft AI Agent Orchestration, and Tray.ai.\\[6pt]
+
+As a graduate of Ca' Foscari University, I have been living in Venice for 5 years, hold a European Long-Term Residence Permit requiring no visa sponsorship across the EU, and have the professional English proficiency required for international collaboration. I am also fully available for short and medium-term client travel as engagement demands require.\\[6pt]
+
+I would welcome the opportunity to discuss how my practical background in orchestrating agentic AI systems, integrating legacy platforms, and delivering measurable client outcomes can contribute to GlobalLogic's forward-deployed engagements.\\[6pt]
+
+Thank you for your time and consideration.\\[6pt]
+
+Sincerely,\\[10pt]
+
+Prabhavit Gupta\\[18pt]
+
+{\footnotesize\textit{I hereby authorize the processing of my personal data contained in this document in compliance with the European General Data Protection Regulation (EU Regulation 2016/679) and Italian Legislative Decree 196/2003, as modified by Legislative Decree 101/2018, for the purposes of recruitment and selection.}}
+
+\end{document}

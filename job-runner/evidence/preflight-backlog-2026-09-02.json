@@ -1,0 +1,9 @@
+[
+  {"opportunity_id":"2977","decision":"DEAD","required_fields":[],"blockers":["Salesforce Workday URL displays page does not exist"],"verified_at":"2026-09-02T07:50:03+02:00"},
+  {"opportunity_id":"2982","decision":"DEAD","required_fields":[],"blockers":["Ashby displays Job not found"],"verified_at":"2026-09-02T05:49:48.838Z"},
+  {"opportunity_id":"2983","decision":"DEAD","required_fields":[],"blockers":["Ashby displays Job not found"],"verified_at":"2026-09-02T05:49:48.838Z"},
+  {"opportunity_id":"2984","decision":"NEEDS_REVIEW","required_fields":["Name","Email","Resume","LinkedIn profile","Right to work in Berlin","Able to work onsite in Berlin full week"],"blockers":["Berlin work authorization is not established","Five-day onsite relocation willingness is unknown"],"verified_at":"2026-09-02T05:49:48.838Z"},
+  {"opportunity_id":"2985","decision":"LOCATION","required_fields":["Name","Email","Resume","Located in Netherlands","LinkedIn URL","Commute to Amsterdam office at least 3 days weekly"],"blockers":["Amsterdam hybrid attendance required","Relocation willingness not established"],"verified_at":"2026-09-02T05:49:53Z"},
+  {"opportunity_id":"2995","decision":"ESSAY","required_fields":["First Name","Last Name","Email","Resume/CV","LinkedIn","Location","Salary expectation","Two custom essays","Cover Letter","reCAPTCHA"],"blockers":["Two required essays","Cover letter field","reCAPTCHA"],"verified_at":"2026-09-02T05:49:53Z"},
+  {"opportunity_id":"2996","decision":"ESSAY","required_fields":["First Name","Last Name","Email","Resume/CV","School","LinkedIn","Multiple custom responses","Location and work status","Availability","Cover Letter","reCAPTCHA"],"blockers":["Multiple required custom responses","Cover letter field","reCAPTCHA"],"verified_at":"2026-09-02T05:49:53Z"}
+]

@@ -1,0 +1,121 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\par\vspace{2pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large AI Engineer -- Intelligent Agents, Enterprise Automation \& LLM Systems}\\[5pt]
+ \faPhone\ +39 351 610 7807 \quad
+ \faEnvelope\ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} \quad
+ \faLinkedin\ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} \quad
+ \faGithub\ \href{https://github.com/prab-gupta}{prab-gupta} \quad
+ \faMapMarker*\ Venice, Italy
+\end{center}
+
+% ================= SUMMARY =================
+\section{Summary}
+AI Engineer who builds intelligent autonomous agents, robust RAG pipelines, and automated enterprise workflows in production. I write real code -- Python, TypeScript, Next.js, Laravel -- and wire foundational models, external APIs, and data pipelines end to end. Certified across the Microsoft AI ecosystem (Copilot Studio, Power Automate) and experienced deploying autonomous support agents, custom copilots, and human-in-the-loop document processing systems with measurable operational impact for Nadara.
+
+% ================= PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+ \item \textbf{AI Document Processing Pipeline (FlowSpace):} multi-step human-in-the-loop AI tool that ingests unstructured assets (PDF brochures, websites, spreadsheets), extracts and validates data with LLMs, and pushes structured listings to production. Owned end to end. Stack: n8n, Claude, TypeScript, Python.
+ \item \textbf{Autonomous Support \& Query Agents (FlowSpace):} deployed AI agents that resolve customer queries directly against live database and platform contexts, with confidence-based escalation to human operators.
+ \item \textbf{Platform Migration to Next.js + Laravel (FlowSpace):} led the full architectural migration from a legacy stack to a modern coded Next.js and Laravel backend, designing data models and endpoints that feed AI workflows. Scaled from 2,000 to 4,500+ users.
+ \item \textbf{Enterprise CRM \& Operational Automations (FlowSpace):} built an automated pipeline connecting platform APIs, CRM, and outbound messaging for lead enrichment, intelligent routing, and synchronized operations.
+ \item \textbf{AI CV Parsing Engine (UltraStrategy):} production LLM data extraction tool using n8n and Eden AI, structuring complex multi-page PDF documents into unified schemas across diverse user profiles.
+\end{itemize}
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{AI Engineering \& Copilots:} Microsoft Copilot Studio, Autonomous AI Agents, RAG Architectures, Prompt Engineering, OpenAI/ChatGPT APIs, Azure OpenAI, Claude, Claude Code, LLM Orchestration, Human-in-the-Loop Review
+ \item \textbf{Automation \& Data Pipelines:} Microsoft Power Automate, n8n, Make, Event-Driven Workflows, Data Extraction \& ETL Pipelines, Webhooks, CRM \& Enterprise Integrations
+ \item \textbf{Languages \& Frameworks:} Python, TypeScript, JavaScript, Next.js, Node.js, Laravel (PHP), SQL
+ \item \textbf{APIs \& Cloud Infrastructure:} REST APIs, Microservices, Supabase, PostgreSQL, Docker, Git, GitHub Actions, CI/CD
+ \item \textbf{Testing, QA \& Tooling:} Playwright, Unit Testing, Agent Evaluation \& Guardrails, Postman, Jira, Figma
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Present}{Lead Developer \& AI Engineer (Full-time, Freelance)}{London, UK (remote)}
+\textit{Own product architecture, AI agents, and enterprise automations end to end for a workspace marketplace.}
+\begin{itemize}
+ \item Shipped autonomous AI support agents that answer user queries from live platform data, escalating on low confidence.
+ \item Designed and shipped the AI document parsing bot (see Selected Projects); 900+ commercial listings processed with human review.
+ \item Built GTM and CRM automations connecting platform APIs with CRM systems for lead enrichment, routing, and outbound funnels.
+ \item Owned external API integrations with booking engines (OfficeRnD, Nexudus) ensuring seamless bidirectional data flow.
+ \item Led the migration from a legacy stack to a coded Next.js and Laravel stack, scaling active users from 2,000 to 4,500+.
+ \item Documented product architecture and business logic; coordinated feature delivery with cross-functional dev teams.
+ \item Triaged and resolved complex production issues across APIs and data pipelines end to end.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 -- Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
+\begin{itemize}
+ \item Built platform architecture and backend logic leveraging AI-assisted development tools (Claude Code, bolt.new) and client-driven automations. Stack: Supabase, Netlify, Next.js, GitHub.
+\end{itemize}
+
+\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 -- May 2025}{AI Automation Developer (Collaborator)}{France}
+\begin{itemize}
+ \item Engineered production CV-parsing tools (see Selected Projects) and structured data extraction pipelines across multiple user profiles. Stack: n8n, Eden AI.
+\end{itemize}
+
+\role{Qomodo}{2024 -- Jan 2025}{AI \& Low-Code Developer (Collaborator)}{Milan, Italy}
+\begin{itemize}
+ \item Built operational dashboards for enterprise branch management and implemented high-fidelity Figma designs.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Lead Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+\begin{itemize}
+ \item Integrated Google APIs, built custom AI automation workflows in n8n to aggregate and categorize listings, and optimized database queries.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+\begin{itemize}
+ \item Integrated the Clubee API across the frontend, ran unit testing and QA, and built shop and federation-dashboard tools.
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Integrated OpenAI/ChatGPT and SendGrid APIs, built responsive frontend interfaces, and debugged automation workflows.
+\end{itemize}
+
+% ================= CERTS =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to Building AI Agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\section{Work Authorization \& Languages}
+European Long Term Residence Permit (Italy). No sponsorship required. Available immediately. English (professional / C2), Hindi (native), Italian (beginner/conversational).
+
+\end{document}

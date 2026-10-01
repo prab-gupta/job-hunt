@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Forward deployed AI engineer specializing in Python and embedding with customer teams to turn AI ambition into working enterprise production systems. Experienced in rapid prototyping, bridging the gap between ambiguous business problems and scalable agentic architectures using LLMs, API integrations, and RAG. Proven ability to design secure, human-in-the-loop AI pipelines that integrate seamlessly with legacy stacks and enterprise environments, driving rapid time-to-value for clients.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Forward Deployed Engineering:} Embedded closely with clients to architect custom solutions, translate business requirements into working software, and feed product insights back to core engineering.
+\item \textbf{Agentic AI \& LLMs:} Python, Anthropic API, OpenAI, multi-step agent orchestration, Model Context Protocol (MCP), structured output parsing, RAG pipelines, and rapid experimentation.
+\item \textbf{Enterprise Integration \& APIs:} Building scalable REST/GraphQL API integrations across CRMs, payment flows, and legacy architectures; managing strict human-in-the-loop workflows.
+\item \textbf{Backend \& Cloud:} Python, TypeScript, React/Next.js, SQL databases (PostgreSQL, MySQL), Docker, AWS, GCP, and automated CI/CD deployment pipelines.
+\end{itemize}
+
+\section{Professional Experience}
+\cventry{Mar 2024 - Aug 2026}{Forward Deployed AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Built and shipped custom Python AI data pipelines orchestrating multi-step LLM agents to ingest customer documents across various formats into production.
+\item Embedded directly into customer ecosystems to architect integrations against legacy APIs and booking systems, managing rate limits, webhooks, and retry logic.
+\item Designed strict human-in-the-loop governance workflows with schema validation, enabling safe review and deployment of AI outputs by non-technical stakeholders.
+\item Trained customer teams and fed product insights back to the core engineering organization, ensuring solutions successfully bridged product capabilities with customer needs.
+\item Co-led the migration of a live marketplace off a legacy stack into a robust backend architecture, scaling the active user base from 2,000 to over 4,500.
+\end{itemize}
+}
+
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Delivered rapid automation solutions integrating Google APIs and AI extraction tools to streamline customer workflows for discovering courses, internships, and jobs.
+\end{itemize}
+}
+
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA (Freelance)}{Clubee.com}{Foetz, Luxembourg}{}{
+\begin{itemize}
+\item Executed Python and frontend API integrations, automated unit testing, and deployed robust QA processes, bridging technical implementation with end-user requirements.
+\end{itemize}
+}
+
+\cventry{Aug 2023 - Oct 2023}{Developer Intern}{Tractionboard.co}{Utrecht, Netherlands}{}{
+\begin{itemize}
+\item Engineered initial AI features by integrating the OpenAI API and Sendgrid, accelerating early prototyping and platform adoption.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\cventry{2024 - 2025}{AI Automation Developer}{UltraStrategy}{}{}{
+\begin{itemize}
+\item Engineered a custom CV-parsing data extraction engine in Python utilizing LLMs to streamline operations and enhance platform matching capabilities for end clients.
+\end{itemize}
+}
+\cventry{2025}{Project Manager \& AI-Assisted Developer}{Urlink}{}{}{
+\begin{itemize}
+\item Worked directly with the client to translate business requirements into a scalable platform, architecting the application logic using TypeScript, Python, and SQL databases.
+\end{itemize}
+}
+
+\section{Education \& Certifications}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{Minor in Entrepreneurship.}
+\cventry{Sep 2024}{Tray.AI Build Practitioner \& Microsoft Copilot Studio Agent Academy}{}{}{}{}
+
+\section{Languages}
+Hindi (Native), English (Professional), Italian (Beginner).
+
+\end{document}

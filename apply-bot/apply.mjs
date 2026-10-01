@@ -52,6 +52,15 @@ async function fillLocation(page, locator, { countryOnly = false } = {}) {
  *  Clicking the hidden input directly opens the chooser; if that fails, click the
  *  visible trigger. Personio/Factorial and Ashby both need this. */
 async function uploadCV(page) {
+  try {
+    const input = page.locator('input[type="file"]').first();
+    if (await input.count() > 0) {
+      await input.setInputFiles(P.cvPath);
+      await page.waitForTimeout(1200);
+      return;
+    }
+  } catch (e) {}
+  
   const chooser = page.waitForEvent('filechooser', { timeout: 8000 });
   const hidden = page.locator('input[type=file]').first();
   await hidden.click({ force: true, timeout: 3000 }).catch(async () => {

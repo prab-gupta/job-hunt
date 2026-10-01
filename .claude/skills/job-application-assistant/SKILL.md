@@ -76,3 +76,4 @@ The user may also ask for individual steps without the full workflow:
 - "Write a cover letter for [role] at [company]" - Step 3 only
 - "Help me prepare for an interview at [company]" - Step 4 only
 - "What jobs should I look for?" - Career strategy discussion using profile + evaluation framework
+| `10-ats-tailored-resume.md` | ATS-friendly keyword optimization and advanced tailoring logic |

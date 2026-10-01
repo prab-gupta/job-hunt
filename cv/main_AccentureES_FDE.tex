@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.85]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti, 10, 30175, Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Full-Stack \& AI Engineer with hands-on experience building, scaling, and deploying production AI agents and web platforms. Specializing in bridging business needs with applied AI, I successfully led the migration of FlowSpace to a robust coded stack and developed agentic systems that scaled the user base to over 4,500. Strongly aligned with the Forward Deployed Engineer role at Accenture Espa\~na to architect and implement reliable, scalable AI solutions directly for clients.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Applied AI \& Agentic Systems}: Built and operated production AI agents using LLMs (Claude, OpenAI), n8n, and Eden AI, featuring human-in-the-loop review and confidence-based escalation.
+\item \textbf{Full-Stack Engineering}: Developed and migrated scalable web applications using TypeScript, Next.js, Node.js, and Laravel.
+\item \textbf{Client-Facing Solution Design}: Bridged technical and business domains to capture requirements, architect solutions, and resolve complex issues directly for end-users and agencies.
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{3pt}
+\cventry{Mar 2024 - Aug 2026}{Lead Developer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Led the end-to-end migration of a live marketplace platform from a legacy stack to a modern coded architecture (Next.js and Laravel), scaling the platform from 2,000 to over 4,500 users.
+\item Architected and deployed an AI listing bot using n8n, Claude, and TypeScript that processes multi-format brochures to draft workspace listings with a human-in-the-loop workflow.
+\item Built and maintained support AI agents that interact with live platform data, successfully implementing confidence-based escalation to human operators.
+\end{itemize}
+}
+\vspace{3pt}
+\cventry{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer}{Urlink}{Barcelona, Spain (Remote)}{}{
+\begin{itemize}
+\item Directed client requirements and led AI-assisted development of the platform's logic and client-driven automations using Next.js and Supabase.
+\end{itemize}
+}
+\vspace{3pt}
+\cventry{Dec 2024 - May 2025}{AI Automation Developer}{UltraStrategy}{France (Remote)}{}{
+\begin{itemize}
+\item Engineered a CV-parsing LLM pipeline leveraging Eden AI and n8n to automate data extraction.
+\end{itemize}
+}
+\vspace{3pt}
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA}{Clubee.com}{Foetz, Luxembourg (Remote)}{}{
+\begin{itemize}
+\item Integrated the Clubee API across the frontend, executing unit testing and QA for domain-integration tools.
+\end{itemize}
+}
+
+\section{Education \& Certifications}
+\vspace{3pt}
+\cventry{Oct 2020 - Jun 2024}{BA in Philosophy, International Studies \& Economics}{Ca' Foscari University of Venice}{Venice, Italy}{}{Minor in Entrepreneurship.}
+\begin{itemize}
+\item \textbf{Certifications}: Microsoft Copilot Studio Agent Academy, Introduction to building AI agents, Power Automate.
+\item \textbf{Open Source Demo}: \href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser} - processes complex documents into structured JSON formats.
+\end{itemize}
+
+\end{document}

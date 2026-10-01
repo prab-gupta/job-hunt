@@ -1,0 +1,6 @@
+STATUS: SUBMITTED
+URL: https://www.linkedin.com/jobs/view/4466432419/ (ATS: https://job-boards.greenhouse.io/telnyx54/jobs/7992715003)
+Uploaded: Prabhavit_CV_Telnyx.pdf, CoverLetter_Telnyx.pdf
+Answers given: salary EUR 45,000-55,000; location Venice, ready for Milan; languages English C2 + Italian conversational; visa sponsorship No; OFAC No; EEO fields all declined/prefer not to say.
+Blockers: none.
+LEARNINGS: Greenhouse autofilled a stale "Prabhavit_CV-.pdf" via MyGreenhouse account association on open - always check and remove/replace before uploading the tailored CV, confirmed again here (matches existing PATTERNS.md entry).

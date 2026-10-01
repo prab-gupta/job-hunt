@@ -1,0 +1,73 @@
+Website da empresa
+AI Engineer
+Aplicar à posição
+Ou indique alguém
+Ofertas de emprego  AI Engineer
+Sobre o trabalho AI Engineer
+
+Luza is an all-inclusive consulting company focused on talent, tech and innovation. We exist to elevate companies and humans all around the world, making change, from the inside to the outside.
+
+We believe that technology + human kindness positively impacts every community around the world. Our approach is simple, we see a world without borders, and believe in equal opportunities. We are guided by our core principles of spreading positivity, good energy and promote equality and care for others.
+
+Our hiring process is unique! People are selected by their value, education, talent and personality. We dont present ethnicity, religion, national origin, age, gender, sexual orientation or identity.
+
+Its time to burst the bubble, and we will do it together!
+
+What You'll do:
+
+- Designing, building, and maintaining AI/LLM services and APIs in Python (Django, FastAPI/Uvicorn), backed by PostgreSQL, Redis and Celery, containerised with Docker and delivered through GitLab CI;
+
+- Implementing retrieval-augmented generation (RAG) pipelines end to end: chunking, embeddings, hybrid retrieval, reranking and vector database integration;
+
+- Designing agents and tools with orchestration frameworks (Google ADK, Haystack, LangGraph), including Model Context Protocol (MCP) tool calling, agent/tool policies and versioned, composable system prompts stored in the database;
+
+- Ensuring LLMOps quality: Langfuse tracing, evaluation sets and LLM-as-judge methods, token and cost controls, latency reduction, and streaming performance;
+
+- Writing clean, tested, and documented code (OpenAPI, pytest, database migrations, uv, ruff), taking part in code reviews and handing over knowledge to the permanent team before the end of the assignment;
+
+- Full remote, based in Portugal;﻿
+
+
+Who You Are:
+
+- Strong proficiency in Python and its backend ecosystem (Django, FastAPI), including PostgreSQL, Redis, Celery and Docker.
+
+- Proven hands-on experience building production RAG systems and working with vector search, embeddings and reranking.
+
+- Practical experience with agent orchestration frameworks (Google ADK, Haystack or LangGraph), prompt engineering and MCP-based tool calling.
+
+- Solid understanding of LLMOps: tracing and observability (Langfuse), evaluation methodologies, and managing cost, latency, and streaming.
+
+- Engineering discipline: API design with OpenAPI, automated testing with pytest, database migrations, CI/CD with GitLab and modern Python tooling (uv, ruff).
+
+- Fluent in portuguese and english; ﻿
+
+﻿﻿
+
+
+What you'll get:
+
+- Wage according to candidate's professional experience;
+
+- Remote Work whenever possible;
+
+- Delivery of work equipment adjusted to the performance of functions;
+
+﻿- Benefits plan;
+
+
+- And others.
+
+Work together with expert teams on projects of large magnitude and intensity, long term together with our clients, all leaders in their industries.
+
+Are you ready to step into a diverse and inclusive world with us?
+
+Together we will promote uniquess!
+
+Aplicar à posição
+Ou indique alguém
+
+
+
+
+Partilhar 

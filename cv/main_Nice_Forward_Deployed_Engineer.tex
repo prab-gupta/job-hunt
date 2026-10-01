@@ -1,0 +1,111 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti 10}{30175 Venice, Italy}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn} \textbar\ \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+\vspace{-15pt}
+Software engineer specializing in AI orchestration frameworks, API architecture, and translating complex business requirements into custom working software. Experienced in building live, scalable agentic AI systems that handle nuanced customer interactions. Hands-on with Python, TypeScript, SQL, REST/GraphQL APIs, and AI-assisted engineering (including Claude Code), bridging the gap between product engineering and customer success. Proven ability to own the entire AI agent lifecycle and deliver measurable value.
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{AI Orchestration \& Tooling:} LLM APIs (Claude, OpenAI), agentic workflows, Model Context Protocol (MCP), tool-calling, RAG, prompt engineering, n8n, Claude Code
+\item \textbf{Languages \& Cloud Platforms:} Python, TypeScript, JavaScript, Node.js, Next.js, SQL, GCP, AWS, Docker, CI/CD
+\item \textbf{API \& Integrations:} REST/GraphQL APIs, OpenAPI specifications, webhook integrations, schema validation, PostgreSQL, Supabase
+\item \textbf{Client Engagement:} Strategic communication, translating business requirements to technical architecture, training teams, rapid prototyping
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{1pt}
+
+\cventry{Mar 2024 - Aug 2026}{Full-Stack \& AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{\vspace{1pt}
+\begin{itemize}
+\item Embedded AI into the core product by shipping customer support agents that query live database records and intelligently escalate to human teams, directly addressing CX use cases.
+\item Built a custom AI pipeline using Python, TypeScript, Claude, and n8n to extract structured data from PDFs, websites, and client spreadsheets with human-in-the-loop review, drafting over 900 verified platform listings.
+\item Architected API integrations with third-party providers (OfficeRnD, Nexudus) to automate external bookings, alongside CRM workflows for lead capture and enrichment.
+\item Migrated the core live marketplace off a legacy stack to a modern Next.js/Laravel architecture, scaling active users from 2,000 to 4,500+ and directly communicating technical decisions to stakeholders.
+\end{itemize}
+}
+\vspace{3pt}
+
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{\vspace{1pt}
+\begin{itemize}
+\item Integrated Google APIs and built custom AI tools in n8n to aggregate courses, internships, and job postings, feeding business insights directly to the founders.
+\item Translated complex data aggregation needs into reliable automated pipelines.
+\end{itemize}
+}
+\vspace{3pt}
+
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA}{Clubee.com}{Foetz, Luxembourg}{}{\vspace{1pt}
+\begin{itemize}
+\item Integrated the core Clubee API across the frontend, executing rigorous unit testing to ensure reliable customer deployments.
+\end{itemize}
+}
+\vspace{3pt}
+
+\cventry{Aug 2023 - Oct 2023}{Developer (Internship)}{Tractionboard.co}{Utrecht, Netherlands}{}{\vspace{1pt}
+\begin{itemize}
+\item Integrated OpenAI and SendGrid APIs, translating business logic into responsive front-end workflows.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\vspace{1pt}
+
+\cventry{2025 - 2025}{Project Manager \& AI-Assisted Developer}{Urlink}{}{}{\vspace{1pt}
+Managed direct client requirements, translating business needs into shipped automations. Stack: Next.js, Supabase, Netlify.
+}
+\vspace{3pt}
+
+\cventry{2024 - 2025}{AI Automation Developer}{UltraStrategy}{}{}{\vspace{1pt}
+Built a custom CV-parsing solution via LLM data extraction for client environments using n8n and Eden AI.
+}
+\vspace{3pt}
+
+\cventry{2024 - 2025}{AI Developer}{Qomodo}{}{}{\vspace{1pt}
+Built an intuitive dashboard for companies to manage branch operations based on provided design specs.
+}
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item Microsoft Copilot Studio Agent Academy
+\item Microsoft: Introduction to building AI agents
+\item Microsoft Power Automate
+\item Tray.AI Build Practitioner (Sep 2024)
+\end{itemize}
+
+\section{Education}
+\vspace{1pt}
+
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University of Venice}{Venice, Italy}{}{\vspace{1pt}
+Minor: Entrepreneurship.
+}
+
+\end{document}

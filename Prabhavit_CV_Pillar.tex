@@ -1,0 +1,103 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1)
+\renewcommand*{\namefont}{\fontsize{26}{28}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[top=1.0cm,bottom=1.0cm,left=1.2cm,right=1.2cm]{geometry}
+\usepackage{import}
+\nopagenumbers{}
+
+% Personal data
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+\vspace{-12pt}
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+\small{Pragmatic, product-minded AI Engineer experienced in building and deploying LLM pipelines, agentic workflows, and document extraction systems into production. Proven track record of orchestrating multi-step AI agents, implementing RAG with vector databases, and engineering robust features across the Next.js, TypeScript, and Supabase stack. High-agency executor who thrives in fast-moving startups, taking end-to-end ownership to translate complex product problems into reliable AI-native features alongside founding teams.}
+\vspace{2pt}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{AI \& Agentic Workflows}: Multi-step agent orchestration, tool use, structured outputs, RAG, embeddings, vector search (Mastra, LangChain, Anthropic/OpenAI APIs), observability, prompt evaluation, and AI-native pipelines.
+\item \textbf{Product Engineering (TypeScript)}: Next.js, React, Node/Deno, integrating AI-native features directly into core product stacks, low-latency API integration, robust system architecture, end-to-end feature ownership.
+\item \textbf{Data \& Infrastructure}: PostgreSQL, Supabase, document extraction pipelines (invoices, reports, forms), schema mapping, zero-downtime migrations, automated testing, telemetry.
+\item \textbf{Startup Execution}: High-agency delivery, rapid prototyping to production, bridging ambiguity with pragmatic technical decisions, human-in-the-loop validation systems, agile/squad-based collaboration.
+\end{itemize}
+\vspace{3pt}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Mar 2024 - Aug 2026}{Full-Stack \& AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built an end-to-end AI document extraction pipeline orchestrating multi-step LLM agents with tool use, structured output validation, and RAG to reliably parse unstructured data into production databases.
+    \item Engineered human-in-the-loop approval workflows with strict schema validation and observability, enabling stakeholders to review and ensure the accuracy of AI outputs securely.
+    \item Architected and maintained enterprise API integrations across booking and CRM pipelines in TypeScript, implementing robust webhook handling, retry logic, and resilient system design.
+    \item Led the platform migration off a legacy stack onto a Next.js, Supabase, and PostgreSQL stack, executing a zero-downtime cutover while scaling the user base from 2,000 to over 4,500 active users.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jan 2024 - Jul 2025}{AI Solutions \& Forward Deployment Projects}{Client Engagements}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item \textbf{Urlink} (Apr 2025 - Jul 2025): Worked directly with client leadership to map product requirements and deploy automated backend logic and AI workflows using Next.js and Supabase.
+    \item \textbf{UltraStrategy} (Dec 2024 - May 2025): Engineered an LLM-powered data extraction pipeline and document parsing tool to transform complex inputs into structured outputs, prioritizing speed and evaluation in an ambiguous environment.
+    \item \textbf{Get2Germany.com} (Jan 2024 - May 2024): Integrated external APIs and optimized relational database queries, building end-to-end features that translated operational complexity into functional product experiences.
+\end{itemize}}}
+
+\end{itemize}
+\vspace{3pt}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+\item{\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)}{Ca' Foscari University of Venice}{Venice, Italy}{}{}}
+\end{itemize}
+\vspace{3pt}
+
+% ============================================================
+%     CERTIFICATIONS \& ADDITIONAL INFORMATION
+% ============================================================
+\section{Certifications \& Additional Information}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Certifications}: Microsoft Copilot Studio Agent Academy, Microsoft AI Agents, Microsoft Power Automate, Tray.AI Build Practitioner.
+\item \textbf{Location \& Work Authorization}: Based in Venice/Milan (EU Long Term Residence Permit - Italy). Open to relocation to Barcelona.
+\item \textbf{Languages}: English (Fluent/Professional), Hindi (Native), Italian (Conversational).
+\end{itemize}
+
+\end{document}

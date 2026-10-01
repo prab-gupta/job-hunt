@@ -1,0 +1,146 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{microtype}
+
+% Color definitions
+\definecolor{primary}{RGB}{20, 50, 90}
+\definecolor{darkgray}{RGB}{50, 50, 50}
+\definecolor{lightgray}{RGB}{100, 100, 100}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdftitle={Prabhavit Gupta - CV - Junior Python Developer},
+    pdfauthor={Prabhavit Gupta}
+}
+
+% Section formatting
+\titleformat{\section}
+    {\color{primary}\large\bfseries}
+    {}{0em}
+    {}[\color{primary}\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+
+% Tight lists
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, parsep=0pt, topsep=2pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% HEADER
+% ------------------------------------------------------------------------------
+\begin{center}
+    {\Huge \bfseries \color{primary} Prabhavit Gupta} \\[4pt]
+    \small \color{darkgray}
+    Venice, Italy (Relocating to Ølstykke / Copenhagen, Denmark) \enspace $\bullet$ \enspace
+    +39 351 610 7807 \enspace $\bullet$ \enspace
+    \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} \enspace $\bullet$ \enspace
+    \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} \\[2pt]
+    \textbf{EU Long-Term Residence Permit} (Full right to work across the EU / Denmark without sponsorship)
+\end{center}
+
+\vspace{-4pt}
+
+% ------------------------------------------------------------------------------
+% PROFESSIONAL SUMMARY
+% ------------------------------------------------------------------------------
+\section*{Professional Summary}
+\small
+Software Developer with practical experience engineering Python data pipelines, RESTful API integrations, and internal workflow applications. Skilled in object-oriented programming, relational database modeling (PostgreSQL, MySQL), and building robust ingestion tools with automated testing (278 test suites). Hands-on background utilizing AI-assisted development (Claude Code) within structured, compliant, and measurable frameworks emphasizing traceability and data protection. Experienced in collaborating across technical and operational teams to transform user requirements into maintainable, documented code. Eager to contribute to Minerva Imaging's core research data capture and reporting systems while expanding backend capabilities in Python and Django.
+
+% ------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+% ------------------------------------------------------------------------------
+\section*{Technical Skills}
+\small
+\begin{itemize}
+    \item \textbf{Core Languages \& Backend:} Python (data extraction, automation, testing, scripting), SQL, TypeScript/JavaScript, PHP, HTML5/CSS3.
+    \item \textbf{Web Frameworks \& APIs:} Django (foundations), Laravel, Next.js, Node.js, RESTful API Design, JSON/HTTP handling.
+    \item \textbf{Databases \& Data Systems:} PostgreSQL (Supabase, Neon), MySQL, Relational Schema Design, Data Ingestion \& ETL, Query Optimization.
+    \item \textbf{Testing \& DevOps:} Pytest, Playwright (Unit/Integration Testing), Git, GitHub, GitHub Actions (CI/CD pipelines), Linux/Bash, Postman.
+    \item \textbf{AI-Assisted Engineering:} Claude Code workflows, Prompt Engineering, Evaluation Harnesses, Traceability \& Auditability, Data Leakage Prevention, Multi-agent orchestration.
+    \item \textbf{Collaboration \& Tools:} Jira, Trello, Figma, Postman, Agile/Scrum Development, Technical Documentation.
+    \item \textbf{Languages:} English (Professional / C2), Danish (Beginner, committed to active acquisition), Italian (Basic), Hindi (Native).
+\end{itemize}
+
+% ------------------------------------------------------------------------------
+% PROFESSIONAL EXPERIENCE
+% ------------------------------------------------------------------------------
+\section*{Professional Experience}
+\small
+
+\textbf{FlowSpace.co} \hfill London, UK (Remote) \\
+\textit{Lead Developer \& Data Systems Engineer (Contract)} \hfill \textit{Mar 2024 -- Present}
+\begin{itemize}
+    \item Built and operated an automated data extraction and ingestion pipeline that converts unstructured sources (PDF brochures, spreadsheets, operator websites, and emails) into validated relational database records.
+    \item Implemented a bounded web crawler and document parser in Python with magic-byte file classification and boilerplate-hijack protection, backed by 278 automated test cases to prevent regressions.
+    \item Designed and optimized PostgreSQL (Neon/Supabase) schemas and data migration routines, moving legacy datastores into normalized SQL structures while maintaining strict data integrity.
+    \item Integrated external RESTful APIs (OfficeRnD, Nexudus, SendGrid, Google APIs) for automated synchronization of reservations, pricing, and space inventory.
+    \item Established an AI-assisted development workflow with Claude Code and GitHub Actions, incorporating human-in-the-loop review screens and diff-logging in Postgres for full auditability and traceability.
+    \item Documented platform architecture and business logic, collaborating closely with business stakeholders and an external agency to scale platform capacity from 2,000 to 4,500+ active users.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{UltraStrategy.com} \hfill France (Remote) \\
+\textit{Automation Developer (Collaborator)} \hfill \textit{Dec 2024 -- May 2025}
+\begin{itemize}
+    \item Engineered an automated data-parsing pipeline using n8n and Eden AI to extract structured entities from unstructured applicant files into standardized JSON formats.
+    \item Designed schema validation checks and error-handling routines to manage malformed documents gracefully.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Get2Germany.com} \hfill Berlin, Germany (Remote) \\
+\textit{Lead Developer \& Automation Specialist (Part-time)} \hfill \textit{Jan 2024 -- May 2024}
+\begin{itemize}
+    \item Integrated Google APIs for tracking platform interactions, optimizing relational database queries and reducing lookup latency.
+    \item Created automated tools for data aggregation across educational offerings, standardizing data capture across external repositories.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Clubee.com} \hfill Foetz, Luxembourg (Remote) \\
+\textit{Software Developer \& Quality Assurance (Contract)} \hfill \textit{Sep 2023 -- Aug 2024}
+\begin{itemize}
+    \item Conducted unit testing, functional testing, and quality assurance across frontend and backend modules to maintain release stability.
+    \item Integrated internal REST APIs for client federation dashboards, working in a structured Git workflow with code reviews and branch management.
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Tractionboard.co} \hfill Utrecht, Netherlands (Remote) \\
+\textit{Software Development Intern} \hfill \textit{Aug 2023 -- Oct 2023}
+\begin{itemize}
+    \item Assisted in developing customer-facing dashboards, integrating SendGrid and OpenAI endpoints for automated customer correspondence.
+    \item Authored technical troubleshooting guides and participated in agile standups and sprint retrospectives.
+\end{itemize}
+
+% ------------------------------------------------------------------------------
+% EDUCATION
+% ------------------------------------------------------------------------------
+\section*{Education}
+\small
+\textbf{Ca' Foscari University of Venice} \hfill Venice, Italy \\
+\textit{Bachelor's Degree in Philosophy, International Studies \& Economics} \hfill \textit{Oct 2020 -- Jun 2024} \\
+\textit{Minor in Entrepreneurship} \enspace $\bullet$ \enspace Rigorous focus on formal logic, quantitative methods, and data-driven systems.
+
+% ------------------------------------------------------------------------------
+% CERTIFICATIONS & TRAINING
+% ------------------------------------------------------------------------------
+\section*{Certifications \& Professional Training}
+\small
+\begin{itemize}
+    \item Microsoft Copilot Studio Agent Academy \& Introduction to Building AI Agents
+    \item Microsoft Power Automate Certification
+    \item Tray.ai Build Practitioner \& Build Foundations
+\end{itemize}
+
+\end{document}

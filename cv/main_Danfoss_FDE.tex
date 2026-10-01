@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+\vspace{-15pt}
+
+Forward Deployed Engineer specializing in bridging business challenges with scalable AI solutions. Experienced in rapid prototyping, translating requirements into actionable digital workflows, and deploying AI agents using Python, APIs, and automation platforms to deliver measurable impact across enterprise environments.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{AI Enablement \& Agents:} Multi-step agent orchestration, LLMs (Anthropic, OpenAI), RAG pipelines, structured data extraction, and evaluating solution feasibility.
+\item \textbf{Digital Tools \& Automation:} Workflow automation, low-code/no-code platforms, API integrations, data platforms, and secure enterprise integration patterns.
+\item \textbf{Engineering \& Data:} Python, TypeScript, SQL databases (PostgreSQL, MySQL), Next.js, and cloud platforms.
+\end{itemize}
+
+\section{Professional Experience}
+\cventry{Mar 2024 - Aug 2026}{Full-Stack \& AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Partnered with stakeholders to identify pain points and deployed AI data pipelines orchestrating multi-step LLM agents, transforming unstructured documents into actionable business data.
+\item Embedded directly into customer ecosystems to build integrations against enterprise APIs, managing rate limits and secure data boundaries to streamline operations.
+\item Rapidly prototyped and delivered RAG-backed support agents, defining success measures and iterating based on user feedback to improve decision-making and reliability.
+\item Designed human-in-the-loop workflows with schema validation, enabling safe review and deployment of AI outputs by non-technical teams.
+\end{itemize}
+}
+
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Delivered rapid automation solutions integrating Google APIs and AI extraction tools to streamline workflows, significantly reducing manual overhead and validating new digital concepts.
+\end{itemize}
+}
+
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA (Freelance)}{Clubee.com}{Foetz, Luxembourg}{}{
+\begin{itemize}
+\item Executed frontend API integrations and deployed robust QA processes, bridging technical implementation with end-user requirements.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\cventry{2024 - 2025}{AI Automation Developer}{UltraStrategy}{}{}{
+\begin{itemize}
+\item Engineered a custom CV-parsing extraction engine using LLMs, converting a core business challenge into a practical AI-enabled process that enhanced platform capabilities.
+\end{itemize}
+}
+
+\section{Education \& Certifications}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{Minor in Entrepreneurship.}
+\cventry{Sep 2024}{Certifications}{}{}{}{Tray.AI Build Practitioner, Microsoft Copilot Studio Agent Academy.}
+
+\end{document}

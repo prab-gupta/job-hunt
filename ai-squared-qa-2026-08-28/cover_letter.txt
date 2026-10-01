@@ -1,0 +1,10 @@
+Dear AI Squared team,
+
+My QA work sits close to product development. At FlowSpace I investigated issues across a live Next.js and Laravel marketplace, verified API integrations and built AI support workflows with human escalation. At Clubee I handled unit testing and QA while building API-connected frontend and dashboard features.
+
+I use TypeScript, JavaScript, Python and Playwright, and I am comfortable testing both normal application behaviour and the less predictable failure modes of AI-assisted workflows. I document problems clearly, reproduce them from the user’s path and work with the implementation until the fix is verified.
+
+I am based in Venice, Italy and available immediately.
+
+Kind regards,
+Prabhavit Gupta

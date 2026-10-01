@@ -1,0 +1,96 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.8cm,bottom=0.8cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Fullstack Developer \& AI Engineer}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
+\end{center}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Full-stack engineer with over 2 years of experience building scalable applications, REST APIs, and microservices architectures. Proficient in Node.js, TypeScript, and modern database systems (PostgreSQL, Supabase), with a strong foundation in integrating complex tools and automating data flows. While my recent focus has been on Node.js and AI integrations rather than Java (J2EE/Spring) and Oracle PL/SQL, my deep understanding of full-stack principles and CI/CD pipelines enables me to quickly adapt to new tech stacks. I bring strong analytical skills, problem-solving capabilities, and an eagerness to contribute to BFF Banking Group's finance area.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{Core Technologies \& Architectures:} Node.js, TypeScript, JavaScript, Next.js, Python, REST APIs, Microservices, Webhooks
+ \item \textbf{Databases \& Infrastructure:} SQL (PostgreSQL, Supabase), CI/CD (GitHub, Docker), Git, Azure DevOps concepts
+ \item \textbf{Development Tools:} Visual Studio Code, Git, Jenkins (conceptually familiar)
+ \item \textbf{Other \& AI:} Claude Code, LLM APIs, Data Extraction, Automation (n8n, Make)
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Full-Stack \& AI Engineer}{London, UK (remote)}
+\begin{itemize}
+ \item Migrated a live marketplace platform to a modern Next.js and PHP architecture, scaling from 2,000 to 4,500+ users.
+ \item Designed and implemented RESTful APIs and microservice-oriented data pipelines using Node.js and TypeScript.
+ \item Developed and deployed support agents and data extraction pipelines, emphasizing robust error handling and API integrations.
+ \item Utilized Git for version control and CI/CD workflows, collaborating effectively with a remote team.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Developer \& Automation Specialist}{Berlin, Germany}
+\begin{itemize}
+ \item Built backend automations and tools utilizing REST APIs, integrating multiple data sources.
+ \item Optimized database schemas to enhance query response times for high-frequency searches.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA}{Foetz, Luxembourg}
+\begin{itemize}
+ \item Integrated the Clubee REST API across the frontend, ensuring data integrity and responsiveness.
+ \item Conducted unit testing and quality assurance to maintain production stability.
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Built front-end designs and integrated external APIs (OpenAI, Sendgrid) into the platform.
+\end{itemize}
+
+% ================= FREELANCE PROJECTS =================
+\section{Freelance Projects}
+\begin{itemize}
+ \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025): Developed backend logic and client-driven automations using Node.js, Next.js, and Supabase.
+ \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (2024 -- 2025): Created backend parsing services extracting and structuring data into unified SQL database schemas, handling API limits and scaling.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} European Long Term Residence Permit (Italy); available immediately for Milan. \quad \textbf{Languages:} English (Professional C2), Italian (Conversational), Hindi (Native).}
+
+\end{document}

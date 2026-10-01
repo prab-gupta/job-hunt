@@ -1,0 +1,100 @@
+% =====================================================================
+%  Prabhavit Gupta, one-page CV
+%  Target:   Dots
+%  Role:     Forward Deploy Engineer (Job ID: 4373644148)
+%  Rules:    ONE PAGE. 0 em-dashes. Plain voice. Clickable links.
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.7cm,bottom=0.7cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Forward Deploy Engineer: Data Migrations, TypeScript, SQL \& AI Automation}\\[5pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy (Immediate EU Availability)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+ \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward Deploy Engineer who bridges customer implementations, complex legacy data migrations, and core product engineering. Experienced in owning end-to-end customer onboarding from legacy software platforms into modern relational databases, designing custom ETL scripts in TypeScript and SQL, and building AI-accelerated ingestion pipelines. At FlowSpace, led the core platform and data migration off a legacy stack to PostgreSQL and Next.js (scaling 2,000 to 4,500+ users with zero downtime), architected a multi-format document extraction agent with human-in-the-loop review (900+ listings drafted), and integrated enterprise APIs. Daily driver: Claude Code, TypeScript, SQL, Node.js, and Python.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{Forward Deployment \& Customer Engineering:} Customer onboarding, technical discovery, legacy data migrations, schema mapping, client-driven custom integrations, field troubleshooting, product feedback loops, zero-defect data reconciliation
+ \item \textbf{Data Engineering \& Languages:} TypeScript, JavaScript, SQL (PostgreSQL, Supabase, MySQL), Node.js, Python, Next.js, Laravel (PHP), ETL/ELT pipelines, data transformation, schema validation
+ \item \textbf{AI Tooling \& Automation:} Claude Code (daily driver for rapid prototyping and migration scripts), LLM APIs (Claude, OpenAI), structured JSON extraction, RAG, prompt engineering, human-in-the-loop review, n8n, Eden AI
+ \item \textbf{APIs, Integration \& Delivery:} REST APIs, webhooks, rate limiting, authentication, third-party integrations (OfficeRnD, Nexudus, CRM platforms, Google APIs), Docker, CI/CD, Git/GitHub, Playwright, Postman
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Led the end-to-end data and platform migration off a legacy stack to a modern architecture (Next.js, Laravel, PostgreSQL), mapping data entities, resolving relational conflicts, and scaling active users from 2,000 to 4,500+ with zero downtime.
+ \item Designed and shipped an automated AI ingestion pipeline (Claude, TypeScript, n8n) extracting structured data from unstructured multi-format brochures (PDF, spreadsheet, image, web) with human-in-the-loop review; 900+ listings drafted.
+ \item Engineered bidirectional REST API and webhook integrations with customer platforms (OfficeRnD, Nexudus) and CRM pipelines, handling rate limits, payload validation, and automated synchronization.
+ \item Deployed conversational support agents querying live platform records with confidence scoring and deterministic fallback to human specialists, while resolving complex customer technical issues end to end.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany (remote)}
+Built automated data extraction, normalization, and matching workflows in n8n integrating Google APIs and relational databases.\\[1pt]
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg (remote)}
+Integrated core REST APIs across frontend modules, built administrative dashboard tools, and conducted automated testing and QA for client deployments.\\[1pt]
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Developer (Internship)}{Utrecht, Netherlands (remote)}
+Integrated OpenAI and SendGrid APIs, implemented responsive interfaces, and debugged data flow issues in production.
+
+% ================= SELECTED PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+ \item \textbf{\href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser}} (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}): Open-source pipeline converting unstructured multi-format documents (PDF, spreadsheet, text) into strictly typed, validated JSON structures with automated error recovery.
+ \item \textbf{\href{https://smarturlink.com/}{Urlink}} (Apr 2025 - Jul 2025): Project Manager \& AI-Assisted Developer; worked directly with founders and clients on technical discovery, built core application logic, and delivered client-driven automations using Next.js and Supabase.
+ \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (Dec 2024 - May 2025): AI Automation Developer; built an automated CV-parsing and structured extraction pipeline using n8n and Eden AI across diverse customer data profiles.
+\end{itemize}
+
+% ================= EDUCATION & CERTIFICATIONS =================
+\section{Education \& Certifications}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 - Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)\\[1pt]
+\textbf{Certifications:} Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to Building AI Agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= WORK AUTHORIZATION =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} Italian EU Long Term Residence Permit (immediate availability, no visa sponsorship needed in EU; remote B2B/contractor via Partita IVA). \quad \textbf{Languages:} English (professional C2), Hindi (native), Italian (conversational).}
+
+\end{document}

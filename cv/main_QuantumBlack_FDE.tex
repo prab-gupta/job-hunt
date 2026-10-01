@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Senior Forward Deployed Engineer with expertise in bridging AI strategy and production execution. Proven track record in orchestrating multi-step agentic systems and embedding directly into client environments to turn complex technical challenges into scalable, production-ready AI solutions. Adept at handling end-to-end platform delivery, rapid prototyping, and integrating robust LLM pipelines with enterprise infrastructure across cloud platforms.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Agentic AI \& Deployment:} Multi-step LLM orchestration, structured output parsing, RAG, EcliptOS-style agent architectures, and integrating AI into enterprise workflows.
+\item \textbf{Infrastructure \& Cloud:} Production-grade system deployments, Kubernetes, Docker, AWS, GCP, Azure, and automated CI/CD for reliable AI delivery.
+\item \textbf{Client Enablement:} End-to-end platform delivery, technical stakeholder collaboration, rapid troubleshooting, and guiding adoption of AI-driven tools.
+\item \textbf{Software Engineering:} Python, TypeScript, React/Next.js, SQL, secure API design, human-in-the-loop governance, and enterprise data integration.
+\end{itemize}
+
+\section{Professional Experience}
+\cventry{Mar 2024 - Aug 2026}{Full-Stack \& AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Built and deployed an enterprise AI pipeline orchestrating multi-step LLM agents and RAG to ingest documents across formats into scalable production systems.
+\item Embedded directly into customer environments to build integrations against live APIs and booking systems, managing infrastructure, webhooks, and retry logic.
+\item Designed robust human-in-the-loop governance workflows with schema validation, enabling safe adoption and deployment of AI outputs by stakeholders.
+\item Co-led the migration of a live marketplace to a robust backend architecture, monitoring latency and reliability, scaling the active user base from 2,000 to over 4,500.
+\end{itemize}
+}
+
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Delivered rapid automation solutions integrating Google APIs and AI extraction tools, troubleshooting system performance to streamline field workflows.
+\end{itemize}
+}
+
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA (Freelance)}{Clubee.com}{Foetz, Luxembourg}{}{
+\begin{itemize}
+\item Executed frontend API integrations, automated unit testing, and deployed QA processes to validate system stability across service boundaries.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\cventry{2024 - 2025}{AI Automation Developer}{UltraStrategy}{}{}{
+\begin{itemize}
+\item Engineered a custom data extraction engine using LLMs, focusing on strict schema validation and production readiness.
+\end{itemize}
+}
+\cventry{2025}{Project Manager \& Developer}{Urlink}{}{}{
+\begin{itemize}
+\item Collaborated with clients to architect scalable application logic using Next.js and Supabase, translating business needs into technical execution.
+\end{itemize}
+}
+
+\section{Education \& Certifications}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{Minor in Entrepreneurship.}
+\cventry{Sep 2024}{Tray.AI Build Practitioner \& Microsoft Copilot Studio Agent Academy}{}{}{}{}
+
+\section{Languages}
+Hindi (Native), English (Professional), Italian (Beginner).
+
+\end{document}

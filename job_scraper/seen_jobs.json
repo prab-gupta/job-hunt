@@ -1,1 +1,213 @@
-{"seen": {}}
+{
+  "seen": {
+    "https://careers.nebius.com/?gh_jid=4988854101": {
+      "title": "Automation Engineer (Customer Service)",
+      "company": "Nebius",
+      "url": "https://careers.nebius.com/?gh_jid=4988854101",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4471626532/": {
+      "title": "AI & Automation Engineer",
+      "company": "HAVI",
+      "url": "https://www.linkedin.com/jobs/view/4471626532/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4435258633/": {
+      "title": "AI & Process Automation Engineer (Agents, Automation & Digitalisation)",
+      "company": "Zurich Insurance",
+      "url": "https://www.linkedin.com/jobs/view/4435258633/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4469757144/": {
+      "title": "AI & Automation Developer",
+      "company": "Greenvolt Group",
+      "url": "https://www.linkedin.com/jobs/view/4469757144/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4468678043/": {
+      "title": "Data and Automation AI Engineer",
+      "company": "EDP",
+      "url": "https://www.linkedin.com/jobs/view/4468678043/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4460021416/": {
+      "title": "Process Automation Specialist",
+      "company": "LeoVegas Group",
+      "url": "https://www.linkedin.com/jobs/view/4460021416/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://es.linkedin.com/jobs/view/application-integration-engineer-100%25-f-m-d-at-julius-baer-4442605999": {
+      "title": "Application Integration Engineer 100% (f/m/d)",
+      "company": "Julius Baer",
+      "url": "https://es.linkedin.com/jobs/view/application-integration-engineer-100%25-f-m-d-at-julius-baer-4442605999",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://be.linkedin.com/jobs/view/integration-engineer-at-b-flow-4469871503": {
+      "title": "Integration Engineer",
+      "company": "B-flow",
+      "url": "https://be.linkedin.com/jobs/view/integration-engineer-at-b-flow-4469871503",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://nl.linkedin.com/jobs/view/integration-engineer-at-vitestro-4458393077": {
+      "title": "Integration Engineer",
+      "company": "Vitestro",
+      "url": "https://nl.linkedin.com/jobs/view/integration-engineer-at-vitestro-4458393077",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://thehub.io/jobs/6ab67d3b5e3d63cd082e7b0e": {
+      "title": "Integration Engineer (AI-native)",
+      "company": "Instantcall",
+      "url": "https://thehub.io/jobs/6ab67d3b5e3d63cd082e7b0e",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://yoursquares.jobs.personio.com/job/2817286": {
+      "title": "AI & Automation Engineer (m/w/d)",
+      "company": "yoursquares",
+      "url": "https://yoursquares.jobs.personio.com/job/2817286",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/ai-automation-engineer-munchen-361040": {
+      "title": "AI Automation Engineer (m/w/d)",
+      "company": "ECOZA GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/ecoza-gmbh/ai-automation-engineer-munchen-361040",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.ashbyhq.com/zauber/c11db72e-3a33-4df5-ae33-e1cc39cb0ba7": {
+      "title": "Forward Deployed Engineer",
+      "company": "Zauber Technology GmbH",
+      "url": "https://jobs.ashbyhq.com/zauber/c11db72e-3a33-4df5-ae33-e1cc39cb0ba7",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://job-boards.eu.greenhouse.io/dialecticch/jobs/4635721101": {
+      "title": "Forward Deployed Engineer",
+      "company": "Dialectic",
+      "url": "https://job-boards.eu.greenhouse.io/dialecticch/jobs/4635721101",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://apply.workable.com/j/DD052C5BF9": {
+      "title": "Forward Deployed Engineer",
+      "company": "CallMiner",
+      "url": "https://apply.workable.com/j/DD052C5BF9",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4473012716/": {
+      "title": "AI Engineer",
+      "company": "Pillar",
+      "url": "https://www.linkedin.com/jobs/view/4473012716/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://owow.breezy.hr/p/b3fba116dde301-ai-engineer": {
+      "title": "AI Engineer",
+      "company": "OWOW",
+      "url": "https://owow.breezy.hr/p/b3fba116dde301-ai-engineer",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.veriff.com/careers/position/8827000002?gh_jid=8827000002": {
+      "title": "Solutions Engineer - EMEA",
+      "company": "Veriff",
+      "url": "https://www.veriff.com/careers/position/8827000002?gh_jid=8827000002",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/4416694774/": {
+      "title": "AI Engineer",
+      "company": "Curamando",
+      "url": "https://www.linkedin.com/jobs/view/4416694774/",
+      "first_seen": "2026-10-01",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    }
+  }
+}

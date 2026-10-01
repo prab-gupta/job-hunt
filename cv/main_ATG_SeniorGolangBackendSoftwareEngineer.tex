@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti 10, 30175, Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+\section{Profile}
+Backend-focused Software Engineer with a strong track record of designing and deploying scalable API integrations and production systems. Experienced in architecting robust data flows and automated pipelines to serve thousands of active users in dynamic marketplace environments. While my primary languages to date have been TypeScript and Python, my background in building real-time integrations, REST APIs, and scalable architectures aligns well with the distributed systems challenges at ATG. I am highly motivated to transition into the Go ecosystem.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Languages \& Frameworks:} TypeScript, JavaScript, Python, Next.js, Node.js, Laravel (PHP)
+\item \textbf{Backend \& Systems:} REST API Design, Webhooks, Data Modeling, Supabase, CRM integrations, robust data flows
+\item \textbf{Architecture \& Tools:} Distributed Systems Concepts, CI/CD, Git, Docker, Postman, Playwright, production environments
+\item \textbf{Applied AI \& Automations:} LLMs, AI Agents, workflow automation (n8n, Make), unstructured data processing
+\end{itemize}
+
+\section{Professional Experience}
+
+\cventry{Mar 2024 - Present}{Lead Developer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Architected and deployed backend systems and a Listing Bot (TypeScript) that processes unstructured data sources to build structured marketplace listings, ensuring data integrity.
+\item Led the end-to-end migration of a live marketplace to a modern architecture (Next.js, Laravel), scaling the platform to support 4,500+ active users with high performance.
+\item Engineered complex REST API data flows to sync with external systems (OfficeRnD, Nexudus) and built automated pipelines for lead routing and CRM integration.
+\item Delivered backend automation features that optimized system performance and significantly reduced manual triage times for marketplace operations.
+\end{itemize}}
+
+\cventry{Apr 2025 - Jul 2025}{Project Manager \& Developer (Freelance)}{Urlink}{Barcelona, Spain}{}{
+\begin{itemize}
+\item Delivered an automation platform leveraging Supabase and Netlify to execute complex client-driven data flows, translating open-ended requirements into technical backend implementations.
+\item Managed full project lifecycle and deployment pipelines directly with stakeholders, ensuring reliable production releases.
+\end{itemize}}
+
+\cventry{Dec 2024 - May 2025}{Automation Engineer (Collaborator)}{UltraStrategy.com}{France}{}{
+\begin{itemize}
+\item Designed and deployed a robust data extraction pipeline to serve a multi-profile user platform, optimizing performance and ensuring it operated reliably in production.
+\end{itemize}}
+
+\cventry{Jan 2024 - May 2024}{Lead Developer (Part-time)}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Integrated Google APIs and built automation workflows to streamline data discovery and processing.
+\end{itemize}}
+
+\cventry{Sep 2023 - Aug 2024}{Full-Stack Developer \& QA (Freelance)}{Clubee.com}{Foetz, Luxembourg}{}{
+\begin{itemize}
+\item Implemented comprehensive REST API integrations and developed core domain tools for the platform.
+\item Contributed to high code quality standards through rigorous unit testing and continuous improvement of production systems.
+\item Participated in identifying and addressing technical debt to ensure high availability.
+\end{itemize}}
+
+\section{Education}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University of Venice}{Venice, Italy}{}{Minor in Entrepreneurship}
+
+\section{Certifications \& Languages}
+\textbf{Work Authorization:} European Long Term Residence Permit (Italy). No sponsorship required. \\
+\textbf{Languages:} English (Professional), Hindi (Native), Italian (Beginner).
+
+\end{document}

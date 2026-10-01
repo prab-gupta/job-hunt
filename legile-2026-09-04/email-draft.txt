@@ -1,0 +1,28 @@
+TO: jobs@legile.be
+FROM: prabhavitg@gmail.com
+SUBJECT: Senior Full-Stack AI Engineer - Prabhavit Gupta
+ATTACHMENT: Prabhavit_CV_Legile.pdf
+
+---
+
+Hi,
+
+I saw the HN posting for the Senior Full-Stack AI Engineer role at Legile. Here is what I built.
+
+At FlowSpace (a coworking marketplace, London) I designed and shipped an AI data pipeline that takes documents in any format, extracts structured data using LLM agents with RAG retrieval and structured output parsing, and pushes validated results to a PostgreSQL backend after human review. The pipeline handles hundreds of sources with different formats: PDFs, web pages, photos, spreadsheets. I built the retrieval layer, the multi-agent orchestration logic, the React/Next.js review frontend, and the API backend that ties them together.
+
+I also built RAG-backed support agents that answer customer queries against live platform data, with vector database retrieval, confidence scoring, and escalation to a person on low confidence. Plus API integrations against third-party booking systems, CRMs, and payment platforms (Stripe, OfficeRnD, Nexudus, Attio).
+
+Before that I took over a live marketplace running on a legacy stack and worked with the team to migrate it to a coded product (Next.js frontend, Laravel backend, PostgreSQL). Scaled from 2,000 to 4,500+ users.
+
+I work across Python, TypeScript, and React daily. I use Claude Code as my primary development tool and build with AI every day. I ship fast and take full ownership in small teams.
+
+I am based in Italy with an EU Long Term Residence Permit and am open to relocating to Belgium. Available immediately.
+
+CV attached.
+
+Regards,
+Prabhavit Gupta
++39 351 610 7807
+linkedin.com/in/prabhavit
+github.com/prab-gupta

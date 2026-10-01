@@ -1,0 +1,107 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{32}{34}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - Forward Deployed Engineer (AWS) CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn} \textbar\ \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+\vspace{-18pt}
+
+\section{Profile}
+Senior Forward Deployed Engineer and Cloud Solutions Architect with deep expertise in enterprise customer delivery, AWS cloud architecture, and production-grade Generative AI implementations. Proven track record operating embedded with client stakeholders (CIOs, CTOs, VPs of Engineering) to translate complex business objectives into resilient AWS solutions. Hands-on expert in Infrastructure as Code (Terraform, AWS CDK), modern serverless/microservices patterns (Lambda, ECS, API Gateway, DynamoDB), legacy application migrations to AWS, and enterprise RAG/Bedrock systems that accelerate cloud adoption and deliver measurable ROI.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{AWS Cloud Architecture:} Core AWS (VPC, IAM, EC2, ECS, Lambda, S3, RDS, DynamoDB, CloudFront, Route 53), Microservices, Well-Architected Framework
+\item \textbf{Infrastructure as Code \& DevOps:} Terraform, AWS CDK, CloudFormation, Docker, CI/CD Pipelines (GitHub Actions, GitLab CI, AWS CodePipeline)
+\item \textbf{AWS GenAI \& Data Platforms:} Amazon Bedrock, SageMaker, RAG Pipelines, Vector Databases (pgvector, OpenSearch), Multi-Agent Systems
+\item \textbf{Software Development \& Integrations:} TypeScript, Python, Node.js, Next.js, Laravel, REST/GraphQL APIs, Webhooks, PostgreSQL, Enterprise Systems
+\item \textbf{Forward Deployed Delivery:} Client Discovery, C-Level Alignment, Rapid POC Prototyping, Application Modernization, Cloud Enablement
+\end{itemize}
+
+\section{Professional Experience}
+
+\cventry{Mar 2024 - Present}{Lead Developer \& Forward Deployed Cloud Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Led the cloud migration and application modernization from a legacy stack to Next.js and Laravel, scaling active users from 2,000 to over 4,500 with zero downtime.
+\item Architected and deployed an enterprise GenAI listing pipeline (Python, TypeScript, Claude/Bedrock APIs) ingesting multi-format unstructured brochures (PDFs, web, spreadsheets) with human-in-the-loop review, drafting 900+ production listings.
+\item Built resilient microservices utilizing AWS S3, Lambda, and relational databases for scalable background data processing, document parsing, and file storage.
+\item Engineered bidirectional enterprise integrations with OfficeRnD and Nexudus REST APIs, automating workspace reservations and billing synchronization.
+\item Embedded directly with client leadership and cross-functional teams to translate ambiguous business requirements into high-performing cloud architectures.
+\end{itemize}
+}
+\vspace{1pt}
+
+\cventry{Apr 2025 - Jul 2025}{Project Manager \& Forward Deployed Developer (Freelance)}{Urlink}{Barcelona, Spain (Remote)}{}{
+\begin{itemize}
+\item Served as primary technical lead on client engagement, translating business logic into customized cloud applications using Next.js and Supabase.
+\item Designed automated client workflows and real-time database synchronizations, reducing deployment cycles and accelerating platform time-to-value.
+\end{itemize}
+}
+\vspace{1pt}
+
+\cventry{Dec 2024 - May 2025}{Cloud \& AI Automation Engineer (Collaborator)}{UltraStrategy.com}{France (Remote)}{}{
+\begin{itemize}
+\item Deployed an automated multi-profile document parsing and ingestion engine using n8n and Eden AI, structuring unstructured files into validated JSON records.
+\item Built automated data pipelines and error recovery workflows to reliably ingest candidate records into downstream enterprise databases.
+\end{itemize}
+}
+\vspace{1pt}
+
+\cventry{Jan 2024 - May 2024}{Lead Developer \& Automation Specialist (Part-time)}{Get2Germany.com}{Berlin, Germany (Remote)}{}{
+\begin{itemize}
+\item Developed automated data collection pipelines integrating Google Cloud APIs, optimizing database queries and data synchronization performance.
+\item Implemented custom AI-powered recommendation logic to match candidates with educational and career opportunities.
+\end{itemize}
+}
+\vspace{1pt}
+
+\cventry{Sep 2023 - Aug 2024}{Full-Stack Developer \& QA Engineer (Freelance)}{Clubee.com}{Foetz, Luxembourg (Remote)}{}{
+\begin{itemize}
+\item Engineered comprehensive REST API integrations across client-facing modules, federation dashboards, and e-commerce subsystems.
+\item Enforced production reliability through automated end-to-end testing (Playwright) and API contract testing (Postman), minimizing deployment regressions.
+\end{itemize}
+}
+\vspace{1pt}
+
+\cventry{2024 - Jan 2025}{Solutions Developer (Collaborator)}{Qomodo}{Milan, Italy}{}{Built an enterprise branch-management platform and operational dashboard according to client design specifications, enabling multi-location corporate administration.}
+
+\section{Technical Solutions \& Accelerators}
+\begin{itemize}
+\item \textbf{Enterprise Multi-Modal RAG Ingestion Engine} (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}): Event-driven framework using AWS S3, pgvector/OpenSearch, and Bedrock/Claude APIs; implemented schema-validated parsing and human-in-the-loop review.
+\item \textbf{Automated Cloud Infrastructure Accelerators}: Reusable Terraform and CDK configuration modules for rapid staging of serverless microservices, secure VPC networking, and containerized task orchestration on AWS.
+\end{itemize}
+
+\section{Education}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)}{Ca' Foscari University of Venice}{Venice, Italy}{}{}
+
+\section{Certifications \& Languages}
+\begin{itemize}
+\item \textbf{Certifications \& Training:} Microsoft Copilot Studio Agent Academy, Introduction to Building AI Agents, Microsoft Power Automate, Tray.AI Build Practitioner; AWS Well-Architected Framework \& Cloud Architecture Principles.
+\item \textbf{Work Authorization \& Languages:} European Long Term Residence Permit (Italy; unrestricted EU work rights, no sponsorship needed). English (Fluent C1/C2), Hindi (Native), Italian (Conversational).
+\end{itemize}
+
+\end{document}

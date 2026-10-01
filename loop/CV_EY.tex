@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.70cm,bottom=0.70cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed AI Engineer - Manager (FS Technology Consulting)}\\[5pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Ready to relocate to Dublin)}
+\end{minipage}
+\vspace{10pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Hands-on AI engineer and client-embedded technical leader specializing in GenAI, multi-agent orchestration, and enterprise-grade data pipelines. Experienced in bridging complex business requirements with production AI, taking scalable architectures from concept to delivery. At FlowSpace, led technical discovery and deployment of an AI-driven multi-format ingestion pipeline and customer-facing support agents, migrating platform infrastructure for 4,500+ active users with zero downtime. Eager to join EY's FS Technology Consulting practice in Dublin to build reliable, compliant, and transformative AI solutions for financial services clients.
+
+% ================= SKILLS =================
+\section{Core Competencies}
+\begin{itemize}
+  \item \textbf{Forward Deployment \& Technical Leadership:} Client-facing solution architecture, managing cross-functional engineering alignment, enterprise delivery, requirements translation, rapid prototyping, and edge-case resolution.
+  \item \textbf{GenAI \& Multi-Agent Orchestration:} RAG architectures, prompt engineering, multi-step agent workflows, Claude API, OpenAI API, structured JSON extraction, confidence scoring, and human-in-the-loop review.
+  \item \textbf{Backend \& Data Engineering:} Python, TypeScript, Node.js, Next.js, PostgreSQL, REST APIs, asynchronous event queues, retry/rate-limit handling, and robust ETL pipelines.
+  \item \textbf{Infrastructure \& Reliability:} Docker, CI/CD pipelines, automated testing, production monitoring, zero-defect data cutovers, and secure integrations for enterprise compliance.
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Professional Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Solutions Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and shipped a multi-format AI ingestion pipeline orchestrating LLM tool use (Claude API, TypeScript) to extract data from customer brochures with automated structured parsing; successfully processed and drafted 900+ listings.
+  \item Deployed customer-facing support AI agents operating against live database records, implementing confidence-scoring thresholds and automated escalation paths for human fallback.
+  \item Directed core platform migration from a legacy stack to Next.js and Laravel (PostgreSQL), leading the database schema cutover and scaling the platform from 2,000 to 4,500+ active users with zero downtime.
+  \item Partnered directly with external customer stakeholders to translate operational bottlenecks into production features, engineering bidirectional enterprise integrations with robust rate limits and webhook handling.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany (remote)}
+\begin{itemize}
+  \item Built automated data collection and validation pipelines using API integrations, streamlining core database synchronization.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Developer \& QA (Freelance)}{Foetz, Luxembourg (remote)}
+\begin{itemize}
+  \item Integrated core REST APIs across frontend modules and delivered administrative federation dashboards for international sports organizations, prioritizing robust validation and testing.
+\end{itemize}
+
+% ================= PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+  \item \textbf{\href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser}}: Open-source engine demonstrating multi-format document parsing into strictly typed, validated JSON structures with automated error recovery.
+  \item \textbf{\href{https://smarturlink.com/}{Urlink}} (Apr 2025 - Jul 2025): Project Manager \& AI-Assisted Developer; collaborated with client leadership on technical discovery and delivered client-driven automations using Next.js and Supabase.
+\end{itemize}
+
+% ================= EDUCATION \& CERTIFICATIONS =================
+\section{Education \& Certifications}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 - Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)\\[1pt]
+\textbf{Certifications:} Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to Building AI Agents \textbullet\ Tray.AI Build Practitioner
+
+% ================= WORK AUTHORIZATION =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} Italian EU Long Term Residence Permit (unrestricted EU work rights, no visa sponsorship needed in Ireland). \quad \textbf{Languages:} English (fluent C2), Hindi (native), Italian (conversational).}
+
+\end{document}

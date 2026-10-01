@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.82]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti 10}{Venice, Italy}{}
+\phone[mobile]{+39~351~610~7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+\vspace{-2em}
+AI Engineer specialized in building and shipping production AI agents and GenAI workflows. Strong background in integrating LLMs (Claude, OpenAI), RAG pipelines, and automated tools into scalable business logic. Experienced in working directly with cross-functional teams to translate complex requirements into reliable technical systems, perfectly matching United Digital Group's mission to deliver actionable AI solutions to enterprise clients.
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{GenAI \& LLM Integration}: Production deployment of Claude and OpenAI APIs, designing context-aware agents, RAG, and LLM data-extraction pipelines.
+\item \textbf{Workflow Automation}: Orchestrating robust data flows and human-in-the-loop systems using n8n, Eden AI, and bespoke TypeScript/Python services.
+\item \textbf{Full-Stack Engineering}: Developing scalable applications with TypeScript, Next.js, Node.js, and Python.
+\item \textbf{Client-Facing Delivery}: Translating business requirements into technical architectures and managing live deployments.
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{3pt}
+
+\cventry{Mar 2024 - Aug 2026}{Lead Developer (Full-Stack \& AI)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Engineered a production AI listing bot (n8n, Claude, TypeScript) that processes multi-format brochures to automatically draft workspace listings with a human-in-the-loop.
+\item Developed and deployed support AI agents interacting with live platform data, utilizing confidence-based routing for human escalation.
+\item Led the migration of a live marketplace from a legacy stack to a modern Next.js and Laravel architecture, mapping data models with zero downtime.
+\item Delivered end-to-end features and automated CRM workflows, directly supporting the platform's scale from 2,000 to 4,500+ users.
+\end{itemize}
+}
+
+\vspace{3pt}
+
+\cventry{Apr 2025 - Jul 2025}{Project Manager \& AI Developer}{Urlink}{Barcelona, Spain (Remote)}{}{
+\begin{itemize}
+\item Directed platform development utilizing AI-assisted coding tools and implemented client-driven automations with Next.js and Supabase.
+\item Acted as the technical point of contact, ensuring software implementation met specific client business requirements.
+\end{itemize}
+}
+
+\vspace{3pt}
+
+\cventry{Dec 2024 - May 2025}{AI Automation Developer}{UltraStrategy}{France (Remote)}{}{
+\begin{itemize}
+\item Built a robust CV-parsing and data-extraction pipeline leveraging n8n and Eden AI.
+\end{itemize}
+}
+
+\vspace{3pt}
+
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA}{Clubee.com}{Luxembourg (Remote)}{}{
+\begin{itemize}
+\item Integrated the core API across the frontend, developed domain-integration tools, and executed unit testing.
+\end{itemize}
+}
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{\href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser}}: A public, runnable pipeline for transforming unstructured documents into structured JSON using LLMs.
+\end{itemize}
+
+\section{Education}
+\vspace{3pt}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{Minor: Entrepreneurship.}
+
+\end{document}

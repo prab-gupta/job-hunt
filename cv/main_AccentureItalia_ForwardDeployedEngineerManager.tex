@@ -1,0 +1,104 @@
+% =====================================================================
+%  Prabhavit Gupta - Tailored CV for Forward Deployed Engineer Manager
+%  Target:   Accenture Italia (Milan / Assago, Italy)
+%  Role:     Forward Deployed Engineer Manager (LinkedIn: 4444008201)
+%  Compile:  tectonic main_Accenture_ForwardDeployedEngineerManager.tex OR pdflatex / lualatex
+%  Rules:    ONE PAGE. 0 em-dashes. Plain voice. Clickable links.
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.65cm,bottom=0.65cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer Manager: Enterprise AI, Agentic Platforms \& Delivery}\\[5pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Hybrid Milan / Relocation)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\IfFileExists{photo.jpg}{\includegraphics[width=2.0cm]{photo.jpg}}{}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward Deployed Engineer Manager with 3+ years of experience leading technical delivery, architecting enterprise AI platforms, and operationalizing agentic workflows directly embedded within client environments. Proven track record owning production outcomes: moving complex systems from rapid prototyping to production scale, and leading the platform migration off a legacy stack to Next.js and Laravel (scaling 2,000 to 4,500+ users with zero downtime). Deep hands-on expertise building production multi-agent systems, RAG pipelines, and automated multi-format data extraction with human-in-the-loop governance (900+ production entities drafted). Daily practitioner with Claude Code, TypeScript, Python, REST APIs, and event-driven architectures. Translates ambiguous business challenges into measurable enterprise value.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Forward-Deployed Leadership \& Delivery:} Pod management, client technical discovery, translating ambiguous business requirements into production architectures, C-suite technical alignment, production outcome ownership (time-to-value, reliability, adoption velocity), agile sprint coordination, UAT
+  \item \textbf{Agentic AI \& Enterprise LLM Systems:} Claude Code (daily driver for rapid prototyping and test scaffolding), Anthropic Claude API, OpenAI API, Google Gemini, multi-step agent orchestration, Model Context Protocol (MCP), tool use and function calling, RAG architectures, structured JSON parsing, prompt engineering, confidence scoring, human-in-the-loop review
+  \item \textbf{Enterprise Architecture \& Integrations:} TypeScript, Python, Node.js, Next.js, Laravel (PHP), REST APIs, OpenAPI, webhooks, asynchronous queues, retry and rate-limit handling, PostgreSQL, Supabase, third-party integrations (CRM, OfficeRnD, Nexudus, Google APIs, SendGrid)
+  \item \textbf{Platform Migration, QA \& Reliability:} Legacy platform migration, data-model mapping, zero-downtime cutovers, distributed system reliability, Playwright automated testing, Postman contract testing, unit testing, logging, tracing, exception escalation, CI/CD, Docker, Git/GitHub
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Forward Deployed AI Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and shipped an AI listing ingestion pipeline (n8n, Claude API, TypeScript) orchestrating multi-step LLM tool use and structured parsing to extract data from multi-format brochures (PDF, web, spreadsheet, image) with human-in-the-loop review; 900+ listings drafted.
+  \item Owned production outcomes across the platform, leading core system migration off a legacy stack to coded Next.js and Laravel (PostgreSQL), scaling active users from 2,000 to 4,500+ without downtime.
+  \item Deployed customer-facing support AI agents operating against live database records, implementing confidence scoring thresholds and deterministic fallback paths that escalate ambiguous inquiries to human staff.
+  \item Engineered bidirectional enterprise integrations with OfficeRnD and Nexudus APIs for automated bookings, handling rate limits, webhook synchronization, and automated error recovery.
+  \item Acted as technical execution lead across internal dev teams, client stakeholders, and external agency partners to translate operational bottlenecks into robust production features.
+\end{itemize}
+
+\role{\href{https://smarturlink.com/}{Urlink}}{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain (remote)}
+Partnered directly with client leadership on technical discovery, designed platform architecture, and delivered client-driven automations using Next.js, Supabase, and Claude Code.\\[1pt]
+
+\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 - May 2025}{AI Automation Developer (Collaborator)}{France (remote)}
+Engineered an automated document extraction and parsing pipeline in n8n and Eden AI, structuring unstructured data into normalized, schema-validated JSON records across multi-tier user profiles.\\[1pt]
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany (remote)}
+Built automated data collection and validation pipelines using n8n and Google APIs, streamlining database synchronization and candidate matching logic.\\[1pt]
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg (remote)}
+Integrated core REST APIs across frontend modules, executed QA/unit testing, and delivered administrative federation dashboards.
+
+% ================= SELECTED PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+  \item \textbf{\href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser}} (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}): Open-source parsing engine demonstrating multi-format document conversion (PDF, image, text) into strictly typed, validated JSON structures with automated error recovery.
+  \item \textbf{\href{https://www.qomodo.me/}{Qomodo}} (2024 - Jan 2025): Collaborator; built an enterprise branch management dashboard implementing Figma specifications in Milan, Italy.
+\end{itemize}
+
+% ================= EDUCATION & CERTIFICATIONS =================
+\section{Education \& Certifications}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 - Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)\\[1pt]
+\textbf{Certifications:} Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to Building AI Agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= WORK AUTHORIZATION =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} Italian EU Long Term Residence Permit (unrestricted EU work rights, no visa sponsorship needed in Italy/EU; available immediately). Venice, Italy (hybrid Milan / relocation). \quad \textbf{Languages:} English (professional C2), Hindi (native), Italian (conversational).}
+
+\end{document}

@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Via Zanetti 10}{30175 Venice, Italy}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Forward deployed AI engineer specializing in building GenAI-powered web applications and leading technical transformations. With deep expertise in modern JavaScript (React, Node.js) and Anthropic/OpenAI integrations, I work directly with clients to turn ambiguous requirements into scalable, production-ready software. Passionate about championing a delivery model where GenAI accelerates every stage of the SDLC, driving rapid time-to-value.
+
+\vspace{2pt}
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{GenAI \& Agents:} Anthropic Claude API, GitHub Copilot, Model Context Protocol (MCP), structured output parsing, multi-step agent orchestration, and RAG pipelines.
+\item \textbf{Modern Web Development:} TypeScript, React, Next.js, Node.js, building reusable frontend components and scalable backend systems for complex architectures.
+\item \textbf{Client Engagement \& SDLC:} Leading development teams, running client workshops to define technical direction, and end-to-end ownership from architecture to CI/CD deployment.
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{3pt}
+\cventry{Mar 2024 - Aug 2026}{Full-Stack \& AI Engineer (Freelance)}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Co-led the migration of a live marketplace off a legacy stack into a robust Next.js and backend architecture, scaling the active user base from 2,000 to over 4,500.
+\item Built and shipped an AI data pipeline orchestrating multi-step LLM agents (Claude, OpenAI) with tool use and RAG to ingest documents across various formats into production.
+\item Designed strict human-in-the-loop governance workflows with schema validation, enabling safe review and deployment of AI outputs across the SDLC.
+\item Embedded directly into customer ecosystems to build integrations against APIs and booking systems, setting the technical direction and ensuring seamless software delivery.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Jan 2025 - Dec 2025}{Project Manager \& Lead Developer}{Urlink}{Remote}{}{
+\begin{itemize}
+\item Worked directly with the client to translate business requirements into a scalable platform, architecting the application logic and leading development using Next.js and Supabase.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Delivered rapid automation solutions integrating Google APIs and AI extraction tools to streamline workflows, acting as the technical bridge between business goals and functional code.
+\end{itemize}
+}
+
+\vspace{3pt}
+\cventry{Jan 2024 - Dec 2025}{AI Automation Developer}{UltraStrategy}{Remote}{}{
+\begin{itemize}
+\item Engineered a custom data extraction engine utilizing LLMs to streamline operations and enhance platform matching capabilities, improving processing speed and accuracy.
+\end{itemize}
+}
+
+\section{Education \& Certifications}
+\vspace{3pt}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University}{Venice, Italy}{}{Minor in Entrepreneurship.}
+\vspace{3pt}
+\cventry{Sep 2024 - Sep 2024}{Tray.AI Build Practitioner \& Agent Academy}{Microsoft}{}{}{}
+
+\section{Languages}
+English (Professional), Italian (Beginner), Hindi (Native).
+
+\end{document}

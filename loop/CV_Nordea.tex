@@ -1,0 +1,94 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.8cm,bottom=0.8cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Senior Forward Deployed AI Engineer | Agentic AI \& Full-Stack}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
+\end{center}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+I build and deploy production-grade agentic AI solutions and full-stack applications. At FlowSpace, I led the development of the AI layer, implementing document processing pipelines with LLM structured outputs and multi-agent support systems using retrieval-augmented generation (RAG). I excel as a technical partner to business stakeholders, taking ambitious AI visions from architecture through to secure, integrated production rollouts. I write clean, testable code in Python and TypeScript, and orchestrate complex enterprise integrations and CI/CD pipelines.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{AI \& LLMs in Production:} Agentic AI frameworks (LangGraph, n8n), Retrieval-Augmented Generation (RAG), LLM APIs (OpenAI, Claude), structured outputs, multi-agent orchestration, prompt engineering
+ \item \textbf{Languages \& Frameworks:} Python, TypeScript, Node.js, Express, React, Next.js, PostgreSQL, Redis, Supabase
+ \item \textbf{Engineering \& Delivery:} End-to-end AI lifecycle, REST API design, CI/CD, cloud deployment (AWS/Azure concepts), data modelling, asynchronous processing, ethical AI governance
+ \item \textbf{Integrations:} Enterprise API integration, webhooks, CRM automations, system architecture
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Forward Deployed AI \& Full-Stack Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Partnered with stakeholders to design and deploy an AI layer that automated critical business workflows, scaling the platform capacity from 2,000 to over 4,500 active users.
+ \item Built scalable agentic AI solutions, including support agents that resolve customer queries using RAG against live enterprise data, with fallback delegation to human operators.
+ \item Delivered a multi-format document processing pipeline that extracts data from PDFs and web pages using LLM structured outputs, transforming unstructured data into production-ready listings.
+ \item Orchestrated complex integrations via REST APIs and webhooks (including CRM platforms like Attio and Amplemarket) using n8n to ensure seamless data flow across business units.
+ \item Managed the full application lifecycle, from system architecture to CI/CD deployment, ensuring reliability and security.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+\begin{itemize}
+ \item Developed automated data pipelines integrating Google APIs to process and organise high-volume domain data.
+ \item Built AI-assisted workflow tools to match users with opportunities, optimizing the backend database for performance.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+\begin{itemize}
+ \item Integrated internal APIs across the frontend architecture and led unit testing and QA to ensure robust production releases.
+\end{itemize}
+
+% ================= FREELANCE PROJECTS =================
+\section{Freelance \& Agentic AI Projects}
+\begin{itemize}
+ \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (2024 -- 2025): Deployed an enterprise CV-parsing agent using LLM data extraction, n8n orchestration, and Eden AI. Partnered directly with the client to define the AI capability and integrated it into a secure user portal.
+ \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025): Acted as technical lead and AI developer, gathering requirements directly from the client and delivering a full-stack Next.js/Supabase platform with integrated user automations.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed anywhere in the EU; available immediately. \quad \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).}
+
+\end{document}

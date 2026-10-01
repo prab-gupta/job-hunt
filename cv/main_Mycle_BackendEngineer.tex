@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Prabhavit Gupta - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Prabhavit}{Gupta}
+\address{Venice, Italy}{}{}
+\phone[mobile]{+39 351 610 7807}
+\email{prabhavitg@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prabhavit/}{LinkedIn}, \href{https://github.com/prab-gupta}{GitHub}}
+
+\begin{document}
+\makecvtitle
+
+Backend Software Engineer specialized in high-performance distributed systems, API integrations, and event-driven architectures. At FlowSpace, I designed complex asynchronous workflows, ensuring data integrity and transactional consistency---critical for systems managing high-throughput data processing. I am highly adaptable, leveraging AI-assisted workflows (Claude Code) to rapidly master new tech stacks and refactor legacy codebases. I have hands-on experience setting team standards for AI coding tools. With a strong track record of building resilient microservices, I am eager to bring my backend engineering expertise to Mycle, delivering stable mobility services and improving developer productivity in a Spring/Kotlin environment.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Backend \& Infrastructure:} Python, TypeScript, Node.js, PostgreSQL, AWS, Docker. Proven ability to rapidly adapt to JVM-based environments (Kotlin, Java, Spring) using advanced AI coding tools.
+\item \textbf{Distributed Systems:} REST API design, event-driven architectures (Kafka, SNS/SQS concepts), webhooks, asynchronous job processing, fault tolerance, data integrity, microservices.
+\item \textbf{AI \& Orchestration:} AI-assisted coding (Claude Code) for accelerated development, defining AI workflows and standards for teams, legacy code refactoring and context building using LLMs.
+\end{itemize}
+
+\section{Professional Experience}
+\cventry{Mar 2024 - Aug 2026}{Full-Stack \& Backend Engineer}{FlowSpace.co}{London, UK (Remote)}{}{
+\begin{itemize}
+\item Designed event-driven architectures integrating complex APIs, carefully managing transaction boundaries, webhooks, and retry logic to serve high-throughput workloads with strict fault tolerance.
+\item Built and scaled data pipelines orchestrating multi-step integrations, ensuring strong data consistency for critical workflows similar to reservation or settlement systems.
+\item Migrated a legacy system to a modern stack (Next.js, PostgreSQL), optimizing RDBMS schema and scaling the active user base from 2,000 to over 4,500 while improving DB performance.
+\item Leveraged AI agents (Claude Code) to navigate legacy contexts, automate repetitive tasks, and improve overall team velocity, setting a standard for effective AI tool usage.
+\end{itemize}}
+
+\vspace{3pt}
+\cventry{Jan 2024 - May 2024}{Developer \& Automation Specialist}{Get2Germany.com}{Berlin, Germany}{}{
+\begin{itemize}
+\item Integrated third-party APIs and built robust data extraction workflows, optimizing underlying PostgreSQL database performance with custom SQL tuning for concurrent access.
+\end{itemize}}
+
+\vspace{3pt}
+\cventry{Sep 2023 - Aug 2024}{Developer \& QA}{Clubee.com}{Foetz, Luxembourg}{}{
+\begin{itemize}
+\item Spearheaded the integration of the Clubee API, ensuring reliable system performance and data integrity in a highly distributed environment.
+\item Engaged in rigorous code reviews and test automation to maintain high quality standards.
+\end{itemize}}
+
+\section{Independent Projects}
+\cventry{2024 - 2025}{Backend Developer}{UltraStrategy}{Freelance}{}{
+\begin{itemize}
+\item Built a scalable data extraction tool serving multiple user profiles, actively questioning initial requirements to propose more efficient architectural solutions.
+\end{itemize}}
+
+\vspace{3pt}
+\cventry{2025}{Project Manager \& Backend Developer}{Urlink}{Freelance}{}{
+\begin{itemize}
+\item Led the end-to-end development of a platform, deploying client-driven automations, establishing secure data handling, and optimizing backend cloud services.
+\end{itemize}}
+
+\section{Education}
+\cventry{Oct 2020 - Jun 2024}{BA Philosophy, International Studies \& Economics}{Ca' Foscari University of Venice}{Venice, Italy}{}{\vspace{1pt}Minor: Entrepreneurship. Developed strong logical thinking, critical analysis, and a collaborative mindset.}
+
+\vspace{5pt}
+{\small \textbf{Work authorization:} EU Long Term Residence Permit (Italy). Open to relocation to Seoul, South Korea.}
+
+\end{document}

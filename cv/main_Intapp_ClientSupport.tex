@@ -1,0 +1,101 @@
+% =====================================================================
+%  Prabhavit Gupta - Tailored CV for Client Support Engineer at Intapp
+%  Target: Intapp (Client Success & Support - Lisbon, Portugal)
+%  Role: Client Support Engineer (LinkedIn: 4457159572)
+%  Compile: tectonic cv/main_Intapp_ClientSupport.tex
+%  Rules: ONE PAGE. 0 em-dashes. Plain voice. Verified facts. ATS-optimized.
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.7cm,bottom=0.7cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Client Support Engineer: Enterprise SaaS, SQL Diagnostics \& API Integrations}\\[5pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Relocating to Lisbon, Portugal)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Technical, client-facing engineer with 3+ years of experience troubleshooting enterprise SaaS platforms, performing deep-dive SQL and API diagnostics, and resolving client-reported technical issues. At FlowSpace, owned production incident resolution end-to-end, debugging REST integrations, analyzing database logs, and resolving data synchronization anomalies while managing a core platform migration scaling to 4,500+ users. Hands-on with SQL query writing, relational schema analysis (PostgreSQL, Supabase), REST/webhooks, Postman, browser devtools, system log tracing, and automated testing (Playwright). Experienced in communicating technical findings to enterprise clients and preparing structured escalation packets for engineering teams.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Technical Support \& Diagnostics:} Root-cause analysis, ticket triage, high-severity incident resolution, browser devtools, network/HTTP trace inspection, server log analysis, SLA management, engineering escalation packets, bug documentation
+  \item \textbf{Databases \& SQL:} SQL/T-SQL query writing, PostgreSQL, Supabase, MySQL, relational data modeling, schema mapping, database performance optimization, data integrity auditing, data cutovers
+  \item \textbf{APIs \& Enterprise Integrations:} REST APIs, webhooks, JSON, XML/SOAP data exchange concepts, OpenAPI/Swagger, Postman, authentication (OAuth2, API keys), third-party integrations (OfficeRnD, Nexudus, SendGrid, CRMs)
+  \item \textbf{Languages, QA \& Tools:} TypeScript, JavaScript, Python, Node.js, Next.js, Laravel (PHP), Playwright automated testing, Git/GitHub, Docker, Jira, n8n workflow automation
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Technical Support Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Owned tier-2 and tier-3 technical incident triage and end-to-end resolution for live marketplace users, diagnosing backend anomalies, database mismatches, and web application issues.
+  \item Utilized SQL queries and database log diagnostics on PostgreSQL/Supabase to isolate data synchronization failures, verify data integrity, and resolve transactional discrepancies.
+  \item Troubleshot complex REST API and webhook integrations connecting external platforms (OfficeRnD, Nexudus, SendGrid), resolving payload parsing errors, rate limiting, and authentication failures.
+  \item Deployed AI-powered client support workflows on live data with confidence scoring and automated human escalation, resolving routine inquiries and routing complex tickets with full context.
+  \item Led platform and database migration off a legacy stack to coded Next.js and Laravel, auditing relational schemas and ensuring zero downtime across 4,500+ active users.
+\end{itemize}
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Developer \& QA Engineer (Full-time, Freelance)}{Foetz, Luxembourg (remote)}
+Investigated frontend-backend integration issues, inspecting network traffic, payload schemas, and HTTP status codes to diagnose failure points. Executed end-to-end API and UI troubleshooting, conducting unit testing and QA to isolate defects.\\[1pt]
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany (remote)}
+Built automated data collection and validation pipelines using n8n and Google APIs, optimizing SQL database queries and resolving operational data pipeline errors.\\[1pt]
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Developer (Internship)}{Utrecht, Netherlands (remote)}
+Diagnosed and resolved client-facing software bugs, validated API endpoints (ChatGPT/OpenAI, SendGrid), and debugged responsive web modules.
+
+% ================= PROJECTS =================
+\section{Selected Projects}
+\begin{itemize}
+  \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025): Technical Project Manager \& Developer. Managed client technical requirements, investigated platform edge cases, and implemented automated workflows using Next.js and Supabase.
+  \item \textbf{\href{https://github.com/prab-gupta/llm-doc-parser}{LLM Document Parser}} (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}): Open-source engine demonstrating multi-format document parsing (PDF, image, text) into strictly typed, validated JSON structures with automated error recovery.
+\end{itemize}
+
+% ================= EDUCATION \& CERTIFICATIONS =================
+\section{Education \& Certifications}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 - Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)\\[1pt]
+\textbf{Certifications:} Microsoft Power Automate \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Building AI Agents \textbullet\ Tray.AI Build Practitioner
+
+% ================= WORK AUTHORIZATION =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} Italian EU Long Term Residence Permit (no visa sponsorship needed in Portugal/EU; available immediately). \quad \textbf{Languages:} English (fluent C2), Hindi (native), Italian (conversational).}
+
+\end{document}

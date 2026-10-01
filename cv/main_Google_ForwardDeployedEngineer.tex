@@ -1,0 +1,97 @@
+% =====================================================================
+%  Prabhavit Gupta, one-page CV template (Google - Forward Deployed Engineer)
+%  Compile:  tectonic main_Google_ForwardDeployedEngineer.tex
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.8cm,bottom=0.8cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{1F4E78}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\role}[4]{%
+ \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+ \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Forward Deployed Engineer, Applied AI}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
+\end{center}
+\vspace{2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Software engineer specializing in AI orchestration frameworks, API architecture, and translating complex business requirements into custom working software. At FlowSpace I engineered custom support agents operating over live platform data and built robust integrations connecting foundational models to client-facing CRM and operational systems. Hands-on with Python, TypeScript, SQL, REST/GraphQL APIs, and AI-assisted engineering (including Claude Code), bridging the gap between product engineering and customer success to deploy solutions in days rather than quarters.
+
+% ================= SKILLS =================
+\section{Skills}
+\begin{itemize}
+ \item \textbf{AI Orchestration \& Tooling:} LLM APIs (Claude, OpenAI), agentic workflows, Model Context Protocol (MCP), tool-calling, RAG, prompt engineering, n8n, Claude Code
+ \item \textbf{Languages \& Cloud Platforms:} Python, TypeScript, JavaScript, Node.js, Next.js, SQL, GCP (Google APIs), Docker, CI/CD
+ \item \textbf{API \& Integration Architecture:} REST/GraphQL APIs, OpenAPI specifications, webhook integrations, schema validation, third-party system integrations, PostgreSQL, Supabase, Laravel
+ \item \textbf{Client Engagement:} Translating business requirements to technical architecture, training customer teams, rapid prototyping, managing client-driven automations
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Full-Stack \& AI Engineer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Built a custom AI pipeline (Python, TS, Claude, n8n) extracting structured data from PDFs, websites, and client spreadsheets with human-in-the-loop review, drafting 900+ verified platform listings.
+ \item Embedded AI into the core product by shipping customer support agents that query live database records and intelligently escalate to human teams on low confidence.
+ \item Architected API integrations with third-party providers (OfficeRnD, Nexudus) to automate external bookings, alongside CRM/GTM workflows for lead capture and enrichment.
+ \item Migrated the core live marketplace off a legacy stack to a modern Next.js/Laravel architecture, scaling active users from 2,000 to 4,500+ and directly communicating technical decisions to stakeholders.
+\end{itemize}
+
+\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 -- May 2024}{Developer \& Automation Specialist (Part-time)}{Berlin, Germany}
+Integrated Google APIs and built custom AI tools in n8n to aggregate courses, internships, and job postings, feeding business insights directly to the founders.\\[1pt]
+
+\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 -- Aug 2024}{Developer \& QA (Full-time, Freelance)}{Foetz, Luxembourg}
+Integrated the core Clubee API across the frontend, executing rigorous unit testing to ensure reliable customer deployments.\\[1pt]
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 -- Oct 2023}{Developer (Internship)}{Utrecht, Netherlands}
+Integrated OpenAI and Sendgrid APIs, translating business logic into responsive front-end workflows.
+
+% ================= FREELANCE PROJECTS =================
+\section{Freelance Projects}
+\begin{itemize}
+ \item \textbf{\href{https://smarturlink.com/}{Urlink}} (2025), Project Manager \& AI-Assisted Developer. Managed direct client requirements, translating business needs into shipped automations. Stack: Next.js, Supabase, Netlify.
+ \item \textbf{\href{https://ultrastrategy.com}{UltraStrategy}} (2024 -- 2025), AI Automation Developer. Built a custom CV-parsing solution via LLM data extraction for client environments using n8n and Eden AI.
+ \item \textbf{\href{https://www.qomodo.me/}{Qomodo}} (2024 -- 2025), AI Developer. Built an intuitive dashboard for companies to manage branch operations based on provided design specs.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024)
+
+% ================= EDUCATION =================
+\section{Education}
+\textbf{Ca' Foscari University of Venice} \hfill Oct 2020 -- Jun 2024\\
+BA Philosophy, International Studies \& Economics (Minor: Entrepreneurship)
+
+% ================= AUTH =================
+\vspace{2pt}
+{\small \textbf{Work authorization:} European Long Term Residence Permit (Italy); willing to relocate to Zurich. \quad \textbf{Languages:} Hindi (native), English (professional), Italian (conversational).}
+
+\end{document}

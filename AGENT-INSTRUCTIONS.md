@@ -205,3 +205,6 @@ The proficiently job-search plugin stores data at `~/.proficiently/` on his loca
 - `resume/Prabhavit_CV.pdf` - base CV
 
 This data is NOT in the repo. If you need it, ask Prabhavit to share the relevant files.
+
+### Auto-Invoke Claude Skills
+When the user makes a request, ALWAYS evaluate if it matches one of the workflows in `.claude/skills/` (including the 7 new proficiently skills: `apply`, `cover-letter`, `job-search`, `jobsearch-telegram`, `network-scan`, `setup`, `tailor-resume`, as well as `company-researcher`, `interview-analyzer`, `developer-growth`, `workspace-organizer`, and `job-application-assistant`). If relevant, silently use your file reading tool to read the corresponding `SKILL.md` and follow its instructions immediately. Do not ask for permission to use the skill.

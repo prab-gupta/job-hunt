@@ -1,0 +1,487 @@
+0 notifications
+Skip to search
+Skip to main content
+Skip to primary content
+Skip to aside
+Skip to footer
+Home
+2
+My Network
+Jobs
+Messaging
+3
+Notifications
+Me
+For Business
+Learning
+
+SimplePractice
+
+AI Solutions Engineer 
+
+Santa Monica, CA · 19 hours ago · Over 100 applicants
+
+Promoted by hirer · No response insights available yet
+
+Remote
+Full-time
+Easy Apply
+Save
+Use AI to assess how you fit
+
+Show match details
+
+Tailor my resume
+
+Create cover letter
+
+Help me stand out
+
+About the job
+
+About Us
+
+At SimplePractice, we are improving access to quality care by equipping health and wellness clinicians with all the tools they need to thrive in private practice. 
+
+
+
+More than 250,000 providers trust SimplePractice to build their business through our industry-leading software with powerful tools that simplify every part of practice management. From admin work to clinical care, our suite of innovative solutions work together to reduce administrative burden—empowering solo and small group practitioners to thrive alongside their clients. 
+
+
+
+Award-winning and people-first, SimplePractice is shaping the future of health tech. In 2026, we were recognized by BuiltIn as a Best Remote Company to Work For, Software Guru's Best Places to Code, Becker Healthcare Telehealth Companies to Know, and we won a MedTech Breakthrough Award for Best Practice Management Solution Provider.
+
+The Role
+
+We are looking for AI engineers that are grounded in finding practical applications for AI in the corporate environment. Our AI Solutions Engineer will be embedded in GTM and G&A groups like Marketing, Finance, Customer Success and partner directly with the functional leadership to plan and execute on applied AI in that function. The goals will range from automation of mechanical work to full re-invention on how the function operates given the new capabilities of AI available to us now. This role is a key part of the bridge between being deep in what AI can and will do and what a specific department needs to deliver. This role will report to our Head of AI Transformation and be responsible to the function owner for delivery and execution.
+
+Responsibilities
+Partner with group leadership on thought leadership for AI adoption. Serve as an expert voice on what is and will be possible
+Go deep on understanding the jobs to be done in the group. Help bridge the chasm between domain expertise and AI expertise
+Produce and own the Internal AI Adoption roadmap for the group
+Define, own and report on the KPIs and goals for AI Adoption
+Work with the larger AI Adoption team to help define the shared knowledge and data foundations needed to work cross functionally
+Build AI solutions to meet business needs
+Dive deep in the group function and learn how (for example) Marketing at SimplePractice operates. Demonstrate curiosity constantly.
+Stay grounded in delivering value and cut through the AI hype
+Evangelize and push others to think differently, but demonstrate what is possible through demos and POcs
+Desired Skills & Experience 
+Experience rapidly building prototypes, PoCs, and consuming external APIs to test and deliver AI solutions.
+Proven experience building AI based systems - using orchestration platforms, config files, prompt management. We do not expect to be training models, but content augmentation and prompt tuning is in scope.
+SaaS experience in general, and group specific such as Marketing in a SaaS environment, would be advantageous
+Previous examples of delivering business value through AI.
+Proficiency in Python (or similar)  and integrating AI tools via APIs into existing workflows.
+Hands-on experience with LLM design patterns (such as RAG architecture) and prompt management.
+Demonstrated ability in rapid prototyping and building proof-of-concept AI applications.
+Bonus 
+
+Industry Experience: Familiarity with SaaS or healthcare environments.
+Marketing Workflows: Understanding of core marketing operations and standard process flows.
+Workflow Automation: Hands-on experience with tools like n8n or Zapier.
+Benefits
+
+We offer a competitive benefits program including:
+
+Medical, dental, vision, life & disability insurance
+401(k) plan with company match 
+Flexible Time Off (FTO), wellbeing days, paid holidays, and summer Fridays
+Mental health resources
+Paid parental leave & Backup Care
+Tuition reimbursement
+Employee Resource Groups (ERGs)
+
+ 
+
+
+
+California Job Applicant Privacy Notice
+
+
+
+Thank you for your interest in opportunities at SimplePractice LLC (“SimplePractice” or “us” or “we” or “our”). Please note that when you submit your resume or application materials to us for employment purposes, you are subject to the SimplePractice California Job Applicant Privacy Notice.
+
+
+
+For more information about our privacy practices, please contact us at privacy@simplepractice.com.
+
+
+
+Notice to Candidates
+
+
+
+SimplePractice has been made aware of fraudulent job postings and unaffiliated third parties posing as our recruiting team. We do not have any affiliation or connection to these situations and only post open roles on our official Careers page (simplepractice.com/careers) and reputable job boards like our official LinkedIn or Indeed pages.
+
+
+
+All official SimplePractice recruitment emails will be sent from the domains @simplepractice.com, no-reply@greenhouse.io or no‑reply@linkedin.com email addresses. 
+
+
+
+Examples of fraudulent domains include careers-simplepractice.com, simplepractices.com, and simplepractice.careers.
+
+
+
+Please note that SimplePractice will never ask candidates or new hires for money or payment of any kind at any stage of the recruitment or onboarding process.
+
+
+
+ 
+
+ 
+
+Base salary is one component of total compensation. Employees may also be eligible for an annual bonus or commission. Some roles may also be eligible for overtime pay.The amount below represents the expected annual base compensation range for this job requisition. Ultimately, in determining your pay, we’ll consider many factors including, but not limited to, skills, experience, qualifications, geographic location, and other job-related factors.
+
+
+
+Base Compensation Range: $188,000 USD - $235,000 USD
+
+… more
+
+Benefits found in job post
+
+Disability insurance, 401(k)
+
+Set alert for similar jobs
+
+Solutions Engineer, Santa Monica, California, United States
+
+Off
+See how you compare to other applicants
+Based on LinkedIn data. Excludes subsidiaries.
+Applicants for this job
+
+222
+
+Applicants
+
+222
+
+Applicants in the past day
+
+Applicant seniority level
+
+68% Entry level people applied for this job
+
+22% Senior level people applied for this job
+
+1% CXO level people applied for this job
+
+Applicant education level
+
+25% have a Bachelor's Degree (Similar to you)
+
+67% have a Master's Degree
+
+3% have a Master of Business Administration
+
+5% have other degrees
+
+Exclusive Job Seeker Insights about SimplePractice
+Powered by Bing
+
+Company focus areas
+
+• AI Integration: SimplePractice has launched Care Aide, an AI-powered clinical workflow assistant designed to reduce administrative friction for therapists and clinicians.
+
+More about Company focus areas
+...more
+
+Sources: readmagazine.com +1 more
+
+Hiring & headcount
+
+Significant growth in Information Technology: The 'Information Technology' department has seen a 33% increase in employee count, indicating a major focus on IT infrastructure and development, which could present opportunities for investment in tech solutions and services. Expansion in Customer Success and Support: With a 15% increase in headcount, the 'Customer Success and Support' department is growing, suggesting a strategic initiative to enhance customer experience and retention, potentially requiring new customer support tools and training programs. Increase in Engineering: The 'Engineering' department has grown by 11%, reflecting a strong emphasis on product development and innovation, which could lead to increased demand for engineering tools, software, and resources. Growth in Accounting: The 'Accounting' department has experienced a 50% increase in headcount, indicating a focus on financial management and compliance, which may create opportunities for financial software and consulting services.
+… more
+
+The latest hiring trend
+
+697
+
+Total employees
+
+34%
+
+Company-wide
+
+2 year growth
+
+74%
+
+Engineering
+
+2 year growth
+
+Chart
+Chart with 25 data points.
+The chart has 1 X axis displaying Time. Data ranges from 2024-09-01 00:00:00 to 2026-09-01 00:00:00.
+The chart has 1 Y axis displaying values. Data ranges from 519 to 697.
+Sep 2024
+Sep 2025
+Sep 2026
+0
+500
+1K
+End of interactive chart.
+
+Median employee tenure: 2.5 years
+
+Competitors
+
+SimplePractice is a leading practice management software for solo and small-group mental health practitioners. It faces competition from various platforms that offer specialized features for different types of practices, such as TherapyNotes for comprehensive documentation, Jane App for multi-disciplinary practices, and Tebra for integrated healthcare solutions. The competitive landscape is characterized by the need for compliance with industry standards, user-friendly interfaces, and cost-effective solutions tailored to specific practice needs.
+… more
+
+Sources: ona.health +2 more
+
+Show Premium Insights
+About the company
+
+SimplePractice
+
+92,839 followers
+
+Follow
+
+Software Development
+
+ • 
+
+501-1000 employees
+
+ • 
+
+703 on LinkedIn
+
+Join over 250,000 Health and Wellness professionals in growing their private practice with SimplePractice. The only practice management software that allows you to go fully virtual, in-office, or anywhere in-between. Integrated with telehealth, online booking, paperless intakes, and more.
+
+Interested in working with us in the future?
+
+Members who share that they’re interested in a company may be 2x as likely to get a message from a recruiter than those who don’t. Learn more
+
+I’m interested
+Company photos
+Show more
+More jobs
+
+AI Solutions Engineer 
+
+Applause
+
+United States (Remote)
+
+Actively reviewing applicants
+
+Posted 2 weeks ago
+2 weeks ago
+
+ · 
+
+Easy Apply
+
+Deployed Engineer, Professional Services 
+
+LangChain
+
+United States (Remote)
+
+Posted 1 day ago
+1 day ago
+
+AI Solutions Engineer 
+
+Applause
+
+Salt Lake City, UT (Remote)
+
+Actively reviewing applicants
+
+Posted 2 weeks ago
+2 weeks ago
+
+ · 
+
+Easy Apply
+
+Deployed Engineer, Professional Services 
+
+LangChain
+
+Austin, TX (Remote)
+
+Posted 1 day ago
+1 day ago
+
+Forward Deployed Engineer 
+
+Vivid Resourcing
+
+United States (Remote)
+
+$100/hr - $150/hr
+
+Actively reviewing applicants
+
+Posted 1 week ago
+1 week ago
+
+ · 
+
+Easy Apply
+
+Forward Deployed Engineer
+
+4Minds
+
+United States (Remote)
+
+Medical, Vision, Dental, 401(k)
+
+You’d be a top applicant
+
+Posted 2 weeks ago
+2 weeks ago
+
+Forward Deployed Engineer 
+
+Dialpad
+
+United States (Remote)
+
+Posted 1 week ago
+1 week ago
+
+EA- Forward Deployed Engineer
+
+Bonterra
+
+United States (Remote)
+
+Posted 3 weeks ago
+3 weeks ago
+
+Solutions Architect 
+
+Typeface
+
+United States (Remote)
+
+Medical, Vision, Dental, 401(k)
+
+Posted 2 weeks ago
+2 weeks ago
+
+Forward Deployed Engineer
+
+P-1 AI
+
+United States (Remote)
+
+401(k) benefit
+
+Posted 2 weeks ago
+2 weeks ago
+
+Solutions Engineer 
+
+Itential
+
+United States (Remote)
+
+Posted 2 weeks ago
+2 weeks ago
+
+Solutions Architect 
+
+Smartsheet
+
+United States (Remote)
+
+401(k) benefit
+
+Posted 2 weeks ago
+2 weeks ago
+
+See more jobs like this
+
+Looking for talent?
+
+Post a job
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
