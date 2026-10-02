@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I am applying for the Applied AI Engineer role. For the last three years I have been shipping LLM systems in a live product, and I like the part of the job you describe: deciding what tools a model gets, what it sees, and when a person steps in.
+
+At FlowSpace I built support agents that call tools against live platform data and escalate to a person when confidence is low, and an LLM ingestion pipeline that turns PDFs, web pages, photos and spreadsheets into structured listings with human review (900+ drafted). I design the tool calls, structured outputs and review steps around the model, and I write TypeScript and Python. I use Claude Code daily and have worked with MCP.
+
+I should be upfront about the gaps. I have not built my own agent framework or a sandboxed code-execution runtime, and my evaluation so far has been human review and confidence thresholds rather than a formal eval harness. I would be glad to grow into that work in a team that does it seriously.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), am open to relocating to Stockholm, and am available immediately. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta
