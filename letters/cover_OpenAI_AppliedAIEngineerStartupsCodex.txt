@@ -1,0 +1,10 @@
+Dear Hiring Team,
+
+I am applying for the Applied AI Engineer, Startups (Codex) role. I build with AI coding tools every day, and I like helping a small team turn them into a workflow that holds up.
+
+At FlowSpace I worked in a small team and built support agents with tool use, an LLM ingestion pipeline with human review that drafted 900+ listings, and integrations with third-party APIs, and I led a migration to Next.js and Laravel. My daily tool is Claude Code rather than Codex, but the habits carry over: clear prompts, reviewing output, and keeping responsibility for what ships. I have not given public talks or run developer workshops, and I do not have experience founding a startup. I do like explaining things, and I wrote the documentation and handover for what I built.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Paris. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

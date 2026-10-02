@@ -1,0 +1,10 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer role in EMEA. I enjoy owning an agent deployment from the first customer conversation to a system the customer relies on.
+
+At FlowSpace I built support agents with tool use that escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings. I worked directly with customers, the internal team and an external agency, and led a migration from a legacy stack to Next.js and Laravel while the platform grew from 2,000 to 4,500+ users. I use Claude Code and MCP daily and write TypeScript and Python. I have not yet worked with a formal evals or observability platform or with agent sandboxes, and I would learn your stack quickly.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work fully remote and travel to customer sites. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta
