@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Native Product Engineer role on Brevo OS. Claude Code is the way I build, not an add-on: I break a problem into work an agent can do, give it context, and read what comes back with some scepticism, because plausible and correct are different things.
+
+At FlowSpace I took problems from a brief to production and owned the result. I built support agents that answer against live data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings, and I led the migration off a legacy stack to a coded Next.js and Laravel product, mapping the data model and choosing the migration path per entity, while the platform grew from 2,000 to 4,500+ users. I work across frontend, backend, data modelling and AI in TypeScript, and I verify with Playwright tests and review.
+
+On the gaps: I have not worked with Kubernetes, and I have not used agentic frameworks beyond building agents with tool use directly on the Claude and OpenAI APIs and with n8n. I have about three years of experience, and I expect the work to take me well outside what I already know.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Paris. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

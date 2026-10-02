@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Transformation Engineer role. I like the brief of turning AI opportunities into solutions that teams use every day, and of making each one faster to build than the last.
+
+At FlowSpace I built internal-facing AI tools for business teams: support agents that answer against live data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings, and CRM and GTM automations in n8n. I connected systems with REST APIs, webhooks and OAuth, and led a migration where I mapped the data model between old and new systems. I worked directly with sales, operations and support users on what they needed, and wrote the documentation for them.
+
+On the gaps: my reliability work on LLM solutions after launch is human review and confidence thresholds rather than a formal evaluation and monitoring setup, I have not worked with Salesforce or Snowflake, and I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Lisbon for the hybrid setup. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Solutions Engineer (AI & Automation) role. The projects you describe are close to what I have built: an AI agent that drafts replies from live data, outbound and lead enrichment automation, and tools that connect a company's day-to-day systems.
+
+At FlowSpace I built a support agent that answers against live platform data and escalates to a person on low confidence, so it does not invent answers, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets. I also built GTM automations with lead enrichment and outbound, and CRM integrations over REST APIs and webhooks. I design for the person who owns the decision: the agent prepares, the salesperson sends. I use Make and n8n with error handling, and write Python and TypeScript when needed.
+
+To be clear about the gaps: I have not worked with the HubSpot API (Custom Objects, Workflows), I have used ClickUp as a project tool but not integrated it, and I have not used Apify, Clay or PhantomBuster. I am at the lower end of the 3 to 5 years you ask for. I have not worked in fashion or wholesale, and I do not speak Polish, so I would work in English.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work remotely, and I am open to relocating to Krakow if hybrid is needed. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

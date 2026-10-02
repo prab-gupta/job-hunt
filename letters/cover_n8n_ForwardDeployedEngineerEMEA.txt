@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer role in EMEA. n8n is the tool I reach for first, and the part of my work I enjoy most is taking a customer's messy operational problem and turning it into a workflow that people rely on.
+
+At FlowSpace I built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets. I also built lead routing and CRM data syncs, support agents that hand over to a person when they are unsure, and a CV-parsing tool, and I connected systems through REST APIs, webhooks and OAuth (OfficeRnD, Nexudus). I worked directly with sales and operations users, an external agency and customers, and led a live migration off a legacy stack. I keep an approval step wherever bad data would be costly, and I document what I build so the customer can own it.
+
+On the gaps: I have not built or published custom n8n nodes, I have not contributed to n8n itself, and I have not run time-boxed deployments inside large enterprises. My integration work has been in small and mid-sized teams. I know where I would start, and I learn new environments quickly.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Germany. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

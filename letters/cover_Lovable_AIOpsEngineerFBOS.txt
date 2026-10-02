@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Ops Engineer role. Building the systems that let a team spend no time on work AI can do is the work I enjoy most: agents, n8n automations and MCP wired into real operations.
+
+At FlowSpace I built support agents that escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, and CRM and GTM automations covering lead capture, enrichment and outbound. I also led the migration off a legacy stack to a coded Next.js and Laravel product, documenting business logic that lived in people's heads. I use Claude Code and MCP daily and pick the tool by speed: an agent, a workflow builder, or plain code. I have built with AI app builders such as bolt.new, and would use Lovable on Lovable.
+
+On the gaps: my SQL is working-level (PostgreSQL, MySQL, Supabase) rather than heavy analytics engineering, I have not used Clay, and I have not run automations for a company of 300 people. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Stockholm. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

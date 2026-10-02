@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Solutions Engineer role. The part of the job I am drawn to is taking a customer's problem to a working setup and writing it down so that the next customer gets there faster.
+
+At FlowSpace I worked directly with customers, the internal sales and operations team and an external agency. I built API integrations with OAuth and webhooks, wrote the documentation and handover for what I shipped, and led a live migration off a legacy stack while the platform grew from 2,000 to 4,500+ users. I am comfortable explaining technical choices to non-technical people and keeping a project moving.
+
+I want to be plain about the gaps, because they are real for this role: I do not have a networking or security background (routing, DNS, tunnelling, firewalls, zero-trust), I have not administered cloud or hybrid infrastructure, and I have not held a pre-sales role with demos, PoCs and deal ownership, or worked in an infrastructure product. I have not used NetBird. My strengths are customer-facing integration work, documentation and quick learning, and my public GitHub is github.com/prab-gupta.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Berlin, and remote also works for me. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
