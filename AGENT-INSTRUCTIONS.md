@@ -12,11 +12,13 @@ Each skill reads `applications.csv` first. Only `tracker-keeper` writes the thre
 | --- | --- |
 | `tracker-keeper` | Dedupe, map status, copy the three CSV paths, regenerate the needs-you view, commit |
 | `sweeper` | Find new matching roles and add them. Does not apply |
-| `needs-you-drainer` | Work `docs/needs-you.md` from the top, one try per blocker |
-| `apply-auditor` | After a submit, check Gmail before the row stays `submitted` |
-| `coordinator` | Route those four. One writer at a time |
+| `needs-you-drainer` | Work `docs/needs-you.md` from the top, end to end. On a login or account-required ATS, create the account with the one shared `JOBS_ACCOUNT_PASSWORD`, verify via Gmail, and continue. A captcha stays `needs_you`. |
+| `apply-auditor` | After an ATS accept, check Gmail. This skill is the only one that sets `submitted`, and only when the application confirmation is in Gmail. |
+| `coordinator` | Route those four. One writer at a time. |
 
 Status is only `needs_you`, `submitted`, `skipped`, or `failed`. Never reapply a `submitted` or `skipped` row. Never add a second row for the same dedupe key: normalized URL (lowercase, strip the query string and a trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
+
+Portal accounts reuse the one password in `JOBS_ACCOUNT_PASSWORD` (or gitignored `.secrets/job-accounts.env`, which only sets that variable). Do not generate a password per portal. Never write that password, or any other credential, into a tracked file, the CSV, `notes`, `blocker`, `docs/needs-you.md`, a commit, or a PR. An account is logged as one line in the row's `notes`. There is no accounts CSV.
 
 ## 1. Start here
 
@@ -61,7 +63,8 @@ Read these files in order:
 ### Forms and applications
 - When a form demands 3+ years experience, write 3.
 - Anti-AI screening questions = ALWAYS hand back to him. Never answer on his behalf.
-- Never create accounts, solve CAPTCHAs, enter payment/ID details, or invent biographical details.
+- Never solve CAPTCHAs, enter payment or ID details, or invent biographical details.
+- `needs-you-drainer` may create or sign into an ATS account (Workday and similar) when the blocker is login or account required. Reuse the one password in `JOBS_ACCOUNT_PASSWORD` for every portal. Do not generate a per-account password. Never write that password, or any other credential, into a tracked file, the CSV, notes, a commit, or a PR.
 - Answer every question from his CV, his letter, or facts he has stated. Never fabricate.
 - Privacy defaults: decline non-essential cookies, leave optional consents unchecked.
 - Phone: type full "+39 351 610 7807" to avoid country auto-detect issues.

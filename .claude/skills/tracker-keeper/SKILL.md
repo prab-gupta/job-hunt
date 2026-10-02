@@ -30,8 +30,8 @@ Keep this header, in order:
 
 | Status | Meaning |
 | --- | --- |
-| `submitted` | The application was sent or a confirmation email was found |
-| `needs_you` | Blocked on a human: captcha, login, upload, eligibility, or no confirmation |
+| `submitted` | `apply-auditor` found the application confirmation in Gmail |
+| `needs_you` | Blocked on a human: captcha, missing fact, eligibility, or no confirmation. A login or account-required ATS row is cleared by `needs-you-drainer`, not left here after a successful account create |
 | `skipped` | Closed, dropped, or not a fit |
 | `failed` | A submit was attempted and failed |
 
@@ -48,7 +48,11 @@ An unknown status becomes `needs_you`. Append `unmapped_status:<original>` to `n
 
 Key: if `url` is non-empty, lowercase it, drop the query string and the fragment, and strip the trailing slash. If `url` is empty, use company + role, case-insensitive, with whitespace collapsed.
 
-Never add a second row for an existing key. Never reapply a `submitted` or `skipped` row. An existing `needs_you` or `failed` row may be updated in place. `apply-auditor` may add a Gmail subject and time to a `submitted` row, or set that row back to `needs_you` with blocker `no_confirm`.
+Never add a second row for an existing key. Never reapply a `submitted` or `skipped` row. An existing `needs_you` or `failed` row may be updated in place.
+
+On a live apply, only `apply-auditor` sets `submitted`, and only after a Gmail application confirmation (`audit_confirm`). A thanks page stays `needs_you`. If that mail is missing, the auditor sets `needs_you` with blocker `no_confirm` (`audit_missing`). The status map above is for incoming labels on a new row. It does not promote a `needs_you` row to `submitted`.
+
+Never write `JOBS_ACCOUNT_PASSWORD`, any other password, a verification code, or a reset link into the CSV, `notes`, `blocker`, or `docs/needs-you.md`. Account creation is logged as one fact line in `notes`, such as `account created, verified via Gmail 2026-10-02`. Do not add an accounts CSV. The same environment variable is reused for every portal. Do not store a generated per-account password.
 
 Leave `salary_or_rate` blank unless the posting or the submitted form stated a figure. The form amounts in `AGENT-INSTRUCTIONS.md` section 3 are for forms, not invented CSV salary claims.
 

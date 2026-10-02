@@ -344,13 +344,15 @@ def plan_change(rows: list[dict], incoming: dict, operation: str) -> dict:
     if operation == "reapply" and current_status in {"submitted", "skipped"}:
         return {"action": "reject", "reason": "do_not_reapply", "key": key, "status": current_status}
     if operation == "audit_confirm":
-        if current_status != "submitted":
-            return {"action": "reject", "reason": "not_submitted", "key": key, "status": current_status}
+        if current_status in {"skipped", "failed"}:
+            return {"action": "reject", "reason": "do_not_reapply", "key": key, "status": current_status}
         return {"action": "update", "index": index, "status": "submitted", "key": key}
     if operation == "audit_missing":
-        if current_status != "submitted":
-            return {"action": "reject", "reason": "not_submitted", "key": key, "status": current_status}
+        if current_status == "skipped":
+            return {"action": "reject", "reason": "do_not_reapply", "key": key, "status": current_status}
         return {"action": "update", "index": index, "status": "needs_you", "blocker": "no_confirm", "key": key}
+    if mapped["status"] == "submitted":
+        return {"action": "reject", "reason": "auditor_sets_submitted", "key": key, "status": current_status}
     if current_status in {"submitted", "skipped"} and operation != "note_only":
         return {"action": "reject", "reason": "do_not_reapply", "key": key, "status": current_status}
     return {"action": "update", "index": index, "status": mapped["status"], "key": key}
@@ -397,8 +399,10 @@ def self_test() -> int:
         plan_change(rows, rows[0], "reapply"),
         plan_change(rows, rows[0], "audit_missing"),
         plan_change(rows, rows[1], "update"),
+        plan_change(rows, rows[1], "audit_confirm"),
+        plan_change(rows, {**rows[1], "status": "submitted"}, "update"),
     ]
-    expected_actions = ["reject", "insert", "insert", "reject", "update", "update"]
+    expected_actions = ["reject", "insert", "insert", "reject", "update", "update", "update", "reject"]
     ok = same and cr == cr2 and not gaps and [item["action"] for item in plans] == expected_actions
     mapped = map_status({"status": "confirmed"}) == "submitted"
     unknown = map_status({"status": "mystery", "blocker": "", "notes": ""}) == "needs_you"
