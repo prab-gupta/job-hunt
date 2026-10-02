@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Single-tracker helpers for applications.csv.
 
-Proof and view regeneration never add, remove, or edit application rows.
-Write the root CSV first, then copy those bytes onto the other two paths.
+`check` reports the three CSV paths and does not edit rows.
+`streamline` merges duplicate keys and reclassifies blockers, then
+writes the root CSV and copies those bytes onto the other two paths.
 """
 
 from __future__ import annotations
@@ -12,6 +13,7 @@ import hashlib
 import io
 import re
 import sys
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -84,10 +86,257 @@ def norm_url(url: str) -> str:
 
 
 def dedupe_key(row: dict) -> tuple[str, str]:
+    """Normalized URL, else company + role.
+
+    `norm_url` lowercases, drops the fragment, and drops the whole query
+    string, so `?language=en` and any other query cannot make a second key.
+    A trailing slash is stripped.
+    """
     url = (row.get("url") or "").strip()
     if url:
         return ("url", norm_url(url))
     return ("cr", collapse(row.get("company", "")) + "\n" + collapse(row.get("role", "")))
+
+
+# Furthest actionable state. submitted beats a still-blocked row.
+# needs_you beats failed and skipped so a live blocker is not buried.
+STATUS_RANK = {"submitted": 3, "needs_you": 2, "failed": 1, "skipped": 0}
+BLOCKER_TYPES = ("login", "upload", "eligibility", "no_confirm", "other", "captcha")
+CAPTCHA_RE = re.compile(r"captcha|recaptcha|hcaptcha|turnstile|anti-spam|anti spam", re.I)
+LOGIN_RE = re.compile(
+    r"\blogin\b|account required|account creation|create account|teamtailor connect|"
+    r"join\.com|sign[- ]in|workday|successfactors|taleo|linkedin|indeed",
+    re.I,
+)
+UPLOAD_RE = re.compile(
+    r"upload|docs_gated|employment reference|transcript|diploma|certificate|cv widget",
+    re.I,
+)
+ELIG_RE = re.compile(
+    r"eligib|sponsor|right to work|work authorisation|work authorization|seniority gate|"
+    r"lisbon_hybrid|hybrid only",
+    re.I,
+)
+NOCONF_RE = re.compile(r"no_confirm|no confirm|did not confirm", re.I)
+HUMAN_LOGIN_RE = re.compile(
+    r"linkedin|indeed|apply with google|apply with linkedin|\boauth\b|ai interview|"
+    r"\bmfa\b|bot detection",
+    re.I,
+)
+CLOSED_RE = re.compile(
+    r"form closed|not accepting|position no longer active|no longer active|"
+    r"posting removed|410 gone|job closed|board no longer active",
+    re.I,
+)
+MONTHS = {
+    "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
+    "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+    "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9,
+    "oct": 10, "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
+}
+
+
+def past_deadline(text: str, today: date | None = None) -> str:
+    """Return an ISO date when the row itself states a deadline before today."""
+    today = today or date.today()
+    for match in re.finditer(r"deadline was (\d{1,2}) ([A-Za-z]+) (\d{4})", text or "", re.I):
+        month = MONTHS.get(match.group(2).lower())
+        if not month:
+            continue
+        try:
+            found = date(int(match.group(3)), month, int(match.group(1)))
+        except ValueError:
+            continue
+        if found < today:
+            return found.isoformat()
+    return ""
+
+
+def remember_blocker(row: dict, new_blocker: str) -> None:
+    old = (row.get("blocker") or "").strip()
+    notes = row.get("notes") or ""
+    if old and old != new_blocker and old.lower() != new_blocker and old not in notes:
+        notes = f"{notes} | prior_blocker: {old}".strip(" |")
+        row["notes"] = notes
+    row["blocker"] = new_blocker
+
+
+NOTE_CAPTCHA_RE = re.compile(r"captcha|recaptcha|hcaptcha|turnstile", re.I)
+NOTE_UPLOAD_RE = re.compile(
+    r"docs_gated|employment reference|file upload|diploma|\btranscripts?\b|"
+    r"certificate required|cv widget",
+    re.I,
+)
+NOTE_ELIG_RE = re.compile(
+    r"right to work|work authorisation|work authorization|not eligible|"
+    r"seniority gate|uk work eligibility|requires sponsorship|sponsorship required",
+    re.I,
+)
+NOTE_LOGIN_RE = re.compile(
+    r"\blogin\b|account wall|account creation|account required|create account|"
+    r"workday|successfactors|taleo|teamtailor connect|join\.com account|sign-in wall",
+    re.I,
+)
+
+
+def classify_blocker(row: dict) -> str:
+    """Map an existing blocker onto the six-type vocabulary. Does not invent a gate."""
+    blocker = row.get("blocker") or ""
+    notes = row.get("notes") or ""
+    generic = collapse(blocker) in {"", "needs_human", "needs you", "blocked", "action_required", "needs_you"}
+    if NOCONF_RE.search(blocker) or (generic and NOCONF_RE.search(notes)):
+        return "no_confirm"
+    if not generic:
+        if CAPTCHA_RE.search(blocker):
+            return "captcha"
+        if UPLOAD_RE.search(blocker):
+            return "upload"
+        if ELIG_RE.search(blocker):
+            if NOTE_CAPTCHA_RE.search(notes) and not re.search(r"not eligible|right to work", blocker, re.I):
+                return "captcha"
+            return "eligibility"
+        if LOGIN_RE.search(blocker):
+            return "login"
+        return "other"
+    if NOTE_CAPTCHA_RE.search(notes):
+        return "captcha"
+    if NOTE_UPLOAD_RE.search(notes):
+        return "upload"
+    if NOTE_ELIG_RE.search(notes):
+        return "eligibility"
+    if NOTE_LOGIN_RE.search(notes):
+        return "login"
+    return "other"
+
+
+def login_is_autonomous(row: dict) -> bool:
+    blob = f"{row.get('url') or ''} {row.get('blocker') or ''} {row.get('notes') or ''}"
+    return not HUMAN_LOGIN_RE.search(blob)
+
+
+def verifiable_stop(row: dict) -> str:
+    """closed or expired only when this row's own text says so."""
+    blob = f"{row.get('blocker') or ''} {row.get('notes') or ''}"
+    if past_deadline(blob):
+        return "expired"
+    if re.search(r"401 vs 404|404 vs 429", blob, re.I):
+        return ""
+    if CLOSED_RE.search(blob):
+        return "closed"
+    return ""
+
+
+def account_skip_should_reopen(row: dict) -> bool:
+    """True when a skip's own text says the only gate was account creation."""
+    blob = f"{row.get('blocker') or ''} {row.get('notes') or ''}"
+    if re.search(
+        r"no longer active|form closed|not a fit|not a single role|reposter|aggregator|"
+        r"channel finding|not a role",
+        blob,
+        re.I,
+    ):
+        return False
+    return bool(re.search(r"account creation required", blob, re.I))
+
+
+def merge_duplicate_keys(rows: list[dict]) -> tuple[list[dict], list[str]]:
+    grouped: dict[tuple[str, str], list[dict]] = {}
+    order: list[tuple[str, str]] = []
+    for row in rows:
+        key = dedupe_key(row)
+        if key not in grouped:
+            grouped[key] = []
+            order.append(key)
+        grouped[key].append(row)
+    merged_rows: list[dict] = []
+    reports: list[str] = []
+    for key in order:
+        group = grouped[key]
+        if len(group) == 1:
+            merged_rows.append(group[0])
+            continue
+        ranked = sorted(group, key=lambda item: STATUS_RANK.get(item.get("status", ""), -1), reverse=True)
+        winner = dict(ranked[0])
+        pieces: list[str] = []
+        seen: set[str] = set()
+        for item in ranked:
+            for part in re.split(r"\s+\|\s+", item.get("notes") or ""):
+                part = part.strip()
+                if part and part not in seen:
+                    seen.add(part)
+                    pieces.append(part)
+            other_url = (item.get("url") or "").strip()
+            winner_url = (winner.get("url") or "").strip()
+            if other_url and other_url != winner_url:
+                bit = f"also_url: {other_url}"
+                if bit not in seen:
+                    seen.add(bit)
+                    pieces.append(bit)
+            other_blocker = (item.get("blocker") or "").strip()
+            if other_blocker and other_blocker != (winner.get("blocker") or "").strip():
+                bit = f"prior_blocker: {other_blocker}"
+                if bit not in seen and other_blocker not in (winner.get("notes") or ""):
+                    seen.add(bit)
+                    pieces.append(bit)
+            if not (winner.get("date_applied") or "").strip() and (item.get("date_applied") or "").strip():
+                winner["date_applied"] = item["date_applied"]
+            if not (winner.get("salary_or_rate") or "").strip() and (item.get("salary_or_rate") or "").strip():
+                winner["salary_or_rate"] = item["salary_or_rate"]
+            if not (winner.get("fit_score") or "").strip() and (item.get("fit_score") or "").strip():
+                winner["fit_score"] = item["fit_score"]
+        winner["notes"] = " | ".join(pieces)
+        merged_rows.append(winner)
+        statuses = ",".join(item.get("status", "") for item in group)
+        reports.append(
+            f"merged {key[0]} {key[1]} kept {winner.get('status')} from [{statuses}] "
+            f"{winner.get('company')} / {winner.get('role')}"
+        )
+    return merged_rows, reports
+
+
+def streamline_rows(rows: list[dict]) -> tuple[list[dict], dict]:
+    """Merge duplicate keys, then apply only repo-verifiable status fixes."""
+    merged, merge_reports = merge_duplicate_keys(rows)
+    reopened: list[str] = []
+    stopped: list[str] = []
+    for row in merged:
+        if row.get("status") == "skipped" and account_skip_should_reopen(row):
+            row["status"] = "needs_you"
+            remember_blocker(row, "login")
+            reopened.append(f"{row.get('company')} / {row.get('role')}")
+        elif row.get("status") == "needs_you":
+            reason = verifiable_stop(row)
+            if reason:
+                remember_blocker(row, reason)
+                row["status"] = "skipped"
+                stopped.append(f"{reason}: {row.get('company')} / {row.get('role')}")
+    classified: dict[str, int] = {kind: 0 for kind in BLOCKER_TYPES}
+    for row in merged:
+        if row.get("status") != "needs_you":
+            continue
+        kind = classify_blocker(row)
+        remember_blocker(row, kind)
+        classified[kind] += 1
+    thin: list[str] = []
+    for row in merged:
+        if row.get("status") != "skipped":
+            continue
+        blocker = collapse(row.get("blocker") or "")
+        notes = collapse(row.get("notes") or "")
+        if blocker in {"closed", "expired"}:
+            continue
+        if notes in {"", "fde", "eligibility", "personio empty"} and blocker in {"", "eligibility"}:
+            thin.append(
+                f"{row.get('company')} / {row.get('role')} | blocker={row.get('blocker') or ''} | notes={row.get('notes') or ''}"
+            )
+    report = {
+        "merged": merge_reports,
+        "reopened": reopened,
+        "stopped": stopped,
+        "classified": classified,
+        "thin_skips": thin,
+    }
+    return merged, report
 
 
 def tokenize_status(value: str) -> str:
@@ -144,31 +393,102 @@ def md_url(url: str) -> str:
     return f"[{md_cell(raw)}](<{target}>)"
 
 
+def human_line(row: dict) -> str:
+    """One line for Prabhavit when a person must act. Empty when the drainer can try."""
+    kind = row.get("blocker") or ""
+    blob = f"{row.get('notes') or ''} {row.get('url') or ''}"
+    if kind == "login" and login_is_autonomous(row):
+        return ""
+    if kind == "captcha":
+        return "Solve the captcha on this posting."
+    if kind == "login":
+        if re.search(r"linkedin", blob, re.I):
+            return "Sign in to LinkedIn in the Chrome window on your machine."
+        if re.search(r"indeed", blob, re.I):
+            return "Finish the Indeed sign-in on your machine."
+        if re.search(r"ai interview", blob, re.I):
+            return "Sit the AI interview named in the notes."
+        return "Sign in on this site yourself."
+    if kind == "upload":
+        return "Upload the document named in the notes."
+    if kind == "eligibility":
+        if re.search(r"seniority|\d\+ years", blob, re.I):
+            return "The notes say the years bar is above the profile. Decide whether to skip it."
+        return "Decide the location or work-authorization point in the notes."
+    if kind == "no_confirm":
+        return "Check Gmail and the portal. There is no application confirmation on file."
+    if re.search(r"essay|anti-ai|own words", blob, re.I):
+        return "Write the required answer yourself."
+    if re.search(r"cooldown|90-day", blob, re.I):
+        return "Wait until the date in the notes, then retry."
+    return ""
+
+
+def view_sections(rows: list[dict]) -> list[tuple[str, str, list[dict]]]:
+    buckets: dict[str, list[dict]] = {
+        "login_auto": [],
+        "login_human": [],
+        "upload": [],
+        "eligibility": [],
+        "no_confirm": [],
+        "other": [],
+        "captcha": [],
+    }
+    for row in rows:
+        if row.get("status") != "needs_you":
+            continue
+        kind = row.get("blocker") or "other"
+        if kind == "login" and login_is_autonomous(row):
+            buckets["login_auto"].append(row)
+        elif kind == "login":
+            buckets["login_human"].append(row)
+        elif kind in buckets:
+            buckets[kind].append(row)
+        else:
+            buckets["other"].append(row)
+    order = [
+        ("login_auto", "Login / account — drainer can clear"),
+        ("login_human", "Login / account — human sign-in"),
+        ("upload", "Upload"),
+        ("eligibility", "Eligibility"),
+        ("no_confirm", "No confirmation"),
+        ("other", "Other"),
+        ("captcha", "Captcha"),
+    ]
+    return [(key, title, buckets[key]) for key, title in order if buckets[key]]
+
+
 def render_view(rows: list[dict]) -> str:
-    blocked = [row for row in rows if row.get("status") == "needs_you"]
+    sections = view_sections(rows)
+    total = sum(len(items) for _, _, items in sections)
     lines = [
         "# Needs you — blocked applications",
         "",
         "View of `applications.csv` rows with `status=needs_you`. "
         "This file is not a second database. Edit the CSV, then regenerate this page. "
-        "Facts in the table are the CSV `blocker` and `notes` cells only.",
+        "Facts in the table are the CSV `blocker` and `notes` cells. "
+        "The You column is one line for Prabhavit only where a human has to act.",
         "",
-        f"**{len(blocked)}** rows, in CSV order.",
+        f"**{total}** rows. Login/account rows the drainer can clear are first. Captcha rows are last.",
         "",
-        "| Company | Role | Blocker | URL | Notes |",
-        "| --- | --- | --- | --- | --- |",
     ]
-    for row in blocked:
-        cells = [
-            md_cell(row.get("company", "")),
-            md_cell(row.get("role", "")),
-            md_cell(row.get("blocker", "")),
-            md_url(row.get("url", "")),
-            md_cell(row.get("notes", "")),
-        ]
-        lines.append("| " + " | ".join(cells) + " |")
-    lines.append("")
-    return "\n".join(lines)
+    for _key, title, items in sections:
+        lines.append(f"## {title} ({len(items)})")
+        lines.append("")
+        lines.append("| Company | Role | Blocker | URL | Notes | You |")
+        lines.append("| --- | --- | --- | --- | --- | --- |")
+        for row in items:
+            cells = [
+                md_cell(row.get("company", "")),
+                md_cell(row.get("role", "")),
+                md_cell(row.get("blocker", "")),
+                md_url(row.get("url", "")),
+                md_cell(row.get("notes", "")),
+                md_cell(human_line(row)),
+            ]
+            lines.append("| " + " | ".join(cells) + " |")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def unescape_cell(value: str) -> str:
@@ -193,7 +513,7 @@ def parse_view(text: str) -> list[dict]:
             continue
         parts = re.split(r"(?<!\\)\|", line)
         cells = [unescape_cell(part.strip()) for part in parts[1:-1]]
-        if len(cells) != 5:
+        if len(cells) not in {5, 6}:
             rows.append({"_broken": True, "raw": line})
             continue
         url = cells[3]
@@ -217,7 +537,7 @@ def normalized_fact(value: str) -> str:
 
 
 def view_gaps(csv_rows: list[dict], view_text: str) -> list[str]:
-    expected = [row for row in csv_rows if row.get("status") == "needs_you"]
+    expected = [row for _key, _title, items in view_sections(csv_rows) for row in items]
     parsed = parse_view(view_text)
     problems = []
     if any(row.get("_broken") for row in parsed):
@@ -279,6 +599,15 @@ def check(root: Path = ROOT) -> int:
     for line in bad[:20]:
         print(f"  {line}")
     dups = duplicate_report(rows)
+    blocker_counts: dict[str, int] = {kind: 0 for kind in BLOCKER_TYPES}
+    for row in rows:
+        if row.get("status") == "needs_you":
+            kind = row.get("blocker") or ""
+            if kind in blocker_counts:
+                blocker_counts[kind] += 1
+            else:
+                blocker_counts[kind] = blocker_counts.get(kind, 0) + 1
+    print("needs_you_blockers: " + ", ".join(f"{kind}={blocker_counts[kind]}" for kind in blocker_counts))
     print(f"duplicate_keys: {len(dups)}")
     for line in dups:
         print(f"  {line}")
@@ -309,6 +638,51 @@ def regenerate_view(root: Path = ROOT) -> int:
     path.write_text(text, encoding="utf-8", newline="\n")
     print(f"regenerated {VIEW_REL} needs_you={sum(1 for row in rows if row.get('status') == 'needs_you')}")
     return 0
+
+
+def write_csv(path: Path, rows: list[dict]) -> None:
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=HEADER, lineterminator="\n", extrasaction="ignore")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({key: row.get(key, "") or "" for key in HEADER})
+
+
+def streamline(root: Path = ROOT, dry: bool = False) -> int:
+    header, rows = read_csv(root / CSV_REL[0])
+    if header != HEADER:
+        print("bad header", header)
+        return 1
+    updated, report = streamline_rows(rows)
+    counts: dict[str, int] = {status: 0 for status in ALLOWED}
+    for row in updated:
+        status = row.get("status", "")
+        counts[status] = counts.get(status, 0) + 1
+    print(f"merged: {len(report['merged'])}")
+    for line in report["merged"]:
+        print(f"  {line}")
+    print(f"reopened: {len(report['reopened'])}")
+    for line in report["reopened"]:
+        print(f"  {line}")
+    print(f"stopped: {len(report['stopped'])}")
+    for line in report["stopped"]:
+        print(f"  {line}")
+    print("classified: " + ", ".join(f"{kind}={report['classified'][kind]}" for kind in BLOCKER_TYPES))
+    print(f"thin_skips: {len(report['thin_skips'])}")
+    for line in report["thin_skips"]:
+        print(f"  {line}")
+    print(f"rows: {len(rows)} -> {len(updated)}")
+    print("status: " + ", ".join(f"{status}={counts[status]}" for status in ALLOWED))
+    dups = duplicate_report(updated)
+    print(f"dups_after: {len(dups)}")
+    for line in dups:
+        print(f"  {line}")
+    if dry:
+        return 0
+    write_csv(root / CSV_REL[0], updated)
+    copy_paths(root)
+    regenerate_view(root)
+    return check(root)
 
 
 def copy_paths(root: Path = ROOT) -> int:
@@ -387,6 +761,16 @@ def self_test() -> int:
             "blocker": "login",
         },
     ]
+    language_same = dedupe_key(
+        {"url": "https://saypien.jobs.personio.com/job/2443678?language=en"}
+    ) == dedupe_key({"url": "https://Saypien.jobs.personio.com/job/2443678/"})
+    merged, merge_notes = merge_duplicate_keys(
+        [
+            {"company": "Primefold", "role": "SE", "url": "https://saypien.jobs.personio.com/job/2443678", "status": "skipped", "notes": "superseded by language URL", "blocker": "superseded_language_en", "date_applied": "", "salary_or_rate": "", "fit_score": ""},
+            {"company": "Primefold", "role": "SE", "url": "https://saypien.jobs.personio.com/job/2443678?language=en", "status": "needs_you", "notes": "submit disabled", "blocker": "captcha_or_submit_gate", "date_applied": "", "salary_or_rate": "", "fit_score": "70"},
+        ]
+    )
+    merge_ok = len(merged) == 1 and merged[0]["status"] == "needs_you" and "submit disabled" in merged[0]["notes"] and "superseded" in merged[0]["notes"]
     same = dedupe_key({"url": "https://example.com/jobs/1"}) == dedupe_key(rows[0])
     cr = dedupe_key({"company": "Beta", "role": "Konsultuppdrag | AI / Platform Engineer", "url": ""})
     cr2 = dedupe_key({"company": " beta ", "role": "Konsultuppdrag |  AI / Platform Engineer", "url": "  "})
@@ -403,14 +787,23 @@ def self_test() -> int:
         plan_change(rows, {**rows[1], "status": "submitted"}, "update"),
     ]
     expected_actions = ["reject", "insert", "insert", "reject", "update", "update", "update", "reject"]
-    ok = same and cr == cr2 and not gaps and [item["action"] for item in plans] == expected_actions
+    ok = (
+        same
+        and language_same
+        and merge_ok
+        and cr == cr2
+        and not gaps
+        and [item["action"] for item in plans] == expected_actions
+        and classify_blocker({"blocker": "Greenhouse reCAPTCHA", "notes": ""}) == "captcha"
+        and classify_blocker({"blocker": "Teamtailor Connect login", "notes": ""}) == "login"
+    )
     mapped = map_status({"status": "confirmed"}) == "submitted"
     unknown = map_status({"status": "mystery", "blocker": "", "notes": ""}) == "needs_you"
     print(f"self_test: {'ok' if ok and mapped and unknown else 'failed'}")
     if not (ok and mapped and unknown):
         print("gaps", gaps)
         print("plans", plans)
-        print("keys", same, cr == cr2, mapped, unknown)
+        print("keys", same, language_same, merge_ok, cr == cr2, mapped, unknown, merge_notes)
         return 1
     buffer = io.StringIO()
     writer = csv.DictWriter(buffer, fieldnames=HEADER, lineterminator="\n")
@@ -433,7 +826,12 @@ def main(argv: list[str]) -> int:
         return copy_paths()
     if command == "self-test":
         return self_test()
-    print("usage: sync_tracker.py [check|regenerate-view|copy-paths|self-test]", file=sys.stderr)
+    if command == "streamline":
+        return streamline(dry="--dry-run" in argv)
+    print(
+        "usage: sync_tracker.py [check|regenerate-view|copy-paths|self-test|streamline]",
+        file=sys.stderr,
+    )
     return 1
 
 

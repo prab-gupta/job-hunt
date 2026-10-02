@@ -10,7 +10,9 @@ description: >
 
 # Needs-you drainer
 
-Work `docs/needs-you.md` from the top, end to end, so a `needs_you` row can actually be cleared. That file is a view of `applications.csv` rows with `status=needs_you`, in CSV order. Read the CSV row before you touch the posting. If the CSV status is no longer `needs_you`, skip the view row.
+Work `docs/needs-you.md` from the top, end to end, so a `needs_you` row can actually be cleared. That file is a view of `applications.csv` rows with `status=needs_you`, grouped by blocker. Login/account rows you can clear are first. Captcha rows are last. Read the CSV row before you touch the posting. If the CSV status is no longer `needs_you`, skip the view row.
+
+Blocker vocabulary is `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. A `login` row in the first section is an ATS account: create it or sign in with the one shared password, verify from Gmail, and continue. A `login` row in the human sign-in section stays `needs_you`; the You line says what Prabhavit must do. A `captcha` row stays `needs_you`. Do not try it.
 
 Try each blocker once per pass, then move down. Do not retry the same row in the same pass. Do not reapply a `submitted` or `skipped` row.
 

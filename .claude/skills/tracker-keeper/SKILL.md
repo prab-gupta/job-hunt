@@ -46,9 +46,11 @@ An unknown status becomes `needs_you`. Append `unmapped_status:<original>` to `n
 
 ## Dedupe
 
-Key: if `url` is non-empty, lowercase it, drop the query string and the fragment, and strip the trailing slash. If `url` is empty, use company + role, case-insensitive, with whitespace collapsed.
+Key: if `url` is non-empty, lowercase it, drop the fragment, drop the whole query string (`?language=en` and every other parameter), and strip the trailing slash. If `url` is empty, use company + role, case-insensitive, with whitespace collapsed. `dedupe_key` in `sync_tracker.py` is the proof. `check` reports any remaining duplicate keys.
 
-Never add a second row for an existing key. Never reapply a `submitted` or `skipped` row. An existing `needs_you` or `failed` row may be updated in place.
+Never add a second row for an existing key. Before saving, merge rows that share a key. Keep the most advanced status: `submitted`, then `needs_you`, then `failed`, then `skipped`. Combine `notes`. Keep a non-empty `date_applied`, `fit_score`, and `salary_or_rate` from the other row when the winner's cell is empty. Put the other raw URL in `notes` as `also_url:` when it differs. Never reapply a `submitted` or `skipped` row. An existing `needs_you` or `failed` row may be updated in place.
+
+`needs_you` blockers use this vocabulary only: `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. `login` covers an ATS account or sign-in. Keep the old blocker text in `notes` when you replace it. Do not mark a row `skipped` as closed or expired unless that row's own `notes` or `blocker` says the posting is closed, not accepting, or gives a deadline that has passed. Do not guess. A login or account-creation gate is `needs_you` / `login`, not `skipped`.
 
 On a live apply, only `apply-auditor` sets `submitted`, and only after a Gmail application confirmation (`audit_confirm`). A thanks page stays `needs_you`. If that mail is missing, the auditor sets `needs_you` with blocker `no_confirm` (`audit_missing`). The status map above is for incoming labels on a new row. It does not promote a `needs_you` row to `submitted`.
 
@@ -65,11 +67,11 @@ Hold `loop/.applications.lock` (see `coordinator`) before writing. No other agen
 3. Run `python3 .claude/skills/tracker-keeper/sync_tracker.py regenerate-view`.
 4. Run `check` again. Report row counts per status.
 
-`docs/needs-you.md` is a view of `status=needs_you` in CSV order. Do not edit it by hand. Do not treat it as a database.
+`docs/needs-you.md` is a view of `status=needs_you`, grouped by blocker type. Login/account rows the drainer can clear are first. Captcha rows are last. The You column is one line for Prabhavit only where a human must act. Do not edit the view by hand. Do not treat it as a database. Regenerate it with `sync_tracker.py regenerate-view` after every CSV write. `streamline` merges duplicate keys, reclassifies blockers, copies the three CSV paths, and regenerates the view.
 
 ## Proof pass
 
-When asked to prove the tracker, run `check` only. Do not add, remove, or change application rows. If the check finds a bad header, a bad status, a hash mismatch, or a duplicate key, report it and stop. Do not silent-fix those rows.
+When asked to prove the tracker, run `check`. It does not add or remove rows. A duplicate key, including two URLs that differ only by `?language=` or any other query string, is a failure until `streamline` merges them. `streamline` is the edit that merges keys, reclassifies `needs_you` blockers, and reopens a skip whose own text says the only gate was account creation.
 
 If the only problem is that `docs/needs-you.md` is out of date relative to the CSV, run `regenerate-view`, run `check` again, and say so. Then report the row counts per status.
 

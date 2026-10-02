@@ -22,12 +22,13 @@ Use the portal skills already in the repo (`.claude/skills/job-scraper` and `.ag
 
 ## Accept or reject
 
-For each hit, compute the dedupe key: normalized URL (lowercase, strip query string and trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
+For each hit, compute the dedupe key with `dedupe_key`: normalized URL (lowercase, drop the fragment, drop the whole query string including `?language=`, strip the trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
 
-- If the key is already in `applications.csv`, reject it. Do not update that row and do not add a second one. Never reapply a `submitted` or `skipped` row.
+- If the key is already in `applications.csv`, reject it. Do not update that row and do not add a second one. Never reapply a `submitted` or `skipped` row. A `?language=` twin is the same key.
 - Hard gate from section 4 (degree wall, 5+ years, missing language, unnamed aggregator, ML research, unpaid or talent pool): add `status=skipped` with a real blocker such as `not_a_fit: 5+ years` or `not_a_fit: unnamed aggregator`. The reason must be a fact from the posting.
-- Posting closed or gone: `status=skipped`, blocker `closed`, and the page fact in `notes`.
-- A posting that matches the profile and is still open: `status=needs_you`, blocker `needs_apply`. `notes` may quote a requirement from the JD. Do not claim he has a skill the profile does not list.
+- Posting closed or gone: `status=skipped`, blocker `closed`, and the page fact in `notes`. Do not mark a posting closed unless the page says so.
+- Login wall or account required on an ATS, and the posting is otherwise in scope: `status=needs_you`, blocker `login`. Do not skip it. The drainer can create that account.
+- A posting that matches the profile and is still open, with no tighter gate: `status=needs_you`, blocker `other`. `notes` may quote a requirement from the JD. Do not claim he has a skill the profile does not list.
 
 Fill every column. `date_added` is the day you add the row. Leave `date_applied` empty. Leave `salary_or_rate` empty unless the posting states a figure. `fit_score` stays empty unless you scored the JD against the written profile.
 
