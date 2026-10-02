@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Associate (AI) Solution Consultant role in the Orbit Program. Understanding what a customer is trying to achieve and building a working LLM solution for it, quickly, is the work I have done for three years.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, and CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I work with RAG, prompt engineering, function calling and MCP, and I gathered requirements directly from customers and the sales and operations team. I use Claude Code to build prototypes quickly.
+
+On the gaps: my degree is a Bachelor's in Philosophy, International Studies and Economics, not a STEM degree. My Python is at working level, and I have not used pandas, scikit-learn, PyTorch or LangChain, and I have not worked with PQL or process mining. I have no supply chain or ERP background, and I have not run proof-of-value projects or presented to executives. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Madrid for the onboarding period. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
