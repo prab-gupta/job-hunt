@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Senior AI Solutions Engineer, GTM role. Deciding where an agent should do the work and where a person should keep the decision is the part of this job I find most interesting, and it is how I have built so far.
+
+At FlowSpace I built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n, and a support agent that answers against live platform data and escalates to a person on low confidence. I also built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with an approval step so bad data never reached the backend. I connected systems through REST APIs, webhooks and OAuth, worked directly with sales and operations users, and led a live migration off a legacy stack.
+
+On the gaps: I have about three years of experience, I have not formally mentored colleagues, and I have not led cross-functional initiatives across a large organisation. My GTM work is the automation described above, not deep administration of platforms such as Salesforce or Gong. My quality control on agents is human review and confidence thresholds, not a formal evaluation and observability setup.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work fully remotely from Italy. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
