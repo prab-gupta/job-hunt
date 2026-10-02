@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Solutions Engineer role. Helping customers get a clean integration working, and writing it down so the next one is easier, is the part of my work I enjoy most.
+
+At FlowSpace I integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks for automated bookings, built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n, and worked directly with customers, the sales and operations team and an external agency. I read API documentation, debug with Postman, write TypeScript and Node.js, and wrote the documentation and handover for what I shipped.
+
+On the gaps: I have not held a solutions engineer, sales engineer or implementation engineer title. I have not led discovery calls or given product demonstrations to prospects, and my customer-facing work has been delivery rather than pre-sales. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work remotely, and I am open to relocating to Antwerp if needed. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

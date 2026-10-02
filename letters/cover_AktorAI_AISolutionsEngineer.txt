@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Solutions Engineer role at the Engineer level. The way you describe the work, steering AI-assisted development with good judgement and making agents reliable with human oversight, is how I work.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with an approval step so bad data never reached the backend. I integrated third-party APIs with OAuth and webhooks, wrote the documentation and handover for what I shipped, and led a live migration off a legacy stack. I use Claude Code and review every change it makes.
+
+On the gaps: I have not built evaluation datasets or automated evaluation pipelines, so my quality checks are human review and confidence thresholds. I have not used tracing or observability platforms, vector or graph databases, agent orchestration frameworks beyond n8n, Azure or ERP integrations. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I can work fully remotely from Italy. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

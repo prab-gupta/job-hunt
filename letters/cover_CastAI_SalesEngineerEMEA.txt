@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Sales Engineer role on Kimchi. I work with an AI coding agent all day, and I like sitting with a customer until their integration works.
+
+I use Claude Code as my main way of building and review everything it writes. At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, integrated third-party APIs with OAuth and webhooks, and worked directly with customers, developers and an external agency. I work with tool calling and MCP, and I write TypeScript and Python at working level.
+
+I want to be plain about the gaps, because this is a sales engineering role: I have not held a sales engineer or solutions architect title, I have not run proofs of concept for prospects, converted evaluations into signed business, or led enterprise security and architecture reviews. I have not worked with inference gateways or model routers, benchmarked models for accuracy and cost, or worked with Kubernetes or cloud infrastructure. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am based in EMEA, so there is no issue with the right to work. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
