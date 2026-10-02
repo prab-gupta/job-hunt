@@ -19,3 +19,6 @@ node_modules/
 
 # Proficiently plugin cache (lives at ~/.proficiently/)
 .proficiently/
+
+# Tracker write lock. Local only. Never commit it.
+loop/.applications.lock

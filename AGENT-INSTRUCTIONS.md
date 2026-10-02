@@ -2,6 +2,22 @@
 
 You are helping Prabhavit Gupta with his job search. This document tells you everything you need to operate. Read it fully before taking any action.
 
+## Tracker router
+
+`applications.csv` is the only application tracker. `data/csvs/applications.csv` and `loop/applications.csv` are byte copies of that file, not separate lists. Do not start another tracker, CSV, or spreadsheet. `docs/needs-you.md` is a view of `status=needs_you`, regenerated from the CSV.
+
+Each skill reads `applications.csv` first. Only `tracker-keeper` writes the three CSV paths, regenerates `docs/needs-you.md`, and commits.
+
+| Skill | Use when |
+| --- | --- |
+| `tracker-keeper` | Dedupe, map status, copy the three CSV paths, regenerate the needs-you view, commit |
+| `sweeper` | Find new matching roles and add them. Does not apply |
+| `needs-you-drainer` | Work `docs/needs-you.md` from the top, one try per blocker |
+| `apply-auditor` | After a submit, check Gmail before the row stays `submitted` |
+| `coordinator` | Route those four. One writer at a time |
+
+Status is only `needs_you`, `submitted`, `skipped`, or `failed`. Never reapply a `submitted` or `skipped` row. Never add a second row for the same dedupe key: normalized URL (lowercase, strip the query string and a trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
+
 ## 1. Start here
 
 Read these files in order:
@@ -54,8 +70,9 @@ Read these files in order:
 - No Claude/Anthropic/AI attribution in any git output. No Co-Authored-By trailers. No "Generated with Claude Code" anywhere.
 
 ### Deduplication
-- Check EVERY new lead against the combined list: applications.csv + MASTER xlsx + any "Do not repeat" tabs. The combined set is ~800+ companies as of Aug 2026.
-- Never apply to a company already covered.
+- Check every new lead against `applications.csv` only. The dedupe key is a normalized URL (lowercase, strip the query string and a trailing slash). If the row has no URL, use company + role, case-insensitive, with whitespace collapsed.
+- Never add a second row for an existing key. Never reapply a `submitted` or `skipped` row.
+- The Aug 2026 MASTER workbook is an archive. It is not a second tracker.
 
 ## 4. Target roles (priority order)
 
@@ -115,8 +132,9 @@ Technical Project Manager, AI Operations Manager, Digital Transformation PM
 ### Core records
 | File | Purpose |
 |------|---------|
-| `applications.csv` | Dedupe source of truth. One row per application. 784 rows as of 21 Aug. |
-| `MASTER - every application - 13 Aug 2026.xlsx` | Authoritative tracker. Needs 21 Aug backfill (26 rows). |
+| `applications.csv` | The only application tracker. `data/csvs/applications.csv` and `loop/applications.csv` must match it byte for byte. |
+| `docs/needs-you.md` | View of `status=needs_you`. Regenerated from the CSV. Not a second database. |
+| `MASTER - every application - 13 Aug 2026.xlsx` | Archive only. Do not append rows here. |
 | `HANDOFF.md` | Operational state. Read first every session. |
 | `LEDGER.md` | Chronological session log. |
 | `SESSION-LEDGER.md` | Detailed per-session notes. |
@@ -163,7 +181,7 @@ Technical Project Manager, AI Operations Manager, Digital Transformation PM
 2. Read top entry of `LEDGER.md` for latest state.
 3. Check `applications.csv` row count and last entry.
 4. Ask what's needed: sweep (find new roles), apply (submit to known roles), or both.
-5. For sweeps: dedupe against combined list before presenting.
+5. For sweeps: dedupe against `applications.csv` before presenting. Do not add a second row for an existing key.
 6. For applications: read `apply-bot/PATTERNS.md` for ATS-specific traps.
 7. Log every action: update `applications.csv` + `LEDGER.md` after each submit.
 8. At session end: update `HANDOFF.md` section 4 with current counts and state.
@@ -207,4 +225,4 @@ The proficiently job-search plugin stores data at `~/.proficiently/` on his loca
 This data is NOT in the repo. If you need it, ask Prabhavit to share the relevant files.
 
 ### Auto-Invoke Claude Skills
-When the user makes a request, ALWAYS evaluate if it matches one of the workflows in `.claude/skills/` (including the 7 new proficiently skills: `apply`, `cover-letter`, `job-search`, `jobsearch-telegram`, `network-scan`, `setup`, `tailor-resume`, as well as `company-researcher`, `interview-analyzer`, `developer-growth`, `workspace-organizer`, and `job-application-assistant`). If relevant, silently use your file reading tool to read the corresponding `SKILL.md` and follow its instructions immediately. Do not ask for permission to use the skill.
+When the user makes a request, ALWAYS evaluate if it matches one of the workflows in `.claude/skills/` (including `tracker-keeper`, `sweeper`, `needs-you-drainer`, `apply-auditor`, `coordinator`, the proficiently skills `apply`, `cover-letter`, `job-search`, `jobsearch-telegram`, `network-scan`, `setup`, `tailor-resume`, as well as `company-researcher`, `interview-analyzer`, `developer-growth`, `workspace-organizer`, and `job-application-assistant`). If relevant, silently use your file reading tool to read the corresponding `SKILL.md` and follow its instructions immediately. Do not ask for permission to use the skill. The application list those skills share is `applications.csv` only.
