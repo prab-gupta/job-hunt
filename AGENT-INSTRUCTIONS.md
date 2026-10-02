@@ -34,13 +34,13 @@ Read these files in order:
 - **Email (applications):** prabhavitg@gmail.com
 - **Phone:** +39 351 610 7807
 - **Location:** Venice, Italy (Via Zanetti 10, 30175)
-- **Work authorization:** EU Long Term Residence Permit (Italy). No sponsorship needed in EU. UK/US/Swiss = needs sponsorship.
+- **Work authorization:** EU Long Term Residence Permit (Italy). No sponsorship or work permit needed anywhere in the EU (confirmed by Prabhavit 2026-10-02). UK/US/Swiss = needs sponsorship.
 - **LinkedIn:** https://www.linkedin.com/in/prabhavit/
 - **GitHub:** https://github.com/prab-gupta
 - **Education:** BA Philosophy, International Studies & Economics, Ca' Foscari Venice (2020-2024). NOT a CS degree.
 - **Experience:** ~3 years (Aug 2023 - Aug 2026). See CV for details.
-- **Languages:** Hindi (native), English (C1 professional), Italian (beginner).
-- **Availability:** Immediately. FlowSpace contract ended July 2026.
+- **Languages:** Hindi (native), English (C1 professional), Italian (beginner). No German (confirmed 2026-10-02): skip roles that require it.
+- **Availability:** Immediately. FlowSpace contract ended August 2026 (confirmed by Prabhavit 2026-10-02).
 
 ## 3. Standing rules (NEVER break these)
 
