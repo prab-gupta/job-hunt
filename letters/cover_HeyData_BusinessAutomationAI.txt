@@ -1,0 +1,10 @@
+Dear Hiring Team,
+
+I am applying for the Business Automation and AI Manager role. I like the builder-first brief: take a manual process from a department, ship the AI-powered version, and hand over something the team can run alone.
+
+At FlowSpace I did this with n8n, Make and Claude. I built CRM lead-capture and GTM automations, support agents that hand off to a person when confidence is low, and an LLM ingestion pipeline with human review that drafted 900+ listings, working directly with people who were not technical. I use Claude and Claude Code every day, write Python and TypeScript when a workflow needs it, and document what I hand over. I have not worked in a compliance or regulated B2B SaaS setting, and I do not speak German.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I would be glad to work remotely or from Berlin or Munich. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

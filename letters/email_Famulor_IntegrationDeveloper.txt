@@ -1,0 +1,14 @@
+Subject: Application: Integration Developer (n8n & API)
+
+Dear Famulor Team,
+
+I am applying for the Integration Developer (n8n & API) role. I have spent about three years connecting business systems with n8n, REST APIs and webhooks, which is the core of this position.
+
+At FlowSpace I built integrations with the OfficeRnD and Nexudus APIs (OAuth, API keys, webhooks), CRM and GTM automations in n8n, and an LLM ingestion pipeline with human review. I write TypeScript, JavaScript, Python and PHP, and I document what I build. I have not yet built custom n8n nodes, but I know the node model well from daily use and would pick it up quickly.
+
+My CV is attached. I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), work remotely, and am available immediately.
+
+Kind regards,
+Prabhavit Gupta
++39 351 610 7807 | prabhavitg@gmail.com
+linkedin.com/in/prabhavit | github.com/prab-gupta
