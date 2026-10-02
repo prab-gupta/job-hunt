@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Product Builder role. Holding discovery and delivery in one head, and building small AI-native things that tell you something by the end of the week, is how I like to work.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings, GTM automations, and a commute-time calculator tool for companies. I used Google Analytics and Microsoft Clarity to see how people used what we shipped, and I led the migration off a legacy stack to a coded Next.js and Laravel product while the platform grew from 2,000 to 4,500+ users. Claude Code is my main way of building, and I test with Playwright and review everything it writes.
+
+On the gaps: I have no voice or telephony experience, I have not run continuous discovery interviews as a formal weekly practice, and I do not have a startup-founding background. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I work remotely from Venice, and I am open to relocating within the EU if the role needs it. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

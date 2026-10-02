@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Developer with Python role on the Customer Care AI Platform. A system that acts on a customer's request through tools, rather than only answering, is what I have been building.
+
+At FlowSpace I built support agents with tool use that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings. I integrated third-party APIs with REST, webhooks and OAuth, use MCP, and work with Claude Code and the Claude and OpenAI APIs. I ground answers in live data rather than model memory.
+
+On the gaps, which are real for this role: my Python is at working level for AI integrations and scripting, not advanced, and I have not used FastAPI or asyncio-based services. I mostly write TypeScript and Node.js. I have not built speech-to-speech or streaming pipelines, used LangChain, LlamaIndex or LangGraph, worked with vector databases or re-ranking, built LLM-as-a-judge evaluation, or integrated open-source models. My quality checks are human review and confidence thresholds. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Berlin and working in the office three days a week. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
