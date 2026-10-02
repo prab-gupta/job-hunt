@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Engineer, Tools and Automations role. Walking into a company, finding the slow manual process and building the tool for it end to end, is the work I have done at FlowSpace.
+
+There I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, and CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I work with RAG, tool calling, MCP and the Claude and OpenAI APIs, integrate through APIs and webhooks, and gathered the requirements directly from the sales and operations team.
+
+On the gaps: my Python is at working level, I have not used agent frameworks such as LangChain, LlamaIndex or CrewAI, and I have not done fine-tuning. My quality checks are human review and confidence thresholds. I have not worked with paid acquisition or attribution data, and my degree is not in computer science. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Barcelona for the hybrid role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

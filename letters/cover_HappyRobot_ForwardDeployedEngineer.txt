@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer role. Working with a customer from onboarding to ongoing use, and improving the AI solution from their feedback, is the work I have done since 2023.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, and OfficeRnD and Nexudus integrations over REST APIs, webhooks and OAuth. I write TypeScript and Node.js, iterate on prompts and agent behaviour from feedback, and coordinated between the internal team, customers and an external agency.
+
+On the gaps: I have not built voice agents, and I have not tuned voices, transcribers or models. My Python is at working level, and my frontend work is in Next.js. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Barcelona for the hybrid role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
