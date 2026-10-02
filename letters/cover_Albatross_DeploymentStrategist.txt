@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Deployment Strategist role. Owning a deployment from the first data drop to launch, and chasing down anything that looks off along the way, is close to how I ran the migration of a live platform at FlowSpace.
+
+There I led the move off a legacy stack to a coded Next.js and Laravel product: I mapped the data model, chose the migration path per entity (API or CSV), kept the customer-facing side informed and drove the cutover while the platform grew from 2,000 to 4,500+ users. I also built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, where the review step exists to catch data that looks wrong. I worked directly with customers, the internal team and an external agency.
+
+To be plain about the gaps: my degree is in Philosophy, International Studies and Economics with a minor in Entrepreneurship, not in a quantitative field. I have not worked as a data analyst, BI analyst or data engineer, I have not built dashboards for A/B test results, and my reporting experience is Google Analytics and Microsoft Clarity. I have about three years of experience, and I work with SQL databases at working level.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work remotely from Italy. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

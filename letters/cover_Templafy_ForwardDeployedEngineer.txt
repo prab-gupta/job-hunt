@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer role. Turning a customer's document workflow into a working solution with AI in it is close to what I built at FlowSpace.
+
+There I built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with the review step deciding what reached the backend, and support agents that answer against live platform data and escalate to a person on low confidence. I integrated third-party APIs with OAuth and webhooks, built quick prototypes with the people who would use them, worked directly with customers and an external agency, and led a live migration off a legacy stack. I work with the Claude and OpenAI APIs and use Claude Code.
+
+On the gaps: my degree is in Philosophy, International Studies and Economics, not computer science, so my technical background is practical experience, about three years of it. I have not held a solutions engineer or forward deployed engineer title. My authentication work is OAuth rather than SSO, I have not worked on enterprise document governance or with Word and PowerPoint file structures, and my customer rollout experience is documentation and handover rather than formal training.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Copenhagen for the hybrid setup. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

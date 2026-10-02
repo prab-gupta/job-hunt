@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Customer Success Engineer role. Helping users get value from a technical product, by reading the documentation, tracing what happens between their systems and explaining it clearly, is work I have done at FlowSpace.
+
+There I worked directly with customers, the sales and operations team and an external agency. I integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks, built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n, and built support agents that answer against live platform data and escalate to a person on low confidence, so I know which questions users keep asking and what a good answer needs. I also wrote the documentation and handover for what I shipped and led a live migration off a legacy stack.
+
+On the gaps: I have not held a dedicated customer success or support engineering role, my SQL is at working level, I have not used a composable CDP or reverse-ETL product such as Hightouch, and I have not worked in marketing-data tooling. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am happy to work remotely from Italy. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
