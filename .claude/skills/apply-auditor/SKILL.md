@@ -9,9 +9,15 @@ description: >
 
 # Apply auditor
 
+## Access
+
+Use the `tracker` MCP server when it is connected. You are the only caller that may set `submitted`. Call `update_row` with `actor` `apply-auditor`, `notes` containing `gmail: <subject> @ <time>`, and `date_applied` set from that message. If the mail is missing, set `needs_you` and blocker `no_confirm` with the same actor. Do not pass a password into a tool.
+
+If the server is not connected, find the row in `applications.csv` and hand the same change to `tracker-keeper`.
+
 Run only after `needs-you-drainer` records an ATS accept (`blocker=awaiting_confirm`) or a row is already `submitted` and needs the confirmation checked. A thanks page, a redirect, or an agent saying "submitted" is not a confirmation.
 
-Read `applications.csv` first and find the row by dedupe key (normalized URL, or company + role when there is no URL).
+Read the tracker first and find the row by dedupe key (normalized URL, or company + role when there is no URL).
 
 If the row is `skipped`, stop. Do not reapply it. Do not promote a `needs_you` row that is still a captcha, a login, or a missing fact. Those stay with the drainer.
 

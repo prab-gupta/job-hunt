@@ -11,6 +11,12 @@ description: >
 
 `applications.csv` is the only application tracker. Route work to the other four skills. Do not scrape, apply, or audit in this skill. Do not keep a second list of accounts or applications.
 
+## Access
+
+When the `tracker` MCP server is connected, every read and write goes through it. `next_needs_you` is the claim that stops two drainers taking the same row. The server holds `loop/.applications.lock` for writes. Agents do not edit the CSV while that lock is held. `tracker-keeper` is still the only skill that commits git. Passwords are not tool arguments.
+
+If the server is not connected, fall back to the CSV procedure in each skill. The three paths stay byte-identical.
+
 | Step | Skill | Does |
 | --- | --- | --- |
 | 1 | `sweeper` | Finds roles, rejects existing keys, hands new `needs_you` or `skipped` rows onward. Does not apply. |
@@ -18,7 +24,7 @@ description: >
 | 3 | `apply-auditor` | Runs after an ATS accept. Sets `submitted` only when Gmail has the confirmation. |
 | 4 | `tracker-keeper` | Dedupes, maps status, writes the three CSV paths, regenerates `docs/needs-you.md`, commits. |
 
-`tracker-keeper` is the only writer that commits. The other skills read `applications.csv` first and do not keep a side list.
+`tracker-keeper` is the only writer that commits. The other skills use the `tracker` MCP server first and do not keep a side list. They read `applications.csv` only when that server is down.
 
 ## One writer
 

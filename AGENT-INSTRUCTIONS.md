@@ -6,7 +6,7 @@ You are helping Prabhavit Gupta with his job search. This document tells you eve
 
 `applications.csv` is the only application tracker. `data/csvs/applications.csv` and `loop/applications.csv` are byte copies of that file, not separate lists. Do not start another tracker, CSV, or spreadsheet. `docs/needs-you.md` is a view of `status=needs_you`, regenerated from the CSV.
 
-Each skill reads `applications.csv` first. Only `tracker-keeper` writes the three CSV paths, regenerates `docs/needs-you.md`, and commits.
+When the `tracker` MCP server in `mcp/tracker-server` is connected, agents use its tools (`stats`, `search_rows`, `next_needs_you`, `add_row`, `update_row`, `release_claim`, `regenerate_needs_you`, `sync_paths`) and do not edit the CSV themselves. If that server is not connected, fall back to reading `applications.csv` directly. Only `tracker-keeper` writes the three CSV paths, regenerates `docs/needs-you.md`, and commits. The server does not commit. Passwords are never a tool argument.
 
 | Skill | Use when |
 | --- | --- |

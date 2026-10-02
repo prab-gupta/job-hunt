@@ -10,6 +10,12 @@ description: >
 
 # Needs-you drainer
 
+## Access
+
+Use the `tracker` MCP server when it is connected. `next_needs_you` with your agent name claims the next row you can clear without a human. When you finish the row, `update_row` for notes and blocker, then `release_claim`. Do not set `submitted`. Do not pass `JOBS_ACCOUNT_PASSWORD` or any password into a tool. Read that variable only from the environment.
+
+If the server is not connected, work `docs/needs-you.md` from the top as below, and let `tracker-keeper` write the CSV.
+
 Work `docs/needs-you.md` from the top, end to end, so a `needs_you` row can actually be cleared. That file is a view of `applications.csv` rows with `status=needs_you`, grouped by blocker. Login/account rows you can clear are first. Captcha rows are last. Read the CSV row before you touch the posting. If the CSV status is no longer `needs_you`, skip the view row.
 
 Blocker vocabulary is `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. A `login` row in the first section is an ATS account: create it or sign in with the one shared password, verify from Gmail, and continue. A `login` row in the human sign-in section stays `needs_you`; the You line says what Prabhavit must do. A `captcha` row stays `needs_you`. Do not try it.

@@ -10,9 +10,15 @@ description: >
 
 Find new roles. Do not open an application form and do not submit.
 
+## Access
+
+Use the `tracker` MCP server when it is connected. `search_rows` before you add anything. `add_row` rejects a duplicate normalized key. Do not pass a password into any tool.
+
+If the server is not connected, read `applications.csv` and dedupe with `dedupe_key` as below, then hand new rows to `tracker-keeper`.
+
 ## Read first
 
-1. Read `applications.csv` and build the dedupe set with `.claude/skills/tracker-keeper/sync_tracker.py` (`dedupe_key`).
+1. Read the tracker (MCP `search_rows` / `stats`, or `applications.csv` if the server is down) and build the dedupe set with `dedupe_key`.
 2. Read `AGENT-INSTRUCTIONS.md` sections 2-5 for identity, salary-for-forms, target tracks, and hard gates. Do not invent experience, salary, notice period, or visa claims.
 3. `docs/needs-you.md` is a view. Do not add rows there yourself.
 

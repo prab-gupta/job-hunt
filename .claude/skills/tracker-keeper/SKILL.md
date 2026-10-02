@@ -11,6 +11,12 @@ description: >
 
 You own `applications.csv` and the generated view `docs/needs-you.md`. No other file is an application list. Do not start a second tracker, CSV, or spreadsheet.
 
+## Access
+
+Use the `tracker` MCP server when it is connected. Call `sync_paths` and `regenerate_needs_you` instead of copying files by hand. `add_row` and `update_row` already sync the three paths. You are still the only agent that commits git. The server does not commit. Do not pass a password into any tool.
+
+If the server is not connected, follow the CSV procedure below: edit the root file, then `sync_tracker.py copy-paths` and `regenerate-view`.
+
 `data/csvs/applications.csv` and `loop/applications.csv` are byte copies of the root file. Write the root file, then copy those bytes onto the other two. Use `.claude/skills/tracker-keeper/sync_tracker.py`.
 
 ## Read first

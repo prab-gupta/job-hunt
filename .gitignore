@@ -20,8 +20,9 @@ node_modules/
 # Proficiently plugin cache (lives at ~/.proficiently/)
 .proficiently/
 
-# Tracker write lock. Local only. Never commit it.
+# Tracker write lock and row claims. Local only. Never commit them.
 loop/.applications.lock
+loop/.needs-you-claims.json
 
 # Local portal password (JOBS_ACCOUNT_PASSWORD). Never commit.
 .secrets/
