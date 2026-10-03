@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**120** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**130** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -52,7 +52,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | AvePoint | Solution Engineer (Pre-Sales) | no_confirm | [https://www.linkedin.com/jobs/view/4452581706/](<https://www.linkedin.com/jobs/view/4452581706/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Madrid, Spain. Entry-friendly pre-sales SE on Microsoft 365/Azure/Entra; fluent English, other languages advantageous not required; no years stated. LinkedIn Easy Apply; verified open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 | Chaseit | Agent Engineer (Voice AI) | no_confirm | [https://www.linkedin.com/jobs/view/4470833561/](<https://www.linkedin.com/jobs/view/4470833561/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Vilnius, Lithuania. VC-backed voice-agent startup; prompt/conversation-flow engineering with deployment strategists; no years stated; English. LinkedIn Easy Apply; posted 2026-09-28, open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (65)
+## Other (75)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -121,6 +121,16 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | OBDeleven | AI Engineer | other | [https://jobs.workable.com/view/wngup77Vsyo9NCf9Y1iLni/hybrid-ai-engineer-in-vilnius-at-obdeleven](<https://jobs.workable.com/view/wngup77Vsyo9NCf9Y1iLni/hybrid-ai-engineer-in-vilnius-at-obdeleven>) | Vilnius, Lithuania, hybrid. Mix of ML modelling and LLM tools/automating internal processes for support/ops; years not stated; English. Workable published 2026-09-03, state=published. More ML-heavy than pure automation. \| sweep11 |  |
 | Customs Support Group | Customs AI Integration & Automation Engineer (Poland) | other | [https://customssupport.recruitee.com/o/customs-ai-integration-automation-engineer-poland](<https://customssupport.recruitee.com/o/customs-ai-integration-automation-engineer-poland>) | Warsaw, Poland; posting tagged On-site/Remote/Hybrid, permanent, hybrid working. Essential: 1-2 yrs AI/software engineering or intelligent automation incl. LLM features, Python/SQL, cloud AI platform; professional English only (no Polish stated). Builds agentic customs-document AI. Apply = send CV + short note about a system you shipped (Recruitee form). Recruitee status=published, posted 2026-08-20, fetched live 2026-10-03. Spain/France variants exist (not added, local-market language risk). \| sweep11 |  |
 | Sharpist | GTM Engineer - AI Automation (m/w/d) | other | [https://career.sharpist.com/o/gtm-engineer-ai-automation-mwd](<https://career.sharpist.com/o/gtm-engineer-ai-automation-mwd>) | BORDERLINE: Berlin, on-site 5 days/week, needs valid German work permit (EU ok). English only requirement (no German language). Python/JS + AI automation (n8n, Zapier, LangChain), CRM/HubSpot integrations; JD also lists 'proven hands-on sales experience' and degree; years not stated. Recruitee page live 2026-10-03. \| sweep11 |  |
+| develop | Forward Deployed Engineer | other | [https://www.linkedin.com/jobs/view/4471274338](<https://www.linkedin.com/jobs/view/4471274338>) | Recruiter-posted FDE (client unnamed), remote NL, up to EUR90k, posted 2026-09-29; direct fit to FDE target; check English-only + no NL language need on apply \| Netherlands (remote); yrs unstated \| sweep12 |  |
+| OptiComm.ai | Junior AI Engineer | other | [https://www.linkedin.com/jobs/view/4473789371](<https://www.linkedin.com/jobs/view/4473789371>) | Junior-level AI agents/LLM role, matches ~3yrs/no-degree level; ML-heavy flag (borderline); posted 2026-09-30 \| Bucharest, Romania; junior \| sweep12 |  |
+| WorkEthix | AI Engineer | other | [https://www.linkedin.com/jobs/view/4474137600](<https://www.linkedin.com/jobs/view/4474137600>) | Consultancy client; RAG/LLM backend AI engineer, 2-5yrs fits his ~3; hybrid Athens; posted 2026-10-01 \| Athens, Greece (hybrid); 2-5 yrs \| sweep12 |  |
+| Fastmarkets | AI Engineer | other | [https://www.linkedin.com/jobs/view/4470699177](<https://www.linkedin.com/jobs/view/4470699177>) | Claude/Snowflake Cortex agent building; degree-or-3yrs matches his profile; posted 2026-09-23 \| Sofia, Bulgaria; degree OR 3+ yrs \| sweep12 |  |
+| SEB | AI Engineer (AIOps) | other | [https://www.linkedin.com/jobs/view/4469858786](<https://www.linkedin.com/jobs/view/4469858786>) | Backend Go/Python AIOps agents at a bank; URGENT apply deadline 2026-10-05; posted 2026-09-21 \| Stockholm, Sweden; yrs unstated \| sweep12 |  |
+| Coalesce Management Consulting | AI Development Integration Engineer | other | [https://www.linkedin.com/jobs/view/4469330424](<https://www.linkedin.com/jobs/view/4469330424>) | Integration engineer embedded at enterprise customers (contract/consulting) - borderline; posted 2026-09-23 \| Copenhagen, Denmark; yrs unstated \| sweep12 |  |
+| Abysalto | AI Engineer | other | [https://abysalto.talentlyft.com/jobs/ai-engineer-mf-clp4](<https://abysalto.talentlyft.com/jobs/ai-engineer-mf-clp4>) | AI engineer 3-5yrs depending on level - borderline on years; hybrid Zagreb; company TalentLyft form no account; LinkedIn card within 14d \| Zagreb, Croatia (hybrid); 3-5 yrs by level \| sweep12 |  |
+| AI Futures | AI Engineer Full Stack - Agentic AI Team Build-Out | other | [https://www.linkedin.com/jobs/view/4471757393](<https://www.linkedin.com/jobs/view/4471757393>) | Recruiter role for German energy startup building agentic AI service line; full-stack TS/Python + LLM agents + client-facing; no German stated; posted 2026-09-29 \| Munich, Germany (Bavaria); yrs unstated \| sweep12 |  |
+| team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
+| Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 
 ## Captcha (22)
 
