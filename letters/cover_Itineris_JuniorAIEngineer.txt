@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Junior AI Engineer role. Setting up an agent, watching where it succeeds and fails, and making it more reliable with what I find is the part of AI work I enjoy.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with a review step before anything reached the backend. I review agent answers, adjust prompts and tool use when they fail, write Python and TypeScript, use Git, and documented what I built for the developer team.
+
+On the gaps: my degree is in Philosophy, International Studies and Economics, not computer science, and I learned engineering on the job. My quality checks are human review and confidence thresholds, so I have not built evaluation datasets or regression pipelines. I have not used FastAPI, LangChain, LangGraph, Docker or Azure, or automated deployment pipelines, and my Python is at working level. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Ghent for the role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

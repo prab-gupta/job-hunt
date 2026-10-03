@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Solution Engineer (Integrations Focus) role in Stockholm. Reading API docs, mapping the data model, debugging the integration myself and then handing it over so it keeps working is the part of my work I do best.
+
+At FlowSpace I integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks, and led a live migration off a legacy stack to a coded Next.js and Laravel product: I mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover while the platform grew from 2,000 to 4,500+ users. I worked with customers, the sales and operations team and an external agency, troubleshot with Postman, and documented product and business logic with the developer team. I also built support agents that answer against live platform data and escalate to a person on low confidence.
+
+On the gaps: I have no construction background and have not worked with Autodesk, Dalux, Bidcon or SharePoint. I have not handled SSO, IT security reviews or data residency, and I have not run customer workshops. My customer onboarding has been delivery inside FlowSpace rather than a dedicated implementation role. My Python is at working level, alongside TypeScript. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Stockholm. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

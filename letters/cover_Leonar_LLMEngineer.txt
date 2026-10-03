@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the LLM Engineer role in Paris. Turning a vague user problem into an LLM system, checking what comes out and improving it from real use is the work I have done for about three years.
+
+At FlowSpace I built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, where nothing reached the backend before a person reviewed it, and support agents that answer against live platform data and escalate to a person on low confidence. I work with prompt and context engineering, RAG, structured outputs, tool use and MCP, and I iterated on these systems from feedback of the sales and operations team and customers. Claude Code is my default way of building.
+
+On the gaps, plainly: the quality checks I have are human review and confidence thresholds. I have not built evaluation systems with datasets, metrics and regression detection, which is the core of this role, and I have not built LLM tracing or observability. I have not used LangGraph, LangChain, FastAPI or GCP. My Python is at working level, alongside TypeScript. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Paris. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
