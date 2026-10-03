@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Agent Engineer role. Finding where an agent can take work off a team, building it, and connecting it to the tools the team already uses is what I have done for about three years.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets. I also built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I work with the Claude and OpenAI APIs, tool use, function calling and MCP, use Claude Code as my default way of building, and gathered requirements directly from the sales and operations team. My public GitHub, github.com/prab-gupta, includes llm-doc-parser.
+
+On the gaps: my agents work within confidence thresholds and hand over to a person when unsure, rather than running fully on their own. I have not built a team of autonomous agents, and I have not formally measured agent results beyond human review. I work in TypeScript and Python (working level) and have not used Go, GraphQL or GCP, and I have not worked with Grok or open source models. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. Remote work suits me, and I write clearly in English. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer (Ops) role in Berlin. Investigating a problem with the people who hit it, finding the cause in the API or the data, and passing what I learn back to the developers is the work I have done for about three years.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with a review step before anything reached the backend. I integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks, troubleshot with Postman, and worked directly with customers and the sales and operations team. I also built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I know prompt engineering, tool use and MCP well, and I wrote documentation and handovers for what I shipped.
+
+On the gaps: I have no financial services background, and I have not worked with a decision platform or with XML. My Python is at working level, alongside TypeScript. I have not held a Solutions Engineer, Technical Account Manager or Customer Success Engineer title, and I have not queried and interpreted application logs as a core part of a role. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Berlin to work from the office at least three days a week. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
