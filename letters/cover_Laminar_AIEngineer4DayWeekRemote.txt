@@ -1,0 +1,16 @@
+Dear Hiring Team,
+
+I am applying for the AI Engineer role. You asked why I want to join and where I could make the most impact, so I will answer both directly.
+
+Why Shape: you started as a construction consultancy and built software from what you learned on real projects, and you want an AI engineer who picks the lean option over the large one. That is how I work. At FlowSpace I was the lead developer on a product that grew from 2,000 to 4,500+ users, and I prefer shipping a small useful feature and iterating on feedback to designing something large up front. A team that gives honest, candid feedback and a four day week built around results is the environment I want to grow in.
+
+Where I could help most: turning messy project documents into structured data, and putting assistants inside the app that are safe to trust. At FlowSpace I built an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, and support agents that answer against live platform data and escalate to a person on low confidence. I use the Claude and OpenAI APIs, RAG, tool use, MCP and prompt engineering, write TypeScript, Laravel and Python, and build with Claude Code. I would start with the Product team on one concrete use case, ship it in a thin form, and agree with the SREs what it needs before it goes wider.
+
+On the gaps, plainly: my RAG work is lighter than your production requirement, and I have not run vector databases such as Pinecone, Weaviate or FAISS in production. I have not used LangChain or Transformers, fine-tuned a model, or built multi-model evaluation; my quality checks so far are human review and confidence thresholds. I have no MLOps or inference observability experience, and I have not worked with Docker or Kubernetes in production. My Python is at working level, alongside TypeScript. I have about three years of experience, and my degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. The role is remote, which suits me well. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
