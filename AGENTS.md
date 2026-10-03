@@ -11,7 +11,7 @@ This workspace is structured to manage job search activities, scraper tools, CVs
 To prevent duplication and configuration drift across different AI agent frameworks (Claude Code, Google Antigravity, Codex, Cursor, Gemini CLI, etc.), this workspace uses a unified thin-pointer design. All agent runtimes should load the canonical specifications and candidate profiles from the files and directories below:
 
 1. **Personal Candidate Profile:**
-   - The candidate profile, contact details, education, and target preferences are defined in [CLAUDE.md](CLAUDE.md) and the individual profile methodology files under [.claude/skills/job-application-assistant/](.claude/skills/job-application-assistant/) (specifically `01-*.md` etc.).
+   - The candidate profile, contact details, education, and target preferences are defined in [AGENT-INSTRUCTIONS.md](AGENT-INSTRUCTIONS.md) (the authority for facts, salary, availability and policy; `CLAUDE.md` does not exist in this repo) and the individual profile methodology files under [.claude/skills/job-application-assistant/](.claude/skills/job-application-assistant/) (specifically `01-*.md` etc.).
 2. **Canonical Workflow Specifications:**
    - The step-by-step instructions and triggers for tasks (setup, scrape, rank, apply, upskill, interview) are defined in the [.claude/](.claude/) directory (specifically under `.claude/skills/` and `.claude/commands/`).
    - Do not duplicate these rules or specifications. Treat `.claude/` files as the single source of truth.
@@ -31,10 +31,10 @@ When using browser subagents via `mcp_chrome_devtools` to automate application p
 When generating multiple CVs/Cover Letters for a batch of jobs:
 1. **Parallel Drafting:** Spawn `research` subagents in parallel to fetch job requirements, apply templates, and generate raw LaTeX code.
 2. **Robust Extraction:** Do not use fragile `bash` or `awk` scripts to pull LaTeX from the `transcript_full.jsonl` logs. Since JSON encodes newlines as `\n`, use a robust `python` or Node script to `json.loads()` the transcript, locate the `PLANNER_RESPONSE` steps containing `send_message`, and extract the `Message` string using `re.findall()`.
-3. **Mandatory PDF Compilation:** Always compile generated LaTeX CVs and Cover Letters to PDF using `tectonic` (or `pdflatex`) immediately upon extraction. Verify compiled PDF page counts (strictly 2 pages for CVs, 1 page for Cover Letters).
+3. **Mandatory PDF Compilation:** Always compile generated LaTeX CVs and Cover Letters to PDF immediately upon extraction: CVs with `tectonic`, cover letters with XeLaTeX (the `cover.cls` class needs fontspec). Do not use a blanket `pdflatex`. Verify compiled PDF page counts (strictly 2 pages for CVs, 1 page for Cover Letters).
 
 ## Non-Negotiable AI-in-the-Loop Application Rule
-Every single job application MUST follow this strict 4-step sequence:
+Every single job application MUST follow this strict 4-step sequence (sole exception: Datapizza, which uses its existing approved profile with no CV or cover letter; see `AGENT-INSTRUCTIONS.md`):
 1. **Read the JD**: Read and evaluate the target job description for its specific technical requirements, architecture, and responsibilities.
 2. **AI Makes a Curated CV**: Curate a bespoke LaTeX CV using candidate instructions (tailoring 3 Career Summary bullets and emphasizing matching technical skills in `cv/main_<Company>_<Role>.tex`), compile with `tectonic`, and enforce strictly 2 pages via `pdfinfo`.
 3. **Uploads a New PDF**: Stage the freshly compiled bespoke PDF and upload it into the application form (never fall back to a generic default or uncurated CV).

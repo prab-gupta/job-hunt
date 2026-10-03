@@ -43,6 +43,17 @@ class TrackerError(Exception):
     pass
 
 
+# Per-session (per server process) memory of rows an agent already tried and
+# released. A released row is not claimed again by that agent in this session,
+# so an unresolved row cannot be reclaimed in a loop. In memory only: a new
+# server process (a new session) starts with an empty set.
+_ATTEMPTED: dict[tuple[str, str], set[str]] = {}
+
+
+def _attempted(root: Path, agent: str) -> set[str]:
+    return _ATTEMPTED.setdefault((str(root), agent), set())
+
+
 def repo_root() -> Path:
     override = os.environ.get("TRACKER_ROOT")
     if override:
@@ -285,7 +296,13 @@ def _autonomous_queue(rows: list[dict]) -> list[dict]:
     return queued
 
 
-def next_needs_you(agent: str, root: Path | None = None) -> dict:
+def next_needs_you(agent: str, root: Path | None = None, include_attempted: bool = False) -> dict:
+    """Claim the next autonomous row.
+
+    Rows with a parked human question or missing fact (see
+    `sync_tracker.is_parked` / `human_line`) are not in the queue. Rows this
+    agent already released in this session are skipped unless include_attempted.
+    """
     root = root or repo_root()
     agent = (agent or "").strip()
     if not agent:
@@ -305,10 +322,11 @@ def next_needs_you(agent: str, root: Path | None = None) -> dict:
                 if ident["kind"] + "\n" + ident["value"] == held["id"]:
                     return {"row": row, "claim": held, "already_held": True}
         taken = {claim.get("id") for claim in claims}
+        tried = set() if include_attempted else _attempted(root, agent)
         for row in queue:
             ident = _claim_id(row)
             claim_id = ident["kind"] + "\n" + ident["value"]
-            if claim_id in taken:
+            if claim_id in taken or claim_id in tried:
                 continue
             claim = {
                 "id": claim_id,
@@ -340,6 +358,7 @@ def release_claim(agent: str, claim_id: str = "", root: Path | None = None) -> d
             same_id = not claim_id or claim.get("id") == claim_id
             if same_agent and same_id:
                 released += 1
+                _attempted(root, agent).add(str(claim.get("id")))
                 continue
             kept.append(claim)
         _save_claims(root, kept)
@@ -465,18 +484,27 @@ TOOLS = [
             "Claim the next needs_you row the autonomous drainer can work. "
             "Order matches the needs-you view: login/account rows with no human step, "
             "then other rows with no human step. Captcha, human sign-in, upload, "
-            "eligibility, and no_confirm are not returned. Two agents cannot claim the same row."
+            "eligibility, no_confirm, and rows whose notes record a parked question or "
+            "missing fact are not returned. A row this agent already released in this "
+            "session is not claimed again (include_attempted=true overrides). "
+            "Two agents cannot claim the same row."
         ),
         "inputSchema": {
             "type": "object",
-            "properties": {"agent": {"type": "string"}},
+            "properties": {
+                "agent": {"type": "string"},
+                "include_attempted": {"type": "boolean"},
+            },
             "required": ["agent"],
             "additionalProperties": False,
         },
     },
     {
         "name": "release_claim",
-        "description": "Release needs_you claims held by an agent, or one claim id.",
+        "description": (
+            "Release needs_you claims held by an agent, or one claim id. "
+            "A released row is marked attempted for that agent for the rest of this session."
+        ),
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -491,7 +519,7 @@ TOOLS = [
         "name": "add_row",
         "description": (
             "Add one row. Validates columns and status. Rejects a duplicate normalized key "
-            "(lowercase URL, query string and fragment removed, trailing slash stripped). "
+            "(lowercase URL, fragment and tracking/language params removed, job-identifying params such as gh_jid kept, trailing slash stripped). "
             "submitted is rejected unless actor is apply-auditor and notes contain a gmail confirmation."
         ),
         "inputSchema": {
@@ -574,7 +602,10 @@ def _call_tool(name: str, arguments: dict) -> dict:
             limit=int(arguments.get("limit", 20)),
         )
     if name == "next_needs_you":
-        return next_needs_you(arguments.get("agent", ""))
+        return next_needs_you(
+            arguments.get("agent", ""),
+            include_attempted=bool(arguments.get("include_attempted", False)),
+        )
     if name == "release_claim":
         return release_claim(arguments.get("agent", ""), arguments.get("claim_id", ""))
     if name == "add_row":

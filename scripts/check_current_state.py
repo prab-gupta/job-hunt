@@ -2,7 +2,10 @@ from playwright.sync_api import sync_playwright
 
 LOGIN_URL = "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/login?redirect=%2FMedtronicCareers%2Fjob%2FSlovakia-Remote%2FAI---Data-Science-Eng-I_R73677%2Fapply%2FapplyManually"
 EMAIL = "prabhavitg@gmail.com"
-PWD = "Jobs@2026"
+import os as _os
+PWD = _os.environ.get("JOBS_ACCOUNT_PASSWORD")
+if not PWD:
+    raise SystemExit("JOBS_ACCOUNT_PASSWORD is not set; export it in the environment before running this script (never hard-code it).")
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)

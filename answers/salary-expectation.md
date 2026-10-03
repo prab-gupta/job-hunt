@@ -1,8 +1,18 @@
 # Salary / rate expectation
 
-The rule (application-rules.md #2): **€30,000–40,000**, stated plainly. Single-number fields:
-**30000**. No market-band commentary, no substituting a higher figure because the posting
-advertises more. If his number looks low, say so once in chat, then use his number.
+## Current rule (authority: `AGENT-INSTRUCTIONS.md` section 3)
+
+**EUR 45,000-55,000** on forms, stated plainly. Single-number fields: **50,000**.
+USD forms: $54,000. USD monthly forms: $4,500. B2B/contract: EUR 250-300/day.
+No market-band commentary, no negotiating up or down on his behalf. Nothing here is derived
+from a search target or a currency conversion; if a figure is not in `AGENT-INSTRUCTIONS.md`,
+park the question instead of inventing one.
+
+## Historical record (superseded, do not reuse)
+
+The earlier rule (application-rules.md #2) was EUR 30,000-40,000 and **30000** for
+single-number fields, with a EUR 200/day contract rate. That was replaced by the figures
+above. The sections below record what was actually sent in August 2026 and are kept as history only.
 
 ## As actually used — 2026-08-05
 

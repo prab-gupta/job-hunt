@@ -190,5 +190,123 @@ class TrackerTests(unittest.TestCase):
         self.assertIn("next_needs_you", names)
 
 
+def _add(root: Path, company: str, role: str, url: str, blocker: str, notes: str) -> None:
+    server.add_row(
+        {
+            "company": company,
+            "role": role,
+            "url": url,
+            "source": "test",
+            "status": "needs_you",
+            "blocker": blocker,
+            "date_added": "2026-10-04",
+            "notes": notes,
+        },
+        root=root,
+    )
+
+
+class ParkedAndAttemptedTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        seed(self.root)
+        # Acme (seeded, login) is claimable. Park a question row ahead of a clean one.
+        _add(self.root, "Parky", "AI Eng", "https://parky.example/j/1", "other",
+             "parked 2026-10-02: required yes/no question, unanswered, needs user")
+        _add(self.root, "Cleanco", "AI Eng", "https://cleanco.example/j/2", "other", "open posting")
+
+    def tearDown(self) -> None:
+        self.tmp.cleanup()
+
+    def test_parked_question_rows_are_not_in_autonomous_queue(self) -> None:
+        for note in (
+            "parked: required question",
+            "needs user: street address",
+            "user-only question: anti-AI essay",
+            "unanswered criminal-convictions question",
+            "missing fact: nationality",
+        ):
+            self.assertTrue(server.tracker.is_parked({"notes": note}), note)
+            self.assertTrue(server.tracker.human_line({"blocker": "other", "notes": note}), note)
+        self.assertFalse(server.tracker.is_parked({"notes": "open posting"}))
+        seen = []
+        for _ in range(5):
+            got = server.next_needs_you("agent-q", root=self.root)
+            if got["row"] is None:
+                break
+            seen.append(got["row"]["company"])
+            server.release_claim("agent-q", root=self.root)
+        self.assertNotIn("Parky", seen)
+        self.assertEqual(sorted(seen), ["Acme", "Cleanco"])
+
+    def test_released_row_is_not_reclaimed_in_same_session(self) -> None:
+        first = server.next_needs_you("agent-r", root=self.root)
+        server.release_claim("agent-r", root=self.root)
+        second = server.next_needs_you("agent-r", root=self.root)
+        self.assertNotEqual(first["row"]["company"], second["row"]["company"])
+        server.release_claim("agent-r", root=self.root)
+        third = server.next_needs_you("agent-r", root=self.root)
+        server.release_claim("agent-r", root=self.root)
+        self.assertNotIn(third["row"] and third["row"]["company"], {first["row"]["company"], second["row"]["company"]})
+        self.assertIsNone(third["row"])
+        # Another agent is not blocked by agent-r's attempts, and include_attempted overrides.
+        other = server.next_needs_you("agent-s", root=self.root)
+        self.assertEqual(other["row"]["company"], first["row"]["company"])
+        server.release_claim("agent-s", root=self.root)
+        again = server.next_needs_you("agent-r", root=self.root, include_attempted=True)
+        self.assertEqual(again["row"]["company"], first["row"]["company"])
+
+    def test_view_you_column_flags_parked_row(self) -> None:
+        text = (self.root / "docs/needs-you.md").read_text(encoding="utf-8")
+        line = next(line for line in text.splitlines() if "Parky" in line)
+        self.assertIn("parked question", line)
+
+
+class StatusContractTests(unittest.TestCase):
+    def test_confirmed_label_is_never_submitted(self) -> None:
+        plan = server.tracker.plan_change(
+            [], {"company": "A", "role": "B", "url": "https://a.example/1", "status": "confirmed"}, "insert"
+        )
+        self.assertEqual(plan["action"], "insert")
+        self.assertEqual(plan["row"]["status"], "needs_you")
+        self.assertEqual(plan["row"]["blocker"], "no_confirm")
+        self.assertIn("unconfirmed", plan["row"]["notes"])
+
+    def test_fallback_blocker_is_in_vocabulary(self) -> None:
+        plan = server.tracker.plan_change(
+            [], {"company": "A", "role": "B", "url": "https://a.example/2", "status": "mystery"}, "insert"
+        )
+        self.assertIn(plan["row"]["blocker"], server.tracker.BLOCKER_TYPES)
+
+
+class UrlNormalizationTests(unittest.TestCase):
+    def key(self, url: str):
+        return server.tracker.dedupe_key({"url": url})
+
+    def test_job_identifying_params_are_kept(self) -> None:
+        self.assertNotEqual(self.key("https://x.example/jobs?gh_jid=1"), self.key("https://x.example/jobs?gh_jid=2"))
+        self.assertNotEqual(self.key("https://x.example/jobs?jid=1"), self.key("https://x.example/jobs?jid=2"))
+        self.assertNotEqual(self.key("https://x.example/careers?id=1"), self.key("https://x.example/careers?id=2"))
+        self.assertNotEqual(self.key("https://x.example/c?job=1"), self.key("https://x.example/c?job=2"))
+        self.assertNotEqual(self.key("https://x.example/c?requisition=1"), self.key("https://x.example/c?requisition=2"))
+        self.assertNotEqual(self.key("https://x.example/c?ashby_jid=a"), self.key("https://x.example/c?ashby_jid=b"))
+        self.assertNotEqual(self.key("https://it.indeed.com/viewjob?jk=a"), self.key("https://it.indeed.com/viewjob?jk=b"))
+
+    def test_tracking_and_language_params_are_stripped(self) -> None:
+        base = self.key("https://x.example/jobs/9")
+        for suffix in (
+            "?language=en", "?lang=it", "?utm_source=a&utm_medium=b", "?ref=li", "?source=x", "?locale=en_US",
+            "?gclid=1&fbclid=2", "/?utm_campaign=z#apply",
+        ):
+            self.assertEqual(self.key("https://x.example/jobs/9" + suffix), base, suffix)
+
+    def test_mixed_params_keep_only_job_id_and_ignore_order(self) -> None:
+        a = self.key("https://x.example/jobs?utm_source=a&gh_jid=7&lang=en")
+        b = self.key("https://X.example/jobs/?gh_jid=7&ref=z")
+        self.assertEqual(a, b)
+        self.assertEqual(a, ("url", "https://x.example/jobs?gh_jid=7"))
+
+
 if __name__ == "__main__":
     unittest.main()

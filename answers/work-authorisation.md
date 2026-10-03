@@ -16,8 +16,10 @@ to him.
 > I hold an EU long-term residence permit, so I can work anywhere in Europe without
 > sponsorship, and I'm available immediately — my contract at FlowSpace ended in July.
 
-⚠️ Historical record — as of 5 Aug 2026 evening, NEW applications present FlowSpace as
-ongoing with ~2 weeks' notice (see `profile-gaps.md`). Don't reuse the "ended in July" line.
+⚠️ **Historical record, superseded.** This was the 5 Aug 2026 text sent to one employer. It and the
+5 Aug "ongoing with ~2 weeks' notice" framing (see `profile-gaps.md`) are no longer current. Current
+fact (`AGENT-INSTRUCTIONS.md`, confirmed 2026-10-02): the FlowSpace contract **ended in August 2026**
+and Prabhavit is **available immediately**. Do not reuse the "ended in July" line or the "ongoing / ~2 weeks" framing.
 
 ## The UK case — tem, 2026-08-05
 

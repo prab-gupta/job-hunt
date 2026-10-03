@@ -7,7 +7,10 @@ import csv
 
 # Credentials
 USERNAME = "prabhavitg@gmail.com"
-PASSWORD = "xeoa zwqw caqg uqza"
+import os as _os
+PASSWORD = _os.environ.get("GMAIL_IMAP_APP_PASSWORD")
+if not PASSWORD:
+    raise SystemExit("GMAIL_IMAP_APP_PASSWORD is not set; export it in the environment before running this script (never hard-code it).")
 
 def get_recent_emails():
     try:

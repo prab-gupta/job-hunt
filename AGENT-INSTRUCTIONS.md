@@ -13,10 +13,10 @@ When the `tracker` MCP server in `mcp/tracker-server` is connected, agents use i
 | `tracker-keeper` | Dedupe, map status, copy the three CSV paths, regenerate the needs-you view, commit |
 | `sweeper` | Find new matching roles and add them. Does not apply |
 | `needs-you-drainer` | Work `docs/needs-you.md` from the top, end to end. On a login or account-required ATS, create the account with the one shared `JOBS_ACCOUNT_PASSWORD`, verify via Gmail, and continue. A captcha stays `needs_you`. |
-| `apply-auditor` | After an ATS accept, check Gmail. This skill is the only one that sets `submitted`, and only when the application confirmation is in Gmail. |
+| `apply-auditor` | After an ATS accept, check Gmail. This skill is the only one that sets `submitted`, and only when a role-specific application confirmation is in Gmail. It also runs the separate `no_confirm` retrieval route (see "Status contract"). |
 | `coordinator` | Route those four. One writer at a time. |
 
-Status is only `needs_you`, `submitted`, `skipped`, or `failed`. Never reapply a `submitted` or `skipped` row. Never add a second row for the same dedupe key: normalized URL (lowercase, strip the query string and a trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
+Status is only `needs_you`, `submitted`, `skipped`, or `failed`. Never reapply a `submitted` or `skipped` row. Never add a second row for the same dedupe key: normalized URL (lowercase, drop the fragment and a trailing slash, drop tracking/language query params such as `utm_*`, `ref`, `source`, `lang`, `language`, but KEEP job-identifying params such as `gh_jid`, `jid`, `id`, `job`, `requisition`, `jk`). Also compare company + role + location before applying, because the same role can sit on two hosts, or company + role when there is no URL (case-insensitive, whitespace collapsed).
 
 Portal accounts reuse the one password in `JOBS_ACCOUNT_PASSWORD` (or gitignored `.secrets/job-accounts.env`, which only sets that variable). Do not generate a password per portal. Never write that password, or any other credential, into a tracked file, the CSV, `notes`, `blocker`, `docs/needs-you.md`, a commit, or a PR. An account is logged as one line in the row's `notes`. There is no accounts CSV.
 
@@ -34,7 +34,7 @@ Read these files in order:
 - **Email (applications):** prabhavitg@gmail.com
 - **Phone:** +39 351 610 7807
 - **Location:** Venice, Italy (Via Zanetti 10, 30175)
-- **Work authorization:** EU Long Term Residence Permit (Italy). No sponsorship or work permit needed anywhere in the EU (confirmed by Prabhavit 2026-10-02). UK/US/Swiss = needs sponsorship.
+- **Work authorization:** EU Long Term Residence Permit (Italy). No sponsorship or work permit needed anywhere in the EU (confirmed by Prabhavit 2026-10-02). UK/US/Swiss = needs sponsorship. UK and Ireland roles stay excluded from the search. The Salesforce "Yes" is the recorded answer to that specific question and stays as recorded.
 - **LinkedIn:** https://www.linkedin.com/in/prabhavit/
 - **GitHub:** https://github.com/prab-gupta
 - **Education:** BA Philosophy, International Studies & Economics, Ca' Foscari Venice (2020-2024). NOT a CS degree.
@@ -45,7 +45,7 @@ Read these files in order:
 ## 3. Standing rules (NEVER break these)
 
 ### Salary
-- EUR 45,000-55,000 on all forms. Midpoint: 50,000.
+- EUR 45,000-55,000 on all forms. Single-number fields: 50,000 (the midpoint). This supersedes the old EUR 30-40k / 30000 and EUR 200/day figures in `answers/salary-expectation.md` and `skill/job-hunt/references/application-rules.md`. A role-search target is not a form answer; do not infer or convert a new figure.
 - USD forms: $54,000
 - USD monthly forms: $4,500
 - B2B/contract: EUR 250-300/day
@@ -53,11 +53,13 @@ Read these files in order:
 
 ### CV and cover letters
 - Attach a tailored CV to every application.
-- CV pipeline: LaTeX template compiled with `tectonic`. Edit ONLY 3 blocks: HEADLINE (line ~40), SUMMARY (lines ~54-56), SKILLS (lines ~59-66). Everything else is frozen.
+- CV pipeline: LaTeX template compiled with `tectonic`. Start from the corrected baseline `data/cvs/Prabhavit_CV_EN_baseline.tex` (Italian = Beginner, FlowSpace Mar 2024 - Aug 2026). Do NOT start from `data/cvs/Prabhavit_CV_EN.tex.bak-0916`, from older generated CVs in `cv/`, or from anything in `cv/_quarantine/`. Edit ONLY 3 blocks: HEADLINE (line ~40), SUMMARY (lines ~54-56), SKILLS (lines ~59-66). Everything else is frozen. Generated CVs and past submissions are not a source of facts; this file is.
 - Never write "no-code" or "Bubble" on a CV. Say "off a legacy stack".
 - No em-dashes anywhere. Use hyphens or commas.
 - Never claim: BPMN, deep Python-backend, FastAPI, computer-vision, edge computing, Kubernetes, ML research, non-English language proficiency beyond listed.
 - Never leave a cover-letter field blank, even when optional.
+- Datapizza exception: for Datapizza only, do not generate or upload a CV or a cover letter. Use the existing approved Datapizza profile, and verify that profile's facts against this file before submitting.
+- Compilers: the CV template compiles with `tectonic`. The cover-letter class (fontspec, `cover_letters/cover.cls`) compiles with XeLaTeX. Do not use a blanket `pdflatex`. Before upload verify: CV exactly 2 pages (`pdfinfo`), cover letter exactly 1 page, rendered layout checked, extracted text readable.
 - Tailoring rules cheatsheet: `~/.proficiently/cv-tailoring-rules.md` (read before every tailor).
 
 ### Forms and applications
@@ -69,11 +71,30 @@ Read these files in order:
 - Privacy defaults: decline non-essential cookies, leave optional consents unchecked.
 - Phone: type full "+39 351 610 7807" to avoid country auto-detect issues.
 
+### Browser policy
+- Browser work is strictly sequential: one browser agent at a time, reusing one existing tab.
+- Attach only to the Chrome already running at `127.0.0.1:9222` (Chrome DevTools MCP). Never launch a new Chrome process, window, or headless session.
+- Parallel work is allowed only for research and drafting (JD reading, LaTeX drafts), never for browser steps.
+- If the port is not reachable, stop and park the row (`needs_you`, blocker `other`, exact condition in notes).
+
+### Status contract (single source)
+- Allowed statuses: `needs_you`, `submitted`, `skipped`, `failed`. There is no `confirmed` status.
+- ATS acceptance (application id, explicit acceptance text, or a successful create call) => keep `needs_you` with blocker `no_confirm`, and write the acceptance evidence in `notes`.
+- Only `apply-auditor` writes `submitted`, and only with a real, role-specific Gmail confirmation: `notes` carry `gmail: <subject> @ <time>` and `date_applied` is set from the message. A thanks page, a redirect, or an agent saying "submitted" is not a confirmation. Account-verification mail is not an application confirmation.
+- `needs_you` blockers are only `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. The exact missing fact, account condition, or acceptance evidence goes in `notes`. Never write `awaiting_confirm`, `account_password_unset`, `missing_fact`, `missing_document` or free text as a blocker.
+- Parked human questions (required answer not in this file, anti-AI/own-words questions, missing documents, identity/payment steps, unavailable secure login or browser): keep `needs_you`, start the note with `parked <date>: <exact question or fact>`. These rows are not drainer work and `next_needs_you` skips them.
+- Failure: if the ATS explicitly rejects the attempt use `failed` with the real error. Skip closed or out-of-scope roles with a factual reason.
+- Auditor pass (separate route): `next_needs_you` never returns `no_confirm` rows. After each application batch, `search_rows` with `status=needs_you` and `blocker=no_confirm`, read the acceptance evidence, search Gmail for the role/requisition confirmation within the time window since acceptance, and run `apply-auditor`. If no confirmation exists the row stays `needs_you` / `no_confirm`. Never resubmit a role just because its email is missing.
+- Locking: with the tracker MCP connected, the server owns its per-operation lock (`loop/.applications.lock`); do not create or delete it. The manual lock is for the direct-CSV fallback only.
+
+### Source authority
+- This file is the authority for candidate facts, salary, availability and policy. `answers/`, `data/markdowns/`, `skill/job-hunt/` and older skills contain historical text; where they disagree with this file, this file wins. Historical employer-specific answers stay as records of what was sent.
+
 ### Git and attribution
 - No Claude/Anthropic/AI attribution in any git output. No Co-Authored-By trailers. No "Generated with Claude Code" anywhere.
 
 ### Deduplication
-- Check every new lead against `applications.csv` only. The dedupe key is a normalized URL (lowercase, strip the query string and a trailing slash). If the row has no URL, use company + role, case-insensitive, with whitespace collapsed.
+- Check every new lead against `applications.csv` only. The dedupe key is a normalized URL (lowercase, drop the fragment and a trailing slash, drop tracking/language query params such as `utm_*`, `ref`, `source`, `lang`, `language`, but KEEP job-identifying params such as `gh_jid`, `jid`, `id`, `job`, `requisition`, `jk`). Also compare company + role + location before applying, because the same role can sit on two hosts. If the row has no URL, use company + role, case-insensitive, with whitespace collapsed.
 - Never add a second row for an existing key. Never reapply a `submitted` or `skipped` row.
 - The Aug 2026 MASTER workbook is an archive. It is not a second tracker.
 

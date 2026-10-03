@@ -15,14 +15,14 @@ python3 -m unittest discover -s mcp/tracker-server -p 'test_*.py'
 | --- | --- |
 | `stats` | Counts per status and per `needs_you` blocker type |
 | `search_rows` | Filter by `status`, `blocker`, `company`, or `text` |
-| `next_needs_you` | Claim the next row the autonomous drainer can work. Login/account rows with no human step come first, then other rows with no human step. Captcha and human sign-in are not returned. One claim per row. |
-| `release_claim` | Drop claims held by that agent |
-| `add_row` | Validate columns and status. Reject a duplicate normalized URL (lowercase, query string removed, trailing slash stripped). |
+| `next_needs_you` | Claim the next row the autonomous drainer can work. Login/account rows with no human step come first, then other rows with no human step. Captcha, human sign-in, upload, eligibility, `no_confirm`, and rows whose notes record a parked question or missing fact (`parked`, `needs user`, `question`, `unanswered`...) are not returned. One claim per row. A row an agent released is not re-claimed by that agent for the rest of the session (in memory; `include_attempted=true` overrides). |
+| `release_claim` | Drop claims held by that agent and mark them attempted for the session |
+| `add_row` | Validate columns and status. Reject a duplicate normalized URL (lowercase, fragment and tracking/language params removed, job-identifying params such as `gh_jid`, `jid`, `id`, `job`, `requisition` kept, trailing slash stripped). |
 | `update_row` | Validate the status change. `submitted` is only accepted from actor `apply-auditor` with a `gmail:` note and `date_applied`. A skipped row cannot be reapplied. |
 | `regenerate_needs_you` | Rewrite `docs/needs-you.md` from the CSV |
 | `sync_paths` | Copy the root CSV onto the other two paths and check that all three sha256 hashes match |
 
-Writes take `loop/.applications.lock`. If the lock exists, the write is refused. Claims live in gitignored `loop/.needs-you-claims.json`. That file is not an application list.
+The server owns its per-operation lock: each `next_needs_you`, `release_claim`, `add_row`, `update_row`, `sync_paths` and `regenerate_needs_you` call takes `loop/.applications.lock` and removes it again. If the lock already exists the call is refused, so callers (including the coordinator) must not hold that file themselves. The manual lock is for direct-CSV fallback only. Claims live in gitignored `loop/.needs-you-claims.json`. That file is not an application list.
 
 Do not pass a password, token, or `JOBS_ACCOUNT_PASSWORD=...` as a tool argument. The server rejects those values and does not write them.
 

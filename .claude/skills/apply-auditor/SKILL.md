@@ -15,7 +15,11 @@ Use the `tracker` MCP server when it is connected. You are the only caller that 
 
 If the server is not connected, find the row in `applications.csv` and hand the same change to `tracker-keeper`.
 
-Run only after `needs-you-drainer` records an ATS accept (`blocker=awaiting_confirm`) or a row is already `submitted` and needs the confirmation checked. A thanks page, a redirect, or an agent saying "submitted" is not a confirmation.
+## Retrieval route for `no_confirm` rows
+
+`next_needs_you` never returns `no_confirm` rows, so the drainer will not hand them to you. After each application batch, fetch them yourself: `search_rows` with `status=needs_you` and `blocker=no_confirm`. Read the ATS-acceptance evidence in each row's `notes`. Then run the Gmail check below for each row. Do not resubmit a role merely because its email is missing. Match account-verification mail and application-confirmation mail separately, using the role or requisition and a time window that starts at the acceptance time.
+
+Run only for rows that `needs-you-drainer` left at `needs_you` / `no_confirm` after an ATS accept, or a row that is already `submitted` and needs the confirmation checked. A thanks page, a redirect, or an agent saying "submitted" is not a confirmation.
 
 Read the tracker first and find the row by dedupe key (normalized URL, or company + role when there is no URL).
 
@@ -29,7 +33,7 @@ Search the connected Gmail account (`prabhavitg@gmail.com`) with `search_threads
 
 `to:prabhavitg@gmail.com newer_than:14d "<company>" (application OR applied OR thank OR received OR candidature)`
 
-Read the matching message. A confirmation is mail whose subject or body is about this application or this role. An unrelated message that merely contains the company name is not a confirmation. An account-verification mail is not an application confirmation. If the match is ambiguous, treat it as missing.
+Read the matching message. A confirmation is role-specific mail: its subject or body is about this application, this role, or this requisition. An unrelated message that merely contains the company name is not a confirmation. An account-verification mail is not an application confirmation. If the match is ambiguous, treat it as missing.
 
 ## Result
 
@@ -42,7 +46,7 @@ Do not invent a subject, a timestamp, or a salary. Do not mark `submitted` becau
 
 ## Write
 
-Do not commit. Pass the row to `tracker-keeper` with operation `audit_confirm` or `audit_missing`. The keeper writes root `applications.csv`, copies it to `data/csvs/applications.csv` and `loop/applications.csv`, regenerates `docs/needs-you.md`, and commits. Do not edit the CSV while another agent holds `loop/.applications.lock`.
+Do not commit. Pass the row to `tracker-keeper` with operation `audit_confirm` or `audit_missing`. The keeper writes root `applications.csv`, copies it to `data/csvs/applications.csv` and `loop/applications.csv`, regenerates `docs/needs-you.md`, and commits. With the MCP server connected it owns the lock; do not touch `loop/.applications.lock`. Only in the direct-CSV fallback, do not edit the CSV while another agent holds it.
 
 ## Do not touch
 

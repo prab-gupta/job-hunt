@@ -12,6 +12,8 @@ description: >-
   rather than a role.
 ---
 
+> **SUPERSEDED for autonomous runs.** For autonomous application runs, `AGENT-INSTRUCTIONS.md` and the `needs-you-drainer` skill (`.claude/skills/needs-you-drainer/SKILL.md`) are the authority. Where this file conflicts with them, they win. In particular, ignore here: per-application approval prompts, "Best guess" or any guessed factual answer (park the row instead with the exact missing fact), the ban on ATS account creation (authorized with the one shared `JOBS_ACCOUNT_PASSWORD`), the old salary figure and "unmodified base CV" rule (see `AGENT-INSTRUCTIONS.md` section 3), and any parallel, headless or newly launched browser or "form scout" (browser work is strictly sequential, one existing tab, existing Chrome at `127.0.0.1:9222`). This file remains valid only for manual, interactive sessions where Prabhavit is present.
+
 # Job hunt
 
 Prabhavit is looking for work right now — his FlowSpace contract ended in July 2026. What

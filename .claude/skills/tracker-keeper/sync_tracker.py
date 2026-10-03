@@ -15,7 +15,7 @@ import re
 import sys
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parents[3]
 CSV_REL = (
@@ -40,10 +40,12 @@ HEADER = [
 ALLOWED = ("needs_you", "submitted", "skipped", "failed")
 STATUS_MAP = {
     "submitted": "submitted",
-    "sent": "submitted",
-    "confirmed": "submitted",
-    "applied": "submitted",
-    "application_sent": "submitted",
+    # Incoming "sent/confirmed/applied" labels are claims, not Gmail confirmations.
+    # Only apply-auditor writes submitted, so these become needs_you + no_confirm.
+    "sent": "needs_you",
+    "confirmed": "needs_you",
+    "applied": "needs_you",
+    "application_sent": "needs_you",
     "needs_you": "needs_you",
     "needs_human": "needs_you",
     "blocked": "needs_you",
@@ -64,6 +66,7 @@ STATUS_MAP = {
     "submit_failed": "failed",
     "error": "failed",
 }
+UNCONFIRMED_LABELS = frozenset({"sent", "confirmed", "applied", "application_sent"})
 HUMAN_GATE = re.compile(
     r"captcha|login|upload|eligib|document|hcaptcha|recaptcha|turnstile|visa|sponsor",
     re.I,
@@ -75,22 +78,64 @@ def collapse(value: str) -> str:
     return re.sub(r"\s+", " ", (value or "").strip().lower())
 
 
+# Query parameters that identify one job. These are kept in the dedupe key.
+# Everything else (utm_*, ref, source, lang, language, locale, gclid, fbclid,
+# authuser, in_iframe, search terms...) is tracking or presentation and is dropped.
+JOB_ID_PARAMS = frozenset(
+    {
+        "gh_jid", "ashby_jid", "lever_jid", "lever_id", "workable_id", "wd_jid", "smart_jid",
+        "jid", "id", "job", "jobid", "job_id", "jobref", "job_ref", "jk",
+        "requisition", "requisitionid", "requisition_id", "reqid", "req_id", "req", "rid",
+        "posting", "postingid", "posting_id", "position", "positionid", "position_id",
+        "vacancy", "vacancyid", "vacancy_id", "opening", "openingid", "opening_id",
+        "offer", "offerid", "offer_id", "pid", "shortcode",
+    }
+)
+JOB_ID_PARAM_RE = re.compile(r"(^|_)(job|req|requisition|posting|position|vacancy|opening)_?(id|ref)$|_jid$")
+
+
+def _kept_query(parts) -> str:
+    """Return the job-identifying query string (sorted, lowercase) or ''."""
+    pairs = parse_qsl(parts.query, keep_blank_values=False)
+    greenhouse_embed = "greenhouse.io" in parts.netloc and parts.path.rstrip("/").endswith("/job_app")
+    kept = set()
+    for name, value in pairs:
+        key = name.strip().lower()
+        value = value.strip()
+        if not value:
+            continue
+        if key in JOB_ID_PARAMS or JOB_ID_PARAM_RE.search(key):
+            kept.add((key, value))
+        elif greenhouse_embed and key in {"for", "token"}:
+            kept.add((key, value))
+    return "&".join(f"{key}={value}" for key, value in sorted(kept))
+
+
 def norm_url(url: str) -> str:
+    """Lowercase, drop fragment and trailing slash, keep only job-identifying query params."""
     raw = (url or "").strip().lower()
     if not raw:
         return ""
     parts = urlsplit(raw)
     if parts.scheme and parts.netloc:
-        return f"{parts.scheme}://{parts.netloc}{parts.path.rstrip('/')}"
-    return raw.split("#", 1)[0].split("?", 1)[0].rstrip("/")
+        base = f"{parts.scheme}://{parts.netloc}{parts.path.rstrip('/')}"
+        query = _kept_query(parts)
+        return f"{base}?{query}" if query else base
+    bare = raw.split("#", 1)[0]
+    path, _, query = bare.partition("?")
+    kept = _kept_query(urlsplit("//x/" + "?" + query)) if query else ""
+    base = path.rstrip("/")
+    return f"{base}?{kept}" if kept else base
 
 
 def dedupe_key(row: dict) -> tuple[str, str]:
     """Normalized URL, else company + role.
 
-    `norm_url` lowercases, drops the fragment, and drops the whole query
-    string, so `?language=en` and any other query cannot make a second key.
-    A trailing slash is stripped.
+    `norm_url` lowercases, drops the fragment, strips the trailing slash, and
+    drops tracking/language query params (utm_*, ref, source, lang, language...)
+    so `?language=en` cannot make a second key. Job-identifying params
+    (gh_jid, jid, id, job, requisition, jk...) are kept, so
+    `jobs?gh_jid=1` and `jobs?gh_jid=2` are different keys.
     """
     url = (row.get("url") or "").strip()
     if url:
@@ -356,10 +401,10 @@ def map_status(row: dict) -> str:
 
 def unmapped_note(row: dict) -> str:
     token = tokenize_status(row.get("status", ""))
-    if token in STATUS_MAP or not token:
+    if token in STATUS_MAP and token not in UNCONFIRMED_LABELS or not token:
         return row.get("notes", "") or ""
     note = (row.get("notes") or "").strip()
-    tag = f"unmapped_status:{token}"
+    tag = f"incoming_status:{token} (unconfirmed)" if token in UNCONFIRMED_LABELS else f"unmapped_status:{token}"
     return f"{note} | {tag}" if note else tag
 
 
@@ -393,6 +438,22 @@ def md_url(url: str) -> str:
     return f"[{md_cell(raw)}](<{target}>)"
 
 
+# Notes that record a parked human question or a missing fact. Such a row is
+# not autonomous work: the drainer cannot answer it and must not re-claim it.
+PARKED_RE = re.compile(
+    r"needs? (the )?user|needs? prabhavit|question|unanswered|parked|"
+    r"missing fact|missing answer|not in (the )?(profile|facts)|"
+    r"(user|prabhavit|human) (must|to|should) (answer|decide|provide|confirm|supply)|"
+    r"awaiting (the )?(user|prabhavit|human)",
+    re.I,
+)
+
+
+def is_parked(row: dict) -> bool:
+    """True when the row's own notes record a parked question or missing fact."""
+    return bool(PARKED_RE.search(row.get("notes") or ""))
+
+
 def human_line(row: dict) -> str:
     """One line for Prabhavit when a person must act. Empty when the drainer can try."""
     kind = row.get("blocker") or ""
@@ -419,6 +480,8 @@ def human_line(row: dict) -> str:
         return "Check Gmail and the portal. There is no application confirmation on file."
     if re.search(r"essay|anti-ai|own words", blob, re.I):
         return "Write the required answer yourself."
+    if is_parked(row):
+        return "Answer the parked question or supply the missing fact named in the notes."
     if re.search(r"cooldown|90-day", blob, re.I):
         return "Wait until the date in the notes, then retry."
     return ""
@@ -702,7 +765,10 @@ def plan_change(rows: list[dict], incoming: dict, operation: str) -> dict:
     mapped["notes"] = unmapped_note(incoming)
     if mapped["status"] == "needs_you" and not (mapped.get("blocker") or "").strip():
         token = tokenize_status(incoming.get("status", ""))
-        mapped["blocker"] = token if token and token not in STATUS_MAP else "needs_human"
+        if token in UNCONFIRMED_LABELS:
+            mapped["blocker"] = "no_confirm"
+        else:
+            mapped["blocker"] = "other"
     key = dedupe_key(mapped)
     matches = [(index, row) for index, row in enumerate(rows) if dedupe_key(row) == key]
     if not matches:
@@ -797,7 +863,7 @@ def self_test() -> int:
         and classify_blocker({"blocker": "Greenhouse reCAPTCHA", "notes": ""}) == "captcha"
         and classify_blocker({"blocker": "Teamtailor Connect login", "notes": ""}) == "login"
     )
-    mapped = map_status({"status": "confirmed"}) == "submitted"
+    mapped = map_status({"status": "confirmed"}) == "needs_you"
     unknown = map_status({"status": "mystery", "blocker": "", "notes": ""}) == "needs_you"
     print(f"self_test: {'ok' if ok and mapped and unknown else 'failed'}")
     if not (ok and mapped and unknown):

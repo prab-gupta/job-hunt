@@ -43,20 +43,20 @@ Keep this header, in order:
 
 Map any other incoming status before it is written:
 
-- `sent`, `confirmed`, `applied`, `application_sent` → `submitted`
+- `sent`, `confirmed`, `applied`, `application_sent` → `needs_you` with blocker `no_confirm` (an incoming label is a claim, not a Gmail confirmation; there is no `confirmed` status, and only `apply-auditor` writes `submitted`)
 - `needs_human`, `blocked`, `blocked_by_company`, `held`, `action_required`, `captcha` → `needs_you`
 - `skip`, `closed`, `dropped`, `dead`, `dead_link`, `not_a_fit`, `duplicate`, `do_not_apply` → `skipped`
 - `submit_failed`, `error` → `failed`
 
-An unknown status becomes `needs_you`. Append `unmapped_status:<original>` to `notes`. Do not map an unknown status to `submitted`. A `needs_you` row needs a blocker. If the incoming row has none, use the original status token, or `needs_human` when that token is empty.
+An unknown status becomes `needs_you`. Append `unmapped_status:<original>` to `notes`. Do not map an unknown status to `submitted`. A `needs_you` row needs a blocker from the six-value vocabulary. If the incoming row has none, use `no_confirm` for the unconfirmed labels above and `other` otherwise, and keep the original token in `notes`.
 
 ## Dedupe
 
-Key: if `url` is non-empty, lowercase it, drop the fragment, drop the whole query string (`?language=en` and every other parameter), and strip the trailing slash. If `url` is empty, use company + role, case-insensitive, with whitespace collapsed. `dedupe_key` in `sync_tracker.py` is the proof. `check` reports any remaining duplicate keys.
+Key: if `url` is non-empty, lowercase it, drop the fragment, strip the trailing slash, and drop tracking/language query parameters (`utm_*`, `ref`, `source`, `lang`, `language`, `locale`, `gclid`, `fbclid` and the like). KEEP job-identifying parameters (`gh_jid`, `jid`, `id`, `job`, `jobid`, `requisition`, `reqid`, `jk`, `ashby_jid` and the like): `jobs?gh_jid=1` and `jobs?gh_jid=2` are different jobs. The Greenhouse embed form keeps `for` and `token`. If `url` is empty, use company + role, case-insensitive, with whitespace collapsed. `dedupe_key` in `sync_tracker.py` is the proof. `check` reports any remaining duplicate keys.
 
 Never add a second row for an existing key. Before saving, merge rows that share a key. Keep the most advanced status: `submitted`, then `needs_you`, then `failed`, then `skipped`. Combine `notes`. Keep a non-empty `date_applied`, `fit_score`, and `salary_or_rate` from the other row when the winner's cell is empty. Put the other raw URL in `notes` as `also_url:` when it differs. Never reapply a `submitted` or `skipped` row. An existing `needs_you` or `failed` row may be updated in place.
 
-`needs_you` blockers use this vocabulary only: `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. `login` covers an ATS account or sign-in. Keep the old blocker text in `notes` when you replace it. Do not mark a row `skipped` as closed or expired unless that row's own `notes` or `blocker` says the posting is closed, not accepting, or gives a deadline that has passed. Do not guess. A login or account-creation gate is `needs_you` / `login`, not `skipped`.
+`needs_you` blockers use this vocabulary only: `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. `login` covers an ATS account or sign-in. Keep the old blocker text, and the exact missing fact or condition, in `notes` when you replace it. An ATS-accepted application awaiting email is `needs_you` + `no_confirm`. Do not mark a row `skipped` as closed or expired unless that row's own `notes` or `blocker` says the posting is closed, not accepting, or gives a deadline that has passed. Do not guess. A login or account-creation gate is `needs_you` / `login`, not `skipped`.
 
 On a live apply, only `apply-auditor` sets `submitted`, and only after a Gmail application confirmation (`audit_confirm`). A thanks page stays `needs_you`. If that mail is missing, the auditor sets `needs_you` with blocker `no_confirm` (`audit_missing`). The status map above is for incoming labels on a new row. It does not promote a `needs_you` row to `submitted`.
 
@@ -66,7 +66,7 @@ Leave `salary_or_rate` blank unless the posting or the submitted form stated a f
 
 ## Write
 
-Hold `loop/.applications.lock` (see `coordinator`) before writing. No other agent edits the CSV during the write.
+With the MCP server connected, the server owns its per-operation lock; do not create `loop/.applications.lock` yourself. Only in the direct-CSV fallback, hold `loop/.applications.lock` (see `coordinator`) before writing. No other agent edits the CSV during the write.
 
 1. Edit root `applications.csv` only, with the `csv` module, UTF-8, the header above.
 2. Run `python3 .claude/skills/tracker-keeper/sync_tracker.py copy-paths`.

@@ -13,7 +13,7 @@ description: >
 
 ## Access
 
-When the `tracker` MCP server is connected, every read and write goes through it. `next_needs_you` is the claim that stops two drainers taking the same row. The server holds `loop/.applications.lock` for writes. Agents do not edit the CSV while that lock is held. `tracker-keeper` is still the only skill that commits git. Passwords are not tool arguments.
+When the `tracker` MCP server is connected, every read and write goes through it. `next_needs_you` is the claim that stops two drainers taking the same row. The server owns its own per-operation lock: it creates `loop/.applications.lock` for the length of one `next_needs_you`, `add_row`, `update_row` or `release_claim` and removes it again. The coordinator must NOT create that file around a pass, because the server would then refuse every operation with "tracker lock held". Agents do not edit the CSV while that lock is held. `tracker-keeper` is still the only skill that commits git. Passwords are not tool arguments.
 
 If the server is not connected, fall back to the CSV procedure in each skill. The three paths stay byte-identical.
 
@@ -26,9 +26,11 @@ If the server is not connected, fall back to the CSV procedure in each skill. Th
 
 `tracker-keeper` is the only writer that commits. The other skills use the `tracker` MCP server first and do not keep a side list. They read `applications.csv` only when that server is down.
 
-## One writer
+## One writer (direct-CSV fallback only)
 
-Before any CSV write, create `loop/.applications.lock` with exclusive create. The file contents are the agent name, the UTC time, and the pid. If the lock already exists, stop. Do not delete it and do not write the CSV. A lock older than two hours is stale: report it and stop. Prabhavit removes a stale lock.
+This manual lock applies only when the `tracker` MCP server is NOT connected and agents write the CSV directly. With the server connected, skip this section and the acquire/delete steps in the pass order: the server locks each operation itself. Never delete a lock you did not create.
+
+Before any direct CSV write, create `loop/.applications.lock` with exclusive create. The file contents are the agent name, the UTC time, and the pid. If the lock already exists, stop. Do not delete it and do not write the CSV. A lock older than two hours is stale: report it and stop. Prabhavit removes a stale lock.
 
 Release the lock only after `tracker-keeper` has copied the three paths and regenerated the view. Never commit `loop/.applications.lock` or anything under `.secrets/`.
 
@@ -36,18 +38,18 @@ No agent edits the CSV while another holds the lock. Browser work is one agent a
 
 ## Pass order
 
-1. Acquire the lock.
+1. MCP connected: no outer lock, start at step 2. Direct-CSV fallback: acquire `loop/.applications.lock`.
 2. Sweeper proposes rows. Drop any key already in the CSV. Do not reopen `submitted` or `skipped`.
 3. Tracker-keeper appends the survivors, copies the three paths, regenerates `docs/needs-you.md`.
-4. Drainer starts at the top of the view. One try per row. On a login or account-required ATS blocker, it creates or reuses the portal account with the one password in `JOBS_ACCOUNT_PASSWORD`, verifies via Gmail, and continues. It does not generate a password per portal.
-5. Drainer does not set `submitted`. After a real ATS accept it leaves `needs_you` with blocker `awaiting_confirm`.
-6. Auditor checks Gmail. A confirmation sets `submitted`, `date_applied`, and the subject plus time in `notes`. No confirmation sets blocker `no_confirm`. A thanks page is not enough.
+4. Drainer claims with `next_needs_you`, one try per row, and releases the claim. Parked-question rows are not in that queue. On a login or account-required ATS blocker, it creates or reuses the portal account with the one password in `JOBS_ACCOUNT_PASSWORD`, verifies via Gmail, and continues. It does not generate a password per portal.
+5. Drainer does not set `submitted`. After a real ATS accept it keeps `needs_you` with blocker `no_confirm` and the acceptance evidence in `notes`.
+6. After each batch, the auditor runs its own retrieval route: `search_rows` with `status=needs_you` and `blocker=no_confirm`, then Gmail for a role-specific confirmation. A confirmation sets `submitted`, `date_applied`, and `gmail: <subject> @ <time>` in `notes`. No confirmation leaves `needs_you` / `no_confirm`. A thanks page is not enough. Do not resubmit a role just because its email is missing. There is no `confirmed` status.
 7. Tracker-keeper commits. On a cloud checkout that commit stays on the working branch and opens a pull request against `main`. Never force-push. Never push `main` from a cloud agent.
-8. Delete the lock.
+8. Direct-CSV fallback only: delete the lock you created. With the server connected, call `sync_paths` and `regenerate_needs_you` once as the batch proof.
 
 ## Standing limits
 
-Read `AGENT-INSTRUCTIONS.md` sections 2-5 before a form. Do not invent experience, salary, notice period, or visa claims. If a required answer is not in those facts, the drainer leaves `needs_you` with that blocker. LinkedIn and GitHub URLs start with `https://`. Required text fields stay filled.
+Read `AGENT-INSTRUCTIONS.md` sections 2-5 before a form. Do not invent experience, salary, notice period, or visa claims. If a required answer is not in those facts, the drainer leaves `needs_you` with blocker `eligibility` or `other` and writes the exact missing fact in `notes`. Blockers are only `login`, `upload`, `eligibility`, `no_confirm`, `other`, `captcha`. LinkedIn and GitHub URLs start with `https://`. Required text fields stay filled.
 
 On a captcha or an "I am human" check, stop and hand it to Prabhavit. Do not bypass or solve it.
 

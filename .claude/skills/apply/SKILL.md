@@ -4,6 +4,8 @@ description: Fill out a job application on Greenhouse, Lever, or Workday
 argument-hint: "job URL, 'last' to use most recent job, or 'current' to fill the active browser tab"
 ---
 
+> **SUPERSEDED for autonomous runs.** For autonomous application runs, `AGENT-INSTRUCTIONS.md` and the `needs-you-drainer` skill (`.claude/skills/needs-you-drainer/SKILL.md`) are the authority. Where this file conflicts with them, they win. In particular, ignore here: per-application approval prompts, "Best guess" or any guessed factual answer (park the row instead with the exact missing fact), the ban on ATS account creation (authorized with the one shared `JOBS_ACCOUNT_PASSWORD`), the old salary figure and "unmodified base CV" rule (see `AGENT-INSTRUCTIONS.md` section 3), and any parallel, headless or newly launched browser or "form scout" (browser work is strictly sequential, one existing tab, existing Chrome at `127.0.0.1:9222`). This file remains valid only for manual, interactive sessions where Prabhavit is present.
+
 # Apply Skill
 
 > **Priority hierarchy**: See `shared/references/priority-hierarchy.md` for conflict resolution.
