@@ -47,6 +47,14 @@ a hard no, not a gap to smooth over. -->
 <!-- Projects outside of employment: freelance, open source, personal -->
 - **[PROJECT_NAME]**: [DESCRIPTION]
 
+### User-confirmed FlowSpace listing workflow incident (2 October 2026)
+- The listing workflow did not respect the supplied spreadsheet and used data from online sources instead.
+- Prabhavit corrected prompt rules and workflow mapping.
+- He verified data against the original spreadsheet and used additional AI agents to audit the output against that spreadsheet.
+- He also used the FlowSpace API to retrieve listings from the platform and check the stored results.
+- No accuracy percentage, formal regression-suite implementation, or measured business-impact figure was supplied. Do not invent these or claim the issue could never recur.
+
+
 ## Technical Skills
 
 ### Programming & ML

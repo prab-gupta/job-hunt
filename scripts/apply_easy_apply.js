@@ -113,17 +113,20 @@ async function applyToJob(jobId, pdfPath, answers = {}) {
         }
       }
 
-      // 3. Checkboxes (Consent / Terms)
+      // 3. Checkboxes (Consent / Terms / Required)
       const checkboxes = Array.from(dialog.querySelectorAll('input[type="checkbox"]'));
       for (const cb of checkboxes) {
         const aria = (cb.getAttribute('aria-label') || '').toLowerCase();
-        // Do not check "top choice" or "alert" if optional, but check consent/terms
-        const parentText = (cb.closest('div, label')?.innerText || '').toLowerCase();
-        if (parentText.includes('consent') || parentText.includes('agree') || parentText.includes('privacy') || parentText.includes('termini')) {
-          if (!cb.checked) {
-            cb.click();
-            cb.checked = true;
-            cb.dispatchEvent(new Event('change', { bubbles: true }));
+        const container = cb.closest('fieldset, .jobs-easy-apply-form-section__grouping, div[data-test-form-builder-group], div, label');
+        const containerText = (container?.innerText || '').toLowerCase();
+        const isFollowCompany = containerText.includes('follow') && containerText.includes('stay up to date');
+        if (!isFollowCompany) {
+          if (cb.required || containerText.includes('consent') || containerText.includes('agree') || containerText.includes('privacy') || containerText.includes('termini') || containerText.includes('autorizzo') || containerText.includes('required') || containerText.includes('*')) {
+            if (!cb.checked) {
+              cb.click();
+              cb.checked = true;
+              cb.dispatchEvent(new Event('change', { bubbles: true }));
+            }
           }
         }
       }
