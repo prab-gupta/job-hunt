@@ -26,6 +26,8 @@ If the server is not connected, read `applications.csv` and dedupe with `dedupe_
 
 Use the portal skills already in the repo (`.claude/skills/job-scraper` and `.agents/skills/*-search`). A hit is a company, a role, a URL, and a source. Skip a hit you cannot name.
 
+Also work the boards and ATS hosts in `skill/job-hunt/references/sources.md` §2, §4 and §4b. Run at least one query per Tier-1 board per sweep. hiring.cafe and EURES must go through the browser agent, never curl.
+
 ## Accept or reject
 
 For each hit, compute the dedupe key with `dedupe_key`: normalized URL (lowercase, drop the fragment, drop the whole query string including `?language=`, strip the trailing slash), or company + role when there is no URL (case-insensitive, whitespace collapsed).
