@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Solutions Consultant role in Amersfoort. Understanding what a team is trying to achieve and building the AI solution for it, with TypeScript at the core, is the work I have done for about three years.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, with a review step before anything reached the backend. I also built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I write TypeScript every week, use Git and GitHub, and work with LLM APIs, prompt engineering, tool use and MCP. Claude Code is my default way of building. I gathered requirements directly from the sales and operations team.
+
+On the gaps: I have not held a consulting title or facilitated customer workshops, and I have not set up GitHub pipelines. I have not used TanStack, Convex, Codex or OpenCode, and I have not worked with cloud platforms beyond hosted services such as Supabase and Netlify. My Python is at working level. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Amersfoort for the hybrid role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

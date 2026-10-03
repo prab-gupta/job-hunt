@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed Engineer (Applied AI) role in Warsaw. I build LLM applications that act on real data with a person in the loop, and I like taking a component from the first design to something people rely on.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets. I led a live migration off a legacy stack to a coded Next.js and Laravel product: I mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover while the platform grew from 2,000 to 4,500+ users. I work with RAG, tool calling and MCP, and use Claude Code as my default way of building.
+
+On the gaps, plainly: my degree is a Bachelor's in Philosophy, International Studies and Economics, not Computer Science, so I rely on the practical-experience route. I have about three years of experience, no Solutions Architect or Forward Deployed Engineer title, and my customer-facing work has been delivery inside FlowSpace. I have not used Snowflake or its AI features, and I have not built ETL/ELT pipelines, data warehouses or MLOps on a cloud platform. My Python is at working level rather than advanced, and I have not used Java or C++. My quality checks are human review and confidence thresholds, not evaluation frameworks or SLA observability.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Warsaw. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

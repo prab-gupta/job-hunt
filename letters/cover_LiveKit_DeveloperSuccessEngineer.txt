@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Developer Success Engineer role. Helping a developer get unblocked, whether that means finding the bug, explaining the API or fixing the documentation, is the part of engineering I enjoy most.
+
+At FlowSpace I integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks, built support agents that answer against live platform data and escalate to a person on low confidence, and wrote the documentation for what I shipped. At Clubee I integrated the Clubee API across the frontend and ran unit testing and QA. I debug with Postman and use Claude Code and MCP to work through code.
+
+On the gaps: I have not worked with real-time voice or video infrastructure, I have not built anything with LiveKit, and I have not contributed to open source or worked with a developer community. I have not held a developer support or developer relations role. My Python is at working level. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Ireland for the role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

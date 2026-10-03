@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Forward Deployed AI Engineer role. Starting from how a team actually works and building the AI workflow that fits it, with a human reviewing where it matters, is how I have worked for three years.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, and an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets. I integrated third-party APIs with OAuth and webhooks, wrote the documentation for what I shipped, and worked directly with the sales and operations team and an external agency. I write TypeScript and Python and use Claude Code.
+
+On the gaps: I have not done technical presales or built demos for prospects, my customer-facing work has been delivery. I have not integrated ERP systems or on-premise software, and my quality checks are human review and confidence thresholds rather than formal evaluation suites. My Python is at working level. I have about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Amsterdam for the role. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
