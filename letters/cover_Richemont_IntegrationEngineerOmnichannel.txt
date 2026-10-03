@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the Integration Engineer role in Omnichannel Order Execution in Lisbon. Taking over a set of integrations, understanding how the data moves between systems and keeping it working is the work I do best.
+
+At FlowSpace I integrated the OfficeRnD and Nexudus APIs with REST, OAuth and webhooks for automated bookings, and led a live migration off a legacy stack to a coded Next.js and Laravel product (mapped the data model, chose the migration path per entity, API or CSV, and drove the cutover) while the platform grew from 2,000 to 4,500+ users. I troubleshoot with Postman, work in Git and GitHub, and documented product and business logic with the developer team.
+
+On the gaps, plainly: I have not worked with SAP or SAP Cloud Platform Integration, which this role centres on, nor with Solace, Kafka, RabbitMQ or IBM MQ, Kong or Async APIs. I have not built on an event-driven architecture with a message broker, and I use Postman rather than Insomnia. My degree is a Bachelor's in Philosophy, International Studies and Economics, and my integration experience is REST, OAuth and webhooks, with about three years of experience.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Lisbon. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta

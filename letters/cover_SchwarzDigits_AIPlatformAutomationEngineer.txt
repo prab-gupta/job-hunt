@@ -1,0 +1,14 @@
+Dear Hiring Team,
+
+I am applying for the AI Platform Automation Engineer role in Sofia. I have about three years of experience building n8n workflows and LLM agents, and I like taking a rough automation idea through to something other people use and rely on.
+
+At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review that drafted 900+ listings from PDFs, web pages, photos and spreadsheets, CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n, and integrated the OfficeRnD and Nexudus APIs with OAuth and webhooks. I led a live migration off a legacy stack to a coded Next.js and Laravel product while the platform grew from 2,000 to 4,500+ users, so I am comfortable writing the application code around a workflow tool as well as the workflows. I work in TypeScript, Node.js and Python, use tool use and MCP, and Claude Code is my default way of building.
+
+On the gaps, plainly: I have not written custom n8n nodes, and I have not built multi-agent systems or worked with vector databases; my RAG work is lighter than the role describes. I have not used GraphQL, and I have not owned an n8n platform at company scale with governance, access control and API management. My Python is at working level, alongside TypeScript. My quality checks for AI features are human review and confidence thresholds. My degree is a Bachelor's in Philosophy, International Studies and Economics.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Sofia. Thank you for considering my application.
+
++39 351 610 7807 | prabhavitg@gmail.com | linkedin.com/in/prabhavit | github.com/prab-gupta
+
+Kind regards,
+Prabhavit Gupta
