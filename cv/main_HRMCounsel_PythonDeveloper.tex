@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Python Developer: Backend Architecture, APIs \& Data Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Time Zone / EU Permanent Resident)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Python Developer with 3 years of commercial production experience designing, building, testing, and scaling backend web applications, RESTful APIs, and distributed data systems. Deep hands-on expertise in Python3 (FastAPI, asyncio, Pydantic, pytest), object-relational mapping, database modeling, and server-side business logic. Proven track record coordinating with frontend teams to integrate dynamic user-facing features, optimizing database query latency, and establishing robust automated testing suites. Based in Venice, Italy (CET time zone) with an EU Long-Term Residence Permit (permanent unrestricted EU work authorization, no sponsorship required); available immediately for full-time remote roles.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Python Development \& Frameworks:} Python3, FastAPI, asyncio, Pydantic, Flask, pytest, object-relational mapping (ORM), object-oriented programming, data structures, algorithm optimization.
+  \item \textbf{Backend Systems \& API Design:} RESTful API development, server-side business logic, asynchronous task processing (Celery, Redis), webhook consumers, microservices architecture.
+  \item \textbf{Databases \& Data Storage:} PostgreSQL (schema design, indexing, complex analytical queries, transaction management), Redis (caching, pub/sub), JSON schema validation.
+  \item \textbf{Testing \& Code Quality:} Unit and integration testing with pytest, automated contract and regression testing with Playwright, defensive coding, performance profiling, and debugging.
+  \item \textbf{Cloud \& DevOps:} Docker containerization, Git version control, GitHub Actions, CI/CD pipeline automation, Linux environment administration.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Conversational). EU Long-Term Residence Permit (unrestricted EU work authorization across all EU member states, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Python Systems Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and operated scalable Python (FastAPI) backend services and data processing pipelines for a marketplace platform serving 4,500+ active enterprise users across Europe.
+  \item Designed relational database schemas and optimized SQL queries in PostgreSQL, eliminating execution bottlenecks and lowering API latency.
+  \item Implemented asynchronous background job queues using Redis to handle heavy data transformation tasks outside synchronous HTTP request cycles.
+  \item Built automated test suites using pytest and Playwright, establishing strict continuous integration gates to prevent production regressions.
+  \item Collaborated with frontend engineers to deliver intuitive, high-performance user interfaces by defining clean, well-documented REST API specifications.
+  \item Maintained high platform reliability through proactive structured logging, health checks, and Docker container deployments.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed custom backend microservices and automated data synchronization workflows connecting external APIs to centralized relational databases.
+  \item Built automated ETL scripts to validate, clean, and ingest multi-source partner feeds into PostgreSQL schemas.
+  \item Partnered with client technical teams to assess requirements, prioritize feature backlogs, and deliver robust software iterations.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Python Developer \& Systems Integrator}{Venice, Italy}
+\begin{itemize}
+  \item Built and deployed custom Python automation tools, REST APIs, and database integrations for European SMB clients.
+  \item Developed automated data extraction scripts to replace fragile manual workflows with event-driven pipelines.
+  \item Authored technical API documentation, database schemas, and unit test suites to facilitate seamless client handoffs.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
