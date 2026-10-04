@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**122** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**121** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -121,11 +121,10 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 
-## Captcha (25)
+## Captcha (24)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
-| Remote People | QA Automation Engineer | captcha | [https://job-boards.eu.greenhouse.io/remotepeople/jobs/4965136101](<https://job-boards.eu.greenhouse.io/remotepeople/jobs/4965136101>) | Europe remote; Playwright+API automation; AI-assisted test gen; worker bc-4cc2ebc3: Greenhouse reCAPTCHA — skip cloud | Solve the captcha on this posting. |
 | Deliverect | Implementation Consultant | captcha | [https://jobs.lever.co/deliverect/a2a206c9-9ecf-4a24-8db9-32cc6d6a11b1](<https://jobs.lever.co/deliverect/a2a206c9-9ecf-4a24-8db9-32cc6d6a11b1>) | hCaptcha challenge presented on Lever submit. Form completely filled and bespoke 2-page CV attached (cv/main_Deliverect_ImplementationConsultant.pdf). User must solve captcha in browser and submit. | Solve the captcha on this posting. |
 | Brevo | AI Native Product Engineer | captcha | [https://jobs.lever.co/brevo/13cc40a9-97ed-46e5-a7ac-2e0b1aa99654](<https://jobs.lever.co/brevo/13cc40a9-97ed-46e5-a7ac-2e0b1aa99654>) | hCaptcha image challenge at submit 2026-10-02, form content ready; retry or user | Solve the captcha on this posting. |
 | Okta | Associate Solutions Engineer, Auth0 | captcha | [https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192](<https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192>) | parked: reCAPTCHA required at submit, answers ready (partner relationships No, outside business No, prior Okta No); not submitted | Solve the captcha on this posting. |

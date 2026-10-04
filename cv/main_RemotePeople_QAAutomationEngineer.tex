@@ -1,0 +1,93 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large QA Automation Engineer: Playwright, End-to-End Testing \& CI/CD Reliability}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote Europe)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+QA Automation and Software Engineer with 3 years of hands-on production experience architecting end-to-end automated testing suites, API contract validation pipelines, and CI/CD quality gates. Proven track record owning quality across fast-paced product cycles---authoring comprehensive Playwright test suites, diagnosing complex functional defects, and integrating automated regression checks that minimized defect escape rates to production. Technically skilled in TypeScript, JavaScript, Python, Playwright, RESTful API testing, and relational database integrity (PostgreSQL). Experienced in disciplined AI-assisted test generation, leveraging LLMs to rapidly draft edge-case scenarios while rigorously validating test assertions and deterministic outcomes. Holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization without visa sponsorship); based in Venice, Italy and thriving in async remote-first engineering squads.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Test Automation Frameworks:} Playwright (TypeScript/Python), automated regression suites, headless browser execution, visual regression checks, parallel test runners.
+  \item \textbf{API \& Integration Testing:} RESTful API validation, webhook simulation, contract testing, mock services, payload schema verification, asynchronous event handling.
+  \item \textbf{Core Languages \& Tooling:} TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Jira, Docker containerized test environments.
+  \item \textbf{Quality Strategy \& Defect Management:} Test plan creation, boundary-value analysis, defect triage and root-cause tracing, flake detection and mitigation, performance baseline tracking.
+  \item \textbf{AI-Assisted Quality Engineering:} Structured prompt engineering for test case generation, evaluation harnesses over real execution traces, deterministic validation loops.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted EU work authorization, no visa sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Test Automation Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Built and maintained comprehensive end-to-end automated regression test suites using Playwright (TypeScript), running in CI/CD pipelines to protect critical booking and customer transactions.
+  \item Designed automated API contract tests validating multi-step webhook syncs and data exchanges across third-party partner services (OfficeRnD, Nexudus), catching contract regressions prior to production deployment.
+  \item Established automated evaluation pipelines analyzing real production conversation logs and customer workflows, systematically identifying corner cases and preventing functional regressions.
+  \item Reduced defect escape rate by over 60\% by introducing deterministic automated integration gates across all release branches and pull requests.
+  \item Optimized Playwright test execution times through containerized test parallelization, artifact caching, and flaky-test quarantine patterns in GitHub Actions.
+  \item Partnered closely with engineering and product stakeholders in agile sprints, participating in sprint reviews, writing structured test plans, and managing defect lifecycles in Jira.
+  \item Led platform codebase migration to Next.js while continuously maintaining regression test coverage, enabling uninterrupted platform availability for 4,500+ active users.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Automation Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Built automated regression and schema-validation suites verifying relational PostgreSQL data integrity across distributed web applications.
+  \item Configured automated GitHub Actions workflows to execute unit, integration, and linting checks on every commit, reducing deployment review cycles.
+  \item Created structured defect documentation and reproducible test steps, coordinating resolution with cross-functional development teams.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Automation \& Systems Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Developed automated browser extraction and workflow testing tools using Playwright and Python for European SME clients.
+  \item Architected end-to-end integration test harnesses verifying webhook delivery, payload parsing, and relational database writes.
+  \item Implemented automated retry logic, error handling, and structured telemetry logging across mission-critical customer data pipelines.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous grounding in formal logic, systematic analysis, and analytical problem-solving methodologies.
+\end{itemize}
+
+\end{document}
