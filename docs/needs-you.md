@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**130** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**129** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -52,7 +52,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | AvePoint | Solution Engineer (Pre-Sales) | no_confirm | [https://www.linkedin.com/jobs/view/4452581706/](<https://www.linkedin.com/jobs/view/4452581706/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Madrid, Spain. Entry-friendly pre-sales SE on Microsoft 365/Azure/Entra; fluent English, other languages advantageous not required; no years stated. LinkedIn Easy Apply; verified open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 | Chaseit | Agent Engineer (Voice AI) | no_confirm | [https://www.linkedin.com/jobs/view/4470833561/](<https://www.linkedin.com/jobs/view/4470833561/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Vilnius, Lithuania. VC-backed voice-agent startup; prompt/conversation-flow engineering with deployment strategists; no years stated; English. LinkedIn Easy Apply; posted 2026-09-28, open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (75)
+## Other (74)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -124,7 +124,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | develop | Forward Deployed Engineer | other | [https://www.linkedin.com/jobs/view/4471274338](<https://www.linkedin.com/jobs/view/4471274338>) | Recruiter-posted FDE (client unnamed), remote NL, up to EUR90k, posted 2026-09-29; direct fit to FDE target; check English-only + no NL language need on apply \| Netherlands (remote); yrs unstated \| sweep12 |  |
 | OptiComm.ai | Junior AI Engineer | other | [https://www.linkedin.com/jobs/view/4473789371](<https://www.linkedin.com/jobs/view/4473789371>) | Junior-level AI agents/LLM role, matches ~3yrs/no-degree level; ML-heavy flag (borderline); posted 2026-09-30 \| Bucharest, Romania; junior \| sweep12 |  |
 | WorkEthix | AI Engineer | other | [https://www.linkedin.com/jobs/view/4474137600](<https://www.linkedin.com/jobs/view/4474137600>) | Consultancy client; RAG/LLM backend AI engineer, 2-5yrs fits his ~3; hybrid Athens; posted 2026-10-01 \| Athens, Greece (hybrid); 2-5 yrs \| sweep12 |  |
-| Fastmarkets | AI Engineer | other | [https://www.linkedin.com/jobs/view/4470699177](<https://www.linkedin.com/jobs/view/4470699177>) | Claude/Snowflake Cortex agent building; degree-or-3yrs matches his profile; posted 2026-09-23 \| Sofia, Bulgaria; degree OR 3+ yrs \| sweep12 |  |
 | SEB | AI Engineer (AIOps) | other | [https://www.linkedin.com/jobs/view/4469858786](<https://www.linkedin.com/jobs/view/4469858786>) | Backend Go/Python AIOps agents at a bank; URGENT apply deadline 2026-10-05; posted 2026-09-21 \| Stockholm, Sweden; yrs unstated \| sweep12 |  |
 | Coalesce Management Consulting | AI Development Integration Engineer | other | [https://www.linkedin.com/jobs/view/4469330424](<https://www.linkedin.com/jobs/view/4469330424>) | Integration engineer embedded at enterprise customers (contract/consulting) - borderline; posted 2026-09-23 \| Copenhagen, Denmark; yrs unstated \| sweep12 |  |
 | Abysalto | AI Engineer | other | [https://abysalto.talentlyft.com/jobs/ai-engineer-mf-clp4](<https://abysalto.talentlyft.com/jobs/ai-engineer-mf-clp4>) | AI engineer 3-5yrs depending on level - borderline on years; hybrid Zagreb; company TalentLyft form no account; LinkedIn card within 14d \| Zagreb, Croatia (hybrid); 3-5 yrs by level \| sweep12 |  |
