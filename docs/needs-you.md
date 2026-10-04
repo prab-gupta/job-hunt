@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**125** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**124** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -122,7 +122,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 
-## Captcha (27)
+## Captcha (26)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -143,7 +143,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Duna | Deployment Strategist | captcha | [https://jobs.ashbyhq.com/duna/29d768ed-3671-4029-9886-85d140758a37](<https://jobs.ashbyhq.com/duna/29d768ed-3671-4029-9886-85d140758a37>) | parked_captcha: invisible reCAPTCHA \| Amsterdam; Europe; France (Remote) \| migrated:sweep | Solve the captcha on this posting. |
 | Rain | Implementation Specialist | captcha | [https://jobs.ashbyhq.com/rain/2a014d5a-c59e-4cac-9fa9-b365991ae27a](<https://jobs.ashbyhq.com/rain/2a014d5a-c59e-4cac-9fa9-b365991ae27a>) | parked_captcha: invisible reCAPTCHA \| New York, NY; Europe, Spain \| migrated:sweep | Solve the captcha on this posting. |
 | Dept | AI Engineer | captcha | [https://job-boards.greenhouse.io/dept/jobs/8232711](<https://job-boards.greenhouse.io/dept/jobs/8232711>) | parked_captcha: invisible reCAPTCHA \| Budapest, Zagreb, Split, Skopje; hybrid/on-site possible \| migrated:sweep | Solve the captcha on this posting. |
-| Nomos | Applied AI | captcha | [https://jobs.ashbyhq.com/nomos/c5d53247-8bc7-47ed-bdb8-1179e926a3c9](<https://jobs.ashbyhq.com/nomos/c5d53247-8bc7-47ed-bdb8-1179e926a3c9>) | parked_captcha: invisible reCAPTCHA \| Berlin \| migrated:sweep | Solve the captcha on this posting. |
 | Tandem Health | Forward Deployed Engineer | captcha | [https://jobs.ashbyhq.com/tandem-health/e6a2abc1-0a8c-4b4f-97b0-a3774f6c2e58](<https://jobs.ashbyhq.com/tandem-health/e6a2abc1-0a8c-4b4f-97b0-a3774f6c2e58>) | parked_captcha: invisible reCAPTCHA \| Stockholm; local language a plus: German \| migrated:sweep | Solve the captcha on this posting. |
 | Laminar Projects | AI Engineer - 4 Day Week + Remote | captcha | [https://jobs.lever.co/laminarprojects/07cdbd87-556a-4f48-b937-5202a4cf0f70](<https://jobs.lever.co/laminarprojects/07cdbd87-556a-4f48-b937-5202a4cf0f70>) | parked_captcha: invisible hCaptcha after full form with base CV + approved cover letter \| Portugal / Portugal, Poland [remote] \| migrated:sweep | Solve the captcha on this posting. |
 | Atos | AI Engineer | captcha | [https://jobs.atos.net/job/Ko%C5%A1ice-AI-Engineer/1424227933](<https://jobs.atos.net/job/Ko%C5%A1ice-AI-Engineer/1424227933>) | captcha: Atos apply goes to SuccessFactors sign-in/registration https://career5.successfactors.eu/careers?company=Atos which has a 'Confirm you are not a robot' reCAPTCHA; Prabhavit must solve it, create/sign in to the Atos account (prabhavitg@gmail.com), then apply. Ref 550096, remote within Slovakia. Tailored CV ready: cv/main_Atos_AIEngineer_Slovakia.pdf. Not submitted | Solve the captcha on this posting. |
