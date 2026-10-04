@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**116** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**114** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -19,12 +19,11 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Version 1 | UiPath Developer | eligibility | [https://jobs.smartrecruiters.com/version1/744000151659059](<https://jobs.smartrecruiters.com/version1/744000151659059>) | needs user decision: Irish right to work not covered by EU long-term residence; v2 CV approved; not submitted | Decide the location or work-authorization point in the notes. |
 | Einride | AI Enablement Engineer | eligibility | [https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer](<https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer>) | parked_question: work authorization in Sweden: no option for EU long-term residence from another EU country \| Stockholm , Gothenburg \| migrated:sweep | Decide the location or work-authorization point in the notes. |
 
-## No confirmation (27)
+## No confirmation (26)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
 | Brainbase Labs | Forward Deployed Engineer EMEA | no_confirm | [https://jobs.ashbyhq.com/brainbaselabs/ad4e24e1-7f85-419d-b15a-d589540ea8fa](<https://jobs.ashbyhq.com/brainbaselabs/ad4e24e1-7f85-419d-b15a-d589540ea8fa>) | awaiting_confirm: applied 2026-10-02 ~19:55 via Ashby; success text shown; files main_Brainbase_ForwardDeployedEngineerEMEA.pdf \| apply-auditor: Gmail had no application confirmation for Brainbase Labs (searched Brainbase/brainbaselabs/ashbyhq; none for this company after ~30m since ATS accept). | Check Gmail and the portal. There is no application confirmation on file. |
-| DeepTree | AI Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4473207872](<https://www.linkedin.com/jobs/view/4473207872>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-04 \| user-only question: Easy Apply 2026-10-03 unanswered onsite/Milan office question; parked. Prior: Milan office AI Engineer for M&A agents. | Check Gmail and the portal. There is no application confirmation on file. |
 | Rydoo | AI Transformation Engineer | no_confirm | [https://jobs.workable.com/view/r8EnkQjVguLMpXwbbL5TKi/hybrid-ai-transformation-engineer-in-lisbon-at-rydoo](<https://jobs.workable.com/view/r8EnkQjVguLMpXwbbL5TKi/hybrid-ai-transformation-engineer-in-lisbon-at-rydoo>) | submitted via Workable 2026-10-02 21:21 CEST with tailored CV \| apply-auditor: no Gmail confirmation for the 2026-10-02 21:21 apply (searched Rydoo/Workable); note Gmail has an earlier 2026-09-14 16:04 CEST Workable 'Thanks for applying to Rydoo' and 2026-09-16 11:05 CEST Rydoo reply 'AI Transformation Engineer - Rydoo' (looks like a rejection), so the Oct 2 re-apply was likely a duplicate and not re-confirmed | Check Gmail and the portal. There is no application confirmation on file. |
 | Aircall | Forward Deployed Engineer (AI Solutions) | no_confirm | [https://www.linkedin.com/jobs/view/4458347375](<https://www.linkedin.com/jobs/view/4458347375>) | awaiting_confirm: LinkedIn Easy Apply resume 2026-10-03 shows already submitted (Applied). Apply Auditor: confirm Gmail. Prior Paris hybrid FDE AI Solutions. \| apply-auditor: Gmail had no application confirmation for Aircall for this Oct 3 LinkedIn Easy Apply (only older 2026-09 rejection/update mail; searched Aircall, Greenhouse, LinkedIn newer_than:3d; none after ~30m) | Check Gmail and the portal. There is no application confirmation on file. |
 | act digital | AI Agent Developer | no_confirm | [https://www.linkedin.com/jobs/view/4464542174](<https://www.linkedin.com/jobs/view/4464542174>) | awaiting_confirm: LinkedIn Easy Apply resume 2026-10-03 shows already submitted (Applied). Apply Auditor: confirm Gmail. Prior Lisbon hybrid AI Agent Developer. \| apply-auditor: Gmail had no application confirmation for act digital for this Oct 3 LinkedIn Easy Apply (searched act digital/actdigital/LinkedIn newer_than:14d; none after ~30m) | Check Gmail and the portal. There is no application confirmation on file. |
@@ -119,7 +118,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 
-## Captcha (21)
+## Captcha (20)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -127,7 +126,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Brevo | AI Native Product Engineer | captcha | [https://jobs.lever.co/brevo/13cc40a9-97ed-46e5-a7ac-2e0b1aa99654](<https://jobs.lever.co/brevo/13cc40a9-97ed-46e5-a7ac-2e0b1aa99654>) | hCaptcha image challenge at submit 2026-10-02, form content ready; retry or user | Solve the captcha on this posting. |
 | Okta | Associate Solutions Engineer, Auth0 | captcha | [https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192](<https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192>) | parked: reCAPTCHA required at submit, answers ready (partner relationships No, outside business No, prior Okta No); not submitted | Solve the captcha on this posting. |
 | Oxylabs | AI Engineer | captcha | [https://jobs.lever.co/oxylabs/96b1e88d-539c-4df4-a844-67af1f507e67](<https://jobs.lever.co/oxylabs/96b1e88d-539c-4df4-a844-67af1f507e67>) | parked: hCaptcha at submit on Lever, form and CV ready; user to solve or retry; not submitted | Solve the captcha on this posting. |
-| Mercuryo | AI Automation Engineer (AI Solutions Engineer) | captcha | [https://www.linkedin.com/jobs/view/4471496611](<https://www.linkedin.com/jobs/view/4471496611>) | parked 2026-10-04: BambooHR form filled, bespoke 2-page CV cv/main_Mercuryo_AISolutionsEngineer.pdf attached. Hit reCAPTCHA ("Almost there! Please confirm you’re not a robot to continue.") on https://mercuryo.bamboohr.com/careers/450. User must solve CAPTCHA in browser to submit. | Solve the captcha on this posting. |
 | Lleverage | Forward Deployed AI Engineer | captcha | [https://www.linkedin.com/jobs/view/4465027334](<https://www.linkedin.com/jobs/view/4465027334>) | parked: hCaptcha at submit, user to solve https://lleverage.recruitee.com/o/forward-deployed-ai-engineer-1/c/new; not submitted | Solve the captcha on this posting. |
 | SoftwareOne | Power Platform & Copilot Engineer | captcha | [https://www.linkedin.com/jobs/view/4470089517](<https://www.linkedin.com/jobs/view/4470089517>) | parked: hCaptcha on iCIMS login https://careers-softwareone.icims.com/jobs/31034/power-platform-%26-copilot-engineer/login; not submitted | Solve the captcha on this posting. |
 | C12 | AI Automation Engineer | captcha | [https://www.linkedin.com/jobs/view/4470464023](<https://www.linkedin.com/jobs/view/4470464023>) | Form fully completed with bespoke 2-page CV (cv/main_C12_AIAutomationEngineer.pdf) and answers on Lever; submit requires interactive hCaptcha challenge in Chrome tab 0. | Solve the captcha on this posting. |
