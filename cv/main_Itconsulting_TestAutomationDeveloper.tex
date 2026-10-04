@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Test Automation Developer: Playwright, TypeScript, API Contract \& E2E Testing}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Resident in Italy / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Software and Test Automation Developer with 3 years of commercial production experience designing, implementing, and maintaining automated testing frameworks, end-to-end regression suites, and API contract verification systems. Practical expertise utilizing Playwright, TypeScript, Python, Postman, and CI/CD pipelines to guarantee software quality, isolate regressions, and ensure system reliability across continuous delivery lifecycles. Resident in Venice, Italy with an EU Long-Term Residence Permit (permanent unrestricted Italian and EU work authorization, no sponsorship required). Fluent English (C1 Professional), conversational Italian; available immediately for full-time remote or hybrid positions.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Test Automation Frameworks:} Playwright (E2E, API testing, visual regression, trace recording), Jest, Selenium WebDriver, automated test suite design, page object models (POM), test fixture management.
+  \item \textbf{API Testing \& Quality Engineering:} Postman, REST API contract testing, JSON schema validation, HTTP mock servers, edge-case boundary verification, stress and latency profiling.
+  \item \textbf{Programming Languages:} TypeScript, JavaScript (Node.js, ES6+), Python3 (pytest, asyncio, requests), SQL (PostgreSQL), HTML5, CSS selectors, XPath locator strategies.
+  \item \textbf{CI/CD \& DevOps Integration:} GitHub Actions, automated test runner integration, regression blocking gates, Docker containerization, Git version control.
+  \item \textbf{Methodologies \& Collaboration:} Agile/Scrum software development, defect tracking, test planning, documentation, root cause analysis, cross-functional collaboration.
+  \item \textbf{Languages \& Authorization:} Italian (Parlato/Conversational), English (C1 Professional, fluent), Hindi (Native). Resident in Italy / Permesso di Soggiorno UE a tempo indeterminato.
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Test Automation Engineer}{London, UK (remote)}
+\begin{itemize}
+  \item Designed, built, and operated the automated end-to-end and regression testing infrastructure using Playwright and TypeScript for a platform serving 4,500+ active enterprise users.
+  \item Automated critical user flows including catalog ingestion, user authentication, checkout workflows, and multi-turn AI interactions, preventing regressions in production.
+  \item Integrated automated test suites into CI/CD pipelines (GitHub Actions), running parallel headless browser tests and blocking failing PRs prior to deployment.
+  \item Authored automated API contract tests validating backend endpoints, payload schemas, and response status codes against production specifications.
+  \item Reduced manual QA verification time by 80\% while achieving 99.8\% production reliability across continuous weekly deployments.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Led automated validation and integration testing for custom client web applications and data processing pipelines.
+  \item Configured Postman collections and automated test scripts to verify REST API integrations with third-party payment and database systems.
+  \item Designed test matrices covering responsive UI rendering, cross-browser compatibility, and edge-case form validation.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Software \& Automation Developer}{Venice, Italy}
+\begin{itemize}
+  \item Implemented automated testing and validation scripts for client web applications and ETL data extraction workflows using Python and Postman.
+  \item Developed automated sanity suites verifying database integrity and webhook event delivery across client integration endpoints.
+  \item Documented test strategies, execution reports, and defect logs for client development teams.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
