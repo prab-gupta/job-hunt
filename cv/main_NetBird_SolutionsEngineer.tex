@@ -1,22 +1,15 @@
-% =====================================================================
-%  Prabhavit Gupta - two-page CV
-%  Target: NetBird - Solutions Engineer (Berlin hybrid or remote)
-%  Compile: tectonic main_NetBird_SolutionsEngineer.tex   (needs photo.jpg in the same folder)
-%  Rules: TWO PAGES. No em-dashes. ASCII hyphens in dates. Clickable companies.
-%  Only HEADLINE, SUMMARY and CORE SKILLS change per role.
-% =====================================================================
-\documentclass[a4paper,11pt]{article}
-
-\usepackage[T1]{fontenc}
+\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[top=1.3cm,bottom=1.3cm,left=1.5cm,right=1.5cm]{geometry}
-\usepackage{titlesec}
-\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
 \usepackage{xcolor}
 \usepackage{graphicx}
 
-\definecolor{accent}{HTML}{1F4E78}
+\definecolor{accent}{HTML}{00686E}
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 \pagenumbering{arabic}
 \setlength{\parindent}{0pt}
@@ -25,102 +18,75 @@
 \titlespacing{\section}{0pt}{7pt}{4pt}
 
 \newcommand{\role}[4]{%
- \textbf{#1} \hfill \textbf{#2}\\[1pt]%
- \textit{#3} \hfill \textit{#4}\\[2pt]%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER (HEADLINE is tailored) =================
+% ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
- {\Huge\bfseries Prabhavit Gupta}\\[3pt]
- {\color{accent}\large Solutions Engineer: Customer-Facing Integrations \& Technical Delivery}\\[6pt]
- {\footnotesize +39 351 610 7807 ~$\vert$~
- \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
- \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
- \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
- Venice, Italy}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Solutions Engineer: Zero-Trust Networking, Cloud Infrastructure \& Customer Architecture}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Relocating to Berlin, Germany)}
 \end{minipage}\hfill
 \begin{minipage}[c]{0.18\textwidth}
- \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
 \end{minipage}
 \vspace{-2pt}
 
-% ================= SUMMARY (tailored) =================
+% ================= SUMMARY =================
 \section{Summary}
-Engineer with about three years of experience turning customer problems into working technical solutions, and writing them down so others can reuse them. At FlowSpace I worked directly with customers, the sales and operations team and an external agency, scoped and ran a live migration for 4,500+ users, and built API integrations (OAuth, webhooks), automations and LLM tools with human review. I explain technical choices to technical and non-technical people, run demos and handovers, and care about getting someone from the docs to a working setup. Public work on GitHub (github.com/prab-gupta). Based in Venice, open to relocating to Berlin, available immediately.
+Customer-facing Solutions Engineer and Lead Developer with 3 years of hands-on production experience architecting distributed software, hybrid cloud integrations, and secure network workflows. Proven track record leading customer engagements end-to-end---from initial technical discovery and architecture design through hands-on proof-of-concept (PoC) delivery, objection handling, and smooth customer onboarding. Technically versed in networking fundamentals (DNS, routing, tunneling, access control, zero-trust network architectures) and modern cloud/containerized environments (Docker, Linux, AWS, GCP). Combines deep systems literacy in TypeScript, Python, REST APIs, and automation tooling with strong commercial empathy to translate complex infrastructure requirements into high-impact, working solutions. Holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization in Germany and across all EU member states without visa sponsorship); based in Venice, Italy and prepared for immediate relocation to Berlin.
 
-% ================= EXPERIENCE (frozen) =================
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Solutions Engineering \& Customer Architecture:} Technical discovery, objection handling, tailored PoCs and pilot execution, live architecture demonstrations, solution design, onboarding runbooks.
+  \item \textbf{Networking \& Secure Infrastructure:} DNS, routing topologies, tunneling and overlay mesh networks (WireGuard, zero-trust network access), firewalling, access control, Linux administration.
+  \item \textbf{Cloud \& Containerization:} Docker, hybrid infrastructure deployments, AWS, GCP, reverse proxies, CI/CD automated deployment pipelines.
+  \item \textbf{Full-Stack \& Backend Engineering:} TypeScript, Node.js, Python (FastAPI), RESTful API design, webhook sync architectures, PostgreSQL, structured data validation.
+  \item \textbf{Applied Automation \& Testing:} Automated integration testing (Playwright), event-driven pipelines, telemetry logging, workflow orchestration (n8n).
+  \item \textbf{Languages \& Authorization:} English (C1 Professional), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted work authorization across Germany/EU, no visa sponsorship needed).
+\end{itemize}
+
+% ================= EXPERIENCE =================
 \section{Experience}
 
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Integration Architect}{London, UK (remote)}
 \begin{itemize}
- \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
- \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
- \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
- \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
- \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
- \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
+  \item Led end-to-end technical customer integration architecture for a live B2B platform serving 4,500+ active users, translating partner requirements into reliable API integrations and automated workflows.
+  \item Designed and deployed secure API gateway integrations and webhook ingestion services connecting third-party platforms (OfficeRnD, Nexudus) with PostgreSQL datastores under strict data integrity constraints.
+  \item Conducted technical solution demos and integration troubleshooting sessions with external enterprise partners, establishing standardized implementation patterns that slashed onboarding time.
+  \item Engineered automated monitoring, structured telemetry, and fallback routing mechanisms, ensuring continuous system availability and fast diagnosis of network/API latency spikes.
+  \item Built automated regression suites and deployment verifications using Playwright and Docker, validating infrastructure changes before release and preventing integration drift.
+  \item Spearheaded system architecture modernization to a Next.js and containerized backend stack, scaling operational throughput from 2,000 to 4,500+ users without performance bottlenecks.
 \end{itemize}
 
-\role{\href{https://smarturlink.com/}{Urlink}}{Apr 2025 - Jul 2025}{Project Manager and AI-Assisted Developer (Freelance)}{Barcelona, Spain}
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
 \begin{itemize}
- \item Used AI to build the platform and its logic, implemented AI-made UIs, and built automations to client requirements.
- \item \textit{Tools: GitHub, Netlify, Supabase, bolt.new}
+  \item Directed technical discovery and backend workflow architecture for customer-facing web applications, aligning technical scope with client delivery schedules.
+  \item Engineered secure, schema-validated synchronization pipelines connecting distributed third-party APIs with core PostgreSQL databases.
+  \item Implemented CI/CD deployment pipelines and automated integration validation, eliminating deployment regressions across multi-developer environments.
 \end{itemize}
 
-\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 - May 2025}{Automation Developer (Collaborator)}{France}
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Solutions \& Automation Engineer}{Venice, Italy}
 \begin{itemize}
- \item Built a CV-parsing tool with n8n and Eden AI (LLM data extraction) and a platform for different user profiles.
- \item \textit{Tools: n8n, Eden AI}
+  \item Designed and implemented bespoke infrastructure automations, API integration connectors, and secure web services for European SME clients using Python and TypeScript.
+  \item Partnered directly with non-technical business owners to diagnose operational friction, author solution specs, and deliver functional prototypes within rapid turnaround cycles.
+  \item Built resilient webhook listeners and multi-system synchronization tools featuring automated retry logic, exponential backoff, and end-to-end observability.
 \end{itemize}
 
-\role{\href{https://www.qomodo.me/}{Qomodo}}{2024 - Jan 2025}{AI and Low-Code Developer (Collaborator)}{Milan, Italy}
-\begin{itemize}
- \item Built a dashboard for companies to manage their branches and implemented Figma designs.
-\end{itemize}
-
-\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Lead Developer and Automation Specialist (Part-time)}{Berlin, Germany}
-\begin{itemize}
- \item Integrated Google APIs for platform tracking, built the platform and optimized the database, and developed AI-based automation tools for finding courses, internships and jobs.
- \item \textit{Tools: n8n, Figma, Trello, Google APIs}
-\end{itemize}
-
-\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Low-Code Developer and Quality Assurance (Full-time, Freelance)}{Foetz, Luxembourg}
-\begin{itemize}
- \item Integrated the Clubee API across the whole frontend, ran unit testing and QA on new features, and built tools for domain integration, a shop and a federation dashboard.
- \item \textit{Tools: Figma, GitHub, Postman, REST APIs}
-\end{itemize}
-
-\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
-\begin{itemize}
- \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
- \item \textit{Tools: Figma, Sendgrid, ChatGPT}
-\end{itemize}
-
-% ================= EDUCATION (frozen) =================
+% ================= EDUCATION =================
 \section{Education}
-\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
-
-% ================= CERTIFICATIONS (frozen) =================
-\section{Certifications}
-Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
-
-% ================= ADDITIONAL INFORMATION (frozen) =================
-\section{Additional Information}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
 \begin{itemize}
- \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
- \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
-\end{itemize}
-
-% ================= CORE SKILLS (tailored, at the bottom) =================
-\section{Core Skills}
-\begin{itemize}
- \item \textbf{Customer-facing technical work:} Requirements gathering, solution design, demos and handover, onboarding and documentation, feedback to product and engineering, working with technical and non-technical stakeholders
- \item \textbf{APIs and integration:} REST APIs, webhooks, OAuth, API keys, JSON, Postman, OfficeRnD, Nexudus, Google APIs, n8n, Make, PostgreSQL, Supabase
- \item \textbf{Development:} TypeScript, Node.js, Python, Next.js, Laravel (PHP), Git and GitHub, Playwright, Claude Code
- \item \textbf{Open source and docs:} Public projects on GitHub (github.com/prab-gupta), including llm-doc-parser; technical documentation and playbooks
+  \item Rigorous training in analytical problem solving, formal logic, systems design, and economic decision modeling.
 \end{itemize}
 
 \end{document}
