@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**127** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**126** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -53,7 +53,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Chaseit | Agent Engineer (Voice AI) | no_confirm | [https://www.linkedin.com/jobs/view/4470833561/](<https://www.linkedin.com/jobs/view/4470833561/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Vilnius, Lithuania. VC-backed voice-agent startup; prompt/conversation-flow engineering with deployment strategists; no years stated; English. LinkedIn Easy Apply; posted 2026-09-28, open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 | Duferco Group | Forward Deployed Engineer | no_confirm | [https://duferco.talentics.ai/auth](<https://duferco.talentics.ai/auth>) | awaiting_confirm: submitted via Duferco Talentics portal on 2026-10-03 with bespoke 2-page CV and cover letter; status on applicant portal verified as Under Review (Applied Oct 3, 2026). | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (69)
+## Other (68)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -78,7 +78,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Aerones | AI Native Full-stack Engineer | other | [https://www.linkedin.com/jobs/view/4469720086](<https://www.linkedin.com/jobs/view/4469720086>) | Riga, Latvia, posted 2026-09-24. Robotics company (wind-turbine service); Django/PostgreSQL/React full-stack with AI coding agents (Claude Code, Codex) as the main development method, context engineering and spec-first practices, LLM/RAG features a plus. No year count or language gate in the text. Salary above target. Easy Apply confirmed on the public job page (on-LinkedIn apply link). |  |
 | AutoSolutions.ai (The Unmarked Group) | Forward Deployed Engineer / AI Solutions Engineer | other | [https://www.linkedin.com/jobs/view/4473533761](<https://www.linkedin.com/jobs/view/4473533761>) | parked: verification email never arrives at prabhavitg@gmail.com after two attempts; user may try manually at https://ai-interviewer.autosolutions.app/apply/forward-deployed-engineer/fde-barcelona | Answer the parked question or supply the missing fact named in the notes. |
 | Supersonik | Forward Deployed Engineer | other | [https://www.linkedin.com/jobs/view/4473254240](<https://www.linkedin.com/jobs/view/4473254240>) | Barcelona ES in-person, relocation; 1-3 yrs, English only (Spanish not required); a16z-backed agentic sales-demo startup; build/deploy AI agents for clients; pay below target; careers page supersonik.ai/careers has no per-job URL; external apply from LinkedIn \| sweep5 |  |
-| Cast AI (Kimchi) | Sales Engineer \| Kimchi \| EMEA | other | [https://job-boards.greenhouse.io/castaigroupinc/jobs/4383244009](<https://job-boards.greenhouse.io/castaigroupinc/jobs/4383244009>) | parked: required question 'presented or demoed complex technical products to technical and non-technical stakeholders in English?' needs user's answer; CV+letter approved; not submitted | Answer the parked question or supply the missing fact named in the notes. |
 | Celonis | Associate (AI) Solution Consultant (UK) - Orbit Program | other | [https://job-boards.greenhouse.io/celonis/jobs/7885824003](<https://job-boards.greenhouse.io/celonis/jobs/7885824003>) | parked: required question 'legally authorized to work in the UK?' (user holds EU long-term residence only); user has not answered; v2 CV+letter staged; not submitted | Answer the parked question or supply the missing fact named in the notes. |
 | Mercuryo | AI Automation Engineer (AI Solutions Engineer) | other | [https://www.linkedin.com/jobs/view/4471496611](<https://www.linkedin.com/jobs/view/4471496611>) | needs user: form requires street address, state, ZIP (BambooHR https://mercuryo.bamboohr.com/careers/450) | Answer the parked question or supply the missing fact named in the notes. |
 | HappyRobot | Forward Deployed Engineer (Barcelona) | other | [https://jobs.ashbyhq.com/happyrobot.ai/47d4191c-39b3-496e-86ec-772da9fb2046](<https://jobs.ashbyhq.com/happyrobot.ai/47d4191c-39b3-496e-86ec-772da9fb2046>) | needs user: required Spanish proficiency question | Answer the parked question or supply the missing fact named in the notes. |
