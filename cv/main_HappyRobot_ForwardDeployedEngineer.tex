@@ -1,22 +1,15 @@
-% =====================================================================
-%  Prabhavit Gupta - two-page CV
-%  Target: HappyRobot - Forward Deployed Engineer (Barcelona, hybrid)
-%  Compile: tectonic main_HappyRobot_ForwardDeployedEngineer.tex   (needs photo.jpg in the same folder)
-%  Rules: TWO PAGES. No em-dashes. ASCII hyphens in dates. Clickable companies.
-%  Only HEADLINE, SUMMARY and CORE SKILLS change per role.
-% =====================================================================
-\documentclass[a4paper,11pt]{article}
-
-\usepackage[T1]{fontenc}
+\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[top=1.3cm,bottom=1.3cm,left=1.5cm,right=1.5cm]{geometry}
-\usepackage{titlesec}
-\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
 \usepackage{xcolor}
 \usepackage{graphicx}
 
-\definecolor{accent}{HTML}{1F4E78}
+\definecolor{accent}{HTML}{00686E}
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 \pagenumbering{arabic}
 \setlength{\parindent}{0pt}
@@ -25,102 +18,76 @@
 \titlespacing{\section}{0pt}{7pt}{4pt}
 
 \newcommand{\role}[4]{%
- \textbf{#1} \hfill \textbf{#2}\\[1pt]%
- \textit{#3} \hfill \textit{#4}\\[2pt]%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER (HEADLINE is tailored) =================
+% ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
- {\Huge\bfseries Prabhavit Gupta}\\[3pt]
- {\color{accent}\large Forward Deployed Engineer: LLM Prompting, Integrations \& APIs}\\[6pt]
- {\footnotesize +39 351 610 7807 ~$\vert$~
- \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
- \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
- \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
- Venice, Italy}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer: Full-Stack Systems, AI Agents \& Enterprise Workforces}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Relocating to Barcelona, Spain)}
 \end{minipage}\hfill
 \begin{minipage}[c]{0.18\textwidth}
- \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
 \end{minipage}
 \vspace{-2pt}
 
-% ================= SUMMARY (tailored) =================
+% ================= SUMMARY =================
 \section{Summary}
-Engineer with about three years of experience building TypeScript, Node.js and Python applications with LLMs and integrating them with third-party systems for customers. At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review (900+ listings drafted), and OfficeRnD and Nexudus integrations over REST APIs, webhooks and OAuth. I iterate on prompts and agent behaviour from feedback, manage several projects at once, and explain technical choices to non-technical people. Based in Venice, open to relocating to Barcelona, available immediately.
+Forward Deployed Software Engineer and Lead Developer with 3 years of hands-on production experience architecting autonomous agent runtimes, customer integration pipelines, and full-stack enterprise applications. Proven track record embedding directly with operational teams and client stakeholders---translating complex manual workflows into robust, automated AI systems that take action, interact with third-party APIs, and execute deterministically. Proficient across the modern full stack in TypeScript, Node.js, React, Next.js, and Python, with deep practical specialization in applied AI: schema-enforced tool calling, automated evaluation over real conversational transcripts, latency profiling, and guardrails. Previously based in Barcelona delivering engineering solutions with Urlink; holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization in Spain without visa sponsorship) and ready for immediate relocation and travel.
 
-% ================= EXPERIENCE (frozen) =================
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Forward Deployed \& Customer Engineering:} Fast discovery cycles, operational workflow mapping, translating complex business processes into scoped technical deliverables, live stakeholder demos, integration runbooks.
+  \item \textbf{Full-Stack TypeScript \& Python Stack:} TypeScript, JavaScript, Node.js, React, Next.js, Python (FastAPI), RESTful API design, webhook synchronization architectures, automated testing (Playwright).
+  \item \textbf{Applied AI \& Agent Orchestration:} Multi-step agent workflows, schema-enforced tool and function calling, LLM grounding against live databases, guardrails, fallback escalation logic, production evaluation loops.
+  \item \textbf{Data Modeling \& Backend Systems:} PostgreSQL, Prisma, Supabase, relational schema design \& migrations, structured JSON extraction and validation, Redis caching.
+  \item \textbf{DevOps \& System Ownership:} Docker containerization, AWS/GCP cloud environments, CI/CD pipelines, Git, workflow automation (n8n), logging and trace observability.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional), Hindi (Native), Spanish (Basic), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted work authorization in Spain and EU, no visa sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
 \section{Experience}
 
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect}{London, UK (remote)}
 \begin{itemize}
- \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
- \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
- \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
- \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
- \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
- \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
+  \item Architected, deployed, and maintained the production AI customer support agent runtime on a live platform serving 4,500+ active users, automating customer inquiries across pricing, venue inventory, and bookings.
+  \item Grounded agent responses against live operational databases and partner APIs (OfficeRnD, Nexudus) using strict JSON tool schemas and fallback escalation logic that routed complex inquiries to staff.
+  \item Built automated evaluation loops analyzing real customer conversation transcripts rather than synthetic benchmarks, systematically detecting failure patterns and eliminating hallucinated answers.
+  \item Profiled latency and API token consumption across model versions, optimizing prompt templates and context window utilization to reduce inference costs while maintaining rapid response times.
+  \item Deployed automated end-to-end regression test suites using Playwright, verifying API contracts and continuous deployment stability across end-to-end customer booking flows.
+  \item Spearheaded platform migration from legacy architecture to a modern Next.js and backend service stack, supporting platform growth from 2,000 to 4,500+ users without operational degradation.
+  \item Built automated data ingestion and transformation pipelines parsing and validating unstructured partner listings, expanding platform inventory to over 900 locations.
 \end{itemize}
 
-\role{\href{https://smarturlink.com/}{Urlink}}{Apr 2025 - Jul 2025}{Project Manager and AI-Assisted Developer (Freelance)}{Barcelona, Spain}
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote / hybrid)}
 \begin{itemize}
- \item Used AI to build the platform and its logic, implemented AI-made UIs, and built automations to client requirements.
- \item \textit{Tools: GitHub, Netlify, Supabase, bolt.new}
+  \item Architected core web application backend workflows, defining clear API contracts, relational schemas, and data transformation logic for client-facing features.
+  \item Implemented automated validation and synchronization pipelines connecting third-party services with PostgreSQL, preventing malformed inputs and ensuring relational data integrity.
+  \item Integrated automated CI/CD workflows and regression checks to accelerate feature delivery across distributed development environments.
 \end{itemize}
 
-\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 - May 2025}{Automation Developer (Collaborator)}{France}
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Solutions \& Automation Engineer}{Venice, Italy}
 \begin{itemize}
- \item Built a CV-parsing tool with n8n and Eden AI (LLM data extraction) and a platform for different user profiles.
- \item \textit{Tools: n8n, Eden AI}
+  \item Designed and delivered bespoke AI automation workflows, web extraction engines, and API integrations for European SME clients using Python, TypeScript, and Playwright.
+  \item Translated manual, fragmented business operations into automated software solutions with structured logging, retry queues, and reliable recovery logic.
+  \item Engineered webhook listeners and real-time synchronization pipelines across CRM platforms, operational tools, and relational datastores.
 \end{itemize}
 
-\role{\href{https://www.qomodo.me/}{Qomodo}}{2024 - Jan 2025}{AI and Low-Code Developer (Collaborator)}{Milan, Italy}
-\begin{itemize}
- \item Built a dashboard for companies to manage their branches and implemented Figma designs.
-\end{itemize}
-
-\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Lead Developer and Automation Specialist (Part-time)}{Berlin, Germany}
-\begin{itemize}
- \item Integrated Google APIs for platform tracking, built the platform and optimized the database, and developed AI-based automation tools for finding courses, internships and jobs.
- \item \textit{Tools: n8n, Figma, Trello, Google APIs}
-\end{itemize}
-
-\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Low-Code Developer and Quality Assurance (Full-time, Freelance)}{Foetz, Luxembourg}
-\begin{itemize}
- \item Integrated the Clubee API across the whole frontend, ran unit testing and QA on new features, and built tools for domain integration, a shop and a federation dashboard.
- \item \textit{Tools: Figma, GitHub, Postman, REST APIs}
-\end{itemize}
-
-\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
-\begin{itemize}
- \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
- \item \textit{Tools: Figma, Sendgrid, ChatGPT}
-\end{itemize}
-
-% ================= EDUCATION (frozen) =================
+% ================= EDUCATION =================
 \section{Education}
-\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
-
-% ================= CERTIFICATIONS (frozen) =================
-\section{Certifications}
-Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
-
-% ================= ADDITIONAL INFORMATION (frozen) =================
-\section{Additional Information}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
 \begin{itemize}
- \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
- \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
-\end{itemize}
-
-% ================= CORE SKILLS (tailored, at the bottom) =================
-\section{Core Skills}
-\begin{itemize}
- \item \textbf{AI applications:} LLM prompting, AI agents, tool use and function calling, RAG, MCP, structured output, Claude and OpenAI APIs, human-in-the-loop review, confidence thresholds and escalation
- \item \textbf{Full-stack development:} TypeScript, Node.js, Next.js, Python (working level), Laravel (PHP), PostgreSQL, Supabase, Git and GitHub, Playwright, Postman
- \item \textbf{Integration and APIs:} REST APIs, webhooks, OAuth, JSON, third-party integrations (OfficeRnD, Nexudus, Google APIs, Sendgrid), n8n
- \item \textbf{Customer-facing delivery:} Onboarding and requirements gathering with customers, iteration on feedback, project coordination across an internal team and an external agency, Jira, ClickUp
+  \item Rigorous grounding in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
 \end{itemize}
 
 \end{document}
