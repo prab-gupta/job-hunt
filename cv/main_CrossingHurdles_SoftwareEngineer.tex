@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Software Engineer: Python, TypeScript, API Integrations \& Performance}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Time Zone / EU Permanent Resident)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Software Engineer with 3 years of hands-on experience designing, developing, and debugging production-grade software in Python3 and TypeScript. Proven expertise analyzing complex software defects, diagnosing latency and memory bottlenecks, refactoring legacy services for maintainability, and writing clean, idiomatic, well-tested code. Experienced building RESTful API integrations, asynchronous messaging architectures, and automated testing suites. Based in Venice, Italy (CET time zone) with an EU Long-Term Residence Permit (permanent unrestricted EU work authorization, no sponsorship required); available immediately for contract and remote software engineering roles (\$50--\$100/hr).
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Core Programming Languages:} Python3 (FastAPI, asyncio, pandas, NumPy, Pydantic, pytest), TypeScript, JavaScript (Node.js, ES6+), modern asynchronous paradigms.
+  \item \textbf{Software Quality \& Debugging:} Root cause analysis, memory profiling, latency optimization, legacy refactoring, defensive coding patterns, automated contract and integration testing with Playwright and Jest.
+  \item \textbf{Backend Systems \& Architecture:} RESTful API design, microservices, asynchronous task queues (Redis, Celery), webhook processing, JSON schema validation, distributed system fault tolerance.
+  \item \textbf{Database Systems \& Storage:} PostgreSQL schema design, indexing, connection pooling, transactional integrity, Redis caching, vector databases.
+  \item \textbf{DevOps \& Version Control:} Git, GitHub Actions, CI/CD pipeline automation, Docker containerization, Linux environment administration.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Conversational). EU Long-Term Residence Permit (unrestricted EU work authorization across all EU member states, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Software Systems Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Engineered high-performance backend API services and data synchronization pipelines for a marketplace platform serving 4,500+ active enterprise users.
+  \item Diagnosed and resolved critical software defects and database query bottlenecks, reducing p95 API response times and improving system stability.
+  \item Refactored legacy monolithic services into modular TypeScript and Python microservices, improving code readability and test coverage.
+  \item Implemented asynchronous Redis queues to decouple long-running data processing tasks from synchronous HTTP request cycles.
+  \item Built comprehensive automated end-to-end and regression test suites with Playwright, enforcing strict CI/CD quality gates across continuous releases.
+  \item Produced clear, technical documentation, architectural decision records (ADRs), and API specifications for internal and external developers.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Delivered custom web features, backend services, and automated data pipelines using TypeScript, Node.js, and PostgreSQL.
+  \item Integrated third-party SaaS APIs, billing providers (Stripe), and real-time database webhooks, implementing robust retry logic and error boundaries.
+  \item Conducted systematic code reviews and performance profiling, improving frontend rendering speeds and database query efficiency.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Software Engineer \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Developed custom Python automation utilities, API middleware, and ETL scripts for European SMB clients.
+  \item Resolved integration defects and data format inconsistencies across disparate enterprise platforms, ensuring high data reliability.
+  \item Authored developer onboarding guides, deployment scripts, and unit tests to ensure long-term codebase maintainability.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
