@@ -1,0 +1,93 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Platform Engineer: Model Gateways, MCP Servers \& Agent Orchestration}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Time Zone / EU Permanent Resident)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+AI Platform and Software Engineer with 3 years of production experience architecting model gateways, Model Context Protocol (MCP) servers, agent orchestration runtimes, and high-throughput RAG systems. Deep hands-on expertise building unified LLM routing layers with semantic caching and fallback mechanisms, deploying tool-using multi-step agents, and building automated evaluation harnesses with regression gates in CI/CD. Proficient in Python, TypeScript, GCP (Vertex AI), Docker, and PostgreSQL. Based in Venice, Italy (CET time zone) with an EU Long-Term Residence Permit (permanent unrestricted EU work authorization across all EU member states, no sponsorship required); available immediately for full-time remote roles.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{AI Platform \& Agent Infrastructure:} Model Context Protocol (MCP) servers, model gateways, agent orchestration, tool/function calling, LangChain, semantic routing, context window management, human-in-the-loop guardrails.
+  \item \textbf{LLM Observability \& Evaluation:} Automated evaluation harnesses (offline golden datasets, online transcript tracing), latency and cost tracking, prompt caching, semantic caching, CI regression gates.
+  \item \textbf{Software Development \& Backend Systems:} Python (FastAPI, asyncio, pandas, NumPy), TypeScript, Node.js, RESTful APIs, PostgreSQL schema design, Redis asynchronous queues, JSON schema validation.
+  \item \textbf{RAG \& Vector Retrieval:} Retrieval-Augmented Generation, vector embeddings, hybrid semantic and keyword retrieval, metadata filtering, chunking strategies, automated document ingestion pipelines.
+  \item \textbf{DevOps \& Cloud Fundamentals:} Docker containerization, GCP (Vertex AI, Cloud Run, GCS), GitOps, CI/CD pipeline automation, automated testing with Playwright, Linux system administration.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (unrestricted EU work authorization across all EU member states, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Designed and operated production customer-facing AI agents and model routing pipelines for a marketplace platform serving 4,500+ active enterprise users, integrating platform catalogs with external APIs.
+  \item Developed custom Model Context Protocol (MCP) servers and tool definitions exposing PostgreSQL data layers and external web services securely to LLM agents.
+  \item Engineered multi-step agent reasoning chains with strict tool execution constraints, schema validation, and guardrails, ensuring zero ungrounded actions in production flows.
+  \item Built an automated evaluation harness and regression testing pipeline measuring precision, grounding, and recall against production interaction transcripts, cutting hallucination rates.
+  \item Implemented semantic caching and token budget enforcement with Redis, reducing repetitive LLM inference costs and p95 latency.
+  \item Architected and maintained resilient TypeScript/Node.js backend services and PostgreSQL data layers, utilizing asynchronous Redis queues to handle high-throughput query spikes.
+  \item Developed automated integration and end-to-end regression test suites with Playwright, verifying API contracts across continuous deployment cycles.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Led technical discovery, solution architecture, and client-facing delivery of customized web solutions and automated data processing pipelines for European client platforms.
+  \item Built automated data ingestion and transformation services connecting third-party APIs to PostgreSQL databases, maintaining high data freshness and integrity.
+  \item Delivered interactive functional prototypes to validate user flows and technical requirements prior to sprint execution, accelerating cycle times.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Built and deployed custom LLM integrations, model gateway proxies, and webhook pipelines for European clients using Python, TypeScript, and n8n.
+  \item Replaced brittle manual data processing with automated LLM-assisted extraction pipelines featuring comprehensive error handling and fallback routing.
+  \item Authored technical architecture specifications, API documentation, and deployment guides to support client engineering teams in operating self-hosted workflows.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
