@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Systems Architect: Generative AI, Multi-Agent Systems \& Cloud Deployments}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident / Remote EU Ready)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+AI Systems Architect and Tech Lead with 3 years of hands-on production experience designing, building, and deploying multi-agent systems, enterprise Generative AI architectures, and cloud-native LLM solutions. Proven track record architecting customer-facing AI agents for platforms serving 4,500+ active enterprise users, integrating autonomous tool-calling workflows, vector retrieval pipelines, and robust evaluation suites. Deep practical expertise across modern agentic frameworks, cloud environments (AWS, Azure), and client-facing technical leadership from requirements discovery to production operation. Holder of an EU Long-Term Residence Permit (permanent unrestricted EU work authorization across all EU member states, no sponsorship required); based in Venice, Italy and available immediately for 100\% remote roles.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Generative AI \& Multi-Agent Systems:} Multi-agent architectures, autonomous agent workflows, tool-calling and schema constraints, human-in-the-loop approvals, LangChain/LangGraph patterns, context window optimization, structured outputs.
+  \item \textbf{Cloud Platforms \& LLM Infrastructure:} AWS (Bedrock, Lambda, API Gateway, S3), Azure (AI Foundry, OpenAI Service), Docker containerization, CI/CD automation with GitHub Actions, Linux server deployments.
+  \item \textbf{RAG Pipelines \& Data Systems:} Chunking strategies, hybrid vector retrieval (dense + BM25), PostgreSQL with \texttt{pgvector}, metadata filtering, reranking, Redis asynchronous message queues.
+  \item \textbf{Software Engineering \& API Design:} Python (FastAPI, asyncio, pydantic), TypeScript, Node.js, RESTful microservices, webhook orchestration, OpenAPI specifications, automated regression testing with Playwright.
+  \item \textbf{Technical Leadership \& Delivery:} Solution architecture, client discovery, pre-sales and post-sales technical ownership, stakeholder communication, cross-functional collaboration.
+  \item \textbf{Languages \& Work Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (unrestricted EU work authorization across all EU member states, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Designed and operated production customer-facing multi-agent systems and retrieval pipelines for a marketplace platform serving 4,500+ active enterprise users, handling complex inquiries across live catalog APIs.
+  \item Built resilient multi-step reasoning chains with strict schema validation, deterministic guardrails, and human-in-the-loop approval checkpoints, ensuring zero ungrounded actions in production flows.
+  \item Implemented document parsing and ingestion pipelines using LLMs, converting unstructured partner data into validated JSON schemas and expanding live platform inventory.
+  \item Engineered automated evaluation harnesses evaluating system accuracy, grounding, and recall against production transcripts, systematically lowering edge-case error rates.
+  \item Architected and maintained resilient TypeScript/Node.js backend services and PostgreSQL data layers, utilizing asynchronous Redis queues to handle high-throughput query spikes.
+  \item Developed automated integration and end-to-end regression test suites with Playwright, verifying API contracts and preventing system regressions across continuous deployment cycles.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Led technical discovery, solution architecture, and client-facing delivery of customized web solutions and automated data processing pipelines for European client platforms.
+  \item Built automated data ingestion and transformation services connecting third-party APIs to PostgreSQL databases, maintaining high data freshness and integrity.
+  \item Delivered interactive functional prototypes to validate user flows and technical requirements prior to sprint execution, accelerating cycle times.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Built and deployed custom LLM integrations, document retrieval prototypes, and webhook automation workflows for European enterprise clients using Python, TypeScript, and n8n.
+  \item Replaced brittle manual document review workflows with automated LLM-assisted classification and extraction pipelines featuring comprehensive error handling and fallback routing.
+  \item Authored technical architecture specifications, API documentation, and deployment guides to support client engineering teams in operating self-hosted workflows.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
