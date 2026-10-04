@@ -176,12 +176,13 @@ def _check_transition(current: str, new: str, notes: str, date_applied: str, act
     if new not in tracker.ALLOWED:
         raise TrackerError(f"status {new!r} is not allowed")
     if new == "submitted":
-        if current == "skipped":
+        if current == "skipped" and actor != "apply-auditor":
             raise TrackerError("do not reapply a skipped row")
         _confirmation_ok(notes, date_applied, actor)
         return
     if current == "skipped" and new != "skipped":
-        raise TrackerError("do not reapply a skipped row")
+        if not (new == "submitted" and actor == "apply-auditor"):
+            raise TrackerError("do not reapply a skipped row")
     if current == "submitted" and new == "needs_you":
         if actor != "apply-auditor":
             raise TrackerError("only apply-auditor can move submitted back to needs_you")
