@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**128** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**127** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -19,7 +19,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Version 1 | UiPath Developer | eligibility | [https://jobs.smartrecruiters.com/version1/744000151659059](<https://jobs.smartrecruiters.com/version1/744000151659059>) | needs user decision: Irish right to work not covered by EU long-term residence; v2 CV approved; not submitted | Decide the location or work-authorization point in the notes. |
 | Einride | AI Enablement Engineer | eligibility | [https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer](<https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer>) | parked_question: work authorization in Sweden: no option for EU long-term residence from another EU country \| Stockholm , Gothenburg \| migrated:sweep | Decide the location or work-authorization point in the notes. |
 
-## No confirmation (30)
+## No confirmation (29)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -52,7 +52,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | AvePoint | Solution Engineer (Pre-Sales) | no_confirm | [https://www.linkedin.com/jobs/view/4452581706/](<https://www.linkedin.com/jobs/view/4452581706/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Madrid, Spain. Entry-friendly pre-sales SE on Microsoft 365/Azure/Entra; fluent English, other languages advantageous not required; no years stated. LinkedIn Easy Apply; verified open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 | Chaseit | Agent Engineer (Voice AI) | no_confirm | [https://www.linkedin.com/jobs/view/4470833561/](<https://www.linkedin.com/jobs/view/4470833561/>) | applied 2026-10-03 ~21:1x CEST; awaiting_confirm \| Vilnius, Lithuania. VC-backed voice-agent startup; prompt/conversation-flow engineering with deployment strategists; no years stated; English. LinkedIn Easy Apply; posted 2026-09-28, open 2026-10-03. \| sweep11 \| migrated:s11+o11 | Check Gmail and the portal. There is no application confirmation on file. |
 | Duferco Group | Forward Deployed Engineer | no_confirm | [https://duferco.talentics.ai/auth](<https://duferco.talentics.ai/auth>) | awaiting_confirm: submitted via Duferco Talentics portal on 2026-10-03 with bespoke 2-page CV and cover letter; status on applicant portal verified as Under Review (Applied Oct 3, 2026). | Check Gmail and the portal. There is no application confirmation on file. |
-| DataDome | AI Engineer | no_confirm | [https://job-boards.greenhouse.io/ddome/jobs/8649404002](<https://job-boards.greenhouse.io/ddome/jobs/8649404002>) | ATS accept: confirmation page https://job-boards.greenhouse.io/ddome/jobs/8649404002/confirmation, Thank you for applying. Bespoke 2-page CV and 1-page Cover Letter uploaded. | Check Gmail and the portal. There is no application confirmation on file. |
 
 ## Other (70)
 
