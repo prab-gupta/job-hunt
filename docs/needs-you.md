@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**119** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**118** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -120,7 +120,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 |  |
 
-## Captcha (23)
+## Captcha (22)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -135,7 +135,6 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Zeit AI | Forward-Deployed Engineer (f/m/d) | captcha | [https://jobs.ashbyhq.com/zeit-ai/a4c51bad-0186-4619-b3a0-6656bf51dd51](<https://jobs.ashbyhq.com/zeit-ai/a4c51bad-0186-4619-b3a0-6656bf51dd51>) | parked_captcha: Ashby spam flag \| Munich, Germany, in-person with relocation support within Europe. Years unstated; German is a plus, not required. Found via deployaijobs.com; Ashby API confirms open 2026-10-03. \| sweep10 \| migrated:sweep+s10+o10 | Solve the captcha on this posting. |
 | Sumsub | TM/TR Solutions Engineer (EMEA) | captcha | [https://sumsub.teamtailor.com/jobs/8303537-tm-tr-solutions-engineer-emea](<https://sumsub.teamtailor.com/jobs/8303537-tm-tr-solutions-engineer-emea>) | parked_captcha: checking your browser \| Limassol CY (Remote) \| migrated:sweep | Solve the captcha on this posting. |
 | Devoteam | Distributed Cloud \| AI Engineer | captcha | [https://jobs.smartrecruiters.com/Devoteam/744000152476602](<https://jobs.smartrecruiters.com/Devoteam/744000152476602>) | parked_captcha: SmartRecruiters browser verification \| Porto, PT \| migrated:sweep | Solve the captcha on this posting. |
-| Duna | Deployment Strategist | captcha | [https://jobs.ashbyhq.com/duna/29d768ed-3671-4029-9886-85d140758a37](<https://jobs.ashbyhq.com/duna/29d768ed-3671-4029-9886-85d140758a37>) | parked_captcha: invisible reCAPTCHA \| Amsterdam; Europe; France (Remote) \| migrated:sweep | Solve the captcha on this posting. |
 | Rain | Implementation Specialist | captcha | [https://jobs.ashbyhq.com/rain/2a014d5a-c59e-4cac-9fa9-b365991ae27a](<https://jobs.ashbyhq.com/rain/2a014d5a-c59e-4cac-9fa9-b365991ae27a>) | parked_captcha: invisible reCAPTCHA \| New York, NY; Europe, Spain \| migrated:sweep | Solve the captcha on this posting. |
 | Dept | AI Engineer | captcha | [https://job-boards.greenhouse.io/dept/jobs/8232711](<https://job-boards.greenhouse.io/dept/jobs/8232711>) | parked_captcha: invisible reCAPTCHA \| Budapest, Zagreb, Split, Skopje; hybrid/on-site possible \| migrated:sweep | Solve the captcha on this posting. |
 | Tandem Health | Forward Deployed Engineer | captcha | [https://jobs.ashbyhq.com/tandem-health/e6a2abc1-0a8c-4b4f-97b0-a3774f6c2e58](<https://jobs.ashbyhq.com/tandem-health/e6a2abc1-0a8c-4b4f-97b0-a3774f6c2e58>) | parked_captcha: invisible reCAPTCHA \| Stockholm; local language a plus: German \| migrated:sweep | Solve the captcha on this posting. |

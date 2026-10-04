@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Deployment Strategist: Enterprise Integrations, Systems Architecture \& Customer Operations}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Resident in Europe)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Deployment Strategist and Technical Lead with 3 years of hands-on experience guiding enterprise customer implementations, bridging commercial objectives with software engineering, and architecting robust integration pipelines. Proven track record managing complex customer deployments from discovery and scoping through technical launch and long-term optimization. Combines deep systems thinking in TypeScript, Node.js, Python, and RESTful API architectures with structured stakeholder management to prioritize feature requirements and diagnose deployment bottlenecks. Practical experience deploying deterministic validation flows, schema-enforced tool execution, and automated testing suites that ensure flawless client rollouts. Holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization without visa sponsorship); permanently resident in Venice, Italy and thriving in remote-first, high-velocity engineering environments.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Deployment Strategy \& Project Management:} Enterprise customer onboarding, technical discovery, scope prioritization, live architecture demos, client documentation, implementation runbooks.
+  \item \textbf{Systems \& Integration Engineering:} TypeScript, JavaScript, Node.js, Python (FastAPI), RESTful API design, webhook synchronization architectures, enterprise identity and auth flows.
+  \item \textbf{Data Modeling \& Reliability:} PostgreSQL, relational schema migrations, structured JSON extraction and validation, Redis caching, end-to-end integration testing (Playwright).
+  \item \textbf{Applied Automation \& Guardrails:} Multi-step agent workflows, schema-enforced tool execution, fallback escalation routing, automated evaluation over production logs.
+  \item \textbf{Cloud \& Collaboration Tools:} Docker containerization, AWS, Git, CI/CD automated deployment pipelines, Jira, structured logging and telemetry.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted EU work authorization, resident in Europe).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Implementation Lead}{London, UK (remote)}
+\begin{itemize}
+  \item Spearheaded customer integration and deployment architecture for an active commercial platform serving 4,500+ users, translating client operational processes into automated, scalable software workflows.
+  \item Designed and deployed API integration pipelines connecting partner platforms (OfficeRnD, Nexudus) with central datastores, establishing standardized onboarding patterns that accelerated deployment speed.
+  \item Ran interactive technical walkthroughs and troubleshooting sessions with external enterprise partners, directly resolving integration blockers and ensuring seamless go-live milestones.
+  \item Built automated regression and contract test suites using Playwright, verifying API contracts and continuous deployment stability across end-to-end user transactions.
+  \item Deployed AI customer support runtimes grounded against live operational databases with strict schema enforcement, eliminating hallucinations and ensuring deterministic outcomes.
+  \item Led platform codebase migration to Next.js and backend microservices, supporting platform scaling from 2,000 to 4,500+ users without performance bottlenecks.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Managed deployment milestones and technical architecture for customer-facing web applications, bridging client business priorities with developer delivery schedules.
+  \item Engineered secure, schema-validated synchronization pipelines connecting third-party services with PostgreSQL, preventing malformed inputs and ensuring relational data integrity.
+  \item Integrated automated CI/CD workflows and regression checks to accelerate feature delivery across distributed development environments.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Solutions \& Deployment Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Consulted directly with European SME clients to analyze operational data flows, author comprehensive technical specifications, and build bespoke automation connectors.
+  \item Built resilient data ingestion pipelines, web extraction tools, and webhook listeners in Python and TypeScript, featuring automated retry logic and fault-tolerant state persistence.
+  \item Delivered tailored technical demonstrations and workshops for client stakeholders, training technical and operational teams on newly deployed software integrations.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous grounding in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
