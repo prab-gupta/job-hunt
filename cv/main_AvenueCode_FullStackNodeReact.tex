@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Full Stack Software Engineer: Node.js, React \& TypeScript Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Time Zone / EU Permanent Resident)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Full Stack Software Engineer with 3 years of commercial production experience delivering high-impact SaaS products with end-to-end technical ownership. Deep hands-on expertise building robust backend architectures with Node.js and TypeScript, paired with modern, responsive frontend interfaces in React. Proven ability to operate autonomously in small, agile squads, translating complex business requirements into maintainable, well-tested code with minimal coordination overhead. Based in Venice, Italy (CET time zone) with an EU Long-Term Residence Permit (permanent unrestricted EU work authorization, no sponsorship required); available immediately for full-time remote roles.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Backend Development \& Node.js:} Node.js (Express, Fastify, NestJS patterns), TypeScript, RESTful API architecture, asynchronous event handling, Redis caching and task queues, microservices.
+  \item \textbf{Frontend Development \& React:} React.js (Hooks, Context, State Management), Next.js, HTML5/CSS3, responsive UI layout, performance optimization, sub-second client rendering.
+  \item \textbf{Databases \& Data Modeling:} PostgreSQL (relational schema design, complex SQL queries, connection pooling, migrations), Redis, data normalization and integrity constraints.
+  \item \textbf{Quality Assurance \& Testing:} Automated contract and integration testing with Playwright, unit testing with Jest, continuous regression testing in CI/CD pipelines.
+  \item \textbf{Cloud \& DevOps Practices:} Docker containerization, Git version control, GitHub Actions, Linux administration, API monitoring, structured logging.
+  \item \textbf{Languages \& Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Conversational). EU Long-Term Residence Permit (unrestricted EU work authorization across all EU member states, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& Software Systems Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Led full-stack product engineering across Node.js backend services and React frontend applications for a marketplace serving 4,500+ active enterprise users.
+  \item Architected and implemented high-throughput Node.js API endpoints, integrating Redis queues to process asynchronous catalog and payment tasks.
+  \item Modernized legacy frontend interfaces to modern React and Next.js, significantly improving web vitals, Lighthouse scores, and mobile responsiveness.
+  \item Authored automated end-to-end and regression test suites with Playwright, ensuring 99.8\% release uptime across weekly production deployments.
+  \item Operated with high autonomy in a distributed engineering team, owning features from technical discovery through deployment and post-launch monitoring.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Delivered custom SaaS web applications using Node.js, React, and TypeScript for European client platforms.
+  \item Built RESTful API connectors integrating third-party SaaS services, database synchronizations, and Stripe billing.
+  \item Implemented responsive user interfaces and optimized backend queries to achieve sub-second page loads.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Full-Stack Developer \& Consultant}{Venice, Italy}
+\begin{itemize}
+  \item Built and deployed custom web applications, webhook middleware, and database backends for European SMBs using Node.js, React, and PostgreSQL.
+  \item Automated data transformation and synchronization workflows, replacing fragile manual entry with robust API services.
+  \item Authored technical architecture specifications, API documentation, and deployment guides for client development teams.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous training in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}
