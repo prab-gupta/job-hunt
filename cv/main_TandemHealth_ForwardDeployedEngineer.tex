@@ -1,0 +1,93 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer: Systems Integration, Full-Stack Architecture \& Automation}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Relocating to Stockholm, Sweden)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward Deployed Software Engineer and Lead Developer with 3 years of hands-on production experience architecting robust customer integrations, automated operational workflows, and reliable full-stack applications. Proven track record embedding directly in complex client environments to bridge the gap between product vision and real-world adoption---debugging tricky API and data flows, writing pragmatic adapters, and turning custom implementation challenges into reusable abstractions for the core platform. Fluent in Python, TypeScript, Node.js, and robotic process automation (Playwright/browser automation), with practical expertise in applied AI: schema-enforced tool execution, deterministic validation loops, and automated evaluation over real interaction transcripts. Passionate about solving high-friction operational problems that deliver tangible, everyday value to users. Holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization in Sweden without visa sponsorship); based in Venice, Italy and prepared for immediate relocation to Stockholm.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{Forward Deployed \&  Field Engineering:} Rapid discovery, customer workflow analysis, translating operational requirements into clean integration code, client stakeholder alignment, rollout runbooks.
+  \item \textbf{Core Programming \&  Integration Stack:} Python (FastAPI, backend services), TypeScript, JavaScript, Node.js, RESTful API design, webhook synchronization, RPA / browser automation (Playwright).
+  \item \textbf{Data Modeling \&  Storage Integrity:} PostgreSQL, Prisma, Supabase, schema design \&  migrations, structured JSON extraction and validation, Redis caching.
+  \item \textbf{Applied AI \&  Structured Automation:} Multi-step agent workflows, schema-enforced tool calling, LLM grounding against live databases, guardrails, fallback escalation logic, production evaluation loops.
+  \item \textbf{DevOps \&  System Ownership:} Docker containerization, AWS/GCP cloud environments, CI/CD automated deployment pipelines, Git, logging and trace observability.
+  \item \textbf{Languages \&  Authorization:} English (C1 Professional), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted EU work authorization in Sweden, no visa sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \&  Integration Architect}{London, UK (remote)}
+\begin{itemize}
+  \item Architected, deployed, and maintained the production AI customer support agent runtime on a live platform serving 4,500+ active users, automating customer inquiries across pricing, venue inventory, and bookings.
+  \item Grounded agent responses against live operational databases and partner APIs (OfficeRnD, Nexudus) using strict JSON tool schemas and fallback escalation logic that routed complex inquiries to staff.
+  \item Built automated evaluation loops analyzing real customer conversation transcripts rather than synthetic benchmarks, systematically detecting failure patterns and eliminating hallucinated answers.
+  \item Profiled latency and API token consumption across model versions, optimizing prompt templates and context window utilization to reduce inference costs while maintaining rapid response times.
+  \item Deployed automated end-to-end regression test suites using Playwright, verifying API contracts and continuous deployment stability across end-to-end customer booking flows.
+  \item Spearheaded platform migration from legacy architecture to a modern Next.js and backend service stack, supporting platform growth from 2,000 to 4,500+ users without operational degradation.
+  \item Built automated data ingestion and transformation pipelines parsing and validating unstructured partner listings, expanding platform inventory to over 900 locations.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \&  Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Architected core web application backend workflows, defining clear API contracts, relational schemas, and data transformation logic for client-facing features.
+  \item Implemented automated validation and synchronization pipelines connecting third-party services with PostgreSQL, preventing malformed inputs and ensuring relational data integrity.
+  \item Integrated automated CI/CD workflows and regression checks to accelerate feature delivery across distributed development environments.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Solutions \&  Automation Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Designed and delivered bespoke AI automation workflows, web extraction engines, and API integrations for European SME clients using Python, TypeScript, and Playwright.
+  \item Translated manual, fragmented business operations into automated software solutions with structured logging, retry queues, and reliable recovery logic.
+  \item Engineered webhook listeners and real-time synchronization pipelines across CRM platforms, operational tools, and relational datastores.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous grounding in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+\end{itemize}
+
+\end{document}

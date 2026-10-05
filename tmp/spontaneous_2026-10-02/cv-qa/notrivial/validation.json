@@ -1,0 +1,19 @@
+{
+  "company": "NOTRIVIAL",
+  "source": "/Users/prab/Downloads/claud jobs/cv/main_NOTRIVIAL_AIAutomationIntegrationDeveloper.tex",
+  "pdf": "/Users/prab/Downloads/claud jobs/output/pdf/Prabhavit_Gupta_NOTRIVIAL_CV.pdf",
+  "pages": 2,
+  "bytes": 113791,
+  "sha256": "cec202e979e16d2d99347e9111bcdf011da8bad0ec7501e23a3bb456c95c3c3e",
+  "summary_items": 3,
+  "roles_dates_titles_match_master": true,
+  "experience_and_education_match_approved_format": true,
+  "preamble_match_approved_format": true,
+  "contact_text_extracts": true,
+  "native_compiler": "failed: standalone compiler cannot access separate photo.jpg; local tectonic succeeded",
+  "visual_review": "PASS: inspected both final rendered pages; no clipping, overlaps, orphaned role headings or unreadable glyphs. Photo and Page 1/2 footers render correctly.",
+  "rendered_pages": [
+    "/Users/prab/Downloads/claud jobs/tmp/spontaneous_2026-10-02/cv-qa/notrivial/page-1.png",
+    "/Users/prab/Downloads/claud jobs/tmp/spontaneous_2026-10-02/cv-qa/notrivial/page-2.png"
+  ]
+}

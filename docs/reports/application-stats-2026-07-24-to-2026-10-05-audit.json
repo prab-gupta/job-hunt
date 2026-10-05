@@ -1,0 +1,6090 @@
+{
+  "summary": {
+    "period_start": "2026-07-24",
+    "period_end": "2026-10-05",
+    "timezone": "Europe/Rome",
+    "generated_at_utc": "2026-10-05T08:53:40.888032+00:00",
+    "recorded_unique_dated_applications": 1286,
+    "matched_rejected_applications": 345,
+    "observed_rejection_rate_percent": 26.827371695178847,
+    "applications_without_matched_rejection": 941,
+    "supported_by_submission_evidence": 1011,
+    "further_applications_corroborated_by_rejection": 39,
+    "total_evidenced_including_rejection": 1050,
+    "reported_sent_only": 236,
+    "undated_records_excluded": 31,
+    "actual_rejection_messages_screened": 473,
+    "matched_rejection_messages": 373,
+    "unresolved_rejection_messages": 100,
+    "monthly": [
+      {
+        "month": "2026-07",
+        "applications": 9,
+        "rejected": 9,
+        "observed_rate_percent": 100.0
+      },
+      {
+        "month": "2026-08",
+        "applications": 394,
+        "rejected": 168,
+        "observed_rate_percent": 42.63959390862944
+      },
+      {
+        "month": "2026-09",
+        "applications": 470,
+        "rejected": 148,
+        "observed_rate_percent": 31.48936170212766
+      },
+      {
+        "month": "2026-10",
+        "applications": 413,
+        "rejected": 20,
+        "observed_rate_percent": 4.842615012106537
+      }
+    ],
+    "final_review_exclusions": {
+      "1a06fc0129a8f45e": "intent submission acknowledgment; conditional no-response language, no actual rejection",
+      "1a05288acb0cb74f": "Bloomreach named application acknowledgment; application still under review",
+      "1a046b249b7fb106": "Bloomreach named application acknowledgment; application still under review",
+      "1a049c68c8d9106a": "Kayzen application acknowledgment; application still under review",
+      "1a0b8d0b1cd84793": "Scale Tech named application acknowledgment; conditional future outcome"
+    },
+    "rate_basis": "Distinct matched rejected applications / all reconciled dated recorded-sent applications, observed as of report time. Includes reported-only records; unmatched negative emails excluded from numerator. This is not an eventual outcome rate."
+  },
+  "matched_rejections": [
+    {
+      "application_id": "3d7cbbe6414a361d",
+      "company": "DiliTrust",
+      "role": "Senior FullStack Software Engineer (Node.js / Vue.js)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a053844cc5e25cf",
+        "1a053844f096b617"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "26fa017e866b921f",
+      "company": "Material Bank",
+      "role": "Lead MarTech Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a052f8a32d29f5f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "a82fab4f267d0baf",
+      "company": "Future",
+      "role": "Applied AI Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a052f89035af370"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "08af5857750d74f7",
+      "company": "Everbridge",
+      "role": "Technical Support Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a052dd8fe17d5ab",
+        "1a052de304552ee9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "7ac7d18ed35fcc93",
+      "company": "StackAdapt",
+      "role": "Staff Quality Engineer",
+      "application_date": "2026-08-29",
+      "rejection_email_ids": [
+        "1a052c21dceec739"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "e865b71619180bd2",
+      "company": "Ketryx",
+      "role": "Full Stack Software Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a05177d0a63d5b1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-30"
+      ]
+    },
+    {
+      "application_id": "8a39b882012743d0",
+      "company": "Redapt",
+      "role": "Forward Deployed Engineer, Agentic AI",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a04e40371a2b783"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-29"
+      ]
+    },
+    {
+      "application_id": "46dc5a076a6af20c",
+      "company": "BeyondTrust",
+      "role": "Solutions Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a04de9424b233ab"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-29"
+      ]
+    },
+    {
+      "application_id": "ea4188f5714333f4",
+      "company": "TheFork (Tripadvisor)",
+      "role": "QA Automation Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a04c6e5c33c1d52"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-29"
+      ]
+    },
+    {
+      "application_id": "4c7f330ce92b1091",
+      "company": "Geomiq",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a049cc3338d2211"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "8ffa0cd99ce9142c",
+      "company": "Kayzen",
+      "role": "LLM Platform Engineer/Lead (m/f/d)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a1012d0c262c403"
+      ],
+      "match_methods": [
+        "exact_local_role",
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "application_id": "6185804c01ad3528",
+      "company": "HumanIT Digital Consulting",
+      "role": "CCaaS Implementation Consultant",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a049b0ad3126eef"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "69f42ade1408eddb",
+      "company": "tangible",
+      "role": "Support Engineer - AI-Driven (US Timezone)",
+      "application_date": "2026-08-19",
+      "rejection_email_ids": [
+        "1a04905a5ed06d27"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "5f8ff22ef811c983",
+      "company": "idnow",
+      "role": "IT Integration Engineer (f/m/d)",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "1a048f36e4ec74d9"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "7327bd5db527b92e",
+      "company": "Zerion",
+      "role": "Senior Backend Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a048c78b7537655"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "d85f87d41b125edd",
+      "company": "Pliant",
+      "role": "Support Engineer",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "1a048aef498a0acb"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "244ddd1c26c66865",
+      "company": "Bitpanda",
+      "role": "Graduate Frontend Engineer",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a047e4f3644f33b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "166961923c839446",
+      "company": "exmox",
+      "role": "Applied AI Engineer",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a047338aeb5ea9a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "d59c5ded0b4d7e6f",
+      "company": "Bloomreach",
+      "role": "Demo Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a06182187fef236"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "19aa21f266ee69d6",
+      "company": "Udacity",
+      "role": "Claude AI Engineer Technical Mentor (Independent Contractor)",
+      "application_date": "2026-08-27",
+      "rejection_email_ids": [
+        "1a0466af4cf482dc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "9e6a88aa269e9b97",
+      "company": "Progress Partners",
+      "role": "Middle AI Automation Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a045d89e31a8eb7"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-28"
+      ]
+    },
+    {
+      "application_id": "1b9db1b7f350b01c",
+      "company": "JustMarkets",
+      "role": "AI Automation Specialist",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fdb1ce8fe53b86",
+        "19fdc43d81ee43f7",
+        "1a04446a00678210"
+      ],
+      "match_methods": [
+        "exact_local_role",
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-07",
+        "2026-08-27"
+      ]
+    },
+    {
+      "application_id": "329d99bf5b9161fa",
+      "company": "WaveSix Labs",
+      "role": "AI & Automation Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a042b21510b7562"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27"
+      ]
+    },
+    {
+      "application_id": "9dd1cc667c251fba",
+      "company": "Remote",
+      "role": "Product Manager Contractor Management",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a0428aeff5ddf27"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27"
+      ]
+    },
+    {
+      "application_id": "d07573ad1b0b7c36",
+      "company": "limehome",
+      "role": "Senior Growth Marketing Manager (m/f/d)",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "1a04209882ca4a54",
+        "1a09ec1c326ed13c"
+      ],
+      "match_methods": [
+        "role_specific_confirmation",
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27",
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "af5181976ddb6976",
+      "company": "Flix",
+      "role": "Process Intelligence & Automation Engineer (Celonis)",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a04204c7074a181"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27"
+      ]
+    },
+    {
+      "application_id": "704256f802090b84",
+      "company": "Lightning AI",
+      "role": "Platform Engineer (Forward Deployment)",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a03ef8d1da0874e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "1b5509544d2ba950",
+      "company": "Avenga",
+      "role": "AI Engineer (Microsoft Power Platform & Copilot Studio)",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a03e0d9a93b50b9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "f181e69a81081d2c",
+      "company": "Lutech",
+      "role": "AI Engineer GenAI & LLM",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a03dea54cccb571"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "2cd4c8594902d318",
+      "company": "Starbridge",
+      "role": "AI Engineer EMEA/LATAM",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a03dce54c67279c"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "14920fa801d51aee",
+      "company": "gameloft",
+      "role": "Product Owner AI",
+      "application_date": "2026-08-09",
+      "rejection_email_ids": [
+        "1a03d96e53b8c8d2"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "dc55e7ca70305a28",
+      "company": "Growthside GmbH",
+      "role": "GTM Engineer (m/w/d)",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a03d8c95fa76457"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "cf635747fe323487",
+      "company": "Chift",
+      "role": "GTM Engineer",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0ac19a11e794d9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-16"
+      ]
+    },
+    {
+      "application_id": "b0fbcbf750a9d897",
+      "company": "AG Solution Group",
+      "role": "Global OT Application Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0aa691eba5ab5a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-16"
+      ]
+    },
+    {
+      "application_id": "c790c867ae4e88b8",
+      "company": "enbw",
+      "role": "AI Full Stack Developer (f/m/d)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0a93803a56bba9"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-16"
+      ]
+    },
+    {
+      "application_id": "b1fe66913bef5ac2",
+      "company": "FeverUp",
+      "role": "AI Engineer - Internal Automation (Forward Deployed)",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a0a54856e7a700f",
+        "1a0ec35e67e66747"
+      ],
+      "match_methods": [
+        "exact_local_role",
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-15",
+        "2026-09-29"
+      ]
+    },
+    {
+      "application_id": "91a49014e3f63be7",
+      "company": "Platform Science",
+      "role": "Software Test Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a49c0052c33ef"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-15"
+      ]
+    },
+    {
+      "application_id": "4d7307c9b22d24ca",
+      "company": "LIZY",
+      "role": "Business Automation Engineer",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0a45f5e41c4cf9"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-15"
+      ]
+    },
+    {
+      "application_id": "7dbefafba19b8e52",
+      "company": "osapiens",
+      "role": "AI Engineer (m/f/x)",
+      "application_date": "2026-09-05",
+      "rejection_email_ids": [
+        "1a0a449b6e97c5d8"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-15"
+      ]
+    },
+    {
+      "application_id": "244175570d5ebaee",
+      "company": "Flix",
+      "role": "Process Automation Engineer (Celonis) (m/f/d)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a3dd99a6b6fc5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-15"
+      ]
+    },
+    {
+      "application_id": "bc9a0cdc64455a42",
+      "company": "Socket",
+      "role": "Technical Account Manager Europe",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0a143983b244dd"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "49ec74d9c76965fc",
+      "company": "Teero",
+      "role": "Software Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a106bdd1bde80"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "b078559028314618",
+      "company": "Aceve",
+      "role": "AI Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a1020b61cb0c6"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "128c96a559ee2495",
+      "company": "Rematiq GmbH",
+      "role": "QA Engineer (Manual)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0a068bebc5aef3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "91c52a8631fb54e3",
+      "company": "Sweed",
+      "role": "AI Product Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a0a0590066d076c"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "793257f000deceac",
+      "company": "Mastra",
+      "role": "Customer Engineer",
+      "application_date": "2026-09-03",
+      "rejection_email_ids": [
+        "1a07c3295d5cfca9",
+        "1a0a00fa065069f9"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-07",
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "f6fc489a15ed11be",
+      "company": "Alan",
+      "role": "Fullstack Software Engineer - Work Environment (x/f/m)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a000d4068cd5a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "1234322097fb4660",
+      "company": "Vitamin Well Group",
+      "role": "Fullstack Engineer",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a09fa6336d1a909"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "ed15de89eb043933",
+      "company": "CUBE",
+      "role": "Frontend Engineer - Agentic AI",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a09fa0ddf5fdb90"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "f4ffe520c3d26d2e",
+      "company": "Xensam",
+      "role": "AI Enablement Engineer",
+      "application_date": "2026-09-05",
+      "rejection_email_ids": [
+        "1a09f8b24ee15432"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "16a570e1d2cbd04a",
+      "company": "deskbird",
+      "role": "Demand Generation Manager – DACH (f/m/d)",
+      "application_date": "2026-09-13",
+      "rejection_email_ids": [
+        "1a09f60434437c09"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "b818c691b82ef6e1",
+      "company": "Personio",
+      "role": "Software Engineer (d/f/m) - Internal AI",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a09f10e4abe69ff"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "75dc27a8fe57416b",
+      "company": "etalytics",
+      "role": "QA Engineer (m/f/d) Test Automation",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a09ebca43736443"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "bf6aa7c5d0ed3b7a",
+      "company": "sonar",
+      "role": "Support Engineer",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a09497dea446556"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-12"
+      ]
+    },
+    {
+      "application_id": "b64acd3e997f8ca0",
+      "company": "Keepit",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a09493f8bc23571"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-12"
+      ]
+    },
+    {
+      "application_id": "3dddd8bc07d81a79",
+      "company": "pelico",
+      "role": "Lead Product Manager - Platform",
+      "application_date": "2026-09-08",
+      "rejection_email_ids": [
+        "1a0948b2343c448b"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-12"
+      ]
+    },
+    {
+      "application_id": "9ede987533b61142",
+      "company": "Mastercard",
+      "role": "Product Manager (Data & Services)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a093e2cd7d65eaf"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-12"
+      ]
+    },
+    {
+      "application_id": "f40b441be694e2f3",
+      "company": "Fyld",
+      "role": "AI Engineer (GenAI)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a090bc954f01ce3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "2b19bb47cece11a0",
+      "company": "KFS Group",
+      "role": "Junior Full Stack",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a08fee9490fea1a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "c8fdcff4d4c5cdb2",
+      "company": "Monumental",
+      "role": "Software Engineer, Product",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a08fa521af13690"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "6c7f181f9367bc5d",
+      "company": "Deutsche Telekom IT Solutions HU",
+      "role": "AI Engineering Workflow Developer - T Cloud Public (REF5739F)",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a08f73dfc4936d9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "ad559c9b79248022",
+      "company": "Bolt",
+      "role": "Integration / Automation Engineer",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a08f5cbf8debe7e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "e3164e1705cb8c38",
+      "company": "Staycation",
+      "role": "Fullstack Developer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a08f523f85e86dc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "2315bbfd716ef10a",
+      "company": "pwc",
+      "role": "AI Engineer (m/f)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a08f4a2504fa1b6"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "917ed15d078c81a5",
+      "company": "RoomPriceGenie",
+      "role": "Remote AI Systems & Automation Engineer (Internal Operations)",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a08f48f74bf393a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "acc5910283ec72ff",
+      "company": "PagerDuty",
+      "role": "AI/ML Engineer",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a08f1af0bbe9af1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "application_id": "0d6be56cacddd8a6",
+      "company": "Salsify",
+      "role": "Junior AI-Augmented Product Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a08c17e1bb44523"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "088764a61a4387d7",
+      "company": "Blip",
+      "role": "Pre Sales Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a08bbaecb34c6aa"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "a9234d510e707d0e",
+      "company": "C12 Quantum Electronics",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a08bb941ea5bdb8"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "3b66909ae233aac1",
+      "company": "ING",
+      "role": "Copilot Studio Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a08b219ac5f81c7"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "c7176df856e44abc",
+      "company": "RELEX Solutions",
+      "role": "Forward Deployed Engineer | Merchandising (Paris and 5 EU cities)",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a08ada18f5dc545"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "6f006d396eb444a5",
+      "company": "Riskified",
+      "role": "Full Stack Engineer - Connect Team",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a08ac2a38bd051b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "002c84a49e5724d4",
+      "company": "ruby labs",
+      "role": "Data Engineer",
+      "application_date": "2026-09-07",
+      "rejection_email_ids": [
+        "1a08a7e5cfa976ae"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "59c3b5ee699e4924",
+      "company": "Metyis",
+      "role": "AI Solutions Engineer (Fashion)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a08a5987cebdf01"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "8037c2d40f40c61e",
+      "company": "A&B CONSULTING SRL",
+      "role": "AI Developer / LLM Specialist",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a08a3f01944338b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "40884b7370a7ab42",
+      "company": "Lio",
+      "role": "Sales Engineer (all genders) - Munich",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a08a2291793bcdd"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "ffa1328069e4799f",
+      "company": "GE Vernova",
+      "role": "Site AI Partner (Lean)",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a089a06287f27d4"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "application_id": "e7a81bbe04fd7f08",
+      "company": "Bending Spoons",
+      "role": "Graduate AI software engineer",
+      "application_date": "2026-08-16",
+      "rejection_email_ids": [
+        "1a018efd6afb6b82",
+        "1a03ce624cb9e16d"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-19",
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "700fe645cf0bdde2",
+      "company": "Sharpist GmbH",
+      "role": "Staff Product Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a03ce5bf99f5867"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-26"
+      ]
+    },
+    {
+      "application_id": "287c0b671a046dad",
+      "company": "mews",
+      "role": "Product Builder",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "1a039859dd0ca8b2"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "80daa0ceb0028252",
+      "company": "Ojin",
+      "role": "Product Engineer",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a0396d0c9a9f1de"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "b8cc1df9a8cb2461",
+      "company": "parloa",
+      "role": "Senior Forward Deployed Engineer (France)",
+      "application_date": "2026-08-19",
+      "rejection_email_ids": [
+        "1a0390f56553542a"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "271fc57a9f0eedf9",
+      "company": "ORCA Group",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-08-18",
+      "rejection_email_ids": [
+        "1a0386e7efc89dae"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "3c28c12e6f18ff7d",
+      "company": "ESTO",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a037684086904bc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "5cd78de8935030c6",
+      "company": "Avery",
+      "role": "Founding Engineer (Core)",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a033fb380520cd0"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "application_id": "08ccb65cc359f2c3",
+      "company": "ML6",
+      "role": "Full Stack AI Engineer",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a033bedf035e762"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "application_id": "5032963683cf1bb0",
+      "company": "fonio",
+      "role": "Product Engineer",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a033a378fd98d1b"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-24"
+      ]
+    },
+    {
+      "application_id": "d47c6f1513c46d31",
+      "company": "Hightouch",
+      "role": "Solutions Engineer, Mid-Market, EMEA",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a0297eff2a5b34e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-22"
+      ]
+    },
+    {
+      "application_id": "f23bb5a93f968ccd",
+      "company": "Viktor",
+      "role": "Agent Harness Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a028983ef165081"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-22"
+      ]
+    },
+    {
+      "application_id": "e1d5a285e8fe9164",
+      "company": "Auctor",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a025448e9b7d9af"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-21"
+      ]
+    },
+    {
+      "application_id": "6252ba1a7befbd23",
+      "company": "Meticulous",
+      "role": "Forward Deployed Engineer, London",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ff640a6c3b2896",
+        "1a023afcbc5da1c6"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-12",
+        "2026-08-21"
+      ]
+    },
+    {
+      "application_id": "e03dc239c01792b2",
+      "company": "STRATOS Technologies Ltd.",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a01f93b05edf436"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-20"
+      ]
+    },
+    {
+      "application_id": "a2637c7939971f44",
+      "company": "Open-Xchange",
+      "role": "Speculative Application (open application)",
+      "application_date": "2026-08-14",
+      "rejection_email_ids": [
+        "1a01ea55543d33ce"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-20"
+      ]
+    },
+    {
+      "application_id": "adbdde7d306cc5a3",
+      "company": "emplifi",
+      "role": "Agentic Builder",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a01e78159f7a333"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-20"
+      ]
+    },
+    {
+      "application_id": "7a2340a3807a8266",
+      "company": "tem",
+      "role": "Senior Full Stack Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19fdb8fc22bd1352"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "d2fb28547506e509",
+      "company": "MyEdSpace",
+      "role": "Senior Full-Stack Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19fdb0ee623882b7"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "66ed76a4837dd712",
+      "company": "leadtech",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-07-27",
+      "rejection_email_ids": [
+        "19fa76fc4d0251ea",
+        "19fefeaa6dd9d8fb"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-07-28",
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "9b3bae1e8037865b",
+      "company": "xolo",
+      "role": "Customer Success Specialist",
+      "application_date": "2026-09-21",
+      "rejection_email_ids": [
+        "1a0d274a851d4d18"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "ca7ef9770780447c",
+      "company": "Malwarebytes",
+      "role": "MDR Platform Engineer (Remote) - Italy",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c5b3e9b849401"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "372e833253e3255a",
+      "company": "Blocks",
+      "role": "Senior LLM Platform / Infra Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10b16107ce7669"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "a3b491a97b94a961",
+      "company": "envelio",
+      "role": "Senior Fullstack Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10b0f62c9182b1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "ab785432fba025b9",
+      "company": "Huuva",
+      "role": "AI Product Engineer (senior)",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10b0885a66fe0e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "0a9e710132147743",
+      "company": "VoiceLine",
+      "role": "Forward Deployed Engineer (f/m/d)",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0cd14db5fe2ee1",
+        "1a10ae857f79f0cc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-23",
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "8832f3dbeb696cae",
+      "company": "Myra Security",
+      "role": "Senior Software Engineer: AI-Native Development",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10ae6f530e0eb3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "76d2f01b81665514",
+      "company": "Giant Swarm",
+      "role": "Forward Deployed Engineer (100% Remote)",
+      "application_date": "2026-10-03",
+      "rejection_email_ids": [
+        "1a10ac8f68cf437e"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "04bee7aa1ce6dd1f",
+      "company": "Xelix",
+      "role": "Product Operations Lead, AI",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10998f16c2c442"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "e574ddbd06a45be4",
+      "company": "Stravito",
+      "role": "Backend Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a108e8475d5f2f9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-04"
+      ]
+    },
+    {
+      "application_id": "3c95578757f9d464",
+      "company": "datapizza",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a1013ec6b0c5d70"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "application_id": "3c1ad1b0823d4d43",
+      "company": "VODA.ai",
+      "role": "Senior MLOps Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a100c29111eb89b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "application_id": "4a8bf2a8f184bf07",
+      "company": "Bridgit",
+      "role": "AI Engineer (Senior Full Stack, AI Team)",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a1009ded5107d52"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "application_id": "3cb4a7bde44e8c47",
+      "company": "circu li ion",
+      "role": "Senior Full-Stack Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fd62beacd1633"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "1cbdcc4e1261e98f",
+      "company": "salesHAX",
+      "role": "Full-Stack AI Developer",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a0fd1e7bfdd4b2f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "fa2b5b34638e781f",
+      "company": "arculus",
+      "role": "Rust Developer - Product (d/f/m)",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fcc581ac16352"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "043766e63789bcf3",
+      "company": "Nexi Group",
+      "role": "AI Automation Junior Specialist",
+      "application_date": "2026-07-30",
+      "rejection_email_ids": [
+        "19fb7e2b23f4448f",
+        "19fc22f5b51f2858"
+      ],
+      "match_methods": [
+        "root_manual_verified_cohort"
+      ],
+      "rejection_dates": [
+        "2026-07-31",
+        "2026-08-02"
+      ]
+    },
+    {
+      "application_id": "192872f671859e31",
+      "company": "Solactive",
+      "role": "Staff Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fcb2fe9c6b397"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "e2bdf39e23a0161a",
+      "company": "Motorica",
+      "role": "Platform Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fc7f8ed22c7d5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "2da09e0009c89fc8",
+      "company": "Stoik",
+      "role": "RevOps Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fc789b133aeb7"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "79620f656858dd1c",
+      "company": "artidis",
+      "role": "AI Engineer NLP (Python & Go - Bridging ML and Platform)",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0fbfe699f73e8a"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "8b939f0e7e80ad5d",
+      "company": "Codeway",
+      "role": "Product Manager, New Ventures",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a084c355ce379ce",
+        "1a0fbea8ba9468ea"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-09",
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "df5627eafda86db7",
+      "company": "Unikraft",
+      "role": "GTM Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fb7459c617714"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "8cf4d440fec73f93",
+      "company": "CloudFactory",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0b53bc095d58c1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "ba10d0ecff87be7e",
+      "company": "Paradise Media",
+      "role": "Full-stack Developer (AI-native)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0a9a15794a1f26"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-16"
+      ]
+    },
+    {
+      "application_id": "ccf486332394ff8c",
+      "company": "BlockTech",
+      "role": "Quantitative Developer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a084ec6599ddd81"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-09"
+      ]
+    },
+    {
+      "application_id": "eb452bc74ce64ac4",
+      "company": "Chrono24",
+      "role": "(Senior) AI Platform Engineer (m/f/d)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fdb4c19741d092"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "74241016457b381d",
+      "company": "Upvest",
+      "role": "Senior IT and Automation Engineer (f/m/d)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fd88f25346172d",
+        "19ff9ebd596e242b"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity",
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-06",
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "93971e3a994fb23f",
+      "company": "Arize AI",
+      "role": "AI Sales Engineer, EMEA",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19fd872b30e7c186",
+        "1a0cc7987a9e0826"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-06",
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "ae34acffeef86b30",
+      "company": "wordsmith ai",
+      "role": "Product Designer",
+      "application_date": "2026-08-03",
+      "rejection_email_ids": [
+        "19fd67932e6b287e",
+        "1a0b8ce7a0b5214a"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-06",
+        "2026-09-19"
+      ]
+    },
+    {
+      "application_id": "195e93308ad5c783",
+      "company": "unobravo international",
+      "role": "AI Workflow & Agent Builder",
+      "application_date": "2026-08-04",
+      "rejection_email_ids": [
+        "19fd0f9b650f1172"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-05"
+      ]
+    },
+    {
+      "application_id": "816075ddef0f5320",
+      "company": "berlin bytes",
+      "role": "Workflow Automation Engineer",
+      "application_date": "2026-07-30",
+      "rejection_email_ids": [
+        "19fcc39e060679a5"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-04"
+      ]
+    },
+    {
+      "application_id": "2fe115c3bd43395d",
+      "company": "taxfix",
+      "role": "AI First Builder (Product Management) (d/f/m)",
+      "application_date": "2026-07-31",
+      "rejection_email_ids": [
+        "19fc6d0f5397f44d"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-03"
+      ]
+    },
+    {
+      "application_id": "01b1ba0dd7559e9a",
+      "company": "LINEA LIGHT SRL",
+      "role": "JR AI & Digital Automation Specialist",
+      "application_date": "2026-07-29",
+      "rejection_email_ids": [
+        "19fbca9b9ba645c7"
+      ],
+      "match_methods": [
+        "root_manual_verified_cohort"
+      ],
+      "rejection_dates": [
+        "2026-08-01"
+      ]
+    },
+    {
+      "application_id": "8d59337189309d19",
+      "company": "G2i",
+      "role": "Senior Software Engineer - AI Interaction Evaluator (Codex / Claude Code, up to $200/hr)",
+      "application_date": "2026-07-31",
+      "rejection_email_ids": [
+        "19fba1c8e74b3971"
+      ],
+      "match_methods": [
+        "root_manual_verified_cohort"
+      ],
+      "rejection_dates": [
+        "2026-07-31"
+      ]
+    },
+    {
+      "application_id": "1a39b9abedcfadf1",
+      "company": "Ethos",
+      "role": "Expert Opportunity - GTM Manager",
+      "application_date": "2026-07-28",
+      "rejection_email_ids": [
+        "19fb861ede221338"
+      ],
+      "match_methods": [
+        "root_manual_verified_cohort"
+      ],
+      "rejection_dates": [
+        "2026-07-31"
+      ]
+    },
+    {
+      "application_id": "9a4953ef70cce5c6",
+      "company": "Chrono24",
+      "role": "AI Solution Engineer",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a10b237df2da66b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "ae1105906e59e358",
+      "company": "Celonis",
+      "role": "Senior/ Lead AI Deployment Engineer",
+      "application_date": "2026-10-04",
+      "rejection_email_ids": [
+        "1a10b1bf85797df2"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "application_id": "5fbf68f8c8106b63",
+      "company": "OWOW",
+      "role": "AI Engineer",
+      "application_date": "2026-10-01",
+      "rejection_email_ids": [
+        "1a0fd0492fbb593c"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "f1abd18b2e8321f4",
+      "company": "element61",
+      "role": "(Junior) Data Engineer/Scientist",
+      "application_date": "2026-10-02",
+      "rejection_email_ids": [
+        "1a0fc73d3ace2d78"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "application_id": "a06bb34c3a992cac",
+      "company": "safemind",
+      "role": "Forward Deployed AI Engineer - Catalyst Team",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0f669aaf31958f"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-10-01"
+      ]
+    },
+    {
+      "application_id": "e87d659f6425599c",
+      "company": "Coverflex",
+      "role": "Software Engineer Backend",
+      "application_date": "2026-08-31",
+      "rejection_email_ids": [
+        "1a0f2046a7b3b0bf"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-30"
+      ]
+    },
+    {
+      "application_id": "c925b3a375e69f87",
+      "company": "Kota",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19feabdc76fb601b",
+        "1a0f1626bb7eda95"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10",
+        "2026-09-30"
+      ]
+    },
+    {
+      "application_id": "713e36044c3f3a6f",
+      "company": "Misfits & Machines",
+      "role": "AI Architect (Applied AI Engineer)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a059c4081d14fe7"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "a1e61137021a6a52",
+      "company": "Treatwell",
+      "role": "Full Stack Engineer - Growth & Marketing (Remote, Italy/Spain)",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "1a01a1b8f14e54db"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "fa26845b762f99b1",
+      "company": "FYUL",
+      "role": "People Process & AI Automation Specialist",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a013ddfe6657f58"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-18"
+      ]
+    },
+    {
+      "application_id": "d85d4870d943b026",
+      "company": "Edra",
+      "role": "Forward Deployed AI Engineer (London)",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a0113af85a0af27"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "8a551267d3223a3b",
+      "company": "freedom24",
+      "role": "AI No-Code/Low-Code Developer",
+      "application_date": "2026-07-31",
+      "rejection_email_ids": [
+        "1a00f2cf5e4e81f4"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "68094fde48b71c93",
+      "company": "Timeleft",
+      "role": "Automation Engineer",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "1a00069a29e4f0c9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-14"
+      ]
+    },
+    {
+      "application_id": "6cfc2be3933ec0dd",
+      "company": "Sanity",
+      "role": "Solutions Engineer, PreSales - Senior to Staff (EU)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fdd820a44a8bad"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "9fd1f889f2b22297",
+      "company": "QuickNode",
+      "role": "Go To Market Operations Analyst",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fdc1d0429d3e1f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "0e905df1a196fa82",
+      "company": "Cloudera",
+      "role": "Forward Deployed AI Engineer",
+      "application_date": "2026-09-27",
+      "rejection_email_ids": [
+        "1a0e82c2d52054ed",
+        "1a0f1320d27016e3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28",
+        "2026-09-30"
+      ]
+    },
+    {
+      "application_id": "a52121be36a9d28a",
+      "company": "Lexroom",
+      "role": "AI Engineer",
+      "application_date": "2026-08-11",
+      "rejection_email_ids": [
+        "1a0d239bc8f3c22f"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "b2a896030d62f925",
+      "company": "alto",
+      "role": "AI Engineer (Contract) - Marketing Demand Generation",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a0cdf3ca9dd835b"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "8a27bb2c4e7cf19a",
+      "company": "speechmatics",
+      "role": "Solutions Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0cda8f8c03f81c"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "e7e0f29d9f801adb",
+      "company": "Satori Analytics",
+      "role": "AI Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0cd4e5d1881c70"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "ed064cd2b8701639",
+      "company": "Volkswagen Group Digital Solutions",
+      "role": "Junior Fullstack Developer",
+      "application_date": "2026-09-18",
+      "rejection_email_ids": [
+        "1a0beb0bd293257d"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-20"
+      ]
+    },
+    {
+      "application_id": "bdcb26c65824af93",
+      "company": "DevRev",
+      "role": "Junior Forward Deployed Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b386058a605e1"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "31565e0245ad6557",
+      "company": "Drees & Sommer Espana",
+      "role": "Experienced Artificial Intelligence Engineer (AI Engineer)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0b37a16329014f"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "4141a368eeeae24b",
+      "company": "Camunda",
+      "role": "Senior Product Manager - Core Platform (Remote)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0b1b4db68a7457"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "067ff0affe18733f",
+      "company": "Rydoo",
+      "role": "AI Transformation Engineer",
+      "application_date": "2026-09-14",
+      "rejection_email_ids": [
+        "1a0a9768eabfd3c2"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-16"
+      ]
+    },
+    {
+      "application_id": "bcbfa06fa12b1073",
+      "company": "Leadtech",
+      "role": "AI Full Stack Developer (MAU/AI-LAB brand)",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a0a4573489591e2"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-15"
+      ]
+    },
+    {
+      "application_id": "42616d347c785bd7",
+      "company": "Robotec.ai",
+      "role": "Marketing Automation Engineer (Lead Generation)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a09f2af8e70c9ed"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-14"
+      ]
+    },
+    {
+      "application_id": "85717d915f2fdaf7",
+      "company": "RISCO Group",
+      "role": "Junior QA Engineer",
+      "application_date": "2026-09-07",
+      "rejection_email_ids": [
+        "1a08010ed9a184cb"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "550d1b269862794f",
+      "company": "Monday.com",
+      "role": "Forward Deployed Consultant (Paris)",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a07f9d4deb02610"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "41546486808a1656",
+      "company": "SISU GROUP",
+      "role": "QA Automation Engineer",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a07ace929e0f6ca"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "883fd77e9458ec67",
+      "company": "No Isolation",
+      "role": "AI Integration Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a077d380ed05fb5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-06"
+      ]
+    },
+    {
+      "application_id": "3e85bb8758217127",
+      "company": "Gorilla",
+      "role": "Sales Engineer",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "19feb03b3a5e7e61",
+        "1a06731ba8ae7fbb"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10",
+        "2026-09-03"
+      ]
+    },
+    {
+      "application_id": "49b45b056cf122b5",
+      "company": "Stacks",
+      "role": "Senior Product Engineer Fullstack",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0592d747119195"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "b00bcfd089c3c080",
+      "company": "Profile Software",
+      "role": "QA Automation Engineer - Investment",
+      "application_date": "2026-08-30",
+      "rejection_email_ids": [
+        "1a057655e79d203a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "339bb6f5062924c9",
+      "company": "Hospitable",
+      "role": "Technical Support Engineer (Americas/EMEA)",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a043b653654cda6"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27"
+      ]
+    },
+    {
+      "application_id": "3ecb0a99c48cc726",
+      "company": "Nearform",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a042e36e793bc75",
+        "1a0ba9c720f6f17b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-27",
+        "2026-09-19"
+      ]
+    },
+    {
+      "application_id": "557a79f653513bc4",
+      "company": "SAP Fioneer",
+      "role": "Test Automation Engineer with DevOps skills",
+      "application_date": "2026-08-15",
+      "rejection_email_ids": [
+        "1a0239271caab651"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-21"
+      ]
+    },
+    {
+      "application_id": "c6f1f1df538bf785",
+      "company": "kit",
+      "role": "Migration Specialist - Contractor",
+      "application_date": "2026-08-17",
+      "rejection_email_ids": [
+        "1a01a1e521649ab1"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "9b8a13f0b3f34542",
+      "company": "Nearform",
+      "role": "Senior Software Engineer - Python & AI (Italy)",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19ff5ff8beb365dd",
+        "1a01465f473d03c3"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-12",
+        "2026-08-18"
+      ]
+    },
+    {
+      "application_id": "06de98e83a7f3926",
+      "company": "thesoul group",
+      "role": "Outreach Specialist / Reach-out Specialist",
+      "application_date": "2026-08-11",
+      "rejection_email_ids": [
+        "1a00ec552dd7f80d"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "068a12258bbf60d2",
+      "company": "goreel",
+      "role": "Junior QA Engineer",
+      "application_date": "2026-08-15",
+      "rejection_email_ids": [
+        "1a0079543e781b19"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-16"
+      ]
+    },
+    {
+      "application_id": "7ef56298fa33029f",
+      "company": "Camunda",
+      "role": "AI Forward Deployed Engineer, EMEA",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19fed442b8869d98"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "31b01d0dc89aaf13",
+      "company": "litit",
+      "role": "CLOUD NATIVE APPLICATION DEVELOPER",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19feae9949a4b56f"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "1afbb281b25b4913",
+      "company": "monterail",
+      "role": "LLM Engineer - Freelancer",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19feac26c851e75a"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "9e5bf5facc93b57b",
+      "company": "Apify",
+      "role": "Support Engineer (afternoon and night shifts)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fea4f7161ab6eb"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "26ddb96819189471",
+      "company": "Checkly",
+      "role": "Senior Sales Engineer (remote, Europe)",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19fdc9436bb40c4a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "9813efd50acecefe",
+      "company": "Corti",
+      "role": "GTM Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0f181d8e44cbe3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-30"
+      ]
+    },
+    {
+      "application_id": "7c4a545d89f21b69",
+      "company": "Keyrus Portugal",
+      "role": "Forward Deployed AI Engineer",
+      "application_date": "2026-09-28",
+      "rejection_email_ids": [
+        "1a0f1544cbfe4a33"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-30"
+      ]
+    },
+    {
+      "application_id": "e57a0d17614749be",
+      "company": "Supabase",
+      "role": "Product Manager - Marketplace",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a0ed2e0d98edfe9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-29"
+      ]
+    },
+    {
+      "application_id": "7b88d9c6ec9c616c",
+      "company": "Plato",
+      "role": "Founding GTM Engineer",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a0ec9f76e028091"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-29"
+      ]
+    },
+    {
+      "application_id": "071457e99e7201c1",
+      "company": "BCG X",
+      "role": "Visiting Forward Deployed AI Engineer",
+      "application_date": "2026-09-28",
+      "rejection_email_ids": [
+        "1a0ebf769118bb07"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-29"
+      ]
+    },
+    {
+      "application_id": "68a6f7c4ba5f8ad7",
+      "company": "medel",
+      "role": "AI Quality Automation Engineer (m/f/d)",
+      "application_date": "2026-09-22",
+      "rejection_email_ids": [
+        "1a0eb9d41ac9b0f4"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-29"
+      ]
+    },
+    {
+      "application_id": "5acfef072d6fb6e7",
+      "company": "bounce",
+      "role": "Product Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0e88a4ea95fe43"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "640d72b2a90ed1c7",
+      "company": "RapidSOS",
+      "role": "Software Engineer II, AI",
+      "application_date": "2026-09-18",
+      "rejection_email_ids": [
+        "1a0e82799b822b6d"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "df5db4a8ab3f4022",
+      "company": "limetax",
+      "role": "Forward Deployed Engineer (m/f/d)",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0e80c88604e707"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "7a47d8e369ef32f1",
+      "company": "marvelx",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0e7e2a3e279075"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "794f8256f8a96e81",
+      "company": "SOSV HAX / Minut",
+      "role": "Full Stack Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0e7904a6ed4bd1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "add32358629ba4fe",
+      "company": "BaehrBots",
+      "role": "AI Integration Engineer / Specialist",
+      "application_date": "2026-09-27",
+      "rejection_email_ids": [
+        "1a0e78316709eb9c"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "85b7e8acdb876e40",
+      "company": "LumApps",
+      "role": "Forward Deployed Engineer (FDE) M/F",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0e73b8a56f2454"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "1f5bb21cae049323",
+      "company": "Leyton",
+      "role": "Forward Deployed Engineer - Mainloop",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0e727cc09fc638"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "2d1d4135263bf921",
+      "company": "Scout24",
+      "role": "AI Automation Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a0e7152d63c207e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "6ffe1faf813c1996",
+      "company": "Accenture na Slovensku",
+      "role": "Senior Integration Low-Code Developer",
+      "application_date": "2026-09-27",
+      "rejection_email_ids": [
+        "1a0e70ba5c820d59"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-28"
+      ]
+    },
+    {
+      "application_id": "29d1e4d8e5080bd3",
+      "company": "Dorado Software Group (Spain posting)",
+      "role": "Marketing AI and Automation Specialist",
+      "application_date": "2026-09-02",
+      "rejection_email_ids": [
+        "1a0d965a56542826",
+        "1a0d966c8fc71246"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-25"
+      ]
+    },
+    {
+      "application_id": "2757abec08c5a590",
+      "company": "Queue-it",
+      "role": "Product Manager",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0d8be56c595776"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-25"
+      ]
+    },
+    {
+      "application_id": "a9642800bf75f7c0",
+      "company": "Reedsy",
+      "role": "AI Engineer - Remote Europe",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a0d7cb9f47bb3b5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-25"
+      ]
+    },
+    {
+      "application_id": "e66ad82bf03611b8",
+      "company": "barings",
+      "role": "Forward Deployed AI Engineer (JR_006673)",
+      "application_date": "2026-09-24",
+      "rejection_email_ids": [
+        "1a0d76be22e173d9"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-25"
+      ]
+    },
+    {
+      "application_id": "4147c28672621a86",
+      "company": "Fingerprint",
+      "role": "Implementation Engineer - EMEA",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a0d3d5be84e3c3b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "0b307186592533b5",
+      "company": "pwc",
+      "role": "Full Stack Developer Junior - Milano [IFS]",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0d3cfe705f444f"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "47b8bd4acec8e89d",
+      "company": "neural frames",
+      "role": "Product Engineer (Growth) // AI Music Video Platform",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0d3ad740b884f4"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "41b28dfa996450e1",
+      "company": "Filed",
+      "role": "Fullstack AI Developer (Python/React)",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0d3634c0adb538"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "fca30480b4a1c3e7",
+      "company": "soji ai ug",
+      "role": "Forward Deployed Engineer (Aviation)",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0d3114e2a0b8d7"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "294bd01287b9d200",
+      "company": "moveax",
+      "role": "Software Engineer",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a0d1ce3241c28f6"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "5b6f386bf12465a9",
+      "company": "teamleader",
+      "role": "Forward Deployed AI Automation Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0d1cdd9c65038b"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "application_id": "73ac03045eb5bf83",
+      "company": "accenture",
+      "role": "AI Native Software Engineering Specialist",
+      "application_date": "2026-09-22",
+      "rejection_email_ids": [
+        "1a0ceb6eca3168c6"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "292569921e3b9f84",
+      "company": "Protex AI",
+      "role": "Technical Product Manager (Site Intelligence)",
+      "application_date": "2026-09-07",
+      "rejection_email_ids": [
+        "1a086bd03a78370b"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-09"
+      ]
+    },
+    {
+      "application_id": "08834bc4900d8e25",
+      "company": "sig",
+      "role": "Commercial Product Owner (EXIN)",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a085b636b27d2e7"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-09"
+      ]
+    },
+    {
+      "application_id": "b93be0670655b477",
+      "company": "Peter Park",
+      "role": "Senior AI Software Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a0859e7a081ab44"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-09"
+      ]
+    },
+    {
+      "application_id": "bc5a0e0b714dbf3d",
+      "company": "ML6",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a0852366efa8e31"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-09"
+      ]
+    },
+    {
+      "application_id": "3ba9e4e9c9e02c12",
+      "company": "Sticker Mule",
+      "role": "Software Engineer",
+      "application_date": "2026-09-03",
+      "rejection_email_ids": [
+        "1a082db4b891f810"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "9f8808540a09cc7d",
+      "company": "Carbon Direct",
+      "role": "Staff Full Stack Engineer",
+      "application_date": "2026-08-30",
+      "rejection_email_ids": [
+        "1a082a9a4207d817"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "cb5848f71ad12d74",
+      "company": "Workwize",
+      "role": "Product Engineer (Remote EU/UK Based)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a070671c3e311c3",
+        "1a0826765dade150"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-05",
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "8cdc3a8e4a481f9e",
+      "company": "Miaplaza",
+      "role": "QA Engineer",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a0811f3909d8e88"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "82ca06748128d69b",
+      "company": "Sword Health",
+      "role": "Senior ML Engineer (Europe-based/Remote)",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a0801097e51ba57"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-08"
+      ]
+    },
+    {
+      "application_id": "1d50a393e545985e",
+      "company": "HappyRobot",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-07",
+      "rejection_email_ids": [
+        "1a07fd147f334dc6",
+        "1a0c2c3fdfa35bbe"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-08",
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "509f4ba6ad366875",
+      "company": "Telnyx",
+      "role": "Product Support Engineer: EMEA (Remote)",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a07d20515c188ff"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "dcfdac8bcd637fc2",
+      "company": "Uncountable",
+      "role": "LLM Applications Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a07ca2038b69bcc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "20a9710d859284c2",
+      "company": "Distru",
+      "role": "AI Product Engineer, Remote",
+      "application_date": "2026-08-21",
+      "rejection_email_ids": [
+        "1a07c9a74ee02ad5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "4f1bd28aeebe0ff2",
+      "company": "Spyrosoft",
+      "role": "Forward Deployed Engineer (OpenAI)",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a07c640d13b84a0"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "552c511ea1fbbc9e",
+      "company": "Alago",
+      "role": "Founding Full-Stack Engineer",
+      "application_date": "2026-09-07",
+      "rejection_email_ids": [
+        "1a07c1043ca24cba"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "0e81a8262aea3fca",
+      "company": "Nelly Solutions",
+      "role": "Senior Forward Deployed Software Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a07bbe089118f84"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "42cb17ccb7b4ba4e",
+      "company": "SANOVIO",
+      "role": "Founding Engineer",
+      "application_date": "2026-09-06",
+      "rejection_email_ids": [
+        "1a07b57639038acf"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "f3f1bd98717e13c1",
+      "company": "Insurely",
+      "role": "AI Automation Engineer (internal tooling and developer productivity)",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a07b0519b0e40a6"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "0873a8cc5284954e",
+      "company": "Alpitronic",
+      "role": "Full Stack Developer - Cybersecurity Hardening",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a07ac7b24184a3c"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-07"
+      ]
+    },
+    {
+      "application_id": "654d468fb7471698",
+      "company": "supermodular.ai",
+      "role": "Senior Forward Deployed Engineer | Portugal",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a077c421bd26445"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-06"
+      ]
+    },
+    {
+      "application_id": "06fbed4c05c288f4",
+      "company": "repa deutschland gmbh",
+      "role": "“AI Engineer / Specialist (m/f/d)”",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0cd480f4e8612d"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "30d099c3381d61fb",
+      "company": "adobe",
+      "role": "Forward Deployed Engineer - Agents & Apps",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0cd3b37b0c8cfd"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "fa4d7fb621a65cff",
+      "company": "Lleverage",
+      "role": "AI Engineer",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "1a0b2e7920458028",
+        "1a0cca7bdcfb8297"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-18",
+        "2026-09-23"
+      ]
+    },
+    {
+      "application_id": "9f97111daf072df4",
+      "company": "Sporty Group",
+      "role": "Analytics Implementation Consultant",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "1a0c9eb4b378400a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "d64ce7fc11208978",
+      "company": "aura group",
+      "role": "AI Solutions Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0c981789589a6e"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "d6305511805aac96",
+      "company": "h company",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0c921a524b5d45"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "b85f5a8c6ff724d5",
+      "company": "adevinta",
+      "role": "AI Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0c8f8c5f4c7de3"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "24c67d808fda051a",
+      "company": "tanso",
+      "role": "Software Engineer (f/m/x)",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c8913999018e2"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "c6f5a96c4e2abaa6",
+      "company": "inriver",
+      "role": "Senior Forward Deployed Engineer",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c865e85618750"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "e9e3ee6778dd128b",
+      "company": "Cloudflare",
+      "role": "Forward Deployed Engineer, Professional Services (Lisbon)",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0bdc69db13bf89",
+        "1a0c8371190fc1f2"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity",
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-20",
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "116b99202c105544",
+      "company": "flowtraders",
+      "role": "AI Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0c834ab61edcba"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "2615b13b376e00c9",
+      "company": "Futurice",
+      "role": "Senior AI Engineer",
+      "application_date": "2026-09-11",
+      "rejection_email_ids": [
+        "1a0c7b38bead1b84"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-22"
+      ]
+    },
+    {
+      "application_id": "9e62263219c0b587",
+      "company": "fiducial",
+      "role": "Forward Deployed System Integration Engineer - L2 (UAV Robotics) - EU",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c57615d8f8edd"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "74f8f5f4254b01a4",
+      "company": "blp digital ag",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0c47ffbc51f89c"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "08eb7633efdd1a69",
+      "company": "tecknuovo",
+      "role": "Full Stack Software Engineer",
+      "application_date": "2026-09-13",
+      "rejection_email_ids": [
+        "1a0c444702cc72c2"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "b69ca81b3d08f1fb",
+      "company": "erni spain",
+      "role": "AI Agent Productivization Engineer",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0c3ba471c7f10e"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "a5b1429d5ef052d3",
+      "company": "Lucid Labs",
+      "role": "AI Engineer (m/f/d)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0c36f8e7495f6a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "d04c14abeec74299",
+      "company": "Tandem Health",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-21",
+      "rejection_email_ids": [
+        "1a0c348c99c75bbd"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "21b05ac77a2ba5dd",
+      "company": "black forest labs",
+      "role": "Forward Deployed Robotics Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0c3403f8baefa8"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "3ad671f3272a4eae",
+      "company": "Prima",
+      "role": "Data Scientist GenAI",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c308e6611c2d1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "c213fe15a18461e8",
+      "company": "Recare",
+      "role": "Senior Forward Deployed Platform Engineer (m/w/d)",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c2cbcc5de1e61"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "6e9a69592aff6ebd",
+      "company": "aisle",
+      "role": "Forward Deployed Engineer – Vulnerability Management & Security",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0c2c3c0a9c8db6"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "0803408e7dbc64c2",
+      "company": "devoteam",
+      "role": "Forward Deployed Engineer – GenAI, Prague",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c2b37853a7e12"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "c7f5072a12e3ed93",
+      "company": "Betclic Group",
+      "role": "Technical Product Manager F/M",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0c28d037ea4a5f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "5f1a6b6f4406847f",
+      "company": "cresta",
+      "role": "Senior Forward Deployed Engineer (Ai Agent) - Germany",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0c28cf589017cd"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-21"
+      ]
+    },
+    {
+      "application_id": "badcc10ec9295ab1",
+      "company": "Mirakl",
+      "role": "AI Engineer (Mirakl Labs, Paris/Bordeaux)",
+      "application_date": "2026-09-18",
+      "rejection_email_ids": [
+        "1a0b8e4fbb60eb57"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-19"
+      ]
+    },
+    {
+      "application_id": "31f0cd63cccadec4",
+      "company": "Taxfix",
+      "role": "AI Automation Specialist - Marketing & GTM (d/f/m)",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a01dfad7c0d06bf"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-20"
+      ]
+    },
+    {
+      "application_id": "e25d43d89d674d51",
+      "company": "Vapi",
+      "role": "Solutions Engineer - EMEA",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19fec6a7a196b3c8",
+        "1a01ac20c0a1c1be"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10",
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "0b33a5c84dfbe793",
+      "company": "epi company",
+      "role": "Partner Integration Engineer",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "1a01a2c13ac9f3ad"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "b9b028a087336f39",
+      "company": "voodoo bereal",
+      "role": "QA Automation Engineer",
+      "application_date": "2026-08-16",
+      "rejection_email_ids": [
+        "1a01a245b16747cc"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "68067b7d306db1de",
+      "company": "Veepee",
+      "role": "Application - Support & Development Engineer (L2)",
+      "application_date": "2026-08-16",
+      "rejection_email_ids": [
+        "1a0196ed17c33c76"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "f16d624b303ee81b",
+      "company": "n ix",
+      "role": "Senior AI Engineer",
+      "application_date": "2026-08-14",
+      "rejection_email_ids": [
+        "1a01941dd0100d2e"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-19"
+      ]
+    },
+    {
+      "application_id": "7895f57f50320c3f",
+      "company": "EggAI",
+      "role": "AI software engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a01479edf37bab5"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-18"
+      ]
+    },
+    {
+      "application_id": "5a0850a355b800e3",
+      "company": "Betsson Group",
+      "role": "Frontend QA Engineer",
+      "application_date": "2026-08-16",
+      "rejection_email_ids": [
+        "1a014450778e8e46"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-18"
+      ]
+    },
+    {
+      "application_id": "30ecc3773978b705",
+      "company": "gitlab",
+      "role": "Intermediate Support Engineer (SHIFT)",
+      "application_date": "2026-08-17",
+      "rejection_email_ids": [
+        "1a01306c5dea62ed"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-18"
+      ]
+    },
+    {
+      "application_id": "155dc3d16e410e67",
+      "company": "Zapier",
+      "role": "Engineer, Applied AI",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a01166604df13c0"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "e6c6c803d892b0d9",
+      "company": "kestra technologies",
+      "role": "Product Engineer, AI",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "1a0101d32334ea39"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "064ff8f623549649",
+      "company": "pigment",
+      "role": "AI Deployment Strategist",
+      "application_date": "2026-08-16",
+      "rejection_email_ids": [
+        "1a00f46b654da831",
+        "1a00f46b66c16681"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "11f1607676bad7c9",
+      "company": "Lago",
+      "role": "Solutions Engineer (Remote Europe)",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a00ec9f8408f816"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-17"
+      ]
+    },
+    {
+      "application_id": "304fa8123a30683e",
+      "company": "Zauber",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a002fcdbb0d2bcc"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-15"
+      ]
+    },
+    {
+      "application_id": "2aeb770c61561bd0",
+      "company": "toogoodtogo",
+      "role": "IT Operations Engineer",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "1a0003a1d5a42934"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-14"
+      ]
+    },
+    {
+      "application_id": "be24ddff1f245faa",
+      "company": "Bloomreach",
+      "role": "Technical Support Specialist - EMEA and US hours",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fff4ca8c6738cd"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-14"
+      ]
+    },
+    {
+      "application_id": "aa2ecc17b7ace93f",
+      "company": "Visor.ai",
+      "role": "AI Engineer",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "19ffbf1f3d5253f9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "7b34830bb02e301a",
+      "company": "TensorOps",
+      "role": "Mid/Senior AI Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ffb3a2647ae318"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "7d8896015ac1feca",
+      "company": "Bob W",
+      "role": "Product Manager, Commercial Growth",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "19ffab19fbb65947"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "953545c51fb3f935",
+      "company": "jamie",
+      "role": "AI Engineer - top 5% salary band in Europe",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ffa97d2a1edfd9"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "989d2af4f5c91084",
+      "company": "Laioutr GmbH",
+      "role": "AI Engineer (m/f/d) - Full Stack, TypeScript / Nuxt / Next / Vue / React",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ffa959bf0d147a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "4cfd654313803bdc",
+      "company": "Scale AI",
+      "role": "Frontier Agents Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ffa8887e0defef"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "35a47573ed2bd574",
+      "company": "BAS Group",
+      "role": "AI Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ff9f2d19051a5b"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "f652ade71cf55481",
+      "company": "deepset (Haystack)",
+      "role": "Value Engineer",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19ff9ee9ad93e5f8"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-13"
+      ]
+    },
+    {
+      "application_id": "7389729b3878154a",
+      "company": "agentflow ai gmbh",
+      "role": "Growth Marketing Manager",
+      "application_date": "2026-08-09",
+      "rejection_email_ids": [
+        "19ff5dbcf4649bc8"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "14936f1c1e7790a8",
+      "company": "PubNub",
+      "role": "Customer Lifecycle Marketing Manager",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "19ff5c9939d4bf6a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "mailapp-5a6f779b235ff193",
+      "company": "deskbird",
+      "role": "Director of Partnerships (all genders)",
+      "application_date": "2026-08-09",
+      "rejection_email_ids": [
+        "19ff5bacb7d455bd"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "18d761efb7f151d4",
+      "company": "Axmed",
+      "role": "AI Engineer",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19ff544f683731e3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "c929b44dd1761824",
+      "company": "Awin",
+      "role": "Senior AI Engineer (f/m/d)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19ff527b3d2d4af3"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "b47b37931ab064fb",
+      "company": "SolveAI",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "19ff50da3a443cce"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "62d428383eafb6eb",
+      "company": "trusted shops",
+      "role": "AI GTM Engineer",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19ff4c9f8768c6f3"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "87ff3f12d2449b07",
+      "company": "tangible",
+      "role": "Forward-Deployed Engineer",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19ff4c56181c3d3d"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-12"
+      ]
+    },
+    {
+      "application_id": "538fe6d3ea664f43",
+      "company": "Outset",
+      "role": "Forward Deployed Software Engineer (EU)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19ff2893e4e017b6"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "ad598333064580c5",
+      "company": "kentik",
+      "role": "Solutions Engineer, Service Provider - EMEA",
+      "application_date": "2026-08-07",
+      "rejection_email_ids": [
+        "19ff1b701bad7e6d"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "a476d398563da12e",
+      "company": "OpenHands",
+      "role": "Enterprise Agent Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19ff15ae01ae1c75"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "a5a40b1c089b70d2",
+      "company": "Jimdo",
+      "role": "Senior AI Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19ff062fabf1e7df"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "5995f209d1d6d640",
+      "company": "Nuitée",
+      "role": "GTM Engineer",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "19ff02ab6120bff0"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "4d37b5ff449fd833",
+      "company": "getyourguide",
+      "role": "Senior Product Manager, Connectivity",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "19fefdcb16cf3b1c"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "application_id": "34237402531256f9",
+      "company": "RTB House",
+      "role": "Technical Account Manager BAL",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19feb545f73a99f2"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "a53ae459f4e2b603",
+      "company": "Superchat",
+      "role": "Revenue Operations Engineer, AI and Automation (m/f/d)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fead8e8941ac2f"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-10"
+      ]
+    },
+    {
+      "application_id": "8a3040e6bbeee806",
+      "company": "alertmedia",
+      "role": "Technical Account Manager (NEU)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fe7931471034df"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-09"
+      ]
+    },
+    {
+      "application_id": "714101040f2f9de4",
+      "company": "Oxylabs",
+      "role": "Software Engineer (AI Products)",
+      "application_date": "2026-08-06",
+      "rejection_email_ids": [
+        "19fdc708f34e3171"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "application_id": "c6dee4ac58f19c08",
+      "company": "Supabase",
+      "role": "Frontend Engineer",
+      "application_date": "2026-09-04",
+      "rejection_email_ids": [
+        "1a0b588ce9cf1862"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "7652c7c9032f3657",
+      "company": "solvd",
+      "role": "Forward Deployed Engineer - Agentic AI",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b4d3ae5f627e1"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "c32e1f155c33b44b",
+      "company": "gitlab",
+      "role": "Forward Deployed Engineer - EMEA",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b4d18ce82c328"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "ce36e431fd7a82ab",
+      "company": "thought machine",
+      "role": "Full Stack Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b3a9218fee2be"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "2e8b374886aee1e1",
+      "company": "databricks",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b352e8bacb39f"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "78eb6dad6d763ea2",
+      "company": "cyclomedia technology",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0b2e89a33c0418"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "568060874efe6321",
+      "company": "Wilco",
+      "role": "AI Engineer / FDE",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0b0fbd223741e9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "a314f4aa2f0cfd22",
+      "company": "snowflake",
+      "role": "Forward Deployed Engineer, Applied AI",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0af80a3adbd3b4"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "0757d15db617ccf9",
+      "company": "Relesys",
+      "role": "Mid-level Frontend Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0af62935f953a9"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "9829feb9608c7993",
+      "company": "momence",
+      "role": "Quality Engineer",
+      "application_date": "2026-09-13",
+      "rejection_email_ids": [
+        "1a0af2f442c26906"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "c8910635257333fb",
+      "company": "Navigraph",
+      "role": "Fullstack Developer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0af03fd08eb400"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "b718344d2380f49d",
+      "company": "akeneo",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0aef0d57efa0e9"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "35bb136f54be649d",
+      "company": "koppla",
+      "role": "Product Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0aed2340578ba5"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "903807d9b7af3ab4",
+      "company": "Telia",
+      "role": "Full-Stack Engineer",
+      "application_date": "2026-09-09",
+      "rejection_email_ids": [
+        "1a0aec613914154a"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "0f0296b4f06b5728",
+      "company": "auterion",
+      "role": "Forward Deployed Engineer",
+      "application_date": "2026-09-17",
+      "rejection_email_ids": [
+        "1a0aec4854a82096"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "de8152e5d2e382d4",
+      "company": "Dwelly",
+      "role": "Applied AI Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0ae7ebeb4ff5d8"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "d6a8f61c6ac94825",
+      "company": "accesa",
+      "role": "Senior Forward Deployed AI Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0ae2198e0bfa70"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "200fc7547a0c82c6",
+      "company": "Shopfully",
+      "role": "AI Engineer",
+      "application_date": "2026-09-03",
+      "rejection_email_ids": [
+        "1a0712f90beedba4"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-05"
+      ]
+    },
+    {
+      "application_id": "6d550e2e050c9f57",
+      "company": "Qualio",
+      "role": "Full Stack Engineer (Remote Ireland)",
+      "application_date": "2026-09-02",
+      "rejection_email_ids": [
+        "1a06c5810fc0e377"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-04"
+      ]
+    },
+    {
+      "application_id": "dc00f1b614ed159a",
+      "company": "fonio",
+      "role": "Automation Engineer",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a06be27d1adfcf4"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-04"
+      ]
+    },
+    {
+      "application_id": "7f3636f1040f74f0",
+      "company": "opera",
+      "role": "AI Product Builder",
+      "application_date": "2026-09-01",
+      "rejection_email_ids": [
+        "1a06b8ebff7d592f"
+      ],
+      "match_methods": [
+        "sole_company_confirmation_role"
+      ],
+      "rejection_dates": [
+        "2026-09-04"
+      ]
+    },
+    {
+      "application_id": "0eb484fbfa0c580b",
+      "company": "Sigma Software",
+      "role": "Forward AI Deployment Engineer (FDE)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a066eb1648d3038"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-03"
+      ]
+    },
+    {
+      "application_id": "a2ad9b73c7726f94",
+      "company": "TechTorch",
+      "role": "Forward Deployed AI Engineer",
+      "application_date": "2026-09-03",
+      "rejection_email_ids": [
+        "1a066c814e9282ca"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-09-03"
+      ]
+    },
+    {
+      "application_id": "6b8b8f4f51abef46",
+      "company": "Dataiku",
+      "role": "Technical Account Manager - France",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a066285ff2639e1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-03"
+      ]
+    },
+    {
+      "application_id": "6b5afd7f886f0ec3",
+      "company": "Lyto Brands Group",
+      "role": "AI Product Engineer - Internal Tools & Automation",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a062fa1afbc4a44"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "24b22bb5b7d13b9d",
+      "company": "arsenalia",
+      "role": "Artificial Intelligence Engineer",
+      "application_date": "2026-07-30",
+      "rejection_email_ids": [
+        "1a062d49b8190e1e"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "c9af60d45b4f27e5",
+      "company": "Customer.io",
+      "role": "Senior Software Engineer, Full Stack",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a062a28d0d7d684"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "3acb74f7ce686b61",
+      "company": "Adyen",
+      "role": "Implementation Engineer 1",
+      "application_date": "2026-08-31",
+      "rejection_email_ids": [
+        "1a06233ad3fc9b6f"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "78ba4ea9a2e5ad40",
+      "company": "Pactum AI",
+      "role": "Product Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a061d7ee7bc816d"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "cfd1ab1832da782c",
+      "company": "Flinn",
+      "role": "Senior Fullstack Engineer (w/m/d)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a0614facd64f84f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "9c97fac5c33fb76d",
+      "company": "Atmen Solutions GmbH",
+      "role": "Customer Solutions Engineer",
+      "application_date": "2026-08-12",
+      "rejection_email_ids": [
+        "1a0610ec87de3271"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-02"
+      ]
+    },
+    {
+      "application_id": "0896a26b6f6bb055",
+      "company": "Censys",
+      "role": "Sr. Customer Success Engineer, EMEA",
+      "application_date": "2026-08-30",
+      "rejection_email_ids": [
+        "1a05e2e816d0bcc1"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-01"
+      ]
+    },
+    {
+      "application_id": "e620f062df68f2fc",
+      "company": "WorldStrides",
+      "role": "HR Product Engineer",
+      "application_date": "2026-08-30",
+      "rejection_email_ids": [
+        "1a05d0067b39784d"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-01"
+      ]
+    },
+    {
+      "application_id": "3bee40a015aa0835",
+      "company": "bees bears gmbh",
+      "role": "AI Applied Engineer (m/f/d) - Berlin",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a05c6eb0a855198"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-09-01"
+      ]
+    },
+    {
+      "application_id": "64e41ac972d05a42",
+      "company": "JetBrains",
+      "role": "QA Automation Engineer (IDEA Ultimate QA)",
+      "application_date": "2026-08-30",
+      "rejection_email_ids": [
+        "1a05c33952f89d3f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-09-01"
+      ]
+    },
+    {
+      "application_id": "92245cf452ba120f",
+      "company": "unframe",
+      "role": "AI Transformation Architect EMEA",
+      "application_date": "2026-08-10",
+      "rejection_email_ids": [
+        "1a0596b1ec5f0bc3"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "ab059873cfdcab2d",
+      "company": "TextYess",
+      "role": "AI Engineer",
+      "application_date": "2026-08-26",
+      "rejection_email_ids": [
+        "1a05951f5501347f"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "3a2d5eab93d5673a",
+      "company": "Cohere",
+      "role": "Applied AI Engineer, Agents & Automations",
+      "application_date": "2026-08-20",
+      "rejection_email_ids": [
+        "1a0593f63f2d6131"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "2c35487661b9932f",
+      "company": "hiya",
+      "role": "Forward Deployed Engineer - London",
+      "application_date": "2026-08-27",
+      "rejection_email_ids": [
+        "1a0593c43697f252"
+      ],
+      "match_methods": [
+        "role_specific_confirmation"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "c11de32d1ffbee59",
+      "company": "Northslope",
+      "role": "Forward Deployed Software Engineer",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a058d5f702b4d9e"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "577866347c810911",
+      "company": "Shaman",
+      "role": "Pre-Sales Solution Consultant",
+      "application_date": "2026-08-08",
+      "rejection_email_ids": [
+        "1a058bfc7e3ce18c"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "b24d7e2e20054f1a",
+      "company": "Sourcegraph",
+      "role": "Product Manager [IC4]",
+      "application_date": "2026-08-05",
+      "rejection_email_ids": [
+        "1a058718c7e3b347"
+      ],
+      "match_methods": [
+        "sole_local_company_application"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "f8550561a71dbcc4",
+      "company": "Kinsta",
+      "role": "Malware & Abuse Engineer",
+      "application_date": "2026-08-13",
+      "rejection_email_ids": [
+        "1a056e9a7f978586"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "348a4671955d1822",
+      "company": "Block Labs",
+      "role": "Applied AI Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a056cb70a179235"
+      ],
+      "match_methods": [
+        "exact_local_role"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "660fced0db829cf2",
+      "company": "Duvo Inc",
+      "role": "Forward Deployed Engineer (EU/UK Based)",
+      "application_date": "2026-08-28",
+      "rejection_email_ids": [
+        "1a056ba4bbfdc439"
+      ],
+      "match_methods": [
+        "local_role_prefix_or_similarity"
+      ],
+      "rejection_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "application_id": "0fefb0ff06e95186",
+      "company": "Nejo",
+      "role": "Product Engineer",
+      "application_date": "2026-08-24",
+      "rejection_email_ids": [
+        "1a03832253515555"
+      ],
+      "match_methods": [
+        "final_review: exact company and role"
+      ],
+      "rejection_dates": [
+        "2026-08-25"
+      ]
+    },
+    {
+      "application_id": "2c9e991d48eef6bc",
+      "company": "Claimlane",
+      "role": "AI Implementation Specialist",
+      "application_date": "2026-09-19",
+      "rejection_email_ids": [
+        "1a0bef23548ad7fd"
+      ],
+      "match_methods": [
+        "final_review: exact company and role"
+      ],
+      "rejection_dates": [
+        "2026-09-20"
+      ]
+    },
+    {
+      "application_id": "ac93ab9d114cbf5b",
+      "company": "uipath",
+      "role": "Senior Forward Deployed Engineer",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0b466065f3f270"
+      ],
+      "match_methods": [
+        "final_review: exact named role; extractor had included employer prefix"
+      ],
+      "rejection_dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "application_id": "0f6654b5d588673c",
+      "company": "datasnipper",
+      "role": "Forward Deployed Engineer (Audit experience required)",
+      "application_date": "2026-09-16",
+      "rejection_email_ids": [
+        "1a0af3422a90f0e7"
+      ],
+      "match_methods": [
+        "final_review: same named FDE role; tracker adds audit-experience qualification"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    },
+    {
+      "application_id": "3b87df28d802324f",
+      "company": "Procedo",
+      "role": "Open application",
+      "application_date": "2026-09-10",
+      "rejection_email_ids": [
+        "1a0b0ebe56dd63ca"
+      ],
+      "match_methods": [
+        "final_review: open-application refusal matching direct sent application subject"
+      ],
+      "rejection_dates": [
+        "2026-09-17"
+      ]
+    }
+  ],
+  "unresolved_rejection_metadata": [
+    {
+      "email_id": "1a047926d984a8a1",
+      "company": "loomya",
+      "role": "AI Automation Engineer - Software Development & Integrations",
+      "rejection_date": "2026-08-28",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a047926d984a8a1",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a03e4f840aac1b4",
+      "company": "ntt data",
+      "role": "",
+      "rejection_date": "2026-08-26",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a03e4f840aac1b4",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0a40b79a95b676",
+      "company": "omicronenergy",
+      "role": "AI Software Engineer, 80-100% (f/m/x)",
+      "rejection_date": "2026-09-15",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0a40b79a95b676",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0a37563db73571",
+      "company": "topic software development",
+      "role": "Software Development Engineer in Test (SDET)",
+      "rejection_date": "2026-09-15",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0a37563db73571",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0910e1117217f0",
+      "company": "nebius",
+      "role": "Technical Support Engineer",
+      "rejection_date": "2026-09-11",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0910e1117217f0",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a090928d222a98b",
+      "company": "kilo",
+      "role": "Full-Stack Engineer @Bioma",
+      "rejection_date": "2026-09-11",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a090928d222a98b",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a03d07ad9db7389",
+      "company": "relive",
+      "role": "",
+      "rejection_date": "2026-08-26",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a03d07ad9db7389",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a03cfe7c73c3ef5",
+      "company": "nebuly",
+      "role": "Full-stack Engineer",
+      "rejection_date": "2026-08-26",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a03cfe7c73c3ef5",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a038d53adc346e4",
+      "company": "veeva systems",
+      "role": "Implementation Consultant - Commercial (Remote or Onsite)",
+      "rejection_date": "2026-08-25",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a038d53adc346e4",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a032badbd83c278",
+      "company": "lucid software",
+      "role": "",
+      "rejection_date": "2026-08-24",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a032badbd83c278",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a02c4e1a08fb2e2",
+      "company": "quadcode",
+      "role": "AI Engineer",
+      "rejection_date": "2026-08-23",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a02c4e1a08fb2e2",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a023fc19354d32e",
+      "company": "dgtlmotion",
+      "role": "",
+      "rejection_date": "2026-08-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a023fc19354d32e",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a02366eb8830f82",
+      "company": "beumer group",
+      "role": "Microsoft 365 AI & Automation Specialist (m/f/d)",
+      "rejection_date": "2026-08-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a02366eb8830f82",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fd7c8ec45e52aa",
+      "company": "arize ai",
+      "role": "",
+      "rejection_date": "2026-08-06",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fd7c8ec45e52aa",
+      "reason": "Arize generic outcome ambiguous; separate role-specific Sales rejection exists"
+    },
+    {
+      "email_id": "1a10af3eb56874b7",
+      "company": "dieseo gmbh",
+      "role": "Senior AI & Automation Engineer / Teamlead (m/w/d)",
+      "rejection_date": "2026-10-05",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a10af3eb56874b7",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a10adc6565176de",
+      "company": "accenture",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-10-05",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a10adc6565176de",
+      "reason": "Multiple plausible local requisitions; cannot allocate outcome to one."
+    },
+    {
+      "email_id": "1a10b0dc04f7f79c",
+      "company": "chrono24",
+      "role": "(Senior) Full Stack Engineer (Backend Focus) (m/f/d)",
+      "rejection_date": "2026-10-05",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a10b0dc04f7f79c",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a10850d3254b996",
+      "company": "nomerra",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-10-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a10850d3254b996",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fd6d669e8dc68d",
+      "company": "mindrift",
+      "role": "English_HackerRank_SDET_Cybersecurity",
+      "rejection_date": "2026-08-06",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fd6d669e8dc68d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a105c4952c25cca",
+      "company": "workday",
+      "role": "Software Engineer - API Platform",
+      "rejection_date": "2026-10-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a105c4952c25cca",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0fcb9798ba0b69",
+      "company": "recruitnow",
+      "role": "",
+      "rejection_date": "2026-10-02",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0fcb9798ba0b69",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0f952246d724e0",
+      "company": "Domino Data Lab",
+      "role": "Forward Deployed Engineer, Life Sciences (Barcelona)",
+      "rejection_date": "2026-10-01",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0f952246d724e0",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0d205c9a380a97",
+      "company": "ki performance",
+      "role": "",
+      "rejection_date": "2026-09-24",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0d205c9a380a97",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c9d35db7954ce",
+      "company": "soda data",
+      "role": "",
+      "rejection_date": "2026-09-22",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c9d35db7954ce",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c3ae1fcdb07ab",
+      "company": "develop",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c3ae1fcdb07ab",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0b139123154256",
+      "company": "Domino Data Lab",
+      "role": "Forward Deployed Engineer, Life Sciences (Barcelona)",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0b139123154256",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0afa29c9287103",
+      "company": "netlight",
+      "role": "",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0afa29c9287103",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0af7a34a905849",
+      "company": "treatwell",
+      "role": "",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0af7a34a905849",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0af72c70b08285",
+      "company": "tekst ai",
+      "role": "Solution Engineer - Delivery",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0af72c70b08285",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a084f98d742988a",
+      "company": "tacto",
+      "role": "Product Engineer / Builder",
+      "rejection_date": "2026-09-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a084f98d742988a",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a06c9be4c38dd90",
+      "company": "contentwise",
+      "role": "AI Engineer",
+      "rejection_date": "2026-09-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a06c9be4c38dd90",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a06198deaa4252d",
+      "company": "eit",
+      "role": "Software Engineer - Life AI Platform",
+      "rejection_date": "2026-09-02",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a06198deaa4252d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ff6bc957667f4d",
+      "company": "appfire",
+      "role": "Senior AI Automation Engineer",
+      "rejection_date": "2026-08-12",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff6bc957667f4d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ff63b89619574e",
+      "company": "jethr",
+      "role": "",
+      "rejection_date": "2026-08-12",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff63b89619574e",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fe7bcb795a9558",
+      "company": "jethr",
+      "role": "",
+      "rejection_date": "2026-08-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fe7bcb795a9558",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0f7b787da620f3",
+      "company": "telnyx",
+      "role": "Forward Deployed Engineer, Southern Europe",
+      "rejection_date": "2026-10-01",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0f7b787da620f3",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0f6435e5c8ac2e",
+      "company": "happyrobot inc",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-10-01",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0f6435e5c8ac2e",
+      "reason": "Multiple plausible local requisitions; cannot allocate outcome to one."
+    },
+    {
+      "email_id": "1a0f11bc8a51c0ad",
+      "company": "terranovasoftware",
+      "role": "",
+      "rejection_date": "2026-09-30",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0f11bc8a51c0ad",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0f10ef43bafeb4",
+      "company": "giant swarm",
+      "role": "",
+      "rejection_date": "2026-09-30",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0f10ef43bafeb4",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0ec9bc5be2204c",
+      "company": "giant swarm",
+      "role": "",
+      "rejection_date": "2026-09-29",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0ec9bc5be2204c",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0e934050daa7a0",
+      "company": "veo technologies",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-28",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0e934050daa7a0",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0e8fbee275f919",
+      "company": "prosper ai",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-28",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0e8fbee275f919",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0d440d206787c6",
+      "company": "advisense",
+      "role": "",
+      "rejection_date": "2026-09-24",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0d440d206787c6",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0d2bbc4846d747",
+      "company": "hello again gmbh",
+      "role": "AI Solutions Engineer",
+      "rejection_date": "2026-09-24",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0d2bbc4846d747",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0d20d57dcce69f",
+      "company": "valova",
+      "role": "",
+      "rejection_date": "2026-09-24",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0d20d57dcce69f",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0871d24e613a3b",
+      "company": "remote",
+      "role": "GTM Strategy Principal",
+      "rejection_date": "2026-09-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0871d24e613a3b",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0859446357a45f",
+      "company": "bluecoders",
+      "role": "Product Engineer",
+      "rejection_date": "2026-09-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0859446357a45f",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0804ce26987f98",
+      "company": "v7",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-08",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0804ce26987f98",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a07c3368bb6eaac",
+      "company": "ecosio",
+      "role": "",
+      "rejection_date": "2026-09-07",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a07c3368bb6eaac",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0ce4672d01baee",
+      "company": "nestai",
+      "role": "Forward Deployed Full Stack Engineer",
+      "rejection_date": "2026-09-23",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0ce4672d01baee",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0cdc50ea7d7f32",
+      "company": "logicalis spain",
+      "role": "AI Engineer Junior",
+      "rejection_date": "2026-09-23",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0cdc50ea7d7f32",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c9dd451a78134",
+      "company": "sdg group",
+      "role": "",
+      "rejection_date": "2026-09-22",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c9dd451a78134",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c8e9255fca97a",
+      "company": "durst group",
+      "role": "",
+      "rejection_date": "2026-09-22",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c8e9255fca97a",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c821495939409",
+      "company": "inthepocket",
+      "role": "AI Engineer",
+      "rejection_date": "2026-09-22",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c821495939409",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c454a96a85ad0",
+      "company": "nomos",
+      "role": "",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c454a96a85ad0",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c36d2199f2b03",
+      "company": "merantix momentum",
+      "role": "",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c36d2199f2b03",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c36bf724c76df",
+      "company": "caronsale",
+      "role": "Machine Learning Engineer (m/f/x)",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c36bf724c76df",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c35ae922fdb2d",
+      "company": "aircall",
+      "role": "",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c35ae922fdb2d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c3420284b9365",
+      "company": "sixt germany",
+      "role": "Tech Lead & Product Owner - AI Platform (m/f/d)",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c3420284b9365",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0c2d69bc0d4ccb",
+      "company": "Similarweb",
+      "role": "AI Engineer (AI Platform: Agent Runtime, MCP Servers, Tool Orchestration)",
+      "rejection_date": "2026-09-21",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0c2d69bc0d4ccb",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0be2e5ce0fb71e",
+      "company": "siena ai",
+      "role": "Senior Solutions Engineer",
+      "rejection_date": "2026-09-20",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0be2e5ce0fb71e",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0ba3a615315ea6",
+      "company": "mercura",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-19",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0ba3a615315ea6",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0b8d72039a1c56",
+      "company": "Aircall",
+      "role": "Forward Deployed Engineer (AI Solutions)",
+      "rejection_date": "2026-09-19",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0b8d72039a1c56",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a01a392d68cb79d",
+      "company": "Smartcat",
+      "role": "AI-first QA Engineer",
+      "rejection_date": "2026-08-19",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a01a392d68cb79d",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0167f0956bafbf",
+      "company": "bunch",
+      "role": "(Senior) Backend Engineer",
+      "rejection_date": "2026-08-18",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0167f0956bafbf",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a013fcabb45df89",
+      "company": "factorial",
+      "role": "",
+      "rejection_date": "2026-08-18",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a013fcabb45df89",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a013f03c7ba6c51",
+      "company": "tqgg",
+      "role": "AI Engineer (gn)",
+      "rejection_date": "2026-08-18",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a013f03c7ba6c51",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a00f22ab4c40249",
+      "company": "mayerfeld",
+      "role": "",
+      "rejection_date": "2026-08-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a00f22ab4c40249",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a00b932ac17f5d7",
+      "company": "reverse",
+      "role": "DEPLOYMENT STRATEGIST - AI [REV-2026-NMML8] | Reverse",
+      "rejection_date": "2026-08-16",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a00b932ac17f5d7",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a005822aa5c3fe0",
+      "company": "remote",
+      "role": "Product Manager, Billing Platform",
+      "rejection_date": "2026-08-15",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a005822aa5c3fe0",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a000cf5a2482acd",
+      "company": "aerofoils gmbh",
+      "role": "AI-Driven Digital Systems & Integration Manager (all gender)",
+      "rejection_date": "2026-08-14",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a000cf5a2482acd",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a000499cae3ff8f",
+      "company": "softwareone",
+      "role": "",
+      "rejection_date": "2026-08-14",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a000499cae3ff8f",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fffaa96d3839e7",
+      "company": "lobster",
+      "role": "(Senior) Systems & Integration Specialist",
+      "rejection_date": "2026-08-14",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fffaa96d3839e7",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fff16315c59dc5",
+      "company": "tqgg",
+      "role": "AI Engineer (gn)",
+      "rejection_date": "2026-08-14",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fff16315c59dc5",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ffbe3fbbc150cf",
+      "company": "seamflow",
+      "role": "Founding Engineer",
+      "rejection_date": "2026-08-13",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ffbe3fbbc150cf",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ffa1ee0d2ed020",
+      "company": "Launchmetrics",
+      "role": "Full Stack Software Development Engineer React / Node.js",
+      "rejection_date": "2026-08-13",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ffa1ee0d2ed020",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "19ff9f15596ce37d",
+      "company": "hostaway",
+      "role": "Senior Frontend Engineer - 100% Remote - EMEA",
+      "rejection_date": "2026-08-13",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff9f15596ce37d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ff9832f65176f1",
+      "company": "riverflex",
+      "role": "the AI Full-Stack Product Engineer (Mid-Level)",
+      "rejection_date": "2026-08-13",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff9832f65176f1",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ff658185652a1a",
+      "company": "dwelly",
+      "role": "",
+      "rejection_date": "2026-08-12",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff658185652a1a",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19ff5197cd944edf",
+      "company": "Tandem Health",
+      "role": "AI Engineer",
+      "rejection_date": "2026-08-12",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19ff5197cd944edf",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "19fef83b398d5f42",
+      "company": "commercetools",
+      "role": "AI Engineer (m/f/x)",
+      "rejection_date": "2026-08-11",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fef83b398d5f42",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fea746d1ba69dc",
+      "company": "mindspace",
+      "role": "",
+      "rejection_date": "2026-08-10",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fea746d1ba69dc",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fe5c01e2a26a83",
+      "company": "cloudbeds",
+      "role": "Senior Software Engineer",
+      "rejection_date": "2026-08-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fe5c01e2a26a83",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "19fe5aa588ac1873",
+      "company": "BIT Capital",
+      "role": "AI Engineer",
+      "rejection_date": "2026-08-09",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/19fe5aa588ac1873",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0b694f94811059",
+      "company": "promptlyhealth",
+      "role": "Forward Deployed Engineer",
+      "rejection_date": "2026-09-19",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0b694f94811059",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0b4b56bd49a793",
+      "company": "thoughtworks",
+      "role": "Principal AI Engineer",
+      "rejection_date": "2026-09-18",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0b4b56bd49a793",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0b19304ddf9da3",
+      "company": "juliusbaer",
+      "role": "the position Machine Learning Engineer 100% (f/m/d)",
+      "rejection_date": "2026-09-18",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0b19304ddf9da3",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0aed432d75bfb0",
+      "company": "konfetti gmbh",
+      "role": "Backend Developer - Laravel / AWS (m/f/x) in Berlin",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0aed432d75bfb0",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0aed185dcf3adb",
+      "company": "Aily Labs",
+      "role": "MID AI/ML Engineer",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0aed185dcf3adb",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a0aebc96077fe92",
+      "company": "applied intuition",
+      "role": "Forward Deployed Engineer (EMEA)",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0aebc96077fe92",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0ae97d0a01dc40",
+      "company": "helsing",
+      "role": "Software Engineer (Early Careers)",
+      "rejection_date": "2026-09-17",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0ae97d0a01dc40",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a06c695f64183a2",
+      "company": "oddin",
+      "role": "Data Engineer",
+      "rejection_date": "2026-09-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a06c695f64183a2",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a06c2bc07b7874b",
+      "company": "Finom",
+      "role": "Senior AI Engineer (Remote)",
+      "rejection_date": "2026-09-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a06c2bc07b7874b",
+      "reason": "Recorded application date is later than rejection; earlier application date/receipt needed."
+    },
+    {
+      "email_id": "1a06baa25ea3fa60",
+      "company": "langfuse gmbh prev finto technologies gmbh",
+      "role": "",
+      "rejection_date": "2026-09-04",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a06baa25ea3fa60",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a0671848e3b4bea",
+      "company": "niji",
+      "role": "",
+      "rejection_date": "2026-09-03",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a0671848e3b4bea",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a063f4b5d3e2c1b",
+      "company": "blink ux",
+      "role": "",
+      "rejection_date": "2026-09-02",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a063f4b5d3e2c1b",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a062a1dff9d248d",
+      "company": "papaya global",
+      "role": "AI GTM Engineer",
+      "rejection_date": "2026-09-02",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a062a1dff9d248d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a057459b054ff2b",
+      "company": "fonio",
+      "role": "",
+      "rejection_date": "2026-08-31",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a057459b054ff2b",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a05726613b37b8d",
+      "company": "langfuse gmbh prev finto technologies gmbh",
+      "role": "",
+      "rejection_date": "2026-08-31",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a05726613b37b8d",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    },
+    {
+      "email_id": "1a056da94cbd8689",
+      "company": "the yuki company",
+      "role": "AI Product Engineer",
+      "rejection_date": "2026-08-31",
+      "gmail_url": "https://mail.google.com/mail/u/?authuser=prabhavitg%40gmail.com#all/1a056da94cbd8689",
+      "reason": "No dated, role-specific cohort application or unambiguous company match found."
+    }
+  ]
+}

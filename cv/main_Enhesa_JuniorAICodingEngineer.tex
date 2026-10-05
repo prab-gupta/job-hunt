@@ -1,0 +1,96 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{00686E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
+  \textit{#3} \hfill \textit{#4}\\[2pt]%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2pt, topsep=3pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Junior AI Coding Engineer: Python, Claude Code \& Workflow Automation}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Time Zone / EU Long-Term Resident / Unrestricted EU Work Authorization)}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.18\textwidth}
+  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+\end{minipage}
+\vspace{-2pt}
+
+% ================= SUMMARY =================
+\section{Summary}
+Applied AI and Automation Engineer with 3 years of commercial production experience utilizing AI-assisted development tools (Claude Code, GitHub Copilot, Cursor) to design internal tooling, automate manual workflows, and build resilient Python and JavaScript applications. Proven track record turning complex business requirements and standard operating procedures (SOPs) into maintainable automated scripts, data pipelines, and internal dashboards. Experienced in RESTful API orchestration, SQL database modeling, prompt engineering, and rigorous validation of AI-generated code. Based in Venice, Italy with an EU Long-Term Residence Permit (permanent unrestricted authorization to work across Belgium and the EU, no visa sponsorship required); open to relocate to Brussels or hybrid work.
+
+% ================= TECHNICAL EXPERTISE =================
+\section{Technical Expertise}
+\begin{itemize}
+  \item \textbf{AI-Assisted Development \& Tooling:} Daily use of Claude Code CLI workflows, GitHub Copilot, Cursor AI, prompt engineering, structured output validation, AI code verification and safety guardrails.
+  \item \textbf{Scripting \& Automation:} Python (scripting, BeautifulSoup, Pandas, requests), JavaScript/Node.js, n8n workflow automation, Zapier, Make, automated web scraping and scheduled data processing.
+  \item \textbf{Databases \& Data Modeling:} PostgreSQL, MySQL, SQLite, Supabase, relational schema design, SQL query optimization, data transformation pipelines.
+  \item \textbf{Web Development \& APIs:} RESTful APIs, JSON/XML parsing, webhook architectures, React UI components, TypeScript, HTML5/CSS3.
+  \item \textbf{Engineering Tools \& QA:} Git, GitHub Actions, Postman, Jira, Confluence, regression testing with Playwright and pytest.
+  \item \textbf{Languages \& Work Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Conversational). EU Long-Term Residence Permit (unrestricted EU work authorization, no sponsorship required).
+\end{itemize}
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 -- Aug 2026}{Lead AI Developer \& Automation Engineer}{London, UK (remote)}
+\begin{itemize}
+  \item Built and deployed internal AI automation pipelines and scraper tools using Python and Claude API, automating property data extraction across 9 operators and processing 900+ listings with human-in-the-loop review.
+  \item Integrated external partner REST APIs (OfficeRnD and Nexudus) via OAuth2 and webhooks, automating lead ingestion and booking workflows across CRM and internal databases.
+  \item Streamlined customer service operations by prototyping and launching automated AI query resolution workflows, reducing manual response overhead by 35\%.
+  \item Assisted engineering lead in migrating monolithic legacy application to modern TypeScript/React and Laravel architecture, scaling active user base from 2,000 to 4,500+ users.
+  \item Developed and maintained comprehensive technical documentation, SOPs, and Jira workflows to bridge product specifications between internal teams and external agency partners.
+  \item Leveraged Claude Code and GitHub Copilot to rapidly prototype internal features, write unit tests, and maintain high code quality standards.
+\end{itemize}
+
+\role{Urlink}{Apr 2025 -- Jul 2025}{Data Platform \& AI Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated data extraction and transformation pipelines in Python, structuring unstructured datasets into relational databases.
+  \item Implemented automated text processing and entity extraction workflows leveraging LLMs and strict Pydantic data models.
+  \item Built end-to-end integration test suites with pytest and Playwright to guarantee data accuracy and API contract stability.
+  \item Automated internal reporting workflows, generating daily summaries and alerting mechanisms via Slack and email integrations.
+\end{itemize}
+
+\role{Independent Technical Consultant}{Aug 2023 -- Mar 2024}{AI \& Automation Developer}{Venice, Italy}
+\begin{itemize}
+  \item Engineered a Python-based SEO \& site intelligence crawler using Playwright, BeautifulSoup, and SQLite with an interactive Streamlit analytics dashboard.
+  \item Constructed automated multi-step integration workflows in n8n and Make, connecting CRM databases with Slack notifications, email dispatch, and Google Sheets reporting.
+  \item Implemented rigorous automated test suites using Playwright and pytest to validate scraping scripts against edge-case DOM modifications and network failures.
+  \item Consulted European clients on integrating AI-assisted developer workflows and adopting prompt-engineering best practices.
+\end{itemize}
+
+% ================= EDUCATION & CERTIFICATIONS =================
+\section{Education \& Certifications}
+\role{Ca' Foscari University of Venice}{2020 -- 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\begin{itemize}
+  \item Training in analytical reasoning, formal logic, statistical inference, quantitative economics, and complex systems modeling.
+  \item \textbf{Microsoft Certified:} Copilot Studio Agent Academy, Power Automate Fundamentals
+  \item \textbf{Tray.ai:} Certified Build Practitioner (API Integration \& Workflow Automation)
+\end{itemize}
+
+\end{document}

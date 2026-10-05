@@ -1,0 +1,91 @@
+{
+  "verified_date": "2026-10-02",
+  "dedupe": "All five survivors absent from 9 local application/outreach CSVs and sent-history.json (10 files checked); also checked do-not-repeat records. DSI Design excluded as existing outreach.",
+  "priority": [
+    {
+      "company": "APPSTYX",
+      "email": "jobs@appstyx.com",
+      "email_source": "https://www.appstyx.com/",
+      "contact_excerpt": "Send your CV and a few words about yourself to jobs@appstyx.com",
+      "careers_source": "https://www.appstyx.com/it/",
+      "hiring": "Open Full Stack Engineer, Node.js / TypeScript / Cloud; full-time, remote/hybrid. No minimum years stated for this role.",
+      "services": "Web platforms, scalable APIs/cloud backend, AI integration and enterprise CRM/process automation. Official stack names n8n, OpenAI/Claude APIs, vector databases and RAG.",
+      "fit_hook": "FlowSpace listing extraction and support agents with human review, n8n/API integrations and TypeScript product delivery align with their practical AI integration and enterprise workflows.",
+      "location": "Sesto Fiorentino / Florence, Italy; official address Via San Morese 9, 50019 Sesto Fiorentino.",
+      "remote": "Explicit remote-friendly team; Full Stack Engineer Remote/Hybrid.",
+      "contract": "Full-time employment stated; freelance route unverified.",
+      "language": "English and Italian versions available; no explicit working-language requirement found. Candidate must state professional English and beginner Italian.",
+      "caution": "Apply for full-stack/integrations/AI work, without claiming native mobile, Go/Rust, Kubernetes or ML training expertise."
+    },
+    {
+      "company": "Totaliweb",
+      "email": "jobs@totaliweb.com",
+      "email_source": "https://www.totaliweb.com/it/about/",
+      "contact_excerpt": "Invia una candidatura spontanea (jobs@totaliweb.com)",
+      "services_sources": ["https://www.totaliweb.com/it/about/", "https://www.totaliweb.com/it/agenzia-web-milano/"],
+      "hiring": "Explicit spontaneous-application invitation, no seniority or degree gate stated.",
+      "services": "n8n automation, AI agents, web performance and CRM integrations. About page names Next.js, n8n, OpenAI API and Supabase; Milan service page describes lead routing, CRM synchronization, quotes, email-reading agents and spreadsheet updates.",
+      "fit_hook": "FlowSpace lead capture/enrichment/outbound workflows and document-to-listing AI automation align directly with their n8n CRM automations and AI agents.",
+      "location": "Italian operator Antonio Maraucci trading as Totaliweb; Via Matera Pasquale 14, 80026 Casoria (NA), Italy.",
+      "location_source": "https://www.totaliweb.com/it/terms/",
+      "remote": "Official service-delivery pages say they work remotely across Italy/internationally. This is client-delivery evidence, not a confirmed remote employment policy.",
+      "remote_source": "https://www.totaliweb.com/it/dove-operiamo/",
+      "contract": "Employment/contract type not stated; propose remote collaboration from Venice without asserting their policy.",
+      "language": "English and Italian site versions; no explicit candidate language requirement found.",
+      "caution": "Do not claim a confirmed employee vacancy or remote employment benefit; address spontaneous technical collaboration."
+    }
+  ],
+  "alternates": [
+    {
+      "company": "Seisnet",
+      "email": "cv@seisnet.it",
+      "email_source": "https://www.seisnet.it/chi-siamo-software-house/lavora-con-noi/",
+      "contact_excerpt": "Invia CV e breve presentazione cv@seisnet.it",
+      "requested_subject": "Lavora con Seisnet – [il tuo ruolo]",
+      "hiring": "Explicit spontaneous applications and open backend role requiring PHP/JavaScript plus basic Laravel/Symfony, MySQL and Git.",
+      "careers_source": "https://www.seisnet.it/chi-siamo-software-house/posizioni-aperte/backend-developer/",
+      "services_source": "https://www.seisnet.it/ecommerce/data-integration-ecommerce/",
+      "services": "Custom e-commerce connectors and integration of ERP/CRM/PIM/marketplaces with REST, GraphQL, webhooks and middleware.",
+      "fit_hook": "FlowSpace booking APIs, CRM integration and live data migration are a concrete match for custom connectors and data integration.",
+      "location": "Via E. Reginato 87, Treviso, Italy.",
+      "remote": "Not stated.",
+      "contract": "Not stated.",
+      "language": "No explicit working-language requirement found; site Italian. State beginner Italian honestly.",
+      "caution": "Backend role asks complete PHP/OOP mastery; position as developing full-stack/integration practitioner rather than expert PHP engineer."
+    },
+    {
+      "company": "Enet",
+      "email": "welcome@enet.studio",
+      "email_source": "https://enet.studio/careers",
+      "contact_excerpt": "welcome@enet.studio",
+      "hiring": "Careers page invites spontaneous applications and lists Full Stack Web Developer, Front-End Developer and Junior Laravel Engineer.",
+      "services": "Digital platforms, customer portals, CRM applications, booking and marketing automation are official service categories.",
+      "services_source": "https://enet.studio/careers",
+      "fit_hook": "FlowSpace booking API integrations, CRM automations and migration to Next.js/Laravel are relevant to their customer portals and booking/marketing products.",
+      "location": "Rome, Italy; Via Riccardo Gigante 18, 00143.",
+      "remote": "Not stated; roles labelled Rome.",
+      "contract": "Full-time for listed roles; spontaneous application type Open.",
+      "language": "Not stated.",
+      "caution": "General business contact rather than recruiting mailbox; accepted under explicit hiring signal. Detailed role/spontaneous pages could not be fetched by web tool."
+    },
+    {
+      "company": "Adverteaser",
+      "email": "jobs@adverteaser.com",
+      "email_source": "https://www.adverteaser.com/it/Company/work-with-us",
+      "contact_excerpt": "Manda la tua candidatura spontanea ... Inviala qui jobs@adverteaser.com",
+      "hiring": "Open full-stack PHP/Laravel/Node.js web developer, preferably 1–2 years; equivalent culture accepted instead of CS degree.",
+      "services": "Custom client web solutions and maintaining/improving existing online applications.",
+      "fit_hook": "Maintaining FlowSpace, live migration, client-facing coordination and booking integrations align with improving existing web products and shipping new client solutions.",
+      "location": "Role on-site Vercelli; company also has Milan office.",
+      "remote": "No; listed job explicitly on-site.",
+      "contract": "Permanent employment, CCNL Commercio.",
+      "language": "Good written/spoken English explicitly required; no explicit Italian proficiency bar.",
+      "caution": "Presence/relocation needs discussion; do not promise a move or claim PHP mastery."
+    }
+  ],
+  "withheld": [
+    {"company": "DSI Design", "reason": "Already in loop/outreach.csv and loop/outreach (1).csv, sent September 9."},
+    {"company": "DomusFlow", "reason": "Good stack/contact but official footer contains placeholder P.IVA 12345678901; credibility unresolved, do not use now."},
+    {"company": "geOracle", "reason": "Good Next.js/Supabase/LLM role but Italy geography unverified and application form is preferred route; not needed for this email batch."}
+  ]
+}
