@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**72** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**71** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -77,7 +77,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 
-## Captcha (19)
+## Captcha (18)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -99,4 +99,3 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Platform Engineering | AI Content Systems Engineer (Senior AI Automation & Systems Engineer) | captcha | [https://jobs.ashbyhq.com/platform-engineering/74b71fcb-23af-4181-b26b-8709adf38cc2](<https://jobs.ashbyhq.com/platform-engineering/74b71fcb-23af-4181-b26b-8709adf38cc2>) | parked_captcha: invisible reCAPTCHA \| Fully remote, open to applicants based in Europe (Berlin-listed). Years unstated (Senior title); builds automation pipelines/agents, n8n/AirOps. Found via hiringcafe; Ashby API open 2026-10-03. \| sweep10 \| migrated:sweep+s10+o10 | Solve the captcha on this posting. |
 | Creatio | AI Associate | captcha | [https://jobs.eu.lever.co/creatio/b0a31df0-543c-4f33-8109-17b9677a6094](<https://jobs.eu.lever.co/creatio/b0a31df0-543c-4f33-8109-17b9677a6094>) | parked_captcha: hCaptcha \| Poland, remote. 1+ yr hands-on in software/automation/AI; configures AI agents and workflows on Creatio platform; English JD, no Polish requirement seen. Found via hiringcafe; Lever API open 2026-10-03. \| sweep10 \| migrated:sweep+s10+o10 | Solve the captcha on this posting. |
 | Mobilexpense | Junior AI Engineer | captcha | [https://www.linkedin.com/jobs/view/4474306663/](<https://www.linkedin.com/jobs/view/4474306663/>) | parked_captcha: hCaptcha \| Brussels, Belgium. Junior (0-2 yrs), degree or equivalent; English fluency only listed, no Dutch/French requirement. LinkedIn listing, external apply (not Easy Apply). Verified open 2026-10-03. Pay unstated, could be low for a junior. \| sweep10 \| migrated:s10+o10 | Solve the captcha on this posting. |
-| Customs Support Group | Customs AI Integration & Automation Engineer (Poland) | captcha | [https://customssupport.recruitee.com/o/customs-ai-integration-automation-engineer-poland](<https://customssupport.recruitee.com/o/customs-ai-integration-automation-engineer-poland>) | Form fully filled with bespoke CV & cover letter; interactive hCaptcha (drag animal into silhouette) appeared on submit. Solve captcha on Chrome tab 0 and click Send. | Solve the captcha on this posting. |
