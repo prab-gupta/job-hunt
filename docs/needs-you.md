@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**69** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**68** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -77,14 +77,13 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 
-## Captcha (16)
+## Captcha (15)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
 | Okta | Associate Solutions Engineer, Auth0 | captcha | [https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192](<https://www.okta.com/company/careers/opportunity/8220192?gh_jid=8220192>) | parked: reCAPTCHA required at submit, answers ready (partner relationships No, outside business No, prior Okta No); not submitted | Solve the captcha on this posting. |
 | Oxylabs | AI Engineer | captcha | [https://jobs.lever.co/oxylabs/96b1e88d-539c-4df4-a844-67af1f507e67](<https://jobs.lever.co/oxylabs/96b1e88d-539c-4df4-a844-67af1f507e67>) | parked: hCaptcha at submit on Lever, form and CV ready; user to solve or retry; not submitted | Solve the captcha on this posting. |
 | Lleverage | Forward Deployed AI Engineer | captcha | [https://www.linkedin.com/jobs/view/4465027334](<https://www.linkedin.com/jobs/view/4465027334>) | parked: hCaptcha at submit, user to solve https://lleverage.recruitee.com/o/forward-deployed-ai-engineer-1/c/new; not submitted | Solve the captcha on this posting. |
-| Metyis | AI Solutions Engineer | captcha | [https://www.linkedin.com/jobs/view/4463225693](<https://www.linkedin.com/jobs/view/4463225693>) | needs user: image captcha on Recruitee form (https://metyisag.recruitee.com/o/ai-solutions-engineer-5/c/new) | Solve the captcha on this posting. |
 | SoftwareOne | Power Platform & Copilot Engineer | captcha | [https://www.linkedin.com/jobs/view/4470089517](<https://www.linkedin.com/jobs/view/4470089517>) | parked: hCaptcha on iCIMS login https://careers-softwareone.icims.com/jobs/31034/power-platform-%26-copilot-engineer/login; not submitted | Solve the captcha on this posting. |
 | C12 | AI Automation Engineer | captcha | [https://www.linkedin.com/jobs/view/4470464023](<https://www.linkedin.com/jobs/view/4470464023>) | Form fully completed with bespoke 2-page CV (cv/main_C12_AIAutomationEngineer.pdf) and answers on Lever; submit requires interactive hCaptcha challenge in Chrome tab 0. | Solve the captcha on this posting. |
 | Zeit AI | Forward-Deployed Engineer (f/m/d) | captcha | [https://jobs.ashbyhq.com/zeit-ai/a4c51bad-0186-4619-b3a0-6656bf51dd51](<https://jobs.ashbyhq.com/zeit-ai/a4c51bad-0186-4619-b3a0-6656bf51dd51>) | parked_captcha: Ashby spam flag \| Munich, Germany, in-person with relocation support within Europe. Years unstated; German is a plus, not required. Found via deployaijobs.com; Ashby API confirms open 2026-10-03. \| sweep10 \| migrated:sweep+s10+o10 | Solve the captcha on this posting. |
