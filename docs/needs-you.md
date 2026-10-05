@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**56** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**57** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — human sign-in (1)
 
@@ -51,7 +51,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | AI Futures | AI Engineer Full Stack - Agentic AI Team Build-Out | no_confirm | [https://www.linkedin.com/jobs/view/4471757393](<https://www.linkedin.com/jobs/view/4471757393>) | Recruiter role for German energy startup building agentic AI service line; full-stack TS/Python + LLM agents + client-facing; no German stated; posted 2026-09-29 \| Munich, Germany (Bavaria); yrs unstated \| sweep12 \| on-screen LinkedIn Easy Apply confirmation verified ("Application submitted") | Check Gmail and the portal. There is no application confirmation on file. |
 | Duferco Group | Forward Deployed Engineer | no_confirm | [https://duferco.talentics.ai/auth](<https://duferco.talentics.ai/auth>) | awaiting_confirm: submitted via Duferco Talentics portal on 2026-10-03 with bespoke 2-page CV and cover letter; status on applicant portal verified as Under Review (Applied Oct 3, 2026). | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (22)
+## Other (23)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -77,6 +77,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | OptiComm.ai | Junior AI Engineer | other | [https://www.linkedin.com/jobs/view/4473789371](<https://www.linkedin.com/jobs/view/4473789371>) | Junior-level AI agents/LLM role, matches ~3yrs/no-degree level; ML-heavy flag (borderline); posted 2026-09-30 \| Bucharest, Romania; junior \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 | team.it | AI Developer | other | [https://www.linkedin.com/jobs/view/4471336895](<https://www.linkedin.com/jobs/view/4471336895>) | English-speaking AI dev, 3+ yrs matches; LLM/GenAI + API integration but ML/MLOps leaning - borderline; posted 2026-09-28 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
 | Aubay Portugal | Middle AI Engineer | other | [https://www.linkedin.com/jobs/view/4474369271](<https://www.linkedin.com/jobs/view/4474369271>) | GenAI/OpenAI hands-on Python, English B2 only, 3+yrs matches; consulting-style projects - borderline; posted 2026-10-01 \| Lisbon, Portugal (hybrid); 3+ yrs \| sweep12 \| LinkedIn daily Easy Apply submission limit reached on 2026-10-04; retry tomorrow |  |
+| Action1 | Applied AI Engineer | other | [https://www.linkedin.com/jobs/view/4464500779/](<https://www.linkedin.com/jobs/view/4464500779/>) | parked 2026-10-05: Anti-AI screening question: ''Please answer in your own words, without using AI: What experience do you have implementing RAG solutions for real business or product needs, describing the problem, your role and the outcome.'' Bespoke 2-page CV cv/main_Action1_AppliedAIEngineer.pdf ready, draft saved in LinkedIn Easy Apply. | Write the required answer yourself. |
 
 ## Captcha (2)
 
