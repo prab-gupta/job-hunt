@@ -1,91 +1,108 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{titlesec}
 
-\definecolor{accent}{HTML}{0B465E}
-\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
-\pagenumbering{arabic}
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
-\titlespacing{\section}{0pt}{7pt}{4pt}
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
 
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
 \newcommand{\role}[4]{%
-  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
-  \textit{#3} \hfill \textit{#4}\\[2pt]%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER =================
+% ================= HEADER (HEADLINE is tailored) =================
 \begin{minipage}[c]{0.80\textwidth}
-  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
-  {\color{accent}\large AI Engineer: Agentic Systems, Automated Detection \& Workflow Intelligence}\\[6pt]
-  {\footnotesize +39 351 610 7807 ~$\vert$~
-  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
-  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
-  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
-  Venice, Italy}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large AI Engineer: Multi-Agent Architectures, Threat Automation \& Production LLM Systems}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
 \end{minipage}\hfill
-\begin{minipage}[c]{0.18\textwidth}
-  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
-\end{minipage}
-\vspace{-2pt}
 
-% ================= SUMMARY =================
+% ================= SUMMARY (tailored) =================
 \section{Summary}
-AI Engineer with 3 years of hands-on experience designing, shipping, and evaluating production LLM agents, automated data parsing systems, and resilient workflow pipelines across European tech platforms. At FlowSpace, architected multi-step autonomous agents utilizing live REST API function calling and tool use with confidence evaluation, built automated data ingestion and extraction bots processing 900+ structured records, and implemented comprehensive regression testing with Playwright to maintain high fidelity across production agent runs. Skilled in prompt engineering, structured JSON validation, API integrations, and Python scripting. Based in Venice, Italy with an EU Long Term Residence Permit (unrestricted EU work authorization without sponsorship). Immediately available.
+Applied AI engineer and software developer based in Venice, Italy with unrestricted European work authorization and immediate availability for French and European remote roles. Specializes in multi-agent orchestration, automated threat and anomaly detection workflows, and production LLM engineering using Python, LangChain, and GCP/AWS cloud services. Proven experience architecting autonomous agents with strict guardrails and human-in-the-loop validation at FlowSpace, processing high-volume multi-modal data streams and automating triage across complex platform requests. Brings a builder/hacker mindset, deep fluency in prompt engineering and RAG, and solid foundations in asynchronous Python services.
 
-% ================= TECHNICAL EXPERTISE =================
-\section{Technical Expertise}
-\begin{itemize}
-  \item \textbf{AI Systems \& Agents:} Autonomous agent workflows, Multi-agent concepts, LLM tool calling, Function calling, Prompt engineering, Structured JSON schemas, Context management, OpenAI, Anthropic, Gemini APIs.
-  \item \textbf{Software \& Automation Engineering:} Python (working level), TypeScript, JavaScript, Node.js, RESTful API architecture, Playwright, n8n, Webhooks, Supabase, PostgreSQL, Docker, Git.
-  \item \textbf{Systems \& Threat Detection Focus:} Traffic analysis automations, Anomaly inspection, API integrity, Automated regression testing, Data parsing pipelines.
-  \item \textbf{Languages \& Authorization:} Hindi (Native), English (C1 Professional), Italian (Beginner). European Long Term Residence Permit (No EU sponsorship required).
-\end{itemize}
-
-% ================= EXPERIENCE =================
+% ================= EXPERIENCE (frozen) =================
 \section{Experience}
 
 \role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
 \begin{itemize}
-  \item Architected and deployed production customer support AI agents using LLM tool calling and live REST API function calling to query platform availability and execute bookings, with confidence thresholds and fallback routing.
-  \item Built an automated knowledge ingestion and listing bot with human-in-the-loop review: parsed heterogeneous documents (PDFs, spreadsheets, web pages) into structured database records using LLM extraction prompts, creating 900+ verified listings.
-  \item Engineered agentic developer workflows and tooling using Claude Code, TypeScript, and automated testing, accelerating feature delivery cycles across the engineering team.
-  \item Directed platform architecture migration off a legacy stack to a modern Next.js, TypeScript, and Laravel backend, establishing reliable schema contracts and API specifications.
-  \item Integrated external REST APIs (OfficeRnD, Nexudus, Stripe) with idempotent event handling and automated webhook reconciliation.
-  \item Implemented token tracking, prompt versioning, and end-to-end regression testing with Playwright to maintain high output fidelity across production agent runs.
-  \item Scaled platform user base from 2,000 to 4,500+ active users through iterative product engineering and resilient backend automations.
+ \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
+ \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
+ \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
+ \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
+ \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
+ \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
 \end{itemize}
 
-\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI Assisted Developer (Freelance)}{Barcelona, Spain (remote)}
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
 \begin{itemize}
-  \item Led technical delivery of AI-assisted web applications, coordinating API contracts, database schemas, and external integrations.
-  \item Evaluated commercial LLM APIs (OpenAI, Anthropic) across task types, optimizing prompt structures and model selection for latency and output consistency.
-  \item Implemented automated CI/CD checks and test suites, ensuring clean code releases and minimal deployment regressions.
+ \item Built automated workflows and structured customer-facing demos with AI agents for client onboarding and document ingestion.
+ \item Managed project delivery end to end: mapped stakeholder requirements, built proof-of-concept prototypes, coordinated testing, and handed over documentation to client teams.
+ \item \textit{Tools: Claude Code, Python, APIs, Postman, Supabase}
 \end{itemize}
 
-\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Solutions \& Automation Engineer}{Venice, Italy}
+\role{Freelance}{Sep 2023 - Mar 2024}{Full-Stack AI \& Automation Developer}{Venice, Italy}
 \begin{itemize}
-  \item Developed custom AI automations, agent prototypes, and data extraction pipelines for European SME clients using n8n, Playwright, and LLM APIs.
-  \item Implemented idempotent webhook listeners and CRM data synchronization flows, replacing error-prone manual administrative processes.
-  \item Built prototype RAG inquiry assistants integrated with company documentation for rapid customer response triage.
+ \item Built web scrapers, data enrichment pipelines, and custom API integrations for clients across Europe.
+ \item Developed internal tools with modern frontend frameworks and backend scripts, automating repetitive manual data entry.
+ \item \textit{Tools: TypeScript, Python, n8n, Supabase, REST APIs}
 \end{itemize}
 
-% ================= EDUCATION =================
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
+ \item \textit{Tools: Figma, Sendgrid, ChatGPT}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
 \section{Education}
-\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
 \begin{itemize}
-  \item In-depth focus on formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
+ \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
+\end{itemize}
+
+% ================= CORE SKILLS (tailored, at the bottom) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{Multi-Agent Systems \& AI Architecture:} Autonomous agent frameworks (CrewAI, LangGraph, LangChain), multi-agent consensus, structured tool use, prompt engineering, RAG pipelines
+ \item \textbf{Threat Automation \& Triage:} Automated traffic analysis, behavioral anomaly detection, prompt injection mitigation, synthetic pattern recognition, SOC triage automation
+ \item \textbf{Cloud \& Backend Infrastructure:} Python (asyncio), GCP (Cloud Run, Cloud Functions), Docker containerization, REST APIs, Supabase, PostgreSQL, Redis caching
+ \item \textbf{Engineering Rigor \& Delivery:} Clean code, Git, automated test suites (Playwright, PyTest), Postman, CI/CD pipeline automation, technical documentation
 \end{itemize}
 
 \end{document}
