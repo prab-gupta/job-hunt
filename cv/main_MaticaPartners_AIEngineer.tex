@@ -1,91 +1,112 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{titlesec}
 
-\definecolor{accent}{HTML}{00686E}
-\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
-\pagenumbering{arabic}
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
-\titlespacing{\section}{0pt}{7pt}{4pt}
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
 
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
 \newcommand{\role}[4]{%
-  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
-  \textit{#3} \hfill \textit{#4}\\[2pt]%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER =================
+% ================= HEADER (HEADLINE is tailored) =================
 \begin{minipage}[c]{0.80\textwidth}
-  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
-  {\color{accent}\large AI Engineer: Generative AI, Multi-Agent Systems \& Claude Code}\\[6pt]
-  {\footnotesize +39 351 610 7807 ~$\vert$~
-  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
-  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
-  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
-  Venice, Italy (CET Time Zone / EU Permanent Resident / Unrestricted EU Work Authorization)}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large AI Engineer: Generative AI, Multi-Agent Systems (LangGraph) \& Production LLM Pipelines}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
 \end{minipage}\hfill
 \begin{minipage}[c]{0.18\textwidth}
-  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
+ \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
 \end{minipage}
 \vspace{-2pt}
 
-% ================= SUMMARY =================
+% ================= SUMMARY (tailored) =================
 \section{Summary}
-Applied AI and Data Systems Engineer with 3 years of commercial production experience developing Generative AI applications, autonomous multi-agent loops, and robust Python backend services. Deep hands-on experience integrating frontier LLMs via APIs (Anthropic Claude, OpenAI, Google Gemini) and accelerating software delivery using AI coding agents (Claude Code, Cursor, Antigravity). Skilled in vector databases, embedding generation, semantic search, and building resilient data pipelines that transform enterprise data into production AI capabilities. Based in Venice, Italy (CET time zone) with an EU Long-Term Residence Permit (permanent unrestricted EU work authorization across Spain and all EU member states, no sponsorship required); available immediately for full-time remote roles.
+Generative AI engineer and systems developer based in Venice, Italy with unrestricted European work authorization and prior client project experience in Barcelona, Spain. Specializing in multi-agent orchestration (LangGraph and LangChain concepts), conversational data assistants, and production LLM integration via APIs. At FlowSpace, served as Lead Developer architecting autonomous document processing bots (900+ listings drafted) and deploying support agents connected to live operational databases. Experienced in Python, structured query generation from natural language, and low-latency API architectures; available immediately across the EU and Spain.
 
-% ================= TECHNICAL EXPERTISE =================
-\section{Technical Expertise}
-\begin{itemize}
-  \item \textbf{Generative AI \& Multi-Agent Systems:} Claude 3.5 Sonnet, GPT-4o, Google Gemini, multi-agent architectures (LangGraph, CrewAI), Model Context Protocol (MCP), tool-calling, reflection loops.
-  \item \textbf{AI-Assisted Development Tooling:} Claude Code CLI workflows, Cursor AI, Antigravity agentic harness, prompt engineering, automated prompt evaluation suites.
-  \item \textbf{Vector Search \& Embeddings:} Vector databases (Chroma, Qdrant, PGVector), dense embeddings, semantic search, hybrid retrieval, semantic chunking, and Redis caching.
-  \item \textbf{Data Engineering \& Backend:} Python (FastAPI, asyncio, Pydantic, requests), PostgreSQL (query optimization, schema modeling), Docker containerization, RESTful APIs, ETL pipelines.
-  \item \textbf{Observability \& Quality:} Automated regression testing with pytest and Playwright, structured logging, CI/CD with GitHub Actions.
-  \item \textbf{Languages \& Authorization:} English (C1 Professional, fluent), Hindi (Native), Italian (Conversational). EU Long-Term Residence Permit (unrestricted EU work authorization across Spain and all EU member states, no sponsorship required).
-\end{itemize}
-
-% ================= EXPERIENCE =================
+% ================= EXPERIENCE (frozen) =================
 \section{Experience}
 
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Engineer \& Multi-Agent Architect}{London, UK (remote)}
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
 \begin{itemize}
-  \item Architected and deployed enterprise Generative AI applications and multi-agent workflows in Python (FastAPI) serving 4,500+ users with 99.8\% availability.
-  \item Integrated LLM APIs (Claude, OpenAI, Gemini) and created custom Model Context Protocol (MCP) servers allowing agents to safely inspect data and execute structured operations.
-  \item Accelerated software delivery across the engineering team by integrating Claude Code and Cursor into development lifecycles, cutting feature prototyping time by 50\%.
-  \item Implemented semantic search engines and vector retrieval architectures using PGVector and Redis, achieving sub-200ms query latency across complex documentation.
-  \item Established automated evaluation pipelines on GitHub Actions to benchmark hallucination rates, token efficiency, and response latency.
+ \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
+ \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
+ \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
+ \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
+ \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
+ \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
 \end{itemize}
 
-\role{Urlink}{Apr 2025 - Jul 2025}{Data Platform \& AI Developer (Freelance)}{Barcelona, Spain (remote)}
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
 \begin{itemize}
-  \item Developed automated data extraction and transformation pipelines in Python, structuring unstructured datasets into relational databases.
-  \item Implemented automated text processing and entity extraction workflows leveraging LLMs and strict Pydantic data models.
-  \item Built end-to-end integration test suites with pytest and Playwright to guarantee data accuracy and API contract stability.
+ \item Built automated workflows and structured customer-facing demos with AI agents for client onboarding and document ingestion.
+ \item Managed project delivery end to end: mapped stakeholder requirements, built proof-of-concept prototypes, coordinated testing, and handed over documentation to client teams.
+ \item \textit{Tools: Claude Code, Python, APIs, Postman, Supabase}
 \end{itemize}
 
-\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{Applied AI \& Python Developer}{Venice, Italy}
+\role{Freelance}{Sep 2023 - Mar 2024}{Full-Stack AI \& Automation Developer}{Venice, Italy}
 \begin{itemize}
-  \item Developed custom GenAI chatbots, RAG pipelines, and automated reporting microservices for European SMB clients.
-  \item Provisioned self-hosted vector stores and backend APIs on cloud Linux instances using Docker.
-  \item Authored technical architecture runbooks and developer guidelines for client engineering teams.
+ \item Built web scrapers, data enrichment pipelines, and custom API integrations for clients across Europe.
+ \item Developed internal tools with modern frontend frameworks and backend scripts, automating repetitive manual data entry.
+ \item \textit{Tools: TypeScript, Python, n8n, Supabase, REST APIs}
 \end{itemize}
 
-% ================= EDUCATION =================
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
+ \item \textit{Tools: Figma, Sendgrid, ChatGPT}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
 \section{Education}
-\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
 \begin{itemize}
-  \item Rigorous training in formal logic, statistical inference, quantitative economics, and complex systems modeling.
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), EOR ready, no sponsorship needed in EU. Available immediately.
+ \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
+\end{itemize}
+
+% ================= CORE SKILLS (tailored, at the bottom) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{Multi-Agent Systems \& GenAI:} Multi-agent graphs (LangGraph concepts), natural language to data queries, tool calling, RAG pipelines, contextual memory
+ \item \textbf{Production LLM APIs \& Tooling:} Claude Code, OpenAI API, Anthropic API, structured schema enforcement, prompt engineering, evaluation baselines
+ \item \textbf{Backend Architecture \& APIs:} Python (asyncio, FastAPI), TypeScript, Node.js, Laravel, RESTful APIs, webhooks, microservices
+ \item \textbf{Data \& Reliability:} Vector databases (pgvector, Chroma), Docker, CI/CD, Git/GitHub, Playwright test automation, token and latency profiling
 \end{itemize}
 
 \end{document}
