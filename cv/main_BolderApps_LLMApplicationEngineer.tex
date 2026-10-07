@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large LLM Application Engineer: Multimodal Pipelines, Structured Extraction \& Evals}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy (Remote / US Eastern Overlap Ready)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+LLM Application Engineer with 3+ years of production experience architecting end-to-end AI pipelines, multimodal extraction workflows, and evaluation harnesses. Deep hands-on expertise building resilient structured extraction systems that transform unstructured inputs (PDFs, images, emails, complex HTML) into validated schema-conforming database records. Skilled in leveraging Google Gemini, Anthropic Claude, and OpenAI models with rigorous token budgeting, prompt versioning, confidence scoring, and automated golden-set regression testing. Proven track record operating in fast-paced product studios and agency environments, collaborating seamlessly with cross-functional teams across US hours to ship observable, cost-effective serverless pipelines.
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Architected and operated end-to-end multimodal data ingestion pipelines, extracting structured entities and booking parameters from mixed formats (PDFs, invoices, images, spreadsheets) for 4,500+ active enterprise users.
+ \item Implemented strict JSON Schema validation and fallback mechanisms on model outputs (Google Gemini, Anthropic Claude), eliminating extraction errors and preventing malformed records from persisting to databases.
+ \item Designed and maintained offline evaluation harnesses using golden benchmark datasets to test precision, recall, and edge-case handling before deploying model or prompt updates.
+ \item Profiled latency and token expenditure across model tiers, introducing semantic caching and optimized prompt framing to slash inference expenses while maintaining high extraction fidelity.
+ \item Built asynchronous event-driven queues with retry mechanisms, idempotency keys, and dead-letter alerting to handle long-running extraction jobs reliably.
+ \item Automated continuous integration and test verification using GitHub Actions and Docker, ensuring zero regressions on live production endpoints.
+ \item \textit{Tools: Python, Google Gemini API, Anthropic Claude API, OpenAI API, TypeScript, PostgreSQL, Supabase, Docker, Linux}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+ \item Delivered custom client onboarding automation and structured data extraction workflows for European client accounts.
+ \item Established automated API validation pipelines connecting third-party platforms to PostgreSQL databases, guaranteeing data consistency.
+ \item Managed project delivery end-to-end: gathered client requirements, designed technical architectures, and delivered complete operational runbooks.
+ \item \textit{Tools: Python, TypeScript, Claude Code, REST APIs, Supabase}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+ \item Developed and deployed custom automated integration test scripts, webhook listeners, and web scraping pipelines using Python, TypeScript, and n8n.
+ \item Replaced brittle manual verification processes with automated regression test flows, featuring robust retry mechanisms, error alerting, and structured reporting.
+ \item Documented testing procedures, test coverage matrices, and API contracts for client engineering teams.
+ \item \textit{Tools: Python, TypeScript, n8n, Supabase, Webhooks, REST APIs}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+ \item Integrated LLM API workflows and email verification services, debugged responsive web applications, and built test scenarios for core user funnels.
+ \item \textit{Tools: OpenAI API, Sendgrid, Figma, REST APIs}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), unrestricted EU work authorization. Available immediately.
+ \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (beginner).
+ \item \textbf{Availability:} Available for full-time / retainer commitments; comfortably overlaps US Eastern Time.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{LLM Engineering \& Multimodal AI:} Google Gemini (multimodal document/image extraction), Anthropic Claude, OpenAI, structured JSON outputs, prompt engineering, context management, taxonomy classification.
+ \item \textbf{Evaluation \& Quality Systems:} Offline eval harnesses, golden dataset benchmarking, regression test suites, token budget optimization, hallucination prevention, confidence thresholds.
+ \item \textbf{Backend \& Cloud Systems:} Python, TypeScript, Node.js, Cloud Functions, serverless architectures, RESTful API design, PostgreSQL, Supabase, Redis, Docker containerization.
+ \item \textbf{Developer Workflows \& Reliability:} Claude Code, GitHub Actions CI/CD, asynchronous job queues, idempotent retries, comprehensive technical runbooks.
+\end{itemize}
+
+\end{document}
