@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior AI Developer: AWS Bedrock, Claude, RAG, MCP Tools \& Automation}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Unrestricted EU Permanent Resident $\vert$ Full Remote)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Senior AI Developer and Automation Engineer with 3 years of commercial experience designing, building, and deploying production LLM applications, end-to-end RAG pipelines, and intelligent automated tooling. Hands-on expertise with AWS Bedrock (Claude models, Knowledge Bases), serverless Python architectures (AWS Lambda, API Gateway), vector search (OpenSearch, pgvector), and Model Context Protocol (MCP) integrations. Proven track record building automated failure triage systems, structured JSON output validation, and evaluation guardrails integrated into high-throughput CI/CD pipelines. Permanent EU resident (Permesso di Soggiorno UE a Tempo Indeterminato), immediate remote start.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Developer \& Automation Systems Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed automated failure triage and analysis pipelines using AWS Bedrock and Claude, classifying stack traces and system logs into structured remediation categories with 94\% accuracy.
+  \item Built end-to-end enterprise RAG architectures incorporating document ingestion, semantic chunking, embeddings, vector database retrieval (OpenSearch Serverless, pgvector), and grounded synthesis.
+  \item Implemented serverless backend services in Python 3.12 (AWS Lambda, API Gateway, FastAPI) providing sub-second AI inference endpoints for CI/CD workflow automation.
+  \item Developed agentic developer tooling using Model Context Protocol (MCP) servers and Cursor IDE rules, accelerating test generation and routine codebase triage.
+  \item Implemented automated evaluation harnesses and guardrails (LangSmith, PyTest) ensuring consistent structured JSON outputs and mitigating hallucinations below 1.5\%.
+  \item \textit{Tools: Python 3.12, AWS Bedrock, Anthropic Claude, OpenSearch, RAG, MCP, AWS Lambda, FastAPI, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Systems \& Pipeline Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated document extraction and classification pipelines leveraging LLMs and embeddings connected to PostgreSQL/Supabase stores.
+  \item Implemented structured schema validation layers in Python, ensuring resilient data processing across automated regression workflows.
+  \item Designed RESTful API connectors integrating autonomous agent outputs into enterprise platforms.
+  \item \textit{Tools: Python, REST APIs, Embeddings, PostgreSQL, Supabase, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Solutions Developer}{Venice, Italy}
+\begin{itemize}
+  \item Built custom conversational AI agents, RAG search engines, and automated workflow triggers for European business clients.
+  \item Integrated external APIs, webhooks, and tool-calling logic to automate diagnostic data retrieval and system reporting.
+  \item Authored technical architecture runbooks, prompt engineering guidelines, and deployment specifications for client engineering teams.
+  \item \textit{Tools: Python, LangChain, OpenAI API, AWS, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU (B2B, employment contract). No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working intermediate).
+  \item \textbf{Availability:} Available immediately for full-time remote roles.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{AWS AI Services:} AWS Bedrock, Claude Models, Bedrock Knowledge Bases, AWS Lambda (Python 3.12), API Gateway, CloudWatch.
+  \item \textbf{RAG \& Vector Stores:} Ingestion Pipelines, Semantic Chunking, Embeddings, OpenSearch Serverless, pgvector, ChromaDB.
+  \item \textbf{AI Agentic Tooling \& Protocols:} Model Context Protocol (MCP), Cursor IDE workflows, Tool Calling, Structured JSON Outputs.
+  \item \textbf{Backend \& Automation:} Python 3.12, FastAPI, REST APIs, Docker, CI/CD (Jenkins, GitHub Actions), PyTest, Git.
+  \item \textbf{Evaluation \& Reliability:} Prompt Engineering, Safety Guardrails, Evals (LangSmith), Automated Failure Triage.
+\end{itemize}
+
+\end{document}
