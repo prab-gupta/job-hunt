@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Middle Python Developer (ML): RAG, Hybrid Search \& LLM Systems}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy (Remote EU / Full Work Authorization)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Middle Python Developer with 3 years of commercial software engineering experience specializing in production LLM systems, RAG architectures, and information structuring. Hands-on expertise building hybrid search retrieval pipelines combining dense vector embeddings with keyword indexing, context-aware chunking, and metadata enrichment. Proven track record designing offline evaluation harnesses, optimizing prompt-model performance, and structuring unstructured technical documentation into validated relational and entity-linked schemas. Self-driven engineer experienced in owning features end-to-end---from ingestion architecture and model experimentation through automated CI/CD and production deployment.
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Designed and implemented end-to-end Python retrieval and ingestion pipelines, processing unstructured technical documentation and booking records for 4,500+ active enterprise users.
+ \item Built hybrid search architecture integrating dense vector embeddings (OpenAI, Gemini) with PostgreSQL full-text search, tuning chunking strategies and metadata filters to optimize retrieval relevance.
+ \item Implemented schema validation and confidence scoring on LLM outputs, preventing hallucinated entities from reaching downstream services and databases.
+ \item Engineered offline evaluation benchmarks with golden query-response sets, tracking retrieval precision, token expenditure, and latency across prompt and embedding iterations.
+ \item Developed asynchronous job queues and retry handlers with idempotent transaction keys to process large multi-document batches reliably.
+ \item Automated continuous integration and testing using GitHub Actions and Docker, maintaining high test coverage across core ingestion and search APIs.
+ \item \textit{Tools: Python, RAG, Vector Embeddings, Hybrid Search, PostgreSQL, Supabase, Docker, Linux}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+ \item Built Python data transformation and entity extraction scripts connecting client documentation streams to structured PostgreSQL databases.
+ \item Automated API verification pipelines and schema validation routines, ensuring data integrity across interconnected business platforms.
+ \item Managed technical project execution end-to-end: gathered functional specifications, mapped entity relationships, and produced clear technical documentation.
+ \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, TypeScript}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+ \item Developed automated scraping and ingestion pipelines in Python, extracting structured domain data and technical catalog content from web sources.
+ \item Created custom evaluation scripts and webhook monitors to detect payload drift and schema mismatches between API endpoints.
+ \item Documented data schemas, entity models, and API integration runbooks for engineering stakeholders.
+ \item \textit{Tools: Python, Supabase, Webhooks, REST APIs, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+ \item Built automated workflows integrating LLM endpoints for text processing, verification flows, and user notifications.
+ \item \textit{Tools: Python, OpenAI API, Sendgrid, REST APIs}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), unrestricted EU work authorization (Partita IVA / B2B ready). No sponsorship required.
+ \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (beginner).
+ \item \textbf{Availability:} Available immediately for full-time remote roles across European time zones.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{Python \& AI Engineering:} Python, LLMs (OpenAI, Anthropic Claude, Google Gemini), RAG architecture, vector embeddings, chunking strategies, metadata enrichment, prompt design.
+ \item \textbf{Retrieval \& Search:} Hybrid search (dense vector retrieval + sparse keyword search), relevance tuning, reranking, semantic filtering, knowledge structuring.
+ \item \textbf{Evaluation \& Quality:} Offline eval harnesses, golden dataset benchmarking, regression test suites, token budget optimization, hallucination prevention.
+ \item \textbf{Data \& Backend Systems:} PostgreSQL, Supabase, RESTful APIs, relational data modeling, asynchronous job queues, Docker containerization, Linux environments.
+ \item \textbf{Developer Workflows \& Reliability:} Git, GitHub Actions CI/CD, unit/integration testing, automated data validation pipelines, technical documentation.
+\end{itemize}
+
+\end{document}
