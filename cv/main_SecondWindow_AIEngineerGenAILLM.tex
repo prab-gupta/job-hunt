@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Especialista en IA Generativa: LLMs, AI Agents, Arquitecturas RAG \& Integración de APIs}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Especialista en Inteligencia Artificial Generativa y AI Engineer con 3 años de experiencia comercial diseñando, desarrollando y desplegando soluciones avanzadas basadas en LLMs, agentes autónomos y arquitecturas RAG. Especializado en transformar casos de uso de negocio en sistemas de IA productivos, integrando modelos de lenguaje con arquitecturas empresariales mediante APIs seguras. Amplia experiencia en prompt engineering avanzado, optimización de costes y tokens, guardrails de seguridad y evaluación automatizada de respuestas. Residencia permanente en la Unión Europea (Permesso di Soggiorno UE a Tempo Indeterminato, Italia; disponibilidad inmediata para teletrabajo 100\%).
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead GenAI Engineer \& AI Agent Specialist (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Diseñó e implantó sistemas multi-agente y asistentes virtuales impulsados por LLMs (OpenAI, Anthropic) para más de 4.500 usuarios activos diarios con un 99,9\% de disponibilidad.
+  \item Desarrolló arquitecturas RAG corporativas para consulta de documentación empresarial compleja, combinando embeddings semánticos, pgvector, filtrado por metadatos y reranking.
+  \item Integró modelos de IA con APIs y servicios internos mediante microservicios en Python (FastAPI), implementando streaming SSE y llamadas a herramientas (function calling).
+  \item Diseñó harnesses de evaluación y observabilidad (LangSmith, PyTest) para monitorizar calidad, precisión de respuestas, latencia y costes de inferencia, reduciendo alucinaciones a menos del 1,5\%.
+  \item Implementó políticas de gobernanza, rate-limiting adaptativo y validación estricta de esquemas estructurados JSON.
+  \item \textit{Tecnologías: Python 3, OpenAI API, Anthropic API, LangGraph, LangChain, RAG, pgvector, FastAPI, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Systems \& Integration Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Desarrolló canalizaciones de extracción y clasificación automatizada de documentos basadas en modelos LLM y bases de datos relacionales/vectoriales (PostgreSQL, Supabase).
+  \item Diseñó prompts avanzados con validación estructurada y chunking semántico para procesar flujos masivos de datos empresariales no estructurados.
+  \item Conectó agentes inteligentes con APIs de terceros y plataformas CRM/ERP para automatizar flujos de trabajo de negocio críticos.
+  \item \textit{Tecnologías: Python, REST APIs, LLMs, Embeddings, PostgreSQL, Supabase, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Consultor de Soluciones IA Generativa}{Venice, Italy}
+\begin{itemize}
+  \item Asesoró a empresas europeas en la identificación de oportunidades de alto impacto para implementar IA Generativa y automatización de procesos.
+  \item Construyó asistentes conversacionales a medida, motores de búsqueda interna RAG y conectores de API personalizados.
+  \item Elaboró documentación técnica, runbooks de despliegue y guías de mejores prácticas de prompt engineering para equipos internos.
+  \item \textit{Tecnologías: Python, LangChain, OpenAI API, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Desarrollador de Automatización (Prácticas)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Desarrolló flujos automatizados de ingesta de datos y webhooks en Python para plataformas SaaS.
+  \item \textit{Tecnologías: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Grado en Filosofía, Estudios Internacionales y Economía (Minor en Emprendimiento)}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Autorización de trabajo:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italia), autorización sin restricciones para trabajar en España y toda la UE (Contrato Indefinido o régimen equivalente). No requiere patrocinio de visado.
+  \item \textbf{Idiomas:} Inglés (profesional fluido / C1), Hindi (nativo), Italiano (intermedio / B2), Español (comprensión técnica y profesional).
+  \item \textbf{Disponibilidad:} Inmediata para puestos 100\% teletrabajo en España y Europa.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Modelos LLM e IA Generativa:} OpenAI (GPT-4o), Anthropic Claude, APIs de LLMs, Prompt Engineering avanzado, Function Calling, Fine-Tuning.
+  \item \textbf{Agentes de IA y Orquestación:} LangGraph, LangChain, Model Context Protocol (MCP), Automatización de flujos, Guardrails y Evals.
+  \item \textbf{Arquitecturas RAG y Búsqueda Vectorial:} Retrieval-Augmented Generation, Chunking semántico, Embeddings, pgvector, Chroma, Qdrant.
+  \item \textbf{Desarrollo e Integración:} Python 3, FastAPI, APIs RESTful, OAuth2, Webhooks, Integración CRM/ERP, SQL (PostgreSQL).
+  \item \textbf{Infraestructura y Gobernanza:} Docker, CI/CD, PyTest, Optimización de costes y tokens, Monitorización y Seguridad de IA.
+\end{itemize}
+
+\end{document}
