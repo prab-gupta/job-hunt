@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (tailored headline) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Conversational AI Engineer: Agent Builder, RAG Architectures \& Cloud Integration}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Conversational AI Engineer with 3 years of commercial experience designing, developing, and deploying enterprise conversational agents, RAG workflows, and GenAI solutions. Deep hands-on expertise building virtual agents, dialog architectures, intent models, and tool-calling integrations across Google Cloud (Conversational Agents / Agent Builder, Dialogflow), AWS, and Azure. Proven ability to integrate conversational AI with third-party enterprise APIs and databases while establishing rigorous evaluation frameworks and observability. Unrestricted EU work authorization (Venice, Italy; available immediately for remote roles in Spain and Europe).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Conversational AI \& Agentic Systems Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Engineered and deployed production-grade conversational AI agents and LLM-powered virtual assistants serving 4,500+ active enterprise users.
+  \item Structured multi-turn dialog flows, intent routing, and fallback management leveraging GenAI, RAG pipelines, and external tool-calling APIs.
+  \item Integrated conversational backends with cloud environments (Google Cloud, AWS), ensuring low latency and 99.9\% system availability.
+  \item Established automated dialog evaluation harnesses to continuously measure intent accuracy, groundedness, and response quality.
+  \item Collaborated with product and engineering teams to translate user behavioral data into iterative conversation design improvements.
+  \item \textit{Tools: Python 3, Dialogflow, Agent Builder, RAG, REST APIs, Google Cloud, AWS, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Integration \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Implemented automated data ingestion and conversational interface integrations connecting third-party partner systems to core databases.
+  \item Designed reliable API connectors and schema validation layers to ensure robust data exchange between services.
+  \item Handled end-to-end troubleshooting, root cause analysis (RCA), and production issue remediation across distributed microservices.
+  \item \textit{Tools: Python, PostgreSQL, REST APIs, Supabase, Git, Technical Scoping}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Conversational AI \& Automation Developer}{Venice, Italy}
+\begin{itemize}
+  \item Scoped and delivered bespoke conversational chatbots and intelligent assistants for European startup and SME clients.
+  \item Built custom webhook fulfillments, state management routines, and third-party CRM integrations.
+  \item Authored technical architecture runbooks and interface documentation for seamless client handoff and ongoing operation.
+  \item \textit{Tools: Python, Dialogflow, REST APIs, OpenAI API, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Backend Integration Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Webhooks, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization in Spain and across the EU (contrato indefinido / CCNL or Partita IVA).
+  \item \textbf{Languages:} English (fluent / C1 professional), Spanish (conversational / working understanding), Italian (working), Hindi (native).
+  \item \textbf{Availability:} Available immediately for 100\% remote roles in Spain and Europe.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Conversational AI Platforms:} Google Dialogflow, Google Cloud Conversational Agents / Agent Builder, Virtual Agents, Microsoft Copilot Studio, Prompt Engineering.
+  \item \textbf{Generative AI \& Agent Architectures:} RAG Pipelines, Intent Recognition, Multi-turn Dialogue Management, LLM Orchestration, Tool Calling, Automated Quality Evals.
+  \item \textbf{Software Engineering \& Cloud:} Python 3, TypeScript, RESTful APIs, Webhooks, Google Cloud Platform (GCP), AWS, Docker, Git, CI/CD.
+\end{itemize}
+
+\end{document}
