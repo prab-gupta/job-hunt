@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Python Developer: LangGraph Orchestration, Agent Workflows \& Tracing}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy (Remote EU / Full Work Authorization)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Python Developer with 3 years of commercial software engineering experience specializing in multi-step AI workflow orchestration and agent systems. Deep practical expertise architecting reliable graph-based execution loops using LangGraph and LangChain, implementing stateful checkpointing across PostgreSQL, Redis, and SQLite backends. Proven ability to design resilient human-in-the-loop pause-and-resume routines, automated timeout and fallback patterns, and end-to-end distributed tracing via OpenTelemetry. Dedicated to building observable, production-grade agent platforms that execute long-running asynchronous workflows deterministically.
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Engineered multi-step Python agent workflows and orchestration graphs coordinating document extraction, entity validation, and database synchronization for 4,500+ active enterprise users.
+ \item Implemented stateful checkpointing with PostgreSQL and Redis backends, ensuring workflow state persistence across asynchronous task boundaries and multi-turn user interventions.
+ \item Designed human-in-the-loop interrupt and approval gates within workflow execution graphs, allowing domain experts to inspect and adjust intermediate extraction payloads before final commit.
+ \item Architected resilient execution strategies featuring automated exponential backoff retries, node-level timeouts, and graceful model fallback chains across Gemini, Claude, and OpenAI APIs.
+ \item Integrated OpenTelemetry instrumentation and structured logging across orchestration steps, tracking trace spans, invocation latencies, and token expenditures in production.
+ \item Maintained automated regression test suites and CI/CD pipelines via GitHub Actions and Docker containerization.
+ \item \textit{Tools: Python, LangGraph, LangChain, asyncio, PostgreSQL, Redis, SQLite, OpenTelemetry, Docker, Linux}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+ \item Developed Python automation scripts and asynchronous event handlers connecting external enterprise APIs with PostgreSQL data pipelines.
+ \item Designed state transition logic and schema validation gates, preventing corrupted or incomplete payloads from propagating through multi-stage data jobs.
+ \item Produced comprehensive architecture documentation, API schemas, and sequence diagrams for asynchronous integration services.
+ \item \textit{Tools: Python, asyncio, REST APIs, PostgreSQL, Supabase, TypeScript}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+ \item Built custom automated data extraction agents and webhook dispatchers in Python, handling scheduled batch processing and real-time event triggers.
+ \item Implemented circuit-breaker and retry logic for high-frequency external API calls, reducing integration dropouts and ensuring idempotent transaction handling.
+ \item Authored technical implementation specifications, test scripts, and system health monitoring procedures for client engineering teams.
+ \item \textit{Tools: Python, Webhooks, REST APIs, Supabase, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+ \item Integrated LLM API calls and validation routines into core customer workflows, creating automated test scenarios for user onboarding funnels.
+ \item \textit{Tools: Python, OpenAI API, Sendgrid, REST APIs}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), unrestricted EU work authorization (Partita IVA / B2B ready). No sponsorship required.
+ \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (beginner).
+ \item \textbf{Availability:} Available immediately for full-time remote roles across European time zones.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{AI Orchestration \& Workflow Engines:} LangGraph (nodes, edges, state graphs), LangChain, LangSmith, human-in-the-loop workflows, interrupt/resume mechanics.
+ \item \textbf{Python \& Async Development:} Python 3, asyncio, concurrent tasks, worker queues, custom decorators, error handling and resilient fallbacks.
+ \item \textbf{State Persistence \& Checkpointing:} PostgreSQL checkpointer, Redis checkpointer, SQLite checkpointer, state serialization, schema versioning, transaction boundaries.
+ \item \textbf{Observability \& Reliability:} OpenTelemetry distributed tracing, span instrumentation, structured logging, latency profiling, token tracking, retry mechanisms with exponential backoff.
+ \item \textbf{Cloud \& Engineering Practices:} Docker containerization, Linux environments, Git, GitHub Actions CI/CD, automated integration testing, RESTful API design.
+\end{itemize}
+
+\end{document}
