@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large AI Engineer: Multi-Step Agents, MCP Architecture, RAG \& Production Pipelines}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy (Remote Italy / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+AI Software Engineer with 3 years of commercial production experience architecting autonomous multi-step LLM agents, Model Context Protocol (MCP) integrations, and automated document/data extraction pipelines. Proven track record deploying production AI systems that replace manual administrative and operational friction, handling unstructured records (contracts, payroll-adjacent documents, invoices) for 4,500+ active enterprise users. Expert in building resilient agent orchestration, hybrid vector/keyword RAG architectures, and deterministic validation schemas to guarantee reliability in mission-critical business environments. Based in Venice, Italy with permanent EU work authorization (Partita IVA / Italian employment contract ready).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Engineered production multi-step AI agents and backend data pipelines automating unstructured document extraction (invoices, forms, identity records) for 4,500+ active enterprise clients.
+ \item Implemented Model Context Protocol (MCP) tool interfaces, enabling agents to dynamically discover schemas, query structured databases, and execute validated actions with robust error recovery.
+ \item Architected enterprise RAG and semantic retrieval systems combining PostgreSQL pgvector embeddings, dense retrieval, and metadata filtering for high-precision knowledge grounding.
+ \item Built deterministic guardrails and Pydantic schema validation layers around model outputs, preventing hallucinated or malformed records from reaching downstream operational systems.
+ \item Implemented asynchronous task workers and Celery/queue processing with idempotency keys and exponential retries to guarantee zero-loss execution under heavy traffic spikes.
+ \item Automated continuous integration and deployment pipelines using Docker containerization, pytest suites, and GitHub Actions across AWS cloud infrastructure.
+ \item \textit{Tools: Python, LangChain, PostgreSQL, MCP, Docker, AWS, Hugging Face, REST APIs, Linux}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+ \item Developed automated Python data ingestion routines and entity transformation pipelines connecting heterogeneous third-party APIs to central relational stores.
+ \item Designed automated schema validation checks and data normalization layers to enforce data integrity across multi-tenant enterprise accounts.
+ \item Collaborated directly with product and operations stakeholders to translate business requirements into technical interface specifications and monitoring alerts.
+ \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, TypeScript, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+ \item Developed custom Python automation workers, webhook listeners, and document parsing agents for automated information extraction and database ingestion.
+ \item Established automated regression test harnesses and synthetic evaluation benchmarks to measure agent tool-calling accuracy across prompt iterations.
+ \item Authored detailed system documentation, error-handling playbooks, and schema contracts for client engineering teams.
+ \item \textit{Tools: Python, LangChain, Webhooks, REST APIs, Supabase, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+ \item Integrated LLM endpoints and automated notification workflows, establishing data validation and consistency checks across core user onboarding flows.
+ \item \textit{Tools: Python, OpenAI API, Sendgrid, REST APIs}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+ \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization in Italy and EU (CCNL or Partita IVA). No visa sponsorship required.
+ \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+ \item \textbf{Availability:} Available immediately for full-time remote roles in Italy.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{AI Agents \& LLM Systems:} Multi-step agent orchestration, Model Context Protocol (MCP), LangChain, tool calling, prompt engineering, agentic error recovery.
+ \item \textbf{RAG \& Knowledge Bases:} Vector search, embeddings, document chunking, semantic retrieval, RAG evaluation, knowledge base maintenance and versioning.
+ \item \textbf{Backend Engineering:} Python 3, asynchronous programming, clean modular architecture, REST APIs, Pydantic, schema validation, pytest.
+ \item \textbf{Data Systems \& Storage:} PostgreSQL, relational schema design, SQL query optimization, data cleansing and ingestion pipelines, Supabase, Redis caching.
+ \item \textbf{Cloud \& DevOps:} Docker containerization, AWS, Linux system administration, Git, GitHub Actions CI/CD, task queues, logging and telemetry.
+\end{itemize}
+
+\end{document}
