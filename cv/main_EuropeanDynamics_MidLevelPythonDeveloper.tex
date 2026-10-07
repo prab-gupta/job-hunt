@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Python Developer: Backend Data Processing, Flask/REST APIs, React \& Cloud Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Python Developer with 3 years of commercial experience designing and deploying scalable data processing systems, robust backend services, and modern full-stack web applications. Proficient in Python 3, scientific and data processing libraries (Pandas, NumPy), backend frameworks (Flask, Uvicorn, REST APIs), modern packaging tooling (uv, pip, poetry), and frontend web interfaces using React. Proven track record in orchestrating high-throughput data extraction and transformation pipelines, integrating relational databases (PostgreSQL), and deploying containerized services via Docker and AWS. Based in Venice, Italy with permanent EU work authorization (immediate start, remote EU ready).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Engineered high-throughput Python backend services and automated data processing pipelines serving 4,500+ active users.
+  \item Developed modular data manipulation workflows using Pandas and NumPy for structured ingestion, tabular validation, and statistical aggregation.
+  \item Built performant RESTful APIs using Python, Flask, and Node.js to power dynamic React frontends and asynchronous background task queues.
+  \item Managed Python dependency environments and packaging pipelines using modern tooling including uv, pip, and poetry with strict reproducibility.
+  \item Deployed containerized microservices using Docker on AWS cloud infrastructure, integrating GitHub Actions CI/CD with automated unit testing (pytest).
+  \item Architected normalized PostgreSQL relational schemas, optimizing SQL query execution and database indexing for analytical queries.
+  \item \textit{Tools: Python 3, Pandas, NumPy, Flask, React, PostgreSQL, Docker, AWS, pytest, uv, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Engineered automated data synchronization and ETL scripts in Python connecting distributed vendor APIs with relational PostgreSQL stores.
+  \item Built validation routines and tabular schema verifications ensuring data consistency across external partner catalogs.
+  \item Collaborated across distributed engineering teams to define interface contracts, API payloads, and integration release schedules.
+  \item \textit{Tools: Python, Pandas, PostgreSQL, REST APIs, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Designed and deployed custom Python web scrapers, data cleaning routines, and RESTful microservices for European clients.
+  \item Developed lightweight web frontends in React paired with Python backends for real-time monitoring and reporting dashboards.
+  \item Created technical documentation, setup guides, and automated packaging workflows for seamless client handoff.
+  \item \textit{Tools: Python, React, Flask, PostgreSQL, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built Python automation scripts and webhook consumers connecting third-party SaaS services and customer communications.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU. No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time remote roles in Europe.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Python \& Data Processing:} Python 3, Pandas, NumPy, Scipy, Matplotlib, Data Wrangling, Tabular Transformation, ETL Pipelines.
+  \item \textbf{Web Frameworks \& APIs:} Flask, Uvicorn, RESTful API design, Asynchronous Task Processing, HTTP Webhooks, Microservices.
+  \item \textbf{Frontend Development:} React, JavaScript (ES6+), TypeScript, HTML5/CSS3, Responsive Web UI, Component State Management.
+  \item \textbf{Packaging \& Environment:} uv, pip, poetry, conda, virtualenv, setuptools, semantic versioning.
+  \item \textbf{Cloud, Databases \& DevOps:} Docker containerization, AWS, PostgreSQL, SQL Optimization, Linux, GitHub Actions CI/CD, Pytest.
+\end{itemize}
+
+\end{document}
