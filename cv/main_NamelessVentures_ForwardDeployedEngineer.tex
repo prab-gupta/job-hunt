@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer: Applied GenAI, Autonomous Agents \& Enterprise Integrations}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident, Relocation Ready)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward Deployed Engineer and Applied AI Systems Builder with 3 years of commercial experience delivering production GenAI products, autonomous multi-agent workflows, and enterprise customer integrations. Combines technical discovery, full-stack software development (Python 3, TypeScript, REST APIs), and modern AI engineering (LangGraph, RAG architectures, function calling, tool execution loops). Track record of translating complex enterprise business problems into production-grade AI solutions, owning customer lifecycles end-to-end from technical scoping to deployment and reliability monitoring. Immediately available, open to global relocation and onsite deployment.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Forward Deployed Engineer \& Lead AI Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Partnered directly with enterprise customer stakeholders to translate mission-critical business requirements into production LLM workflows, supporting 4,500+ active enterprise users with 99.9\% uptime.
+  \item Designed and deployed high-precision RAG pipelines featuring document parsing, hybrid semantic search, metadata filtering, and reranking to eliminate factual hallucinations.
+  \item Built autonomous multi-agent reasoning workflows using LangGraph and Python, orchestrating dynamic tool execution, function calling, and structured JSON outputs.
+  \item Integrated enterprise relational data models in PostgreSQL with vector embedding indices (pgvector) to deliver low-latency semantic information retrieval.
+  \item Deployed containerized backend microservices using Docker, AWS, and GCP, establishing automated evaluation harnesses to monitor model latency and accuracy drift.
+  \item \textit{Tools: Python 3, LangGraph, LangChain, RAG, pgvector, Azure OpenAI, AWS Bedrock, PostgreSQL, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Solutions Architect \& Integrations Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated document extraction and classification pipelines connecting external partner APIs with centralized database stores.
+  \item Led technical discovery sessions with corporate partners, aligning solution architectures with client IT governance and compliance frameworks.
+  \item Implemented semantic chunking and structured prompt validation layers in Python, ensuring data integrity across high-volume ingestion streams.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Forward Deployed Solutions Developer}{Venice, Italy}
+\begin{itemize}
+  \item Delivered custom conversational agents, AI-powered document search tools, and workflow automation microservices directly to European SMB clients.
+  \item Implemented function calling, webhook listeners, and secure API integrations to connect LLMs with existing enterprise software stacks.
+  \item Authored technical architecture runbooks, prompt engineering guidelines, and deployment specifications for client engineering teams.
+  \item \textit{Tools: Python, LangChain, OpenAI API, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} EU permanent resident (Permesso di Soggiorno UE a Tempo Indeterminato), eligible for global relocation and work visas.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately; fully prepared for relocation to Dubai or European onsite deployment.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Applied AI \& Agent Architectures:} Large Language Models (LLMs), LangGraph, LangChain, Tool / Function Calling, Multi-Agent Systems, Prompt Engineering.
+  \item \textbf{RAG \& Vector Search:} Retrieval-Augmented Generation, Semantic Search, Hybrid Search, Reranking, Vector Databases (pgvector, Chroma).
+  \item \textbf{Customer-Facing Solution Engineering:} Technical Discovery, Requirements Gathering, Client Demonstrations, Rapid 0-to-1 Prototyping, Production Rollouts.
+  \item \textbf{Full-Stack \& Integrations:} Python 3, Node.js, TypeScript, RESTful APIs, Webhooks, PostgreSQL, Docker, Linux, Git.
+  \item \textbf{Cloud Models \& Ecosystems:} Azure OpenAI, AWS Bedrock, Google Vertex AI, Anthropic Claude, OpenAI API.
+\end{itemize}
+
+\end{document}
