@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Solutions Architect: LangGraph, Multi-Agent Systems \& Enterprise Integrations}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+AI Solutions Architect and Systems Engineer with 3 years of commercial experience designing and deploying production-grade LangGraph architectures, autonomous multi-agent platforms, and enterprise AI integrations. Specialized in architecting stateful agent graphs, cyclical reasoning loops, dynamic tool selection, and deterministic human-in-the-loop guardrails. Proven track record in orchestrating high-precision RAG pipelines, connecting LLMs to enterprise APIs and databases, and establishing automated evaluation and observability frameworks (LangSmith, Langfuse). Based in Venice, Italy with permanent EU work authorization (Permesso di Soggiorno UE a Tempo Indeterminato, Italian Partita IVA ready, immediate start).
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Architect \& Systems Developer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed production LangGraph multi-agent systems and conversational workflows serving 4,500+ active enterprise users with 99.9\% uptime.
+  \item Designed stateful multi-agent graphs with persistent checkpoints, recovery mechanisms, and fine-grained state schema validation in Python.
+  \item Engineered high-precision RAG pipelines featuring document parsing, hybrid semantic search, metadata filtering, and reranking to eliminate factual hallucinations.
+  \item Implemented dynamic tool-calling loops and MCP integrations, connecting agents to enterprise databases and third-party SaaS APIs.
+  \item Deployed containerized backend services using Docker across AWS and GCP, establishing CI/CD automated evaluation harnesses to monitor model latency and accuracy drift.
+  \item \textit{Tools: Python 3, LangGraph, LangChain, RAG, pgvector, Azure OpenAI, AWS Bedrock, PostgreSQL, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Designed automated document classification and entity extraction pipelines connecting external client APIs with centralized data stores.
+  \item Implemented semantic chunking and structured prompt validation layers in Python, ensuring data integrity across high-volume ingestion streams.
+  \item Partnered with product teams and client stakeholders to translate functional requirements into scalable AI architecture specifications.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Agentic AI \& Automation Solutions Architect}{Venice, Italy}
+\begin{itemize}
+  \item Designed and delivered custom conversational AI agents, document search engines, and workflow automation microservices for European SMB clients.
+  \item Implemented secure API integrations, webhook listeners, and function calling to bridge LLMs with existing enterprise software stacks.
+  \item Authored technical architecture runbooks, prompt engineering guidelines, and deployment specifications for client engineering teams.
+  \item \textit{Tools: Python, LangChain, OpenAI API, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU (CCNL or Partita IVA). No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time remote roles in Europe.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Agentic AI \& LangGraph:} LangGraph StateGraph, Multi-Agent Orchestration, Cyclical Execution Loops, Dynamic Tool Calling, Memory \& Persistence.
+  \item \textbf{RAG \& Vector Architecture:} Retrieval-Augmented Generation, Semantic Search, Hybrid Search, Reranking, Vector Databases (pgvector, Chroma).
+  \item \textbf{AI Security \& Governance:} Prompt Injection Defense, Role-Based Access Control, Guardrails, Human-in-the-Loop Controls, Data Privacy.
+  \item \textbf{Backend \& Cloud Systems:} Python 3, Node.js, TypeScript, RESTful APIs, Webhooks, PostgreSQL, Docker, AWS, Azure, Linux.
+  \item \textbf{Evaluation \& Observability:} LangSmith, Langfuse, Model Benchmarking, Latency \& Cost Optimization, CI/CD Evaluation Pipelines.
+\end{itemize}
+
+\end{document}
