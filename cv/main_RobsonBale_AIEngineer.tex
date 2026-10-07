@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Artificial Intelligence Engineer: LLM Pipelines, Python Automation \& Production Evals}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato / Partita IVA)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Artificial Intelligence Engineer with 3 years of commercial production experience building LLM-integrated automation pipelines, evaluation harnesses, and robust Python backend services. Daily practitioner of AI-assisted engineering environments (Claude Code, GitHub Copilot, Codex) with deep expertise in LLM API orchestration (chat completions, structured JSON parsing, deterministic retries). Proven capability critically reviewing AI-generated code to prevent hallucinations, logic defects, and data leakage (PII/secrets sanitation). Experienced in embedding intelligent automation steps into CI/CD delivery pipelines. Based in Venice, Italy with permanent EU work authorization and Partita IVA ready for freelance contracting (immediate start, remote EU ready).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Engineered and deployed production Python pipeline services and LLM integration workflows supporting 4,500+ active enterprise users with 99.9\% uptime.
+  \item Built automated LLM API automation scripts executing structured chat completion calls, strict JSON Schema parsing, and fallback exception handling.
+  \item Implemented continuous evaluation harnesses (evals) and sanity gates to catch hallucinations, schema mismatches, and regression errors in model outputs.
+  \item Integrated automated code review and prompt sanitation steps into GitHub Actions CI/CD pipelines, enforcing strict zero-PII and credential masking boundaries.
+  \item Leveraged AI-assisted development tools (Claude Code, Copilot) daily to accelerate refactoring, automated testing, and comprehensive test suite generation.
+  \item Containerized automation workers using Docker and orchestrated database state management in PostgreSQL.
+  \item \textit{Tools: Python, LLM APIs, Claude Code, GitHub Actions, Docker, PostgreSQL, REST APIs, Linux}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated data ingestion pipelines and entity extraction workers using Python and LLM function calling.
+  \item Enforced strict schema validation (Pydantic / JSON Schema) to transform unstructured client data into clean relational records in PostgreSQL.
+  \item Collaborated with cross-functional technical teams to define integration standards, prompt governance rules, and delivery milestones.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, LLMs, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Delivered custom automation scripts, webhook listeners, and LLM-assisted document parsing microservices for European SMB clients.
+  \item Designed automated verification suites evaluating AI output consistency across prompt variations and edge-case inputs.
+  \item Authored technical architecture runbooks and integration guidelines for safe AI adoption in production environments.
+  \item \textit{Tools: Python, TypeScript, REST APIs, Supabase, Docker, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Integrated external REST API services and email notification workers, establishing automated validation checks across core onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization in Italy and the EU (CCNL or Partita IVA freelance). No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time freelance contract roles in the EU.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{AI Engineering \& Tooling:} LLM APIs (OpenAI, Anthropic), Claude Code, GitHub Copilot, prompt engineering, structured JSON outputs, PII boundaries.
+  \item \textbf{AI Evals \& Code Review:} Automated eval harnesses, hallucination detection, schema conformance verification, critical code review of AI outputs.
+  \item \textbf{Automation \& Scripting:} Python 3, Bash shell scripting, REST APIs, webhook handlers, asynchronous pipeline workers, automated ETL routines.
+  \item \textbf{CI/CD \& Infrastructure:} GitHub Actions CI/CD pipelines, Docker containerization, Git version control, Linux environments, PostgreSQL.
+  \item \textbf{Delivery Practices:} Freelance / contract delivery, technical documentation, zero-PII security standards, asynchronous collaboration.
+\end{itemize}
+
+\end{document}
