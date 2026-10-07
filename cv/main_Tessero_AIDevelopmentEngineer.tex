@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Development Engineer: Copilot Studio, Agentic Workflows, Azure OpenAI \& Enterprise Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+AI Development Engineer with 3 years of commercial experience designing, building, and governing enterprise-grade agentic AI solutions, Copilot agents, and LLM orchestration workflows. Certified in Microsoft Copilot Studio and Power Automate, specializing in translating complex business processes into multi-step agent workflows (trigger $\rightarrow$ reasoning $\rightarrow$ tool action $\rightarrow$ output). Proven expertise integrating Azure OpenAI and Copilot agents with enterprise data ecosystems (Microsoft 365, SharePoint, relational databases, REST APIs), applying strict responsible AI guardrails, prompt evaluation, and audit logging. Based in Venice, Italy with permanent EU work authorization (immediate start, remote EU ready).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Designed and deployed autonomous task-oriented AI agents and Copilot workflows supporting 4,500+ active enterprise users with 99.9\% uptime.
+  \item Built multi-step agent orchestration architectures with function/tool calling, structured JSON output validation, and stateful memory retention.
+  \item Integrated LLM agents with enterprise knowledge bases, SharePoint documents, and PostgreSQL data stores via robust RESTful APIs and webhook listeners.
+  \item Implemented responsible AI guardrails, prompt versioning, and continuous automated regression evaluations to prevent hallucinations and model drift.
+  \item Deployed containerized backend services using Docker, AWS, and Azure cloud environments, enforcing enterprise access controls and encryption.
+  \item \textit{Tools: Microsoft Copilot Studio, Azure OpenAI, Python, Node.js, TypeScript, PostgreSQL, REST APIs, Docker, Prompt Engineering}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated data integration pipelines connecting distributed partner APIs with central enterprise databases.
+  \item Engineered AI-assisted extraction and classification workflows, mapping semi-structured catalog inputs into structured schemas.
+  \item Partnered with cross-functional stakeholders to define business requirements, agent logic specifications, and operational acceptance criteria.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, Git, Technical Documentation}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Delivered tailored AI automation agents, conversational chatbots, and workflow automation services for European SMB and enterprise clients.
+  \item Built custom connectors bridging Microsoft 365 services, external webhooks, and LLM APIs for end-to-end document processing.
+  \item Produced detailed architectural decision records, security runbooks, and client enablement training on agent management.
+  \item \textit{Tools: Microsoft Power Platform, Copilot Studio, Python, REST APIs, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Integrated automated webhook triggers and customer communications flows, implementing input validation checks across onboarding paths.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU. Partita IVA registered for B2B contracting. No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time remote roles in Europe.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{AI Agents \& Copilot Ecosystem:} Microsoft Copilot Studio, Azure OpenAI, Prompt Engineering, Agent Tool Calling, Multi-Step Orchestration.
+  \item \textbf{Enterprise Integration:} Microsoft 365, SharePoint, Teams, Power Automate, RESTful APIs, Webhooks, JSON Schema Validation.
+  \item \textbf{Languages \& Scripting:} Python 3, TypeScript, JavaScript (Node.js), SQL, Power Platform Expressions.
+  \item \textbf{Governance \& Quality:} Responsible AI, Human-in-the-Loop, Prompt Evaluation, Audit Logging, Error Handling \& Recovery Logic.
+  \item \textbf{Cloud \& Platforms:} Azure AI Services, AWS, Docker, PostgreSQL, Supabase, Git, GitHub Actions.
+\end{itemize}
+
+\end{document}
