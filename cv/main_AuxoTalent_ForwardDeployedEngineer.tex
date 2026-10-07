@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer: Enterprise AI Solutions, Cloud Integrations \& Production Delivery}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Forward Deployed Engineer with 3 years of commercial experience delivering mission-critical AI solutions, bespoke enterprise integrations, and high-performance software at the intersection of engineering and client consulting. Expert in leading technical discovery sessions, translating complex business friction into robust architectures, and deploying production-grade applications that drive measurable operational outcomes. Proficient in Python 3, TypeScript, RESTful API design, microservices, and multi-cloud environments (AWS, GCP, Azure). Experienced in embedding directly with distributed stakeholders, managing end-to-end technical delivery from proof-of-concept to scaled rollout. Based in Venice, Italy with permanent EU work authorization (immediate remote availability).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Forward Deployed \& Lead AI Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Led forward deployed technical discovery and bespoke system delivery for enterprise clients, designing AI agent architectures serving 4,500+ active users.
+  \item Embedded directly with client technical teams to map business requirements into resilient production APIs, automated ingestion pipelines, and user interfaces.
+  \item Built scalable backend integration services in Python and TypeScript, connecting legacy customer data systems with modern LLM reasoning workflows.
+  \item Deployed containerized applications across AWS and GCP cloud infrastructure, establishing automated CI/CD pipelines and 99.9\% uptime SLAs.
+  \item Acted as the primary technical advisor during implementation, resolving complex deployment bottlenecks and driving customer adoption.
+  \item \textit{Tools: Python 3, TypeScript, REST APIs, AWS, GCP, Docker, PostgreSQL, Agent Architectures, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Owned client solutions architecture and automated ETL pipelines connecting disparate partner data endpoints with central relational stores.
+  \item Ran technical discovery workshops, drafted interface specifications, and built custom data validation layers in Python.
+  \item Coordinated cross-functional delivery between client leadership, external vendors, and internal developers to meet strict project milestones.
+  \item \textit{Tools: Python, PostgreSQL, REST APIs, Supabase, Git, Technical Discovery}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Consulted with European SMB and enterprise clients to scope, architect, and deploy custom AI automation microservices and web tools.
+  \item Built custom API connectors and webhook integrations, reducing operational processing time by up to 60\% for client workflows.
+  \item Authored technical architecture runbooks, system documentation, and led onboarding sessions for client engineering teams.
+  \item \textit{Tools: Python, REST APIs, Cloud Integrations, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization in Italy and across the EU (CCNL or Partita IVA).
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time remote roles in Europe / EMEA.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Forward Deployed Engineering:} Technical Discovery, Customer-Facing Architecture, POC-to-Production Delivery, Solution Design, Stakeholder Management.
+  \item \textbf{Enterprise Integrations \& APIs:} RESTful API Design, Webhooks, Data Ingestion Pipelines, Microservices Architecture, Schema Validation.
+  \item \textbf{AI \& LLM Systems:} Applied AI Engineering, Multi-Agent Workflows, RAG Architectures, Tool/Function Calling, Prompt Engineering.
+  \item \textbf{Languages \& Cloud Platforms:} Python 3, TypeScript, JavaScript, SQL, AWS, GCP, Azure, Docker, Linux, Git, CI/CD.
+  \item \textbf{Consulting \& Ownership:} End-to-End Delivery, Cross-Functional Leadership, Technical Documentation, Customer Enablement.
+\end{itemize}
+
+\end{document}
