@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (tailored headline) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Applied AI Engineer: Anthropic Claude, Agentic Systems, MCP \& AWS Cloud Solutions}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Applied AI Engineer with 3 years of software and commercial engineering experience building production-grade Generative AI applications, RAG pipelines, and agentic workflows. Deep hands-on experience in the Anthropic Claude ecosystem (Claude Code, CLAUDE.md architecture, custom skills, hooks) and authoring Model Context Protocol (MCP) servers for agent tool integration. Proficient in spec-driven development, regression evals for non-deterministic systems, and deploying scalable microservices across AWS (Lambda, S3, ECS, API Gateway) using Python 3 and TypeScript. Unrestricted EU work authorization (Venice, Italy; available immediately for remote roles in Spain/EU).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Engineer \& Agentic Systems Developer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Embedded in a cross-functional pod delivering production agentic workflows and custom RAG applications serving 4,500+ active users.
+  \item Authored and maintained Model Context Protocol (MCP) servers and tool-calling interfaces, connecting frontier LLMs to enterprise APIs and data stores.
+  \item Implemented spec-driven agent development patterns, establishing automated eval datasets and scoring suites to track groundedness and latency trade-offs.
+  \item Deployed containerized microservices to AWS cloud infrastructure (ECS, Lambda, S3), achieving 99.9\% uptime SLAs through CI/CD automation.
+  \item Collaborated with Senior AI Engineers and FDEs to translate complex business requirements into modular, maintainable Python and TypeScript code.
+  \item \textit{Tools: Python 3, TypeScript, Anthropic Claude, MCP, RAG, AWS (Lambda, S3, ECS), Docker, Git, CI/CD}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Solutions \& Data Integration Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Engineered automated document ingestion and structured data synchronization pipelines integrating partner APIs with relational databases.
+  \item Built data validation routines, error handling, and schema checking layers to eliminate ingestion discrepancies.
+  \item Collaborated remotely with product stakeholders across Spain and Europe to deliver reliable backend automation.
+  \item \textit{Tools: Python, PostgreSQL, REST APIs, Supabase, Git, Technical Scoping}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Scoped and delivered bespoke Generative AI solutions and LLM-powered microservices for European startups and SMBs.
+  \item Built API webhooks, retrieval mechanisms, and automated test harnesses to validate multi-step agent execution.
+  \item Documented system architecture, setup procedures, and operational runbooks for seamless client handoff.
+  \item \textit{Tools: Python, REST APIs, OpenAI \& Anthropic APIs, Linux, Git, Docker}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Backend Integration Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed backend webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Webhooks, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU (contrato indefinido / CCNL or Partita IVA / autónomo).
+  \item \textbf{Languages:} English (fluent / C1 professional), Spanish (conversational / working understanding), Italian (working), Hindi (native).
+  \item \textbf{Availability:} Available immediately for 100\% remote roles in Spain and Europe.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Frontier AI \& Agent Architectures:} Anthropic Claude API, Claude Code, CLAUDE.md Workflows, Model Context Protocol (MCP), Agent Tool Calling, RAG Pipelines, Vector DBs, Prompt Engineering.
+  \item \textbf{Evaluation \& Monitoring:} Automated LLM Evals, Groundedness \& Faithfulness Scoring, Non-deterministic System Testing, Cost/Latency Optimization.
+  \item \textbf{Software \& Cloud Engineering:} Python 3, TypeScript, JavaScript (Node.js), REST APIs, AWS (Lambda, S3, ECS, CloudWatch), Docker, Git, GitHub Actions CI/CD, Linux.
+\end{itemize}
+
+\end{document}
