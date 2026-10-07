@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Google Cloud AI Engineer: Vertex AI Agent Builder, Gemini Enterprise, LangGraph \& RAG}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Remote EU / Permesso di Soggiorno UE a Tempo Indeterminato)}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Google Cloud AI Engineer with 3 years of commercial experience designing, building, and scaling conversational AI agents, RAG architectures, and multi-agent workflows. Hands-on expertise on Google Cloud Platform (GCP) with Vertex AI Agent Builder, Gemini 1.5 Pro/Flash, Gemini Enterprise, LangChain, and LangGraph. Specialized in engineering high-fidelity Retrieval-Augmented Generation (RAG) pipelines connecting vector embeddings to external relational data stores, applying rigorous prompt engineering, and orchestrating complex multi-turn dialog trees. Based in Venice, Italy with permanent EU work authorization (unrestricted EU work rights, immediate remote availability).
+
+% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed production conversational AI agents and autonomous reasoning workflows serving 4,500+ active enterprise users with 99.9\% uptime.
+  \item Built complex multi-agent dialog graphs and tool-calling loops using LangGraph, LangChain, and Google Cloud Vertex AI APIs in Python and TypeScript.
+  \item Engineered high-precision RAG pipelines integrating external knowledge bases, vector search embeddings, and PostgreSQL stores to deliver zero-hallucination contextual responses.
+  \item Optimized Gemini Enterprise and LLM response latency by 40\% via structured caching, token compression, and prompt engineering best practices.
+  \item Deployed scalable, containerized microservices on GCP (Cloud Run) and AWS using Docker, integrated with GitHub Actions CI/CD and regression evaluation suites.
+  \item \textit{Tools: Google Cloud Platform, Vertex AI, Gemini Enterprise, LangGraph, LangChain, RAG, Python 3, TypeScript, Docker, PostgreSQL}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Engineered automated document ingestion and structured entity extraction pipelines connecting third-party APIs with relational stores.
+  \item Implemented semantic chunking and metadata filtering routines to ensure robust retrieval accuracy across multi-source catalogs.
+  \item Collaborated with cross-functional technical teams to define API schemas, conversational UI contracts, and deployment milestones.
+  \item \textit{Tools: Python, GCP, Vertex AI, PostgreSQL, REST APIs, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+\begin{itemize}
+  \item Built custom conversational chatbots, intelligent document assistants, and workflow automation services for European clients.
+  \item Integrated Google Cloud AI APIs, webhook listeners, and function-calling routines into lightweight client applications.
+  \item Authored technical architecture runbooks, system documentation, and prompt evaluation benchmarks for production handoff.
+  \item \textit{Tools: Python, Google Cloud APIs, LangChain, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed automated API webhook consumers and notification workers connecting third-party platforms with customer onboarding pipelines.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (Italy), unrestricted work authorization across the EU. Partita IVA registered for B2B contracting. No visa sponsorship required.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working beginner).
+  \item \textbf{Availability:} Available immediately for full-time remote roles in Europe.
+\end{itemize}
+
+% ================= CORE SKILLS (tailored) =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Google Cloud AI Ecosystem:} Vertex AI Agent Builder, Gemini Enterprise, Gemini 1.5 Pro/Flash, Dialogflow CX, Google Cloud Run.
+  \item \textbf{Agentic Frameworks \& RAG:} LangGraph, LangChain, Multi-Agent Orchestration, Vector Databases, Semantic Search, Prompt Engineering.
+  \item \textbf{Programming Languages:} Python 3, TypeScript, JavaScript (Node.js), SQL, HTML5/CSS3.
+  \item \textbf{Databases \& Cloud Systems:} PostgreSQL, Supabase, Redis, Docker Containerization, Git, GitHub Actions CI/CD, RESTful APIs.
+  \item \textbf{AI Reliability \& Evaluation:} Guardrails, Output Verification, Prompt Regression Testing, Human-in-the-Loop, Latency Optimization.
+\end{itemize}
+
+\end{document}
