@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Agentic AI Engineer: Multi-Agent Workflows, LangGraph, Tool Calling \& RAG}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Available Immediately $\vert$ Full Remote)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Agentic AI and LLM Systems Engineer with 3 years of commercial software experience architecting, implementing, and deploying production autonomous agents and Generative AI applications. Hands-on expertise building multi-step agentic workflows with LangGraph, LangChain, and Model Context Protocol (MCP), equipping agents with dynamic tool calling, planning, memory persistence, and structured outputs. Deep practical background in hybrid RAG retrieval, vector databases (Chroma, pgvector, Pinecone), RESTful backend microservices (FastAPI, Python, TypeScript), and cloud deployment across AWS Bedrock and Azure OpenAI. Immediate joiner ready for full-time remote engineering.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Agentic AI Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed multi-agent reasoning and orchestration systems using LangGraph and MCP, executing complex autonomous task sequences with stateful memory and human-in-the-loop controls.
+  \item Integrated dynamic tool-calling layers connecting agents to external REST APIs, internal databases, and third-party SaaS services for 4,500+ active users.
+  \item Developed production RAG pipelines utilizing hybrid semantic search, metadata pre-filtering, and cross-encoder reranking over vector databases (pgvector, ChromaDB).
+  \item Engineered robust backend microservices in Python (FastAPI) and TypeScript with SSE streaming, structured Pydantic schema validation, and exponential backoff retry patterns.
+  \item Built automated evaluation and observability harnesses (LangSmith, PyTest) monitoring agent trajectory accuracy, tool call correctness, latency, and token expenditure.
+  \item \textit{Tools: Python 3, TypeScript, LangGraph, LangChain, MCP, Azure OpenAI, AWS Bedrock, pgvector, FastAPI, Docker, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Systems \& Tool Integration Developer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed automated document extraction and classification agents leveraging LLMs and embeddings pipelines with structured output schemas.
+  \item Implemented semantic chunking and contextual retrieval workflows connecting external client APIs to centralized PostgreSQL stores.
+  \item Partnered with product teams to design autonomous workflow routines that eliminated repetitive manual data processing.
+  \item \textit{Tools: Python, REST APIs, LangChain, Embeddings, PostgreSQL, Supabase, Git, Linux}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Agentic AI Solutions Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Built custom conversational AI agents and autonomous research assistants for European business clients using LangChain and OpenAI APIs.
+  \item Implemented function calling, webhook listeners, and secure API integrations to automate data retrieval and enterprise reporting tasks.
+  \item Authored technical architecture runbooks, prompt engineering guidelines, and deployment specifications for client engineering teams.
+  \item \textit{Tools: Python, LangChain, OpenAI API, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Built automated webhook consumers and data integration workers in Python for SaaS client onboarding flows.
+  \item \textit{Tools: Python, REST APIs, Sendgrid}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo (EU Permanent Resident), eligible for full-time contracts or freelance/B2B worldwide.
+  \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (working intermediate).
+  \item \textbf{Availability:} Immediate joiner (0 notice period) for full-time remote roles.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Agentic AI \& LLM Orchestration:} LangGraph, LangChain, LlamaIndex, Model Context Protocol (MCP), Multi-Agent Systems, Planning, Memory, Tool Calling.
+  \item \textbf{Prompt Engineering \& Outputs:} Zero-shot/Few-shot Prompting, Structured JSON Outputs (Pydantic), Function Calling, Guardrails, Evals (LangSmith).
+  \item \textbf{RAG \& Vector Stores:} Retrieval-Augmented Generation, Semantic Search, Embeddings, Hybrid Search, ChromaDB, pgvector, Pinecone, FAISS.
+  \item \textbf{Backend \& APIs:} Python 3, TypeScript, FastAPI, Node.js, RESTful APIs, GraphQL, Microservices, Asynchronous Programming.
+  \item \textbf{Cloud \& DevOps:} AWS Bedrock, SageMaker, Azure OpenAI, Docker, CI/CD, Git, Linux.
+\end{itemize}
+
+\end{document}
