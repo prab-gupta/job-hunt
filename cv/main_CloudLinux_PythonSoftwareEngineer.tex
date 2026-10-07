@@ -1,0 +1,108 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+ \vspace{2pt}\noindent
+ \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+ \hfill
+ \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+ \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER (HEADLINE is tailored) =================
+\begin{minipage}[c]{0.80\textwidth}
+ {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+ {\color{accent}\large Python Software Engineer: Backend Services, Linux Systems \& AI Workflows}\\[6pt]
+ {\footnotesize +39 351 610 7807 ~$\vert$~
+ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+ \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+ \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+ Venice, Italy}
+\end{minipage}\hfill
+
+% ================= SUMMARY (tailored) =================
+\section{Summary}
+Python Software Engineer and backend developer based in Venice, Italy with European Long-Term Residence (unrestricted EU work authorization) and immediate availability for remote roles. 3+ years of experience engineering production software in Python, designing resilient API integrations, and maintaining automated data pipelines across distributed services. Deeply versed in Linux system administration, Docker containerization, and GitHub Actions CI/CD automation. A power user of modern AI coding agents (Claude Code, Cursor), systematically leveraging supervised autonomous workflows for rapid test scaffolding, synthetic payload generation, and production debugging while enforcing strict code quality and validation standards.
+
+% ================= EXPERIENCE (frozen) =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+\begin{itemize}
+ \item Architected and maintained automated Python backend services and ETL pipelines processing unstructured venue listings, brochures, and spatial metadata; ingested 900+ production records.
+ \item Designed and implemented resilient REST API integrations with third-party platforms (OfficeRnD, Nexudus), handling asynchronous webhooks, error recovery, and rate-limiting safeguards.
+ \item Drove complex platform and database migration across heterogeneous schemas (legacy stack to Next.js/Laravel), mapping relational models and guaranteeing zero data loss for 4,500+ users.
+ \item Established automated testing suites with Playwright, Postman, and Python, integrating quality gates into CI/CD pipelines to catch schema drift and API regressions prior to release.
+ \item Incorporated AI coding agents (Claude Code, Cursor) into daily development for accelerated test authoring, synthetic data construction, and rapid error triage during production incidents.
+ \item \textit{Tools: Python, SQL, PostgreSQL, Supabase, Docker, Linux, Claude Code, GitHub Actions, Playwright, REST APIs}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
+\begin{itemize}
+ \item Built automated workflows and structured customer-facing demos with AI agents for client onboarding and document ingestion.
+ \item Managed project delivery end to end: mapped stakeholder requirements, built proof-of-concept prototypes, coordinated testing, and handed over documentation to client teams.
+ \item \textit{Tools: Claude Code, Python, APIs, Postman, Supabase}
+\end{itemize}
+
+\role{Freelance}{Sep 2023 - Mar 2024}{Full-Stack AI \& Automation Developer}{Venice, Italy}
+\begin{itemize}
+ \item Built web scrapers, data enrichment pipelines, and custom API integrations for clients across Europe.
+ \item Developed internal tools with modern frontend frameworks and backend scripts, automating repetitive manual data entry.
+ \item \textit{Tools: TypeScript, Python, n8n, Supabase, REST APIs}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\begin{itemize}
+ \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
+ \item \textit{Tools: Figma, Sendgrid, ChatGPT}
+\end{itemize}
+
+% ================= EDUCATION (frozen) =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS (frozen) =================
+\section{Certifications}
+Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION (frozen) =================
+\section{Additional Information}
+\begin{itemize}
+ \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
+ \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
+\end{itemize}
+
+% ================= CORE SKILLS (tailored, at the bottom) =================
+\section{Core Skills}
+\begin{itemize}
+ \item \textbf{Python \& Backend Architecture:} Python (asyncio, requests, Pydantic), RESTful API design \& consumption, background task orchestration, error handling \& retry mechanisms
+ \item \textbf{Linux \& Systems Administration:} Linux/Unix environments (Ubuntu/Debian), shell scripting (Bash), systemd services, log debugging (journalctl), networking (TCP/IP, HTTP/S, DNS)
+ \item \textbf{Relational Databases \& SQL:} PostgreSQL, Supabase, relational schema design, query optimization, indexing strategies, transaction handling
+ \item \textbf{DevOps \& AI-Assisted Workflows:} Docker containerization, GitHub Actions CI/CD, Git version control, Claude Code, Cursor, automated test suites (PyTest, Playwright, Postman)
+\end{itemize}
+
+\end{document}
