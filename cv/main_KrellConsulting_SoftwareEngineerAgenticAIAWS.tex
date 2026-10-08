@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Software Engineer $\vert$ Agentic AI, AWS Bedrock, Servidores MCP, LangGraph \& FastAPI}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Madrid / Venecia (Residencia Permanente UE $\vert$ Permiso Ilimitado en España $\vert$ Incorporación Inmediata)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Software Engineer especializado en arquitecturas de Agentic AI, soluciones Cloud en AWS y desarrollo backend productivo con 3 años de experiencia comercial. Amplia experiencia práctica en el diseño e implementación de sistemas multi-agente autónomos, servidores MCP (Model Context Protocol), orquestación con LangGraph y LangChain, e integración de LLMs a través de AWS Bedrock. Especialista en la construcción de servicios backend asíncronos y APIs REST de alto rendimiento con FastAPI y Python, aplicando patrones de diseño SOLID, código limpio y despliegue en entornos Cloud-Native containerizados (Docker, Kubernetes). Residente permanente en la UE con plena autorización laboral en España, disponible de inmediato para modalidad híbrida en Madrid.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Agentic AI Engineer \& Backend Architect (Freelance)}{Londres, UK (remoto)}
+\begin{itemize}
+  \item Diseñó y construyó la arquitectura central de agentes autónomos y flujos de trabajo agénticos en producción para más de 4.500 usuarios empresariales activos.
+  \item Desarrolló e integró servidores MCP (Model Context Protocol) personalizados para dotar a los agentes de capacidades de lectura de contexto estructurado, ejecución de herramientas y llamadas seguras a APIs.
+  \item Implementó grafos de orquestación agéntica con LangGraph y AgentCore, integrando razonamiento multi-step, persistencia de memoria contextual, tool calling determinista y planificación dinámica.
+  \item Integró modelos fundacionales (Claude 3.5 Sonnet, LLaMA) mediante AWS Bedrock, gestionando cuotas, enrutamiento semántico, control de costes y mitigación de latencias (<1.8s).
+  \item Diseñó APIs REST asíncronas con FastAPI bajo principios SOLID, desplegando microservicios containerizados en clústeres cloud con Docker, Kubernetes (EKS) y monitorización continua.
+  \item \textit{Tecnologías: Python, Agentic AI, Servidores MCP, LangGraph, AWS Bedrock, FastAPI, Docker, Kubernetes, PostgreSQL, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Software Engineer \& AI Developer (Freelance)}{Barcelona, España (remoto)}
+\begin{itemize}
+  \item Implementó pipelines de ingesta y normalización de flujos de datos asíncronos consumidos por microservicios de inferencia y agentes analíticos.
+  \item Desarrolló servicios backend en FastAPI con rigurosa validación de esquemas Pydantic y gestión de conexiones asíncronas a bases de datos relacionales.
+  \item Construyó suites de pruebas automatizadas y verificaciones de regresión dentro de pipelines de integración continua (CI/CD).
+  \item \textit{Tecnologías: Python, FastAPI, Pydantic, PostgreSQL, Docker, REST APIs, Git}
+\end{itemize}
+
+\role{Consultor Técnico Independiente}{Sep 2023 - Mar 2024}{AI Solutions Engineer}{Venecia, Italia}
+\begin{itemize}
+  \item Desarrolló sistemas de agentes conversacionales y pipelines RAG para empresas europeas en sectores logísticos y de gestión.
+  \item Integró herramientas personalizadas y conectores API para permitir la ejecución autónoma de acciones a partir de prompts estructurados.
+  \item Redactó especificaciones técnicas de arquitectura, esquemas OpenAPI y guías de mantenimiento para equipos de desarrollo internos.
+  \item \textit{Tecnologías: Python, LangChain, OpenAI/AWS APIs, Vector DB, FastAPI, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Prácticas)}{Utrecht, Países Bajos (remoto)}
+\begin{itemize}
+  \item Desarrolló webhooks y pipelines de integración API para sincronización de datos de plataformas SaaS.
+  \item \textit{Tecnologías: Python, JavaScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Universidad Ca' Foscari de Venecia}{Oct 2020 - Jun 2024}{Grado en Filosofía, Estudios Internacionales y Economía (Minor en Emprendimiento)}{Venecia, Italia}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Autorización de Trabajo:} Residente Permanente de la Unión Europea con derecho laboral ilimitado en España (sin necesidad de patrocinio de visado).
+  \item \textbf{Idiomas:} Inglés (C1 profesional fluido), Español (intermedio comunicativo), Italiano (profesional), Hindi (nativo).
+  \item \textbf{Disponibilidad:} Inmediata (0 días de preaviso) para modelo híbrido 60/40 en Madrid.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Agentic AI \& Protocolos:} Servidores MCP (Model Context Protocol), LangGraph, LangChain, AWS AgentCore, Tool Calling, Multi-Step Reasoning, Planificación.
+  \item \textbf{LLMs \& Cloud AWS:} AWS Bedrock, Anthropic Claude, OpenAI, RAG, Búsqueda Vectorial (pgvector), Prompt Engineering, Evals.
+  \item \textbf{Backend \& Arquitectura:} Python 3.12, FastAPI, Programación Asíncrona (asyncio), Principios SOLID, Clean Code, Microservicios, APIs REST.
+  \item \textbf{Infraestructura \& Cloud Native:} Docker, Kubernetes (EKS), AWS IAM, Networking, Observabilidad, CI/CD, Git, Linux.
+\end{itemize}
+
+\end{document}
