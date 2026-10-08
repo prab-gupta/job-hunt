@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Artificial Intelligence Engineer $\vert$ LLMs, Transformers, Model Optimization, RAG $\&$ MLOps}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Full Remote Italy $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{AI/ML Engineering \& Open-Weight LLM Deployment:} AI Engineer with ~3 years commercial software and applied machine learning experience. Skilled in deploying, adapting, and optimizing transformer-based architectures and open-weight Large Language Models (LLaMA 3, Mistral, Falcon) alongside commercial APIs for domain-specific business automation.
+  \item \textbf{Model Optimization, Quantization \& Low-Latency Serving:} Hands-on experience optimizing model inference using modern acceleration techniques (4-bit/8-bit quantization via AWQ/GPTQ, vLLM high-throughput serving runtimes, prompt distillation, and caching strategies), drastically reducing compute memory footprints and per-query latency.
+  \item \textbf{Production RAG Pipelines, Vector Search \& MLOps:} Proven background architecting Retrieval-Augmented Generation (RAG) frameworks using LangChain, LlamaIndex, and vector databases (pgvector, Qdrant). Experienced implementing automated data ingestion pipelines, containerized deployment (Docker, Kubernetes), and model observability workflows.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Core Machine Learning \& LLMs:} Python, PyTorch, Hugging Face Transformers, LLaMA 3, Mistral, Ollama, vLLM, OpenAI API, Anthropic Claude API, Parameter-Efficient Adaptation (LoRA/QLoRA principles).
+  \item \textbf{Model Optimization \& Serving:} Quantization (AWQ, GPTQ, bitsandbytes), KV-Cache Optimization, Semantic Caching (Redis), Latency/Throughput Profiling, Token Budget Management.
+  \item \textbf{RAG Architectures \& Vector Stores:} LangChain, LlamaIndex, LangGraph, Vector Databases (PostgreSQL pgvector, Qdrant, ChromaDB), Hybrid Search (BM25 + Dense Embeddings), Cross-Encoder Reranking.
+  \item \textbf{Data Pipelines \& Backend:} Data Ingestion for Unstructured Documents, FastAPI, AsyncIO, PyDantic, SQL, REST APIs, JSON Schema Enforcement.
+  \item \textbf{MLOps \& Cloud Infrastructure:} Docker, Docker Compose, Git, GitHub Actions CI/CD, Linux Server Environments, AWS (S3, Lambda, EC2), Model Monitoring \& Drift Tracking.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI/ML Engineer \& Solutions Architect}{2024 -- Present}{Independent / Applied AI Consultancy}{Venice, IT (Remote Italy)}
+\begin{itemize}
+  \item Designed and deployed end-to-end AI applications combining open-source transformer models (Mistral 7B, LLaMA 3) hosted via vLLM with proprietary LLM APIs for automated enterprise document analysis.
+  \item Implemented model quantization (AWQ 4-bit) and asynchronous batch inference pipelines, reducing server memory utilization by 60\% and improving inference throughput by 2.8x.
+  \item Architected high-accuracy RAG systems over multi-thousand page technical datasets, integrating semantic chunking, embedding generation, pgvector indexing, and reranking to eliminate hallucinations.
+  \item Developed robust data preprocessing and validation pipelines in Python to clean, structure, and tokenize proprietary datasets for domain-specific model fine-tuning and retrieval.
+  \item Engineered RESTful microservices with FastAPI and containerized workloads in Docker, implementing health-check endpoints, automated regression testing, and CI/CD deployment pipelines.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Developed backend data processing services in Python and TypeScript, integrating machine learning classifiers and NLP models into business-critical workflows.
+  \item Managed and scaled PostgreSQL databases, optimizing vector similarity searches and indexing strategies for high-concurrency read operations.
+  \item Implemented asynchronous task orchestration using message queues, managing distributed data pipelines and background ingestion jobs reliably.
+  \item Collaborated with product teams to translate domain problems into technical AI features, conducting evaluation benchmarks and monitoring model accuracy in production.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{High-Throughput Open-Source LLM Serving Pipeline:} Deployed containerized vLLM inference server running quantized Mistral models with dynamic batching, exposed through a FastAPI proxy with Redis semantic caching and token-usage telemetry.
+  \item \textbf{Enterprise Semantic Knowledge Engine (Python + pgvector):} Built an intelligent document retrieval platform supporting hybrid search, custom metadata filtering, and automated evaluation benchmarking via RAGAS metrics.
+\end{itemize}
+
+% ================= EDUCATION & LANGUAGES =================
+\section{Education \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, mathematical modeling, decision analysis, and quantitative methods.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency / fluent professional communication).
+  \item \textbf{Legal \& Work Authorization:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to work across Italy without visa sponsorship; Registered Italian Partita IVA ready.
+\end{itemize}
+
+\end{document}
