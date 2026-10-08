@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Generative AI Engineer $\vert$ Multi-Agent Systems, LangGraph, Google ADK $\&$ Production RAG}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote EU $\vert$ CIM / Contract Ready)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Multi-Agent System Design \& Agentic Orchestration:} Generative AI engineer with ~3 years commercial software engineering experience building and deploying complex agentic architectures. Deep practical expertise orchestrating interacting agents with LangGraph and agentic frameworks, implementing state machines, retry policies, fallback logic, and seamless human-in-the-loop escalation.
+  \item \textbf{Production RAG Pipelines, Tool Calling \& Prompt Engineering:} Practical builder of end-to-end RAG workflows, automated tool calling, and sophisticated prompt design (ReAct, Chain-of-Thought, dynamic schemas). Hands-on experience optimizing context windows, vector embeddings, chunking strategies, and retrieval performance across pgvector and Qdrant under strict latency and cost constraints.
+  \item \textbf{Automated Evaluation, Observability \& Production CI/CD:} Dedicated to engineering rigor in AI: building automated evaluation suites for agent reliability (measuring precision, recall, faithfulness), running regression testing on prompt and model upgrades, and deploying monitored AI microservices with CI/CD, structured logging, and distributed tracing.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic Frameworks \& Multi-Agent Systems:} LangGraph, Google ADK concepts, LangChain, LlamaIndex, Multi-Agent Orchestration, State Machines, ReAct Pattern, Tool/Function Calling, Automated Fallbacks, Human Escalation.
+  \item \textbf{LLMs \& Generative AI:} OpenAI (GPT-4o, o1), Anthropic Claude 3.5, Google Gemini / Gemini Enterprise, Prompt Optimization, Few-Shot Prompting, Structured Outputs (Pydantic / JSON Schema), Guardrails against Hallucinations.
+  \item \textbf{RAG, Vector Stores \& Search:} Retrieval-Augmented Generation, Document Ingestion Pipelines, Chunking Strategies, PostgreSQL pgvector, Qdrant, ChromaDB, Hybrid Search (Dense + BM25), Semantic Caching (Redis).
+  \item \textbf{Software Engineering \& Cloud:} Python (Packaging, Testing, AsyncIO, PyTest, Type Hints), TypeScript, Node.js, REST/gRPC APIs, GCP, Docker, Git, CI/CD Pipelines (GitHub Actions), Observability \& Distributed Tracing.
+  \item \textbf{Evaluation \& ML Concepts:} Automated Evaluation Suites (Automatic + Human-in-the-Loop), RAGAS Framework, Precision/Recall/F1 Metrics, Dataset Curation, Model Version Regression Testing, Bias \& Safety Auditing.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{Generative AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Designed and built autonomous multi-agent systems using LangGraph and Python, orchestrating collaborative specialized agents with explicit state machine transitions, retry mechanisms, and human-in-the-loop fallback checkpoints.
+  \item Developed and deployed scalable RAG pipelines over enterprise knowledge bases using PostgreSQL pgvector and Qdrant, engineering semantic chunking and reranking to achieve sub-second query latency and zero hallucination on source documents.
+  \item Built dynamic tool-calling integrations allowing agents to autonomously query internal REST APIs and structured databases via secure, schema-validated function invocations.
+  \item Implemented automated evaluation harnesses using RAGAS and custom metric suites to run automated regression checks across model version updates and prompt modifications.
+  \item Containerized AI microservices with Docker and established automated CI/CD deployment pipelines on GCP, integrating structured logging and OpenTelemetry tracing for real-time observability.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Built asynchronous microservices in Python and TypeScript for automated document parsing, classification, and structured data extraction from unstructured multi-page PDFs.
+  \item Implemented vector indexing workflows and background document ingestion queues using Redis and PostgreSQL, ensuring high throughput and data integrity.
+  \item Developed unit and integration test suites using PyTest, ensuring robust API endpoints and high code quality across the deployment lifecycle.
+  \item Collaborated with product managers to translate functional requirements into agentic workflows and actionable engineering specifications.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Multi-Agent Customer Intelligence System (LangGraph + Python):} Multi-agent collaborative workflow featuring specialized triage, retrieval, synthesis, and verification agents with automated state transitions, fallback loops, and human approval for edge cases.
+  \item \textbf{Enterprise Production RAG Pipeline (Python + pgvector):} End-to-end ingestion and retrieval engine utilizing dense embeddings, hybrid BM25 search, semantic caching with Redis, and automated faithfulness evaluations.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous education in formal logic, algorithmic decision theory, analytical reasoning, and complex systems modeling.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Contract Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to work across the European Union without visa sponsorship; fully prepared for CIM contract engagement.
+\end{itemize}
+
+\end{document}
