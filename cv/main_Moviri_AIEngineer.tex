@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Engineer $\vert$ Generative AI, LLM Pipelines, Model Serving $\&$ Cloud Architecture}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice / Padua, Italy (EU Permanent Resident $\vert$ Hybrid Ready $\vert$ CCNL / Freelance Ready)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Generative AI \& Machine Learning Solutions:} AI Engineer with ~3 years commercial software experience developing, evaluating, and deploying enterprise Generative AI systems, conversational assistants, and automated data pipelines across Italy and Europe.
+  \item \textbf{Production Model Serving \& Performance Optimization:} Extensive expertise building high-throughput, low-latency microservices with FastAPI, Docker, and asynchronous task queues, optimizing inference runtime and semantic caching across cloud environments (GCP/AWS).
+  \item \textbf{Local Presence \& Italian Market Alignment:} Based in Venice/Padua (Veneto), holding an EU Permanent Residence Permit (Permesso di Soggiorno a Tempo Indeterminato) with unrestricted Italian working rights, working Italian language capability, and immediate availability for hybrid collaboration in Milan or Padua.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Generative AI \& LLM Engineering:} LangChain, LangGraph, Model Context Protocol (MCP), Hugging Face Transformers, vLLM, OpenAI API, Anthropic Claude, Google Gemini, Prompt Optimization, RAG Architectures.
+  \item \textbf{Machine Learning \& Data Science:} Scikit-Learn, PyTorch, Pandas, NumPy, Data Pipeline Engineering, Feature Extraction, Embedding Models, Semantic Search, Evaluation Frameworks (DeepEval, RAGAS).
+  \item \textbf{Backend \& Model Serving:} Python 3.11+, FastAPI, RESTful API Design, Asynchronous Programming (asyncio), Celery, Redis, Pydantic Schema Validation.
+  \item \textbf{Databases \& Vector Stores:} PostgreSQL, pgvector, Qdrant, Pinecone, ChromaDB, SQL Query Optimization, Redis Cache.
+  \item \textbf{Cloud, DevOps \& Tooling:} Google Cloud Platform (Cloud Run, Vertex AI, Pub/Sub), AWS (ECS, Lambda), Docker, Git, GitHub Actions CI/CD, Linux / Bash, Prometheus / Grafana Monitoring.
+  \item \textbf{Methodologies \& Governance:} Agile / Scrum, Enterprise IT Architecture, Data Governance (EU GDPR Compliance), Automated Testing (pytest).
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Consultant}{Oct 2024 -- Present}{Self-Employed / Independent AI Consultancy}{Venice / Hybrid Italy}
+\begin{itemize}
+  \item Designed and shipped end-to-end Generative AI applications and automated document intelligence pipelines for corporate clients, integrating open-source LLMs and proprietary foundation models into core workflows.
+  \item Architected high-performance RAG pipelines combining dense vector embeddings with sparse keyword search (BM25) over unstructured enterprise knowledge repositories, achieving 94\% contextual retrieval accuracy.
+  \item Deployed scalable FastAPI microservices containerized with Docker on cloud platforms, implementing asynchronous worker pools (Celery/Redis) and sub-200ms latency endpoints.
+  \item Built automated regression and safety evaluation harnesses utilizing golden test sets, monitoring model hallucination rates, token economics, and GDPR data masking prior to production rollouts.
+  \item Provided technical consulting and architecture reviews to cross-functional teams, translating business automation requirements into robust technical specifications and measurable ROI.
+\end{itemize}
+
+\role{AI Software Engineer}{Jan 2023 -- Sep 2024}{Freelance \& Client Implementations}{Veneto / Italy}
+\begin{itemize}
+  \item Developed and maintained data ingestion, cleansing, and validation pipelines processing multi-source structured and unstructured data for enterprise analytics and ML modeling.
+  \item Implemented semantic search engines and conversational AI agents with tool-calling capabilities, connecting foundation models to internal SQL databases and external REST APIs.
+  \item Optimized LLM prompt templates and token consumption strategies, reducing API inference expenditures by 40\% while preserving output quality and schema compliance.
+  \item Containerized production services using Docker and orchestrated automated deployment pipelines with GitHub Actions, ensuring consistent staging and production parity.
+  \item Maintained strict data privacy protocols in full adherence with EU GDPR regulations, enforcing automated PII redaction on all inbound model prompts.
+\end{itemize}
+
+% ================= FEATURED PROJECTS & SYSTEMS =================
+\section{Featured AI Systems \& Engineering Projects}
+
+\role{Enterprise Retrieval-Augmented Generation Platform}{Production Implementation}{Lead Engineer}{2025}
+\begin{itemize}
+  \item Architected an enterprise-grade knowledge discovery platform leveraging hybrid search (pgvector + BM25), reciprocal rank fusion (RRF), and Cohere rerankers across 100k+ technical documents.
+  \item Built a streaming FastAPI serving layer with Redis semantic caching, reducing median query response time from 1.8s to 280ms under concurrent traffic loads.
+\end{itemize}
+
+\role{Autonomous Agentic Tool Integration Framework}{Open-Source / Production Reference}{Creator}{2024 -- 2025}
+\begin{itemize}
+  \item Implemented an agentic orchestration layer based on the Model Context Protocol (MCP), enabling autonomous agents to safely inspect schemas, query databases, and execute validated API calls.
+  \item Included comprehensive telemetry and structured tracing via OpenTelemetry, enabling end-to-end visibility into agent reasoning trajectories and tool execution results.
+\end{itemize}
+
+% ================= EDUCATION, LANGUAGES & WORK AUTHORIZATION =================
+\section{Education, Credentials \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} \textbullet\ Ca' Foscari University of Venice (Coursework in Formal Logic, Decision Theory \& Quantitative Systems)
+  \item \textbf{Languages:} English (C1 -- Full Professional Proficiency), Italian (Working Proficiency / Living in Italy), Hindi (Native)
+  \item \textbf{Work Authorization:} EU Permanent Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) \textbullet\ Full, unrestricted right to work in Italy (CCNL Commercio or Freelance/P.IVA ready) \textbullet\ Located in Venice/Padua area.
+\end{itemize}
+
+\end{document}
