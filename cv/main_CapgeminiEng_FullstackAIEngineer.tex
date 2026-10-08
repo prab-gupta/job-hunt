@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Fullstack AI Engineer $\vert$ Generative AI, Enterprise RAG, Text2SQL $\&$ Production Agents}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote EU $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Production Generative AI \& Client-Facing LLM Solutions:} Applied AI software engineer with ~3 years commercial experience delivering client-facing AI engineering, enterprise RAG architectures, and agentic workflows. Proven track record collaborating closely with client technical stakeholders to productionize LLM solutions over unstructured documents and structured corporate data repositories.
+  \item \textbf{Enterprise Retrieval, Text2SQL \& Tool-Calling Agents:} Hands-on expertise architecting high-throughput Retrieval-Augmented Generation (RAG) pipelines, Text2SQL natural language querying engines, and autonomous tool-calling systems using LangChain, LangGraph, and Model Context Protocol (MCP). Proficient with HuggingFace, OpenAI, Anthropic models, and vector stores (pgvector, Qdrant).
+  \item \textbf{MLOps, Cloud Deployments \& Technical Advisory:} Experienced establishing robust MLOps practices, MLflow tracking, automated evaluation benchmarks (RAGAS), and containerized deployments across AWS/Azure cloud environments. Adept at translating complex data science and AI concepts into clear architectures for both executive and engineering teams.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Generative AI \& Frameworks:} LangChain, LangGraph, HuggingFace Transformers, OpenAI API, Anthropic Claude, Text2SQL, Prompt Engineering, Structured Outputs (Pydantic, JSON Schema), Guardrails against Hallucinations.
+  \item \textbf{RAG, Vector Stores \& Retrieval:} Retrieval-Augmented Generation (RAG), Semantic Chunking, Dense Vector Embeddings, PostgreSQL pgvector, Qdrant, ChromaDB, Hybrid Search (Dense + BM25), Semantic Caching (Redis).
+  \item \textbf{MLOps \& Tooling:} MLflow, Model Context Protocol (MCP Server \& Client), RAGAS Evaluation Framework, Precision/Recall Benchmarking, OpenTelemetry Distributed Tracing, Structured Logging, Docker, CI/CD (GitHub Actions).
+  \item \textbf{Core Engineering \& Languages:} Python (Advanced - AsyncIO, FastAPI, PyTest, Typing), TypeScript, SQL / Data Modeling, Pandas, Scikit-Learn, PyTorch, REST/gRPC APIs, Cloud (AWS, Azure, GCP).
+  \item \textbf{Client Engagement \& Delivery:} Cross-functional Technical Discovery, Solution Architecture, Client Enablement, Agile Delivery, Systems Documentation.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and deployed client-facing enterprise Generative AI applications and RAG systems across European client engagements, connecting LLMs to proprietary knowledge bases and SQL databases.
+  \item Implemented Text2SQL natural language querying engines with automated schema validation and execution safety guards, allowing non-technical business users to query enterprise data stores accurately.
+  \item Built resilient multi-agent and tool-using systems using LangGraph and Model Context Protocol (MCP), standardizing tool invocations and state management across long-running asynchronous workflows.
+  \item Developed automated RAG evaluation harnesses using RAGAS, benchmarking precision, recall, and context faithfulness across model updates and prompt iterations.
+  \item Designed scalable MLOps pipelines using MLflow, Docker containers, and GitHub Actions, packaging LLM microservices with OpenTelemetry tracing and structured telemetry for production reliability.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Developed high-throughput asynchronous Python and TypeScript microservices for automated document ingestion, entity extraction, and classification from complex PDF records.
+  \item Built vector indexing pipelines and caching infrastructure using PostgreSQL and Redis, cutting retrieval latencies and stabilizing high-volume query throughput.
+  \item Created comprehensive unit and integration test suites using PyTest, ensuring regression-proof releases across cloud environments.
+  \item Partnered directly with enterprise customers during discovery and onboarding workshops, translating ambiguous business requirements into robust, production-ready technical architectures.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Enterprise Text2SQL \& RAG Analytics Engine (Python + LangChain + PostgreSQL):} Production solution converting natural language requests into validated SQL queries and hybrid vector searches across relational and unstructured records, equipped with schema guardrails.
+  \item \textbf{Production Agentic Knowledge Platform (LangGraph + MCP + Qdrant):} Distributed multi-agent tool execution platform utilizing Model Context Protocol connectors to query external APIs and vector stores, featuring human-in-the-loop review gates.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous education in formal logic, algorithmic decision theory, analytical reasoning, and complex systems modeling.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Full legal authorization to work across the EU without sponsorship; available immediately for remote engagement.
+\end{itemize}
+
+\end{document}
