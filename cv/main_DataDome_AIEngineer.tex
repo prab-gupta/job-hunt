@@ -23,86 +23,83 @@
 
 % Role command
 \newcommand{\role}[4]{%
- \vspace{2pt}\noindent
- \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
- \hfill
- \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
- \vspace{1pt}%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER (HEADLINE is tailored) =================
+% ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
- {\Huge\bfseries Prabhavit Gupta}\\[3pt]
- {\color{accent}\large AI Engineer: Multi-Agent Architectures, Threat Automation \& Production LLM Systems}\\[6pt]
- {\footnotesize +39 351 610 7807 ~$\vert$~
- \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
- \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
- \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
- Venice, Italy}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Engineer $\vert$ Threat Intelligence Agents, Multi-Agent Systems $\&$ Cloud GenAI Infrastructure}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote France/EU $\vert$ Immediate Availability)}
 \end{minipage}\hfill
 
-% ================= SUMMARY (tailored) =================
-\section{Summary}
-Applied AI engineer and software developer based in Venice, Italy with unrestricted European work authorization and immediate availability for French and European remote roles. Specializes in multi-agent orchestration, automated threat and anomaly detection workflows, and production LLM engineering using Python, LangChain, and GCP/AWS cloud services. Proven experience architecting autonomous agents with strict guardrails and human-in-the-loop validation at FlowSpace, processing high-volume multi-modal data streams and automating triage across complex platform requests. Brings a builder/hacker mindset, deep fluency in prompt engineering and RAG, and solid foundations in asynchronous Python services.
+\vspace{6pt}
 
-% ================= EXPERIENCE (frozen) =================
-\section{Experience}
-
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
 \begin{itemize}
- \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
- \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
- \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
- \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
- \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
- \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
+  \item \textbf{Applied AI \& Multi-Agent Engineering:} Software engineer with ~3 years commercial experience architecting and shipping autonomous agent systems, multi-agent crews (LangGraph, CrewAI-style loops), and production LLM pipelines. Hands-on experience developing agentic workflows to analyze high-volume semi-structured telemetry, summarize anomalous signals, and accelerate technical investigations.
+  \item \textbf{Model Context Protocol (MCP) \& API Security:} Specialist in Model Context Protocol (MCP Server \& Client SDKs) and agent-to-API communication security. Experienced implementing credential sandboxing, payload sanitization, least-privilege tool execution, and guardrails to mitigate prompt injection, malicious agent tool calls, and data exfiltration.
+  \item \textbf{Cloud Infrastructure \& Eval-Driven Quality:} Proficient building and deploying containerized Python microservices (FastAPI, Docker) across AWS and GCP. Experienced establishing automated regression test harnesses (RAGAS, synthetic incident datasets) and distributed tracing (Langfuse, OpenTelemetry) to benchmark detection precision, latency, and token economics.
 \end{itemize}
 
-\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI-Assisted Developer (Freelance)}{Barcelona, Spain}
-\begin{itemize}
- \item Built automated workflows and structured customer-facing demos with AI agents for client onboarding and document ingestion.
- \item Managed project delivery end to end: mapped stakeholder requirements, built proof-of-concept prototypes, coordinated testing, and handed over documentation to client teams.
- \item \textit{Tools: Claude Code, Python, APIs, Postman, Supabase}
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Applied AI \& Multi-Agent Systems:} Multi-Agent Crews, Autonomous Tool Loops, CrewAI / LangGraph Orchestration, Threat Analysis Automation, State Machine Persistence, Dynamic Context Pruning.
+  \item \textbf{Protocols \& API Security:} Model Context Protocol (MCP), REST / WebSocket APIs, API Security, Prompt Injection Mitigation, Sandboxed Tool Execution, Guardrails (NeMo / Llama-Guard), Audit Logging.
+  \item \textbf{Cloud \& Data Infrastructure:} Python (AsyncIO, FastAPI, PyTest, Pydantic), AWS (Bedrock, S3, ECS), GCP (Vertex AI), PostgreSQL (pgvector), Redis (Caching \& Semantic Queues), Docker.
+  \item \textbf{Evaluation \& Observability:} Eval-Driven Development, RAGAS Benchmarking, Synthetic Test Dataset Generation, Langfuse Distributed Tracing, Latency Profiling, Token Budgeting, CI/CD.
+  \item \textbf{Engineering Practices:} Git, GitHub Actions, Defensive Coding, Architecture Decision Records (ADRs), Rapid Prototyping \& Hacker Mentality.
 \end{itemize}
 
-\role{Freelance}{Sep 2023 - Mar 2024}{Full-Stack AI \& Automation Developer}{Venice, Italy}
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
 \begin{itemize}
- \item Built web scrapers, data enrichment pipelines, and custom API integrations for clients across Europe.
- \item Developed internal tools with modern frontend frameworks and backend scripts, automating repetitive manual data entry.
- \item \textit{Tools: TypeScript, Python, n8n, Supabase, REST APIs}
+  \item Architected and deployed production agentic systems and tool-using LLM platforms for European tech clients, translating complex domain specifications into high-performance cloud architectures.
+  \item Developed collaborative multi-agent crews coordinating specialized analysis nodes to ingest, cross-reference, and summarize high-volume event signals and suspicious activity logs.
+  \item Standardized secure tool interfaces using Model Context Protocol (MCP), enforcing rigorous schema validation and permission isolation between autonomous agents and backend databases.
+  \item Designed automated evaluation test suites with RAGAS and synthetic adversarial queries, continuously benchmarking agent tool-calling accuracy, hallucination resistance, and latency.
+  \item Integrated real-time distributed tracing using Langfuse and OpenTelemetry, establishing operational visibility into decision trees, error recovery paths, and token consumption.
+  \item Packaged AI services into lightweight Docker containers and automated regression validation within GitHub Actions CI/CD workflows, ensuring stable, reproducible cloud deployments.
 \end{itemize}
 
-\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
 \begin{itemize}
- \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
- \item \textit{Tools: Figma, Sendgrid, ChatGPT}
+  \item Engineered high-throughput asynchronous backend pipelines in Python and TypeScript for parsing, indexing, and classifying real-time streaming data.
+  \item Implemented semantic search and embedding retrieval using PostgreSQL (pgvector) and Redis, delivering reliable sub-second response times for downstream automated classifiers.
+  \item Developed comprehensive test automation with PyTest and integrated automated quality gates into CI/CD pipelines to guarantee production stability.
+  \item Collaborated with cross-functional technical teams to convert threat intelligence and data governance requirements into resilient, modular microservices.
 \end{itemize}
 
-% ================= EDUCATION (frozen) =================
-\section{Education}
-\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
-
-% ================= CERTIFICATIONS (frozen) =================
-\section{Certifications}
-Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
-
-% ================= ADDITIONAL INFORMATION (frozen) =================
-\section{Additional Information}
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
 \begin{itemize}
- \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
- \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
+  \item \textbf{Autonomous Threat Analysis Multi-Agent Crew (Python + LangGraph + MCP):} Multi-agent collaborative system coordinating automated incident log parsing, threat artifact extraction, and summarized reporting with Langfuse distributed tracing.
+  \item \textbf{High-Throughput Semantic Verification Engine (FastAPI + pgvector + Redis):} Sub-second embedding retrieval and payload classification microservice with Pydantic structured output validation, token budgeting, and automated evaluation harnesses.
 \end{itemize}
 
-% ================= CORE SKILLS (tailored, at the bottom) =================
-\section{Core Skills}
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
 \begin{itemize}
- \item \textbf{Multi-Agent Systems \& AI Architecture:} Autonomous agent frameworks (CrewAI, LangGraph, LangChain), multi-agent consensus, structured tool use, prompt engineering, RAG pipelines
- \item \textbf{Threat Automation \& Triage:} Automated traffic analysis, behavioral anomaly detection, prompt injection mitigation, synthetic pattern recognition, SOC triage automation
- \item \textbf{Cloud \& Backend Infrastructure:} Python (asyncio), GCP (Cloud Run, Cloud Functions), Docker containerization, REST APIs, Supabase, PostgreSQL, Redis caching
- \item \textbf{Engineering Rigor \& Delivery:} Clean code, Git, automated test suites (Playwright, PyTest), Postman, CI/CD pipeline automation, technical documentation
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, statistical reasoning, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), French (Basic understanding).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the EU without sponsorship; available immediately for remote engagement.
 \end{itemize}
 
 \end{document}
