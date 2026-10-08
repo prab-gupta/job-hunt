@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Solution Architect $\vert$ LangGraph, Agentic AI Systems, MCP $\&$ Enterprise Architectures}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Freelance / VAT Ready $\vert$ Remote EU)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{LangGraph \& Multi-Agent Solution Architecture:} Software and solution architect with ~3 years commercial experience designing and deploying enterprise AI agent platforms and autonomous agentic workflows. Specialised in LangGraph state machines, multi-agent collaboration, persistent checkpointing, dynamic tool calling, and human-in-the-loop approval architectures.
+  \item \textbf{Enterprise Integration, MCP \& Security Governance:} Deep hands-on experience bridging agentic AI with enterprise systems using Model Context Protocol (MCP Server \& Client), REST/gRPC APIs, and vector/relational databases. Proven track record enforcing strict AI governance, prompt injection defense, credential isolation, and audit logging across critical workflows.
+  \item \textbf{Observability, Evaluation \& Cloud Engineering:} Proven expertise establishing end-to-end evaluation and monitoring pipelines (RAGAS, Langfuse, OpenTelemetry, LangSmith) to benchmark agent task accuracy, latency, and token cost. Adept at architecting scalable microservices on AWS/Azure/GCP with Docker, Redis, and PostgreSQL/pgvector.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Architecture Capabilities}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic AI \& Orchestration:} LangGraph, LangChain, Multi-Agent Swarms, Tool Loops, ReAct Reasoning, Dynamic State Persistence, Checkpointing, Human-in-the-Loop Approval Gates, Context Pruning.
+  \item \textbf{Enterprise Protocols \& Integration:} Model Context Protocol (MCP Server \& Client SDKs), REST APIs, WebSockets, gRPC, PostgreSQL (pgvector), Redis (Caching \& Pub/Sub), Enterprise SaaS Integrations.
+  \item \textbf{AI Security \& Governance:} Prompt Injection Mitigation, Guardrails (NeMo / Llama-Guard), Least-Privilege Agent Tooling, Sensitive Data Masking, Audit Tracing, Deterministic vs. Probabilistic Boundaries.
+  \item \textbf{Observability, Evals \& LLMOps:} Langfuse Tracing, LangSmith, OpenTelemetry, RAGAS Benchmarking, Regression Evaluation Harnesses, Token Budgeting, Latency Profiling, Automated CI/CD.
+  \item \textbf{Backend \& Cloud Platforms:} Python (AsyncIO, FastAPI, PyTest, Pydantic), TypeScript, Docker, Kubernetes, AWS, Azure, GCP, Microservices Architecture.
+  \item \textbf{Architecture Leadership:} Solution Design Documents (SDD), Architecture Decision Records (ADRs), Technical Stakeholder Alignment, Client Workshops, Engineering Mentorship.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Solution Architect \& Engineering Consultant}{2024 -- Present}{Independent Consultancy (VAT Registered)}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Spearheaded architecture, technical design, and implementation of production agentic AI solutions and LangGraph workflows for European client organizations.
+  \item Designed multi-agent architectures utilizing LangGraph state graphs with conditional branching, persistent memory checkpoints, and human approval interrupts for high-stakes business decisions.
+  \item Developed and standardized Model Context Protocol (MCP) server architectures, enabling AI agents to securely query internal enterprise relational databases and external analytics APIs with strict role-based access.
+  \item Established enterprise AI security boundaries: implemented input/output guardrails, sanitized model tool-call arguments, and enforced auditable action trails to mitigate prompt injection and data leakage.
+  \item Designed comprehensive evaluation harnesses using RAGAS and automated regression suites, setting quantitative release gates for task completion rates, hallucination control, and token efficiency.
+  \item Integrated distributed observability with Langfuse and OpenTelemetry, delivering real-time dashboards for tracing multi-turn agent paths, token expenditures, and system latency.
+  \item Authored technical architecture blueprints, conducted client design reviews, and guided engineering teams through containerized production rollouts using Docker and cloud infrastructure.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Architected and deployed asynchronous microservices in Python (FastAPI) and TypeScript to support automated data extraction, parsing, and semantic classification pipelines.
+  \item Implemented enterprise retrieval-augmented generation (RAG) platforms using PostgreSQL with pgvector and Redis, optimizing retrieval latency and embedding cache hit rates.
+  \item Built robust test automation suites with PyTest and CI/CD pipelines via GitHub Actions, establishing reliable automated quality checks across distributed backend services.
+  \item Collaborated with cross-functional business and engineering leaders to translate complex domain specifications into scalable, production-ready system designs.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Architectural Projects}
+\begin{itemize}
+  \item \textbf{Enterprise Multi-Agent Platform (LangGraph + MCP + PostgreSQL):} Multi-agent collaborative system coordinating specialized domain agents with shared state persistence, MCP tool integration, human-in-the-loop review nodes, and Langfuse distributed tracing.
+  \item \textbf{Automated Financial Intelligence Pipeline (FastAPI + pgvector + RAG):} High-throughput enterprise document processing and semantic search architecture with Pydantic structured output validation, token budgeting, and automated RAGAS eval gates.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, statistical reasoning, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to work across the EU without visa sponsorship; European VAT (Partita IVA) ready for freelance contracts; available immediately for 40 hours/week.
+\end{itemize}
+
+\end{document}
