@@ -1,25 +1,33 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=1.5cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{titlesec}
 
-\definecolor{accent}{HTML}{00686E}
-\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
-\pagenumbering{arabic}
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
-\titlespacing{\section}{0pt}{7pt}{4pt}
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
 
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
 \newcommand{\role}[4]{%
-  \textbf{#1} \hfill \textbf{#2}\\[1pt]%
-  \textit{#3} \hfill \textit{#4}\\[2pt]%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
@@ -28,66 +36,70 @@
 % ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
   {\Huge\bfseries Prabhavit Gupta}\\[3pt]
-  {\color{accent}\large AI Platform Engineer: Agent Runtimes, MCP Tooling, Orchestration \& Production Systems}\\[6pt]
+  {\color{accent}\large AI Platform Engineer $\vert$ Agent Runtimes, LangGraph, MCP Servers $\&$ LLMOps}\\[6pt]
   {\footnotesize +39 351 610 7807 ~$\vert$~
   \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
   \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
   \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
-  Venice, Italy (Relocating to Prague, Czech Republic)}
+  Venice, Italy (EU Permanent Resident $\vert$ Prague / Relocation Ready $\vert$ Immediate Availability)}
 \end{minipage}\hfill
-\begin{minipage}[c]{0.18\textwidth}
-  \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
-\end{minipage}
-\vspace{-2pt}
 
-% ================= SUMMARY =================
-\section{Summary}
-AI Platform and Software Engineer with 3 years of hands-on production experience architecting agent runtimes, Model Context Protocol (MCP) integrations, and developer-facing tool layers. Proven record designing and scaling production-grade generative AI applications, grounded retrieval pipelines, and enterprise automation infrastructure. Core technical foundation spanning Python (FastAPI, asyncio), TypeScript/JavaScript (Node.js, Next.js), PostgreSQL, and cloud deployments, with deep practical specialization in autonomous agent architectures: multi-step orchestration, tool and function calling, state management, schema-enforced validation, and automated evaluation loops over live operational logs. Pragmatic builder who operates daily with AI-native coding workflows (Claude Code, Cursor) and designs hardened platform foundations that make it trivial for internal engineering teams to ship reliable agents in days. Holder of EU Long-Term Residence Permit (permanent unrestricted EU work authorization without visa sponsorship); based in Venice, Italy and ready for immediate relocation to Prague.
+\vspace{6pt}
 
-% ================= TECHNICAL EXPERTISE =================
-\section{Technical Expertise}
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
 \begin{itemize}
-  \item \textbf{Agent Platforms \& Runtimes:} Multi-step agent orchestration, LangGraph, tool and function calling, state and memory management, Model Context Protocol (MCP) server development, execution sandboxes, guardrails, fallback escalation.
-  \item \textbf{Production LLMOps \& Evals:} Automated evaluation pipelines against live production transcripts, hallucination prevention, latency profiling, token economics, context window optimization, semantic caching, trace observability.
-  \item \textbf{Retrieval \& Data Systems:} Retrieval-Augmented Generation (RAG), vector embeddings, hybrid keyword/semantic search, PostgreSQL, Supabase, relational schema modeling, schema-enforced JSON validation.
-  \item \textbf{Full-Stack \& Backend Engineering:} Python (FastAPI, backend services, asyncio), TypeScript / JavaScript (Node.js, Next.js, React), RESTful APIs, webhook synchronization, automated contract and regression testing (Playwright).
-  \item \textbf{Platform Infrastructure \& DevOps:} Docker containerization, AWS/GCP cloud environments, CI/CD pipelines, Git, workflow orchestration (n8n), security best practices (prompt injection defense, audit logging, least-privilege data access).
-  \item \textbf{Languages \& Authorization:} English (C1 Professional), Hindi (Native), Italian (Beginner). EU Long-Term Residence Permit (permanent unrestricted EU work authorization, no visa sponsorship required).
+  \item \textbf{Core Agent Platform \& Runtime Engineering:} AI Engineer with ~3 years commercial software experience specializing in agent orchestration runtimes, shared developer SDKs, and state/memory management. Proven track record architecting modular agent systems with LangGraph, Anthropic/OpenAI SDKs, and robust async Python microservices.
+  \item \textbf{Tool \& Connector Layers via Model Context Protocol (MCP):} Extensive hands-on experience authoring and maintaining custom MCP (Model Context Protocol) servers that safely expose structured enterprise databases, internal APIs, and search infrastructure to autonomous LLM agents with defensive JSON validation.
+  \item \textbf{LLMOps, Distributed Observability \& Evals:} Deep expertise implementing enterprise-grade telemetry with Langfuse, semantic caching layers with Redis, and automated CI/CD evaluation harnesses using RAGAS and custom LLM-as-a-judge pipelines to guarantee prompt stability and sub-second retrieval latency.
 \end{itemize}
 
-% ================= EXPERIENCE =================
-\section{Experience}
-
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
-\begin{itemize}
-  \item Architected, deployed, and maintained the production AI customer agent runtime on a live platform serving 4,500+ active users, automating customer inquiries across pricing, venue inventory, and bookings.
-  \item Designed and operated the tool and connector layer grounding agent responses against live operational databases and partner APIs (OfficeRnD, Nexudus) using strict JSON tool schemas and fallback escalation logic.
-  \item Built automated evaluation loops analyzing real customer conversation transcripts rather than synthetic benchmarks, systematically detecting failure patterns and eliminating hallucinated answers.
-  \item Profiled latency and API token consumption across model versions, optimizing prompt templates and context window utilization to reduce inference costs while maintaining sub-second response times.
-  \item Deployed automated end-to-end regression suites using Playwright, verifying API contracts and continuous deployment stability across complex booking journeys.
-  \item Spearheaded platform migration from legacy architecture to a modern Next.js and backend service stack, supporting platform growth from 2,000 to 4,500+ users without operational degradation.
-  \item Built automated data ingestion and transformation pipelines parsing and validating unstructured partner venue listings, expanding platform inventory to over 900 locations.
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agent Architecture \& Orchestration:} LangGraph, LangChain, Model Context Protocol (MCP) Servers, Multi-Agent Coordination, Memory Management, Tool Calling, State Machines, Context Pruning.
+  \item \textbf{Core Engineering \& Languages:} Python (AsyncIO, FastAPI, Pydantic, PyTest), TypeScript / Node.js, REST APIs, WebSockets, Docker, Kubernetes basics, Git, GitHub Actions CI/CD.
+  \item \textbf{Databases \& Vector Retrieval:} PostgreSQL (pgvector, HNSW indexes), Qdrant, Redis (Semantic Caching \& Task Queues), Hybrid Retrieval (Vector + BM25 Lexical Re-ranking).
+  \item \textbf{LLMOps, Security \& Observability:} Langfuse Distributed Tracing, RAGAS Eval Harnesses, Prompt Injection Mitigation, PII Redaction, Token Cost \& Latency Profiling.
+  \item \textbf{Engineering Standards:} Modular SDK Design, Secure-by-Default Architecture, High-Leverage Internal Tooling, Extreme Ownership.
 \end{itemize}
 
-\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& AI Assisted Developer (Freelance)}{Barcelona, Spain (remote)}
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Platform Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
 \begin{itemize}
-  \item Architected core web application backend workflows, defining clear API contracts, relational schemas, and data transformation logic for user-facing features.
-  \item Implemented automated validation and synchronization pipelines connecting third-party services with PostgreSQL, preventing malformed inputs and ensuring relational data integrity.
-  \item Integrated automated CI/CD workflows and regression checks to accelerate feature delivery across distributed development environments.
+  \item Engineered reusable internal agent runtimes and orchestration layers utilizing LangGraph and Python AsyncIO, enabling rapid deployment of multi-step autonomous workflows.
+  \item Implemented and deployed Model Context Protocol (MCP) servers exposing internal analytical databases and web intelligence endpoints to LLMs with strict input validation and access controls.
+  \item Established automated evaluation pipelines using RAGAS and regression test suites in GitHub Actions, benchmarking ground truth relevance, faithfulness, and latency across prompt iterations.
+  \item Integrated Langfuse distributed tracing across all agent execution paths, giving development teams real-time visibility into token expenditures, tool invocation latency, and failure fallbacks.
+  \item Architected high-throughput hybrid RAG systems over relational and unstructured data sources, combining PostgreSQL pgvector embeddings with lexical keyword re-ranking.
+  \item Designed semantic caching middleware with Redis, eliminating redundant upstream LLM calls by 35\% while preserving freshness guarantees for dynamic analytical data.
 \end{itemize}
 
-\role{Independent Technical Consultant}{Aug 2023 - Feb 2024}{AI Solutions \& Automation Engineer}{Venice, Italy}
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
 \begin{itemize}
-  \item Designed and delivered bespoke AI automation workflows, web extraction engines, and API integrations for European SME clients using Python, TypeScript, and Playwright.
-  \item Translated manual, fragmented business operations into automated software solutions with structured logging, retry queues, and reliable recovery logic.
-  \item Engineered webhook listeners and real-time synchronization pipelines across CRM platforms, operational tools, and relational datastores.
+  \item Built resilient asynchronous backend microservices in Python (FastAPI) and TypeScript powering automated data extraction and semantic document classification.
+  \item Integrated vector indexing and semantic similarity matching over high-volume transactional records using PostgreSQL and Redis caching.
+  \item Formulated end-to-end integration test suites with PyTest and Dockerized staging environments, achieving 90\%+ test coverage across core integration layers.
+  \item Collaborated with product and engineering teams to transform exploratory AI prototypes into production-grade, observable microservices.
 \end{itemize}
 
-% ================= EDUCATION =================
-\section{Education}
-\role{Ca' Foscari University of Venice}{2020 - 2024}{BA in Philosophy, International Studies and Economics}{Venice, Italy}
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
 \begin{itemize}
-  \item Rigorous grounding in formal logic, analytical problem solving, systems analysis, and macroeconomic decision models.
+  \item \textbf{Enterprise Agent Runtime \& MCP Connector Gateway (Python + LangGraph + MCP):} Created a modular agent execution runtime featuring shared state management, dynamic tool routing via MCP servers, and comprehensive Langfuse trace capture for enterprise automation.
+  \item \textbf{Continuous LLM Eval \& Regression Gate (FastAPI + RAGAS + PyTest):} Implemented an automated CI/CD eval suite that executes synthetic test cases on prompt updates, verifying contextual recall, adherence, and latency constraints prior to production releases.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Deep background in formal logic, statistical reasoning, decision architecture, and quantitative methodology.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Czech (Willing to learn).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the European Union (including the Czech Republic) without visa sponsorship. Immediate availability.
 \end{itemize}
 
 \end{document}

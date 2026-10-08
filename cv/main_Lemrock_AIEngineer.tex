@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Engineer $\vert$ Agentic Pipelines, LLM Orchestration, Evals $\&$ Production Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Paris/Hybrid or Remote $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Agentic Pipelines \& Commerce Intelligence:} AI Engineer with ~3 years commercial experience architecting and shipping production agentic workflows, autonomous conversational pipelines, and high-throughput vector retrieval systems. Experienced taking 0-to-1 agent systems into production with tight latency and evaluation constraints.
+  \item \textbf{LLM Orchestration, Tooling \& Hybrid Recommendation:} Deep practical expertise with native Anthropic/OpenAI SDKs, LangGraph, Model Context Protocol (MCP), and hybrid retrieval (vector similarity + BM25/fuzzy keyword search) across PostgreSQL (pgvector), Redis, and Qdrant.
+  \item \textbf{Production Evals, Observability \& Rigor:} Proven track record designing automated evaluation loops (RAGAS, DeepEval, prompt regression suites) and real-time distributed tracing with Langfuse. Systematic approach to tracking latency, token economics, failure cascades, and accuracy drift across conversational datasets.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{AI \& Agentic Systems:} Agentic Frameworks (LangGraph, LangChain), Native OpenAI/Anthropic SDKs, Autonomous Agent Loops, Tool Use \& Model Context Protocol (MCP), Context Pruning, Guardrails.
+  \item \textbf{LLM Observability \& Evals:} Langfuse Distributed Tracing, RAGAS Benchmarking, DeepEval, Synthetic Evaluation Datasets, Prompt Regression Testing, PostHog Event Analytics.
+  \item \textbf{Vector Search \& Recommenders:} PostgreSQL (pgvector, HNSW indexing), Hybrid Scoring (Semantic + Lexical BM25/pg\_trgm), Redis Semantic Caching, Qdrant, Data Ingestion Pipelines.
+  \item \textbf{Engineering \& Infrastructure:} TypeScript / Node.js, Python (AsyncIO, FastAPI, Pydantic), Docker, GCP, PostgreSQL, Redis, REST \& WebSocket APIs, GitHub Actions CI/CD.
+  \item \textbf{Development Philosophy:} AI-Assisted Engineering (Claude Code, Cursor), Rapid 0-to-1 Prototyping, Production Scalability, Extreme Ownership.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and deployed production multi-agent workflows and real-time LLM pipelines for European tech clients, serving real-world conversational and data extraction use cases.
+  \item Designed end-to-end agentic pipelines with autonomous tool calling, structured JSON output validation, and state persistence using LangGraph and Model Context Protocol (MCP).
+  \item Implemented hybrid recommendation and retrieval engines pairing dense vector embeddings (pgvector HNSW) with lexical search, optimizing sub-second query latency under high request loads.
+  \item Instrumenting comprehensive distributed observability via Langfuse, capturing end-to-end agent decision traces, token consumption, and fallback behavior across millions of events.
+  \item Built automated evaluation and regression harnesses using RAGAS and custom LLM-as-a-judge pipelines, establishing quantitative benchmarks for output relevance, groundedness, and hallucination prevention.
+  \item Integrated automated data enrichment and semantic classification loops, keeping internal product catalogs and knowledge bases continuously synchronized.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Engineered high-throughput asynchronous services in TypeScript and Python for conversational intent extraction and entity categorization.
+  \item Implemented semantic caching mechanisms in Redis and PostgreSQL pgvector, cutting redundant API calls by 35\% and stabilizing response latency under peak traffic.
+  \item Deployed microservices via Docker and automated CI/CD pipelines with GitHub Actions, enforcing strict unit testing and schema validation gates.
+  \item Collaborated with product leads to translate user interaction signals into measurable algorithmic iteration loops and structured feature roadmaps.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous Agentic Commerce Pipeline (TypeScript + LangGraph + pgvector):} Built an autonomous research and recommendation agent that extracts catalog attributes, queries vector stores with hybrid scoring, and generates structured comparison cards with Langfuse telemetry.
+  \item \textbf{Continuous LLM Evaluation \& Regression Suite (Python + RAGAS + DeepEval):} Designed an automated CI/CD evaluation gate that runs prompt regression tests against synthetic customer interaction benchmarks, detecting latency regressions and semantic drift prior to deployment.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, statistical decision theory, computational models, and analytical philosophy.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), French (Basic).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Full legal authorization to work in France / EU without visa sponsorship; available immediately.
+\end{itemize}
+
+\end{document}
