@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer $\vert$ Agentic Platform, LLM Orchestration $\&$ Enterprise Deployments}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit-gupta}{linkedin.com/in/prabhavit-gupta} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ CET / GMT Aligned $\vert$ European Travel Ready)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Forward Deployed Engineering \& Enterprise Agent Delivery:} Applied AI engineer with ~3 years commercial software experience embedding directly with enterprise technical teams to translate ambiguous business operations into secure, production-grade agentic workflows and tool-calling systems.
+  \item \textbf{Agentic Platforms, LLM Orchestration \& Tool Calling:} Deep practical experience designing and shipping multi-step reasoning agents (ReAct, Plan-and-Execute, LangGraph), Model Context Protocol (MCP) tool interfaces, hybrid RAG pipelines, and sandboxed tool execution environments.
+  \item \textbf{Enterprise Reliability, Rigorous Evals \& Observability:} Proven track record establishing quantitative evaluation harnesses (LLM-as-judge, DeepEval, Langfuse tracing), auditing agent safety and token latency, and hardening client integrations within sensitive data environments.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic Architecture \& LLM Stack:} Multi-Agent Orchestration (LangGraph, ReAct, Plan-and-Execute), Tool Calling, Model Context Protocol (MCP), Vector Databases (Qdrant, pgvector), Hybrid RAG, Prompt Caching, Semantic Chunking.
+  \item \textbf{Evaluation \& Observability:} LLM-as-a-Judge, Groundedness \& Factuality Evals, DeepEval, Langfuse Distributed Tracing, Latency \& Cost Profiling, Regression Test Suites.
+  \item \textbf{Forward Deployed Delivery:} Enterprise Client Embedding, Technical Scoping, API Integrations, Webhook Ingestion, Security \& Auditability Controls, 20--40\% On-Site Travel Ready.
+  \item \textbf{Core Software Engineering:} Python (AsyncIO, FastAPI, PyTest), TypeScript / Node.js, Next.js, Docker, PostgreSQL, REST APIs, GraphQL, Linux CLI, Git.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{Forward Deployed AI Engineer \& Technical Solutions Consultant}{2024 -- Present}{Independent Consultancy}{Venice, IT (Remote / Hybrid)}
+\begin{itemize}
+  \item Embedded directly with client engineering and technical architecture teams across Europe to design, scope, and deploy enterprise AI agent workflows connecting frontier LLMs with proprietary internal tools and databases.
+  \item Engineered robust agentic workflows utilizing ReAct and Plan-and-Execute architectures, enabling models to reason across multi-step API chains, validate inputs against strict JSON schemas, and execute audited actions.
+  \item Implemented Model Context Protocol (MCP) servers and clients, establishing standardized tool abstraction layers that decoupled core agent reasoning from client-specific legacy enterprise endpoints.
+  \item Established automated evaluation pipelines using Langfuse and programmatic test benches, tracking hallucination rates, tool parameter selection accuracy, and end-to-end task completion rates before production rollout.
+  \item Collaborated with client security stakeholders to enforce auditable action logging, sandboxed execution boundaries, and prompt-injection mitigations across production agent loops.
+\end{itemize}
+
+\vspace{3pt}
+\role{Lead Developer \& Product Engineer}{Mar 2024 -- Aug 2026}{FlowSpace.co}{London, UK (Remote / Europe)}
+\begin{itemize}
+  \item Led platform engineering and integration architecture, scaling active user traffic across UK and European enterprise hubs from 2,000 to 4,500+ professionals.
+  \item Designed and shipped conversational AI support and automated routing agents integrated with live reservation systems, handling unstructured member inquiries with high task resolution accuracy.
+  \item Re-architected core platform services into modular Next.js and backend API microservices, eliminating technical debt and guaranteeing continuous 99.9\% uptime across high-frequency booking cycles.
+  \item Built resilient multi-source data ingestion pipelines with automated schema validation and exception monitoring, normalizing external inventory feeds across disparate third-party formats.
+  \item Maintained close technical collaboration with enterprise space operators, translating complex venue operational constraints into reliable API integrations and automated webhook event handlers.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack Solutions Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Delivered custom API integrations and automated data microservices in Python and TypeScript, bridging client operational systems with centralized data stores.
+  \item Implemented automated unit and end-to-end integration testing suites in Docker CI/CD pipelines, preventing integration regressions across shared customer interfaces.
+  \item Partnered directly with non-technical business leads to extract operational edge cases, formalizing them into rigorous technical specifications and reliable software deliverables.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous Tool-Calling \& Evaluation Harness (TypeScript + MCP + Langfuse):} Architected an enterprise-grade agent runtime enabling LLMs to safely invoke external tool ecosystems with schema-enforced payload validation, full state rollbacks, and distributed tracing.
+  \item \textbf{Multi-Source Enterprise Ingestion \& Parsing Pipeline (Python + Playwright + APIs):} Built a high-throughput extraction and normalization engine processing 900+ external sources with rate limiting, error isolation, and semantic chunking for vector indexing.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy, International Studies \& Economics} -- Ca' Foscari University of Venice (2020 -- 2024) \\
+  \textit{Rigorous foundation in formal logic, epistemology, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Legal Status \& Availability:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy). Full work rights across EU; based in Venice (CET, GMT+1); 100\% GMT business overlap; available immediately for hybrid/travel roles.
+\end{itemize}
+
+\end{document}
