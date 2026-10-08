@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior AI Engineer $\vert$ Agentic Systems, AI-Native Dev (Claude Code/Codex) $\&$ Verifiable AI Governance}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote Europe $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{AI-Native Engineering \& Agentic Systems:} Senior AI Engineer with ~3 years commercial software experience leading AI-native development. Daily power-director of AI coding agents (Claude Code, Codex, Cursor), multiplying development velocity while maintaining uncompromising software engineering judgment, system security, and architecture integrity.
+  \item \textbf{Verifiable, Governed AI Platforms \& Tool Runtimes:} Deep specialization in agent runtimes, tool execution boundaries, and verifiable AI architectures. Architect of production multi-agent state machines with Model Context Protocol (MCP), enforcing Pydantic defensive schemas, deterministic human-in-the-loop gates, and zero-trust tool access.
+  \item \textbf{Production Observability, Evals \& System Design:} Extensive track record taking early-stage AI prototypes to robust, production-grade systems. Deep expertise in distributed trace observability with Langfuse, rigorous automated eval harnesses (DeepEval, RAGAS), and cloud infrastructure (Docker, AsyncIO, PostgreSQL/pgvector).
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{AI-Native Development:} Claude Code, Codex, Cursor, Automated Agentic Workflows, Spec-Driven Development, Context Window Management, Multi-Agent Pair Programming.
+  \item \textbf{Agent Runtimes \& Tooling:} Model Context Protocol (MCP), LangGraph, Autonomous Multi-Agent Loops, Tool Calling / Function Execution, Human-in-the-Loop Interrupts, State Persistence.
+  \item \textbf{Core Software Engineering:} Python (AsyncIO, Typing, PyTest), FastAPI, TypeScript, Node.js, REST/GraphQL APIs, Docker, Git, CI/CD Automation, Defensive Security.
+  \item \textbf{Data \& Vector Infrastructure:} PostgreSQL (pgvector, HNSW indexing), Redis (State \& Semantic Caching), SQL/NoSQL Architectures, Schema Migrations.
+  \item \textbf{AI Governance \& Observability:} Langfuse Distributed Tracing, DeepEval, RAGAS Benchmarks, Prompt Regression Harnesses, Hallucination Mitigations, Sandboxed Execution.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{Lead AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and deployed production-grade agentic platforms and verifiable AI systems for European tech companies, directing AI coding agents to deliver features at 5x individual engineering output.
+  \item Engineered autonomous multi-agent state machines (LangGraph, Python AsyncIO) coordinating tool execution across databases, third-party APIs, and code sandboxes with strict deterministic boundaries.
+  \item Built custom Model Context Protocol (MCP) servers and runtime connectors, ensuring granular permissioning, prompt injection defense, and structured Pydantic payload verification.
+  \item Designed comprehensive CI/CD evaluation pipelines using DeepEval and RAGAS, preventing model drift, regression, and unauthorized tool calls before production releases.
+  \item Integrated real-time distributed telemetry via Langfuse, profiling end-to-end trace latency, tool usage fidelity, token budgets, and automated fallback behaviors.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Engineered high-performance backend microservices in Python (FastAPI) and TypeScript supporting intelligent document parsing, structured entity extraction, and automated reasoning pipelines.
+  \item Built resilient vector retrieval layers using PostgreSQL + pgvector and Redis, optimizing embedding caches to reduce API latency by 60\% while guaranteeing high semantic accuracy.
+  \item Established automated test suites (PyTest) and Git-based CI/CD workflows, raising engineering standards and system reliability across distributed development environments.
+  \item Collaborated directly with founders and product teams to translate complex AI requirements into maintainable, production-ready system architectures.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Agentic Coding \& Evaluation Testbed (Claude Code + MCP + Langfuse):} Built an autonomous multi-agent testbed orchestrating code generation, static analysis, unit test synthesis, and runtime execution with Langfuse distributed tracing and verification gates.
+  \item \textbf{Verifiable Tool-Execution Gateway (Python + FastAPI + Docker):} Sandboxed execution environment implementing Model Context Protocol (MCP) servers with cryptographic call auditing, Pydantic schema validation, and rate-limiting.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous training in formal logic, epistemology, decision theory, and complex mathematical systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Permanent Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to work across the EU without sponsorship; available immediately for remote full-time / B2B contract engagement.
+\end{itemize}
+
+\end{document}
