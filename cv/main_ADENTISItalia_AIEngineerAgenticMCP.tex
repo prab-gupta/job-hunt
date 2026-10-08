@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Engineer $\vert$ Agentic AI, LLM Orchestration, MCP Integrations, RAG $\&$ RAGAS}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venezia / Milano, Italia (Residente Permanente UE $\vert$ Full Remote $\vert$ Disponibilità Immediata)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Profilo Professionale / Career Summary}
+\begin{itemize}
+  \item \textbf{AI Engineer specializzato in Sistemi Agentici ed Architetture LLM End-to-End:} Progettazione ed implementazione di pipeline basate su Large Language Models (OpenAI, Anthropic, vLLM, Ollama), orchestrazione multi-agente (LangGraph, LangChain, LlamaIndex), intent classification, routing semantico e query rewriting/expansion in produzione.
+  \item \textbf{Integrazione Avanzata Tool Calling, MCP e Sistemi RAG Ibridi:} Esperienza diretta nell'adozione del \textit{Model Context Protocol (MCP)} per collegare agenti autonomi a database, API aziendali e servizi esterni; sviluppo di architetture RAG avanzate con hybrid search (BM25 + dense embedding), reranking semantico, Knowledge Graph (GraphRAG / Neo4j) e chunking dinamico per dati non strutturati.
+  \item \textbf{Evaluation Frameworks, Sicurezza e Validazione RAGAS:} Implementazione sistematica di metriche di valutazione quantitativa (RAGAS: context precision/recall, answer relevancy, faithfulness) per eliminare allucinazioni; implementazione di NeMo Guardrails, regression test per prompt e pipeline AI scalabili ed orientate alla produzione business.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Competenze Tecniche / Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{LLM \& Agent Orchestration:} Agentic AI Design Patterns, LangGraph, LangChain, LlamaIndex, Multi-Agent Systems, Autonomous Tool Calling, ReAct, Intent Classification, Query Routing \& Expansion.
+  \item \textbf{Protocolli \& Integrazione Tool:} Model Context Protocol (MCP - Anthropic/Open Source), Custom MCP Server/Client Development, Function Calling, REST APIs, JSON Schema Enforcement, Structured Outputs (Pydantic).
+  \item \textbf{RAG, Retrieval \& Knowledge Graphs:} Retrieval-Augmented Generation (RAG), Hybrid Search (Dense + Sparse/BM25), Cross-Encoder Reranking, Vector DBs (Qdrant, Pinecone, Chroma, pgvector), GraphRAG, Neo4j, Entity \& Relationship Extraction.
+  \item \textbf{AI Models \& Deployment:} OpenAI (GPT-4o), Anthropic Claude 3.5 Sonnet, open-source LLMs via vLLM, Ollama, Hugging Face Transformers, Token Optimization, Cost/Latency Tradeoff Analysis.
+  \item \textbf{Evaluation \& Sicurezza LLM:} RAGAS Framework, DeepEval, Prompt Regression Testing, Hallucination Detection, NeMo Guardrails, Input/Output Filtering, PII Masking, OWASP Top 10 for LLMs.
+  \item \textbf{Linguaggi \& Backend Engineering:} Python (FastAPI, AsyncIO, PyDantic, PyTest), TypeScript / Node.js, SQL (PostgreSQL), Docker, CI/CD, Git, Linux.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Esperienza Professionale / Work Experience}
+
+\role{AI Engineer \& Solutions Architect}{2024 -- Presente}{Indipendente / Consulenza AI Enterprise}{Venezia \& Milano, IT}
+\begin{itemize}
+  \item Progettazione e rilascio di architetture agentiche end-to-end con orchestrazione complessa via LangGraph e protocollo MCP (Model Context Protocol), connettendo agenti decisionali ad ERP, database vettoriali ed API di terze parti.
+  \item Costruzione di pipeline RAG ibride ad alte prestazioni su corpus documentali eterogenei: implementazione di chunking semantico, generazione embedding bilingue (italiano/inglese), hybrid retrieval (BM25 + vettoriale) e Cohere reranker, riducendo l'hallucination rate di oltre il 40\%.
+  \item Integrazione di Knowledge Graph ed approcci GraphRAG per mappare entità e relazioni complesse da documentazione non strutturata, migliorando l'accuratezza di retrieval per query contestuali multi-step.
+  \item Implementazione di benchmark quantitativi continui con RAGAS (faithfulness, answer relevance, context precision), automatizzando regression test per prompt prima di ogni rilascio in esercizio.
+  \item Configurazione di guardrails di sicurezza per il filtraggio di prompt injection, mascheramento PII e validazione dello schema JSON di output tramite Pydantic in scenari enterprise.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milano / Remoto, IT}
+\begin{itemize}
+  \item Sviluppo di microservizi ad alto throughput in Python (FastAPI) e TypeScript dedicati all'elaborazione automatizzata di flussi informativi aziendali ed integrazione LLM.
+  \item Ingegnerizzazione di pipeline di data ingestion per documenti non strutturati (PDF, contratti, schede tecniche) con parsing, normalizzazione, metadati arricchiti ed indicizzazione su vector store (Qdrant e pgvector).
+  \item Ottimizzazione della latenza e dei costi inferenziali combinando modelli proprietari (OpenAI) con runtime locali open source (Ollama, vLLM) per task specifici di classificazione ed estrazione entità.
+  \item Collaborazione diretta con stakeholder tecnici e di business per definire requisiti funzionali, prototipare rapidamente soluzioni AI e condurre sessioni di user acceptance testing.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Progetti Chiave / Key Projects}
+\begin{itemize}
+  \item \textbf{Enterprise Multi-Agent Ecosystem via MCP (Model Context Protocol):} Piattaforma open-source di agenti cooperativi orchestrati per eseguire task multi-step su filesystem, database e servizi web esterni, con tracciamento della memoria contestuale e validazione dello stato.
+  \item \textbf{Production GraphRAG \& Hybrid Retrieval Engine:} Motore RAG con estrazione automatizzata di nodi/archi su Neo4j combinato con hybrid search su Qdrant, validato tramite pipeline di test continuo RAGAS con punteggi medi di fedeltà superiore al 92\%.
+\end{itemize}
+
+% ================= EDUCATION & CERTIFICATIONS =================
+\section{Formazione \& Lingue / Education \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Università Ca' Foscari Venezia (2018 -- 2022) \\
+  \textit{Focus su logica formale, modelli decisionali, teoria dei giochi ed analisi quantitativa.}
+  \item \textbf{Lingue:} Italiano (fluente / operativo), Inglese (C1 professionale, eccellente padronanza scritta e orale).
+  \item \textbf{Stato Legale \& Fiscale:} Cittadino extra-UE con Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo a Tempo Indeterminato (diritto al lavoro senza visto in Italia/UE); Partita IVA attiva / regime forfettario pronto.
+\end{itemize}
+
+\end{document}
