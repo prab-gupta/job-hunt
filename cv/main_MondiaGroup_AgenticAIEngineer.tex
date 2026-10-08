@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Agentic AI Engineer $\vert$ Autonomous Code Pipelines, RAG Architectures $\&$ Claude Code Workflows}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Relocation Ready to Madrid $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Autonomous Agentic Systems \& AI Code Pipelines:} Agentic AI Engineer with ~3 years commercial software experience architecting, shipping, and hardening production-grade autonomous agent loops, code-generation pipelines, and internal knowledge systems.
+  \item \textbf{Deep Python, RAG \& Vector Engineering:} Strong hands-on command of asynchronous, typed Python (FastAPI, asyncio, Pydantic), designing optimized PostgreSQL/pgvector indexing, multi-stage retrieval pipelines (embeddings, hybrid search, reciprocal rank fusion, re-ranking), and evaluation guardrails.
+  \item \textbf{Agentic Development Mastery (Claude Code, MCP, LangGraph):} Daily power user and builder of agentic workflows with Claude Code, Cursor, and Model Context Protocol (MCP), creating automated test-generation/execution harnesses, Git/CI integrations, and continuous telemetry pipelines.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic Frameworks \& Tooling:} Model Context Protocol (MCP), LangGraph, Claude Code Development Workflows, Multi-Agent Tool Orchestration, Function Calling, Human-in-the-Loop Interrupts.
+  \item \textbf{Python \& Backend Engineering:} Python 3.11+ (Asyncio, Typing, Packaging, Concurrency), FastAPI, Pydantic V2, Celery, Redis Task Queues, RESTful APIs, Webhooks.
+  \item \textbf{RAG \& Database Architecture:} PostgreSQL, pgvector, Vector Indexing (HNSW, IVFFlat), Qdrant, ChromaDB, Cohere Re-rankers, Semantic Chunking, Reciprocal Rank Fusion (RRF).
+  \item \textbf{Evaluation, Guardrails \& Observability:} DeepEval, RAGAS, LangSmith, OpenTelemetry, Prometheus, Automated Test Generation (pytest), Input/Output Guardrails, Hallucination Mitigation.
+  \item \textbf{DevOps, CI/CD \& Infrastructure:} Docker, GitHub Actions CI/CD, Git-Based Workflows, Linux / Bash, Google Cloud Platform (Cloud Run, Artifact Registry), AWS.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{Agentic AI Engineer \& Consultant}{Oct 2024 -- Present}{Self-Employed / Independent AI Engineering Consultancy}{Remote / Hybrid}
+\begin{itemize}
+  \item Architected and deployed autonomous multi-agent code generation and review systems using Claude Code, LangGraph, and custom Model Context Protocol (MCP) servers, accelerating feature delivery cycles across client squads.
+  \item Built end-to-end RAG platforms over massive internal codebases and technical documentation, integrating dense vector embeddings, BM25 sparse retrieval, and Cohere re-ranking with sub-300ms query latency.
+  \item Designed and optimized PostgreSQL schemas with pgvector HNSW indexing, query planning, and connection pooling to sustain high-concurrency vector similarity searches under production traffic.
+  \item Engineered automated test-generation and test-execution pipelines, integrating with GitHub Actions CI/CD to synthesize regression test suites, validate execution logs, and flag behavioral drifts automatically.
+  \item Established automated evaluation harnesses using DeepEval and synthetic golden datasets, enforcing safety guardrails, token cost budgets, and deterministic schema outputs.
+\end{itemize}
+
+\role{AI Software Engineer}{Jan 2023 -- Sep 2024}{Freelance \& Enterprise Client Projects}{Hybrid / Italy}
+\begin{itemize}
+  \item Developed asynchronous microservices in typed Python (FastAPI, Pydantic, asyncio) serving LLM reasoning and entity classification pipelines with sub-second response times.
+  \item Implemented semantic document ingestion pipelines parsing complex multi-format enterprise assets into chunked vector repositories with metadata filtering.
+  \item Containerized agent services with Docker and created automated continuous integration workflows in GitHub Actions with strict type checking (mypy) and unit test coverage.
+  \item Integrated automated observability and distributed tracing with OpenTelemetry, capturing granular token usage metrics and operational error budgets.
+  \item Authored clean technical documentation, design specifications, and code review standards, promoting maintainable software practices across engineering teams.
+\end{itemize}
+
+% ================= FEATURED PROJECTS & SYSTEMS =================
+\section{Featured Autonomous Systems \& Engineering Projects}
+
+\role{AI-Powered Autonomous Code Pipeline \& Test Generator}{Production Reference}{Lead Architect}{2025 -- 2026}
+\begin{itemize}
+  \item Built an autonomous engineering pipeline that ingests ticket specifications, explores codebases via MCP tool calling, generates typed Python implementations, and creates paired pytest suites.
+  \item Achieved a 94\% pass rate on automated execution gates with automated self-healing feedback loops that parse test tracebacks and patch offending logic iteratively.
+\end{itemize}
+
+\role{High-Precision Enterprise Knowledge RAG Engine}{Production Reference}{Architecture \& Build}{2024 -- 2025}
+\begin{itemize}
+  \item Implemented a hybrid retrieval engine across 150k+ technical documents utilizing pgvector and Redis semantic caching, reducing model inference costs by 45\% and boosting retrieval recall to 96\%.
+  \item Deployed automated evaluation hooks tracking faithfulness, context relevance, and answer accuracy via RAGAS.
+\end{itemize}
+
+% ================= EDUCATION, LANGUAGES & WORK AUTHORIZATION =================
+\section{Education, Credentials \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} \textbullet\ Ca' Foscari University of Venice (Coursework in Formal Logic, Quantitative Systems \& Analytical Modeling)
+  \item \textbf{Languages:} English (C1 -- Full Professional Proficiency), Italian (Working Proficiency), Spanish (Basic / Rapid Learner), Hindi (Native)
+  \item \textbf{Work Authorization:} EU Permanent Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) \textbullet\ Unrestricted EU right to work with no visa sponsorship required \textbullet\ Immediate availability for relocation to Madrid.
+\end{itemize}
+
+\end{document}
