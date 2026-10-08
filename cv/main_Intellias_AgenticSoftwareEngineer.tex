@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Agentic Software Engineer $\vert$ AI Coding Workflows, Full-Stack Architecture \& Rapid Delivery}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Unrestricted EU Permanent Resident $\vert$ B2B JDG Ready $\vert$ Full Remote)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Agentic Software Engineer with 3 years of commercial experience blending rapid AI-assisted development (Claude Code, Cursor, Codex, Copilot) with robust software engineering practices. Proven track record turning vaguely defined business requirements into high-performance web applications, interactive analytics dashboards, and production data pipelines. Expert in debugging, restructuring, and hardening AI-generated codebases with sustainable architecture, secure authentication/authorization (OAuth2/JWT), automated testing (PyTest, Jest), and resilient API integrations. EU permanent resident with active B2B setup, immediately available for remote engagement.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Agentic Software \& Systems Engineer (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and delivered full-stack AI-driven web applications and interactive analytics dashboards serving 4,500+ active enterprise users, leveraging AI coding agents for rapid 4x feature velocity.
+  \item Hardened and refactored AI-generated prototypes into production-grade microservices: established modular architectures, type safety, structured logging, and automated CI/CD pipelines.
+  \item Implemented secure authentication, role-based access control (RBAC), and tenant isolation across APIs and database layers handling high-volume operational metrics.
+  \item Integrated diverse third-party APIs, data streams, and vector databases (pgvector, Chroma) into coherent market analytics and insight visualization dashboards.
+  \item Enforced engineering rigor with automated unit/integration test suites (PyTest, Jest), monitoring (Prometheus, Sentry), and regression gates across rapid weekly release cycles.
+  \item \textit{Tools: Claude Code, Cursor, Python, FastAPI, TypeScript, React, PostgreSQL, Docker, Redis, PyTest, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Software Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Built automated data ingestion and semantic processing pipelines converting messy partner feeds into normalized analytical schemas.
+  \item Designed dynamic visualization views and KPI reporting components directly addressing business user requirements through iterative prototyping.
+  \item Authored clean API wrappers, error-handling middleware, and schema validation layers preventing runtime data degradation.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, Tailwind, AI Tooling, Linux, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{Software \& AI Solutions Consultant}{Venice, Italy}
+\begin{itemize}
+  \item Partnered with European SMB domain experts to translate operational bottlenecks into bespoke software tools and AI-driven automation workflows.
+  \item Delivered secure web interfaces, background worker queues, and automated reporting integrations connecting CRM/ERP systems.
+  \item Conducted comprehensive codebase audits, code refactoring, and security hardening for client applications transitioning from MVP to production.
+  \item \textit{Tools: Python, Web Frameworks, REST APIs, SQL, OpenAI API, Webhooks, Linux}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack \& Automation Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed full-stack UI components and automated webhook processors for SaaS customer analytics workflows.
+  \item \textit{Tools: JavaScript, Python, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE a Tempo Indeterminato (Italy), unrestricted work authorization across the EU. Pure B2B / JDG invoice ready via Italian Partita IVA. No visa sponsorship needed.
+  \item \textbf{Languages:} English (fluent / C1 professional), Italian (working intermediate), Hindi (native).
+  \item \textbf{Availability:} Immediate (0 days notice) for full-time remote contracts.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{AI-Assisted Development:} Claude Code, Cursor, Codex, GitHub Copilot, Prompt Engineering, Vibe-to-Code Refactoring, AST analysis.
+  \item \textbf{Software Engineering \& Architecture:} Modern Web Applications, Microservices, Clean Architecture, REST APIs, GraphQL, RBAC, OAuth2/JWT.
+  \item \textbf{Data, Dashboards \& Visualization:} Large-scale Data Processing, Analytics Dashboards, KPI Tracking, PostgreSQL, Redis, Vector DBs.
+  \item \textbf{Testing, Reliability \& Delivery:} PyTest, Jest, CI/CD, Docker, Observability (Sentry, Prometheus), Maintainable Delivery Practices.
+  \item \textbf{Product Mindset:} Translating Unstructured Domain Ideas into Scalable Products, Autonomous Ownership, Rapid Prototyping.
+\end{itemize}
+
+\end{document}
