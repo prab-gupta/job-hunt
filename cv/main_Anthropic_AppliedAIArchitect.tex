@@ -1,112 +1,145 @@
+% CORRECTED BASELINE (supersedes Prabhavit_CV_EN.tex.bak-0916 as the frozen base for tailoring).
+% Facts corrected against AGENT-INSTRUCTIONS.md: Italian = Beginner; FlowSpace contract Mar 2024 -- Aug 2026 (ended);
+% availability = immediate (not printed on the CV body; use on forms only). Tailor ONLY the HEADLINE, SUMMARY and SKILLS blocks.
+% Prabhavit Gupta, CV in English: from ~/Downloads/Prabhavit_CV.pdf (6 Aug 2026), same layout
 \documentclass[a4paper,10pt]{article}
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{lmodern}
-\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
-\usepackage{hyperref}
-\usepackage{xcolor}
-\usepackage{enumitem}
-\usepackage{graphicx}
-\usepackage{titlesec}
-
-% Minimal clean styling
-\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
-\pagestyle{empty}
+\usepackage[top=1.6cm,bottom=1.8cm,left=1.9cm,right=1.9cm]{geometry}
+\usepackage{titlesec,enumitem,xcolor,graphicx,lastpage,fancyhdr}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!70!black,linkcolor=blue!70!black}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\color{gray}Page \thepage\ of \pageref{LastPage}}
 \setlength{\parindent}{0pt}
-
-% Section formatting
-\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{6pt}{4pt}
-
-% Colors
-\definecolor{accent}{RGB}{20, 50, 120}
-
-% Role command
-\newcommand{\role}[4]{%
-  \vspace{2pt}\noindent
-  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
-  \hfill
-  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
-  \vspace{1pt}%
-}
-\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
-
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-0.7em}\rule{\textwidth}{0.5pt}]
+\titlespacing{\section}{0pt}{9pt}{5pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=2pt,topsep=2pt,parsep=0pt}
+\newcommand{\role}[4]{\vspace{3pt}\noindent\hspace{0.6em}\parbox[t]{0.38\textwidth}{\raggedright\textbf{#1}}\hfill\parbox[t]{0.58\textwidth}{\raggedleft\textit{#2}}\\{\textit{#3}\hfill\textit{#4}}\vspace{1pt}}
 \begin{document}
-
-% ================= HEADER =================
-\begin{minipage}[c]{0.80\textwidth}
-  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
-  {\color{accent}\large Applied AI Architect $\vert$ Claude Ecosystem, Model Context Protocol (MCP) $\&$ Enterprise Solutions}\\[6pt]
-  {\footnotesize +39 351 610 7807 ~$\vert$~
-  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
-  \href{https://www.linkedin.com/in/prabhavit-gupta}{linkedin.com/in/prabhavit-gupta} ~$\vert$~
-  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
-  Venice / Milan, Italy (EU Permanent Resident $\vert$ Full Italian Work Authorization)}
+\noindent
+\begin{minipage}[t]{0.78\textwidth}
+\vspace{0pt}
+{\huge\bfseries Prabhavit Gupta}\\[8pt]
+{\small \faPhone\ +39-351-610-7807 \quad \faEnvelope\ \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} \quad \faLinkedin\ \href{https://www.linkedin.com/in/prabhavit/}{Linkedin} \quad \faMapMarker*\ Venice, Italy}
 \end{minipage}\hfill
+\begin{minipage}[t]{0.18\textwidth}
+\vspace{0pt}\raggedleft\includegraphics[width=2.3cm]{photo_orig.png}
+\end{minipage}
 
-\vspace{6pt}
-
-% ================= EXECUTIVE SUMMARY =================
-\section{Executive Summary}
+\section{Career Summary}
 \begin{itemize}
-  \item \textbf{Applied AI Architecture \& Enterprise Claude Adoption:} Applied AI solutions engineer with ~3 years commercial software experience guiding enterprise clients through LLM architecture design, technical discovery, and safe production deployment of AI systems.
-  \item \textbf{Model Context Protocol (MCP) \& Tool Execution Ecosystems:} Deep practical expertise architecting MCP servers and clients, tool-calling pipelines, structured context engineering, and sandboxed runtimes connecting frontier models to complex enterprise endpoints.
-  \item \textbf{Rigorous Evaluations \& AI Safety Guardrails:} Experienced in constructing quantitative evaluation testbeds (LLM-as-a-judge, prompt sensitivity, groundedness evals with Langfuse/DeepEval) and partnering with technical and C-suite stakeholders to ensure deterministic, steerable outcomes.
+\item AI Solutions \& Software Engineer with ~3 years commercial software experience deploying production LLM workflows, API integrations, and developer tooling across European tech projects.
+\item Hands-on expertise implementing autonomous tool-use loops with Model Context Protocol (MCP), prompt engineering, and structured API integrations.
+\item Demonstrated ability to partner with cross-functional engineering teams, scale web platforms from 2,000 to 4,500+ users, and deliver reliable automation features at Anthropic.
 \end{itemize}
 
-% ================= TECHNICAL SKILLS =================
-\section{Technical Skills \& Core Competencies}
-\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
-  \item \textbf{Claude Stack \& Applied AI Architecture:} Claude API, Model Context Protocol (MCP), Context Engineering, Prompt Caching, Extended Thinking, Tool Calling, Vector Databases (Qdrant, pgvector), Hybrid RAG Pipelines.
-  \item \textbf{Evaluation \& Observability:} LLM-as-a-Judge, Steerability Benchmarking, DeepEval, Langfuse Distributed Tracing, Hallucination Audits, Automated Regression Test Suites.
-  \item \textbf{Technical Solutions \& Pre-Sales Consulting:} Enterprise Discovery, Proof-of-Concept (POC) Delivery, Reference Architectures, C-Suite Technical Presentations, Technical Mentorship.
-  \item \textbf{Core Software Engineering:} Python (FastAPI, AsyncIO, PyTest), TypeScript / Node.js, Next.js, Docker, PostgreSQL, REST/GraphQL APIs, Git.
+\section{Technical Skills}
+\begin{itemize}
+\item \textbf{AI \& Agent Tooling} -- AI Agents, Model Context Protocol (MCP), Tool Calling, Prompt Engineering, Structured Outputs, OpenAI API, Claude API
+\item \textbf{Software Development} -- TypeScript, Next.js, React, Node.js, Laravel, REST APIs, GraphQL, PostgreSQL, SQLite
+\item \textbf{Automation \& Testing} -- Playwright, n8n, Make, Webhook Integrations, End-to-End Testing
+\item \textbf{Tools \& Delivery} -- Git, GitHub, Postman, Jira, Figma, Trello, Linux CLI, Client Scoping
 \end{itemize}
 
-% ================= PROFESSIONAL EXPERIENCE =================
+\section{Visa \& Language}
+\begin{itemize}
+\item \textbf{Language} -- Hindi (Native), English (Professional), Italian (Beginner)
+\item \textbf{Work Authorization} -- European Long Term Residence Permit - No Sponsorship required.
+\end{itemize}
+
 \section{Professional Experience}
-
-\role{Applied AI Solutions Architect \& Technical Consultant}{2024 -- Present}{Independent Consultancy}{Venice / Milan, IT (Remote / Hybrid)}
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Lead Developer (Full time, Freelance)}{London, UK}{Mar 2024 -- Aug 2026}
 \begin{itemize}
-  \item Advised enterprise leadership and engineering teams across Italy and Europe on adopting frontier LLM capabilities, scoping technical requirements, and deploying production AI integrations.
-  \item Architected end-to-end integration patterns utilizing the Model Context Protocol (MCP), enabling models to securely query live internal databases and execute business actions within audited boundaries.
-  \item Designed comprehensive evaluation frameworks measuring domain accuracy, safety boundaries, and prompt stability across production customer workloads before deployment.
-  \item Developed and delivered technical demonstrations, reference architectures, and deep-dive architectural workshops for both developer teams and executive stakeholders.
-  \item Guided clients through enterprise security, data privacy, and compliance reviews, establishing safe deployment practices for sensitive business data.
+\item \textbf{Product Responsibilities:}
+\begin{itemize}[label=--]
+\item Scaled platform from 2000 to 4500+ users through iterative product development
+\item Overseeing the migration of app from Bubble.io to Next.JS and Laravel
+\item Collaborated with team of developers for product logic and business logic documentation
+\item Facilitated communication between internal team and Agency
+\item Streamlined customer support with AI agents
+\end{itemize}
+\item \textit{Tools: Playwright, Jira, GoogleSheet, Clickup, Miro, Google Analytics, Microsoft Clarity}
+\item \textbf{Technical Responsibilities:}
+\begin{itemize}[label=--]
+\item AI tool for processing and scraping of data and increasing listings on platform
+\item Integration of external APIs (Office Rnd and Nexudus) for automated bookings
+\item Consolidated leads in CRM and automated lead capture by developing integration between CRM used by the organization
+\item GTM automations for sales funnel, lead enrichment and outbound
+\item AI tool for processing of data and increasing listings on platform
+\item Overseeing the migration of app from Bubble.io to Next.JS and Laravel
+\item Developed a tool for companies to calculate commute times
+\item \textit{Tools: Claude Code, n8n, Bubble.io, Postman, Jira, Github, Laravel, Typescript}
+\end{itemize}
 \end{itemize}
 
-\vspace{3pt}
-\role{Lead Developer \& Product Engineer}{Mar 2024 -- Aug 2026}{FlowSpace.co}{London, UK (Remote)}
+\role{Urlink}{Project Manager and AI Assisted Developer (Freelance)}{Barcelona, Spain}{April 2025 -- July 2025}
 \begin{itemize}
-  \item Led platform integration architecture and core engineering, scaling user traffic across UK and European enterprise hubs from 2,000 to 4,500+ active professionals.
-  \item Designed and shipped conversational AI support agents integrated with live reservation systems, resolving unstructured inquiries with high resolution accuracy.
-  \item Modernized platform infrastructure into modular Next.js and backend API microservices, eliminating architectural bottlenecks and ensuring continuous 99.9\% availability.
-  \item Built resilient multi-source data extraction and ingestion pipelines normalizing external inventory feeds across disparate third-party formats.
-  \item Collaborated with external venue operations partners, translating complex operational workflows into dependable API integrations and automated webhook triggers.
+\item Using AI for building the platform and logics
+\item Implementing UIs made with AI
+\item Implementing automations in regards to client requirements
+\item \textit{Tools: Github, Netlify, Supabase, bolt.new}
 \end{itemize}
 
-\vspace{3pt}
-\role{Full-Stack Solutions Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\role{UltraStrategy.com}{Automation Developer (Collaborator)}{France}{Dec 2024 -- May 2025}
 \begin{itemize}
-  \item Delivered custom API integrations and automated backend microservices in Python and TypeScript connecting client platforms with internal operational databases.
-  \item Implemented automated unit and end-to-end integration tests within CI/CD pipelines, preventing breaking changes across shared external interfaces.
-  \item Partnered directly with non-technical business clients to extract domain requirements and deliver clean, testable software solutions on aggressive timelines.
+\item Made a CV parsing tool using n8n and Eden AI
+\item Developed platform for different user profiles
+\item \textit{Tools: n8n, Eden AI, Bubble.io}
 \end{itemize}
 
-% ================= NOTABLE PROJECTS =================
-\section{Key Engineering Projects}
+\role{Qomodo}{AI and Low-Code Developer (Collaborator)}{Milan, Italy}{2024 -- Jan 2025}
 \begin{itemize}
-  \item \textbf{Autonomous Tool-Calling \& Evaluation Harness (TypeScript + MCP + Langfuse):} Architected an enterprise agent runtime enabling LLMs to safely invoke external tool ecosystems with schema-enforced payload validation, full state rollbacks, and distributed tracing.
-  \item \textbf{Universal Multi-Source Ingestion Pipeline (Python + Playwright + REST APIs):} Designed an automated data harvesting and enrichment system parsing 900+ structured and semi-structured external sources with schema validation and error isolation.
+\item Implementation of Figma designs
+\item Made a dashboard to be used by the companies to manage their branches
+\item \textit{Tools: Bubble}
 \end{itemize}
 
-% ================= EDUCATION & LEGAL STATUS =================
-\section{Education, Languages \& Legal Status}
+\role{Get2Germany.com}{Lead Developer and Automation Specialist (Part time)}{Berlin, Germany}{Jan 2024 -- May 2024}
 \begin{itemize}
-  \item \textbf{Bachelor of Arts in Philosophy, International Studies \& Economics} -- Ca' Foscari University of Venice (2020 -- 2024) \\
-  \textit{Rigorous foundation in formal logic, epistemology, decision theory, and complex systems analysis.}
-  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
-  \item \textbf{Legal Status \& Availability:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy). Full Italian work rights; based in Venice, easily commuting to Milan (25\%+ on-site); no visa sponsorship required for Italy.
+\item Integration of Google APIs for effective tracking of the platform
+\item UI/UX work, design from Figma to Bubble
+\item Building the platform, database optimization
+\item Developed AI based automation tools for finding courses, internships and jobs
+\item \textit{Tools: Bubble.io, Figma, Trello, n8n}
 \end{itemize}
 
+\role{Clubee.com}{Low Code Developer and Quality Assurance (Full time, Freelance)}{Foetz, Luxembourg}{Sep 2023 -- Aug 2024}
+\begin{itemize}
+\item Integration of Clubee API for all of frontend
+\item Unit testing and quality assurance of new features
+\item Developed tools for: domain integration, shop, federation dashboard
+\item \textit{Tools: Bubble.io, Figma, GitHub, Postman}
+\end{itemize}
+
+\role{Tractionboard.co}{Low-Code Developer (Internship)}{Utrecht, Netherlands}{Aug 2023 -- Oct 2023}
+\begin{itemize}
+\item ChatGPT/OpenAI integration
+\item Implementation of designs from Figma to Bubble
+\item Implementation of Sendgrid
+\item Responsive designs, de-bugging
+\item Google Ads 4 implementation
+\item \textit{Tools: Bubble.io, Figma, Sendgrid, ChatGPT}
+\end{itemize}
+
+\section{Education}
+\role{Ca' Foscari University of Venice}{Bachelor's in Philosophy, International Studies \& Economics with Minor in Entrepreneurship}{Venice, Italy}{Oct 2020 -- Jun 2024}
+
+\section{Certifications}
+\begin{itemize}
+\item Microsoft Copilot Studio Agent Academy
+\item Microsoft - Introduction to building AI agents
+\item Microsoft Power Automate
+\item Tray.AI Build Practitioner -- September 2024
+\item Tray.AI Build Foundations
+\end{itemize}
+
+\section{Additional Information}
+\begin{itemize}
+\item \textbf{IT Skills} -- Low code development/AI based development, AI (RAG, Chatbot) and API integration, Automation (n8n), Project Management, Communication
+\item \textbf{Tools} -- Claude Code, Laravel, Typescript, n8n, Supabase, Jira, Slack
+\end{itemize}
 \end{document}
