@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer (EMEA) $\vert$ AI Developer Cloud, Agentic Systems, Python \& TypeScript}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (CET Timezone $\vert$ EU Permanent Resident $\vert$ Full Remote EMEA)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Forward Deployed Engineer and Applied AI Systems Builder with 3 years of commercial experience partnering directly with enterprise developers and technical clients to build, ship, and scale production AI solutions. Fluent in Python and TypeScript, with hands-on depth in agentic workflows (LangGraph, autonomous tool execution), high-throughput LLM inference, Docker containerization, and Linux runtime troubleshooting. Proven ability to meet clients post-sale, understand complex architectural requirements, rapidly prototype working integrations in days rather than quarters, and channel critical field intel back to product and core engineering teams. Based in Venice (CET timezone), unrestricted EU permanent resident.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Forward Deployed Engineer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Acted as the primary field engineer for post-sale enterprise deployments, interfacing directly with client engineering leads to spec, build, and ship custom AI systems into production.
+  \item Built rapid working prototypes and production agentic pipelines using Python, TypeScript, and FastAPI, integrating dynamic tool execution loops, context retrieval, and structured JSON outputs.
+  \item Engineered high-throughput inference wrappers and client workarounds bridging developer platform APIs with complex legacy client databases and cloud services.
+  \item Channeled frontline customer patterns and failure modes back to core platform engineering, accelerating SDK stabilization and feature rollout across the client base.
+  \item Hardened client deployments using Docker, Linux performance profiling, and automated evaluation suites to guarantee sub-second response times and 99.9\% uptime.
+  \item \textit{Technologies: Python 3.12, TypeScript, FastAPI, LangGraph, LLM Inference, Docker, Linux, AWS, PostgreSQL, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Forward Deployed Software Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Collaborated with external engineering teams to integrate custom data pipelines and semantic search APIs into their production infrastructure.
+  \item Developed custom TypeScript and Python connectors, validating schema compliance with Pydantic and eliminating ingestion errors across heterogeneous partner systems.
+  \item Conducted hands-on troubleshooting of Docker containers and network timeouts in client cloud staging environments.
+  \item \textit{Technologies: Python, TypeScript, REST APIs, Docker, PostgreSQL, Linux, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Solutions Engineer \& Integration Consultant}{Venice, Italy}
+\begin{itemize}
+  \item Delivered tailored agentic AI solutions, developer integrations, and automated RAG pipelines for mid-market European clients.
+  \item Sat directly with client stakeholders to diagnose business bottlenecks and demonstrate live working implementations during weekly working sessions.
+  \item Authored technical architecture specs, integration guides, and API documentation for seamless client engineering handoff.
+  \item \textit{Technologies: Python, LangChain, OpenAI APIs, Vector DB, FastAPI, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Intern)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Engineered automated API integrations, data transformations, and webhooks for SaaS platform clients.
+  \item \textit{Technologies: Python, JavaScript/TypeScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies and Economics (Minor in Entrepreneurship)}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work Authorization \& Location:} Unrestricted EU Permanent Resident based in Venice, Italy (CET timezone, full remote EMEA ready).
+  \item \textbf{Languages:} English (Fluent C1 professional), Italian (Working proficiency), Hindi (Native), Spanish (Conversational).
+  \item \textbf{Core Mindset:} Extreme bias to action, curious problem-solver, customer-first empathy, bridges sales promises with production engineering reality.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Customer-Facing Engineering:} Forward Deployed Engineering, Technical Scoping, Rapid Prototyping, Unblocking Enterprise Clients, Product Feedback Loops.
+  \item \textbf{Languages \& Frameworks:} Python 3.12, TypeScript / Node.js, FastAPI, REST APIs, WebSockets, Asyncio, Pydantic, SQL.
+  \item \textbf{AI \& Agentic Systems:} Agentic AI, LangGraph, LLM Inference Optimization, Tool Calling, Structured Outputs, RAG, Evals.
+  \item \textbf{Systems \& Infrastructure:} Docker, Linux CLI / Shell Troubleshooting, Cloud Platforms (AWS, GCP), CI/CD, Git.
+\end{itemize}
+
+\end{document}
