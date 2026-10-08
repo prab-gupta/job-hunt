@@ -1,0 +1,115 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Applied AI Engineer $\vert$ GenAI Banking Automation, MCP Server Architectures \& Agentic Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy $\vert$ Unrestricted EU Permanent Resident $\vert$ Open to Warsaw / Relocation}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Applied AI Engineer with 3 years of commercial experience engineering and deploying production-grade Generative AI systems, Model Context Protocol (MCP) servers, and autonomous agentic workflows within enterprise and financial domains. Deep hands-on background architecting custom MCP servers and tool cartridges to connect frontier LLMs with secure transactional backends and databases. Extensive experience implementing multi-agent orchestration graphs (LangGraph), deterministic tool calling, structured JSON output validation, and enterprise RAG architectures with pgvector. Unrestricted EU Permanent Resident, immediately available for contract engagements across Poland and the EU.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Applied AI Engineer \& MCP Systems Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed production GenAI systems and autonomous agentic workflows serving 4,500+ active enterprise users across financial documentation and operational reconciliations.
+  \item Engineered custom Model Context Protocol (MCP) servers and modular tool cartridges, enabling LLMs to safely query relational databases, invoke REST endpoints, and run sandboxed analytical queries.
+  \item Implemented deterministic multi-agent orchestration graphs using LangGraph and Python, incorporating multi-step reasoning, persistent memory checkpoints, and automated fallback routines.
+  \item Built robust enterprise RAG pipelines with semantic vector indexing (pgvector, Chroma) and cross-encoder reranking, guaranteeing sub-second response times and eliminating hallucinations.
+  \item Established automated evaluation pipelines (evals, LangSmith) auditing factual precision, latency, and prompt security compliance against banking standards.
+  \item Deployed containerized microservices across AWS and GCP using Docker, CI/CD pipelines, and structured observability logging.
+  \item \textit{Technologies: Python 3.12, MCP (Model Context Protocol), LangGraph, LLMs, FastAPI, pgvector, Docker, AWS, GCP, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Software Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Developed custom MCP-compatible data extraction tools and asynchronous pipeline services for high-throughput commercial data streams.
+  \item Designed strict Pydantic schema validation layers and error-handling middleware for financial and transactional API integrations.
+  \item Optimized database queries and vector embeddings for low-latency similarity search across distributed datasets.
+  \item \textit{Technologies: Python, MCP Tooling, FastAPI, PostgreSQL, Supabase, Docker, REST APIs, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Solutions Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Delivered tailored GenAI assistants, custom API connectors, and automated document workflows for mid-market European corporate clients.
+  \item Implemented tool execution harnesses and structured schema generation for automated back-office process execution.
+  \item Authored technical architecture runbooks and integration specifications for client engineering and security audit teams.
+  \item \textit{Technologies: Python, LangChain, OpenAI APIs, Vector DB, FastAPI, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Intern)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed automated webhook pipelines and API integrations for SaaS analytics dashboards.
+  \item \textit{Technologies: Python, JavaScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies and Economics (Minor in Entrepreneurship)}{Venice, Italy}
+\begin{itemize}
+  \item Academic focus on quantitative economics, institutional finance, decision analysis, and international regulatory frameworks.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work Authorization:} Permanent EU Resident with unrestricted right to work across Poland and the entire European Union (no visa sponsorship required).
+  \item \textbf{Contract Terms:} Available for 12-month UOP or B2B contracts with immediate start (0 days notice).
+  \item \textbf{Languages:} English (Fluent C1 professional), Italian (Working proficiency), Hindi (Native), Spanish (Conversational).
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{MCP \& Agentic Architectures:} Model Context Protocol (MCP) Server Development, Tool Cartridges, Multi-Agent Systems, LangGraph, Tool Calling.
+  \item \textbf{GenAI \& LLMs:} Production LLM Deployment, Prompt Engineering, Evaluation Frameworks (Evals), RAG, pgvector, Chroma, Guardrails.
+  \item \textbf{Backend Engineering:} Python 3.12, FastAPI, Asyncio, Pydantic, REST APIs, WebSockets, SQL (PostgreSQL), Clean Code.
+  \item \textbf{Cloud \& DevOps:} Docker, Kubernetes, AWS, GCP, Azure, CI/CD, Observability, Banking Automation Compliance.
+\end{itemize}
+
+\end{document}
