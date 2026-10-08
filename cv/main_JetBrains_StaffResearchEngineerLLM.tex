@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Research Engineer $\vert$ LLM Pre-Training, PyTorch, HuggingFace $\&$ Distributed Inference}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Madrid/Berlin/Prague Relocation Ready $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{LLM Pre-Training \& Synthetic Dataset Engineering:} AI Engineer and applied researcher with ~3 years commercial software experience specializing in transformer architectures, tokenizer optimization, and large-scale dataset curation for coding models. Deep practical focus on scalable pre-training pipelines and automated evaluation harnesses.
+  \item \textbf{Deep Learning Infrastructure \& High-Throughput Inference:} Hands-on expertise with PyTorch, HuggingFace Transformers, vLLM, and distributed GPU acceleration. Proven record designing continuous model verification gates, quantization benchmarks, and low-latency inference runtimes for developer tooling.
+  \item \textbf{Autonomous Tooling \& Developer Assistance Systems:} Experienced taking foundation models from training clusters to production microservices. Strong foundation in statistical learning, loss landscape tracking, and multi-agent coordination architectures with extreme engineering ownership.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Deep Learning \& LLMs:} PyTorch, HuggingFace (Transformers, Datasets, Accelerate), DeepSpeed, vLLM, TensorRT-LLM, LoRA/QLoRA Fine-Tuning, KV-Cache Optimization.
+  \item \textbf{Data Curation \& Tokenization:} High-Throughput Code Ingestion Pipelines, Deduplication, AST-Based Code Filtering, Synthetic Data Generation, Custom BPE Tokenizer Training.
+  \item \textbf{Evaluation \& Observability:} LLM Benchmarking (HumanEval, MBPP, RAGAS), Loss Tracking \& Drift Detection, Weights \& Biases, Langfuse Distributed Tracing.
+  \item \textbf{Core Engineering:} Python (AsyncIO, CPython Profiling, PyTest), Docker, Kubernetes basics, Git, GitHub Actions CI/CD, TeamCity familiarity.
+  \item \textbf{Research Methodology:} First-Principles Reasoning, Empirical Ablation Studies, Reproducibility, Clean Modular Code.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Research Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and executed high-scale data ingestion and synthesis pipelines preparing multi-gigabyte code and reasoning datasets for domain-specific language model adaptation.
+  \item Built automated regression and capability evaluation harnesses benchmarking code generation accuracy, syntactic correctness, and execution consistency across model iterations.
+  \item Optimized production inference architectures using vLLM and PagedAttention, achieving a 45\% increase in serving throughput and sub-100ms first-token latency.
+  \item Implemented distributed trace observability using Langfuse to track latency, token economics, and error modes across real-world developer assistant workflows.
+  \item Collaborated with European engineering teams to translate complex architectural specifications into scalable, production-grade PyTorch and Python microservices.
+  \item Authored modular evaluation harnesses integrated into automated CI/CD workflows, ensuring prompt and weights updates do not introduce behavioral regressions.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Engineered high-throughput asynchronous data processing backends in Python (FastAPI) and TypeScript for structured extraction from complex code and document corpuses.
+  \item Implemented semantic vector retrieval pipelines over PostgreSQL (pgvector) and Redis, accelerating context lookup speeds under concurrent load.
+  \item Established automated unit, integration, and performance benchmarking test suites with PyTest, enforcing rigorous release standards.
+  \item Worked across the engineering lifecycle from algorithmic experimentation to Docker containerization and cloud deployment.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{High-Throughput Code Dataset Curation \& AST Tokenizer (Python + PyTorch + Tree-Sitter):} Developed an automated pipeline parsing and filtering open-source code repositories using abstract syntax trees to eliminate duplicate and low-quality code for pre-training corpora.
+  \item \textbf{Continuous Model Evaluation Harness for Coding Benchmarks (PyTorch + vLLM + PyTest):} Implemented an isolated sandbox evaluating generated code solutions against test suites (HumanEval/MBPP format) with automated latency and pass@k metric tracking.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in mathematical logic, statistical decision theory, computational semantics, and formal reasoning.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), German (Basic/Elementary).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the European Union (including Germany, Spain, Netherlands, Czech Republic) without visa sponsorship. Immediate availability.
+\end{itemize}
+
+\end{document}
