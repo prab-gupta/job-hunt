@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Data Enablement Engineer $\vert$ Semantic Layers, Governed Data Products, RAG $\&$ PySpark/dbt}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote Italy Base $\vert$ Full-Time B2B Contractor Ready)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{AI Data Enablement \& Semantic Foundations:} Data Enablement and Applied AI Engineer with ~3 years commercial software experience engineering trusted data foundations, semantic models, and natural-language query interfaces across European enterprise systems.
+  \item \textbf{Governed Data Products \& Production RAG:} Specialized in architecting governed data pipelines (PySpark, dbt, SQL, Airflow) and conversational analytics interfaces (Databricks Genie spaces, Streamlit) grounded in structured enterprise data with strict RBAC, row/column-level security, and auditability.
+  \item \textbf{Production Optimization \& Business Alignment:} Deep expertise bridging technical data platforms and business stakeholders; optimizing warehouse compute, semantic caching, token consumption, and model routing to ensure deterministic, cost-effective natural language data exploration.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Data Enablement \& Semantic Layers:} Semantic Data Modeling, Business Glossaries, KPI Hierarchies, Databricks Genie Spaces, Unity Catalog Metadata Management, Governed Data Products.
+  \item \textbf{Data Engineering \& Pipelines:} PySpark, dbt, SQL, Apache Airflow, Python (AsyncIO, Pydantic), PostgreSQL, Vector Stores, ETL/ELT Orchestration, Data Lineage $\&$ Auditing.
+  \item \textbf{Conversational Analytics \& RAG:} Enterprise RAG Architectures, Streamlit/FastAPI NL-to-SQL Interfaces, Context Management, Guardrails, Evaluation Baselines (RAGAS, DeepEval).
+  \item \textbf{Data Governance \& Security:} Role-Based Access Control (RBAC), Row/Column-Level Security, PII Masking, Regulated Environment Compliance, Telemetry $\&$ Observability (Langfuse).
+  \item \textbf{Cloud \& Platforms:} Databricks, AWS, Azure, Docker, Git, CI/CD GitHub Actions, Query Performance Optimization, Compute Sizing $\&$ Token Budgeting.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Data Enablement \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Italy)}
+\begin{itemize}
+  \item Partnered with European enterprise client teams to build and deploy AI-enablement layers bridging complex enterprise data lakes and business user natural-language analytics.
+  \item Designed semantic models and governed data products, aligning technical schemas with business glossaries and KPI definitions to enable non-technical teams to query data accurately without manual SQL.
+  \item Built and evaluated production RAG pipelines and conversational data applications using Streamlit and FastAPI, incorporating deterministic validation, semantic caching, and strict data grounding.
+  \item Implemented rigorous enterprise data governance protocols including role-based access control (RBAC), row/column-level filtering, and audit logging to ensure compliant data access across multi-tenant environments.
+  \item Profiled and optimized end-to-end platform costs and performance, tuning data pipeline compute clusters, caching query embeddings, and reducing redundant LLM inference overhead by 45\%.
+  \item Established automated evaluation harnesses using DeepEval and RAGAS, benchmarking retrieval accuracy, semantic fidelity, and hallucination prevention prior to deployment.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Developed robust ETL/ELT pipelines and microservices in Python (FastAPI, PySpark) for automated document ingestion, structured schema validation, and database synchronization.
+  \item Engineered high-performance hybrid retrieval layers combining PostgreSQL, pgvector, and Redis semantic caching, supporting reliable real-time search across hundreds of thousands of corporate records.
+  \item Designed modular REST APIs and automated CI/CD workflows (GitHub Actions), enforcing automated schema migrations, data consistency checks, and test coverage using PyTest.
+  \item Collaborated with domain experts in finance and operations to map business requirements into resilient data architectures and automated reporting workflows.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Enterprise Conversational Data Engine (Databricks + PySpark + Streamlit + RAG):} Built a natural-language data interrogation platform enabling cross-functional stakeholders to extract governed metrics and insights, enforcing schema consistency and automated query validation.
+  \item \textbf{Governed Semantic Layer \& Retrieval Pipeline (dbt + PostgreSQL + FastAPI + pgvector):} Engineered a metadata-driven semantic layer mapping domain entities to vector embeddings and structured SQL tables, complete with automated RBAC security guards and Langfuse tracing.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Focus on formal logic, decision theory, economic modeling, and quantitative analytical methods.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Indefinite right to work in Italy and the EU; Italian Partita IVA ready for immediate B2B contractor invoicing.
+\end{itemize}
+
+\end{document}
