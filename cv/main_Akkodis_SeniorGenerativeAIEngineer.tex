@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior Generative AI Engineer $\vert$ Agentic AI, LangGraph, Model Context Protocol (MCP) $\&$ RAG}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venezia / Torino, Italia (Residente Permanente UE $\vert$ Presenza Ibrida $\vert$ Immediata)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Profilo Professionale / Career Summary}
+\begin{itemize}
+  \item \textbf{Generative AI \& Sistemi Multi-Agente Enterprise:} ~3 anni di esperienza professionale nell'ingegneria del software e nello sviluppo di soluzioni AI enterprise end-to-end. Specializzato nell'orchestrazione di Large Language Models commerciali ed open-source (OpenAI GPT-4o, Anthropic Claude 3.5, Google Gemini) tramite framework moderni quali LangGraph, LangChain e LlamaIndex, realizzando workflow agentici con state machines, retry policy e fallback automatici.
+  \item \textbf{Model Context Protocol (MCP) \& Integrazione Tool:} Pioniere nell'implementazione dello standard Model Context Protocol (MCP Server e MCP Client), progettando interfacce sicure e tipizzate che consentono ad agenti AI di eseguire query documentali, interrogazioni SQL e chiamate a servizi REST esterni tramite function calling e output strutturati (Pydantic).
+  \item \textbf{Pipeline RAG Avanzate, Valutazione \& MLOps:} Progettazione di pipeline di Retrieval-Augmented Generation (RAG) ad alte prestazioni con PostgreSQL pgvector e Qdrant (chunking semantico, hybrid search BM25, reranking). Adozione di metodologie di valutazione continua (framework RAGAS, guardrail contro prompt injection) e deployment di microservizi containerizzati con Docker, FastAPI e pipeline CI/CD.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Competenze Tecniche / Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic AI \& Orchestrazione LLM:} LangGraph, LangChain, LlamaIndex, Semantic Kernel, Sistemi Multi-Agente, ReAct Planning, Tool/Function Calling, Structured Outputs (Pydantic / JSON Schema), Gestione dello Stato e Memoria Contestuale.
+  \item \textbf{Model Context Protocol (MCP):} MCP Server \& Client Development, Connettori di Dati, Tool Execution Standardizzata, Prompt Injection Guardrails, Controllo Accessi (RBAC).
+  \item \textbf{RAG, Vector Search \& Basi Dati:} Retrieval-Augmented Generation (Agentic RAG), Ingestion Documentale, PostgreSQL pgvector, Qdrant, ChromaDB, Hybrid Search (Dense + Sparse BM25), Cohere Reranking, Caching Semantico.
+  \item \textbf{Modelli Generativi \& Cloud Services:} OpenAI (GPT-4o, o1), Azure OpenAI Service, Anthropic Claude, Google Gemini, AWS (Bedrock, S3, Lambda), Docker, Git, GitHub Actions CI/CD.
+  \item \textbf{Backend Engineering \& API:} Python (Avanzato - FastAPI, AsyncIO, PyTest, Type Hints), TypeScript, Node.js, SQL, RESTful APIs, Webhook, Logging Strutturato e Distributed Tracing.
+  \item \textbf{Valutazione \& AI Quality:} RAGAS Framework, Precision/Recall, LLM-as-a-Judge, Prompt Regression Testing, Minimizzazione Allucinazioni, Ottimizzazione di Costi e Latenza.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Esperienza Professionale / Work Experience}
+
+\role{Senior AI Engineer \& Consulente Generative AI}{2024 -- Presente}{Attività Indipendente / Consulenza AI Enterprise}{Venezia \& Torino / Remoto, IT}
+\begin{itemize}
+  \item Progettazione e implementazione di architetture agentiche complesse per clienti enterprise utilizzando LangGraph e Python, orchestrando team di agenti specializzati con transizioni di stato deterministiche e validazione human-in-the-loop.
+  \item Sviluppo di connettori personalizzati basati su Model Context Protocol (MCP), consentendo agli agenti LLM di accedere in modo trasparente e verificabile a database relazionali PostgreSQL e document repository proprietari.
+  \item Realizzazione di pipeline RAG ibride ad alte prestazioni su vector store PostgreSQL pgvector e Qdrant, riducendo la latenza di risposta sotto il secondo e azzerando le allucinazioni su documentazione tecnica complessa.
+  \item Creazione di test suite di regressione e benchmark qualitativi tramite il framework RAGAS per valutare fedeltà contestuale, rilevanza e robustezza su versioni successive dei modelli.
+  \item Containerizzazione delle soluzioni tramite Docker e rilascio continuo con pipeline CI/CD, integrando monitoraggio dei consumi di token e tracing distribuito OpenTelemetry.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milano / Remoto, IT}
+\begin{itemize}
+  \item Sviluppo di microservizi asincroni in Python (FastAPI) e TypeScript per il parsing, la classificazione automatica e l'estrazione di metadati strutturati da volumi elevati di documenti PDF.
+  \item Integrazione di indici vettoriali e code di ingestion asincrone con Redis e database PostgreSQL, garantendo throughput elevato e continuità del servizio.
+  \item Scrittura di unit test e test di integrazione completi con PyTest, assicurando affidabilità del codice e conformità alle specifiche di rilascio.
+  \item Collaborazione attiva con stakeholder di business per definire i requisiti funzionali dei moduli AI e documentare le architetture software.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Progetti di Rilievo / Key Projects}
+\begin{itemize}
+  \item \textbf{Piattaforma Multi-Agente con Integrazione MCP (Python + LangGraph):} Sistema collaborativo ad agenti per il triage, il recupero informativo e la sintesi di report operativi con esecuzione di tool certificati via Model Context Protocol.
+  \item \textbf{Motore RAG Enterprise di Ricerca Semantica (Python + pgvector):} Motore di indicizzazione e retrieval per documenti aziendali con dense embeddings, BM25 keyword search, semantic caching e guardrail di sicurezza contro injection.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Formazione, Lingue \& Permessi di Lavoro}
+\begin{itemize}
+  \item \textbf{Laurea Triennale in Filosofia ed Economia} -- Università Ca' Foscari di Venezia (2018 -- 2022) \\
+  \textit{Formazione rigorosa in logica formale, teoria delle decisioni, analisi quantitativa e modellazione di sistemi complessi.}
+  \item \textbf{Competenze Linguistiche:} Inglese (C1 Professionale, fluente parlato e scritto), Italiano (Livello lavorativo).
+  \item \textbf{Stato Giuridico \& Disponibilità:} Residente Permanente UE in Italia (Permesso di Soggiorno UE a Tempo Indeterminato) -- Diritto di lavoro immediato senza necessità di visto o sponsorizzazione; disponibilità immediata a modalità ibrida.
+\end{itemize}
+
+\end{document}
