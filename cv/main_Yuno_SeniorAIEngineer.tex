@@ -1,0 +1,112 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior AI Engineer $\vert$ LLM Product Development, Prompt Engineering \& Systems Integration}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (Unrestricted EU Permanent Resident $\vert$ Full Remote / Amsterdam Open)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Senior AI Engineer with 3 years of commercial experience designing, building, and scaling products powered by Large Language Models (LLMs) and foundation model APIs. Deep expertise in advanced prompt engineering, output structuring, and continuous prompt iteration based on user interaction data and feedback loops. Proven ability to integrate AI capabilities into core platform services and transactional workflows via resilient APIs and microservices. Skilled across Python, PyTorch, OpenAI, Anthropic Claude, and cloud platforms. Permanent EU resident, immediately available for remote engagements.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Engineer $\vert$ LLM Products \& Systems Integration (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Built and deployed scalable AI features and intelligent agent systems leveraging LLMs (GPT-4o, Claude 3.5 Sonnet) for 4,500+ active enterprise users.
+  \item Designed, tested, and iterated domain-specific prompts for precision outcomes, structured schemas (JSON/Pydantic), and zero-hallucination execution.
+  \item Integrated AI capabilities with core platform services and transactional workflows via high-performance REST APIs and webhooks.
+  \item Analyzed user interaction traces and implemented feedback loops (LangSmith) to continuously refine model responses and optimize token efficiency (-30\% cost).
+  \item Implemented safety guardrails, automated fallbacks, and regression evaluation suites to ensure robust reliability in mission-critical customer operations.
+  \item \textit{Tools: Python, OpenAI API, Anthropic Claude, Prompt Engineering, FastAPI, PostgreSQL, LangSmith, Docker, AWS, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Software Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Built automated semantic extraction and data transformation pipelines converting messy third-party feeds into standardized analytical formats.
+  \item Engineered prompt templates with dynamic context injection and rigorous error validation layers.
+  \item Partnered with product and engineering teams to embed conversational and generative AI components into live customer-facing portals.
+  \item \textit{Tools: Python, REST APIs, PostgreSQL, Supabase, LLMs, Embeddings, Docker, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Solutions Consultant}{Venice, Italy}
+\begin{itemize}
+  \item Designed and deployed bespoke AI automation workflows and assistant systems for European clients, automating operational customer requests.
+  \item Integrated LLM reasoning agents with internal transactional databases and third-party SaaS platforms.
+  \item Formulated prompt engineering playbooks, evaluation rubrics, and API integration guidelines for client engineering teams.
+  \item \textit{Tools: Python, OpenAI API, LangChain, Webhooks, REST APIs, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Internship)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed automated webhook processors and client analytics scripts for a Dutch SaaS platform.
+  \item \textit{Tools: Python, JavaScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work authorization:} Permesso di Soggiorno UE a Tempo Indeterminato (Italy), unrestricted work authorization across the EU. No visa sponsorship required. Open to remote or Netherlands/Amsterdam engagement.
+  \item \textbf{Languages:} English (fluent / C1 professional), Italian (working intermediate), Hindi (native).
+  \item \textbf{Availability:} Available immediately (0 days notice) for full-time contracts.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{LLMs \& Generative AI:} OpenAI (GPT-4o), Anthropic Claude, Foundation Model APIs, RAG, Embeddings, Output Schemas.
+  \item \textbf{Prompt Engineering:} Prompt Design, Few-Shot Prompting, Chain-of-Thought, System Instructions, Context Window Management.
+  \item \textbf{Systems Integration:} RESTful APIs, Webhooks, Event-Driven Architecture, Microservices, Middleware Connectors.
+  \item \textbf{Evaluation \& Optimization:} Feedback Loops, User Interaction Tracing, Latency Optimization, Cost Reduction, PyTest, LangSmith.
+  \item \textbf{Software Engineering:} Python 3.12, FastAPI, PyTorch, Docker, PostgreSQL, Redis, Cloud Platforms (AWS, GCP), Git.
+\end{itemize}
+
+\end{document}
