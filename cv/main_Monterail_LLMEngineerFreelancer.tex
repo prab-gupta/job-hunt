@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large LLM Engineer $\vert$ Applied Generative AI, Python, TypeScript/Node.js, RAG $\&$ Vector Search}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Full Remote EU $\vert$ B2B / Freelance Ready)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Delivery-Focused LLM Engineering for Production Applications:} Software engineer with ~3 years commercial experience integrating pragmatic generative AI capabilities into existing production codebases (Python, Node.js/TypeScript). Experienced in building real-world AI features: document Q\&A, semantic search, automated summarization, intent classification, and structured data extraction.
+  \item \textbf{Production RAG Pipelines, Vector Search \& Optimization:} Hands-on builder of robust Retrieval-Augmented Generation (RAG) architectures utilizing PostgreSQL pgvector, Qdrant, and Pinecone. Deep understanding of hybrid retrieval (BM25 + dense embeddings), reranking, and cost/latency constraints, optimizing token budgets and caching to maintain high throughput and reliability.
+  \item \textbf{Autonomous Tool Integration \& B2B Contracting:} Practical implementation of tool calling, structured outputs (Pydantic), and the Model Context Protocol (MCP) to safely connect LLMs (Anthropic Claude 3.5, OpenAI GPT-4o) with APIs and relational databases. Registered EU tax entity (Italian Partita IVA) fully prepared for immediate B2B freelance contracting.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Languages \& Core Runtimes:} Python (FastAPI, AsyncIO, PyDantic, PyTest), JavaScript \& TypeScript (Node.js, Bun, React/Next.js), SQL (PostgreSQL), Bash.
+  \item \textbf{LLM Engineering \& Frameworks:} OpenAI API, Anthropic Claude API, LangChain, LlamaIndex, LangGraph, Model Context Protocol (MCP), Function/Tool Calling, Structured Outputs, Prompt Engineering \& Iterative Refinement.
+  \item \textbf{Vector Databases \& Search:} PostgreSQL (pgvector extension, HNSW indexing), Qdrant, Pinecone, ChromaDB, Hybrid Search (Dense + BM25 Sparse), Semantic Reranking (Cohere), Semantic Caching (Redis).
+  \item \textbf{Data Pipelines \& Infrastructure:} Ingestion Pipelines for Unstructured Data (PDFs, Markdown, JSON), Docker, RESTful APIs, Git, GitHub Actions CI/CD, AWS (S3, Lambda).
+  \item \textbf{Evals \& Observability:} RAGAS Framework, Precision/Recall Benchmarking, Hallucination Prevention, Token Latency \& Cost Optimization.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{LLM Solutions Engineer \& Consultant}{2024 -- Present}{Independent / B2B AI Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Partnered with European tech companies and startups to design, implement, and integrate custom LLM features into existing Python and Node.js codebases under B2B contracts.
+  \item Built resilient multi-tenant RAG systems on PostgreSQL with pgvector, incorporating semantic chunking, Cohere reranking, and Redis semantic cache to achieve sub-second query latency and reduce inference costs by 35\%.
+  \item Integrated Anthropic Claude and OpenAI APIs into client workflows, enforcing strict JSON output schemas via Pydantic to ensure deterministic integration with downstream backend services.
+  \item Engineered custom connectors using the Model Context Protocol (MCP), enabling LLM agents to perform auditable queries against client databases and internal SaaS tools.
+  \item Established automated prompt regression suites and evaluation harnesses (measuring faithfulness and context relevance), ensuring model changes never degraded customer experience.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Developed and deployed scalable microservices in Python (FastAPI) and TypeScript (Node.js) for automated document parsing, classification, and text extraction.
+  \item Integrated vector search capabilities into core products, designing indexing workflows and asynchronous background ingestion jobs using Redis queues.
+  \item Optimized PostgreSQL database schemas and query plans for high-throughput relational and vector storage, supporting growing customer data volume.
+  \item Collaborated directly with product teams to scope AI enhancements, translating ambiguous business requests into reliable, tested software deliverables.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Production Document Intelligence Engine (Python + pgvector):} Lightweight RAG engine combining dense vector embeddings and BM25 sparse retrieval over thousands of technical documentation files, complete with metadata filtering and hallucination guardrails.
+  \item \textbf{Full-Stack LLM Agent Framework (TypeScript / Node.js):} Autonomous agent platform implementing tool execution against external APIs and databases, featuring state preservation, streaming output (SSE), and token consumption metrics.
+\end{itemize}
+
+% ================= EDUCATION & LANGUAGES =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous education in formal logic, decision theory, analytical reasoning, and complex systems modeling.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Contracting \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted right to work across the EU without visa sponsorship; Registered Italian Partita IVA ready for immediate B2B invoicing.
+\end{itemize}
+
+\end{document}
