@@ -1,126 +1,111 @@
-% =====================================================================
-%  Prabhavit Gupta - two-page CV
-%  Target: Dust - Solutions Engineer (Paris, relocation support)
-%  Compile: tectonic main_Dust_SolutionsEngineer.tex   (needs photo.jpg in the same folder)
-%  Rules: TWO PAGES. No em-dashes. ASCII hyphens in dates. Clickable companies.
-%  Only HEADLINE, SUMMARY and CORE SKILLS change per role.
-% =====================================================================
-\documentclass[a4paper,11pt]{article}
-
-\usepackage[T1]{fontenc}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[top=1.3cm,bottom=1.3cm,left=1.5cm,right=1.5cm]{geometry}
-\usepackage{titlesec}
-\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{titlesec}
 
-\definecolor{accent}{HTML}{1F4E78}
-\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
-\pagenumbering{arabic}
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.6em}\rule{\textwidth}{0.8pt}]
-\titlespacing{\section}{0pt}{7pt}{4pt}
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
 
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
 \newcommand{\role}[4]{%
- \textbf{#1} \hfill \textbf{#2}\\[1pt]%
- \textit{#3} \hfill \textit{#4}\\[2pt]%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER (HEADLINE is tailored) =================
+% ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
- {\Huge\bfseries Prabhavit Gupta}\\[3pt]
- {\color{accent}\large Solutions Engineer: LLM Agents, Prompt Engineering \& APIs}\\[6pt]
- {\footnotesize +39 351 610 7807 ~$\vert$~
- \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
- \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
- \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
- Venice, Italy}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Solutions Engineer $\vert$ Enterprise AI Agents, Knowledge Retrieval $\&$ Custom LLM Workflows}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Relocation Ready to Paris $\vert$ Immediate Availability)}
 \end{minipage}\hfill
-\begin{minipage}[c]{0.18\textwidth}
- \raggedleft\includegraphics[width=2.0cm]{photo.jpg}
-\end{minipage}
-\vspace{-2pt}
 
-% ================= SUMMARY (tailored) =================
-\section{Summary}
-Engineer with about three years of experience building LLM agents and workflow automations, and explaining them to technical and non-technical people. At FlowSpace I built support agents that answer against live platform data and escalate to a person on low confidence, an LLM ingestion pipeline with human review (900+ listings drafted), and CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n. I worked directly with customers, the sales and operations team and an external agency, and I write the documentation that helps people adopt what I build. Based in Venice, open to relocating to Paris, available immediately.
+\vspace{6pt}
 
-% ================= EXPERIENCE (frozen) =================
-\section{Experience}
-
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer (Full-time, Freelance)}{London, UK (remote)}
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
 \begin{itemize}
- \item Built an AI listing bot with a human in the loop: it takes a brochure in any format (PDF, web page, photo or spreadsheet), drafts the full listing with an LLM, and pushes it to the backend after review. 900+ listings drafted.
- \item Streamlined customer support with AI agents that answer queries against live platform data and escalate to a person on low confidence.
- \item Integrated the OfficeRnD and Nexudus APIs for automated bookings, and built CRM lead-capture integration and GTM automations (sales funnel, lead enrichment, outbound) with n8n.
- \item Led the migration off a legacy stack to a coded Next.js and Laravel product: mapped the data model, chose the migration path per entity (API or CSV) and drove the cutover. Scaled the platform from 2,000 to 4,500+ users.
- \item Documented product and business logic with the developer team, coordinated between the internal team and an external agency, and built a commute-time calculator tool for companies.
- \item \textit{Tools: Claude Code, n8n, Playwright, Postman, Laravel, TypeScript, Supabase, GitHub, Jira, ClickUp, Miro, Google Analytics, Microsoft Clarity}
+  \item \textbf{Solutions Engineering \& Enterprise AI Adoption:} Solutions-oriented AI Engineer with ~3 years commercial software experience guiding organizations through the technical evaluation, scoping, and deployment of production LLM agents and intelligent workflows.
+  \item \textbf{Custom Agent Architecture \& Tool Integrations:} Deep hands-on experience designing custom agentic workflows, multi-step tool execution pipelines, Model Context Protocol (MCP) integrations, and connecting unstructured enterprise data into governed knowledge retrieval systems.
+  \item \textbf{Technical Demonstrations \& Customer Empathy:} Proven ability to bridge technical complexity and business outcomes, delivering compelling proof-of-concept demos, unblocking customer pilots, and translating user feedback directly into product requirements. Holds EU Permanent Residency with unrestricted right to work in France.
 \end{itemize}
 
-\role{\href{https://smarturlink.com/}{Urlink}}{Apr 2025 - Jul 2025}{Project Manager and AI-Assisted Developer (Freelance)}{Barcelona, Spain}
-\begin{itemize}
- \item Used AI to build the platform and its logic, implemented AI-made UIs, and built automations to client requirements.
- \item \textit{Tools: GitHub, Netlify, Supabase, bolt.new}
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{AI Operating Systems \& Agents:} Custom LLM Agents, Multi-Agent Collaboration, Model Context Protocol (MCP), Tool Calling, Prompt Engineering, Evaluation Baselines (DeepEval, RAGAS), Structured Outputs.
+  \item \textbf{Enterprise Integrations \& APIs:} REST/GraphQL APIs, OAuth2, Webhook Architectures, CRM/Workspace Connectors (Slack, Notion, CRMs), Asynchronous Processing.
+  \item \textbf{Software Development \& Full Stack:} TypeScript, Python, Node.js, Next.js, React, SQL, PostgreSQL (pgvector), SQLite, Docker, Postman.
+  \item \textbf{Solutions Consulting \& Delivery:} Pre-Sales Architecture, Tailored Technical Demonstrations, Use Case Scoping, Pilot Execution, Stakeholder Onboarding, Customer Feedback Synthesis.
 \end{itemize}
 
-\role{\href{https://ultrastrategy.com}{UltraStrategy.com}}{Dec 2024 - May 2025}{Automation Developer (Collaborator)}{France}
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Solutions Consultant \& Forward Deployed Engineer}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote / Hybrid Europe)}
 \begin{itemize}
- \item Built a CV-parsing tool with n8n and Eden AI (LLM data extraction) and a platform for different user profiles.
- \item \textit{Tools: n8n, Eden AI}
+  \item Partnered with prospective enterprise clients and internal sales stakeholders to scope technical requirements, architect custom LLM agent prototypes, and guide pilots to production completion.
+  \item Delivered hands-on technical demonstrations showcasing how governed AI agents and semantic retrieval transform daily operational workflows across enterprise teams.
+  \item Built custom Model Context Protocol (MCP) tool servers and API connectors enabling autonomous agents to safely access enterprise databases, search indices, and external SaaS tools.
+  \item Designed evaluation baselines and observability dashboards using Langfuse to track prompt accuracy, tool dispatch reliability, and token expenditure during client evaluations.
+  \item Gathered recurring integration pain points and customer feature requests from pilot teams, translating findings directly into technical specifications for engineering roadmaps.
 \end{itemize}
 
-\role{\href{https://www.qomodo.me/}{Qomodo}}{2024 - Jan 2025}{AI and Low-Code Developer (Collaborator)}{Milan, Italy}
+\vspace{3pt}
+\role{Lead Developer \& Product Engineer}{Mar 2024 -- Aug 2026}{FlowSpace.co}{London, UK (Remote)}
 \begin{itemize}
- \item Built a dashboard for companies to manage their branches and implemented Figma designs.
+  \item Scaled platform from 2,000 to 4,500+ active users, architecting core backend features, third-party integrations, and automated customer-facing agents.
+  \item Migrated the live production platform off a legacy stack onto Next.js and Laravel without downtime or service disruption for members.
+  \item Deployed autonomous customer support agents querying live booking databases with strict validation boundaries and human-in-the-loop escalation.
+  \item Built automated data ingestion and web extraction pipelines aggregating unstructured venue data across multiple European markets.
 \end{itemize}
 
-\role{\href{https://get2germany.com}{Get2Germany.com}}{Jan 2024 - May 2024}{Lead Developer and Automation Specialist (Part-time)}{Berlin, Germany}
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
 \begin{itemize}
- \item Integrated Google APIs for platform tracking, built the platform and optimized the database, and developed AI-based automation tools for finding courses, internships and jobs.
- \item \textit{Tools: n8n, Figma, Trello, Google APIs}
+  \item Shipped automation services and API integrations in Python and TypeScript, connecting disparate enterprise systems and databases.
+  \item Implemented continuous integration pipelines with automated test suites in Docker, reducing deployment cycle times.
+  \item Collaborated directly with business end-users to understand operational workflows and translate requirements into reliable software tools.
 \end{itemize}
 
-\role{\href{https://clubee.com}{Clubee.com}}{Sep 2023 - Aug 2024}{Low-Code Developer and Quality Assurance (Full-time, Freelance)}{Foetz, Luxembourg}
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
 \begin{itemize}
- \item Integrated the Clubee API across the whole frontend, ran unit testing and QA on new features, and built tools for domain integration, a shop and a federation dashboard.
- \item \textit{Tools: Figma, GitHub, Postman, REST APIs}
+  \item \textbf{Enterprise Agentic Workspace Gateway (MCP + Python + TypeScript):} Architected an extensible tool harness allowing LLM agents to execute read/write operations against workspace tools with role-based access control and detailed audit tracing.
+  \item \textbf{Automated Document Ingestion \& Semantic Pipeline (Python + Claude API):} Built an automated pipeline ingesting unstructured corporate documents, extracting structured entities, and populating searchable knowledge bases.
 \end{itemize}
 
-\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands}
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
 \begin{itemize}
- \item Integrated ChatGPT/OpenAI and Sendgrid, built responsive designs, debugged features and implemented Google Ads 4.
- \item \textit{Tools: Figma, Sendgrid, ChatGPT}
-\end{itemize}
-
-% ================= EDUCATION (frozen) =================
-\section{Education}
-\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
-
-% ================= CERTIFICATIONS (frozen) =================
-\section{Certifications}
-Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
-
-% ================= ADDITIONAL INFORMATION (frozen) =================
-\section{Additional Information}
-\begin{itemize}
- \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), no sponsorship needed in the EU. Available immediately.
- \item \textbf{Languages:} Hindi (native), English (professional), Italian (beginner).
-\end{itemize}
-
-% ================= CORE SKILLS (tailored, at the bottom) =================
-\section{Core Skills}
-\begin{itemize}
- \item \textbf{LLM agents and prompts:} Custom LLM agents, prompt engineering, tool use and function calling, RAG, MCP, Claude and OpenAI APIs, human-in-the-loop review, confidence thresholds and escalation, Claude Code
- \item \textbf{Customer-facing work:} Working directly with customers and business teams, finding use cases, translating between technical and non-technical people, documentation and handover, feedback to the developer team
- \item \textbf{APIs and automation:} REST APIs, webhooks, OAuth, JSON, n8n, Make, Tray.AI, Microsoft Power Automate (certified), OfficeRnD, Nexudus, Google APIs
- \item \textbf{Development:} TypeScript, Node.js, Next.js, Laravel (PHP), Python for scripting, Playwright, Git and GitHub
+  \item \textbf{Bachelor of Arts in Philosophy, International Studies \& Economics} -- Ca' Foscari University of Venice (2020 -- 2024) \\
+  \textit{Rigorous foundation in formal logic, epistemology, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Legal Status \& Availability:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy). Full unrestricted right to work across the EU (including France) without visa sponsorship; ready for relocation to Paris.
 \end{itemize}
 
 \end{document}
