@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Software Engineer $\vert$ Agent Platform, Headless Browser Automation (Playwright/CDP) $\&$ Developer Tools}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Relocation Ready to SF $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Agent Platform \& Developer Tooling:} Software engineer with ~3 years commercial software experience specializing in autonomous agent execution harnesses, browser automation frameworks, and robust developer APIs across production deployments.
+  \item \textbf{Browser Automation, Playwright \& CDP Depth:} Deep hands-on expertise orchestrating headless Chromium instances, Chrome DevTools Protocol (CDP), Playwright test/scraping suites, Model Context Protocol (MCP) tool integrations, and handling DOM mutation reliability under complex web conditions.
+  \item \textbf{High-Agency Execution \& Full-Stack Delivery:} Fluent across TypeScript and Python, with a track record building resilient developer-facing services, stateful web session handlers, and automated evaluation harnesses in fast-paced engineering environments.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Browser Automation \& Protocols:} Playwright, Puppeteer, Chrome DevTools Protocol (CDP), Headless Browser Infrastructure, DOM Traversal, Web Scraping (Playwright, BeautifulSoup), Anti-Bot Navigation, Session State Management.
+  \item \textbf{Agent Systems \& AI Tooling:} Model Context Protocol (MCP), Autonomous Agent Tool Loops, Tool Calling, Structured Outputs (Zod, Pydantic), Prompt Engineering, Agent Evaluation Suites (DeepEval).
+  \item \textbf{Core Software Engineering:} TypeScript, Node.js, Python (AsyncIO, Typing, PyTest), REST/GraphQL APIs, WebSockets, Sandboxed Tool Execution, SQLite, PostgreSQL.
+  \item \textbf{DevOps \& Infrastructure:} Docker, GitHub Actions, CI/CD, Postman, Distributed Tracing (Langfuse), Linux CLI, Git.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Software Engineer \& Agent Systems Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote / Hybrid)}
+\begin{itemize}
+  \item Engineered agentic browser execution harnesses using Playwright and Model Context Protocol (MCP), connecting LLMs to live web pages with reliable DOM element interaction, scrolling, and action dispatch.
+  \item Designed CDP-based automation clients inspecting DOM snapshots, network requests, and console events to evaluate agent execution fidelity and diagnose failure modes.
+  \item Built custom developer tools and API connectors enabling autonomous agents to safely authenticate, extract structured data, and submit web forms with validation barriers.
+  \item Implemented automated trace monitoring with Langfuse, tracking token utilization, browser interaction latency, and tool dispatch success across hundreds of test scenarios.
+  \item Authored technical integration documentation, test harnesses, and reusable SDK examples for external developer teams.
+\end{itemize}
+
+\vspace{3pt}
+\role{Lead Developer \& Product Engineer}{Mar 2024 -- Aug 2026}{FlowSpace.co}{London, UK (Remote)}
+\begin{itemize}
+  \item Scaled platform from 2,000 to 4,500+ active users, designing core features, real-time platform integrations, and automated customer-facing agents.
+  \item Migrated the live production platform off a legacy stack onto Next.js and Laravel without downtime or service disruption for members.
+  \item Deployed autonomous customer support agents querying live booking databases with strict validation boundaries and human-in-the-loop escalation.
+  \item Built automated data ingestion and web extraction pipelines aggregating unstructured venue data across multiple European markets.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Shipped automation services and API integrations in Python and TypeScript, connecting disparate enterprise systems and databases.
+  \item Implemented continuous integration pipelines with automated test suites in Docker, reducing deployment cycle times.
+  \item Collaborated directly with business end-users to understand operational workflows and translate requirements into reliable software tools.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous Browser Agent Runtime (Playwright + CDP + MCP + TypeScript):} Architected a sandboxed execution layer allowing AI agents to navigate web applications, inspect accessibility trees, execute deterministic actions, and extract structured data via CDP.
+  \item \textbf{Automated Multi-Source Extraction Pipeline (Python + Playwright + Claude API):} Built a crawling engine processing 900+ data sources with dynamic JavaScript rendering, human review checkpoints, and automated schema enforcement.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy, International Studies \& Economics} -- Ca' Foscari University of Venice (2020 -- 2024) \\
+  \textit{Rigorous foundation in formal logic, epistemology, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Legal Status \& Availability:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy). Open to international relocation to San Francisco with visa sponsorship (H-1B, O-1, etc.); available immediately.
+\end{itemize}
+
+\end{document}
