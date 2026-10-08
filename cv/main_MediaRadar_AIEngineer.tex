@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large AI Engineer $\vert$ Expert Python, PostgreSQL + pgvector, Multi-Agent Systems $\&$ Langfuse}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote Spain/Madrid $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Production AI Engineering \& Systems Architecture:} Software engineer with ~3 years commercial experience architecting, benchmarking, and shipping scalable AI systems, multi-agent pipelines, and vector retrieval backends. Independent builder with an applied engineering backbone, delivering robust end-to-end features using expert Python, async I/O, Docker, and CI/CD.
+  \item \textbf{Vector Databases, Relational Schemas \& Ingestion:} Deep expertise in PostgreSQL with pgvector, HNSW indexing, pg\_trgm similarity matching, and SQLAlchemy/Alembic data migrations. Experienced designing high-throughput data pipelines that deduplicate and reconcile messy enterprise records against authoritative datasets.
+  \item \textbf{Multi-Agent Orchestration, Evals \& Observability:} Proven track record implementing multi-agent workflows (separating classification agents from reasoning agents), Chain-of-Thought prompting, and guardrails. Extensively instrumented distributed trace observability with Langfuse and automated regression test harnesses (RAGAS) to maintain explainability, quality, and low latency.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Core Engineering:} Expert Python (Typing, AsyncIO, Performance Optimization, PyTest), SQLAlchemy, Alembic, Docker, REST \& WebSocket APIs, Microservices, Git, GitHub Actions CI/CD.
+  \item \textbf{Databases \& Vector Search:} PostgreSQL (pgvector, HNSW index optimization, pg\_trgm fuzzy text matching, partitioning), Redis (Caching \& Semantic Queues), Relational Data Modeling.
+  \item \textbf{AI Orchestration \& Agents:} Multi-Agent Systems (Classification \& Reasoning Agents), Chain-of-Thought Prompting, LangChain, LangGraph, Model Context Protocol (MCP), Context Pruning.
+  \item \textbf{LLM Observability \& Evals:} Langfuse Distributed Tracing, Latency \& Token Cost Profiling, RAGAS Benchmarking, Regression Detection Test Suites, Guardrails (Input/Output Validation).
+  \item \textbf{Modern Productivity:} AI-Assisted Engineering Workflows, Rapid Prototyping, Clean Code Architecture, Extreme Independence \& Ownership.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and shipped scalable production AI systems and multi-agent workflows for European client platforms, taking requirements from system design to high-throughput cloud deployment.
+  \item Developed specialized multi-agent pipelines separating classification agents from deterministic reasoning agents, automating entity resolution and deduplication against external registers.
+  \item Optimized PostgreSQL database architectures with pgvector (HNSW indexing) and pg\_trgm, improving semantic and hybrid similarity search query speeds across millions of vectors.
+  \item Standardized agent-to-tool interfaces using Model Context Protocol (MCP) and SQLAlchemy, enforcing strict Pydantic schemas and defensive validation across database read/write actions.
+  \item Instrumenting comprehensive real-time observability with Langfuse, tracking execution traces, token burn, and error fallbacks to ensure robust, explainable system behavior.
+  \item Established automated evaluation harnesses using RAGAS and regression test suites, catching quality degradation and hallucination drift prior to production releases.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Engineered asynchronous microservices in Python (FastAPI) and TypeScript for automated extraction, semantic parsing, and classification of high-volume digital documents.
+  \item Built semantic caching and vector search layers using PostgreSQL with pgvector and Redis, cutting redundant inference calls and maintaining sub-second query latency.
+  \item Authored exhaustive unit and integration test suites using PyTest, establishing continuous quality gating in GitHub Actions CI/CD workflows.
+  \item Collaborated with cross-functional technical teams to convert complex analytical requirements into modular, maintainable software architectures.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Multi-Agent Entity Attribution \& Deduplication Pipeline (Python + LangGraph + pgvector):} Multi-agent collaborative system separating categorization agents from analytical validation agents, cross-referencing records against public registries with Langfuse tracing.
+  \item \textbf{High-Throughput Vector Ingestion \& Search Engine (FastAPI + pgvector + HNSW):} Hybrid search service combining semantic embeddings with pg\_trgm fuzzy matching, automated Alembic migrations, and automated RAGAS eval gates.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, statistical reasoning, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency), Spanish (Elementary understanding).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the EU/Spain without visa sponsorship; available immediately for remote/Madrid collaboration.
+\end{itemize}
+
+\end{document}
