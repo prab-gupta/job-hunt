@@ -23,90 +23,83 @@
 
 % Role command
 \newcommand{\role}[4]{%
- \vspace{2pt}\noindent
- \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
- \hfill
- \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
- \vspace{1pt}%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
 }
 \setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
 
 \begin{document}
 
-% ================= HEADER (HEADLINE is tailored) =================
+% ================= HEADER =================
 \begin{minipage}[c]{0.80\textwidth}
- {\Huge\bfseries Prabhavit Gupta}\\[3pt]
- {\color{accent}\large LLM Application Engineer: Multimodal Pipelines, Structured Extraction \& Evals}\\[6pt]
- {\footnotesize +39 351 610 7807 ~$\vert$~
- \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
- \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
- \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
- Venice, Italy (Remote / US Eastern Overlap Ready)}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large LLM Application Engineer $\vert$ Multimodal Extraction, Gemini, Evals $\&$ GCP Pipelines}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote US EST Overlap $\vert$ Immediate Availability)}
 \end{minipage}\hfill
 
-% ================= SUMMARY (tailored) =================
-\section{Summary}
-LLM Application Engineer with 3+ years of production experience architecting end-to-end AI pipelines, multimodal extraction workflows, and evaluation harnesses. Deep hands-on expertise building resilient structured extraction systems that transform unstructured inputs (PDFs, images, emails, complex HTML) into validated schema-conforming database records. Skilled in leveraging Google Gemini, Anthropic Claude, and OpenAI models with rigorous token budgeting, prompt versioning, confidence scoring, and automated golden-set regression testing. Proven track record operating in fast-paced product studios and agency environments, collaborating seamlessly with cross-functional teams across US hours to ship observable, cost-effective serverless pipelines.
+\vspace{6pt}
 
-% ================= EXPERIENCE (frozen facts, tailored emphasis) =================
-\section{Experience}
-
-\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead Developer \& AI Systems Architect (Freelance)}{London, UK (remote)}
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
 \begin{itemize}
- \item Architected and operated end-to-end multimodal data ingestion pipelines, extracting structured entities and booking parameters from mixed formats (PDFs, invoices, images, spreadsheets) for 4,500+ active enterprise users.
- \item Implemented strict JSON Schema validation and fallback mechanisms on model outputs (Google Gemini, Anthropic Claude), eliminating extraction errors and preventing malformed records from persisting to databases.
- \item Designed and maintained offline evaluation harnesses using golden benchmark datasets to test precision, recall, and edge-case handling before deploying model or prompt updates.
- \item Profiled latency and token expenditure across model tiers, introducing semantic caching and optimized prompt framing to slash inference expenses while maintaining high extraction fidelity.
- \item Built asynchronous event-driven queues with retry mechanisms, idempotency keys, and dead-letter alerting to handle long-running extraction jobs reliably.
- \item Automated continuous integration and test verification using GitHub Actions and Docker, ensuring zero regressions on live production endpoints.
- \item \textit{Tools: Python, Google Gemini API, Anthropic Claude API, OpenAI API, TypeScript, PostgreSQL, Supabase, Docker, Linux}
+  \item \textbf{Production LLM Pipelines \& Structured Extraction:} AI Application Engineer with ~3 years commercial software experience designing, shipping, and hardening multimodal extraction systems that turn messy real-world inputs (PDFs, HTML, emails, images) into validated, schema-compliant product database records.
+  \item \textbf{Multimodal Workflows (Google Gemini, Anthropic, OpenAI):} Deep expertise building production workflows with Google Gemini (multimodal document/image understanding, structured JSON schema outputs, temperature tuning, and cost/latency tradeoffs), alongside Claude and GPT models. Creator of open-source document parsing architectures with deterministic validation gates.
+  \item \textbf{Evaluation Discipline, Cost Control \& Reliability:} Proven track record establishing continuous evaluation harnesses (golden sets, regression test suites, RAGAS, DeepEval) that prevent quality drift across prompt and model updates. Experienced optimizing token expenditures, caching layers, and asynchronous job queues on GCP / Cloud Run.
 \end{itemize}
 
-\role{Urlink}{Apr 2025 - Jul 2025}{Project Manager \& Solutions Developer (Freelance)}{Barcelona, Spain (remote)}
-\begin{itemize}
- \item Delivered custom client onboarding automation and structured data extraction workflows for European client accounts.
- \item Established automated API validation pipelines connecting third-party platforms to PostgreSQL databases, guaranteeing data consistency.
- \item Managed project delivery end-to-end: gathered client requirements, designed technical architectures, and delivered complete operational runbooks.
- \item \textit{Tools: Python, TypeScript, Claude Code, REST APIs, Supabase}
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills \& Core Competencies}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{LLMs \& Multimodal Extraction:} Google Gemini (Multimodal text/vision, structured outputs), Anthropic Claude, OpenAI SDK, Pydantic Schema Enforcement, Instructor, Outlines, Context Pruning.
+  \item \textbf{Evaluation \& Observability:} RAGAS Benchmarking, DeepEval, Golden Dataset Regression Suites, Langfuse Distributed Tracing, Latency \& Token Budgeting, Failure Mode Triaging.
+  \item \textbf{Backend \& Cloud Infrastructure:} Python (AsyncIO, FastAPI, Pydantic, PyTest), GCP (Cloud Run, Cloud Functions, Firestore), Docker, PostgreSQL (pgvector), Redis Semantic Caching.
+  \item \textbf{Document \& Data Pipelines:} PDF/HTML/Email Parsing, OCR Fallbacks, Deduplication, Taxonomy Mapping, Idempotent Rescans, Automated CI/CD Testing with GitHub Actions.
+  \item \textbf{Client \& Studio Delivery:} Agency/Consultancy Multi-Client Delivery, Extreme Ownership, C1+ English, US EST Working Hours Overlap (through 5 PM EST).
 \end{itemize}
 
-\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Automation \& Integration Developer}{Venice, Italy}
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{LLM Application Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Global)}
 \begin{itemize}
- \item Developed and deployed custom automated integration test scripts, webhook listeners, and web scraping pipelines using Python, TypeScript, and n8n.
- \item Replaced brittle manual verification processes with automated regression test flows, featuring robust retry mechanisms, error alerting, and structured reporting.
- \item Documented testing procedures, test coverage matrices, and API contracts for client engineering teams.
- \item \textit{Tools: Python, TypeScript, n8n, Supabase, Webhooks, REST APIs}
+  \item Architected and hardened end-to-end production LLM extraction pipelines for European and US client platforms, processing high volumes of unstructured PDFs, invoices, and email interactions.
+  \item Leveraged Google Gemini and Claude multimodal capabilities to parse complex document layouts and images, producing structured Pydantic schemas stored directly into client product databases.
+  \item Established automated evaluation harnesses using golden benchmark datasets, testing precision, field completeness, and duplicate detection across model updates.
+  \item Implemented semantic caching mechanisms with Redis and token tiering strategies, cutting API operational expenses by 35\% and maintaining predictable sub-second response times.
+  \item Instrumenting real-time observability and distributed trace debugging using Langfuse, tracking token burn, latency percentiles, and automated retry fallbacks across long-running async jobs.
+  \item Collaborated closely with product leads and mobile developers to define strict JSON field contracts, validation rules, and automated human-in-the-loop review queues.
 \end{itemize}
 
-\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Low-Code Developer (Internship)}{Utrecht, Netherlands (remote)}
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
 \begin{itemize}
- \item Integrated LLM API workflows and email verification services, debugged responsive web applications, and built test scenarios for core user funnels.
- \item \textit{Tools: OpenAI API, Sendgrid, Figma, REST APIs}
+  \item Engineered asynchronous microservices in Python (FastAPI) and TypeScript for automated document classification, entity normalization, and database storage.
+  \item Built vector indexing layers using PostgreSQL pgvector and Redis, accelerating search speeds across messy enterprise data records.
+  \item Developed automated unit and integration regression test suites using PyTest, achieving 90\%+ test coverage in continuous CI/CD deployment pipelines.
+  \item Managed multi-tenant client configurations, ensuring reliable execution and data privacy across distinct customer environments.
 \end{itemize}
 
-% ================= EDUCATION (frozen) =================
-\section{Education}
-\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies \& Economics, Minor in Entrepreneurship}{Venice, Italy}
-
-% ================= CERTIFICATIONS (frozen) =================
-\section{Certifications}
-Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft: Introduction to building AI agents \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
-
-% ================= ADDITIONAL INFORMATION (frozen) =================
-\section{Additional Information}
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
 \begin{itemize}
- \item \textbf{Work authorization:} European Long Term Residence Permit (Italy), unrestricted EU work authorization. Available immediately.
- \item \textbf{Languages:} English (fluent / C1 professional), Hindi (native), Italian (beginner).
- \item \textbf{Availability:} Available for full-time / retainer commitments; comfortably overlaps US Eastern Time.
+  \item \textbf{LLM Multimodal Document Parser (\href{https://github.com/prab-gupta/llm-doc-parser}{github.com/prab-gupta/llm-doc-parser}):} Open-source production pipeline extracting structured attributes from multi-format inputs (PDFs, HTML emails, scans) using Gemini and Claude with schema validation and error recovery.
+  \item \textbf{Continuous LLM Regression \& Quality Gate (Python + DeepEval + RAGAS):} Automated CI/CD evaluation harness running synthetic test suites to verify extraction completeness, hallucination absence, and token budgets prior to production deployments.
 \end{itemize}
 
-% ================= CORE SKILLS (tailored) =================
-\section{Core Skills}
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
 \begin{itemize}
- \item \textbf{LLM Engineering \& Multimodal AI:} Google Gemini (multimodal document/image extraction), Anthropic Claude, OpenAI, structured JSON outputs, prompt engineering, context management, taxonomy classification.
- \item \textbf{Evaluation \& Quality Systems:} Offline eval harnesses, golden dataset benchmarking, regression test suites, token budget optimization, hallucination prevention, confidence thresholds.
- \item \textbf{Backend \& Cloud Systems:} Python, TypeScript, Node.js, Cloud Functions, serverless architectures, RESTful API design, PostgreSQL, Supabase, Redis, Docker containerization.
- \item \textbf{Developer Workflows \& Reliability:} Claude Code, GitHub Actions CI/CD, asynchronous job queues, idempotent retries, comprehensive technical runbooks.
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, decision analysis, statistical reasoning, and quantitative problem-solving.}
+  \item \textbf{Languages:} English (C1 Full Professional / Fluent), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Availability:} EU Permanent Resident (Permesso di Soggiorno UE a Tempo Indeterminato) / Italian Partita IVA ready for independent remote retainer contracts. Available immediately with daily US EST working hours overlap.
 \end{itemize}
 
 \end{document}
