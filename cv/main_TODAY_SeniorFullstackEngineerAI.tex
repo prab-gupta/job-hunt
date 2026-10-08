@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior Fullstack Engineer $\vert$ AI Systems, Model Context Protocol (MCP), Agents $\&$ Backend Infrastructure}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote EU / Germany $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Production Agent Architectures \& Model Context Protocol (MCP):} Software engineer with ~3 years commercial experience architecting and shipping production-grade AI systems, autonomous agents, and tool-calling infrastructure. Deep practical experience building custom Model Context Protocol (MCP Server \& Client) integrations and multi-step agent workflows.
+  \item \textbf{Fullstack Backend, Microservices \& Data Infrastructure:} Robust fullstack engineering expertise across Python (FastAPI, AsyncIO, PyTest), TypeScript, and PostgreSQL. Experienced designing resilient microservices, distributed background task queues, and cloud infrastructure on Microsoft Azure and Docker.
+  \item \textbf{Observability, Evals \& Startup Velocity:} Experienced in high-velocity startup environments, establishing rigorous evaluation harnesses (RAGAS / automated benchmark evals), LLM tracing (Langfuse / OpenTelemetry), context/memory management for long-running agents, and security-first enterprise API integrations.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic AI \& Tool Protocols:} Model Context Protocol (MCP Server \& Client), LangChain, LangGraph, Deep Agents, ReAct Planning, Tool Calling, Stateful Multi-Turn Memory, Context Window Optimization, Human-in-the-Loop.
+  \item \textbf{LLMs, Voice AI \& Evals:} OpenAI GPT-4o, Claude 3.5 Sonnet, Langfuse Tracing, Prompt Engineering, Structured Outputs (Pydantic, JSON Schema), Audio/Speech Pipelines (Whisper STT/TTS), RAGAS Automated Evals.
+  \item \textbf{Backend \& Microservices:} Python (Advanced - AsyncIO, FastAPI, PyTest, Typing), TypeScript, Node.js, PostgreSQL (pgvector), Redis (Caching \& Queues), REST APIs, gRPC, Microservice Architectures.
+  \item \textbf{Cloud, DevOps \& Security:} Microsoft Azure, Docker, CI/CD (GitHub Actions), Linux, OpenTelemetry Tracing, Structured Logging, OAuth2 / Secure Credential Isolation, Penetration \& Contract Testing.
+  \item \textbf{Engineering Methodologies:} Startup Product Engineering, Systems Architecture, Clean Code (SOLID), Agile Delivery, High-Traffic Reliability.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and shipped production AI platforms and autonomous agent systems for European startups and tech scale-ups, managing end-to-end delivery from prototype to production.
+  \item Built custom Model Context Protocol (MCP) servers and clients, standardizing tool-calling interfaces to securely connect LLM agents to Postgres databases, external REST APIs, and third-party SaaS services.
+  \item Designed multi-turn agent orchestration layers with persistent state management, dynamic context trimming, and human escalation gates using LangChain and LangGraph.
+  \item Implemented real-time LLM observability and distributed tracing using Langfuse and OpenTelemetry, monitoring latency, token economics, and hallucination rates in live environments.
+  \item Developed automated evaluation suites and regression test harnesses, systematically tracking model output quality, precision, and tool-invocation accuracy across prompt releases.
+  \item Deployed containerized microservices on Microsoft Azure and Linux infrastructure, implementing robust CI/CD pipelines and security-first credential management.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Built scalable backend microservices in Python and TypeScript for automated document ingestion, classification, and real-time audio transcription processing.
+  \item Developed vector indexing pipelines and caching layers with PostgreSQL and Redis, ensuring sub-second query response times across high-volume data workloads.
+  \item Created comprehensive unit, contract, and integration test suites using PyTest, maintaining high code quality and test coverage across CI/CD deployments.
+  \item Collaborated with product and engineering founders to rapidly translate business objectives into validated, scalable software architectures.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous Tool-Using Agent Platform (LangGraph + Python + MCP + Postgres):} Multi-agent collaborative execution system integrating external tools via Model Context Protocol, featuring state persistence, Langfuse tracing, and human-in-the-loop validation.
+  \item \textbf{Real-Time Voice \& Document Intelligence Engine (FastAPI + Whisper + pgvector):} Microservice architecture combining speech-to-text audio processing, dense semantic retrieval, and structured JSON output extraction with automated validation guardrails.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, decision systems, computational theory, and complex systems modeling.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the European Union without sponsorship; available immediately for remote engagement.
+\end{itemize}
+
+\end{document}
