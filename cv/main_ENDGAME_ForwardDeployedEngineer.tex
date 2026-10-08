@@ -1,0 +1,106 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Forward Deployed Engineer $\vert$ Applied AI, TypeScript, Python, Edge $\&$ Cloudflare Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Full Remote Europe $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Forward Deployed Engineering \& End-to-End Delivery:} Proven track record executing the complete lifecycle (\textit{analyze $\rightarrow$ design $\rightarrow$ implement $\rightarrow$ release $\rightarrow$ operate}). Skilled in translating ambiguous client requirements into high-impact, shippable software increments through rigorous systems thinking, architecture decision records (ADRs), and iterative stakeholder demos.
+  \item \textbf{Robust Full-Stack \& Distributed Edge Architectures:} Deep technical expertise across modern application stacks: TypeScript/Node.js, Python (FastAPI/AsyncIO), React/Next.js, PostgreSQL schema design, Redis caching, and edge computing (Cloudflare Workers, KV, Durable Objects). Hands-on experience engineering scalable REST/GraphQL APIs, resilient data pipelines, and Dockerized microservices.
+  \item \textbf{AI-Native Tooling, Agentic Patterns \& Continuous Evals:} Practical builder of production AI solutions utilizing LLM orchestration (LangGraph, MCP - Model Context Protocol), function/tool calling, RAG pipelines, and automated evaluation frameworks (RAGAS, prompt regression suites) to ensure low latency, zero hallucinations, and deterministic business logic.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Languages \& Frameworks:} TypeScript, JavaScript (Node.js, Bun), Python (FastAPI, AsyncIO, PyDantic), React, Next.js, Tailwind CSS, SQL, Bash.
+  \item \textbf{Edge Runtimes \& Cloud Infrastructure:} Cloudflare (Workers, Durable Objects, KV, R2), AWS (Lambda, S3, ECS), GCP, Docker, GitHub Actions CI/CD, Terraform (IaC).
+  \item \textbf{Data Systems \& Messaging:} PostgreSQL, ClickHouse, Redis (caching, pub/sub, queues), Vector Stores (Qdrant, pgvector), Schema Design \& Query Optimization.
+  \item \textbf{AI Engineering \& Agentic Blueprints:} Generative AI APIs (Anthropic Claude 3.5 Sonnet, OpenAI GPT-4o), Model Context Protocol (MCP), Tool Calling, Agentic Workflows (LangGraph, ReAct), Hybrid Search (BM25 + Dense RAG), RAGAS Evals.
+  \item \textbf{FDE Practices \& Delivery:} Architecture Decision Records (ADRs), Rapid Prototyping, Technical Specs, Client Demos, Observability, Unit/Integration Testing (Jest, PyTest, Playwright).
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{Forward Deployed Engineer \& AI Solutions Architect}{2024 -- Present}{Independent / Applied AI Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Partnered directly with enterprise clients to scope, architect, and deploy custom AI solutions and internal platforms, turning vague operational bottlenecks into high-velocity production systems.
+  \item Authored technical specifications, architecture blueprints, and ADRs; paired with product and domain leads to maintain continuous alignment and ship production-ready increments weekly.
+  \item Engineered high-performance edge microservices utilizing Cloudflare Workers, Durable Objects, and TypeScript, achieving sub-40ms response times for mission-critical client workflows.
+  \item Integrated custom Model Context Protocol (MCP) servers and tool execution harnesses, enabling autonomous LLM agents to safely interact with client PostgreSQL databases, internal APIs, and file repositories.
+  \item Designed automated evaluation pipelines using quantitative metrics (faithfulness, context relevance) and regression harnesses, ensuring robust output validation prior to deployment.
+  \item Implemented complete CI/CD automation via GitHub Actions and Docker containers, decreasing onboarding time for client engineering teams.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Developed and maintained distributed web services and interactive internal dashboards using Node.js, TypeScript, Next.js, and PostgreSQL.
+  \item Architected asynchronous event processing pipelines using Redis queues and Python background workers for automated document ingestion, extraction, and validation.
+  \item Designed and optimized relational schemas and indexing strategies in PostgreSQL, eliminating query bottlenecks and scaling transaction volume.
+  \item Created reusable component libraries and boilerplate starter templates adopted by across-team engineers, accelerating internal feature delivery by 35\%.
+  \item Led client discovery sessions and technical demos, establishing strong feedback loops that directly informed product roadmaps and release cycles.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous MCP Tool Orchestrator (TypeScript / Python):} Built a client-facing agent framework implementing the Model Context Protocol (MCP) to provide LLMs with stateful, auditable tool invocation over corporate data stores, with strict schema verification.
+  \item \textbf{Edge-Deployed Semantic Retrieval Gateway (Cloudflare Workers):} Designed a serverless hybrid search engine on Cloudflare Workers and PostgreSQL pgvector, orchestrating sparse BM25 indexing with dense embeddings to deliver real-time search across multi-tenant enterprise data.
+\end{itemize}
+
+% ================= EDUCATION & LANGUAGES =================
+\section{Education \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, systems modeling, game theory, and quantitative analytical methods.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Work Authorization:} EU Long-Term Resident (Permesso di Soggiorno a Tempo Indeterminato, Italy) -- Unrestricted legal right to work across the EU without sponsorship; Italian P.IVA / B2B contract ready.
+\end{itemize}
+
+\end{document}
