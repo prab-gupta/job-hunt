@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Data Scientist $\vert$ Retrieval, Agentic Systems, Semantic Search \& Risk Narratives}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy $\vert$ Unrestricted EU Permanent Resident $\vert$ Open to Relocate to Madrid}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Data Scientist and AI Systems Engineer with 3 years of commercial experience designing, tuning, and deploying production hybrid retrieval systems, RAG pipelines, and autonomous agentic workflows. Technical background complemented by an academic degree in International Studies and Economics from Ca' Foscari University of Venice, providing deep analytical interest in global trade, sanctions, corporate networks, and financial intelligence. Proven expertise optimizing semantic search through hybrid sparse/dense retrieval (BM25 + vector embeddings), reranking models, and graph-aware context synthesis for narrative generation. Unrestricted EU permanent resident, immediately available and enthusiastic about hybrid work in Madrid.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Engineer \& Retrieval Architect (Freelance)}{London, UK (remote)}
+\begin{itemize}
+  \item Architected and deployed production semantic search and retrieval-augmented generation (RAG) platforms serving 4,500+ active enterprise users analyzing complex relational and document data.
+  \item Engineered hybrid retrieval pipelines combining BM25 keyword matching with dense vector embeddings (pgvector, Chroma, Qdrant) and cross-encoder reranking, increasing retrieval recall@k by 28\%.
+  \item Developed autonomous agentic workflows (LangGraph) that traverse multi-hop entity relationships and synthesize disparate analytical signals into coherent, structured risk intelligence summaries.
+  \item Integrated knowledge graph entity relationships and sub-network metadata into search retrieval layers, enabling contextual entity resolution and network risk narrative generation.
+  \item Implemented continuous retrieval evaluation frameworks (Hit Rate, MRR, NDCG, RAG Triad faithfulness) to objectively measure search relevance and mitigate generative hallucinations.
+  \item \textit{Technologies: Python, SQL, BM25, Vector Search, pgvector, Qdrant, Reranking, LangGraph, FastAPI, Docker, AWS, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{Data Scientist \& Machine Learning Engineer (Freelance)}{Barcelona, Spain (remote)}
+\begin{itemize}
+  \item Built entity extraction and semantic indexing pipelines to process heterogeneous unstructured trade and commercial data streams into queryable formats.
+  \item Implemented automated data validation schemas and similarity metrics to resolve entity duplicates and ambiguous network links.
+  \item Optimized SQL query performance and vector index clustering for low-latency similarity search across high-volume collections.
+  \item \textit{Technologies: Python, Pandas, PostgreSQL, pgvector, Supabase, Sentence-Transformers, REST APIs, Git}
+\end{itemize}
+
+\role{Independent Technical Consultant}{Sep 2023 - Mar 2024}{AI Solutions Engineer}{Venice, Italy}
+\begin{itemize}
+  \item Delivered custom NLP, semantic search, and document intelligence pipelines for European enterprise clients handling regulatory compliance and operational records.
+  \item Evaluated embedding models, chunking strategies, and prompt chains to maximize extraction fidelity from complex legal and corporate texts.
+  \item Authored technical architecture documents, benchmark reports, and deployment guidelines for production AI integrations.
+  \item \textit{Technologies: Python, SQL, OpenAI API, LangChain, LlamaIndex, Chroma, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Intern)}{Utrecht, Netherlands (remote)}
+\begin{itemize}
+  \item Developed automated data ingestion pipelines and API webhooks for SaaS analytics dashboards.
+  \item \textit{Technologies: Python, JavaScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Ca' Foscari University of Venice}{Oct 2020 - Jun 2024}{Bachelor's in Philosophy, International Studies and Economics (Minor in Entrepreneurship)}{Venice, Italy}
+\begin{itemize}
+  \item Rigorous coursework in international economics, global geopolitical dynamics, institutional governance, quantitative analysis, and decision theory.
+\end{itemize}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Work Authorization:} Permanent EU Resident with unrestricted working rights across the European Union (Spain included, no visa sponsorship required).
+  \item \textbf{Languages:} English (Fluent C1 professional), Italian (Working proficiency), Hindi (Native).
+  \item \textbf{Availability \& Relocation:} Immediate availability (0 days notice); ready for hybrid 3-days/week on-site in Madrid.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Retrieval \& Search Systems:} Semantic Search, BM25, Hybrid Search, Dense Embeddings, Reranking (Cross-Encoders), pgvector, Qdrant, Chroma, Vector Indexing.
+  \item \textbf{Agentic Architectures \& RAG:} Multi-Agent Orchestration, LangGraph, Tool Calling, Entity Resolution, Contextual Narrative Generation, Evals (MRR, NDCG).
+  \item \textbf{Languages \& Data Engineering:} Python 3.12, SQL (PostgreSQL), PyTorch, Scikit-learn, Pandas, FastAPI, Pydantic.
+  \item \textbf{Domain \& Infrastructure:} International Trade \& Sanctions Risk Interest, Graph-Aware Synthesis, Docker, AWS, Git, CI/CD, Linux.
+\end{itemize}
+
+\end{document}
