@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Senior AI Engineer $\vert$ Sistemas Multiagente, LLMs Multimodales, RAG \& AWS}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  España / Venecia (Residencia Permanente UE $\vert$ Permiso Ilimitado en España $\vert$ 100\% Remoto)}
+\end{minipage}\hfill
+
+% ================= SUMMARY =================
+\section{Summary}
+Senior AI Engineer con 3 años de experiencia comercial en el diseño, desarrollo e industrialización de soluciones avanzadas de Inteligencia Artificial Generativa, sistemas multiagente y modelos fundacionales (OpenAI, Gemini, Claude, Llama). Especializado en la implementación de arquitecturas agénticas en producción sobre AWS, flujos RAG con búsqueda semántica vectorial, optimización de prompts, evaluación continua (evals) y despliegue de microservicios contenerizados (Docker, Kubernetes) bajo pipelines automatizados de CI/CD. Residente permanente en la Unión Europea con autorización laboral ilimitada en España, inmediatamente disponible para posiciones 100\% remotas.
+
+% ================= EXPERIENCE =================
+\section{Experience}
+
+\role{\href{https://flowspace.co}{FlowSpace.co}}{Mar 2024 - Aug 2026}{Lead AI Engineer \& Multi-Agent Systems Architect (Freelance)}{Londres, UK (remoto)}
+\begin{itemize}
+  \item Diseñó y desplegó en producción arquitecturas agénticas y sistemas multiagente (LangGraph) para más de 4.500 usuarios empresariales activos, integrando modelos de Claude, OpenAI y Llama.
+  \item Implementó pipelines RAG avanzados sobre bases de conocimiento corporativas combinando búsqueda híbrida semántica, vector store (pgvector, Chroma) y algoritmos de re-ranking.
+  \item Desarrolló suites automatizadas de evaluación y optimización de modelos (evals, LangSmith) para medir precisión fáctica, mitigar alucinaciones y reducir costes de inferencia en un 35\%.
+  \item Expuso capacidades de IA mediante APIs REST de alto rendimiento y microservicios asíncronos en FastAPI con rigurosa seguridad, validación de esquemas y monitorización de latencias (<1.8s).
+  \item Empaquetó y orquestó aplicaciones mediante contenedores Docker y clústeres Kubernetes sobre infraestructura cloud de AWS, integrando pipelines de CI/CD para despliegues continuos.
+  \item \textit{Tecnologías: Python, LLMs, Multi-Agent Systems, LangGraph, RAG, AWS, Docker, Kubernetes, FastAPI, CI/CD, Git}
+\end{itemize}
+
+\role{Urlink}{Apr 2025 - Jul 2025}{AI Software Engineer (Freelance)}{Barcelona, España (remoto)}
+\begin{itemize}
+  \item Desarrolló servicios de ingesta, normalización y extracción semántica de información a partir de flujos de datos no estructurados para clientes internacionales.
+  \item Construyó servicios backend en FastAPI e integró modelos de lenguaje para clasificaciones y transformaciones de texto en tiempo real.
+  \item Diseñó pruebas automatizadas y contenedores Docker para garantizar la portabilidad y robustez de los despliegues en staging y producción.
+  \item \textit{Tecnologías: Python, FastAPI, Pydantic, PostgreSQL, Docker, REST APIs, Git}
+\end{itemize}
+
+\role{Consultor Técnico Independiente}{Sep 2023 - Mar 2024}{AI Solutions Engineer}{Venecia, Italia}
+\begin{itemize}
+  \item Diseñó e integró soluciones de IA generativa, asistentes virtuales corporativos y flujos RAG para empresas europeas en sectores logísticos y de servicios.
+  \item Asesoró a clientes en la selección de modelos LLM, ingeniería de prompts, seguridad de datos corporativos y mitigación de sesgos.
+  \item Redactó especificaciones técnicas de integración, esquemas OpenAPI y guías operativas de mantenimiento y supervisión de modelos.
+  \item \textit{Tecnologías: Python, LangChain, OpenAI APIs, Vector DB, FastAPI, Linux, Git}
+\end{itemize}
+
+\role{\href{https://tractionboard.co}{Tractionboard.co}}{Aug 2023 - Oct 2023}{Full-Stack Automation Developer (Prácticas)}{Utrecht, Países Bajos (remoto)}
+\begin{itemize}
+  \item Desarrolló flujos automatizados de sincronización de datos y webhooks para plataformas SaaS de analítica.
+  \item \textit{Tecnologías: Python, JavaScript, REST APIs, Git}
+\end{itemize}
+
+% ================= EDUCATION =================
+\section{Education}
+\role{Universidad Ca' Foscari de Venecia}{Oct 2020 - Jun 2024}{Grado en Filosofía, Estudios Internacionales y Economía (Minor en Emprendimiento)}{Venecia, Italia}
+
+% ================= CERTIFICATIONS =================
+\section{Certifications}
+Microsoft: Introduction to building AI agents \textbullet\ Microsoft Copilot Studio Agent Academy \textbullet\ Microsoft Power Automate \textbullet\ Tray.AI Build Practitioner (Sep 2024) \textbullet\ Tray.AI Build Foundations
+
+% ================= ADDITIONAL INFORMATION =================
+\section{Additional Information}
+\begin{itemize}
+  \item \textbf{Autorización de Trabajo:} Residente Permanente de la UE con plena autorización laboral en España (sin necesidad de patrocinio de visado).
+  \item \textbf{Idiomas:} Inglés (C1 profesional fluido), Español (intermedio comunicativo), Italiano (profesional), Hindi (nativo).
+  \item \textbf{Disponibilidad:} Inmediata (0 días de preaviso) para dedicación full-time 100\% remota.
+\end{itemize}
+
+% ================= CORE SKILLS =================
+\section{Core Skills}
+\begin{itemize}
+  \item \textbf{Modelos \& Sistemas Agénticos:} LLMs Multimodales (OpenAI, Gemini, Claude, Llama), Sistemas Multiagente, LangGraph, Prompt Engineering, Evals.
+  \item \textbf{RAG \& Búsqueda Semántica:} Retrieval Augmented Generation, Chunking, Embeddings, Bases de Conocimiento Corporativas, pgvector, Chroma, Re-ranking.
+  \item \textbf{Desarrollo Backend \& APIs:} Python 3.12, FastAPI, Programación Asíncrona, Pydantic, Microservicios, APIs REST seguras.
+  \item \textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, CI/CD, Observabilidad, Monitorización de Modelos, Git, Linux.
+\end{itemize}
+
+\end{document}
