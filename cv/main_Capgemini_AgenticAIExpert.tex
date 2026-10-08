@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Agentic AI Expert $\vert$ Generative AI, LangGraph, LangChain, Cloud AI $\&$ Multi-Agent Systems}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venezia / Milano, Italia (Residente Permanente UE $\vert$ Presenza Flessibile Milano $\vert$ Immediata)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Profilo Professionale / Career Summary}
+\begin{itemize}
+  \item \textbf{Esperto in Sistemi Agentici \& Generative AI Enterprise:} ~3 anni di esperienza nello sviluppo e rilascio di soluzioni di intelligenza artificiale generativa e sistemi multi-agente autonomi. Specializzato nell'orchestrazione di Large Language Models commerciali ed open-source (OpenAI GPT-4o, Anthropic Claude 3.5 Sonnet, HuggingFace) tramite framework moderni come LangGraph, LangChain e LlamaIndex.
+  \item \textbf{Integrazione Tool, Protocolli MCP e Conversational AI:} Progettazione di architetture agentiche capaci di eseguire tool calling autonomo, pianificazione a più passaggi (ReAct) e integrazione con sistemi informativi aziendali tramite protocolli standardizzati (Model Context Protocol - MCP) e flussi conversazionali multi-turno avanzati.
+  \item \textbf{Cloud AI Platforms \& Traduzione dei Requisiti di Business:} Comprovata abilità nel tradurre requisiti di business complessi in specifiche architetturali e soluzioni AI scalabili su piattaforme cloud (Azure OpenAI, AWS Bedrock, Google Cloud Vertex AI); eccellenti capacità comunicative per presentare risultati e demo a stakeholder tecnici e di business.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Competenze Tecniche / Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic AI \& Orchestrazione LLM:} LangGraph, LangChain, LlamaIndex, Sistemi Multi-Agente, ReAct Planning, Tool Calling Autonomo, Intent Routing, Gestione dello Stato e Memoria Contestuale.
+  \item \textbf{Modelli Generativi \& Servizi AI:} OpenAI (GPT-4o, o1), Anthropic Claude, HuggingFace Transformers, vLLM, Prompt Engineering Avanzato, Output Strutturati (Pydantic / JSON Schema).
+  \item \textbf{Piattaforme Cloud \& Architetture AI:} Azure OpenAI Service, AWS (Bedrock, Lambda, S3, IAM), Google Cloud Vertex AI, Docker, GitHub Actions CI/CD.
+  \item \textbf{RAG, Ricerca Semantica \& Database:} Retrieval-Augmented Generation (RAG), Hybrid Search (BM25 + Dense Embeddings), Reranking (Cohere), PostgreSQL con estensione pgvector, Qdrant, ChromaDB, Redis Semantic Cache.
+  \item \textbf{Linguaggi \& Backend Development:} Python (Avanzato - FastAPI, AsyncIO, PyDantic, PyTest), TypeScript, Node.js, SQL, REST APIs, Webhook.
+  \item \textbf{Framework NLP \& Valutazione:} SpaCy, NLTK, RAGAS Framework, DeepEval, Prompt Regression Testing, Guardrails contro Prompt Injection.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Esperienza Professionale / Work Experience}
+
+\role{Agentic AI Solutions Architect \& Consultant}{2024 -- Presente}{Indipendente / Consulenza AI Enterprise}{Venezia \& Milano, IT}
+\begin{itemize}
+  \item Progettazione e sviluppo di agenti autonomi complessi per clienti aziendali utilizzando LangGraph e Python, coordinando task decisionali, chiamate a tool esterni ed interrogazioni a basi documentali.
+  \item Realizzazione di connettori personalizzati basati su Model Context Protocol (MCP) per consentire agli agenti LLM di accedere in modo sicuro e verificabile a database relazionali, repository documentali ed API REST.
+  \item Implementazione di pipeline RAG ibride ad alte prestazioni integrando dense embeddings, reranking semantico e storage su PostgreSQL pgvector, azzerando le allucinazioni su documentazione tecnica.
+  \item Configurazione e deployment di modelli linguistici avanzati su Azure OpenAI ed AWS Bedrock, ottimizzando strategie di caching e allocazione dei token per contenere i costi di esercizio del 35\%.
+  \item Conduzione di sessioni di allineamento e workshop tecnici con stakeholder e figure direttive per definire use case ad alto impatto di automazione cognitiva e validare prototipi prima del rilascio in esercizio.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milano / Remoto, IT}
+\begin{itemize}
+  \item Sviluppo di microservizi scalabili in Python (FastAPI) per l'elaborazione di dati non strutturati, classificazione di testo e generazione automatica di sintesi e metadati.
+  \item Integrazione di modelli di NLP (SpaCy, Transformers) per il riconoscimento di entità denominate (NER) ed estrazione di informazioni chiave da flussi contrattuali.
+  \item Gestione e ottimizzazione di database relazionali PostgreSQL e code asincrone Redis per pipeline di ingestione dati ad alta frequenza.
+  \item Collaborazione attiva in team multidisciplinari Agile, gestendo revisioni del codice, test automatizzati in PyTest e documentazione architetturale.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Progetti Chiave / Key Projects}
+\begin{itemize}
+  \item \textbf{Enterprise Multi-Agent Orchestration Framework (LangGraph + Azure OpenAI):} Sistema agentico cooperativo per l'analisi documentale aziendale, integrando agenti specializzati in retrieval, validazione logica e redazione di report strutturati.
+  \item \textbf{Autonomous Tool-Calling Gateway (FastAPI + Model Context Protocol):} Piattaforma serverless per l'esecuzione sicura di strumenti aziendali da parte di modelli LLM con validazione dinamica degli input e tracciamento delle azioni.
+\end{itemize}
+
+% ================= EDUCATION & CERTIFICATIONS =================
+\section{Formazione \& Lingue / Education \& Languages}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Università Ca' Foscari Venezia (2018 -- 2022) \\
+  \textit{Formazione d'eccellenza in logica formale, modelli decisionali, teoria dei giochi ed analisi quantitativa.}
+  \item \textbf{Lingue:} Inglese (C1 Professionale / Fluente scritto e parlato), Italiano (Lavorativo / Fluente nei contesti professionali).
+  \item \textbf{Stato Legale e di Residenza:} Cittadino extra-UE con Permesso di Soggiorno UE per Soggiornanti di Lungo Periodo a Tempo Indeterminato (diritto al lavoro senza visto in Italia/UE); Partita IVA attiva.
+\end{itemize}
+
+\end{document}
