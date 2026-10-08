@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+% Minimal clean styling
+\hypersetup{colorlinks=true, urlcolor=blue!70!black, linkcolor=blue!70!black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Colors
+\definecolor{accent}{RGB}{20, 50, 120}
+
+% Role command
+\newcommand{\role}[4]{%
+  \vspace{2pt}\noindent
+  \begin{minipage}[t]{0.70\textwidth}\raggedright\textbf{#1} \textbullet\ \textit{#3}\end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.28\textwidth}\raggedleft\footnotesize\color{gray}#2 \textbullet\ #4\end{minipage}%
+  \vspace{1pt}%
+}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1.5pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{minipage}[c]{0.80\textwidth}
+  {\Huge\bfseries Prabhavit Gupta}\\[3pt]
+  {\color{accent}\large Agentic AI Engineer $\vert$ Autonomous Agent Architectures, Model Context Protocol (MCP) $\&$ Evals}\\[6pt]
+  {\footnotesize +39 351 610 7807 ~$\vert$~
+  \href{mailto:prabhavitg@gmail.com}{prabhavitg@gmail.com} ~$\vert$~
+  \href{https://www.linkedin.com/in/prabhavit/}{linkedin.com/in/prabhavit} ~$\vert$~
+  \href{https://github.com/prab-gupta}{github.com/prab-gupta} ~$\vert$~
+  Venice, Italy (EU Permanent Resident $\vert$ Remote EU / Spain $\vert$ Immediate Availability)}
+\end{minipage}\hfill
+
+\vspace{6pt}
+
+% ================= EXECUTIVE SUMMARY =================
+\section{Executive Summary}
+\begin{itemize}
+  \item \textbf{Production Agent Architecture \& Tool Orchestration:} Software engineer with ~3 years commercial experience architecting and shipping autonomous AI agents, tool loops, and production LLM systems. Hands-on experience developing multi-turn agent workflows with LangGraph and native Python state machines, balancing quality, latency, and token economics.
+  \item \textbf{Model Context Protocol (MCP) \& Context Management:} Deep practical experience designing custom Model Context Protocol (MCP Server \& Client) tools and interfaces, standardizing secure agent communication with relational databases and external analytical APIs. Proficient in dynamic context pruning, memory persistence, and structured output enforcement.
+  \item \textbf{Eval-Driven Engineering \& System Observability:} Strong track record establishing rigorous evaluation frameworks (RAGAS, automated regression test suites) to quantify agent performance and eliminate non-deterministic regressions. Experienced instrumenting distributed tracing (Langfuse, OpenTelemetry), containerized microservices (Docker), and automated CI/CD pipelines.
+\end{itemize}
+
+% ================= TECHNICAL SKILLS =================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item \textbf{Agentic AI Systems:} Autonomous Agents, Tool Loops, Function Calling, ReAct Reasoning, Multi-Agent Collaboration, LangGraph, LangChain, Stateful Execution, Human-in-the-Loop Approval Gates.
+  \item \textbf{Model Context Protocol (MCP) \& LLMs:} Model Context Protocol (MCP Server \& Client SDKs), Claude 3.5 Sonnet, GPT-4o, Prompt Engineering, Structured Outputs (Pydantic / JSON Schema), Model Routing.
+  \item \textbf{Evaluation \& Observability:} Eval-Driven Development, RAGAS Benchmarking, Regression Detection Test Suites, Langfuse Tracing, OpenTelemetry, Token Budgeting, Latency Profiling.
+  \item \textbf{Backend \& Data Infrastructure:} Python (AsyncIO, FastAPI, PyTest, Typing), TypeScript, PostgreSQL (pgvector), Redis (Caching \& Queues), Docker, Microservices, REST / WebSocket APIs.
+  \item \textbf{Software Quality \& Practices:} Automated Testing, Defensive Architecture, Code Reviews, ADRs, Secure Credential Isolation, Git, GitHub Actions CI/CD.
+\end{itemize}
+
+% ================= PROFESSIONAL EXPERIENCE =================
+\section{Professional Experience}
+
+\role{AI Engineer \& Solutions Consultant}{2024 -- Present}{Independent / AI Product Engineering Consultancy}{Venice, IT (Remote Europe)}
+\begin{itemize}
+  \item Architected and shipped production agentic systems and tool-using LLM platforms for European client applications, taking features from architecture design through live deployment.
+  \item Developed custom Model Context Protocol (MCP) servers and clients, exposing database query tools, analytical functions, and third-party APIs to autonomous agents via standardized protocols.
+  \item Built resilient multi-step agent orchestration loops with state persistence, context window management, automated retries, and fallback mechanisms for non-deterministic model failures.
+  \item Implemented comprehensive offline and online evaluation pipelines using RAGAS, measuring tool-calling precision, reasoning faithfulness, and task success rates before deploying prompt updates.
+  \item Deployed distributed tracing using Langfuse and OpenTelemetry, establishing real-time visibility into token usage, latency distributions, and agent decision paths.
+  \item Containerized AI microservices using Docker and automated regression testing pipelines via GitHub Actions, maintaining high release velocity and reliability.
+\end{itemize}
+
+\vspace{3pt}
+\role{Full-Stack AI Software Engineer}{2023 -- 2024}{Tech Automation Systems}{Milan / Remote, IT}
+\begin{itemize}
+  \item Built asynchronous backend services in Python and TypeScript for high-volume automated data extraction, parsing, and classification.
+  \item Implemented semantic search and vector retrieval pipelines with PostgreSQL and Redis, ensuring reliable sub-second data access for downstream processing.
+  \item Created comprehensive test suites with PyTest and CI/CD automation, ensuring high test coverage and preventing regressions across distributed services.
+  \item Collaborated with cross-functional product and technical stakeholders to translate quantitative domain requirements into robust, modular software architectures.
+\end{itemize}
+
+% ================= NOTABLE PROJECTS =================
+\section{Key Engineering Projects}
+\begin{itemize}
+  \item \textbf{Autonomous Tool-Using Agent Platform (Python + LangGraph + MCP + Postgres):} Multi-agent collaborative execution environment running verified tool operations via Model Context Protocol against enterprise databases, featuring state preservation and Langfuse tracing.
+  \item \textbf{High-Throughput Financial Document \& Data Engine (FastAPI + pgvector):} Retrieval and structured data extraction microservice with automated validation schemas, semantic caching, and regression evaluation harnesses.
+\end{itemize}
+
+% ================= EDUCATION & LEGAL STATUS =================
+\section{Education, Languages \& Legal Status}
+\begin{itemize}
+  \item \textbf{Bachelor of Arts in Philosophy \& Economics} -- Ca' Foscari University of Venice (2018 -- 2022) \\
+  \textit{Rigorous foundation in formal logic, statistical reasoning, decision theory, and complex systems analysis.}
+  \item \textbf{Languages:} English (C1 Professional, fluent written/spoken), Italian (Working proficiency).
+  \item \textbf{Work Authorization \& Legal Status:} EU Long-Term Resident (Permesso di Soggiorno UE a Tempo Indeterminato, Italy) -- Unrestricted legal right to live and work across the European Union without sponsorship; available immediately for remote engagement.
+\end{itemize}
+
+\end{document}
