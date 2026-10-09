@@ -2,7 +2,7 @@
 
 ## Current rule (authority: `AGENT-INSTRUCTIONS.md` section 3)
 
-**EUR 45,000-55,000** on forms, stated plainly. Single-number fields: **50,000**.
+**EUR 50,000-60,000 gross/year** on forms, stated plainly (confirmed by Prabhavit, Oct 2026). Single-number fields: **50,000** (the low end of his range).
 USD forms: $54,000. USD monthly forms: $4,500. B2B/contract: EUR 250-300/day.
 No market-band commentary, no negotiating up or down on his behalf. Nothing here is derived
 from a search target or a currency conversion; if a figure is not in `AGENT-INSTRUCTIONS.md`,

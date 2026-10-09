@@ -45,7 +45,7 @@ Read these files in order:
 ## 3. Standing rules (NEVER break these)
 
 ### Salary
-- EUR 45,000-55,000 on all forms. Single-number fields: 50,000 (the midpoint). This supersedes the old EUR 30-40k / 30000 and EUR 200/day figures in `answers/salary-expectation.md` and `skill/job-hunt/references/application-rules.md`. A role-search target is not a form answer; do not infer or convert a new figure.
+- EUR 50,000-60,000 gross/year on all forms (confirmed by Prabhavit, Oct 2026). Single-number fields: 50,000 (the low end of his range; no other figure or midpoint). This supersedes the old EUR 30-40k / 30000 and EUR 200/day figures in `answers/salary-expectation.md` and `skill/job-hunt/references/application-rules.md`. A role-search target is not a form answer; do not infer or convert a new figure.
 - USD forms: $54,000
 - USD monthly forms: $4,500
 - B2B/contract: EUR 250-300/day
