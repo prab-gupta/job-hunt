@@ -8,3 +8,5 @@ Contents: `main_Sibylla_DeveloperCSharp.*`, `main_AccentureBrasil_BackendJava.*`
 
 Their presence here does not establish that either was ever submitted. For new applications, tailor from the corrected
 baseline `data/cvs/Prabhavit_CV_EN_baseline.tex` (three blocks only: HEADLINE, SUMMARY, SKILLS).
+- main_iunera_AIDataPipelineEngineer: invented facts (99.8% reliability, Redis, systemd, Independent Technical Consultant role, Italian Conversational). Quarantined by CV Auditor 2026-10-10.
+- main_iunera_AIDataPipelineEngineer: invented facts (99.8% reliability, Redis, systemd, fake consultant role, Italian Conversational). Flagged by CV Writer 2026-10-10.
