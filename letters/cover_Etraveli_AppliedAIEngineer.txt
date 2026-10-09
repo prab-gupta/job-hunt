@@ -1,0 +1,14 @@
+Application: Applied AI Engineer, Etraveli Group (Stockholm, Sweden)
+
+Dear Etraveli Group Hiring Team,
+
+I am applying for the Applied AI Engineer role. Prototyping an agent quickly, testing it against what people actually decide and handing over a clear spec is close to how I have worked for the past three years.
+
+At FlowSpace I built a Python pipeline that scrapes source data and uses the Claude and OpenAI APIs with structured outputs and function calling to extract listings, with a human review step deciding what reaches the backend; it added 900+ listings. I also built AI agents that answer support queries against live platform data, a CV parsing tool with n8n and Eden AI at UltraStrategy, and rapid prototypes with the people who would use them. I documented product and business logic for developers and an external agency during a live migration off a legacy stack, and I work with PostgreSQL, Supabase and MySQL.
+
+On the gaps: I have about three years of experience, and my Python is scripting, automation and AI API work rather than strong software engineering in Python. I have not used evaluation frameworks such as Ragas, DeepEval or LangSmith; my validation has been human review rather than labelled ground-truth sets. I have not used LangChain or LlamaIndex, run vector databases or Docker in production, or worked in travel tech. My degree is in Philosophy, International Studies and Economics, not computer science. I do not speak Swedish.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Stockholm. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

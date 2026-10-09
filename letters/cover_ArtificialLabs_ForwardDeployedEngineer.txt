@@ -1,0 +1,14 @@
+Application: Forward Deployed Engineer, Artificial (Berlin, Germany)
+
+Dear Artificial Hiring Team,
+
+I am applying for the Forward Deployed Engineer role. Translating a client's business requirements into a configured technical solution, and staying with it through integration and support, is how I have worked for the past three years.
+
+As Lead Developer at FlowSpace I integrated the OfficeRnD and Nexudus APIs end to end for automated bookings (OAuth2, webhooks, location sync), connected the CRMs the organisation used to consolidate leads, and worked between our internal team and an external agency on a live migration off a legacy stack while the platform grew from 2,000 to 4,500+ users. I documented product and business logic with the developers, and earlier, at Clubee, I did unit testing and quality assurance of new features. I write TypeScript, PHP with Laravel, and Python, and I build with the Claude and OpenAI APIs.
+
+On the gaps: I have no experience in insurance or specialty (re)insurance, and I have not worked with a functional or domain-specific language like Brossa, so both the domain and the language would be new to me. My degree is in Philosophy, International Studies and Economics rather than computer science, and my programming background is about three years of practical work.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Berlin. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

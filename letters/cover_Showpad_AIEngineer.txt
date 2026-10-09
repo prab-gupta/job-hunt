@@ -1,0 +1,14 @@
+Application: AI Engineer, Showpad (Bucharest, Romania)
+
+Dear Showpad Hiring Team,
+
+I am applying for the AI Engineer role. Building with LLMs, iterating on prompts and turning business requirements into working AI features is the core of what I have done for the past three years.
+
+At FlowSpace I built a Python pipeline that scrapes source data and uses the Claude and OpenAI APIs for structured extraction, with a human review step before records reach the backend; it added 900+ listings to the platform. I also built AI agents that streamline customer support, and at UltraStrategy I made a CV parsing tool with n8n and Eden AI. My work includes RAG and chatbot development, prompt engineering, API integration and QA testing, and I work with Claude Code and TypeScript alongside Python.
+
+On the gaps: I integrate and prompt existing LLMs rather than train or develop models, I have not worked with AWS Bedrock, SageMaker or OpenSearch, and I have no formal experience evaluating generative AI systems. My Python is scripting, automation and AI API work rather than deep backend development, and my degree is in Philosophy, International Studies and Economics, so my AI knowledge comes from about three years of hands-on work.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Bucharest for the two office days a week. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

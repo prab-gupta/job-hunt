@@ -1,0 +1,14 @@
+Application: Google Cloud AI Engineer, Telenor (Stockholm, Sweden)
+
+Dear Telenor Hiring Team,
+
+I am applying for the Google Cloud AI Engineer role in the AI & Automation team. Working with business stakeholders to find where AI helps, then building agents and automation that run in production, is what I have done for the past three years.
+
+As Lead Developer at FlowSpace I built a Python pipeline that uses the Claude and OpenAI APIs with structured outputs to extract data, with a human review step before records reach the backend; it added 900+ listings. I built AI agents that answer support queries against live platform data, workflow automations in n8n and Make for lead routing and data sync, and integrations with external APIs and CRMs. I worked with developers and an external agency on a live migration off a legacy stack while the platform grew from 2,000 to 4,500+ users. I hold the Microsoft Copilot Studio Agent Academy, Introduction to building AI agents and Power Automate certifications, which you list as relevant.
+
+On the gaps: I have no hands-on experience with Google Cloud, Vertex AI or Gemini, and my cloud-native experience on any public cloud is limited, so the Google AI ecosystem would be new to me. My agents have been single agents with tools rather than multi-agent systems. My degree is in Philosophy, International Studies and Economics, not computer science. I do not speak Swedish.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Stockholm. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

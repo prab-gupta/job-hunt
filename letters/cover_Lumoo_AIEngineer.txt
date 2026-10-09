@@ -1,0 +1,14 @@
+Application: AI Engineer, Lumoo (Stockholm, Sweden)
+
+Dear Lumoo Hiring Team,
+
+I am applying for the AI Engineer role. Running pre-trained models reliably in production, with prompts, multi-step workflows and a check before output reaches people, is the kind of work I have been doing for the past three years.
+
+At FlowSpace I built a Python pipeline that scrapes source data and uses the Claude and OpenAI APIs for structured extraction, with a human review step deciding what reaches the backend; it added 900+ listings to the platform. I also built AI agents that streamline customer support, and at UltraStrategy I made a CV parsing tool with n8n and Eden AI. My work includes RAG and chatbot development, prompt engineering, API integration and QA testing, and I have explained technical trade-offs to non-engineers while working between an internal team and an external agency.
+
+On the gaps: I have not built or fine-tuned my own models, which you list as a requirement. I have not built a dedicated monitoring or evaluation system for model output, versioned prompts with dedicated tooling, served models on GPUs, or worked with image or video generation; my output checks have been human review steps. My degree is in Philosophy, International Studies and Economics, not computer science.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Stockholm. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta
