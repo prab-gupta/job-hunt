@@ -1,0 +1,14 @@
+Application: AI & Automation Engineer, BorgWarner (Bucharest, Romania)
+
+Dear BorgWarner Hiring Team,
+
+I am applying for the AI & Automation Engineer role in the TTT Data Analytics team. Analysing business processes, finding what can be automated and taking a solution from design to a working workflow that people rely on is the core of my work so far.
+
+As Lead Developer at FlowSpace I built n8n and Make workflows for lead routing, data sync and support queries, streamlined customer support with AI agents, and integrated external APIs (OfficeRnD and Nexudus) for automated bookings. I built a Python pipeline that uses the Claude and OpenAI APIs for structured extraction with human review, which added 900+ listings, and a listing sync pipeline across 9 operators with staged approval and dry-run safety. I worked between our internal team, an external agency and the business on a live platform migration while users grew from 2,000 to 4,500+. I hold the Microsoft Copilot Studio Agent Academy, Power Automate and Tray.ai Build Practitioner certifications.
+
+On the gaps: I have about three years of experience against the 3-5 asked for. My Power Platform knowledge comes from those certifications, not production work; I have not used Power Apps, Power BI or UiPath, and I have no Azure, AWS or GCP AI services experience. I have not owned formal data engineering or project charters. My degree is in Philosophy, International Studies and Economics. I do not speak Romanian; I work in English (C1).
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Bucharest. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

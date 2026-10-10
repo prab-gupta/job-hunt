@@ -1,0 +1,14 @@
+Application: Integration & Workflow Engineer - European Agency, Altia (Brussels, Belgium)
+
+Dear Altia Hiring Team,
+
+I am applying for the Integration & Workflow Engineer role on your European agency project. Connecting systems through APIs and building reliable data workflows between them is the core of what I have done for the past three years.
+
+As Lead Developer at FlowSpace I integrated the OfficeRnD and Nexudus APIs end to end in TypeScript and PHP (OAuth2, webhooks, location sync, booking automation), consolidated leads by building integrations between the CRMs the organisation used, and built n8n and Make workflows for data sync and lead routing. I wrote Python pipelines for scraping, AI API extraction with human review and API push (900+ records), and a listing sync pipeline across 9 operators with staged approval and dry-run safety. I worked on the migration of the platform to Next.js and Laravel while users grew from 2,000 to 4,500+, and I have worked with PostgreSQL, MySQL and SQLite, with testing and QA as part of my earlier roles. I use Jira and GitHub.
+
+On the gaps: I have not worked with R, GraphQL, NoSQL databases, microservices, or containerisation and orchestration in production, and I have no cloud infrastructure, DevSecOps or geospatial and Web GIS experience. I have not worked on projects for EU institutions or agencies. My degree is in Philosophy, International Studies and Economics, not computer science. I do not speak French or Dutch; I work in English (C1).
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately, and open to relocating to Brussels. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

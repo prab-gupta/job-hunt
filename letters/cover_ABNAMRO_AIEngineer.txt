@@ -1,0 +1,14 @@
+Application: AI Engineer, ABN AMRO (Amsterdam, Netherlands)
+
+Dear ABN AMRO Hiring Team,
+
+I am applying for the AI Engineer role in the AI team. Starting from a conversation with the people who have the problem and taking an AI application through to production is what I have done for the past three years.
+
+As Lead Developer at FlowSpace I built a Python pipeline that scrapes source data and uses the Claude and OpenAI APIs with structured outputs to extract listings, with a human review step deciding what reaches the backend; it added 900+ listings and taught me that the review step, not the model, is what makes LLM output trustworthy enough to ship. I built AI agents that answer support queries against live platform data, a CV parsing tool with n8n and Eden AI at UltraStrategy, and integrations with external APIs and CRMs. I worked between developers and an external agency on a live migration off a legacy stack while the platform grew from 2,000 to 4,500+ users.
+
+On the gaps: I have no Azure, AWS or GCP experience, I have not worked with Databricks, voice AI or fine-tuning, and I have not worked in banking. My Python is scripting, automation and AI API work, and my production backend work is in Laravel and Next.js. I do not speak Dutch. My degree is in Philosophy, International Studies and Economics, not computer science.
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta

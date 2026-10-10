@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**94** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**103** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — drainer can clear (1)
 
@@ -10,19 +10,21 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | --- | --- | --- | --- | --- | --- |
 | Chift | GTM Engineer | login | [https://join.com/companies/chift/16785008-gtm-engineer](<https://join.com/companies/chift/16785008-gtm-engineer>) | join.com requires account creation (email or Continue with Google); CV/letter approved \| GTM/RevOps automation engineer at unified-API fintech; fluent English, French/Dutch only a plus; growth-ops leaning - borderline; posted 2026-10-04 \| Brussels, Belgium; 2+ yrs \| sweep13 hiringcafe |  |
 
-## Login / account — human sign-in (1)
+## Login / account — human sign-in (2)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
 | Crossover (Trilogy) | Technical Support Engineer | login | [https://www.crossover.com/roles/a0s0o00000NhIKdAAN/technical-support-engineer/apply](<https://www.crossover.com/roles/a0s0o00000NhIKdAAN/technical-support-engineer/apply>) | user-only question: Crossover requires timed cognitive and role assessments that must be his own work; apply page offers only Google/LinkedIn OAuth \| ACTION_REQUIRED \| not submitted \| WORTH HIS TIME. USD 60,000/yr, fully remote, listed for Bologna Italy, and the JD describes his actual work almost line for line: replicating issues, analysing logs, tracing API interactions, reading JSON payloads, 'distinguishing a 401 from a 404 from a 429', and leveraging AI aggressively without trusting it blindly. NO years bar and NO degree clause. Blocked because the apply page offers only 'Apply with Google' or 'Apply with LinkedIn' - OAuth account creation, which I do not do. Be aware Crossover's process is famously assessment-heavy (cognitive test plus role-specific assessments), so budget real time rather than treating it as a quick CV drop. \| [2026-08-24] Application about to expire (Aug 23) | Sign in to LinkedIn in the Chrome window on your machine. |
+| BorgWarner | AI & Automation Engineer | login | [https://www.linkedin.com/jobs/view/4455629510](<https://www.linkedin.com/jobs/view/4455629510>) | Workday account required (borgwarner.wd5.myworkdayjobs.com R2026-3180); CV/letter approved | Sign in to LinkedIn in the Chrome window on your machine. |
 
-## Eligibility (1)
+## Eligibility (2)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
 | Einride | AI Enablement Engineer | eligibility | [https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer](<https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer>) | parked_question: work authorization in Sweden: no option for EU long-term residence from another EU country \| Stockholm , Gothenburg \| migrated:sweep | Decide the location or work-authorization point in the notes. |
+| Nordea | AI Engineer | eligibility | [https://www.linkedin.com/jobs/view/4469891127](<https://www.linkedin.com/jobs/view/4469891127>) | posting only accepts candidates living in/near Helsinki or Copenhagen; low fit; deadline 2026-10-16; CV/letter approved (Nordea_AIEngineer) | Decide the location or work-authorization point in the notes. |
 
-## No confirmation (51)
+## No confirmation (52)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -77,8 +79,9 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Kultakiertue | Data & AI Automation Specialist | no_confirm | [https://careers.kultakiertue.fi/jobs/8503580-data-ai-automation-specialist](<https://careers.kultakiertue.fi/jobs/8503580-data-ai-automation-specialist>) | Teamtailor showed "Thanks for applying - We have received your application." 2026-10-10; tailored CV + letter \| Builds AI agents + automation workflows with the CTO (SQL, APIs, JS/TS/Python, human-approval safeguards) - near-perfect automation fit; fluent English, Finnish only an advantage \| Helsinki, Finland ( | Check Gmail and the portal. There is no application confirmation on file. |
 | Etraveli Group | Applied AI Engineer | no_confirm | [https://etraveligroup.teamtailor.com/jobs/8496426-applied-ai-engineer](<https://etraveligroup.teamtailor.com/jobs/8496426-applied-ai-engineer>) | Teamtailor showed "Thanks for applying - We have received your application." 2026-10-10; tailored CV + letter \| Builds/evaluates agentic MVPs in Python (LLM orchestration, RAG, evals) and hands specs to core tech; posted ~2026-10-07 \| Stockholm, Sweden (hybrid); 3+ yrs \| sweep13 hiringcafe2 | Check Gmail and the portal. There is no application confirmation on file. |
 | Celonis | Applied Value Engineer | no_confirm | [https://job-boards.greenhouse.io/celonis/jobs/7996797003](<https://job-boards.greenhouse.io/celonis/jobs/7996797003>) | Greenhouse showed "Thank you for applying. Your application has been received." 2026-10-10; tailored CV + letter; job title entered "Forward Deployed & Lead AI Engineer" \| AI transformation presales/value engineering; Dutch preferred but not essential; updated 2026-10-02; customer-facing borderline (presales) \| Amsterdam, Netherlands (hybrid); 2+ yrs presales/value engi | Check Gmail and the portal. There is no application confirmation on file. |
+| KICKS (Matas Group) | AI Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4468574048](<https://www.linkedin.com/jobs/view/4468574048>) | Teamtailor showed "Thanks for applying..." 2026-10-11; tailored CV + letter | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (35)
+## Other (40)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -117,8 +120,13 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Newsmatics | AI Agent Engineer | other | [https://newsmatics.bamboohr.com/careers/55](<https://newsmatics.bamboohr.com/careers/55>) | parked: required street address/ZIP and own-words question "Show us an AI agent or LLM-powered application you have built." \| AI agent engineering, English remote team; long-term full-time CONTRACTOR engagement (check pay/contract); posted 2026-10-08 \| Czech Republic (100% remote); skills over years \| sweep13 hiringcafe | Answer the parked question or supply the missing fact named in the notes. |
 | Sofia Stars | Operations Automation Officer | other | [https://job-boards.eu.greenhouse.io/sofiastars/jobs/4999637101](<https://job-boards.eu.greenhouse.io/sofiastars/jobs/4999637101>) | parked: required "How many years of experience do you have with n8n?" (form otherwise filled; CV/letter approved) \| Automation/dev role, years fit well; pay unstated and Bulgaria-level may be under target - borderline; posted 2026-10-07 \| Sofia, Bulgaria (office); 1-3 yrs \| sweep13 hiringcafe | Answer the parked question or supply the missing fact named in the notes. |
 | Telenor | Google Cloud AI Engineer (Strategic AI Developer) | other | [https://careers.telenor.se/en-GB/jobs/8474240-google-cloud-ai-engineer](<https://careers.telenor.se/en-GB/jobs/8474240-google-cloud-ai-engineer>) | parked: required Address field; DEADLINE 2026-10-13; CV/letter approved \| GenAI/agent/multi-agent solutions on Vertex AI/Gemini in AI & Automation team; URGENT apply deadline 2026-10-13 \| Solna/Stockholm, Sweden (hybrid, 3 office days); entry level; degree OR certifications | Answer the parked question or supply the missing fact named in the notes. |
+| Redeploy | GenAI Developer | other | [https://www.linkedin.com/jobs/view/4428926862](<https://www.linkedin.com/jobs/view/4428926862>) | parked: required own-words "AI system you have built" + monthly salary range + based in Stockholm/Goteborg Yes/No; apply at https://careers.redeploy.com/jobs/7489283-genai-developer | Answer the parked question or supply the missing fact named in the notes. |
+| ABN AMRO | AI Engineer | other | [https://www.linkedin.com/jobs/view/4413993285](<https://www.linkedin.com/jobs/view/4413993285>) | awaiting user approval of 2 required answers (letters/ABNAMRO_questions_draft.txt); CV approved | Answer the parked question or supply the missing fact named in the notes. |
+| Legora | AI Engineer (AI Enablement) | other | [https://www.linkedin.com/jobs/view/4470167058](<https://www.linkedin.com/jobs/view/4470167058>) | Builds internal agents, Slack knowledge agent, internal app platform (TypeScript, LLM agents, Terraform) \| Stockholm, Sweden; no years stated; posted 2026-09-25 (LinkedIn listing date, 14-30d window) \| sweep14 |  |
+| PromptPartner | AI Automation Engineer | other | [https://promptpartner.ai/careers/ai-automation-engineer/](<https://promptpartner.ai/careers/ai-automation-engineer/>) | Builds AI agents/automations for European B2B clients in Python; explicitly junior-mid; apply form asks for a short note on the best agent/automation you built \| Remote, anywhere in Europe; Junior-Mid level; posted ~2026-10-07 \| sweep14 |  |
+| Duna | (Founding) Solutions Engineer | other | [https://jobs.ashbyhq.com/duna/f26348e8-624d-488f-bbe5-c8e973a403f0](<https://jobs.ashbyhq.com/duna/f26348e8-624d-488f-bbe5-c8e973a403f0>) | Customer-facing integrations (APIs, webhooks, auth) at identity startup; fluent English; regular travel \| Amsterdam (remote-first); BORDERLINE: 3-6 yrs (mid); posted 2026-10-06 \| sweep14 |  |
 
-## Captcha (5)
+## Captcha (6)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -127,3 +135,4 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Sigma Software | Middle Python Developer (ML) | captcha | [https://jobs.smartrecruiters.com/SigmaSoftware2/744000152468979-middle-python-developer-ml-](<https://jobs.smartrecruiters.com/SigmaSoftware2/744000152468979-middle-python-developer-ml->) | parked 2026-10-07: DataDome slider captcha on SmartRecruiters resume upload; bespoke CV compiled at cv/main_SigmaSoftware_MiddlePythonDeveloperML.pdf | Solve the captcha on this posting. |
 | Prima | Software / Machine Learning Engineer | captcha | [https://jobs.eu.lever.co/prima/6f896e1c-3d1e-4f74-a5fb-5ae5ffc04c7b/apply](<https://jobs.eu.lever.co/prima/6f896e1c-3d1e-4f74-a5fb-5ae5ffc04c7b/apply>) | parked 2026-10-07: hCaptcha challenge on Lever submit; all fields filled & bespoke 2-page CV compiled at cv/main_Prima_SoftwareMachineLearningEngineer.pdf | Solve the captcha on this posting. |
 | Lingaro Group | AI/ML Engineer - freelancer | captcha | [https://jobs.lever.co/lingarogroup/c6e4177f-c6a6-4c59-b55d-dc01b410e69c](<https://jobs.lever.co/lingarogroup/c6e4177f-c6a6-4c59-b55d-dc01b410e69c>) | parked 2026-10-07: hCaptcha challenge on Lever submit; all fields filled & bespoke 2-page CV compiled and uploaded at cv/main_LingaroGroup_AIMLEngineer.pdf | Solve the captcha on this posting. |
+| CleanMax | AI Engineer - Copilot, Bot & Automation | captcha | [https://www.linkedin.com/jobs/view/4469585343](<https://www.linkedin.com/jobs/view/4469585343>) | Keka image captcha (cleanmax.keka.com/careers/applyjob/72328); CV/letter approved | Solve the captcha on this posting. |
