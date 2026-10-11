@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**104** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**106** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — drainer can clear (1)
 
@@ -82,7 +82,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | KICKS (Matas Group) | AI Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4468574048](<https://www.linkedin.com/jobs/view/4468574048>) | Teamtailor showed "Thanks for applying..." 2026-10-11; tailored CV + letter | Check Gmail and the portal. There is no application confirmation on file. |
 | Legora | AI Engineer (AI Enablement) | no_confirm | [https://www.linkedin.com/jobs/view/4470167058](<https://www.linkedin.com/jobs/view/4470167058>) | Ashby showed "Success - Thank you for applying to Legora!" 2026-10-11; tailored CV (no letter field); earlier interrupted run likely failed validation | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (39)
+## Other (41)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -125,6 +125,8 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | ABN AMRO | AI Engineer | other | [https://www.linkedin.com/jobs/view/4413993285](<https://www.linkedin.com/jobs/view/4413993285>) | awaiting user approval of 2 required answers (letters/ABNAMRO_questions_draft.txt); CV approved | Answer the parked question or supply the missing fact named in the notes. |
 | PromptPartner | AI Automation Engineer | other | [https://promptpartner.ai/careers/ai-automation-engineer/](<https://promptpartner.ai/careers/ai-automation-engineer/>) | Builds AI agents/automations for European B2B clients in Python; explicitly junior-mid; apply form asks for a short note on the best agent/automation you built \| Remote, anywhere in Europe; Junior-Mid level; posted ~2026-10-07 \| sweep14 |  |
 | MakesYouLocal | AI & Automation Specialist | other | [https://careers.makesyoulocal.com/jobs/8439452-ai-automation-specialist](<https://careers.makesyoulocal.com/jobs/8439452-ai-automation-specialist>) | parked: 2 required own-words questions (automation you built; stuck project you moved forward) + monthly salary in DKK; CV/letter approved | Answer the parked question or supply the missing fact named in the notes. |
+| CHAMP Cargosystems | Software Engineer – AI | other | [https://www.linkedin.com/jobs/view/4475539188](<https://www.linkedin.com/jobs/view/4475539188>) | Agentic AI + RAG automation in air-cargo products (Python, APIs, Docker); English JD \| Barcelona, Spain; 2-4 yrs; CS degree or equivalent practical experience; posted 2026-10-05 \| sweep14 |  |
+| ACENSI | Agentic AI Enablement Consultant | other | [https://www.linkedin.com/jobs/view/4467746479](<https://www.linkedin.com/jobs/view/4467746479>) | Hands-on building AI agents (MCP, A2A, orchestration) with business teams plus integrations - strong agent-builder fit; consultancy placement \| Brussels, Belgium (client in energy sector); medior; no years stated; posted 2026-09-18 \| sweep14 |  |
 
 ## Captcha (7)
 
