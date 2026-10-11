@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**106** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**111** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — drainer can clear (1)
 
@@ -24,7 +24,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Einride | AI Enablement Engineer | eligibility | [https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer](<https://emp.jobylon.com/jobs/375393-einride-ai-enablement-engineer>) | parked_question: work authorization in Sweden: no option for EU long-term residence from another EU country \| Stockholm , Gothenburg \| migrated:sweep | Decide the location or work-authorization point in the notes. |
 | Nordea | AI Engineer | eligibility | [https://www.linkedin.com/jobs/view/4469891127](<https://www.linkedin.com/jobs/view/4469891127>) | posting only accepts candidates living in/near Helsinki or Copenhagen; low fit; deadline 2026-10-16; CV/letter approved (Nordea_AIEngineer) | Decide the location or work-authorization point in the notes. |
 
-## No confirmation (53)
+## No confirmation (59)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -81,8 +81,14 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Celonis | Applied Value Engineer | no_confirm | [https://job-boards.greenhouse.io/celonis/jobs/7996797003](<https://job-boards.greenhouse.io/celonis/jobs/7996797003>) | Greenhouse showed "Thank you for applying. Your application has been received." 2026-10-10; tailored CV + letter; job title entered "Forward Deployed & Lead AI Engineer" \| AI transformation presales/value engineering; Dutch preferred but not essential; updated 2026-10-02; customer-facing borderline (presales) \| Amsterdam, Netherlands (hybrid); 2+ yrs presales/value engi | Check Gmail and the portal. There is no application confirmation on file. |
 | KICKS (Matas Group) | AI Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4468574048](<https://www.linkedin.com/jobs/view/4468574048>) | Teamtailor showed "Thanks for applying..." 2026-10-11; tailored CV + letter | Check Gmail and the portal. There is no application confirmation on file. |
 | Legora | AI Engineer (AI Enablement) | no_confirm | [https://www.linkedin.com/jobs/view/4470167058](<https://www.linkedin.com/jobs/view/4470167058>) | Ashby showed "Success - Thank you for applying to Legora!" 2026-10-11; tailored CV (no letter field); earlier interrupted run likely failed validation | Check Gmail and the portal. There is no application confirmation on file. |
+| CHAMP Cargosystems | Software Engineer – AI | no_confirm | [https://www.linkedin.com/jobs/view/4475539188](<https://www.linkedin.com/jobs/view/4475539188>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV | Check Gmail and the portal. There is no application confirmation on file. |
+| handly | Founding AI Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4463996428](<https://www.linkedin.com/jobs/view/4463996428>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV and letter | Check Gmail and the portal. There is no application confirmation on file. |
+| 2N | Junior Agentic DevOps Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4475935761](<https://www.linkedin.com/jobs/view/4475935761>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV and letter | Check Gmail and the portal. There is no application confirmation on file. |
+| xHeron | AI Harness Engineer - Agentic & Autonomous Operations | no_confirm | [https://www.linkedin.com/jobs/view/4465233038](<https://www.linkedin.com/jobs/view/4465233038>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV and letter | Check Gmail and the portal. There is no application confirmation on file. |
+| Timeless Tech | AI Application Engineer (Full-Stack) | no_confirm | [https://www.linkedin.com/jobs/view/4468629437](<https://www.linkedin.com/jobs/view/4468629437>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV | Check Gmail and the portal. There is no application confirmation on file. |
+| Intetics | Solution Engineer (1159) | no_confirm | [https://www.linkedin.com/jobs/view/4467707626](<https://www.linkedin.com/jobs/view/4467707626>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (41)
+## Other (40)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -125,8 +131,7 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | ABN AMRO | AI Engineer | other | [https://www.linkedin.com/jobs/view/4413993285](<https://www.linkedin.com/jobs/view/4413993285>) | awaiting user approval of 2 required answers (letters/ABNAMRO_questions_draft.txt); CV approved | Answer the parked question or supply the missing fact named in the notes. |
 | PromptPartner | AI Automation Engineer | other | [https://promptpartner.ai/careers/ai-automation-engineer/](<https://promptpartner.ai/careers/ai-automation-engineer/>) | Builds AI agents/automations for European B2B clients in Python; explicitly junior-mid; apply form asks for a short note on the best agent/automation you built \| Remote, anywhere in Europe; Junior-Mid level; posted ~2026-10-07 \| sweep14 |  |
 | MakesYouLocal | AI & Automation Specialist | other | [https://careers.makesyoulocal.com/jobs/8439452-ai-automation-specialist](<https://careers.makesyoulocal.com/jobs/8439452-ai-automation-specialist>) | parked: 2 required own-words questions (automation you built; stuck project you moved forward) + monthly salary in DKK; CV/letter approved | Answer the parked question or supply the missing fact named in the notes. |
-| CHAMP Cargosystems | Software Engineer – AI | other | [https://www.linkedin.com/jobs/view/4475539188](<https://www.linkedin.com/jobs/view/4475539188>) | Agentic AI + RAG automation in air-cargo products (Python, APIs, Docker); English JD \| Barcelona, Spain; 2-4 yrs; CS degree or equivalent practical experience; posted 2026-10-05 \| sweep14 |  |
-| ACENSI | Agentic AI Enablement Consultant | other | [https://www.linkedin.com/jobs/view/4467746479](<https://www.linkedin.com/jobs/view/4467746479>) | Hands-on building AI agents (MCP, A2A, orchestration) with business teams plus integrations - strong agent-builder fit; consultancy placement \| Brussels, Belgium (client in energy sector); medior; no years stated; posted 2026-09-18 \| sweep14 |  |
+| ACENSI | Agentic AI Enablement Consultant | other | [https://www.linkedin.com/jobs/view/4467746479](<https://www.linkedin.com/jobs/view/4467746479>) | parked: form requires French and Dutch level (he has neither) | Answer the parked question or supply the missing fact named in the notes. |
 
 ## Captcha (7)
 

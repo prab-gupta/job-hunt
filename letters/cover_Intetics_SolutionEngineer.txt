@@ -1,0 +1,14 @@
+Dear Intetics hiring team,
+
+I am applying for the Solution Engineer role (1159) in Poland. I am based in Venice, Italy, and I am open to relocating to Poland or working remotely, whichever the role requires. I hold an EU Long Term Residence Permit, so no sponsorship is needed, and I am available immediately.
+
+Much of my work has been the bridge between people and the product. As Lead Developer at FlowSpace (Mar 2024 - Aug 2026), I facilitated communication between the internal team and an external agency, documented product and business logic with the developers, and turned requirements into working features while the platform grew from 2,000 to 4,500+ users. I also streamlined customer support with AI agents.
+
+On integrations and data, I built the OfficeRnD and Nexudus integrations for automated bookings, consolidated leads by connecting the company's CRMs, and set up lead capture and enrichment automations. At Urlink I implemented automations to client requirements, and at Clubee I integrated the Clubee API across the frontend and handled unit testing and QA.
+
+Gaps, plainly: my roles have been developer and project roles rather than a formal Solutions Engineering or Technical Account Management title, and my client contact came through those projects. I have no AWS, Azure or GCP experience, and no dedicated SQL or data analysis experience. I have about 3 years of experience.
+
+I would be glad to discuss how I can support your customers' onboarding and integrations.
+
+Kind regards,
+Prabhavit Gupta

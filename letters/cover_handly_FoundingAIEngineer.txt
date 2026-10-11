@@ -1,0 +1,14 @@
+Application: Founding AI Engineer, handly (Berlin)
+
+Dear handly Hiring Team,
+
+I am applying for the Founding AI Engineer role. Turning messy, manual admin into AI that does the work for the business owner is close to what I did at FlowSpace, where I owned features end to end for a growing user base.
+
+As Lead Developer at FlowSpace I scaled the platform from 2,000 to 4,500+ users and oversaw its migration to Next.js and Laravel. I built a Python pipeline that extracts records from web content with the Claude and OpenAI APIs using structured outputs, routes them through human review and pushes them to an API, adding 900+ listings, plus a listing sync across 9 operators with staged approval and dry-run safety. I integrated the OfficeRnD and Nexudus APIs end to end in TypeScript and PHP (OAuth2, webhooks, booking automation), and streamlined customer support with AI agents working against live data. I work with function calling, MCP and agent orchestration, and I build with Claude Code.
+
+On the gaps: you ask for 4+ years of full-stack experience and I have about three. I have not built formal eval sets or self-improving loops; my quality gates so far have been human review and staged approval. I have no React Native or mobile experience, and no AWS experience. I do not speak German; I work in English (C1).
+
+I am based in Venice, hold a European Long Term Residence Permit (no sponsorship needed in the EU), and am available immediately. I am open to relocating to Berlin and to working in-office. Thank you for considering my application.
+
+Kind regards,
+Prabhavit Gupta
