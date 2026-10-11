@@ -1,0 +1,14 @@
+Dear Legartis team,
+
+I am applying for the AI Automation Engineer role in Leipzig. I am based in Venice and open to relocating to Leipzig for the hybrid setup. I hold an EU Long Term Residence Permit, so no sponsorship is needed, and I am available immediately.
+
+Finding manual work and automating it is what I did most as Lead Developer at FlowSpace (Mar 2024 - Aug 2026). I built an AI listing pipeline in Python: web scraping, extraction with the Claude and OpenAI APIs into structured records, a human review step, then a push to the platform through its API. It produced 900+ records. I also built n8n and Make workflows for lead routing, data sync and support queries, and streamlined customer support with AI agents working against live data.
+
+On integrations, I built the OfficeRnD and Nexudus integrations end to end (OAuth2, webhooks, location sync, booking automation), and consolidated leads by connecting the CRMs the company used. I oversaw the migration of the platform to Next.JS and Laravel while it scaled from 2,000 to 4,500+ users. I build with Claude Code, and at Clubee I did unit testing and QA on new features. I work with PostgreSQL, Supabase, MySQL and SQLite.
+
+Gaps, plainly: I have no Docker, AWS or cloud administration experience, and I have not worked with Kafka or event driven messaging systems. I have not used HubSpot, Younium or Linear. I do not speak German. I have about 3 years of professional experience.
+
+I would welcome the chance to walk you through the listing pipeline and the CRM integrations.
+
+Kind regards,
+Prabhavit Gupta
