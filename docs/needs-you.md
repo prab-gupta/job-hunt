@@ -2,7 +2,7 @@
 
 View of `applications.csv` rows with `status=needs_you`. This file is not a second database. Edit the CSV, then regenerate this page. Facts in the table are the CSV `blocker` and `notes` cells. The You column is one line for Prabhavit only where a human has to act.
 
-**120** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
+**122** rows. Login/account rows the drainer can clear are first. Captcha rows are last.
 
 ## Login / account — drainer can clear (1)
 
@@ -88,11 +88,11 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | Timeless Tech | AI Application Engineer (Full-Stack) | no_confirm | [https://www.linkedin.com/jobs/view/4468629437](<https://www.linkedin.com/jobs/view/4468629437>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV | Check Gmail and the portal. There is no application confirmation on file. |
 | Intetics | Solution Engineer (1159) | no_confirm | [https://www.linkedin.com/jobs/view/4467707626](<https://www.linkedin.com/jobs/view/4467707626>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-11 with tailored CV | Check Gmail and the portal. There is no application confirmation on file. |
 | Legartis | AI Automation Engineer – Software Engineering | no_confirm | [https://legartis.jobs.personio.de/job/2827328](<https://legartis.jobs.personio.de/job/2827328>) | awaiting_confirm: submitted via Personio 2026-10-12 with tailored CV+letter | Check Gmail and the portal. There is no application confirmation on file. |
-| Tappz GmbH | Senior AI Fullstack Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4477205467](<https://www.linkedin.com/jobs/view/4477205467>) | awaiting_confirm: submitted via Easy Apply 2026-10-12 with tailored CV+letter | Check Gmail and the portal. There is no application confirmation on file. |
 | Hornetsecurity | AI Research & Prototyping Engineer | no_confirm | [https://www.linkedin.com/jobs/view/4473293141](<https://www.linkedin.com/jobs/view/4473293141>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-12 with base CV | Check Gmail and the portal. There is no application confirmation on file. |
 | Develop (recruiter) | GenAI Engineer (6-month contract) | no_confirm | [https://www.linkedin.com/jobs/view/4475199024](<https://www.linkedin.com/jobs/view/4475199024>) | awaiting_confirm: submitted via LinkedIn Easy Apply 2026-10-12 with base CV | Check Gmail and the portal. There is no application confirmation on file. |
+| Match Profiler | Data and AI Enablement and Implementation | no_confirm | [https://www.linkedin.com/jobs/view/4477142587](<https://www.linkedin.com/jobs/view/4477142587>) | awaiting_confirm: submitted via Easy Apply 2026-10-12 base CV | Check Gmail and the portal. There is no application confirmation on file. |
 
-## Other (45)
+## Other (47)
 
 | Company | Role | Blocker | URL | Notes | You |
 | --- | --- | --- | --- | --- | --- |
@@ -138,9 +138,11 @@ View of `applications.csv` rows with `status=needs_you`. This file is not a seco
 | ACENSI | Agentic AI Enablement Consultant | other | [https://www.linkedin.com/jobs/view/4467746479](<https://www.linkedin.com/jobs/view/4467746479>) | parked: form requires French and Dutch level (he has neither) | Answer the parked question or supply the missing fact named in the notes. |
 | CHAPTERS Group | AI Platform Engineer | other | [https://join.com/companies/chaptersgroupcom/16812886-ai-platform-engineer](<https://join.com/companies/chaptersgroupcom/16812886-ai-platform-engineer>) | parked: two own-words questions (vertical market software, unfair advantage); weak fit | Answer the parked question or supply the missing fact named in the notes. |
 | Planeco Building | Founding AI Engineer | other | [https://www.linkedin.com/jobs/view/4478062850](<https://www.linkedin.com/jobs/view/4478062850>) | parked: 4 yes/no experience questions | Answer the parked question or supply the missing fact named in the notes. |
+| Tappz GmbH | Senior AI Fullstack Engineer | other | [https://www.linkedin.com/jobs/view/4477205467](<https://www.linkedin.com/jobs/view/4477205467>) | NOT complete: join.com emailed 'Complete your application' 2026-10-12, needs him to finalize via email link/join account |  |
 | MeinGPT | (Senior) Platform Engineer for AI-Startup | other | [https://www.linkedin.com/jobs/view/4477661223](<https://www.linkedin.com/jobs/view/4477661223>) | parked: German level required (A1-C2 only, no none option); weak fit | Answer the parked question or supply the missing fact named in the notes. |
 | Xebia | Senior AI Consultant | other | [https://job-boards.greenhouse.io/xebiacee/jobs/6139540004](<https://job-boards.greenhouse.io/xebiacee/jobs/6139540004>) | AI-enabled engineering workflows: evaluating AI agents/coding assistants, building automations, running client workshops and enablement; English, EU work permit only \| Poland (work from EU region); 'several years' engineering/DevEx - BORDERLINE; posted 2026-10-07 (GH updated) \| sweep15 |  |
 | Board of Innovation (BOI) | AI Engineer | other | [https://www.linkedin.com/jobs/view/4475791106](<https://www.linkedin.com/jobs/view/4475791106>) | parked: own-words questions (AI in engineering, go-to stack) + advanced Python yes/no | Answer the parked question or supply the missing fact named in the notes. |
+| ARCHERS (CornerBriX) | Integration Analyst | other | [https://www.linkedin.com/jobs/view/4472496654](<https://www.linkedin.com/jobs/view/4472496654>) | parked: Dutch level required (None option exists, needs his OK) | Answer the parked question or supply the missing fact named in the notes. |
 
 ## Captcha (7)
 
