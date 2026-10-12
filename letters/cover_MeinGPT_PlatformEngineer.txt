@@ -1,0 +1,14 @@
+Dear MeinGPT team,
+
+I am applying for the (Senior) Platform Engineer role. I am based in Venice and open to relocating to Berlin or Munich. I hold an EU Long Term Residence Permit, so no sponsorship is needed, and I am available immediately.
+
+As Lead Developer at FlowSpace (Mar 2024 - Aug 2026) I oversaw the migration of the platform to Next.JS and Laravel while it scaled from 2,000 to 4,500+ users, and built the OfficeRnD and Nexudus integrations (OAuth2, webhooks, booking automation). I work in Typescript and Python with PostgreSQL and Supabase, and I build with Claude Code, which you use too.
+
+I also built an AI listing pipeline in Python: web scraping, extraction with the Claude and OpenAI APIs into structured records, a human review step, then a push to the platform through its API. It produced 900+ records. I collaborated with the developers on product logic and business logic documentation.
+
+Gaps, plainly: I have about 3 years of professional experience, and my Typescript work has not been mainly in high-load production backends. I have no experience with Docker, Kubernetes, Go, tRPC, queues, caching layers or observability tooling, and no cloud administration experience.
+
+I would welcome the chance to talk about how I could grow into the platform work you describe.
+
+Kind regards,
+Prabhavit Gupta
