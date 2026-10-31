@@ -9,7 +9,8 @@ async function applyToJob(jobId, pdfPath, answers = {}) {
   const resolvedPdfPath = path.resolve(pdfPath);
   console.log(`Starting application for Job ${jobId} with bespoke CV: ${resolvedPdfPath}`);
 
-  const browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9223' });
+  const cdpUrl = process.env.CDP_URL || 'http://127.0.0.1:9222';
+  const browser = await puppeteer.connect({ browserURL: cdpUrl });
   const pages = await browser.pages();
   const page = pages[0] || (await browser.newPage());
 
@@ -50,9 +51,24 @@ async function applyToJob(jobId, pdfPath, answers = {}) {
 
   let uploadedPdf = false;
   let step = 1;
-  while (step <= 8) {
+  while (step <= 15) {
     console.log(`--- Processing Step ${step} ---`);
     await new Promise(r => setTimeout(r, 1000));
+
+    // Check for safety warning modal (e.g. stealth startups)
+    const handledWarning = await page.evaluate(() => {
+      const continueBtn = Array.from(document.querySelectorAll('button, a')).find(el => el.innerText && el.innerText.trim().toLowerCase() === 'continue applying');
+      if (continueBtn) {
+        continueBtn.click();
+        return true;
+      }
+      return false;
+    });
+    if (handledWarning) {
+      console.log('Dismissed Job search safety reminder by clicking Continue applying.');
+      await new Promise(r => setTimeout(r, 2000));
+      continue;
+    }
 
     // Check if we are on the Resume page and have not uploaded yet
     const isResumePage = await page.evaluate(() => {
@@ -79,6 +95,37 @@ async function applyToJob(jobId, pdfPath, answers = {}) {
       } catch (e) {
         console.log(`File upload via chooser failed: ${e.message}. Verifying radio fallback.`);
       }
+    }
+
+    // Robust city/location typeahead selection
+    try {
+      const box = await page.evaluate(() => {
+        const dialog = document.querySelector('dialog, div[role="dialog"]') || document.body;
+        const el = dialog.querySelector('input[data-testid="typeahead-input"], input[placeholder*="city" i], input[placeholder*="location" i], input[placeholder*="città" i]');
+        if (!el || (el.value && el.value.toLowerCase().includes('venice'))) return null;
+        el.scrollIntoView({ block: 'center' });
+        const r = el.getBoundingClientRect();
+        return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+      });
+      if (box) {
+        console.log('Detected city/location typeahead input. Selecting Venice, Veneto, Italy...');
+        await page.mouse.click(box.x, box.y);
+        await new Promise(r => setTimeout(r, 300));
+        await page.keyboard.down('Meta');
+        await page.keyboard.press('a');
+        await page.keyboard.up('Meta');
+        await page.keyboard.press('Backspace');
+        await new Promise(r => setTimeout(r, 200));
+        await page.keyboard.type('Venice', { delay: 80 });
+        await new Promise(r => setTimeout(r, 1500));
+        await page.evaluate(() => {
+          const opt = document.querySelector('div[role="option"], li[role="option"], [data-testid*="typeahead"] div, ul[role="listbox"] li');
+          if (opt) opt.click();
+        });
+        await new Promise(r => setTimeout(r, 500));
+      }
+    } catch (e) {
+      console.log('Typeahead selection error:', e.message);
     }
 
     const state = await page.evaluate((customAnswers) => {
@@ -117,9 +164,9 @@ async function applyToJob(jobId, pdfPath, answers = {}) {
       const checkboxes = Array.from(dialog.querySelectorAll('input[type="checkbox"]'));
       for (const cb of checkboxes) {
         const aria = (cb.getAttribute('aria-label') || '').toLowerCase();
-        const container = cb.closest('fieldset, .jobs-easy-apply-form-section__grouping, div[data-test-form-builder-group], div, label');
-        const containerText = (container?.innerText || '').toLowerCase();
-        const isFollowCompany = containerText.includes('follow') && containerText.includes('stay up to date');
+        const container = cb.closest('fieldset, .jobs-easy-apply-form-section__grouping, div[data-test-form-builder-group], div.fb-single-checkbox') || cb.parentElement?.parentElement || cb.parentElement;
+        const containerText = ((container?.innerText || '') + ' ' + (cb.getAttribute('aria-label') || '') + ' ' + dialog.innerText.slice(0, 1000)).toLowerCase();
+        const isFollowCompany = (cb.closest('div')?.innerText || '').toLowerCase().includes('follow') && (cb.closest('div')?.innerText || '').toLowerCase().includes('stay up to date');
         if (!isFollowCompany) {
           if (cb.required || containerText.includes('consent') || containerText.includes('agree') || containerText.includes('privacy') || containerText.includes('termini') || containerText.includes('autorizzo') || containerText.includes('required') || containerText.includes('*')) {
             if (!cb.checked) {

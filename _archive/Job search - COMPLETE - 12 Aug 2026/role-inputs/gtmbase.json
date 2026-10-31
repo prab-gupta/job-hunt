@@ -1,8 +1,0 @@
-{
-  "role": "Forward-Deployed CRM Architect",
-  "location": "Remote",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the Forward-Deployed CRM Architect role at GTMBase. Two things in the posting are the reason: being embedded in a client's RevOps team building inside their live system is the shape of work I already do, and running the company on Claude Code as the operating system rather than as a bolt-on is how I work day to day. Fixing the foundation before running campaigns is also the right order, and it is the part most agencies skip.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I utilize prompt chaining, RAG architectures, and advanced workflow orchestration tools (such as n8n) to connect external APIs with foundational models like OpenAI and Anthropic's Claude, and I script in Python, SQL and TypeScript for data manipulation and custom connectors. At FlowSpace I worked on GTM automations through their CRM alongside the AI agents and data parsing tools I built. I should be straight with you about the must-have: my CRM work has been GTM automation and integration rather than deep HubSpot administration across Sales, Marketing, Service and Operations Hubs, and I hold no HubSpot certifications. The automation, API, webhook and data-integrity side of the role I can do now; the HubSpot platform depth I would be building.",
-  "closing": "If the HubSpot depth is a hard gate I understand, but I would be glad to talk if the automation and AI-first side is where you need weight."
-}

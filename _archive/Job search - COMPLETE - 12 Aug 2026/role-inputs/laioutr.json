@@ -1,8 +1,0 @@
-{
-  "role": "AI Engineer (m/f/d) - Full Stack",
-  "location": "Remote, Germany",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the AI Engineer (Full Stack) role at Laioutr. An agentic frontend management platform that lets merchants ship a real storefront in hours rather than months only works if the generation layer and the actual product code are held to the same standard, and your framing of AI as a productivity multiplier rather than a novelty is how I already work. The stack you name is the one I use.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I build in TypeScript across Next.JS and React, connect REST and GraphQL APIs to foundational models like OpenAI and Anthropic's Claude using prompt chaining and RAG architectures, and I have shipped on Supabase. I extensively leverage AI coding assistants like Claude Code and bolt.new to move quickly across the full stack rather than staying in one layer. To be accurate about the gaps: I have not worked with Nuxt, Vue, Pinia, tRPC or Turborepo specifically, and my German is not conversational, so I would be working in English.",
-  "closing": "I would be glad to walk through a storefront integration and how I would approach the agentic layer around it."
-}

@@ -1,6 +1,6 @@
 # Agent Instructions - Job Search Automation
 
-You are helping Prabhavit Gupta with his job search. This document tells you everything you need to operate. Read it fully before taking any action.
+You are operating an autonomous AI job search and application system. This document tells you everything you need to operate. Read it fully before taking any action.
 
 ## Tracker router
 
@@ -23,51 +23,46 @@ Portal accounts reuse the one password in `JOBS_ACCOUNT_PASSWORD` (or gitignored
 ## 1. Start here
 
 Read these files in order:
-1. `HANDOFF.md` - full operational state, standing rules, where things stand
-2. `README.md` - folder structure, what each file does
-3. `LEDGER.md` - chronological session log, newest first (read top entry)
-4. `SESSION-LEDGER.md` - per-session detail log
+1. `config/profile.json` (or `.claude/skills/job-application-assistant/01-candidate-profile.md`) - active candidate identity and facts
+2. `README.md` - architecture, quickstart, and operational workflow
+3. `config/.env` (or environment variables) - `CDP_URL`, `JOBS_ACCOUNT_PASSWORD`, `CANDIDATE_EMAIL`
 
-## 2. Who is Prabhavit
+## 2. Candidate Profile (Single Source of Truth)
 
-- **Name:** Prabhavit Gupta
-- **Email (applications):** prabhavitg@gmail.com
-- **Phone:** +39 351 610 7807
-- **Location:** Venice, Italy (Via Zanetti 10, 30175)
-- **Work authorization:** EU Long Term Residence Permit (Italy). No sponsorship or work permit needed anywhere in the EU (confirmed by Prabhavit 2026-10-02). UK/US/Swiss = needs sponsorship. UK and Ireland roles stay excluded from the search. The Salesforce "Yes" is the recorded answer to that specific question and stays as recorded.
-- **LinkedIn:** https://www.linkedin.com/in/prabhavit/
-- **GitHub:** https://github.com/prab-gupta
-- **Education:** BA Philosophy, International Studies & Economics, Ca' Foscari Venice (2020-2024). NOT a CS degree.
-- **Experience:** ~3 years (Aug 2023 - Aug 2026). See CV for details.
-- **Languages:** Hindi (native), English (C1 professional), Italian (beginner). No German (confirmed 2026-10-02): skip roles that require it.
-- **Availability:** Immediately. FlowSpace contract ended August 2026 (confirmed by Prabhavit 2026-10-02).
+All personal facts are resolved from the active candidate configuration:
+- Primary file: `config/profile.json` (or run `/setup` to populate `.claude/skills/job-application-assistant/01-candidate-profile.md`).
+- A reference template is at `config/profile.example.json`.
+- Essential profile fields:
+  - **Identity:** Full Name, Application Email, Phone, Location.
+  - **Online Profiles:** LinkedIn URL, GitHub URL, Portfolio.
+  - **Work Authorization:** Stated work rights, visa status, country restrictions.
+  - **Education & Experience:** Degrees, institutions, employment history, dates.
+  - **Languages:** Declared languages and honest proficiencies.
+
+Never fabricate personal biographical details, credentials, or past employers.
 
 ## 3. Standing rules (NEVER break these)
 
 ### Salary
-- EUR 50,000-60,000 gross/year on all forms (confirmed by Prabhavit, Oct 2026). Single-number fields: 50,000 (the low end of his range; no other figure or midpoint). This supersedes the old EUR 30-40k / 30000 and EUR 200/day figures in `answers/salary-expectation.md` and `skill/job-hunt/references/application-rules.md`. A role-search target is not a form answer; do not infer or convert a new figure.
-- USD forms: $54,000
-- USD monthly forms: $4,500
-- B2B/contract: EUR 250-300/day
-- Never negotiate UP or DOWN on his behalf. His number, stated plainly.
+- Resolve salary figures from `config/profile.json` (`salary_expectation` block).
+- Single-number fields: use the low end of the candidate's declared range.
+- Never negotiate UP or DOWN on the candidate's behalf. State figures plainly.
 
 ### CV and cover letters
 - Attach a tailored CV to every application.
-- CV pipeline: LaTeX template compiled with `tectonic`. Start from the corrected baseline `data/cvs/Prabhavit_CV_EN_baseline.tex` (Italian = Beginner, FlowSpace Mar 2024 - Aug 2026). Do NOT start from `data/cvs/Prabhavit_CV_EN.tex.bak-0916`, from older generated CVs in `cv/`, or from anything in `cv/_quarantine/`. Edit ONLY 3 blocks: HEADLINE (line ~40), SUMMARY (lines ~54-56), SKILLS (lines ~59-66). Everything else is frozen. Generated CVs and past submissions are not a source of facts; this file is.
-- Never write "no-code" or "Bubble" on a CV. Say "off a legacy stack".
-- No em-dashes anywhere. Use hyphens or commas.
-- Never claim: BPMN, deep Python-backend, FastAPI, computer-vision, edge computing, Kubernetes, ML research, non-English language proficiency beyond listed.
+- CV pipeline: LaTeX template compiled with `tectonic`. Start from the declared baseline (e.g. `templates/cv/ats_clean/template.tex` or active template).
+- Edit ONLY the dynamic blocks: HEADLINE, SUMMARY, and matching TECHNICAL SKILLS. All underlying historical facts remain frozen.
+- Check forbidden patterns declared in the profile (`forbidden_claims`).
 - Never leave a cover-letter field blank, even when optional.
-- Datapizza exception: for Datapizza only, do not generate or upload a CV or a cover letter. Use the existing approved Datapizza profile, and verify that profile's facts against this file before submitting.
-- Compilers: the CV template compiles with `tectonic`. The cover-letter class (fontspec, `cover_letters/cover.cls`) compiles with XeLaTeX. Do not use a blanket `pdflatex`. Before upload verify: CV exactly 2 pages (`pdfinfo`), cover letter exactly 1 page, rendered layout checked, extracted text readable.
-- Tailoring rules cheatsheet: `~/.proficiently/cv-tailoring-rules.md` (read before every tailor).
+- Compilers: CV templates compile with `tectonic`. Cover letter templates compile with XeLaTeX (using `cover_letters/cover.cls`).
+- Strict verification before uploading: CV exactly 2 pages (`pdfinfo`), cover letter exactly 1 page (`pdfinfo`).
 
 ### Forms and applications
-- When a form demands 3+ years experience, write 3.
-- Anti-AI screening questions = ALWAYS hand back to him. Never answer on his behalf.
+- Experience fields: populate based on verified candidate history in `profile.json`.
+- Anti-AI screening questions = ALWAYS hand back to the candidate via `needs_you`. Never answer on their behalf.
 - Never solve CAPTCHAs, enter payment or ID details, or invent biographical details.
-- `needs-you-drainer` may create or sign into an ATS account (Workday and similar) when the blocker is login or account required. Reuse the one password in `JOBS_ACCOUNT_PASSWORD` for every portal. Do not generate a per-account password. Never write that password, or any other credential, into a tracked file, the CSV, notes, a commit, or a PR.
-- Answer every question from his CV, his letter, or facts he has stated. Never fabricate.
+- `needs-you-drainer` may create or sign into an ATS account when the blocker is login or account required. Reuse the shared `JOBS_ACCOUNT_PASSWORD`.
+- Answer every question from candidate materials. Never fabricate.
 - Privacy defaults: decline non-essential cookies, leave optional consents unchecked.
 - Phone: type full "+39 351 610 7807" to avoid country auto-detect issues.
 

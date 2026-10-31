@@ -1,8 +1,0 @@
-{
-  "role": "Forward Deployed Engineer",
-  "location": "London, United Kingdom",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the Forward Deployed Engineer role at Seamflow. The line that made me apply is thinking in customer workflows rather than tickets. Aerospace, healthcare and energy are exactly the settings where the real process lives in someone's head and a spreadsheet, and where the value comes from sitting with that person, deciding what should exist, and putting it in their hands the same week. That is the work I have been doing, at a smaller scale, for three years.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I build production UI in TypeScript with React and Next.JS, implement the backend logic and data models behind it, and I utilize prompt chaining, RAG architectures and orchestration tools (such as n8n) to integrate LLMs and agents from OpenAI and Anthropic into products that customers actually use. Working where the requirements were unclear and evolving describes most of my freelance engagements: UltraStrategy, Get2Germany and Clubee all started as a messy process rather than a spec. At FlowSpace I took over an existing system, debugged it, and carried it through a migration to Next.JS and Laravel while it grew from 2,000 to over 4,500 active users. Honest gaps: my backend work has been more TypeScript and PHP than Python, and I have not worked in aerospace, healthcare or energy.",
-  "closing": "I would be glad to talk through a customer workflow you are untangling right now and how I would take it end to end."
-}

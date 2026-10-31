@@ -1,8 +1,0 @@
-{
-  "role": "Applied AI Developer",
-  "location": "Remote",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the Applied AI Developer role at dexter health. Reducing administrative load in nursing homes and residential care so that caregivers get time back with patients is a problem where the value is entirely in the last mile: the workflow has to actually fit how a care team works, or it does not get used. That is the kind of AI work I do, and your line about caring less about formal seniority than about speed, ownership and product impact is the reason I am writing rather than filtering myself out.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I utilize prompt chaining, RAG architectures, and advanced workflow orchestration tools (such as n8n) to connect external APIs with foundational models like OpenAI and Anthropic's Claude, working in Python and TypeScript. Putting LLMs into production systems rather than demos is the whole of my recent work, and I use Claude Code and bolt.new daily as part of how I build, not as an experiment. I should note the obvious gap plainly: I have not worked in healthcare or with clinical data before, so the domain and its compliance constraints would be new to me.",
-  "closing": "I would be glad to talk through one of the administrative workflows you are targeting and how I would take it apart."
-}

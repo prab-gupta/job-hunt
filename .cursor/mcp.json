@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "tracker": {
-      "command": "python3",
-      "args": ["mcp/tracker-server/server.py"]
-    }
-  }
-}

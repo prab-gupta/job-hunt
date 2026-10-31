@@ -1,8 +1,0 @@
-{
-  "role": "Forward-Deployed Engineer",
-  "location": "Remote (European time zones)",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the Forward-Deployed Engineer role at Tangible. Secondary-transaction infrastructure for private markets is exactly the kind of domain where the software has to meet a process that banks, fund administrators and secondaries teams already run their own way, and where SSO, data mappings and integrations are not a footnote but most of the job. Working at that boundary, and writing clearly about it, is what I want to keep doing.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: configuration, integrations and the glue code between systems, in TypeScript and Python, connecting REST and GraphQL APIs and webhooks, and using orchestration tools (such as n8n) alongside foundational models like OpenAI and Anthropic's Claude where they earn their place. Client exposure has been constant rather than occasional: the freelance work for UltraStrategy, Get2Germany and Clubee each meant sitting with the client, and at FlowSpace I owned a system through a migration while it grew from 2,000 to over 4,500 active users. Being straight about the gap: I have no background in private markets or fund administration, so the domain would be new, though the integration work would not be.",
-  "closing": "I would be glad to talk through a client onboarding you have run and where the data mapping usually breaks."
-}

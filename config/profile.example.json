@@ -1,0 +1,40 @@
+{
+  "candidate": {
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone": "+1 555 123 4567",
+    "location": "City, Country",
+    "linkedin": "https://www.linkedin.com/in/janedoe",
+    "github": "https://github.com/janedoe",
+    "work_authorization": "Authorized to work in EU / US without sponsorship",
+    "languages": [
+      { "language": "English", "level": "Native" },
+      { "language": "French", "level": "B2 (Conversational)" }
+    ],
+    "salary_expectation": {
+      "eur_annual_min": 50000,
+      "eur_annual_max": 60000,
+      "single_number_default": 50000,
+      "usd_annual": 55000,
+      "day_rate_eur": 300
+    }
+  },
+  "career_summary_defaults": [
+    "Software & Automation Engineer with 3+ years experience building production API integrations and full-stack applications.",
+    "Proven background deploying agentic workflows, LLM tool-calling systems, and robust test pipelines.",
+    "Collaborative problem-solver delivering user-facing features, web platforms, and automated data processing."
+  ],
+  "technical_skills_groups": {
+    "AI & Automation": "AI Agents, LLM Integrations, Model Context Protocol (MCP), Playwright, n8n",
+    "Software Development": "Python, TypeScript, Node.js, React, Next.js, REST APIs, SQL",
+    "Tools & Delivery": "Git, GitHub, Docker, Postman, CI/CD, Linux CLI"
+  },
+  "forbidden_claims": [
+    "Kubernetes in production",
+    "Deep ML research"
+  ],
+  "canonical_employers": [
+    "Example Tech Co",
+    "Startup Inc"
+  ]
+}

@@ -1,9 +1,0 @@
-The skill folder shipped its own copy of Prabhavit_CV.pdf, and its bytes did NOT match
-the canonical CV (sha256 fe1e893f... vs e18579bb...). It was an older revision — the same
-stale-CV trap that Greenhouse autofill causes.
-
-It has been deleted from this bundle so there is exactly one CV in the whole folder:
-
-    ../../Prabhavit_CV.pdf      sha256 e18579bb9bcffee3db285bc699c354b357dd6efa8485ab0dac1544fcecceeb81
-
-That is the one to attach to every application. scripts/validate.py checks the hash.

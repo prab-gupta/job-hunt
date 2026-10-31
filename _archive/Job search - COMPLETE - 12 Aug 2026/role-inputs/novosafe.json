@@ -1,8 +1,0 @@
-{
-  "role": "GTM Automation & Growth Engineer",
-  "location": "Berlin / EU remote",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the GTM Automation & Growth Engineer role at Novosafe. Your posting names n8n, Python scripting, API integration and web scraping in the same paragraph, which is an unusually exact description of what I have actually been doing for the last three years. Most postings that say \"automation\" mean Zapier and a CRM field update. This one does not, and that is why I am applying.",
-  "role_specific": "On the GTM side specifically: at FlowSpace I built the lead capture and enrichment pipeline into the CRM, the outbound automations, and a scraping and parsing tool that increased the number of listings on the platform. The AI-based data parsing tool I built for UltraStrategy in n8n and Eden AI was a CV parser, but the shape of the problem is the same one GTM engineering has: take messy input from an external source, get it into structured fields, and make the downstream system act on it without a human in the middle. I have wired OpenAI and Anthropic APIs into that kind of loop in production, including handling the cases where the model returns something the next step cannot use.",
-  "closing": "I would be glad to walk through the FlowSpace lead pipeline and the UltraStrategy parser in detail if that would be useful."
-}

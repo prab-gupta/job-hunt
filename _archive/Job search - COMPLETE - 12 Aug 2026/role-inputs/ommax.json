@@ -1,8 +1,0 @@
-{
-  "role": "Forward Deployed AI Engineer (m/f/d)",
-  "location": "Milan / Munich / Berlin / Amsterdam / London / Paris",
-  "date": "12 August 2026",
-  "opening": "I am writing to apply for the Forward Deployed AI Engineer role at OMMAX. Sitting with client teams, translating a messy business problem into something that runs in production, and then staying with it through adoption and optimisation is the work I want and the work I have been doing. OMMAX linking strategy to actual implementation, rather than stopping at the recommendation, is the part that made me apply, and having Milan as one of your offices matters to me directly since I am based in Venice.",
-  "role_specific": "My daily engineering workflow revolves around the exact requirements outlined in your role: I utilize prompt chaining, RAG architectures, and advanced workflow orchestration tools (such as n8n) to connect external APIs with foundational models like OpenAI and Anthropic's Claude, in Python and TypeScript, with structured outputs and error handling because the alternative fails in front of a client. I have built and shipped modern web applications in Next.JS and React, and I have deployed to cloud environments. Two honest gaps: my orchestration has been through n8n and direct API work rather than LangChain, LangGraph or LlamaIndex specifically, and my degree is from Ca' Foscari rather than in Computer Science. I learn frameworks quickly, which is most of what the last three years have consisted of.",
-  "closing": "I would be glad to talk through how I would take one of your client problems from discovery to something deployed."
-}

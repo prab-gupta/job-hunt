@@ -1,5 +1,0 @@
-COMPANY: company
-ROLE: role
-LOCATION: location
-URL: url
-

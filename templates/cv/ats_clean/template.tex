@@ -1,0 +1,50 @@
+% ATS-Clean 2-Page CV Template
+% Compiles cleanly with tectonic to strictly 2 pages
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[top=1.6cm,bottom=1.8cm,left=1.9cm,right=1.9cm]{geometry}
+\usepackage{titlesec,enumitem,xcolor,graphicx,lastpage,fancyhdr}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!70!black,linkcolor=blue!70!black}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\color{gray}Page \thepage\ of \pageref{LastPage}}
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-0.7em}\rule{\textwidth}{0.5pt}]
+\titlespacing{\section}{0pt}{9pt}{5pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=2pt,topsep=2pt,parsep=0pt}
+\newcommand{\role}[4]{\vspace{3pt}\noindent\hspace{0.6em}\parbox[t]{0.38\textwidth}{\raggedright\textbf{#1}}\hfill\parbox[t]{0.58\textwidth}{\raggedleft\textit{#2}}\\{\textit{#3}\hfill\textit{#4}}\vspace{1pt}}
+\begin{document}
+\noindent
+\begin{minipage}[t]{0.98\textwidth}
+\vspace{0pt}
+{\huge\bfseries [CANDIDATE_NAME]}\\[8pt]
+{\small \faPhone\ [PHONE] \quad \faEnvelope\ \href{mailto:[EMAIL]}{[EMAIL]} \quad \faLinkedin\ \href{[LINKEDIN_URL]}{LinkedIn} \quad \faGithub\ \href{[GITHUB_URL]}{GitHub} \quad \faMapMarker*\ [LOCATION]}
+\end{minipage}
+
+\section{Career Summary}
+\begin{itemize}
+[CAREER_SUMMARY_BULLETS]
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}
+[TECHNICAL_SKILLS_ITEMS]
+\end{itemize}
+
+\section{Work Authorization \& Languages}
+\begin{itemize}
+\item \textbf{Work Authorization} -- [WORK_AUTHORIZATION]
+\item \textbf{Languages} -- [LANGUAGES]
+\end{itemize}
+
+\section{Professional Experience}
+[EXPERIENCE_ITEMS]
+
+\section{Education}
+[EDUCATION_ITEMS]
+
+\end{document}

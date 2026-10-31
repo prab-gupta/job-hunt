@@ -25,7 +25,7 @@ When using browser subagents via `mcp_chrome_devtools` to automate application p
    - Provide LinkedIn/GitHub URLs strictly with the `https://` prefix (e.g., `https://www.linkedin.com/in/...`).
    - Never leave required text-area fields blank.
    - Pause for CAPTCHAs ("I am human") and notify the user to resolve them before clicking Submit.
-3. **Existing Chrome Server Only (127.0.0.1:9222)**: Always attach strictly to the existing running Chrome instance at `127.0.0.1:9222` via Chrome DevTools MCP. Never launch a new Chrome process, open a new browser window, or spawn detached headless browser sessions.
+3. **Existing Chrome Server Only (CDP_URL / 127.0.0.1:9222)**: Always attach strictly to the existing running Chrome instance at configured `CDP_URL` (default `127.0.0.1:9222`) via Chrome DevTools MCP. Never launch a new Chrome process, open a new browser window, or spawn detached headless browser sessions.
 
 ## Parallel Generation and Robust Extraction
 When generating multiple CVs/Cover Letters for a batch of jobs:
@@ -44,5 +44,5 @@ Every single job application MUST follow this strict 4-step sequence (sole excep
 
 ## Automated Email Verification & Final Confirmation (Gmail MCP)
 The lazy-loaded Gmail MCP server (`ServerName: "gmail"`) is connected and must be used for email automation:
-1. **Verification & Security Codes**: When any job portal sends a security code or verification PIN to `prabhavitg@gmail.com`, **never prompt the user**. Immediately call `call_mcp_tool(ServerName="gmail", ToolName="list_messages", Arguments={"q": "security code OR verification code", "maxResults": 3})`, retrieve the snippet with `get_message`, parse the code, and enter it into the form.
+1. **Verification & Security Codes**: When any job portal sends a security code or verification PIN to the candidate email (`CANDIDATE_EMAIL` / `profile.json`), **never prompt the user**. Immediately call `call_mcp_tool(ServerName="gmail", ToolName="list_messages", Arguments={"q": "security code OR verification code", "maxResults": 3})`, retrieve the snippet with `get_message`, parse the code, and enter it into the form.
 2. **Mandatory Final Step (Confirmation Audit)**: For every submitted application, the **mandatory final step** before marking the role complete is checking Gmail MCP for the official confirmation email (e.g. `q: "<Company>"`), extracting confirmation timestamp/subject, and recording in `loop/applications.csv` and `data/csvs/applications.csv`.

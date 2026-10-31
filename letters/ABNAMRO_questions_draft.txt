@@ -1,7 +1,0 @@
-ABN AMRO says "No motivation letter" and requires answers to two questions. Drafts:
-
-Q1. Tell us about an AI product you built: what did you make, what was your role, and what did you learn when it hit production (or real users)?
-At FlowSpace I built, as Lead Developer, an AI listing pipeline in Python. It scrapes operator websites and source documents, uses the Claude and OpenAI APIs with structured outputs to extract listing data, and puts every record through a human review step before it is pushed to the platform through its API. It added 900+ listings to the platform. What I learned is to design the review step into the pipeline from the start: the model drafts the record, and a person decides what goes live, so extraction mistakes are caught before they reach users.
-
-Q2. What's the most interesting thing you've built or experimented with in AI in the last six months? Why does it matter to you?
-At FlowSpace, where my contract ran until August 2026, I built AI agents that handle customer support queries against live platform data, as part of a set of n8n and Make workflow automations that also covered lead routing and data sync. It matters to me because it is agentic work on live data rather than one-off extraction, and that is the kind of work I want to keep doing.
