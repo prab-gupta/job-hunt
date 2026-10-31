@@ -120,13 +120,28 @@ scripts/*.json
 scripts/apply_bots/
 scripts/parsers/
 scripts/generators/
+scripts/trackers/
+scripts/scrapers/
 scripts/round*
 scripts/harvest_*
 scripts/batch_search_*
-scripts/search_*
+scripts/search_batch_easy_apply.js
+scripts/search_eu_italy.py
+scripts/search_italy_fresh.py
 scripts/finish_nozomi.js
 scripts/test_*.js
 scripts/test_*.py
+scripts/check_*.js
+scripts/check_*.py
+scripts/fill_*.py
+scripts/inspect_*.py
+scripts/submit_*.py
+scripts/upload_*.py
+scripts/advance_*.py
+scripts/complete_*.py
+scripts/debug_*.py
+scripts/medtronic_*.py
+scripts/apply_medtronic.py
 
 # documents/ subfolder contents are personal — only README and folder structure are tracked
 documents/cv/**
